@@ -21,58 +21,57 @@
     }
 
     html { background: var(--bg); color: var(--text); font-family: var(--font); }
+    body { min-height: 100vh; max-width: 900px; margin: 0 auto; padding: 0 20px 60px; }
 
-    body {
-      min-height: 100vh;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 20px 60px;
-    }
-
-    /* ── Header ───────────────────────────────── */
+    /* ── Header ─────────────────────────────── */
     header {
       display: flex;
-      align-items: baseline;
+      align-items: center;
       gap: 16px;
       padding: 28px 0 20px;
       border-bottom: 1px solid var(--border);
       margin-bottom: 28px;
     }
-
-    .logo {
-      font-size: 20px;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      color: var(--text);
-    }
-
+    .logo { font-size: 20px; font-weight: 700; letter-spacing: -0.5px; }
     .logo span { color: var(--accent); }
+    .tagline { font-size: 13px; color: var(--muted); flex: 1; }
+    .updated { font-size: 12px; color: var(--muted); font-family: var(--mono); white-space: nowrap; }
 
-    .tagline {
-      font-size: 13px;
-      color: var(--muted);
-      flex: 1;
+    /* ── Language toggle ─────────────────────── */
+    .lang-toggle {
+      display: flex;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      flex-shrink: 0;
     }
-
-    .updated {
+    .lang-toggle button {
+      background: none;
+      border: none;
+      color: var(--muted);
       font-size: 12px;
-      color: var(--muted);
-      font-family: var(--mono);
-      white-space: nowrap;
+      font-family: var(--font);
+      padding: 5px 10px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-toggle button.active {
+      background: var(--accent);
+      color: #fff;
     }
 
-    /* ── Feed ─────────────────────────────────── */
+    /* ── Feed ────────────────────────────────── */
     .feed { display: flex; flex-direction: column; gap: 1px; }
 
-    /* ── Card ─────────────────────────────────── */
+    /* ── Card ────────────────────────────────── */
     article {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 20px 22px;
+      margin-bottom: 10px;
       transition: border-color 0.15s;
     }
-
     article:hover { border-color: #333340; }
 
     .card-top {
@@ -82,163 +81,45 @@
       gap: 16px;
       margin-bottom: 6px;
     }
+    .insight-title { font-size: 16px; font-weight: 600; line-height: 1.35; flex: 1; }
 
-    .insight-title {
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 1.35;
-      color: var(--text);
-      flex: 1;
-    }
-
-    /* probability badge */
-    .prob-badge {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 2px;
-      flex-shrink: 0;
-    }
-
-    .prob-value {
-      font-family: var(--mono);
-      font-size: 22px;
-      font-weight: 700;
-      line-height: 1;
-    }
-
-    .prob-change {
-      font-family: var(--mono);
-      font-size: 12px;
-      font-weight: 600;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-
-    .up   { color: var(--up);   }
+    .prob-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; }
+    .prob-value { font-family: var(--mono); font-size: 22px; font-weight: 700; line-height: 1; }
+    .prob-change { font-family: var(--mono); font-size: 12px; font-weight: 600; padding: 2px 6px; border-radius: 4px; }
+    .up   { color: var(--up); }
     .down { color: var(--down); }
-    .up-bg   { background: rgba(34,197,94,0.12);  color: var(--up);   }
+    .up-bg   { background: rgba(34,197,94,0.12);  color: var(--up); }
     .down-bg { background: rgba(239,68,68,0.12);  color: var(--down); }
 
-    .market-question {
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 14px;
-      font-style: italic;
-      line-height: 1.4;
-    }
+    .market-question { font-size: 12px; color: var(--muted); margin-bottom: 14px; font-style: italic; line-height: 1.4; }
+    .divider { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+    .summary { font-size: 14px; line-height: 1.65; color: #c8c8d0; margin-bottom: 14px; }
 
-    /* divider */
-    .divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 14px 0;
-    }
+    .drivers-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 6px; }
+    .drivers { list-style: none; display: flex; flex-direction: column; gap: 5px; margin-bottom: 14px; }
+    .drivers li { font-size: 13px; color: #b0b0bc; padding-left: 14px; position: relative; line-height: 1.5; }
+    .drivers li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-size: 11px; top: 2px; }
 
-    /* summary */
-    .summary {
-      font-size: 14px;
-      line-height: 1.65;
-      color: #c8c8d0;
-      margin-bottom: 14px;
-    }
+    .why { font-size: 13px; color: #9090a0; line-height: 1.55; padding: 10px 14px; background: rgba(124,106,247,0.06); border-left: 2px solid var(--accent); border-radius: 0 4px 4px 0; margin-bottom: 14px; }
 
-    /* drivers */
-    .drivers-label {
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .drivers {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      margin-bottom: 14px;
-    }
-
-    .drivers li {
-      font-size: 13px;
-      color: #b0b0bc;
-      padding-left: 14px;
-      position: relative;
-      line-height: 1.5;
-    }
-
-    .drivers li::before {
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: var(--accent);
-      font-size: 11px;
-      top: 2px;
-    }
-
-    /* why it matters */
-    .why {
-      font-size: 13px;
-      color: #9090a0;
-      line-height: 1.55;
-      padding: 10px 14px;
-      background: rgba(124,106,247,0.06);
-      border-left: 2px solid var(--accent);
-      border-radius: 0 4px 4px 0;
-      margin-bottom: 14px;
-    }
-
-    /* card footer */
-    .card-footer {
-      display: flex;
-      gap: 16px;
-      font-family: var(--mono);
-      font-size: 11px;
-      color: var(--muted);
-    }
-
-    .card-footer a {
-      color: var(--muted);
-      text-decoration: none;
-    }
-
+    .card-footer { display: flex; gap: 16px; font-family: var(--mono); font-size: 11px; color: var(--muted); flex-wrap: wrap; }
+    .card-footer a { color: var(--muted); text-decoration: none; }
     .card-footer a:hover { color: var(--accent); }
-    .sources { color: var(--muted); }
 
-    /* rank number */
-    .rank {
-      font-family: var(--mono);
-      font-size: 11px;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
+    .rank { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-bottom: 8px; }
 
-    /* ── Empty state ──────────────────────────── */
-    .empty {
-      text-align: center;
-      color: var(--muted);
-      padding: 80px 0;
-      font-size: 15px;
-    }
+    /* ── i18n visibility ─────────────────────── */
+    /* default: show EN, hide ZH */
+    [data-lang="zh"] { display: none; }
+    body.lang-zh [data-lang="zh"] { display: revert; }
+    body.lang-zh [data-lang="en"] { display: none; }
 
-    /* ── Footer ───────────────────────────────── */
-    footer {
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border);
-      font-size: 12px;
-      color: var(--muted);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
+    /* ── Empty / Footer ──────────────────────── */
+    .empty { text-align: center; color: var(--muted); padding: 80px 0; font-size: 15px; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
 
-    /* ── Responsive ───────────────────────────── */
     @media (max-width: 600px) {
       header { flex-wrap: wrap; gap: 8px; }
       .tagline { display: none; }
@@ -251,8 +132,15 @@
 
 <header>
   <div class="logo">Poly<span>Lens</span></div>
-  <div class="tagline">AI-powered prediction market intelligence</div>
+  <div class="tagline">
+    <span data-lang="en">AI-powered prediction market intelligence</span>
+    <span data-lang="zh">AI 驱动的预测市场洞察</span>
+  </div>
   <div class="updated">{{ data.generated_at_readable }}</div>
+  <div class="lang-toggle">
+    <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+    <button id="btn-zh" onclick="setLang('zh')">中文</button>
+  </div>
 </header>
 
 <main>
@@ -267,7 +155,10 @@
       <div class="rank">#{{ loop.index }} · Score {{ "{:,.0f}".format(m.score) }}</div>
 
       <div class="card-top">
-        <h2 class="insight-title">{{ ins.title }}</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">{{ ins.en.title }}</span>
+          <span data-lang="zh">{{ ins.zh.title }}</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value {{ 'up' if is_up else 'down' }}">
             {{ "%.0f"|format(m.probability * 100) }}%
@@ -279,30 +170,42 @@
       </div>
 
       <p class="market-question">{{ m.question }}</p>
-
       <hr class="divider" />
 
-      <p class="summary">{{ ins.summary }}</p>
+      <p class="summary">
+        <span data-lang="en">{{ ins.en.summary }}</span>
+        <span data-lang="zh">{{ ins.zh.summary }}</span>
+      </p>
 
-      {% if ins.drivers %}
-      <p class="drivers-label">Key Drivers</p>
+      {% if ins.en.drivers or ins.zh.drivers %}
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
-        {% for d in ins.drivers %}
-        <li>{{ d }}</li>
+        {% for d in ins.en.drivers %}
+        <li data-lang="en">{{ d }}</li>
+        {% endfor %}
+        {% for d in ins.zh.drivers %}
+        <li data-lang="zh">{{ d }}</li>
         {% endfor %}
       </ul>
       {% endif %}
 
-      {% if ins.why_matters %}
-      <div class="why">{{ ins.why_matters }}</div>
+      {% if ins.en.why_matters or ins.zh.why_matters %}
+      <div class="why">
+        <span data-lang="en">{{ ins.en.why_matters }}</span>
+        <span data-lang="zh">{{ ins.zh.why_matters }}</span>
+      </div>
       {% endif %}
 
       <div class="card-footer">
         <span>Vol 24h: ${{ "{:,.0f}".format(m.volume_24h) }}</span>
         <a href="{{ m.url }}" target="_blank" rel="noopener">Polymarket ↗</a>
         {% if item.news %}
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           {% for s in item.news[:3] %}
             <a href="{{ s.url }}" target="_blank" rel="noopener">{{ loop.index }}</a>{% if not loop.last %},{% endif %}
           {% endfor %}
@@ -314,14 +217,38 @@
     {% endfor %}
   </div>
   {% else %}
-  <div class="empty">No markets matched the filters. Check back soon.</div>
+  <div class="empty">
+    <span data-lang="en">No markets matched the filters. Check back soon.</span>
+    <span data-lang="zh">暂无符合筛选条件的市场，请稍后再来。</span>
+  </div>
   {% endif %}
 </main>
 
 <footer>
-  <span>Markets decide what matters. AI explains why.</span>
-  <span>Data: <a href="https://gamma-api.polymarket.com" target="_blank">Polymarket</a> · AI: Gemini</span>
+  <span>
+    <span data-lang="en">Markets decide what matters. AI explains why.</span>
+    <span data-lang="zh">市场决定重要性，AI 解释原因。</span>
+  </span>
+  <span>Data: <a href="https://gamma-api.polymarket.com" target="_blank">Polymarket</a> · AI: Gemini · Search: Tavily</span>
 </footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.toggle('lang-zh', lang === 'zh');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    localStorage.setItem('polylens-lang', lang);
+  }
+
+  // Auto-detect on load: localStorage > navigator.language
+  (function () {
+    const saved = localStorage.getItem('polylens-lang');
+    const browser = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    const lang = saved || (browser.startsWith('zh') ? 'zh' : 'en');
+    if (lang === 'zh') setLang('zh');
+  })();
+</script>
 
 </body>
 </html>

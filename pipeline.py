@@ -31,9 +31,9 @@ GEMINI_MODELS = ["models/gemini-2.5-flash", "models/gemini-2.0-flash", "models/g
 TOP_N = 10
 MIN_VOLUME = 5_000
 MIN_CHANGE = 0.02
-RATE_LIMIT_SLEEP = 2
+RATE_LIMIT_SLEEP = 20  # 20s gap → safe under free tier RPM
 FETCH_LIMIT = 500
-NEWS_PER_TOPIC = 6
+NEWS_PER_TOPIC = 5
 
 logging.basicConfig(
     level=logging.INFO,
@@ -130,7 +130,7 @@ def fetch_news(query: str, n: int = NEWS_PER_TOPIC) -> list[dict]:
             results.append({
                 "title": r.get("title", ""),
                 "url": r.get("url", ""),
-                "snippet": r.get("content", "")[:300],
+                "snippet": r.get("content", "")[:150],  # keep tokens lean
             })
         return results
     except Exception as exc:
@@ -175,7 +175,7 @@ def _call_gemini(prompt: str) -> str:
                 msg = str(exc)
                 if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
                     m_delay = re.search(r"retry[^0-9]*([0-9]+(?:\.[0-9]+)?)\s*s", msg, re.IGNORECASE)
-                    wait = min(float(m_delay.group(1)) + 1 if m_delay else 10 * (attempt + 1), 15)
+                    wait = float(m_delay.group(1)) + 2 if m_delay else 30 * (attempt + 1)
                     log.warning("429 on %s attempt %d, waiting %.0fs...", model, attempt + 1, wait)
                     time.sleep(wait)
                 else:
@@ -185,7 +185,7 @@ def _call_gemini(prompt: str) -> str:
 
 
 def generate_insight(market: dict, news: list[dict]) -> dict:
-    """Generate structured insight from market data + Tavily news results."""
+    """Generate bilingual (EN + ZH) structured insight from market data + Tavily news."""
     question = market["question"]
     prob = market["probability"]
     change = market["change_24h"]
@@ -193,9 +193,7 @@ def generate_insight(market: dict, news: list[dict]) -> dict:
     sign = "+" if change > 0 else ""
 
     if news:
-        news_block = "\n".join(
-            f"- {r['title']}: {r['snippet']}" for r in news
-        )
+        news_block = "\n".join(f"- {r['title']}: {r['snippet']}" for r in news)
     else:
         news_block = "No recent news found. Base your analysis on the market data and your knowledge."
 
@@ -209,35 +207,42 @@ RECENT HEADLINES:
 {news_block}
 
 TASK:
-Analyze the prediction market data and headlines above.
-Explain why the probability moved and what it means.
+Analyze the prediction market data and headlines. Explain why the probability moved.
+Produce output in BOTH English (en) and Simplified Chinese (zh).
 
 OUTPUT: Return ONLY a valid JSON object — no extra text, no markdown fences:
 {{
-  "title": "<8 words max, action-oriented>",
-  "summary": "<2 sentences: what happened + why probability moved, cite specific events>",
-  "drivers": [
-    "<concrete driver with evidence, <=15 words>",
-    "<concrete driver with evidence, <=15 words>",
-    "<concrete driver with evidence, <=15 words>"
-  ],
-  "why_matters": "<1-2 sentences on broader significance>"
+  "en": {{
+    "title": "<8 words max, action-oriented>",
+    "summary": "<2 sentences: what happened + why probability moved, cite specific events>",
+    "drivers": ["<concrete driver <=15 words>", "<concrete driver <=15 words>", "<concrete driver <=15 words>"],
+    "why_matters": "<1-2 sentences on broader significance>"
+  }},
+  "zh": {{
+    "title": "<8字以内，动作导向>",
+    "summary": "<2句话：发生了什么 + 为何概率变动，引用具体事件>",
+    "drivers": ["<具体驱动因素，15字以内>", "<具体驱动因素，15字以内>", "<具体驱动因素，15字以内>"],
+    "why_matters": "<1-2句话，说明更广泛的意义>"
+  }}
 }}
 
 RULES:
 - Be specific. Name events, people, data points.
 - Bad: "market sentiment improved". Good: "CPI fell to 2.4%, below 2.6% forecast".
-- 2-4 drivers only.
-- If headlines are sparse, still give your best analysis."""
+- 2-4 drivers only. Chinese must be natural, not literal translation."""
 
     try:
         raw_text = _call_gemini(prompt)
         raw = _extract_json(raw_text)
         insight = json.loads(raw)
-        for key in ("title", "summary", "drivers", "why_matters"):
-            insight.setdefault(key, "")
-        if not isinstance(insight["drivers"], list):
-            insight["drivers"] = [str(insight["drivers"])]
+        # Validate / backfill both language keys
+        for lang in ("en", "zh"):
+            insight.setdefault(lang, {})
+            for key in ("title", "summary", "why_matters"):
+                insight[lang].setdefault(key, "")
+            insight[lang].setdefault("drivers", [])
+            if not isinstance(insight[lang]["drivers"], list):
+                insight[lang]["drivers"] = [str(insight[lang]["drivers"])]
         return insight
     except json.JSONDecodeError as exc:
         log.warning("JSON parse error for '%s': %s", question[:50], exc)
@@ -247,12 +252,22 @@ RULES:
         return _fallback_insight(question, exc)
 
 
+
 def _fallback_insight(question: str, error: Exception) -> dict:
+    err = str(error)[:120]
     return {
-        "title": question[:70],
-        "summary": "Insight generation encountered an error. Raw market data shown.",
-        "drivers": [str(error)[:120]],
-        "why_matters": "Please check API keys and retry.",
+        "en": {
+            "title": question[:70],
+            "summary": "Insight generation encountered an error. Raw market data shown.",
+            "drivers": [err],
+            "why_matters": "Please check API keys and retry.",
+        },
+        "zh": {
+            "title": question[:70],
+            "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+            "drivers": [err],
+            "why_matters": "请检查 API 密钥后重试。",
+        },
     }
 
 
