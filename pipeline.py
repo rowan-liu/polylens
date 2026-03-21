@@ -34,13 +34,50 @@ OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 GEMINI_MODELS = ["models/gemini-2.5-flash", "models/gemini-2.0-flash", "models/gemini-2.0-flash-lite"]
-OPENAI_MODEL = "gpt-4o-mini"          # fast, cheap, reliable fallback
-TOP_N = 10
+OPENAI_MODEL = "gpt-4o-mini"
+TOP_N = 20               # fetch more so each category has content
 MIN_VOLUME = 5_000
 MIN_CHANGE = 0.02
-RATE_LIMIT_SLEEP = 20  # 20s gap → safe under free tier RPM
+RATE_LIMIT_SLEEP = 20
 FETCH_LIMIT = 500
 NEWS_PER_TOPIC = 5
+
+# Category definitions (order matters for keyword matching)
+CATEGORIES = ["politics", "ai_tech", "economy", "business", "world", "sports", "crypto"]
+
+_CAT_KEYWORDS: dict[str, list[str]] = {
+    "politics": ["election","president","senator","congress","parliament","prime minister",
+                 "republican","democrat","vote","ballot","campaign","governor","nomination",
+                 "white house","administration","impeach","cabinet","minister","chancellor"],
+    "ai_tech":  ["artificial intelligence"," ai ","gpt","openai","gemini","claude","llm",
+                 "machine learning","neural","robot","automation","tech ","software","apple",
+                 "google","microsoft","meta ","nvidia","chip","semiconductor"],
+    "economy":  ["fed ","federal reserve","rate cut","interest rate","inflation","gdp",
+                 "recession","employment","jobs","treasury","yield","tariff","trade war",
+                 "economic","economy","unemployment","cpi","pce"],
+    "business": ["acquisition","merger","ipo","ceo","startup","valuation","revenue",
+                 "earnings","stock","shares","billion","company","market cap","deal"],
+    "world":    ["war","conflict","peace","ceasefire","diplomatic","treaty","sanction",
+                 "nato","nuclear","missile","troops","invasion","ukraine","russia","israel",
+                 "china","taiwan","iran","middle east","un "],
+    "sports":   ["nba","nfl","fifa","world cup","championship","league","tournament",
+                 "olympics","player","team","game","season","title","win the"],
+    "crypto":   ["bitcoin","ethereum","crypto","blockchain","token","defi","btc","eth",
+                 "solana","binance","nft","web3","stablecoin"],
+}
+
+
+def classify_category(question: str, llm_category: str | None = None) -> str:
+    """Return a category slug. Use LLM hint first, fall back to keyword matching."""
+    valid = set(CATEGORIES)
+    if llm_category and llm_category in valid:
+        return llm_category
+
+    q = question.lower()
+    for cat, keywords in _CAT_KEYWORDS.items():
+        if any(kw in q for kw in keywords):
+            return cat
+    return "other"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -238,6 +275,7 @@ Produce output in BOTH English (en) and Simplified Chinese (zh).
 
 OUTPUT: Return ONLY a valid JSON object — no extra text, no markdown fences:
 {{
+  "category": "politics|ai_tech|economy|business|world|sports|crypto|other",
   "en": {{
     "title": "<8 words max, action-oriented>",
     "summary": "<2 sentences: what happened + why probability moved, cite specific events>",
@@ -255,7 +293,8 @@ OUTPUT: Return ONLY a valid JSON object — no extra text, no markdown fences:
 RULES:
 - Be specific. Name events, people, data points.
 - Bad: "market sentiment improved". Good: "CPI fell to 2.4%, below 2.6% forecast".
-- 2-4 drivers only. Chinese must be natural, not literal translation."""
+- 2-4 drivers only. Chinese must be natural, not literal translation.
+- category must be exactly one of: politics, ai_tech, economy, business, world, sports, crypto, other."""
 
     try:
         raw_text = _call_llm(prompt)
@@ -269,6 +308,10 @@ RULES:
             insight[lang].setdefault("drivers", [])
             if not isinstance(insight[lang]["drivers"], list):
                 insight[lang]["drivers"] = [str(insight[lang]["drivers"])]
+        # Resolve category
+        insight["category"] = classify_category(
+            market["question"], insight.get("category")
+        )
         return insight
     except json.JSONDecodeError as exc:
         log.warning("JSON parse error for '%s': %s", question[:50], exc)
@@ -282,6 +325,7 @@ RULES:
 def _fallback_insight(question: str, error: Exception) -> dict:
     err = str(error)[:120]
     return {
+        "category": classify_category(question),
         "en": {
             "title": question[:70],
             "summary": "Insight generation encountered an error. Raw market data shown.",
@@ -508,3 +552,7 @@ def send_newsletter(data: dict) -> None:
         return
 
     log.info("Newsletter sent to %d subscribers.", len(contacts))
+
+
+if __name__ == "__main__":
+    run_pipeline()

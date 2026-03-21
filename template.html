@@ -69,11 +69,11 @@
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 20px 22px;
-      margin-bottom: 10px;
       transition: border-color 0.15s;
     }
     article:hover { border-color: #333340; }
-
+    .feed-item { display: block; margin-bottom: 10px; }
+    .feed-item.hidden { display: none; }
     .card-top {
       display: flex;
       align-items: flex-start;
@@ -114,8 +114,37 @@
     body.lang-zh [data-lang="zh"] { display: revert; }
     body.lang-zh [data-lang="en"] { display: none; }
 
+    /* ── Category tabs ───────────────────────── */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .tab {
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: none;
+      color: var(--muted);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .tab:hover { color: var(--text); border-color: #444; }
+    .tab.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .feed-item { display: block; margin-bottom: 10px; }
+    .feed-item.hidden { display: none; }
+
     /* ── Empty / Footer ──────────────────────── */
     .empty { text-align: center; color: var(--muted); padding: 80px 0; font-size: 15px; }
+    .no-results { display: none; text-align: center; color: var(--muted); padding: 40px 0; font-size: 14px; }
     footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
@@ -201,11 +230,39 @@
 
 <main>
   {% if data.topics %}
-  <div class="feed">
+
+  <!-- Category tabs -->
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-cat="all" onclick="setTab(this)">
+      <span data-lang="en">🔥 Hot</span><span data-lang="zh">🔥 热门</span>
+    </button>
+    <button class="tab" data-cat="politics" onclick="setTab(this)">
+      <span data-lang="en">🗳️ Politics</span><span data-lang="zh">🗳️ 政治</span>
+    </button>
+    <button class="tab" data-cat="ai_tech" onclick="setTab(this)">
+      <span data-lang="en">🤖 AI & Tech</span><span data-lang="zh">🤖 AI 科技</span>
+    </button>
+    <button class="tab" data-cat="economy" onclick="setTab(this)">
+      <span data-lang="en">📈 Economy</span><span data-lang="zh">📈 经济</span>
+    </button>
+    <button class="tab" data-cat="business" onclick="setTab(this)">
+      <span data-lang="en">💼 Business</span><span data-lang="zh">💼 商业</span>
+    </button>
+    <button class="tab" data-cat="world" onclick="setTab(this)">
+      <span data-lang="en">🌍 World</span><span data-lang="zh">🌍 国际</span>
+    </button>
+    <button class="tab" data-cat="sports" onclick="setTab(this)">
+      <span data-lang="en">⚽ Sports</span><span data-lang="zh">⚽ 体育</span>
+    </button>
+    <button class="tab" data-cat="crypto" onclick="setTab(this)">₿ Crypto</button>
+  </div>
+
+  <div class="feed" id="feed">
     {% for item in data.topics %}
     {%- set m = item.market -%}
     {%- set ins = item.insight -%}
     {%- set is_up = m.change_24h > 0 -%}
+    <div class="feed-item" data-category="{{ ins.category }}">
     <article>
 
       <div class="rank">#{{ loop.index }} · Score {{ "{:,.0f}".format(m.score) }}</div>
@@ -270,7 +327,12 @@
       </div>
 
     </article>
+    </div><!-- /feed-item -->
     {% endfor %}
+  </div><!-- /feed -->
+  <div class="no-results" id="no-results">
+    <span data-lang="en">No markets in this category yet.</span>
+    <span data-lang="zh">此分类暂无市场数据。</span>
   </div>
   {% else %}
   <div class="empty">
@@ -317,12 +379,34 @@
     localStorage.setItem('polylens-lang', lang);
   }
 
+  function setTab(btn) {
+    const cat = btn.dataset.cat;
+    // Update tab buttons
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    localStorage.setItem('polylens-tab', cat);
+    // Filter cards
+    let visible = 0;
+    document.querySelectorAll('.feed-item').forEach(el => {
+      const match = cat === 'all' || el.dataset.category === cat;
+      el.classList.toggle('hidden', !match);
+      if (match) visible++;
+    });
+    const noRes = document.getElementById('no-results');
+    if (noRes) noRes.style.display = visible === 0 ? 'block' : 'none';
+  }
+
   // Auto-detect on load: localStorage > navigator.language
   (function () {
     const saved = localStorage.getItem('polylens-lang');
     const browser = (navigator.language || navigator.userLanguage || '').toLowerCase();
     const lang = saved || (browser.startsWith('zh') ? 'zh' : 'en');
     if (lang === 'zh') setLang('zh');
+
+    // Restore active tab
+    const savedTab = localStorage.getItem('polylens-tab') || 'all';
+    const tabBtn = document.querySelector(`.tab[data-cat="${savedTab}"]`);
+    if (tabBtn && savedTab !== 'all') setTab(tabBtn);
   })();
 
   // Subscribe form
