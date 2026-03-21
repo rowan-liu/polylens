@@ -21,58 +21,57 @@
     }
 
     html { background: var(--bg); color: var(--text); font-family: var(--font); }
+    body { min-height: 100vh; max-width: 900px; margin: 0 auto; padding: 0 20px 60px; }
 
-    body {
-      min-height: 100vh;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 20px 60px;
-    }
-
-    /* ── Header ───────────────────────────────── */
+    /* ── Header ─────────────────────────────── */
     header {
       display: flex;
-      align-items: baseline;
+      align-items: center;
       gap: 16px;
       padding: 28px 0 20px;
       border-bottom: 1px solid var(--border);
       margin-bottom: 28px;
     }
-
-    .logo {
-      font-size: 20px;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      color: var(--text);
-    }
-
+    .logo { font-size: 20px; font-weight: 700; letter-spacing: -0.5px; }
     .logo span { color: var(--accent); }
+    .tagline { font-size: 13px; color: var(--muted); flex: 1; }
+    .updated { font-size: 12px; color: var(--muted); font-family: var(--mono); white-space: nowrap; }
 
-    .tagline {
-      font-size: 13px;
-      color: var(--muted);
-      flex: 1;
+    /* ── Language toggle ─────────────────────── */
+    .lang-toggle {
+      display: flex;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      flex-shrink: 0;
     }
-
-    .updated {
+    .lang-toggle button {
+      background: none;
+      border: none;
+      color: var(--muted);
       font-size: 12px;
-      color: var(--muted);
-      font-family: var(--mono);
-      white-space: nowrap;
+      font-family: var(--font);
+      padding: 5px 10px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-toggle button.active {
+      background: var(--accent);
+      color: #fff;
     }
 
-    /* ── Feed ─────────────────────────────────── */
+    /* ── Feed ────────────────────────────────── */
     .feed { display: flex; flex-direction: column; gap: 1px; }
 
-    /* ── Card ─────────────────────────────────── */
+    /* ── Card ────────────────────────────────── */
     article {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 20px 22px;
+      margin-bottom: 10px;
       transition: border-color 0.15s;
     }
-
     article:hover { border-color: #333340; }
 
     .card-top {
@@ -82,163 +81,45 @@
       gap: 16px;
       margin-bottom: 6px;
     }
+    .insight-title { font-size: 16px; font-weight: 600; line-height: 1.35; flex: 1; }
 
-    .insight-title {
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 1.35;
-      color: var(--text);
-      flex: 1;
-    }
-
-    /* probability badge */
-    .prob-badge {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 2px;
-      flex-shrink: 0;
-    }
-
-    .prob-value {
-      font-family: var(--mono);
-      font-size: 22px;
-      font-weight: 700;
-      line-height: 1;
-    }
-
-    .prob-change {
-      font-family: var(--mono);
-      font-size: 12px;
-      font-weight: 600;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-
-    .up   { color: var(--up);   }
+    .prob-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; }
+    .prob-value { font-family: var(--mono); font-size: 22px; font-weight: 700; line-height: 1; }
+    .prob-change { font-family: var(--mono); font-size: 12px; font-weight: 600; padding: 2px 6px; border-radius: 4px; }
+    .up   { color: var(--up); }
     .down { color: var(--down); }
-    .up-bg   { background: rgba(34,197,94,0.12);  color: var(--up);   }
+    .up-bg   { background: rgba(34,197,94,0.12);  color: var(--up); }
     .down-bg { background: rgba(239,68,68,0.12);  color: var(--down); }
 
-    .market-question {
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 14px;
-      font-style: italic;
-      line-height: 1.4;
-    }
+    .market-question { font-size: 12px; color: var(--muted); margin-bottom: 14px; font-style: italic; line-height: 1.4; }
+    .divider { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+    .summary { font-size: 14px; line-height: 1.65; color: #c8c8d0; margin-bottom: 14px; }
 
-    /* divider */
-    .divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 14px 0;
-    }
+    .drivers-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 6px; }
+    .drivers { list-style: none; display: flex; flex-direction: column; gap: 5px; margin-bottom: 14px; }
+    .drivers li { font-size: 13px; color: #b0b0bc; padding-left: 14px; position: relative; line-height: 1.5; }
+    .drivers li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-size: 11px; top: 2px; }
 
-    /* summary */
-    .summary {
-      font-size: 14px;
-      line-height: 1.65;
-      color: #c8c8d0;
-      margin-bottom: 14px;
-    }
+    .why { font-size: 13px; color: #9090a0; line-height: 1.55; padding: 10px 14px; background: rgba(124,106,247,0.06); border-left: 2px solid var(--accent); border-radius: 0 4px 4px 0; margin-bottom: 14px; }
 
-    /* drivers */
-    .drivers-label {
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .drivers {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      margin-bottom: 14px;
-    }
-
-    .drivers li {
-      font-size: 13px;
-      color: #b0b0bc;
-      padding-left: 14px;
-      position: relative;
-      line-height: 1.5;
-    }
-
-    .drivers li::before {
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: var(--accent);
-      font-size: 11px;
-      top: 2px;
-    }
-
-    /* why it matters */
-    .why {
-      font-size: 13px;
-      color: #9090a0;
-      line-height: 1.55;
-      padding: 10px 14px;
-      background: rgba(124,106,247,0.06);
-      border-left: 2px solid var(--accent);
-      border-radius: 0 4px 4px 0;
-      margin-bottom: 14px;
-    }
-
-    /* card footer */
-    .card-footer {
-      display: flex;
-      gap: 16px;
-      font-family: var(--mono);
-      font-size: 11px;
-      color: var(--muted);
-    }
-
-    .card-footer a {
-      color: var(--muted);
-      text-decoration: none;
-    }
-
+    .card-footer { display: flex; gap: 16px; font-family: var(--mono); font-size: 11px; color: var(--muted); flex-wrap: wrap; }
+    .card-footer a { color: var(--muted); text-decoration: none; }
     .card-footer a:hover { color: var(--accent); }
-    .sources { color: var(--muted); }
 
-    /* rank number */
-    .rank {
-      font-family: var(--mono);
-      font-size: 11px;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
+    .rank { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-bottom: 8px; }
 
-    /* ── Empty state ──────────────────────────── */
-    .empty {
-      text-align: center;
-      color: var(--muted);
-      padding: 80px 0;
-      font-size: 15px;
-    }
+    /* ── i18n visibility ─────────────────────── */
+    /* default: show EN, hide ZH */
+    [data-lang="zh"] { display: none; }
+    body.lang-zh [data-lang="zh"] { display: revert; }
+    body.lang-zh [data-lang="en"] { display: none; }
 
-    /* ── Footer ───────────────────────────────── */
-    footer {
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border);
-      font-size: 12px;
-      color: var(--muted);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
+    /* ── Empty / Footer ──────────────────────── */
+    .empty { text-align: center; color: var(--muted); padding: 80px 0; font-size: 15px; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
 
-    /* ── Responsive ───────────────────────────── */
     @media (max-width: 600px) {
       header { flex-wrap: wrap; gap: 8px; }
       .tagline { display: none; }
@@ -251,8 +132,15 @@
 
 <header>
   <div class="logo">Poly<span>Lens</span></div>
-  <div class="tagline">AI-powered prediction market intelligence</div>
-  <div class="updated">Mar 21, 2026 06:32 UTC</div>
+  <div class="tagline">
+    <span data-lang="en">AI-powered prediction market intelligence</span>
+    <span data-lang="zh">AI 驱动的预测市场洞察</span>
+  </div>
+  <div class="updated">Mar 21, 2026 07:10 UTC</div>
+  <div class="lang-toggle">
+    <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+    <button id="btn-zh" onclick="setLang('zh')">中文</button>
+  </div>
 </header>
 
 <main>
@@ -263,7 +151,10 @@
       <div class="rank">#1 · Score 1,754</div>
 
       <div class="card-top">
-        <h2 class="insight-title">Netanyahu's Grip Strengthens</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">Netanyahu's Tenure Prospects Improve</span>
+          <span data-lang="zh">内塔尼亚胡任期前景改善</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value down">
             48%
@@ -275,34 +166,50 @@
       </div>
 
       <p class="market-question">Netanyahu out by end of 2026?</p>
-
       <hr class="divider" />
 
-      <p class="summary">The probability of Netanyahu being out by end of 2026 fell by 5.5% to 48%, indicating increased market confidence in his continued leadership. This shift is primarily driven by the ongoing Iran war, which analysts suggest could solidify his political position, and the return of key trusted aides.</p>
+      <p class="summary">
+        <span data-lang="en">The prediction market for Netanyahu being out by end of 2026 saw its probability fall by 5.5% to 48%, indicating increased market confidence in his continued leadership. This shift is primarily driven by the return of trusted aides Ron Dermer and Yonatan Urich, alongside the perception that a potential Iran conflict could politically benefit him.</span>
+        <span data-lang="zh">预测市场中内塔尼亚胡在2026年底前下台的概率下降5.5%至48%，表明市场对其继续执政的信心增强。这一变化主要源于其亲信幕僚罗恩·德默和约纳坦·乌里希的回归，以及伊朗冲突可能巩固其政治地位的预期。</span>
+      </p>
 
       
-      <p class="drivers-label">Key Drivers</p>
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
         
-        <li>Iran war benefits: Al Jazeera highlights war could "solve five problems" for Netanyahu.</li>
+        <li data-lang="en">Trusted aides Ron Dermer, Yonatan Urich return.</li>
         
-        <li>Trusted aides return: Haaretz reports "experienced hands back on the wheel" with aides' return.</li>
+        <li data-lang="en">Potential Iran conflict could politically benefit Netanyahu.</li>
         
-        <li>Active wartime leadership: Netanyahu leads press conferences amid Iran missile attacks, projecting control.</li>
+        <li data-lang="en">Netanyahu consolidating internal support.</li>
+        
+        
+        <li data-lang="zh">亲信幕僚德默、乌里希回归。</li>
+        
+        <li data-lang="zh">伊朗冲突或助内塔尼亚胡巩固地位。</li>
+        
+        <li data-lang="zh">内塔尼亚胡巩固内部支持。</li>
         
       </ul>
       
 
       
-      <div class="why">Netanyahu's perceived stability during wartime suggests a prolonged conflict could entrench his power. This impacts regional stability and Israel's long-term political direction.</div>
+      <div class="why">
+        <span data-lang="en">This market movement reflects evolving political stability in Israel, with implications for regional policy and the ongoing conflict. Netanyahu's perceived resilience impacts both domestic governance and international relations.</span>
+        <span data-lang="zh">这一市场变动反映了以色列政治稳定性的演变，对地区政策和当前冲突具有影响。内塔尼亚胡的韧性被认为会影响国内治理和国际关系。</span>
+      </div>
       
 
       <div class="card-footer">
         <span>Vol 24h: $31,894</span>
         <a href="https://polymarket.com/event/netanyahu-out-before-2027-684-719-226" target="_blank" rel="noopener">Polymarket ↗</a>
         
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           
             <a href="https://www.haaretz.com/israel-news/israel-politics/2026-03-20/ty-article/.premium/netanyahu-breathes-a-sigh-of-relief-as-most-trusted-aides-return-to-work/0000019d-07f5-df92-a9df-eff5e5650000" target="_blank" rel="noopener">1</a>,
           
@@ -317,10 +224,13 @@
     </article>
     <article>
 
-      <div class="rank">#2 · Score 1,115</div>
+      <div class="rank">#2 · Score 1,277</div>
 
       <div class="card-top">
-        <h2 class="insight-title">Will the next Prime Minister of Hungary be Péter Magyar?</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">Orbán's EU Standoff Boosts Magyar's PM Chances</span>
+          <span data-lang="zh">欧尔班欧盟僵局推升马扎尔总理概率</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value up">
             62%
@@ -332,30 +242,50 @@
       </div>
 
       <p class="market-question">Will the next Prime Minister of Hungary be Péter Magyar?</p>
-
       <hr class="divider" />
 
-      <p class="summary">Insight generation encountered an error. Raw market data shown.</p>
+      <p class="summary">
+        <span data-lang="en">Péter Magyar's probability as Hungary's next PM rose 2.0% to 62% as Viktor Orbán faced intense EU criticism. Orbán's veto of a Ukraine loan and accusations of "playing election games" likely fueled perceptions of his weakening political standing.</span>
+        <span data-lang="zh">佩特·马扎尔成为匈牙利下任总理的概率上升2.0%至62%，因维克托·欧尔班面临欧盟强烈批评。欧尔班否决乌克兰贷款并被指控“玩弄选举游戏”，可能削弱了其政治地位。</span>
+      </p>
 
       
-      <p class="drivers-label">Key Drivers</p>
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
         
-        <li>429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and </li>
+        <li data-lang="en">Orbán's Ukraine loan veto</li>
+        
+        <li data-lang="en">EU leaders blast Orbán</li>
+        
+        <li data-lang="en">Accusations of "election games"</li>
+        
+        
+        <li data-lang="zh">欧尔班否决乌克兰贷款</li>
+        
+        <li data-lang="zh">欧盟领导人抨击欧尔班</li>
+        
+        <li data-lang="zh">被指控“玩弄选举游戏”</li>
         
       </ul>
       
 
       
-      <div class="why">Please check API keys and retry.</div>
+      <div class="why">
+        <span data-lang="en">This shift indicates growing market belief that Orbán's confrontational EU stance could open a path for opposition figures. It highlights the potential domestic political cost of Hungary's foreign policy decisions.</span>
+        <span data-lang="zh">这一变化表明市场认为欧尔班与欧盟的对抗立场可能为反对派人物创造机会。它凸显了匈牙利外交政策决策潜在的国内政治代价。</span>
+      </div>
       
 
       <div class="card-footer">
-        <span>Vol 24h: $55,767</span>
+        <span>Vol 24h: $63,844</span>
         <a href="https://polymarket.com/event/will-the-next-prime-minister-of-hungary-be-pter-magyar" target="_blank" rel="noopener">Polymarket ↗</a>
         
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           
             <a href="https://apnews.com/article/europe-hungary-ukraine-loan-elections-summit-1084eb91a739889f5bde50ebd2cf3bc1" target="_blank" rel="noopener">1</a>,
           
@@ -370,10 +300,13 @@
     </article>
     <article>
 
-      <div class="rank">#3 · Score 912</div>
+      <div class="rank">#3 · Score 829</div>
 
       <div class="card-top">
-        <h2 class="insight-title">Rubio's Profile Rises Amidst Security Concerns</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">Rubio's Profile Rises Amid Security News</span>
+          <span data-lang="zh">鲁比奥安全新闻中受关注</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value up">
             28%
@@ -385,34 +318,50 @@
       </div>
 
       <p class="market-question">Will Marco Rubio win the 2028 Republican presidential nomination?</p>
-
       <hr class="divider" />
 
-      <p class="summary">Marco Rubio's 2028 Republican nomination probability rose 2.4% to 28%. This increase is attributed to recent headlines detailing drone incidents over the base where he lives, elevating his public profile and associating him with national security issues.</p>
+      <p class="summary">
+        <span data-lang="en">Marco Rubio's 2028 Republican nomination probability rose by 2.4% to 28%. This increase is primarily driven by recent news highlighting his presence and involvement in national security concerns, specifically "Drones over base where Rubio, Hegseth live raise security concerns."</span>
+        <span data-lang="zh">马可·鲁比奥2028年共和党总统提名概率上升2.4%至28%。这一增长主要源于近期关于他与国家安全相关的报道，特别是“鲁比奥、赫格塞斯居住基地上空无人机引发安全担忧”的事件。</span>
+      </p>
 
       
-      <p class="drivers-label">Key Drivers</p>
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
         
-        <li>Rubio named in WaPo/CNN reports regarding drone security incident.</li>
+        <li data-lang="en">Rubio gains visibility from security incident.</li>
         
-        <li>Increased public visibility from national security event coverage.</li>
+        <li data-lang="en">Association with national security issues.</li>
         
-        <li>Association with security concerns potentially boosts leadership image.</li>
+        <li data-lang="en">Increased media presence for Rubio.</li>
+        
+        
+        <li data-lang="zh">鲁比奥因安全事件获得关注。</li>
+        
+        <li data-lang="zh">与国家安全议题相关联。</li>
+        
+        <li data-lang="zh">鲁比奥媒体曝光度增加。</li>
         
       </ul>
       
 
       
-      <div class="why">This indicates that even indirect media exposure related to serious national events can influence a candidate's perceived viability in early prediction markets. It highlights the importance of sustained public presence, even when not directly campaigning.</div>
+      <div class="why">
+        <span data-lang="en">Increased visibility, especially concerning national security, can subtly enhance a candidate's perceived relevance and presidential stature, influencing early market sentiment for future nominations.</span>
+        <span data-lang="zh">提高知名度，尤其是在国家安全领域，能微妙地提升候选人的相关性和总统形象，影响早期市场对未来提名的看法。</span>
+      </div>
       
 
       <div class="card-footer">
-        <span>Vol 24h: $38,827</span>
+        <span>Vol 24h: $35,288</span>
         <a href="https://polymarket.com/event/will-marco-rubio-win-the-2028-republican-presidential-nomination" target="_blank" rel="noopener">Polymarket ↗</a>
         
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           
             <a href="https://www.newsweek.com/new-poll-shows-top-2028-democratic-presidential-candidates-11706406" target="_blank" rel="noopener">1</a>,
           
@@ -430,7 +379,10 @@
       <div class="rank">#4 · Score 536</div>
 
       <div class="card-top">
-        <h2 class="insight-title">Will Juan Daniel Oviedo win the 2026 Colombian presidential election?</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">Oviedo's Odds Rise Amid Petro Probe</span>
+          <span data-lang="zh">佩特罗受查，奥维多胜率升</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value up">
             0%
@@ -442,36 +394,56 @@
       </div>
 
       <p class="market-question">Will Juan Daniel Oviedo win the 2026 Colombian presidential election?</p>
-
       <hr class="divider" />
 
-      <p class="summary">Insight generation encountered an error. Raw market data shown.</p>
+      <p class="summary">
+        <span data-lang="en">Juan Daniel Oviedo's 2026 presidential election probability rose 2.2% to 2.2%. This increase follows multiple reports of U.S. prosecutors investigating current President Gustavo Petro for alleged drug ties and campaign finance irregularities.</span>
+        <span data-lang="zh">胡安·丹尼尔·奥维多赢得2026年哥伦比亚总统选举的概率上升了2.2%至2.2%。此次上涨是由于美国检察官正在调查现任总统古斯塔沃·佩特罗涉嫌毒品关系和竞选资金违规的报道。</span>
+      </p>
 
       
-      <p class="drivers-label">Key Drivers</p>
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
         
-        <li>429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and </li>
+        <li data-lang="en">US probes President Petro for drug ties.</li>
+        
+        <li data-lang="en">Petro's alleged campaign finance irregularities.</li>
+        
+        <li data-lang="en">Weakening incumbent administration's position.</li>
+        
+        
+        <li data-lang="zh">美国调查佩特罗总统毒品关系。</li>
+        
+        <li data-lang="zh">佩特罗涉嫌竞选资金违规。</li>
+        
+        <li data-lang="zh">执政政府地位可能被削弱。</li>
         
       </ul>
       
 
       
-      <div class="why">Please check API keys and retry.</div>
+      <div class="why">
+        <span data-lang="en">Investigations into a sitting president can destabilize the political landscape, potentially shifting voter sentiment and opening pathways for opposition candidates in future elections.</span>
+        <span data-lang="zh">对在任总统的调查可能动摇政治局势，潜在地改变选民情绪，并为未来选举中的反对派候选人开辟道路。</span>
+      </div>
       
 
       <div class="card-footer">
-        <span>Vol 24h: $24,373</span>
+        <span>Vol 24h: $24,374</span>
         <a href="https://polymarket.com/event/will-juan-daniel-oviedo-win-the-2026-colombian-presidential-election" target="_blank" rel="noopener">Polymarket ↗</a>
         
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           
             <a href="https://www.aljazeera.com/news/2026/3/20/colombias-president-gustavo-petro-under-investigation-in-us-for-drug-ties" target="_blank" rel="noopener">1</a>,
           
-            <a href="https://nypost.com/2026/03/20/world-news/us-prosecutors-investigate-colombian-president-petros-alleged-ties-to-drug-traffickers-sources-say/" target="_blank" rel="noopener">2</a>,
+            <a href="https://www.nytimes.com/2026/03/20/nyregion/colombia-president-petro-investigation-drugs.html" target="_blank" rel="noopener">2</a>,
           
-            <a href="https://www.nytimes.com/2026/03/20/nyregion/colombia-president-petro-investigation-drugs.html" target="_blank" rel="noopener">3</a>
+            <a href="https://nypost.com/2026/03/20/world-news/us-prosecutors-investigate-colombian-president-petros-alleged-ties-to-drug-traffickers-sources-say/" target="_blank" rel="noopener">3</a>
           
         </span>
         
@@ -480,10 +452,13 @@
     </article>
     <article>
 
-      <div class="rank">#5 · Score 423</div>
+      <div class="rank">#5 · Score 390</div>
 
       <div class="card-top">
-        <h2 class="insight-title">Will Paloma Valencia win the 2026 Colombian presidential election?</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">Valencia's Odds Dip Amid Petro Scandal</span>
+          <span data-lang="zh">瓦伦西亚胜率下降，佩特罗深陷丑闻</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value down">
             39%
@@ -495,30 +470,50 @@
       </div>
 
       <p class="market-question">Will Paloma Valencia win the 2026 Colombian presidential election?</p>
-
       <hr class="divider" />
 
-      <p class="summary">Insight generation encountered an error. Raw market data shown.</p>
+      <p class="summary">
+        <span data-lang="en">Paloma Valencia's probability of winning the 2026 Colombian presidential election fell 3.5% to 39% following reports of a U.S. investigation into President Gustavo Petro for alleged drug ties and campaign finance irregularities. This decline suggests the market perceives increased political uncertainty and a potentially broader field of beneficiaries from Petro's troubles, rather than a direct boost for Valencia.</span>
+        <span data-lang="zh">在美国调查哥伦比亚总统古斯塔沃·佩特罗涉嫌毒品关系和竞选资金违规的消息传出后，帕洛玛·瓦伦西亚赢得2026年哥伦比亚总统选举的概率下降3.5%至39%。这一下降表明市场认为政治不确定性增加，且佩特罗的困境可能惠及更广泛的反对派，而非直接利好瓦伦西亚。</span>
+      </p>
 
       
-      <p class="drivers-label">Key Drivers</p>
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
         
-        <li>429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and </li>
+        <li data-lang="en">US probes President Petro for drug ties</li>
+        
+        <li data-lang="en">Increased Colombian political instability</li>
+        
+        <li data-lang="en">Uncertainty over specific opposition gains</li>
+        
+        
+        <li data-lang="zh">美国调查佩特罗总统毒品关系</li>
+        
+        <li data-lang="zh">哥伦比亚政治不稳定性加剧</li>
+        
+        <li data-lang="zh">反对派受益者不确定性</li>
         
       </ul>
       
 
       
-      <div class="why">Please check API keys and retry.</div>
+      <div class="why">
+        <span data-lang="en">The investigation into a sitting president could profoundly alter Colombia's 2026 election dynamics, affecting political stability and international perceptions.</span>
+        <span data-lang="zh">对在任总统的调查可能深刻改变2026年哥伦比亚总统选举格局，影响国家政治稳定和国际形象。</span>
+      </div>
       
 
       <div class="card-footer">
-        <span>Vol 24h: $11,909</span>
+        <span>Vol 24h: $10,991</span>
         <a href="https://polymarket.com/event/will-paloma-valencia-win-the-2026-colombian-presidential-election" target="_blank" rel="noopener">Polymarket ↗</a>
         
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           
             <a href="https://www.aljazeera.com/news/2026/3/20/colombias-president-gustavo-petro-under-investigation-in-us-for-drug-ties" target="_blank" rel="noopener">1</a>,
           
@@ -536,7 +531,10 @@
       <div class="rank">#6 · Score 379</div>
 
       <div class="card-top">
-        <h2 class="insight-title">Will John Cornyn win the 2026 Texas Republican Primary?</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">Poll Skepticism Boosts Cornyn's Primary Odds</span>
+          <span data-lang="zh">质疑民调提振科宁初选胜率</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value up">
             55%
@@ -548,30 +546,50 @@
       </div>
 
       <p class="market-question">Will John Cornyn win the 2026 Texas Republican Primary?</p>
-
       <hr class="divider" />
 
-      <p class="summary">Insight generation encountered an error. Raw market data shown.</p>
+      <p class="summary">
+        <span data-lang="en">John Cornyn's probability of winning the 2026 Texas Republican Primary rose by 2% to 55%. This increase likely stems from market participants discounting a recent Newsweek poll showing Ken Paxton ahead, given widespread skepticism about "political polling limitations" in Texas highlighted by the Houston Chronicle.</span>
+        <span data-lang="zh">约翰·科宁赢得2026年德州共和党初选的概率上升2%至55%。这一增长可能源于市场参与者对近期《新闻周刊》显示肯·帕克斯顿领先的民调持怀疑态度，尤其考虑到《休斯顿纪事报》强调的德州“政治民调局限性”。</span>
+      </p>
 
       
-      <p class="drivers-label">Key Drivers</p>
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
         
-        <li>429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and </li>
+        <li data-lang="en">Market discounts recent poll showing Paxton ahead</li>
+        
+        <li data-lang="en">Houston Chronicle highlights Texas polling limitations</li>
+        
+        <li data-lang="en">Trump's endorsement remains withheld from Paxton</li>
+        
+        
+        <li data-lang="zh">市场对帕克斯顿领先民调存疑</li>
+        
+        <li data-lang="zh">《休斯顿纪事报》强调德州民调局限</li>
+        
+        <li data-lang="zh">特朗普仍未背书帕克斯顿</li>
         
       </ul>
       
 
       
-      <div class="why">Please check API keys and retry.</div>
+      <div class="why">
+        <span data-lang="en">This shift highlights how prediction markets weigh specific data points against broader contextual factors like polling reliability and key endorsements.</span>
+        <span data-lang="zh">这一变化突显了预测市场如何权衡具体数据点与民调可靠性、关键背书等更广泛背景因素。</span>
+      </div>
       
 
       <div class="card-footer">
-        <span>Vol 24h: $18,932</span>
+        <span>Vol 24h: $18,933</span>
         <a href="https://polymarket.com/event/will-john-cornyn-win-the-2026-republican-primary" target="_blank" rel="noopener">Polymarket ↗</a>
         
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           
             <a href="https://www.washingtonpost.com/politics/2026/03/18/cornyn-trump-paxton-endorsement-texas/" target="_blank" rel="noopener">1</a>,
           
@@ -586,10 +604,13 @@
     </article>
     <article>
 
-      <div class="rank">#7 · Score 163</div>
+      <div class="rank">#7 · Score 166</div>
 
       <div class="card-top">
-        <h2 class="insight-title">Will Abelardo de la Espriella  win the 2026 Colombian presidential ele</h2>
+        <h2 class="insight-title">
+          <span data-lang="en">Petro Probes Hit Espriella's Election Odds</span>
+          <span data-lang="zh">佩特罗调查冲击埃斯普列拉胜选几率</span>
+        </h2>
         <div class="prob-badge">
           <span class="prob-value down">
             18%
@@ -601,30 +622,50 @@
       </div>
 
       <p class="market-question">Will Abelardo de la Espriella  win the 2026 Colombian presidential election?</p>
-
       <hr class="divider" />
 
-      <p class="summary">Insight generation encountered an error. Raw market data shown.</p>
+      <p class="summary">
+        <span data-lang="en">Abelardo de la Espriella's 2026 presidential election probability dropped 2.5% to 18% following multiple reports of U.S. investigations into President Gustavo Petro for alleged drug ties and campaign finance issues. This widespread political scandal likely increased overall electoral uncertainty, leading market participants to re-evaluate Espriella's position relative to other potential candidates.</span>
+        <span data-lang="zh">埃斯普列拉赢得2026年哥伦比亚总统选举的概率下降2.5%至18%，主要原因是多方报道称美国正在调查古斯塔沃·佩特罗总统涉嫌毒品关系和竞选资金问题。这场广泛的政治丑闻可能增加了整体选举的不确定性，导致市场参与者重新评估埃斯普列拉相对于其他潜在候选人的地位。</span>
+      </p>
 
       
-      <p class="drivers-label">Key Drivers</p>
+      <p class="drivers-label">
+        <span data-lang="en">Key Drivers</span>
+        <span data-lang="zh">核心驱动</span>
+      </p>
       <ul class="drivers">
         
-        <li>429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and </li>
+        <li data-lang="en">US probes President Petro for drug ties.</li>
+        
+        <li data-lang="en">Petro's alleged use of drug money for campaign.</li>
+        
+        <li data-lang="en">Increased political uncertainty in Colombia.</li>
+        
+        
+        <li data-lang="zh">美国调查佩特罗总统涉毒。</li>
+        
+        <li data-lang="zh">佩特罗竞选涉嫌毒资。</li>
+        
+        <li data-lang="zh">哥伦比亚政治不确定性增。</li>
         
       </ul>
       
 
       
-      <div class="why">Please check API keys and retry.</div>
+      <div class="why">
+        <span data-lang="en">The investigations into the sitting president signal significant political instability in Colombia, potentially reshaping the entire 2026 electoral field and influencing voter trust in political institutions.</span>
+        <span data-lang="zh">对现任总统的调查预示着哥伦比亚政治局势的重大不稳定，可能重塑2026年整个选举格局，并影响选民对政治机构的信任。</span>
+      </div>
       
 
       <div class="card-footer">
-        <span>Vol 24h: $6,507</span>
+        <span>Vol 24h: $6,657</span>
         <a href="https://polymarket.com/event/will-abelardo-de-la-espriella-win-the-2026-colombian-presidential-election" target="_blank" rel="noopener">Polymarket ↗</a>
         
-        <span class="sources">
-          Sources:
+        <span>
+          <span data-lang="en">Sources:</span>
+          <span data-lang="zh">来源：</span>
           
             <a href="https://www.aljazeera.com/news/2026/3/20/colombias-president-gustavo-petro-under-investigation-in-us-for-drug-ties" target="_blank" rel="noopener">1</a>,
           
@@ -643,9 +684,30 @@
 </main>
 
 <footer>
-  <span>Markets decide what matters. AI explains why.</span>
-  <span>Data: <a href="https://gamma-api.polymarket.com" target="_blank">Polymarket</a> · AI: Gemini</span>
+  <span>
+    <span data-lang="en">Markets decide what matters. AI explains why.</span>
+    <span data-lang="zh">市场决定重要性，AI 解释原因。</span>
+  </span>
+  <span>Data: <a href="https://gamma-api.polymarket.com" target="_blank">Polymarket</a> · AI: Gemini · Search: Tavily</span>
 </footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.toggle('lang-zh', lang === 'zh');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    localStorage.setItem('polylens-lang', lang);
+  }
+
+  // Auto-detect on load: localStorage > navigator.language
+  (function () {
+    const saved = localStorage.getItem('polylens-lang');
+    const browser = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    const lang = saved || (browser.startsWith('zh') ? 'zh' : 'en');
+    if (lang === 'zh') setLang('zh');
+  })();
+</script>
 
 </body>
 </html>

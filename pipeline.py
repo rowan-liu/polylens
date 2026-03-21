@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 PolyLens pipeline:
-  Polymarket (signal) → Tavily search (news + snippets) → Gemini (insight) → static HTML
+  Polymarket (signal) → Tavily search (news + snippets) → Gemini/GPT (insight) → static HTML
 """
 
 import json
@@ -17,17 +17,20 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from jinja2 import Environment, FileSystemLoader
+from openai import OpenAI
 from tavily import TavilyClient
 
 load_dotenv()
 
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 POLYMARKET_BASE = "https://gamma-api.polymarket.com"
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 GEMINI_MODELS = ["models/gemini-2.5-flash", "models/gemini-2.0-flash", "models/gemini-2.0-flash-lite"]
+OPENAI_MODEL = "gpt-4o-mini"          # fast, cheap, reliable fallback
 TOP_N = 10
 MIN_VOLUME = 5_000
 MIN_CHANGE = 0.02
@@ -42,7 +45,8 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-client = genai.Client(api_key=GEMINI_API_KEY)
+gemini_client = genai.Client(api_key=GEMINI_API_KEY)
+oai_client = OpenAI(api_key=OPENAI_API_KEY)
 tavily = TavilyClient(api_key=TAVILY_API_KEY)
 
 
@@ -157,18 +161,22 @@ def _extract_json(text: str) -> str:
     return text.strip()
 
 
-def _call_gemini(prompt: str) -> str:
-    """Try each model in order; retry once on 429 with backoff."""
+def _call_llm(prompt: str) -> str:
+    """
+    Try Gemini models first; if all are rate-limited, fall back to OpenAI gpt-4o-mini.
+    """
+    # --- Gemini ---
     last_exc = None
+    gemini_exhausted = True
     for model in GEMINI_MODELS:
         for attempt in range(2):
             try:
-                response = client.models.generate_content(
+                response = gemini_client.models.generate_content(
                     model=model,
                     contents=prompt,
                     config=types.GenerateContentConfig(temperature=0.3),
                 )
-                log.debug("Used model %s", model)
+                log.debug("Used Gemini model %s", model)
                 return response.text
             except Exception as exc:
                 last_exc = exc
@@ -179,9 +187,23 @@ def _call_gemini(prompt: str) -> str:
                     log.warning("429 on %s attempt %d, waiting %.0fs...", model, attempt + 1, wait)
                     time.sleep(wait)
                 else:
+                    gemini_exhausted = False
                     log.debug("Non-quota error on %s: %s", model, msg[:80])
-                    break
-    raise last_exc
+                    break  # non-quota error → try next Gemini model
+
+    # --- OpenAI fallback ---
+    log.info("Gemini quota exhausted, falling back to OpenAI %s", OPENAI_MODEL)
+    try:
+        resp = oai_client.chat.completions.create(
+            model=OPENAI_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+        )
+        log.debug("Used OpenAI model %s", OPENAI_MODEL)
+        return resp.choices[0].message.content
+    except Exception as exc:
+        log.error("OpenAI also failed: %s", exc)
+        raise exc
 
 
 def generate_insight(market: dict, news: list[dict]) -> dict:
@@ -232,7 +254,7 @@ RULES:
 - 2-4 drivers only. Chinese must be natural, not literal translation."""
 
     try:
-        raw_text = _call_gemini(prompt)
+        raw_text = _call_llm(prompt)
         raw = _extract_json(raw_text)
         insight = json.loads(raw)
         # Validate / backfill both language keys
