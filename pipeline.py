@@ -35,9 +35,10 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 GEMINI_MODELS = ["models/gemini-2.5-flash", "models/gemini-2.0-flash", "models/gemini-2.0-flash-lite"]
 OPENAI_MODEL = "gpt-4o-mini"
-TOP_N = 20               # fetch more so each category has content
-MIN_VOLUME = 5_000
-MIN_CHANGE = 0.02
+TOP_N = 20
+MIN_VOLUME = 1_000    # lower bar — let scoring sort quality
+MIN_CHANGE = 0.003    # 0.3% — prediction markets rarely move more than 1-2%/day
+HIGH_VOL = 50_000     # markets above this are included regardless of change
 RATE_LIMIT_SLEEP = 20
 FETCH_LIMIT = 500
 NEWS_PER_TOPIC = 5
@@ -126,16 +127,28 @@ def parse_yes_probability(prices_raw) -> float:
 
 
 def rank_markets(raw: list[dict], top_n: int = TOP_N) -> list[dict]:
-    """Filter by volume/change thresholds, rank by volume × |Δ|, take top N."""
+    """
+    Filter by volume/change thresholds, rank by score, take top N.
+    Score = volume24hr * (abs_change + 0.005)
+    The +0.005 bonus ensures high-volume stable markets still rank above noise.
+    High-volume markets (>HIGH_VOL) bypass the change filter entirely.
+    """
     candidates = []
     for m in raw:
         volume = float(m.get("volume24hr") or 0)
         change = float(m.get("oneDayPriceChange") or 0)
+        abs_change = abs(change)
 
         if volume < MIN_VOLUME:
             continue
-        if abs(change) < MIN_CHANGE:
+        # Bypass change filter for very high-volume markets
+        if abs_change < MIN_CHANGE and volume < HIGH_VOL:
             continue
+
+        # Score: prioritise movement; volume is tie-breaker within same change tier
+        # log(volume) smooths out the 100x gap between top and mid markets
+        import math
+        score = round(abs_change * 1000 + math.log10(max(volume, 1)), 2)
 
         candidates.append(
             {
@@ -144,7 +157,7 @@ def rank_markets(raw: list[dict], top_n: int = TOP_N) -> list[dict]:
                 "probability": parse_yes_probability(m.get("outcomePrices")),
                 "change_24h": round(change, 4),
                 "volume_24h": round(volume, 2),
-                "score": round(volume * abs(change), 2),
+                "score": score,
                 "url": f"https://polymarket.com/event/{m.get('slug', m.get('id', ''))}",
             }
         )
