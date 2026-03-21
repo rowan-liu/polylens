@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:1f5fd86baf5fdfe86cc58d71222d313887762acfd531fc640dd8939d3a2dce75"
+content_hash = "sha256:7e6e8945570429070a991eac14203a621c830a0a6732067a4286b977517d52e8"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
@@ -491,6 +491,21 @@ dependencies = [
 files = [
     {file = "requests-2.32.5-py3-none-any.whl", hash = "sha256:2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6"},
     {file = "requests-2.32.5.tar.gz", hash = "sha256:dbba0bac56e100853db0ea71b82b4dfd5fe2bf6d3754a8893c3af500cec7d7cf"},
+]
+
+[[package]]
+name = "resend"
+version = "2.26.0"
+requires_python = ">=3.7"
+summary = "Resend Python SDK"
+groups = ["default"]
+dependencies = [
+    "requests>=2.31.0",
+    "typing-extensions>=4.4.0",
+]
+files = [
+    {file = "resend-2.26.0-py2.py3-none-any.whl", hash = "sha256:5e25a804a84a68df504f2ade5369ac37e0139e37788a1f20b66c88696595b4bc"},
+    {file = "resend-2.26.0.tar.gz", hash = "sha256:957a6a59dc597ce27fbd6d5383220dd9cc497fab99d4f3d775c8a42a449a569e"},
 ]
 
 [[package]]

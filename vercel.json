@@ -2,5 +2,8 @@
   "outputDirectory": "output",
   "buildCommand": "",
   "installCommand": "",
-  "framework": null
+  "framework": null,
+  "functions": {
+    "api/subscribe.js": { "runtime": "edge" }
+  }
 }

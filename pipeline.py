@@ -25,6 +25,10 @@ load_dotenv()
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
+RESEND_AUDIENCE_ID = os.environ.get("RESEND_AUDIENCE_ID", "")
+SITE_URL = os.environ.get("SITE_URL", "https://www.hika.fyi")
+FROM_EMAIL = os.environ.get("FROM_EMAIL", "PolyLens <newsletter@hika.fyi>")
 POLYMARKET_BASE = "https://gamma-api.polymarket.com"
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -337,6 +341,8 @@ def run_pipeline() -> dict:
 
     render_html(output)
     log.info("=== Pipeline complete. %d insights generated. ===", len(results))
+
+    send_newsletter(output)
     return output
 
 
@@ -353,5 +359,152 @@ def render_html(data: dict) -> None:
     log.info("Rendered HTML -> %s", html_path)
 
 
-if __name__ == "__main__":
-    run_pipeline()
+# ---------------------------------------------------------------------------
+# 6. Newsletter (Resend)
+# ---------------------------------------------------------------------------
+
+def _build_email_html(data: dict) -> str:
+    """Build a clean digest email with top 3 insights."""
+    topics = data["topics"][:3]
+    date_str = data["generated_at_readable"]
+
+    def card(item: dict) -> str:
+        m = item["market"]
+        ins = item["insight"]
+        prob = f"{m['probability']:.0%}"
+        change = m["change_24h"]
+        sign = "+" if change > 0 else ""
+        color = "#22c55e" if change > 0 else "#ef4444"
+        arrow = "▲" if change > 0 else "▼"
+        return f"""
+        <tr><td style="padding:16px 0 0;">
+          <table width="100%" cellpadding="0" cellspacing="0" style="background:#1a1a1e;border:1px solid #2a2a2e;border-radius:8px;">
+            <tr><td style="padding:18px 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="font-size:15px;font-weight:600;color:#e8e8ec;line-height:1.4;">{ins['en']['title']}</td>
+                  <td align="right" style="white-space:nowrap;padding-left:12px;">
+                    <span style="font-size:20px;font-weight:700;color:{color};">{prob}</span>
+                    <span style="display:inline-block;margin-left:6px;font-size:11px;font-weight:600;color:{color};background:{'rgba(34,197,94,0.12)' if change>0 else 'rgba(239,68,68,0.12)'};padding:2px 7px;border-radius:4px;">{arrow} {sign}{change:.1%}</span>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:10px 0 0;font-size:13px;color:#b0b0bc;line-height:1.6;">{ins['en']['summary']}</p>
+              <p style="margin:12px 0 0;">
+                <a href="{SITE_URL}" style="font-size:12px;color:#7c6af7;text-decoration:none;">Read full analysis →</a>
+              </p>
+            </td></tr>
+          </table>
+        </td></tr>"""
+
+    cards_html = "".join(card(t) for t in topics)
+    count = len(data["topics"])
+
+    return f"""<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#0c0c0e;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#0c0c0e;padding:32px 16px;">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+
+        <!-- Header -->
+        <tr><td style="padding-bottom:24px;border-bottom:1px solid #222226;">
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td style="font-size:20px;font-weight:700;color:#e8e8ec;">Poly<span style="color:#7c6af7;">Lens</span></td>
+              <td align="right" style="font-size:12px;color:#666672;">{date_str}</td>
+            </tr>
+          </table>
+          <p style="margin:8px 0 0;font-size:13px;color:#666672;">Your AI-powered prediction market digest · {count} insights today</p>
+        </td></tr>
+
+        <!-- Cards -->
+        {cards_html}
+
+        <!-- CTA -->
+        <tr><td style="padding:28px 0 0;text-align:center;">
+          <a href="{SITE_URL}" style="display:inline-block;background:#7c6af7;color:#fff;font-size:14px;font-weight:600;padding:12px 28px;border-radius:8px;text-decoration:none;">
+            View All {count} Insights →
+          </a>
+        </td></tr>
+
+        <!-- Footer -->
+        <tr><td style="padding:28px 0 0;border-top:1px solid #222226;margin-top:28px;font-size:11px;color:#444450;text-align:center;">
+          <p style="margin:0;">Markets decide what matters. AI explains why.</p>
+          <p style="margin:6px 0 0;">
+            <a href="{SITE_URL}" style="color:#555560;text-decoration:none;">PolyLens</a> ·
+            <a href="{SITE_URL}?unsubscribe=1" style="color:#555560;text-decoration:none;">Unsubscribe</a>
+          </p>
+        </td></tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
+
+
+def send_newsletter(data: dict) -> None:
+    """Fetch all Resend audience contacts and send the digest email."""
+    if not RESEND_API_KEY or not RESEND_AUDIENCE_ID:
+        log.info("Newsletter skipped: RESEND_API_KEY or RESEND_AUDIENCE_ID not set")
+        return
+
+    # Fetch contacts from Resend Audience
+    try:
+        resp = requests.get(
+            f"https://api.resend.com/audiences/{RESEND_AUDIENCE_ID}/contacts",
+            headers={"Authorization": f"Bearer {RESEND_API_KEY}"},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        contacts = [
+            c["email"] for c in resp.json().get("data", [])
+            if not c.get("unsubscribed", False)
+        ]
+    except Exception as exc:
+        log.error("Failed to fetch Resend contacts: %s", exc)
+        return
+
+    if not contacts:
+        log.info("No subscribers yet — skipping newsletter send")
+        return
+
+    log.info("Sending newsletter to %d subscribers...", len(contacts))
+    email_html = _build_email_html(data)
+    date_str = data["generated_at_readable"]
+    subject = f"PolyLens: {len(data['topics'])} Market Insights — {date_str}"
+
+    # Resend batch endpoint (up to 100 per call)
+    batch = [
+        {
+            "from": FROM_EMAIL,
+            "to": [email],
+            "subject": subject,
+            "html": email_html,
+            "tags": [{"name": "type", "value": "digest"}],
+        }
+        for email in contacts
+    ]
+
+    try:
+        # Send in chunks of 100
+        for i in range(0, len(batch), 100):
+            chunk = batch[i : i + 100]
+            r = requests.post(
+                "https://api.resend.com/emails/batch",
+                headers={
+                    "Authorization": f"Bearer {RESEND_API_KEY}",
+                    "Content-Type": "application/json",
+                },
+                json=chunk,
+                timeout=30,
+            )
+            r.raise_for_status()
+            log.info("Sent batch %d-%d: %s", i + 1, i + len(chunk), r.status_code)
+    except Exception as exc:
+        log.error("Newsletter send failed: %s", exc)
+        return
+
+    log.info("Newsletter sent to %d subscribers.", len(contacts))

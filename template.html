@@ -116,15 +116,71 @@
 
     /* ── Empty / Footer ──────────────────────── */
     .empty { text-align: center; color: var(--muted); padding: 80px 0; font-size: 15px; }
-    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
+
+    /* ── Subscribe section ───────────────────── */
+    .subscribe-section {
+      margin-top: 40px;
+      padding: 28px 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      text-align: center;
+    }
+    .subscribe-section h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .subscribe-section p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .subscribe-form {
+      display: flex;
+      gap: 8px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .subscribe-form input[type="email"] {
+      flex: 1;
+      padding: 9px 14px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .subscribe-form input[type="email"]:focus { border-color: var(--accent); }
+    .subscribe-form button {
+      padding: 9px 18px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: opacity 0.15s;
+    }
+    .subscribe-form button:hover { opacity: 0.85; }
+    .subscribe-form button:disabled { opacity: 0.5; cursor: default; }
+    .subscribe-msg { margin-top: 10px; font-size: 13px; min-height: 18px; }
+    .subscribe-msg.ok  { color: #22c55e; }
+    .subscribe-msg.err { color: #ef4444; }
 
     @media (max-width: 600px) {
       header { flex-wrap: wrap; gap: 8px; }
       .tagline { display: none; }
       .insight-title { font-size: 15px; }
       .prob-value { font-size: 18px; }
+      .subscribe-form { flex-direction: column; }
     }
   </style>
 </head>
@@ -224,6 +280,26 @@
   {% endif %}
 </main>
 
+<!-- Subscribe Section -->
+<section class="subscribe-section">
+  <h3>
+    <span data-lang="en">Stay ahead of the markets</span>
+    <span data-lang="zh">掌握市场先机</span>
+  </h3>
+  <p>
+    <span data-lang="en">Get the top 3 insights delivered to your inbox every 8 hours. Free.</span>
+    <span data-lang="zh">每 8 小时收到前 3 条市场洞察，直达邮箱，完全免费。</span>
+  </p>
+  <form class="subscribe-form" id="subscribe-form" onsubmit="handleSubscribe(event)">
+    <input type="email" id="sub-email" placeholder="your@email.com" required autocomplete="email" />
+    <button type="submit" id="sub-btn">
+      <span data-lang="en">Subscribe</span>
+      <span data-lang="zh">订阅</span>
+    </button>
+  </form>
+  <div class="subscribe-msg" id="subscribe-msg"></div>
+</section>
+
 <footer>
   <span>
     <span data-lang="en">Markets decide what matters. AI explains why.</span>
@@ -248,6 +324,41 @@
     const lang = saved || (browser.startsWith('zh') ? 'zh' : 'en');
     if (lang === 'zh') setLang('zh');
   })();
+
+  // Subscribe form
+  async function handleSubscribe(e) {
+    e.preventDefault();
+    const email = document.getElementById('sub-email').value.trim();
+    const btn   = document.getElementById('sub-btn');
+    const msg   = document.getElementById('subscribe-msg');
+    const isZh  = document.body.classList.contains('lang-zh');
+
+    btn.disabled = true;
+    msg.className = 'subscribe-msg';
+    msg.textContent = isZh ? '提交中…' : 'Submitting…';
+
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        msg.className = 'subscribe-msg ok';
+        msg.textContent = isZh
+          ? (data.already ? '您已订阅 ✓' : '订阅成功！感谢支持 ✓')
+          : (data.already ? 'Already subscribed ✓' : 'Subscribed! Thank you ✓');
+        document.getElementById('sub-email').value = '';
+      } else {
+        throw new Error(data.error || 'Unknown error');
+      }
+    } catch (err) {
+      msg.className = 'subscribe-msg err';
+      msg.textContent = isZh ? '订阅失败，请稍后重试。' : 'Failed to subscribe, please try again.';
+      btn.disabled = false;
+    }
+  }
 </script>
 
 </body>
