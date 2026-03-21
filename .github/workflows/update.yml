@@ -35,6 +35,14 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          # only commit if there are changes
           git diff --cached --quiet || git commit -m "chore: update insights $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: team_7DlXl0VmcE82FzrHw2seJqSy
+          VERCEL_PROJECT_ID: prj_CsS6hYrsxUWxmfHh1jtAAmF6wXRZ
+        run: |
+          npm install -g vercel
+          vercel deploy --prod --yes --token "$VERCEL_TOKEN"
