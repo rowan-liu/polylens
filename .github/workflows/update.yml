@@ -1,0 +1,40 @@
+name: Update PolyLens
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes
+  workflow_dispatch:          # allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDM
+        run: pip install pdm
+
+      - name: Install dependencies
+        run: pdm install --prod
+
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: pdm run python pipeline.py
+
+      - name: Commit output
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          # only commit if there are changes
+          git diff --cached --quiet || git commit -m "chore: update insights $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

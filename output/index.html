@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PolyLens</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0c0c0e;
+      --surface: #141416;
+      --border: #222226;
+      --text: #e8e8ec;
+      --muted: #666672;
+      --up: #22c55e;
+      --down: #ef4444;
+      --accent: #7c6af7;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      --mono: "SF Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+    }
+
+    html { background: var(--bg); color: var(--text); font-family: var(--font); }
+
+    body {
+      min-height: 100vh;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    /* ── Header ───────────────────────────────── */
+    header {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      padding: 28px 0 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--text);
+    }
+
+    .logo span { color: var(--accent); }
+
+    .tagline {
+      font-size: 13px;
+      color: var(--muted);
+      flex: 1;
+    }
+
+    .updated {
+      font-size: 12px;
+      color: var(--muted);
+      font-family: var(--mono);
+      white-space: nowrap;
+    }
+
+    /* ── Feed ─────────────────────────────────── */
+    .feed { display: flex; flex-direction: column; gap: 1px; }
+
+    /* ── Card ─────────────────────────────────── */
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px 22px;
+      transition: border-color 0.15s;
+    }
+
+    article:hover { border-color: #333340; }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 6px;
+    }
+
+    .insight-title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.35;
+      color: var(--text);
+      flex: 1;
+    }
+
+    /* probability badge */
+    .prob-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+      flex-shrink: 0;
+    }
+
+    .prob-value {
+      font-family: var(--mono);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .prob-change {
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .up   { color: var(--up);   }
+    .down { color: var(--down); }
+    .up-bg   { background: rgba(34,197,94,0.12);  color: var(--up);   }
+    .down-bg { background: rgba(239,68,68,0.12);  color: var(--down); }
+
+    .market-question {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 14px;
+      font-style: italic;
+      line-height: 1.4;
+    }
+
+    /* divider */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 14px 0;
+    }
+
+    /* summary */
+    .summary {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #c8c8d0;
+      margin-bottom: 14px;
+    }
+
+    /* drivers */
+    .drivers-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .drivers {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-bottom: 14px;
+    }
+
+    .drivers li {
+      font-size: 13px;
+      color: #b0b0bc;
+      padding-left: 14px;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .drivers li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 11px;
+      top: 2px;
+    }
+
+    /* why it matters */
+    .why {
+      font-size: 13px;
+      color: #9090a0;
+      line-height: 1.55;
+      padding: 10px 14px;
+      background: rgba(124,106,247,0.06);
+      border-left: 2px solid var(--accent);
+      border-radius: 0 4px 4px 0;
+      margin-bottom: 14px;
+    }
+
+    /* card footer */
+    .card-footer {
+      display: flex;
+      gap: 16px;
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .card-footer a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .card-footer a:hover { color: var(--accent); }
+    .sources { color: var(--muted); }
+
+    /* rank number */
+    .rank {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    /* ── Empty state ──────────────────────────── */
+    .empty {
+      text-align: center;
+      color: var(--muted);
+      padding: 80px 0;
+      font-size: 15px;
+    }
+
+    /* ── Footer ───────────────────────────────── */
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+
+    /* ── Responsive ───────────────────────────── */
+    @media (max-width: 600px) {
+      header { flex-wrap: wrap; gap: 8px; }
+      .tagline { display: none; }
+      .insight-title { font-size: 15px; }
+      .prob-value { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Poly<span>Lens</span></div>
+  <div class="tagline">AI-powered prediction market intelligence</div>
+  <div class="updated">Mar 21, 2026 06:05 UTC</div>
+</header>
+
+<main>
+  
+  <div class="feed">
+    <article>
+
+      <div class="rank">#1 · Score 1,754</div>
+
+      <div class="card-top">
+        <h2 class="insight-title">Netanyahu's Grip Tightens</h2>
+        <div class="prob-badge">
+          <span class="prob-value down">
+            48%
+          </span>
+          <span class="prob-change down-bg">
+            -5.5%
+          </span>
+        </div>
+      </div>
+
+      <p class="market-question">Netanyahu out by end of 2026?</p>
+
+      <hr class="divider" />
+
+      <p class="summary">The probability of Netanyahu being out by end of 2026 dropped 5.5% to 48%, signaling increased confidence in his continued leadership. This decline is attributed to the ongoing Iran war, which appears to be consolidating his political power, and the return of key trusted aides.</p>
+
+      
+      <p class="drivers-label">Key Drivers</p>
+      <ul class="drivers">
+        
+        <li>Iran war seen as politically beneficial for Netanyahu (Al Jazeera).</li>
+        
+        <li>Return of "most-trusted aides" stabilizes his inner circle (Haaretz).</li>
+        
+        <li>Netanyahu states "no 'schedule'" for end of Iran war (NBC News).</li>
+        
+      </ul>
+      
+
+      
+      <div class="why">This shift suggests the current conflict is strengthening Netanyahu's political standing, impacting Israel's future leadership and regional policy. His continued tenure has significant implications for the direction of the war and international relations.</div>
+      
+
+      <div class="card-footer">
+        <span>Vol 24h: $31,894</span>
+        <a href="https://polymarket.com/event/netanyahu-out-before-2027-684-719-226" target="_blank" rel="noopener">Polymarket ↗</a>
+        
+        <span class="sources">
+          Sources:
+          
+            <a href="https://www.haaretz.com/israel-news/israel-politics/2026-03-20/ty-article/.premium/netanyahu-breathes-a-sigh-of-relief-as-most-trusted-aides-return-to-work/0000019d-07f5-df92-a9df-eff5e5650000" target="_blank" rel="noopener">1</a>,
+          
+            <a href="https://www.haaretz.com/opinion/2026-03-19/ty-article-opinion/.premium/netanyahu-the-mafia-boss-takes-pride-in-what-he-ought-to-be-ashamed-of/0000019d-0215-d46f-affd-929f90770000" target="_blank" rel="noopener">2</a>,
+          
+            <a href="https://www.aljazeera.com/news/2026/3/20/five-problems-the-iran-war-could-solve-for-israels-netanyahu" target="_blank" rel="noopener">3</a>
+          
+        </span>
+        
+      </div>
+
+    </article>
+    <article>
+
+      <div class="rank">#2 · Score 1,115</div>
+
+      <div class="card-top">
+        <h2 class="insight-title">Magyar's PM Odds Rise Amid Orbán's EU Standoff</h2>
+        <div class="prob-badge">
+          <span class="prob-value up">
+            62%
+          </span>
+          <span class="prob-change up-bg">
+            +2.0%
+          </span>
+        </div>
+      </div>
+
+      <p class="market-question">Will the next Prime Minister of Hungary be Péter Magyar?</p>
+
+      <hr class="divider" />
+
+      <p class="summary">Péter Magyar's probability of becoming Hungary's next Prime Minister increased by 2.0% to 62% in the last 24 hours. This rise reflects market sentiment that Viktor Orbán's controversial EU actions and perceived 'election games' are weakening his political standing.</p>
+
+      
+      <p class="drivers-label">Key Drivers</p>
+      <ul class="drivers">
+        
+        <li>Orbán's veto of the Ukraine loan at the EU summit drew widespread criticism.</li>
+        
+        <li>Accusations of Orbán 'playing election games' ahead of an April 12 election.</li>
+        
+        <li>Orbán using the €90bn Ukraine loan as 'election leverage' for domestic politics.</li>
+        
+      </ul>
+      
+
+      
+      <div class="why">This market shift indicates that Orbán's confrontational EU strategy might be creating domestic political vulnerabilities, potentially signaling a significant challenge to his long-standing leadership.</div>
+      
+
+      <div class="card-footer">
+        <span>Vol 24h: $55,766</span>
+        <a href="https://polymarket.com/event/will-the-next-prime-minister-of-hungary-be-pter-magyar" target="_blank" rel="noopener">Polymarket ↗</a>
+        
+        <span class="sources">
+          Sources:
+          
+            <a href="https://apnews.com/article/europe-hungary-ukraine-loan-elections-summit-1084eb91a739889f5bde50ebd2cf3bc1" target="_blank" rel="noopener">1</a>,
+          
+            <a href="https://www.latimes.com/world-nation/story/2026-03-20/hungarys-orban-threatens-further-anti-ukraine-measures-over-russian-oil-dispute" target="_blank" rel="noopener">2</a>,
+          
+            <a href="https://www.reuters.com/business/energy/eu-leaders-press-hungarys-orban-lift-block-ukraine-loan-2026-03-19/" target="_blank" rel="noopener">3</a>
+          
+        </span>
+        
+      </div>
+
+    </article>
+    <article>
+
+      <div class="rank">#3 · Score 920</div>
+
+      <div class="card-top">
+        <h2 class="insight-title">Rubio's Profile Rises Amid Security Incident</h2>
+        <div class="prob-badge">
+          <span class="prob-value up">
+            28%
+          </span>
+          <span class="prob-change up-bg">
+            +2.4%
+          </span>
+        </div>
+      </div>
+
+      <p class="market-question">Will Marco Rubio win the 2028 Republican presidential nomination?</p>
+
+      <hr class="divider" />
+
+      <p class="summary">Marco Rubio's 2028 Republican nomination probability rose 2.4% to 28% following news of unidentified drones flying over the base where he lives. This incident, reported by The Washington Post and CNN, significantly increased his national security profile and media visibility.</p>
+
+      
+      <p class="drivers-label">Key Drivers</p>
+      <ul class="drivers">
+        
+        <li>Increased media visibility from drone incident at Rubio's residence.</li>
+        
+        <li>Elevated national security profile due to base security concerns.</li>
+        
+        <li>Prominent mentions in The Washington Post and CNN boost public recognition.</li>
+        
+      </ul>
+      
+
+      
+      <div class="why">This event highlights how unexpected security incidents can quickly impact a politician's public perception and future political market valuations, even years out from an election.</div>
+      
+
+      <div class="card-footer">
+        <span>Vol 24h: $39,143</span>
+        <a href="https://polymarket.com/event/will-marco-rubio-win-the-2028-republican-presidential-nomination" target="_blank" rel="noopener">Polymarket ↗</a>
+        
+        <span class="sources">
+          Sources:
+          
+            <a href="https://www.newsweek.com/new-poll-shows-top-2028-democratic-presidential-candidates-11706406" target="_blank" rel="noopener">1</a>,
+          
+            <a href="https://www.newsweek.com/obama-reveals-truth-cryptic-post-sparked-2028-run-speculation-11694587" target="_blank" rel="noopener">2</a>,
+          
+            <a href="https://www.nytimes.com/interactive/polls/arkansas-us-senate-election-polls-2026.html" target="_blank" rel="noopener">3</a>
+          
+        </span>
+        
+      </div>
+
+    </article>
+    <article>
+
+      <div class="rank">#4 · Score 527</div>
+
+      <div class="card-top">
+        <h2 class="insight-title">Petro Probe Sparks Oviedo's Initial Odds</h2>
+        <div class="prob-badge">
+          <span class="prob-value up">
+            0%
+          </span>
+          <span class="prob-change up-bg">
+            +2.2%
+          </span>
+        </div>
+      </div>
+
+      <p class="market-question">Will Juan Daniel Oviedo win the 2026 Colombian presidential election?</p>
+
+      <hr class="divider" />
+
+      <p class="summary">Juan Daniel Oviedo's probability of winning the 2026 Colombian presidential election rose by 2.2% to 0%. This slight increase is attributed to recent reports of US prosecutors investigating President Gustavo Petro for alleged drug ties and campaign finance irregularities.</p>
+
+      
+      <p class="drivers-label">Key Drivers</p>
+      <ul class="drivers">
+        
+        <li>US prosecutors investigating President Petro for alleged drug ties.</li>
+        
+        <li>Allegations of drug money used in President Petro's 2022 campaign.</li>
+        
+        <li>Increased political instability for the current Colombian administration.</li>
+        
+      </ul>
+      
+
+      
+      <div class="why">The investigations could significantly destabilize Colombia's political landscape, potentially weakening the incumbent party and creating opportunities for new leadership in the 2026 election.</div>
+      
+
+      <div class="card-footer">
+        <span>Vol 24h: $23,975</span>
+        <a href="https://polymarket.com/event/will-juan-daniel-oviedo-win-the-2026-colombian-presidential-election" target="_blank" rel="noopener">Polymarket ↗</a>
+        
+        <span class="sources">
+          Sources:
+          
+            <a href="https://www.aljazeera.com/news/2026/3/20/colombias-president-gustavo-petro-under-investigation-in-us-for-drug-ties" target="_blank" rel="noopener">1</a>,
+          
+            <a href="https://nypost.com/2026/03/20/world-news/us-prosecutors-investigate-colombian-president-petros-alleged-ties-to-drug-traffickers-sources-say/" target="_blank" rel="noopener">2</a>,
+          
+            <a href="https://www.nytimes.com/2026/03/20/nyregion/colombia-president-petro-investigation-drugs.html" target="_blank" rel="noopener">3</a>
+          
+        </span>
+        
+      </div>
+
+    </article>
+    <article>
+
+      <div class="rank">#5 · Score 423</div>
+
+      <div class="card-top">
+        <h2 class="insight-title">Valencia Odds Dip Amid Petro Drug Probe</h2>
+        <div class="prob-badge">
+          <span class="prob-value down">
+            39%
+          </span>
+          <span class="prob-change down-bg">
+            -3.5%
+          </span>
+        </div>
+      </div>
+
+      <p class="market-question">Will Paloma Valencia win the 2026 Colombian presidential election?</p>
+
+      <hr class="divider" />
+
+      <p class="summary">Paloma Valencia's probability of winning the 2026 Colombian presidential election fell by 3.5% to 39%. This decline occurred despite extensive media coverage detailing U.S. investigations into President Gustavo Petro's alleged drug ties and campaign financing, indicating the market views the scandal as creating broader political uncertainty rather than directly boosting Valencia's prospects.</p>
+
+      
+      <p class="drivers-label">Key Drivers</p>
+      <ul class="drivers">
+        
+        <li>US probes President Petro's drug ties (Al Jazeera).</li>
+        
+        <li>WSJ: Petro campaign drug money allegations.</li>
+        
+        <li>NY Post confirms Petro drug investigation.</li>
+        
+      </ul>
+      
+
+      
+      <div class="why">This suggests that major political scandals, even against incumbents, do not automatically favor established opposition candidates, potentially signaling a desire for new political alternatives or increased volatility in the upcoming election cycle.</div>
+      
+
+      <div class="card-footer">
+        <span>Vol 24h: $11,909</span>
+        <a href="https://polymarket.com/event/will-paloma-valencia-win-the-2026-colombian-presidential-election" target="_blank" rel="noopener">Polymarket ↗</a>
+        
+        <span class="sources">
+          Sources:
+          
+            <a href="https://www.aljazeera.com/news/2026/3/20/colombias-president-gustavo-petro-under-investigation-in-us-for-drug-ties" target="_blank" rel="noopener">1</a>,
+          
+            <a href="https://www.nytimes.com/2026/03/20/nyregion/colombia-president-petro-investigation-drugs.html" target="_blank" rel="noopener">2</a>,
+          
+            <a href="https://nypost.com/2026/03/20/world-news/us-prosecutors-investigate-colombian-president-petros-alleged-ties-to-drug-traffickers-sources-say/" target="_blank" rel="noopener">3</a>
+          
+        </span>
+        
+      </div>
+
+    </article>
+    <article>
+
+      <div class="rank">#6 · Score 379</div>
+
+      <div class="card-top">
+        <h2 class="insight-title">Cornyn Primary Odds Rise</h2>
+        <div class="prob-badge">
+          <span class="prob-value up">
+            55%
+          </span>
+          <span class="prob-change up-bg">
+            +2.0%
+          </span>
+        </div>
+      </div>
+
+      <p class="market-question">Will John Cornyn win the 2026 Texas Republican Primary?</p>
+
+      <hr class="divider" />
+
+      <p class="summary">John Cornyn's probability of winning the 2026 Texas Republican Primary increased by 2.0% to 55%, primarily driven by the market discounting recent polling showing Ken Paxton ahead. This shift reflects skepticism about poll accuracy in Texas and potentially a lack of a Trump endorsement for Paxton.</p>
+
+      
+      <p class="drivers-label">Key Drivers</p>
+      <ul class="drivers">
+        
+        <li>Market discounts Newsweek poll showing Paxton ahead, citing Houston Chronicle's polling limitations.</li>
+        
+        <li>Continued absence of Trump endorsement for Paxton benefits Cornyn, despite Trump's intent to endorse.</li>
+        
+        <li>NASA's Space Shuttle Discovery relocation to Houston subtly boosts Cornyn's image as effective Senator.</li>
+        
+      </ul>
+      
+
+      
+      <div class="why">This movement indicates the market is prioritizing factors beyond traditional polling data, highlighting the significant influence of Trump's endorsement and the perceived effectiveness of incumbents in securing state benefits.</div>
+      
+
+      <div class="card-footer">
+        <span>Vol 24h: $18,946</span>
+        <a href="https://polymarket.com/event/will-john-cornyn-win-the-2026-republican-primary" target="_blank" rel="noopener">Polymarket ↗</a>
+        
+        <span class="sources">
+          Sources:
+          
+            <a href="https://www.washingtonpost.com/politics/2026/03/18/cornyn-trump-paxton-endorsement-texas/" target="_blank" rel="noopener">1</a>,
+          
+            <a href="https://www.politico.com/live-updates/2026/03/20/congress/texas-senate-talarico-cornyn-paxton-poll-00837336" target="_blank" rel="noopener">2</a>,
+          
+            <a href="https://www.newsweek.com/john-cornyns-chances-of-losing-to-ken-paxton-in-texas-primary-new-poll-11713379" target="_blank" rel="noopener">3</a>
+          
+        </span>
+        
+      </div>
+
+    </article>
+    <article>
+
+      <div class="rank">#7 · Score 163</div>
+
+      <div class="card-top">
+        <h2 class="insight-title">Espriella's Odds Dip Amid Petro Scandal</h2>
+        <div class="prob-badge">
+          <span class="prob-value down">
+            18%
+          </span>
+          <span class="prob-change down-bg">
+            -2.5%
+          </span>
+        </div>
+      </div>
+
+      <p class="market-question">Will Abelardo de la Espriella  win the 2026 Colombian presidential election?</p>
+
+      <hr class="divider" />
+
+      <p class="summary">Abelardo de la Espriella's probability of winning the 2026 Colombian presidential election fell by 2.5% to 18%. This decline occurred as current President Gustavo Petro faces multiple U.S. investigations for alleged drug ties and campaign finance irregularities, suggesting the market does not view this as a direct benefit to Espriella.</p>
+
+      
+      <p class="drivers-label">Key Drivers</p>
+      <ul class="drivers">
+        
+        <li>US probes President Petro for drug ties (Al Jazeera, NYT).</li>
+        
+        <li>Petro investigated for alleged drug money in campaign (WSJ, NY Post).</li>
+        
+        <li>Market re-evaluates Espriella's chances, not benefiting from Petro's scandal.</li>
+        
+      </ul>
+      
+
+      
+      <div class="why">The market's reaction indicates that political scandals, even against an incumbent, do not automatically translate into gains for specific opposition figures. This suggests a potential shift in the broader political landscape, possibly favoring other emerging candidates or increasing overall uncertainty for the 2026 election.</div>
+      
+
+      <div class="card-footer">
+        <span>Vol 24h: $6,507</span>
+        <a href="https://polymarket.com/event/will-abelardo-de-la-espriella-win-the-2026-colombian-presidential-election" target="_blank" rel="noopener">Polymarket ↗</a>
+        
+        <span class="sources">
+          Sources:
+          
+            <a href="https://www.aljazeera.com/news/2026/3/20/colombias-president-gustavo-petro-under-investigation-in-us-for-drug-ties" target="_blank" rel="noopener">1</a>,
+          
+            <a href="https://www.nytimes.com/2026/03/20/nyregion/colombia-president-petro-investigation-drugs.html" target="_blank" rel="noopener">2</a>,
+          
+            <a href="https://nypost.com/2026/03/20/world-news/us-prosecutors-investigate-colombian-president-petros-alleged-ties-to-drug-traffickers-sources-say/" target="_blank" rel="noopener">3</a>
+          
+        </span>
+        
+      </div>
+
+    </article>
+    
+  </div>
+  
+</main>
+
+<footer>
+  <span>Markets decide what matters. AI explains why.</span>
+  <span>Data: <a href="https://gamma-api.polymarket.com" target="_blank">Polymarket</a> · AI: Gemini</span>
+</footer>
+
+</body>
+</html>
