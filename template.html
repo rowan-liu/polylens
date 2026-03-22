@@ -18,71 +18,131 @@
       --accent: #7c6af7;
       --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
       --mono: "SF Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+      --sidebar-w: 210px;
     }
 
     html { background: var(--bg); color: var(--text); font-family: var(--font); }
-    body { min-height: 100vh; max-width: 900px; margin: 0 auto; padding: 0 20px 60px; }
 
-    /* ── Header ─────────────────────────────── */
-    header {
+    /* App layout */
+    body { display: flex; min-height: 100vh; }
+
+    /* Sidebar */
+    .sidebar {
+      width: var(--sidebar-w);
+      min-height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      left: 0; top: 0; bottom: 0;
+      z-index: 100;
+      overflow-y: auto;
+      transition: transform 0.25s ease;
+    }
+    .sidebar-logo {
+      padding: 22px 18px 16px;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .sidebar-logo span { color: var(--accent); }
+    .sidebar-logo small {
+      display: block;
+      font-size: 10px;
+      font-weight: 400;
+      color: var(--muted);
+      font-family: var(--mono);
+      margin-top: 3px;
+    }
+    .sidebar-nav { list-style: none; padding: 8px 0; flex: 1; }
+    .nav-btn {
       display: flex;
       align-items: center;
-      gap: 16px;
-      padding: 28px 0 20px;
+      gap: 9px;
+      padding: 10px 18px;
+      font-size: 13.5px;
+      color: var(--muted);
+      cursor: pointer;
+      border: none;
+      border-left: 2px solid transparent;
+      background: none;
+      width: 100%;
+      text-align: left;
+      font-family: var(--font);
+      transition: color 0.15s, background 0.15s, border-color 0.15s;
+    }
+    .nav-btn:hover { color: var(--text); background: rgba(255,255,255,0.03); }
+    .nav-btn.active { color: var(--accent); background: rgba(124,106,247,0.08); border-left-color: var(--accent); }
+    .nav-icon { font-size: 15px; width: 18px; text-align: center; flex-shrink: 0; }
+    .sidebar-bottom {
+      padding: 14px 18px;
+      border-top: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .mcp-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 10.5px;
+      color: var(--muted);
+      font-family: var(--mono);
+      margin-bottom: 11px;
+    }
+    .mcp-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--up); flex-shrink: 0; }
+    .lang-toggle { display: flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+    .lang-toggle button {
+      background: none; border: none; color: var(--muted);
+      font-size: 12px; font-family: var(--font);
+      padding: 5px 0; cursor: pointer; flex: 1;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-toggle button.active { background: var(--accent); color: #fff; }
+
+    /* Overlay */
+    .sidebar-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.5); z-index: 99;
+    }
+
+    /* Content area */
+    .content-wrap { margin-left: var(--sidebar-w); flex: 1; min-width: 0; }
+    .content-inner { max-width: 860px; margin: 0 auto; padding: 0 28px 60px; }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      background: none; border: 1px solid var(--border); border-radius: 6px;
+      padding: 5px 9px; cursor: pointer; color: var(--muted); font-size: 16px; line-height: 1;
+      flex-shrink: 0;
+    }
+    .hamburger:hover { color: var(--text); }
+
+    /* Header */
+    header {
+      display: flex; align-items: center; gap: 12px;
+      padding: 24px 0 20px;
       border-bottom: 1px solid var(--border);
       margin-bottom: 28px;
     }
-    .logo { font-size: 20px; font-weight: 700; letter-spacing: -0.5px; }
-    .logo span { color: var(--accent); }
-    .tagline { font-size: 13px; color: var(--muted); flex: 1; }
+    .header-logo { display: none; font-size: 17px; font-weight: 700; letter-spacing: -0.5px; }
+    .header-logo span { color: var(--accent); }
+    .tagline { font-size: 13px; color: var(--muted); flex: 1; min-width: 0; }
     .updated { font-size: 12px; color: var(--muted); font-family: var(--mono); white-space: nowrap; }
 
-    /* ── Language toggle ─────────────────────── */
-    .lang-toggle {
-      display: flex;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      overflow: hidden;
-      flex-shrink: 0;
-    }
-    .lang-toggle button {
-      background: none;
-      border: none;
-      color: var(--muted);
-      font-size: 12px;
-      font-family: var(--font);
-      padding: 5px 10px;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .lang-toggle button.active {
-      background: var(--accent);
-      color: #fff;
-    }
-
-    /* ── Feed ────────────────────────────────── */
+    /* Feed & Cards */
     .feed { display: flex; flex-direction: column; gap: 1px; }
-
-    /* ── Card ────────────────────────────────── */
     article {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 20px 22px;
-      transition: border-color 0.15s;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; padding: 20px 22px; transition: border-color 0.15s;
     }
     article:hover { border-color: #333340; }
     .feed-item { display: block; margin-bottom: 10px; }
     .feed-item.hidden { display: none; }
-    .card-top {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 6px;
-    }
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 6px; }
     .insight-title { font-size: 16px; font-weight: 600; line-height: 1.35; flex: 1; }
-
     .prob-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; }
     .prob-value { font-family: var(--mono); font-size: 22px; font-weight: 700; line-height: 1; }
     .prob-change { font-family: var(--mono); font-size: 12px; font-weight: 600; padding: 2px 6px; border-radius: 4px; }
@@ -90,171 +150,204 @@
     .down { color: var(--down); }
     .up-bg   { background: rgba(34,197,94,0.12);  color: var(--up); }
     .down-bg { background: rgba(239,68,68,0.12);  color: var(--down); }
-
     .market-question { font-size: 12px; color: var(--muted); margin-bottom: 14px; font-style: italic; line-height: 1.4; }
     .divider { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
     .summary { font-size: 14px; line-height: 1.65; color: #c8c8d0; margin-bottom: 14px; }
-
     .drivers-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 6px; }
     .drivers { list-style: none; display: flex; flex-direction: column; gap: 5px; margin-bottom: 14px; }
     .drivers li { font-size: 13px; color: #b0b0bc; padding-left: 14px; position: relative; line-height: 1.5; }
-    .drivers li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-size: 11px; top: 2px; }
-
+    .drivers li::before { content: "->"; position: absolute; left: 0; color: var(--accent); font-size: 11px; top: 2px; }
     .why { font-size: 13px; color: #9090a0; line-height: 1.55; padding: 10px 14px; background: rgba(124,106,247,0.06); border-left: 2px solid var(--accent); border-radius: 0 4px 4px 0; margin-bottom: 14px; }
-
     .card-footer { display: flex; gap: 16px; font-family: var(--mono); font-size: 11px; color: var(--muted); flex-wrap: wrap; }
     .card-footer a { color: var(--muted); text-decoration: none; }
     .card-footer a:hover { color: var(--accent); }
-
     .rank { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-bottom: 8px; }
 
-    /* ── i18n visibility ─────────────────────── */
-    /* default: show EN, hide ZH */
+    /* i18n */
     [data-lang="zh"] { display: none; }
     body.lang-zh [data-lang="zh"] { display: revert; }
     body.lang-zh [data-lang="en"] { display: none; }
 
-    /* ── Category tabs ───────────────────────── */
-    .tabs {
-      display: flex;
-      gap: 4px;
-      flex-wrap: wrap;
-      margin-bottom: 20px;
-    }
+    /* Category tabs */
+    .tabs { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 20px; }
     .tab {
-      padding: 6px 14px;
-      border-radius: 20px;
-      font-size: 12px;
-      font-weight: 500;
-      cursor: pointer;
-      border: 1px solid var(--border);
-      background: none;
-      color: var(--muted);
-      transition: all 0.15s;
-      white-space: nowrap;
+      padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 500;
+      cursor: pointer; border: 1px solid var(--border); background: none;
+      color: var(--muted); transition: all 0.15s; white-space: nowrap;
     }
     .tab:hover { color: var(--text); border-color: #444; }
-    .tab.active {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
-    }
-    .feed-item { display: block; margin-bottom: 10px; }
-    .feed-item.hidden { display: none; }
+    .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
-    /* ── Empty / Footer ──────────────────────── */
+    /* Footer / Empty */
     .empty { text-align: center; color: var(--muted); padding: 80px 0; font-size: 15px; }
     .no-results { display: none; text-align: center; color: var(--muted); padding: 40px 0; font-size: 14px; }
-    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    footer {
+      margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+      font-size: 12px; color: var(--muted);
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    }
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
 
-    /* ── Subscribe section ───────────────────── */
+    /* Subscribe */
     .subscribe-section {
-      margin-top: 40px;
-      padding: 28px 32px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      text-align: center;
+      margin-top: 40px; padding: 28px 32px;
+      background: var(--surface); border: 1px solid var(--border); border-radius: 10px; text-align: center;
     }
-    .subscribe-section h3 {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 6px;
-    }
-    .subscribe-section p {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 16px;
-    }
-    .subscribe-form {
-      display: flex;
-      gap: 8px;
-      max-width: 400px;
-      margin: 0 auto;
-    }
+    .subscribe-section h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+    .subscribe-section p { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+    .subscribe-form { display: flex; gap: 8px; max-width: 400px; margin: 0 auto; }
     .subscribe-form input[type="email"] {
-      flex: 1;
-      padding: 9px 14px;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      color: var(--text);
-      font-size: 14px;
-      outline: none;
-      transition: border-color 0.15s;
+      flex: 1; padding: 9px 14px; background: var(--bg); border: 1px solid var(--border);
+      border-radius: 6px; color: var(--text); font-size: 14px; outline: none; transition: border-color 0.15s;
     }
     .subscribe-form input[type="email"]:focus { border-color: var(--accent); }
     .subscribe-form button {
-      padding: 9px 18px;
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      font-size: 14px;
-      font-weight: 600;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: opacity 0.15s;
+      padding: 9px 18px; background: var(--accent); color: #fff; border: none;
+      border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer;
+      white-space: nowrap; transition: opacity 0.15s;
     }
     .subscribe-form button:hover { opacity: 0.85; }
     .subscribe-form button:disabled { opacity: 0.5; cursor: default; }
     .subscribe-msg { margin-top: 10px; font-size: 13px; min-height: 18px; }
-    .subscribe-msg.ok  { color: #22c55e; }
-    .subscribe-msg.err { color: #ef4444; }
+    .subscribe-msg.ok  { color: var(--up); }
+    .subscribe-msg.err { color: var(--down); }
 
-    @media (max-width: 600px) {
-      header { flex-wrap: wrap; gap: 8px; }
+    /* Guide overlay */
+    .guide-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.6); z-index: 300; justify-content: flex-end;
+    }
+    .guide-overlay.open { display: flex; }
+    .guide-panel {
+      background: var(--surface); border-left: 1px solid var(--border);
+      width: 100%; max-width: 560px; overflow-y: auto;
+    }
+    .guide-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 26px; border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; background: var(--surface); z-index: 1;
+    }
+    .guide-header h2 { font-size: 15px; font-weight: 600; }
+    .guide-close {
+      background: none; border: 1px solid var(--border); border-radius: 6px;
+      color: var(--muted); padding: 3px 9px; cursor: pointer; font-size: 17px; line-height: 1;
+    }
+    .guide-close:hover { color: var(--text); }
+    .guide-body { padding: 26px; }
+    .guide-section { margin-bottom: 28px; }
+    .guide-section h3 {
+      font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--accent); margin-bottom: 11px;
+    }
+    .guide-section p { font-size: 13.5px; line-height: 1.65; color: #c0c0cc; margin-bottom: 9px; }
+    .guide-section ul { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+    .guide-section ul li { font-size: 13.5px; color: #c0c0cc; padding-left: 14px; position: relative; line-height: 1.55; }
+    .guide-section ul li::before { content: "•"; position: absolute; left: 0; color: var(--accent); }
+    .guide-section code {
+      font-family: var(--mono); font-size: 11.5px; background: rgba(255,255,255,0.07);
+      padding: 2px 5px; border-radius: 3px; color: #a8a0ff;
+    }
+    .guide-section pre {
+      font-family: var(--mono); font-size: 11.5px; background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border); border-radius: 6px; padding: 13px 15px;
+      overflow-x: auto; color: #b8b8cc; line-height: 1.65; margin-top: 8px;
+    }
+    .guide-divider { border: none; border-top: 1px solid var(--border); margin: 22px 0; }
+    .guide-link { color: var(--accent); text-decoration: none; }
+    .guide-link:hover { text-decoration: underline; }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .sidebar { transform: translateX(-100%); }
+      .sidebar.open { transform: translateX(0); box-shadow: 6px 0 28px rgba(0,0,0,0.45); }
+      .sidebar-overlay.open { display: block; }
+      .content-wrap { margin-left: 0; }
+      .hamburger { display: flex; align-items: center; }
+      .header-logo { display: block; }
       .tagline { display: none; }
+      .content-inner { padding: 0 16px 60px; }
       .insight-title { font-size: 15px; }
       .prob-value { font-size: 18px; }
       .subscribe-form { flex-direction: column; }
+      .guide-panel { max-width: 100%; }
     }
   </style>
 </head>
 <body>
 
+<div class="sidebar-overlay" id="sidebar-overlay" onclick="closeSidebar()"></div>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    Poly<span>Lens</span>
+    <small>hika.fyi</small>
+  </div>
+  <ul class="sidebar-nav">
+    <li>
+      <button class="nav-btn active" id="nav-home" onclick="showHome()">
+        <span class="nav-icon">&#127968;</span>
+        <span data-lang="en">Home</span><span data-lang="zh">&#20027;&#39029;</span>
+      </button>
+    </li>
+    <li>
+      <button class="nav-btn" id="nav-guide" onclick="showGuide()">
+        <span class="nav-icon">&#128218;</span>
+        <span data-lang="en">Guide</span><span data-lang="zh">&#20351;&#29992;&#25351;&#21335;</span>
+      </button>
+    </li>
+  </ul>
+  <div class="sidebar-bottom">
+    <div class="mcp-badge">
+      <span class="mcp-dot"></span>
+      <span>MCP API live</span>
+    </div>
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <button id="btn-zh" onclick="setLang('zh')">&#20013;&#25991;</button>
+    </div>
+  </div>
+</aside>
+
+<div class="content-wrap">
+<div class="content-inner">
+
 <header>
-  <div class="logo">Poly<span>Lens</span></div>
+  <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
+  <div class="header-logo">Poly<span>Lens</span></div>
   <div class="tagline">
     <span data-lang="en">AI-powered prediction market intelligence</span>
-    <span data-lang="zh">AI 驱动的预测市场洞察</span>
+    <span data-lang="zh">AI &#39537;&#21160;&#30340;&#39044;&#27979;&#24066;&#22330;&#27512;&#23519;</span>
   </div>
   <div class="updated">{{ data.generated_at_readable }}</div>
-  <div class="lang-toggle">
-    <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
-    <button id="btn-zh" onclick="setLang('zh')">中文</button>
-  </div>
 </header>
 
 <main>
   {% if data.topics %}
 
-  <!-- Category tabs -->
   <div class="tabs" id="tabs">
     <button class="tab active" data-cat="all" onclick="setTab(this)">
-      <span data-lang="en">🔥 Hot</span><span data-lang="zh">🔥 热门</span>
+      <span data-lang="en">&#128293; Hot</span><span data-lang="zh">&#128293; &#30371;&#38376;</span>
     </button>
     <button class="tab" data-cat="politics" onclick="setTab(this)">
-      <span data-lang="en">🗳️ Politics</span><span data-lang="zh">🗳️ 政治</span>
+      <span data-lang="en">&#128499;&#65039; Politics</span><span data-lang="zh">&#128499;&#65039; &#25919;&#27835;</span>
     </button>
     <button class="tab" data-cat="ai_tech" onclick="setTab(this)">
-      <span data-lang="en">🤖 AI & Tech</span><span data-lang="zh">🤖 AI 科技</span>
+      <span data-lang="en">&#129302; AI &amp; Tech</span><span data-lang="zh">&#129302; AI &#31185;&#25216;</span>
     </button>
     <button class="tab" data-cat="economy" onclick="setTab(this)">
-      <span data-lang="en">📈 Economy</span><span data-lang="zh">📈 经济</span>
+      <span data-lang="en">&#128200; Economy</span><span data-lang="zh">&#128200; &#32463;&#27982;</span>
     </button>
     <button class="tab" data-cat="business" onclick="setTab(this)">
-      <span data-lang="en">💼 Business</span><span data-lang="zh">💼 商业</span>
+      <span data-lang="en">&#128188; Business</span><span data-lang="zh">&#128188; &#21830;&#19994;</span>
     </button>
     <button class="tab" data-cat="world" onclick="setTab(this)">
-      <span data-lang="en">🌍 World</span><span data-lang="zh">🌍 国际</span>
+      <span data-lang="en">&#127757; World</span><span data-lang="zh">&#127757; &#22269;&#38469;</span>
     </button>
     <button class="tab" data-cat="sports" onclick="setTab(this)">
-      <span data-lang="en">⚽ Sports</span><span data-lang="zh">⚽ 体育</span>
+      <span data-lang="en">&#9917; Sports</span><span data-lang="zh">&#9917; &#20307;&#32946;</span>
     </button>
-    <button class="tab" data-cat="crypto" onclick="setTab(this)">₿ Crypto</button>
+    <button class="tab" data-cat="crypto" onclick="setTab(this)">&#8383; Crypto</button>
   </div>
 
   <div class="feed" id="feed">
@@ -264,9 +357,7 @@
     {%- set is_up = m.change_24h > 0 -%}
     <div class="feed-item" data-category="{{ ins.category }}">
     <article>
-
-      <div class="rank">#{{ loop.index }} · Score {{ "{:,.0f}".format(m.score) }}</div>
-
+      <div class="rank">#{{ loop.index }} &middot; Score {{ "{:,.0f}".format(m.score) }}</div>
       <div class="card-top">
         <h2 class="insight-title">
           <span data-lang="en">{{ ins.en.title }}</span>
@@ -281,82 +372,69 @@
           </span>
         </div>
       </div>
-
       <p class="market-question">{{ m.question }}</p>
       <hr class="divider" />
-
       <p class="summary">
         <span data-lang="en">{{ ins.en.summary }}</span>
         <span data-lang="zh">{{ ins.zh.summary }}</span>
       </p>
-
       {% if ins.en.drivers or ins.zh.drivers %}
       <p class="drivers-label">
-        <span data-lang="en">Key Drivers</span>
-        <span data-lang="zh">核心驱动</span>
+        <span data-lang="en">Key Drivers</span><span data-lang="zh">&#26680;&#24515;&#39537;&#21160;</span>
       </p>
       <ul class="drivers">
-        {% for d in ins.en.drivers %}
-        <li data-lang="en">{{ d }}</li>
-        {% endfor %}
-        {% for d in ins.zh.drivers %}
-        <li data-lang="zh">{{ d }}</li>
-        {% endfor %}
+        {% for d in ins.en.drivers %}<li data-lang="en">{{ d }}</li>{% endfor %}
+        {% for d in ins.zh.drivers %}<li data-lang="zh">{{ d }}</li>{% endfor %}
       </ul>
       {% endif %}
-
       {% if ins.en.why_matters or ins.zh.why_matters %}
       <div class="why">
         <span data-lang="en">{{ ins.en.why_matters }}</span>
         <span data-lang="zh">{{ ins.zh.why_matters }}</span>
       </div>
       {% endif %}
-
       <div class="card-footer">
         <span>Vol 24h: ${{ "{:,.0f}".format(m.volume_24h) }}</span>
-        <a href="{{ m.url }}" target="_blank" rel="noopener">Polymarket ↗</a>
+        <a href="{{ m.url }}" target="_blank" rel="noopener">Polymarket &#8599;</a>
         {% if item.news %}
         <span>
-          <span data-lang="en">Sources:</span>
-          <span data-lang="zh">来源：</span>
+          <span data-lang="en">Sources:</span><span data-lang="zh">&#26469;&#28304;&#65306;</span>
           {% for s in item.news[:3] %}
             <a href="{{ s.url }}" target="_blank" rel="noopener">{{ loop.index }}</a>{% if not loop.last %},{% endif %}
           {% endfor %}
         </span>
         {% endif %}
       </div>
-
     </article>
-    </div><!-- /feed-item -->
+    </div>
     {% endfor %}
-  </div><!-- /feed -->
+  </div>
+
   <div class="no-results" id="no-results">
     <span data-lang="en">No markets in this category yet.</span>
-    <span data-lang="zh">此分类暂无市场数据。</span>
+    <span data-lang="zh">&#27492;&#20998;&#31867;&#26242;&#26080;&#24066;&#22330;&#25968;&#25454;&#12290;</span>
   </div>
   {% else %}
   <div class="empty">
     <span data-lang="en">No markets matched the filters. Check back soon.</span>
-    <span data-lang="zh">暂无符合筛选条件的市场，请稍后再来。</span>
+    <span data-lang="zh">&#26242;&#26080;&#31526;&#21512;&#31807;&#36873;&#26465;&#20214;&#30340;&#24066;&#22330;&#65292;&#35831;&#31281;&#21518;&#20877;&#26469;&#12290;</span>
   </div>
   {% endif %}
 </main>
 
-<!-- Subscribe Section -->
 <section class="subscribe-section">
   <h3>
     <span data-lang="en">Stay ahead of the markets</span>
-    <span data-lang="zh">掌握市场先机</span>
+    <span data-lang="zh">&#25429;&#25429;&#24066;&#22330;&#20808;&#26426;</span>
   </h3>
   <p>
     <span data-lang="en">Get the top 3 insights delivered to your inbox every 8 hours. Free.</span>
-    <span data-lang="zh">每 8 小时收到前 3 条市场洞察，直达邮箱，完全免费。</span>
+    <span data-lang="zh">&#27599; 8 &#23567;&#26102;&#25910;&#21040;&#21069; 3 &#26465;&#24066;&#22330;&#27512;&#23519;&#65292;&#30452;&#36798;&#37038;&#31665;&#65292;&#23436;&#20840;&#20813;&#36153;&#12290;</span>
   </p>
   <form class="subscribe-form" id="subscribe-form" onsubmit="handleSubscribe(event)">
     <input type="email" id="sub-email" placeholder="your@email.com" required autocomplete="email" />
     <button type="submit" id="sub-btn">
-      <span data-lang="en">Subscribe</span>
-      <span data-lang="zh">订阅</span>
+      <span data-lang="en">Subscribe</span><span data-lang="zh">&#35748;&#38405;</span>
     </button>
   </form>
   <div class="subscribe-msg" id="subscribe-msg"></div>
@@ -365,10 +443,159 @@
 <footer>
   <span>
     <span data-lang="en">Markets decide what matters. AI explains why.</span>
-    <span data-lang="zh">市场决定重要性，AI 解释原因。</span>
+    <span data-lang="zh">&#24066;&#22330;&#20915;&#23450;&#37325;&#35201;&#24615;&#65292;AI &#35299;&#37322;&#21407;&#22240;&#12290;</span>
   </span>
-  <span>Data: <a href="https://gamma-api.polymarket.com" target="_blank">Polymarket</a> · AI: Gemini · Search: Tavily</span>
+  <span>
+    <a href="/.well-known/mcp.json" target="_blank">MCP</a> &#183;
+    Data: <a href="https://gamma-api.polymarket.com" target="_blank">Polymarket</a> &#183;
+    AI: Gemini / GPT
+  </span>
 </footer>
+
+</div>
+</div>
+
+<!-- Guide panel -->
+<div class="guide-overlay" id="guide-overlay" onclick="handleOverlayClick(event)">
+  <div class="guide-panel" id="guide-panel">
+    <div class="guide-header">
+      <h2>
+        <span data-lang="en">&#128218; Guide</span>
+        <span data-lang="zh">&#128218; &#20351;&#29992;&#25351;&#21335;</span>
+      </h2>
+      <button class="guide-close" onclick="closeGuide()">&#x2715;</button>
+    </div>
+    <div class="guide-body">
+
+      <div class="guide-section">
+        <h3><span data-lang="en">What is PolyLens?</span><span data-lang="zh">&#20160;&#20040;&#26159; PolyLens&#65311;</span></h3>
+        <p>
+          <span data-lang="en">PolyLens scans <strong>Polymarket</strong> every 8 hours, finds markets with notable price movements, fetches real news, and uses AI (Gemini / GPT) to generate concise intelligence cards.</span>
+          <span data-lang="zh">PolyLens &#27599; 8 &#23567;&#26102;&#25195;&#25551;&#20840;&#29699;&#26368;&#22823;&#39044;&#27979;&#24066;&#22330; <strong>Polymarket</strong>&#65292;&#25214;&#20986;&#20215;&#26684;&#27874;&#21160;&#26174;&#33879;&#30340;&#24066;&#22330;&#65292;&#33719;&#21462;&#30456;&#20851;&#26032;&#38397;&#65292;&#24182;&#20351;&#29992; AI &#29983;&#25104;&#31616;&#27979;&#30340;&#24066;&#22330;&#27512;&#23519;&#21345;&#29255;&#12290;</span>
+        </p>
+        <p>
+          <span data-lang="en">Think of it as: <em>crowd wisdom + journalist instinct + analyst writing</em>, fully automated.</span>
+          <span data-lang="zh">&#21487;&#20197;&#29702;&#35299;&#20026;&#65306;<em>&#32467;&#20307;&#26234;&#24912; + &#35760;&#32773;&#30452;&#35273; + &#20998;&#26512;&#24072;&#12288;&#25391;&#20889;</em>&#65292;&#20840;&#33258;&#21160;&#21270;&#12290;</span>
+        </p>
+      </div>
+
+      <hr class="guide-divider" />
+
+      <div class="guide-section">
+        <h3><span data-lang="en">Reading a Card</span><span data-lang="zh">&#22914;&#20309;&#35835;&#27979;&#21345;&#29255;</span></h3>
+        <ul>
+          <li>
+            <span data-lang="en"><strong>Big % (e.g. 62%)</strong> &#8212; current market-implied probability of YES outcome</span>
+            <span data-lang="zh"><strong>&#22823;&#25968;&#23383;&#65288;&#22914; 62%&#65289;</strong> &#8212; &#24066;&#22330;&#38544;&#21547;&#30340;&#8220;&#26159;&#8221;&#32467;&#26524;&#27010;&#29575;</span>
+          </li>
+          <li>
+            <span data-lang="en"><strong>+7.0% / &#8722;3.5%</strong> &#8212; probability change in the last 24 hours</span>
+            <span data-lang="zh"><strong>+7.0% / &#8722;3.5%</strong> &#8212; &#36807;&#21435; 24 &#23567;&#26102;&#27010;&#29575;&#21464;&#21270;</span>
+          </li>
+          <li>
+            <span data-lang="en"><strong>Summary</strong> &#8212; 2&#8211;3 sentence AI overview of latest developments</span>
+            <span data-lang="zh"><strong>&#25688;&#35201;</strong> &#8212; AI &#29983;&#25104;&#30340; 2&#8211;3 &#21477;&#26368;&#26032;&#21160;&#24907;</span>
+          </li>
+          <li>
+            <span data-lang="en"><strong>Key Drivers</strong> &#8212; bullet points explaining why the market moved</span>
+            <span data-lang="zh"><strong>&#26680;&#24515;&#39537;&#21160;</strong> &#8212; &#35299;&#37322;&#24066;&#22330;&#21464;&#21160;&#21407;&#22240;&#30340;&#35201;&#28857;</span>
+          </li>
+          <li>
+            <span data-lang="en"><strong>Vol 24h</strong> &#8212; trading volume (higher = more liquid, more reliable)</span>
+            <span data-lang="zh"><strong>Vol 24h</strong> &#8212; 24&#23567;&#26102;&#20132;&#26131;&#37327;&#65288;&#36234;&#39640;&#20449;&#21495;&#36234;&#21487;&#38752;&#65289;</span>
+          </li>
+          <li>
+            <span data-lang="en"><strong>Sources 1 2 3</strong> &#8212; news articles used as AI analysis context</span>
+            <span data-lang="zh"><strong>&#26469;&#28304; 1 2 3</strong> &#8212; AI &#20998;&#26512;&#21442;&#32771;&#30340;&#26032;&#38397;&#25991;&#31456;</span>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="guide-divider" />
+
+      <div class="guide-section">
+        <h3><span data-lang="en">Categories</span><span data-lang="zh">&#20998;&#31867;&#35828;&#26126;</span></h3>
+        <ul>
+          <li><span data-lang="en">&#128293; <strong>Hot</strong> &#8212; all markets ranked by movement &#215; volume</span><span data-lang="zh">&#128293; <strong>&#30371;&#38376;</strong> &#8212; &#20840;&#37096;&#24066;&#22330;&#65292;&#25353;&#21464;&#21160;&#215;&#25104;&#20132;&#37327;&#30410;&#21512;&#25490;&#21517;</span></li>
+          <li><span data-lang="en">&#128499;&#65039; <strong>Politics</strong> &#8212; elections, policy, government</span><span data-lang="zh">&#128499;&#65039; <strong>&#25919;&#27835;</strong> &#8212; &#36873;&#20030;&#12289;&#25919;&#31ách;&#12289;&#25919;&#24220;</span></li>
+          <li><span data-lang="en">&#129302; <strong>AI &amp; Tech</strong> &#8212; AI, software, hardware</span><span data-lang="zh">&#129302; <strong>AI &#31185;&#25216;</strong> &#8212; &#20154;&#24037;&#26234;&#33021;&#12289;&#36719;&#20214;&#12289;&#30828;&#20214;</span></li>
+          <li><span data-lang="en">&#128200; <strong>Economy</strong> &#8212; macro, rates, trade, inflation</span><span data-lang="zh">&#128200; <strong>&#32463;&#27982;</strong> &#8212; &#23439;&#35266;&#12289;&#21033;&#29575;&#12289;&#36136;&#26131;&#12289;&#36890;&#32340;</span></li>
+          <li><span data-lang="en">&#128188; <strong>Business</strong> &#8212; companies, M&amp;A, earnings</span><span data-lang="zh">&#128188; <strong>&#21830;&#19994;</strong> &#8212; &#20844;&#21496;&#12289;&#24182;&#36716;&#12289;&#36131;&#25253;</span></li>
+          <li><span data-lang="en">&#127757; <strong>World</strong> &#8212; geopolitics, international events</span><span data-lang="zh">&#127757; <strong>&#22269;&#38469;</strong> &#8212; &#22320;&#32531;&#25919;&#27835;&#12289;&#22269;&#38469;&#20107;&#20214;</span></li>
+          <li><span data-lang="en">&#9917; <strong>Sports</strong> &#8212; football, NBA, tennis, golf&#8230;</span><span data-lang="zh">&#9917; <strong>&#20307;&#32946;</strong> &#8212; &#36275;&#29699;&#12289;NBA&#12289;&#32593;&#29699;&#12289;&#39640;&#23572;&#22560;&#8230;</span></li>
+          <li><span data-lang="en">&#8383; <strong>Crypto</strong> &#8212; Bitcoin, Ethereum, DeFi</span><span data-lang="zh">&#8383; <strong>&#21152;&#23494;</strong> &#8212; &#27604;&#29305;&#24065;&#12289;&#20197;&#22826;&#22362;&#12289;DeFi</span></li>
+        </ul>
+      </div>
+
+      <hr class="guide-divider" />
+
+      <div class="guide-section">
+        <h3><span data-lang="en">Newsletter</span><span data-lang="zh">&#37038;&#20214;&#35746;&#38405;</span></h3>
+        <p>
+          <span data-lang="en">Subscribe at the bottom of the page. Every 8 hours, after fresh data is generated, you receive the top 3 insights with a link back to the full site.</span>
+          <span data-lang="zh">&#22312;&#39029;&#38754;&#24213;&#37096;&#35746;&#38405;&#12290;&#27599; 8 &#23567;&#26102;&#29983;&#25104;&#26032;&#25968;&#25454;&#21518;&#65292;&#24744;&#23558;&#25910;&#21040;&#21069; 3 &#26465;&#27512;&#23519;&#30340;&#37038;&#20214;&#65292;&#38468;&#26377;&#23436;&#25972;&#32593;&#31449;&#38142;&#25509;&#12290;</span>
+        </p>
+      </div>
+
+      <hr class="guide-divider" />
+
+      <div class="guide-section">
+        <h3>&#129302; <span data-lang="en">API / MCP for AI Agents</span><span data-lang="zh">&#20379; AI &#35843;&#29992;&#30340; API / MCP</span></h3>
+        <p>
+          <span data-lang="en">PolyLens exposes a <strong>Model Context Protocol (MCP)</strong> endpoint so AI assistants (Claude, GPT, etc.) can read live market intelligence as a built-in tool.</span>
+          <span data-lang="zh">PolyLens &#25552;&#20379; <strong>Model Context Protocol (MCP)</strong> &#31471;&#28857;&#65292;&#20379; AI &#21161;&#25163;&#65288;Claude&#12289;GPT &#31561;&#65289;&#20197;&#24037;&#20855;&#26041;&#24335;&#35835;&#21462;&#23454;&#26102;&#24066;&#22330;&#27512;&#23519;&#12290;</span>
+        </p>
+        <p>
+          <span data-lang="en"><strong>Endpoint:</strong> <code>https://www.hika.fyi/api/mcp</code></span>
+          <span data-lang="zh"><strong>&#31471;&#28857;&#65306;</strong> <code>https://www.hika.fyi/api/mcp</code></span>
+        </p>
+        <p style="margin-top:10px">
+          <span data-lang="en"><strong>Tools:</strong></span>
+          <span data-lang="zh"><strong>&#21487;&#29992;&#24037;&#20855;&#65306;</strong></span>
+        </p>
+        <ul>
+          <li>
+            <code>get_insights</code>
+            <span data-lang="en"> &#8212; fetch insights, filter by <code>category</code> + <code>lang</code></span>
+            <span data-lang="zh"> &#8212; &#33719;&#21462;&#27512;&#23519;&#65292;&#21487;&#25353; <code>category</code> &#21644; <code>lang</code> &#31807;&#36873;</span>
+          </li>
+          <li>
+            <code>get_market_summary</code>
+            <span data-lang="en"> &#8212; one-paragraph current market overview</span>
+            <span data-lang="zh"> &#8212; &#24403;&#21069;&#24066;&#22330;&#29366;&#20917;&#30340;&#31616;&#35201;&#26174;&#36848;</span>
+          </li>
+        </ul>
+        <pre>curl https://www.hika.fyi/api/mcp \
+  -X POST -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call",
+       "params":{"name":"get_insights",
+                 "arguments":{"limit":3}}}'</pre>
+        <p style="margin-top:12px">
+          <span data-lang="en">
+            Raw data: <a class="guide-link" href="/data.json" target="_blank"><code>/data.json</code></a> &#183;
+            Discovery: <a class="guide-link" href="/.well-known/mcp.json" target="_blank"><code>/.well-known/mcp.json</code></a>
+          </span>
+          <span data-lang="zh">
+            &#21407;&#22987;&#25968;&#25454;&#65306;<a class="guide-link" href="/data.json" target="_blank"><code>/data.json</code></a> &#183;
+            &#26381;&#21153;&#21457;&#29616;&#65306;<a class="guide-link" href="/.well-known/mcp.json" target="_blank"><code>/.well-known/mcp.json</code></a>
+          </span>
+        </p>
+      </div>
+
+      <hr class="guide-divider" />
+
+      <div class="guide-section">
+        <h3><span data-lang="en">Data Sources</span><span data-lang="zh">&#25968;&#25454;&#26469;&#28304;</span></h3>
+        <ul>
+          <li><span data-lang="en"><strong>Polymarket</strong> &#8212; market prices, volumes, 24h changes</span><span data-lang="zh"><strong>Polymarket</strong> &#8212; &#24066;&#22330;&#20215;&#26684;&#12289;&#25104;&#20132;&#37327;&#12289;24h &#21464;&#21270;</span></li>
+          <li><span data-lang="en"><strong>Tavily</strong> &#8212; real-time news search with full snippets</span><span data-lang="zh"><strong>Tavily</strong> &#8212; &#23454;&#26102;&#26032;&#38397;&#25628;&#32034;&#65292;&#21547;&#23436;&#25972;&#25688;&#35201;</span></li>
+          <li><span data-lang="en"><strong>Gemini / GPT-4o-mini</strong> &#8212; AI analysis, bilingual insight generation</span><span data-lang="zh"><strong>Gemini / GPT-4o-mini</strong> &#8212; AI &#20998;&#26512;&#65292;&#21452;&#35821;&#27512;&#23519;&#29983;&#25104;</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <script>
   function setLang(lang) {
@@ -381,11 +608,9 @@
 
   function setTab(btn) {
     const cat = btn.dataset.cat;
-    // Update tab buttons
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     btn.classList.add('active');
     localStorage.setItem('polylens-tab', cat);
-    // Filter cards
     let visible = 0;
     document.querySelectorAll('.feed-item').forEach(el => {
       const match = cat === 'all' || el.dataset.category === cat;
@@ -396,31 +621,52 @@
     if (noRes) noRes.style.display = visible === 0 ? 'block' : 'none';
   }
 
-  // Auto-detect on load: localStorage > navigator.language
+  function toggleSidebar() {
+    document.getElementById('sidebar').classList.toggle('open');
+    document.getElementById('sidebar-overlay').classList.toggle('open');
+  }
+  function closeSidebar() {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebar-overlay').classList.remove('open');
+  }
+
+  function showGuide() {
+    document.getElementById('guide-overlay').classList.add('open');
+    document.getElementById('nav-guide').classList.add('active');
+    document.getElementById('nav-home').classList.remove('active');
+    document.body.style.overflow = 'hidden';
+    closeSidebar();
+  }
+  function closeGuide() {
+    document.getElementById('guide-overlay').classList.remove('open');
+    document.getElementById('nav-guide').classList.remove('active');
+    document.getElementById('nav-home').classList.add('active');
+    document.body.style.overflow = '';
+  }
+  function showHome() { closeGuide(); closeSidebar(); }
+  function handleOverlayClick(e) {
+    if (e.target === document.getElementById('guide-overlay')) closeGuide();
+  }
+
   (function () {
     const saved = localStorage.getItem('polylens-lang');
-    const browser = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    const browser = (navigator.language || '').toLowerCase();
     const lang = saved || (browser.startsWith('zh') ? 'zh' : 'en');
     if (lang === 'zh') setLang('zh');
-
-    // Restore active tab
     const savedTab = localStorage.getItem('polylens-tab') || 'all';
-    const tabBtn = document.querySelector(`.tab[data-cat="${savedTab}"]`);
+    const tabBtn = document.querySelector('.tab[data-cat="' + savedTab + '"]');
     if (tabBtn && savedTab !== 'all') setTab(tabBtn);
   })();
 
-  // Subscribe form
   async function handleSubscribe(e) {
     e.preventDefault();
     const email = document.getElementById('sub-email').value.trim();
-    const btn   = document.getElementById('sub-btn');
-    const msg   = document.getElementById('subscribe-msg');
-    const isZh  = document.body.classList.contains('lang-zh');
-
+    const btn = document.getElementById('sub-btn');
+    const msg = document.getElementById('subscribe-msg');
+    const isZh = document.body.classList.contains('lang-zh');
     btn.disabled = true;
     msg.className = 'subscribe-msg';
-    msg.textContent = isZh ? '提交中…' : 'Submitting…';
-
+    msg.textContent = isZh ? '\u63d0\u4ea4\u4e2d\u2026' : 'Submitting\u2026';
     try {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
@@ -431,19 +677,16 @@
       if (data.success) {
         msg.className = 'subscribe-msg ok';
         msg.textContent = isZh
-          ? (data.already ? '您已订阅 ✓' : '订阅成功！感谢支持 ✓')
-          : (data.already ? 'Already subscribed ✓' : 'Subscribed! Thank you ✓');
+          ? (data.already ? '\u60a8\u5df2\u8ba2\u9605 \u2713' : '\u8ba2\u9605\u6210\u529f\uff01\u611f\u8c22\u652f\u6301 \u2713')
+          : (data.already ? 'Already subscribed \u2713' : 'Subscribed! Thank you \u2713');
         document.getElementById('sub-email').value = '';
-      } else {
-        throw new Error(data.error || 'Unknown error');
-      }
-    } catch (err) {
+      } else { throw new Error(data.error || 'error'); }
+    } catch {
       msg.className = 'subscribe-msg err';
-      msg.textContent = isZh ? '订阅失败，请稍后重试。' : 'Failed to subscribe, please try again.';
+      msg.textContent = isZh ? '\u8ba2\u9605\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002' : 'Failed, please try again.';
       btn.disabled = false;
     }
   }
 </script>
-
 </body>
 </html>

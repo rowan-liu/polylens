@@ -1,0 +1,17 @@
+{
+  "name": "polylens",
+  "version": "1.0.0",
+  "description": "PolyLens — AI-powered prediction market intelligence. Analyze trending Polymarket markets with real-time AI insights.",
+  "mcp_endpoint": "https://www.hika.fyi/api/mcp",
+  "transport": "http",
+  "tools": [
+    {
+      "name": "get_insights",
+      "description": "Get latest AI-analyzed prediction market insights. Filter by category (politics, ai_tech, economy, business, world, sports, crypto) and language (en/zh)."
+    },
+    {
+      "name": "get_market_summary",
+      "description": "Get a brief text summary of current Polymarket trends across all categories."
+    }
+  ]
+}

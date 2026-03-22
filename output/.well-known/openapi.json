@@ -1,0 +1,89 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "PolyLens API",
+    "description": "AI-powered prediction market intelligence via MCP (Model Context Protocol)",
+    "version": "1.0.0"
+  },
+  "servers": [{ "url": "https://www.hika.fyi" }],
+  "paths": {
+    "/api/mcp": {
+      "get": {
+        "summary": "Discover MCP capabilities",
+        "operationId": "discoverMcp",
+        "responses": {
+          "200": {
+            "description": "MCP server info and tool list",
+            "content": { "application/json": { "schema": { "type": "object" } } }
+          }
+        }
+      },
+      "post": {
+        "summary": "Call an MCP tool (JSON-RPC 2.0)",
+        "operationId": "callMcp",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["jsonrpc", "method"],
+                "properties": {
+                  "jsonrpc": { "type": "string", "enum": ["2.0"] },
+                  "id": { "type": ["string", "number", "null"] },
+                  "method": {
+                    "type": "string",
+                    "enum": ["initialize", "tools/list", "tools/call"]
+                  },
+                  "params": { "type": "object" }
+                }
+              },
+              "examples": {
+                "get_insights": {
+                  "summary": "Get latest insights",
+                  "value": {
+                    "jsonrpc": "2.0",
+                    "id": 1,
+                    "method": "tools/call",
+                    "params": {
+                      "name": "get_insights",
+                      "arguments": { "category": "all", "limit": 5, "lang": "en" }
+                    }
+                  }
+                },
+                "get_market_summary": {
+                  "summary": "Get market summary",
+                  "value": {
+                    "jsonrpc": "2.0",
+                    "id": 1,
+                    "method": "tools/call",
+                    "params": { "name": "get_market_summary", "arguments": {} }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "JSON-RPC response",
+            "content": { "application/json": { "schema": { "type": "object" } } }
+          }
+        }
+      }
+    },
+    "/data.json": {
+      "get": {
+        "summary": "Raw insight data",
+        "operationId": "getRawData",
+        "description": "Full JSON payload: list of topics with market data, AI insights (en+zh), category, and news sources.",
+        "responses": {
+          "200": {
+            "description": "Insight data",
+            "content": { "application/json": { "schema": { "type": "object" } } }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "PolyLens",
+  "name_for_model": "polylens",
+  "description_for_human": "AI-powered prediction market intelligence. Get real-time analysis of trending Polymarket markets.",
+  "description_for_model": "Use PolyLens to fetch AI-analyzed prediction market insights from Polymarket. Call get_insights to retrieve the latest market movements with probability changes, AI summaries, and key drivers. Use get_market_summary for a quick overview. Optionally filter by category: politics, ai_tech, economy, business, world, sports, crypto. Supports English and Chinese (lang: en/zh).",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.hika.fyi/.well-known/openapi.json"
+  },
+  "logo_url": "https://www.hika.fyi/favicon.ico",
+  "contact_email": "hi@hika.fyi",
+  "legal_info_url": "https://www.hika.fyi"
+}
