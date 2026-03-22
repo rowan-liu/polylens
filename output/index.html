@@ -299,12 +299,32 @@
     /* Snapshot cards reuse existing article styles but lighter header */
     .history-snapshot-header {
       margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
     }
-    .history-snapshot-header h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
-    .history-snapshot-header a {
-      font-size: 12px; color: var(--accent); text-decoration: none; font-family: var(--mono);
+    .history-snapshot-header h3 { font-size: 14px; font-weight: 600; color: var(--text); }
+    .history-snapshot-header small { font-size: 11px; color: var(--muted); font-family: var(--mono); }
+    .history-action-btns { display: flex; gap: 8px; flex-shrink: 0; }
+    .h-btn {
+      font-size: 12px; padding: 5px 12px; border-radius: 6px; cursor: pointer;
+      border: 1px solid var(--border); background: none; color: var(--muted);
+      font-family: var(--font); transition: all 0.15s; white-space: nowrap;
     }
-    .history-snapshot-header a:hover { text-decoration: underline; }
+    .h-btn:hover { color: var(--text); border-color: #555; }
+    .h-btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .h-btn.primary:hover { opacity: 0.85; }
+    .h-btn.copied { background: rgba(34,197,94,0.15); border-color: var(--up); color: var(--up); }
+    /* Markdown view */
+    .history-md-wrap {
+      display: none; margin-bottom: 20px;
+    }
+    .history-md-wrap.open { display: block; }
+    .history-md-wrap textarea {
+      width: 100%; height: 280px; background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px;
+      color: #b8b8cc; font-family: var(--mono); font-size: 11.5px; line-height: 1.65;
+      resize: vertical; outline: none;
+    }
+    .history-md-wrap textarea:focus { border-color: var(--accent); }
     .history-cards { display: flex; flex-direction: column; gap: 10px; }
     .h-card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; }
     .h-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 5px; }
@@ -313,6 +333,10 @@
     .h-card-change { font-family: var(--mono); font-size: 11px; font-weight: 600; padding: 2px 5px; border-radius: 4px; }
     .h-card-q { font-size: 11px; color: var(--muted); font-style: italic; margin-bottom: 10px; }
     .h-card-summary { font-size: 13px; color: #c0c0cc; line-height: 1.6; }
+    .h-card-drivers { margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
+    .h-card-driver { font-size: 12px; color: #b0b0bc; padding-left: 13px; position: relative; line-height: 1.5; }
+    .h-card-driver::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-size: 10px; top: 2px; }
+    .h-card-why { font-size: 12px; color: #9090a0; padding: 8px 12px; background: rgba(124,106,247,0.06); border-left: 2px solid var(--accent); border-radius: 0 4px 4px 0; margin-top: 8px; line-height: 1.55; }
     .h-card-footer { margin-top: 10px; font-size: 11px; color: var(--muted); font-family: var(--mono); display: flex; gap: 12px; flex-wrap: wrap; }
     .h-card-footer a { color: var(--muted); text-decoration: none; }
     .h-card-footer a:hover { color: var(--accent); }
@@ -331,6 +355,11 @@
       .prob-value { font-size: 18px; }
       .subscribe-form { flex-direction: column; }
       .guide-panel { max-width: 100%; }
+      .history-panel { max-width: 100%; }
+      .history-body { flex-direction: column; }
+      .history-list { width: 100%; max-height: 120px; border-right: none; border-bottom: 1px solid var(--border); display: flex; overflow-x: auto; overflow-y: hidden; padding: 6px 0; white-space: nowrap; }
+      .history-item { display: inline-block; padding: 7px 14px; border-left: none; border-bottom: 2px solid transparent; }
+      .history-item.active { border-bottom-color: var(--accent); border-left-color: transparent; }
     }
   </style>
 </head>
@@ -1147,38 +1176,61 @@
   function renderSnapshot(data, container, slug) {
     const isZh = document.body.classList.contains('lang-zh');
     const topics = data.topics || [];
-    let html = '<div class="history-snapshot-header">'
-      + '<h3>' + (isZh ? '&#36523;&#20221;&#26102;&#38388;&#65306;' : 'Snapshot: ') + data.generated_at_readable + '</h3>'
-      + '<a href="/archive/' + slug + '.md" target="_blank" download>'
-        + (isZh ? '&#19979;&#36733; Markdown &#25991;&#31574; &darr;' : 'Download Markdown article &darr;')
-      + '</a>'
-      + '</div>'
-      + '<div class="history-cards">';
+    const mdId = 'md-' + slug;
 
-    topics.forEach(item => {
+    // Header: timestamp + action buttons
+    let html = '<div class="history-snapshot-header">'
+      + '<div><h3>' + data.generated_at_readable + '</h3>'
+      + '<small>' + topics.length + ' topics</small></div>'
+      + '<div class="history-action-btns">'
+        + '<button class="h-btn" onclick="toggleMd(\'' + slug + '\')" id="btn-md-' + slug + '">'
+          + (isZh ? '&#25968;&#25454; MD' : 'View MD')
+        + '</button>'
+        + '<button class="h-btn primary" id="btn-copy-' + slug + '" onclick="copyMd(\'' + slug + '\')">'
+          + (isZh ? '&#22797;&#21046; Markdown' : 'Copy Markdown')
+        + '</button>'
+      + '</div>'
+      + '</div>';
+
+    // Collapsible raw markdown textarea
+    html += '<div class="history-md-wrap" id="' + mdId + '">'
+      + '<textarea id="ta-' + slug + '" readonly placeholder="Loading\u2026"></textarea>'
+      + '</div>';
+
+    // Readable cards
+    html += '<div class="history-cards">';
+    topics.forEach((item, idx) => {
       const m = item.market;
       const ins = item.insight;
-      const lang = isZh ? (ins.zh || ins.en) : (ins.en || ins.zh);
+      const langIns = isZh ? (ins.zh || ins.en) : (ins.en || ins.zh);
       const isUp = m.change_24h >= 0;
       const prob = (m.probability * 100).toFixed(0) + '%';
       const chg = (isUp ? '+' : '') + (m.change_24h * 100).toFixed(1) + '%';
       const probColor = isUp ? 'var(--up)' : 'var(--down)';
       const chgBg = isUp ? 'rgba(34,197,94,0.12)' : 'rgba(239,68,68,0.12)';
+      const drivers = (langIns.drivers || []).map(d =>
+        '<div class="h-card-driver">' + d + '</div>'
+      ).join('');
+      const why = langIns.why_matters
+        ? '<div class="h-card-why">' + langIns.why_matters + '</div>' : '';
       const sources = (item.news || []).slice(0, 3).map((n, i) =>
         '<a href="' + n.url + '" target="_blank" rel="noopener">' + (i + 1) + '</a>'
       ).join(' ');
 
       html += '<div class="h-card">'
         + '<div class="h-card-top">'
-          + '<div class="h-card-title">' + (lang.title || '') + '</div>'
+          + '<div class="h-card-title">' + (idx + 1) + '. ' + (langIns.title || '') + '</div>'
           + '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0">'
             + '<span class="h-card-prob" style="color:' + probColor + '">' + prob + '</span>'
             + '<span class="h-card-change" style="background:' + chgBg + ';color:' + probColor + '">' + chg + '</span>'
           + '</div>'
         + '</div>'
         + '<div class="h-card-q">' + m.question + '</div>'
-        + '<div class="h-card-summary">' + (lang.summary || '') + '</div>'
+        + '<div class="h-card-summary">' + (langIns.summary || '') + '</div>'
+        + (drivers ? '<div class="h-card-drivers">' + drivers + '</div>' : '')
+        + why
         + '<div class="h-card-footer">'
+          + '<span>Vol: $' + m.volume_24h.toLocaleString() + '</span>'
           + '<a href="' + m.url + '" target="_blank" rel="noopener">Polymarket &#8599;</a>'
           + (sources ? '<span>' + (isZh ? '&#26469;&#28304;: ' : 'Sources: ') + sources + '</span>' : '')
         + '</div>'
@@ -1186,6 +1238,54 @@
     });
     html += '</div>';
     container.innerHTML = html;
+  }
+
+  // Toggle raw MD textarea visible + lazy-load content
+  async function toggleMd(slug) {
+    const wrap = document.getElementById('md-' + slug);
+    const ta = document.getElementById('ta-' + slug);
+    const btn = document.getElementById('btn-md-' + slug);
+    const isZh = document.body.classList.contains('lang-zh');
+    if (wrap.classList.toggle('open')) {
+      btn.textContent = isZh ? '&#x2715; &#20851;&#38381;' : '&#x2715; Close';
+      if (!ta.value) {
+        ta.value = 'Loading\u2026';
+        const res = await fetch('/archive/' + slug + '.md?' + Date.now());
+        ta.value = res.ok ? await res.text() : 'Failed to load.';
+      }
+    } else {
+      btn.textContent = isZh ? '&#25968;&#25454; MD' : 'View MD';
+    }
+  }
+
+  // Copy markdown to clipboard
+  async function copyMd(slug) {
+    const btn = document.getElementById('btn-copy-' + slug);
+    const isZh = document.body.classList.contains('lang-zh');
+    const ta = document.getElementById('ta-' + slug);
+    try {
+      let md = ta && ta.value && ta.value !== 'Loading\u2026' ? ta.value : null;
+      if (!md) {
+        const res = await fetch('/archive/' + slug + '.md?' + Date.now());
+        md = res.ok ? await res.text() : null;
+        if (ta && md) ta.value = md; // cache in textarea
+      }
+      if (!md) throw new Error('no content');
+      await navigator.clipboard.writeText(md);
+      btn.textContent = isZh ? '&#x2713; &#24050;&#22797;&#21046;' : '&#x2713; Copied!';
+      btn.classList.add('copied');
+      btn.classList.remove('primary');
+      setTimeout(() => {
+        btn.textContent = isZh ? '&#22797;&#21046; Markdown' : 'Copy Markdown';
+        btn.classList.remove('copied');
+        btn.classList.add('primary');
+      }, 2500);
+    } catch {
+      btn.textContent = isZh ? '&#22797;&#21046;&#22833;&#36133;' : 'Copy failed';
+      setTimeout(() => {
+        btn.textContent = isZh ? '&#22797;&#21046; Markdown' : 'Copy Markdown';
+      }, 2000);
+    }
   }
 
   (function () {
