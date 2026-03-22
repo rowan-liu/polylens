@@ -517,7 +517,7 @@ def save_archive(data: dict) -> None:
 
     # Use the UTC timestamp from data to create a stable filename
     ts = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
-    slug = ts.strftime("%Y-%m-%d-%H")       # e.g. 2026-03-22-07
+    slug = ts.strftime("%Y-%m-%d")           # one file per day, latest run wins
     date_label = ts.strftime("%b %d, %Y %H:%M UTC")
 
     # 1. Markdown
@@ -556,17 +556,17 @@ def save_archive(data: dict) -> None:
     else:
         index = {"snapshots": []}
 
-    # Upsert by slug
-    existing_slugs = {s["slug"] for s in index["snapshots"]}
-    if slug not in existing_slugs:
-        index["snapshots"].insert(0, {
-            "slug": slug,
-            "label": date_label,
-            "generated_at": data["generated_at"],
-            "count": len(data["topics"]),
-        })
-        # Keep at most 90 snapshots (~30 days × 3/day)
-        index["snapshots"] = index["snapshots"][:90]
+    # Upsert by slug — always update entry for today (latest run wins)
+    new_entry = {
+        "slug": slug,
+        "label": date_label,
+        "generated_at": data["generated_at"],
+        "count": len(data["topics"]),
+    }
+    index["snapshots"] = [s for s in index["snapshots"] if s["slug"] != slug]
+    index["snapshots"].insert(0, new_entry)
+    # Keep at most 90 days
+    index["snapshots"] = index["snapshots"][:90]
 
     index_path.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
     log.info("Updated archive index: %d entries", len(index["snapshots"]))

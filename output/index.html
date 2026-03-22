@@ -313,6 +313,9 @@
     .h-btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
     .h-btn.primary:hover { opacity: 0.85; }
     .h-btn.copied { background: rgba(34,197,94,0.15); border-color: var(--up); color: var(--up); }
+    .h-btn.wechat { background: #07c160; border-color: #07c160; color: #fff; }
+    .h-btn.wechat:hover { opacity: 0.85; }
+    .h-btn.wechat:disabled { opacity: 0.5; cursor: default; }
     /* Markdown view */
     .history-md-wrap {
       display: none; margin-bottom: 20px;
@@ -1189,6 +1192,9 @@
         + '<button class="h-btn primary" id="btn-copy-' + slug + '" onclick="copyMd(\'' + slug + '\')">'
           + (isZh ? '&#22797;&#21046; Markdown' : 'Copy Markdown')
         + '</button>'
+        + '<button class="h-btn wechat" id="btn-wx-' + slug + '" onclick="sendToWechat(\'' + slug + '\')" title="Save draft to WeChat Official Account">'
+          + '&#x516C;&#x4F17;&#x53F7; &#x8349;&#x7A3F;'
+        + '</button>'
       + '</div>'
       + '</div>';
 
@@ -1285,6 +1291,39 @@
       setTimeout(() => {
         btn.textContent = isZh ? '&#22797;&#21046; Markdown' : 'Copy Markdown';
       }, 2000);
+    }
+  }
+
+  // Send snapshot as WeChat draft
+  async function sendToWechat(slug) {
+    const btn = document.getElementById('btn-wx-' + slug);
+    const orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = '&#x53D1;&#x9001;&#x4E2D;\u2026';
+    try {
+      const res = await fetch('/api/wechat-draft', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        btn.textContent = '&#x2713; &#x8349;&#x7A3F;&#x5DF2;&#x4FDD;&#x5B58;';
+        btn.style.background = '#05a350';
+        setTimeout(() => {
+          btn.textContent = orig;
+          btn.style.background = '';
+          btn.disabled = false;
+        }, 4000);
+      } else {
+        alert('WeChat error: ' + (data.error || JSON.stringify(data)));
+        btn.textContent = orig;
+        btn.disabled = false;
+      }
+    } catch (err) {
+      alert('Request failed: ' + err.message);
+      btn.textContent = orig;
+      btn.disabled = false;
     }
   }
 
