@@ -600,6 +600,8 @@
         data-en-summary="{{ ins.en.summary | e }}"
         data-zh-title="{{ (ins.zh.title or ins.en.title) | e }}"
         data-zh-summary="{{ (ins.zh.summary or ins.en.summary) | e }}"
+        data-en-drivers="{{ (ins.en.drivers or []) | join('||') | e }}"
+        data-zh-drivers="{{ (ins.zh.drivers or ins.en.drivers or []) | join('||') | e }}"
         data-q="{{ m.question | e }}">
         <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
         <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
@@ -1442,6 +1444,8 @@
     const isZh    = document.body.classList.contains('lang-zh');
     const title   = (isZh ? bar.dataset.zhTitle   : bar.dataset.enTitle)   || '';
     const summary = (isZh ? bar.dataset.zhSummary : bar.dataset.enSummary) || '';
+    const driversRaw = (isZh ? bar.dataset.zhDrivers : bar.dataset.enDrivers) || '';
+    const drivers = driversRaw ? driversRaw.split('||').filter(Boolean) : [];
     const prob    = bar.dataset.prob + '%';
     const chg     = bar.dataset.chg;
     const isUp    = !chg.startsWith('-');
@@ -1469,43 +1473,33 @@
     accentGrad.addColorStop(0, '#9b8ffa'); accentGrad.addColorStop(1, '#5b4fd4');
     c.fillStyle = accentGrad; c.fillRect(0, 0, 5, H);
 
-    // ── Brand row (y=52) ────────────────────────────────────────────────
-    c.font = `bold 18px ${FONT}`;
-    c.fillStyle = '#7c6af7';
+    // ── Brand row ────────────────────────────────────────────────────────
+    c.font = `bold 18px ${FONT}`; c.fillStyle = '#7c6af7';
     c.fillText('🔮 PolyLens', PAD, 52);
-    c.fillStyle = '#444450';
-    c.font = `15px ${FONT}`;
+    c.fillStyle = '#444450'; c.font = `15px ${FONT}`;
     c.textAlign = 'right'; c.fillText('hika.fyi', W - PAD, 52); c.textAlign = 'left';
-
-    // Divider
     c.strokeStyle = '#1e1e22'; c.lineWidth = 1;
     c.beginPath(); c.moveTo(PAD, 66); c.lineTo(W - PAD, 66); c.stroke();
 
-    // ── Market question (y=90, 1 line truncated) ────────────────────────
-    c.fillStyle = '#3e3e4a';
-    c.font = `13px ${FONT}`;
-    let qDisplay = q;
-    while (qDisplay.length > 10 && c.measureText(qDisplay + '…').width > MAXW)
-      qDisplay = qDisplay.slice(0, -1);
-    if (qDisplay.length < q.length) qDisplay += '…';
-    c.fillText(qDisplay, PAD, 90);
+    // ── Market question (1 line) ─────────────────────────────────────────
+    c.fillStyle = '#3e3e4a'; c.font = `13px ${FONT}`;
+    let qd = q;
+    while (qd.length > 10 && c.measureText(qd + '…').width > MAXW) qd = qd.slice(0,-1);
+    if (qd.length < q.length) qd += '…';
+    c.fillText(qd, PAD, 90);
 
-    // ── Title (starts y=118, max 2 lines, lh=36) ────────────────────────
-    c.fillStyle = '#e8e8ec';
-    c.font = `bold 25px ${FONT}`;
+    // ── Title (max 2 lines, lh=36) ───────────────────────────────────────
+    c.fillStyle = '#e8e8ec'; c.font = `bold 25px ${FONT}`;
     const titleEndY = _wrapText(c, title, PAD, 118, MAXW, 36, 2);
 
-    // ── Probability row ─────────────────────────────────────────────────
+    // ── Probability + change badge ───────────────────────────────────────
     const probY = Math.max(titleEndY + 44, 210);
     const accentColor = isUp ? '#22c55e' : '#ef4444';
-    c.fillStyle = accentColor;
-    c.font = `bold 58px ${FONT}`;
+    c.fillStyle = accentColor; c.font = `bold 58px ${FONT}`;
     c.fillText(prob, PAD, probY);
     const probW = c.measureText(prob).width;
 
-    // Change badge (inline, right of probability)
-    const badgeX = PAD + probW + 16;
-    const badgeY = probY - 42;
+    const badgeX = PAD + probW + 16, badgeY = probY - 42;
     const badgeTxt = (isUp ? '▲' : '▼') + ' ' + chg;
     c.font = `bold 17px ${FONT}`;
     const badgeW = c.measureText(badgeTxt).width + 20;
@@ -1514,9 +1508,7 @@
     c.fillStyle = accentColor;
     c.fillText(badgeTxt, badgeX + 10, badgeY + 19);
 
-    // "YES probability" label
-    c.fillStyle = '#444450';
-    c.font = `12px ${FONT}`;
+    c.fillStyle = '#444450'; c.font = `12px ${FONT}`;
     c.fillText('YES probability', PAD, probY + 20);
 
     // Divider
@@ -1524,22 +1516,39 @@
     c.strokeStyle = '#1e1e22'; c.lineWidth = 1;
     c.beginPath(); c.moveTo(PAD, divY); c.lineTo(W - PAD, divY); c.stroke();
 
-    // ── Summary (starts divY+26, max 6 lines, lh=26) ───────────────────
-    c.fillStyle = '#9090a0';
-    c.font = `16px ${FONT}`;
-    _wrapText(c, summary, PAD, divY + 26, MAXW, 26, 6);
+    // ── Summary (max 3 lines) ────────────────────────────────────────────
+    c.fillStyle = '#9090a0'; c.font = `16px ${FONT}`;
+    const sumEndY = _wrapText(c, summary, PAD, divY + 26, MAXW, 26, 3);
 
-    // ── Bottom bar ──────────────────────────────────────────────────────
-    c.fillStyle = '#080808';
-    c.fillRect(0, H - 72, W, 72);
+    // ── Key Drivers ──────────────────────────────────────────────────────
+    if (drivers.length > 0) {
+      let dy = sumEndY + 22;
+      c.fillStyle = '#555560'; c.font = `bold 11px ${FONT}`;
+      c.fillText(isZh ? '核心驱动' : 'KEY DRIVERS', PAD, dy);
+      dy += 18;
+
+      const dotR = 3, dotPad = 14;
+      c.font = `14px ${FONT}`;
+      for (const driver of drivers.slice(0, 3)) {
+        if (dy > H - 82) break;
+        c.fillStyle = '#7c6af7';
+        c.beginPath(); c.arc(PAD + dotR, dy - dotR - 1, dotR, 0, Math.PI * 2); c.fill();
+        c.fillStyle = '#c0c0cc';
+        let dt = driver;
+        while (dt.length > 5 && c.measureText(dt + '…').width > MAXW - dotPad) dt = dt.slice(0,-1);
+        if (dt.length < driver.length) dt += '…';
+        c.fillText(dt, PAD + dotPad, dy);
+        dy += 22;
+      }
+    }
+
+    // ── Bottom bar ───────────────────────────────────────────────────────
+    c.fillStyle = '#080808'; c.fillRect(0, H - 72, W, 72);
     c.strokeStyle = '#1e1e22'; c.lineWidth = 1;
     c.beginPath(); c.moveTo(0, H - 72); c.lineTo(W, H - 72); c.stroke();
-
-    c.fillStyle = '#333338';
-    c.font = `13px ${FONT}`;
-    c.fillText('polymarket.com  ·  ' + new Date().toLocaleDateString('en', {month:'short',day:'numeric',year:'numeric'}), PAD, H - 32);
-    c.fillStyle = '#7c6af7';
-    c.font = `bold 14px ${FONT}`;
+    c.fillStyle = '#333338'; c.font = `13px ${FONT}`;
+    c.fillText('polymarket.com  ·  ' + new Date().toLocaleDateString('en',{month:'short',day:'numeric',year:'numeric'}), PAD, H - 32);
+    c.fillStyle = '#7c6af7'; c.font = `bold 14px ${FONT}`;
     c.textAlign = 'right'; c.fillText('www.hika.fyi', W - PAD, H - 32); c.textAlign = 'left';
 
     _showImgModal(cvs);
