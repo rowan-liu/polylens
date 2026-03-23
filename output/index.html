@@ -2060,9 +2060,21 @@
     const browser = (navigator.language || '').toLowerCase();
     const lang = saved || (browser.startsWith('zh') ? 'zh' : 'en');
     if (lang === 'zh') setLang('zh');
+
+    // Hide tabs with zero items
+    const countByCat = {};
+    document.querySelectorAll('.feed-item').forEach(el => {
+      const cat = el.dataset.category;
+      countByCat[cat] = (countByCat[cat] || 0) + 1;
+    });
+    document.querySelectorAll('.tab[data-cat]').forEach(btn => {
+      const cat = btn.dataset.cat;
+      if (cat !== 'all' && !countByCat[cat]) btn.style.display = 'none';
+    });
+
     const savedTab = localStorage.getItem('polylens-tab') || 'all';
     const tabBtn = document.querySelector('.tab[data-cat="' + savedTab + '"]');
-    if (tabBtn && savedTab !== 'all') setTab(tabBtn);
+    if (tabBtn && savedTab !== 'all' && tabBtn.style.display !== 'none') setTab(tabBtn);
   })();
 
   async function handleSubscribe(e) {

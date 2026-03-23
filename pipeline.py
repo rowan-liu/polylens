@@ -44,26 +44,33 @@ NEWS_PER_TOPIC = 5
 
 # Category definitions (order matters for keyword matching)
 CATEGORIES = ["politics", "ai_tech", "economy", "business", "world", "sports", "crypto"]
+# Categories that get guaranteed fill-in slots if empty after main scoring
+GUARANTEED_CATS = ["ai_tech", "economy", "business", "world", "crypto"]
+CAT_MIN_SLOTS = 1   # at least this many per guaranteed category
 
 _CAT_KEYWORDS: dict[str, list[str]] = {
     "politics": ["election","president","senator","congress","parliament","prime minister",
                  "republican","democrat","vote","ballot","campaign","governor","nomination",
                  "white house","administration","impeach","cabinet","minister","chancellor"],
-    "ai_tech":  ["artificial intelligence"," ai ","gpt","openai","gemini","claude","llm",
-                 "machine learning","neural","robot","automation","tech ","software","apple",
-                 "google","microsoft","meta ","nvidia","chip","semiconductor"],
-    "economy":  ["fed ","federal reserve","rate cut","interest rate","inflation","gdp",
-                 "recession","employment","jobs","treasury","yield","tariff","trade war",
-                 "economic","economy","unemployment","cpi","pce"],
+    "ai_tech":  ["artificial intelligence","openai","gpt-","chatgpt","gemini","claude","llm",
+                 "machine learning","neural network","deep learning","automation",
+                 "nvidia","chip","semiconductor","tech giant","big tech","software",
+                 "apple inc","google search","microsoft ","meta platforms"],
+    "economy":  ["federal reserve","rate cut","interest rate","inflation","gdp",
+                 "recession","employment","jobs report","treasury","bond yield","tariff",
+                 "trade war","economic","economy","unemployment","cpi","pce",
+                 "stock market","s&p","dow jones","nasdaq"],
     "business": ["acquisition","merger","ipo","ceo","startup","valuation","revenue",
-                 "earnings","stock","shares","billion","company","market cap","deal"],
+                 "earnings","shares","billion dollar","company","market cap","deal",
+                 "bankruptcy","buyout","takeover"],
     "world":    ["war","conflict","peace","ceasefire","diplomatic","treaty","sanction",
                  "nato","nuclear","missile","troops","invasion","ukraine","russia","israel",
-                 "china","taiwan","iran","middle east","un "],
-    "sports":   ["nba","nfl","fifa","world cup","championship","league","tournament",
-                 "olympics","player","team","game","season","title","win the"],
+                 "china","taiwan","iran","middle east","united nations"],
+    "sports":   ["nba","nfl","nhl","mlb","fifa","world cup","championship","premier league",
+                 "olympics","tournament","grand slam","wimbledon","super bowl",
+                 "masters","pga","ufc","formula 1","f1 "],
     "crypto":   ["bitcoin","ethereum","crypto","blockchain","token","defi","btc","eth",
-                 "solana","binance","nft","web3","stablecoin"],
+                 "solana","binance","nft","web3","stablecoin","coinbase"],
 }
 
 
@@ -127,45 +134,74 @@ def parse_yes_probability(prices_raw) -> float:
 
 def rank_markets(raw: list[dict], top_n: int = TOP_N) -> list[dict]:
     """
-    Adaptive threshold: try 1% change first to keep quality high.
-    Fall back to 0.5%, then 0.3% until we fill top_n slots.
-    High-volume markets (>HIGH_VOL) bypass the change filter entirely.
+    Adaptive threshold: try 1% → 0.5% → 0.3% until top_n slots are filled.
+    Then guarantee at least CAT_MIN_SLOTS per GUARANTEED_CATS by pulling
+    best available market from that category (threshold as low as 0.2%).
     Score = abs_change*1000 + log10(volume)
     """
     import math
 
-    def _filter(min_change: float) -> list[dict]:
-        out = []
-        for m in raw:
-            volume = float(m.get("volume24hr") or 0)
-            change = float(m.get("oneDayPriceChange") or 0)
-            abs_change = abs(change)
-            if volume < MIN_VOLUME:
-                continue
-            if abs_change < min_change and volume < HIGH_VOL:
-                continue
-            score = round(abs_change * 1000 + math.log10(max(volume, 1)), 2)
-            out.append({
-                "id": m.get("id", ""),
-                "question": m.get("question", ""),
-                "probability": parse_yes_probability(m.get("outcomePrices")),
-                "change_24h": round(change, 4),
-                "volume_24h": round(volume, 2),
-                "score": score,
-                "url": f"https://polymarket.com/event/{m.get('slug', m.get('id', ''))}",
-            })
-        out.sort(key=lambda x: x["score"], reverse=True)
-        return out
+    def _score(volume: float, abs_change: float) -> float:
+        return round(abs_change * 1000 + math.log10(max(volume, 1)), 2)
 
+    def _parse(m: dict) -> dict | None:
+        volume = float(m.get("volume24hr") or 0)
+        change = float(m.get("oneDayPriceChange") or 0)
+        if volume < MIN_VOLUME:
+            return None
+        return {
+            "id": m.get("id", ""),
+            "question": m.get("question", ""),
+            "probability": parse_yes_probability(m.get("outcomePrices")),
+            "change_24h": round(change, 4),
+            "volume_24h": round(volume, 2),
+            "score": _score(volume, abs(change)),
+            "url": f"https://polymarket.com/event/{m.get('slug', m.get('id', ''))}",
+        }
+
+    # Pre-parse all markets above MIN_VOLUME
+    parsed = [r for m in raw if (r := _parse(m)) is not None]
+
+    # Step 1: adaptive threshold to fill main feed
     for threshold in (0.01, 0.005, 0.003):
-        candidates = _filter(threshold)
-        if len(candidates) >= top_n:
-            log.info("Using change threshold %.1f%% → %d candidates", threshold * 100, len(candidates))
+        main = [p for p in parsed if abs(p["change_24h"]) >= threshold or p["volume_24h"] >= HIGH_VOL]
+        if len(main) >= top_n:
+            log.info("Threshold %.1f%% → %d candidates", threshold * 100, len(main))
             break
     else:
-        log.info("Using lowest threshold 0.3%% → %d candidates", len(candidates))
+        main = [p for p in parsed if abs(p["change_24h"]) >= 0.003 or p["volume_24h"] >= HIGH_VOL]
 
-    return candidates[:top_n]
+    main.sort(key=lambda x: x["score"], reverse=True)
+    selected = main[:top_n]
+    selected_ids = {m["id"] for m in selected}
+
+    # Step 2: guaranteed category fill-in (low threshold: 0.2%)
+    cat_counts = {}
+    for m in selected:
+        cat = classify_category(m["question"])
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+
+    for cat in GUARANTEED_CATS:
+        if cat_counts.get(cat, 0) >= CAT_MIN_SLOTS:
+            continue
+        # Find best unselected market for this category (relax volume to 500)
+        candidates = [
+            p for p in parsed
+            if p["id"] not in selected_ids
+            and classify_category(p["question"]) == cat
+            and abs(p["change_24h"]) >= 0.002
+            and p["volume_24h"] >= 500
+        ]
+        candidates.sort(key=lambda x: x["score"], reverse=True)
+        for fill in candidates[:CAT_MIN_SLOTS - cat_counts.get(cat, 0)]:
+            selected.append(fill)
+            selected_ids.add(fill["id"])
+            cat_counts[cat] = cat_counts.get(cat, 0) + 1
+            log.info("  Filled category '%s' with: %s", cat, fill["question"][:60])
+
+    selected.sort(key=lambda x: x["score"], reverse=True)
+    log.info("Final selection: %d markets", len(selected))
+    return selected
 
 
 # ---------------------------------------------------------------------------
