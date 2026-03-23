@@ -20,7 +20,6 @@ export default async function handler(request) {
 
   const sbHeaders = {
     apikey: SB_KEY,
-    Authorization: `Bearer ${SB_KEY}`,
     "Content-Type": "application/json",
   };
 
