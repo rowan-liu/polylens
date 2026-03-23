@@ -8,6 +8,16 @@ const HEADERS = {
   "Access-Control-Allow-Headers": "Content-Type",
 };
 
+// Rate limit: max 3 comments per IP per 5 minutes
+const RATE_WINDOW_MS = 5 * 60 * 1000;
+const RATE_MAX = 3;
+
+async function hashIp(ip) {
+  const data = new TextEncoder().encode(ip + "polylens-2025");
+  const buf = await crypto.subtle.digest("SHA-256", data);
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 16);
+}
+
 export default async function handler(request) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: HEADERS });
 
@@ -18,14 +28,10 @@ export default async function handler(request) {
     return new Response(JSON.stringify({ error: "Supabase not configured" }), { status: 503, headers: HEADERS });
   }
 
-  const sbHeaders = {
-    apikey: SB_KEY,
-    "Content-Type": "application/json",
-  };
-
+  const sbHeaders = { apikey: SB_KEY, "Content-Type": "application/json" };
   const url = new URL(request.url);
 
-  // GET /api/comment?market_id=xxx — fetch comments for a market
+  // GET /api/comment?market_id=xxx
   if (request.method === "GET") {
     const marketId = url.searchParams.get("market_id");
     if (!marketId) return new Response(JSON.stringify({ error: "market_id required" }), { status: 400, headers: HEADERS });
@@ -34,11 +40,10 @@ export default async function handler(request) {
       `${SB_URL}/rest/v1/comments?market_id=eq.${encodeURIComponent(marketId)}&order=created_at.asc&select=id,author,side,content,created_at`,
       { headers: sbHeaders }
     );
-    const data = await res.json();
-    return new Response(JSON.stringify(data), { status: 200, headers: HEADERS });
+    return new Response(await res.text(), { status: 200, headers: HEADERS });
   }
 
-  // POST /api/comment — add a comment
+  // POST /api/comment
   if (request.method === "POST") {
     let body;
     try { body = await request.json(); } catch {
@@ -57,6 +62,28 @@ export default async function handler(request) {
       return new Response(JSON.stringify({ error: "Comment too short" }), { status: 400, headers: HEADERS });
     }
 
+    // ── Rate limiting ──────────────────────────────────────────────────────
+    const rawIp = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim()
+               || request.headers.get("x-real-ip")
+               || "unknown";
+    const ipHash = await hashIp(rawIp);
+
+    const since = new Date(Date.now() - RATE_WINDOW_MS).toISOString();
+    const countRes = await fetch(
+      `${SB_URL}/rest/v1/comments?ip_hash=eq.${ipHash}&created_at=gte.${since}&select=id`,
+      { headers: sbHeaders }
+    );
+    if (countRes.ok) {
+      const recent = await countRes.json();
+      if (Array.isArray(recent) && recent.length >= RATE_MAX) {
+        return new Response(
+          JSON.stringify({ error: `Rate limit: max ${RATE_MAX} comments per 5 minutes` }),
+          { status: 429, headers: HEADERS }
+        );
+      }
+    }
+    // ── End rate limiting ──────────────────────────────────────────────────
+
     const res = await fetch(`${SB_URL}/rest/v1/comments`, {
       method: "POST",
       headers: { ...sbHeaders, Prefer: "return=representation" },
@@ -66,12 +93,12 @@ export default async function handler(request) {
         author: (author || "").trim().slice(0, 50) || "Anonymous",
         side,
         content: text,
+        ip_hash: ipHash,
       }),
     });
 
     if (!res.ok) {
-      const err = await res.text();
-      console.error("Supabase error:", err);
+      console.error("Supabase error:", await res.text());
       return new Response(JSON.stringify({ error: "Failed to save comment" }), { status: 500, headers: HEADERS });
     }
     const data = await res.json();

@@ -315,36 +315,41 @@ def generate_insight(market: dict, news: list[dict]) -> dict:
 
 MARKET: {question}
 CURRENT PROBABILITY: {prob:.0%}
-24H CHANGE: {sign}{change:.1%} (probability has {direction})
+24H CHANGE: {sign}{change:.1%}
 
 RECENT HEADLINES:
 {news_block}
 
 TASK:
-Analyze the prediction market data and headlines. Explain why the probability moved.
+{"The probability barely moved today. Explain the CURRENT STATE — what drives it at this level, what signals to watch, why it matters." if abs(change) < 0.01 else "Explain what drove this probability movement. Be specific about events, people, data."}
+Also generate a concise bull case and bear case for this market.
 Produce output in BOTH English (en) and Simplified Chinese (zh).
 
-OUTPUT: Return ONLY a valid JSON object — no extra text, no markdown fences:
+OUTPUT: Return ONLY a valid JSON object — no markdown fences:
 {{
   "category": "politics|ai_tech|economy|business|world|sports|crypto|other",
   "en": {{
     "title": "<8 words max, action-oriented>",
-    "summary": "<2 sentences: what happened + why probability moved, cite specific events>",
+    "summary": "<2 sentences: current situation + key driver, cite specific events>",
     "drivers": ["<concrete driver <=15 words>", "<concrete driver <=15 words>", "<concrete driver <=15 words>"],
-    "why_matters": "<1-2 sentences on broader significance>"
+    "why_matters": "<1-2 sentences on broader significance>",
+    "bull_case": "<1 sentence: strongest reason probability goes higher, <=25 words>",
+    "bear_case": "<1 sentence: strongest reason probability goes lower, <=25 words>"
   }},
   "zh": {{
-    "title": "<8字以内，动作导向>",
-    "summary": "<2句话：发生了什么 + 为何概率变动，引用具体事件>",
+    "title": "<8字以内>",
+    "summary": "<2句话：当前状况+核心驱动，引用具体事件>",
     "drivers": ["<具体驱动因素，15字以内>", "<具体驱动因素，15字以内>", "<具体驱动因素，15字以内>"],
-    "why_matters": "<1-2句话，说明更广泛的意义>"
+    "why_matters": "<1-2句话，更广泛的意义>",
+    "bull_case": "<看多理由，25字以内>",
+    "bear_case": "<看空理由，25字以内>"
   }}
 }}
 
 RULES:
-- Be specific. Name events, people, data points.
-- Bad: "market sentiment improved". Good: "CPI fell to 2.4%, below 2.6% forecast".
-- 2-4 drivers only. Chinese must be natural, not literal translation.
+- Be specific. Name events, people, data points. Never say "market sentiment".
+- {"If little changed, explain WHAT keeps the probability at this level and WHY." if abs(change) < 0.01 else "Explain the specific catalyst for this move."}
+- 2-4 drivers only. Chinese must be natural, not a literal translation.
 - category must be exactly one of: politics, ai_tech, economy, business, world, sports, crypto, other."""
 
     try:
@@ -354,7 +359,7 @@ RULES:
         # Validate / backfill both language keys
         for lang in ("en", "zh"):
             insight.setdefault(lang, {})
-            for key in ("title", "summary", "why_matters"):
+            for key in ("title", "summary", "why_matters", "bull_case", "bear_case"):
                 insight[lang].setdefault(key, "")
             insight[lang].setdefault("drivers", [])
             if not isinstance(insight[lang]["drivers"], list):

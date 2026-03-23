@@ -364,6 +364,16 @@
       .history-item { display: inline-block; padding: 7px 14px; border-left: none; border-bottom: 2px solid transparent; }
       .history-item.active { border-bottom-color: var(--accent); border-left-color: transparent; }
     }
+    /* ── AI Bull / Bear perspectives ───────────────── */
+    .ai-perspectives { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+    .ai-view { border-radius: 8px; padding: 8px 10px; font-size: 12px; line-height: 1.5; }
+    .ai-view.bull { background: rgba(34,197,94,0.07); border: 1px solid rgba(34,197,94,0.2); }
+    .ai-view.bear { background: rgba(239,68,68,0.07); border: 1px solid rgba(239,68,68,0.2); }
+    .ai-view-label { display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; margin-bottom: 3px; }
+    .ai-view.bull .ai-view-label { color: var(--up); }
+    .ai-view.bear .ai-view-label { color: var(--down); }
+    .ai-view-body { color: var(--text); }
+    .ai-perspectives-divider { border: none; border-top: 1px solid var(--border); margin: 8px 0 10px; }
     /* ── Comment section ─────────────────────────── */
     .comment-section { border-top: 1px solid var(--border); margin-top: 14px; padding-top: 10px; }
     .comment-toggle {
@@ -566,6 +576,29 @@
           <span class="ct-count" id="cc-{{ m.id }}"></span>
         </button>
         <div class="comment-box" id="cb-{{ m.id }}">
+          {%- set bull_en = ins.en.get('bull_case','') -%}
+          {%- set bear_en = ins.en.get('bear_case','') -%}
+          {%- set bull_zh = ins.zh.get('bull_case','') -%}
+          {%- set bear_zh = ins.zh.get('bear_case','') -%}
+          {% if bull_en or bear_en %}
+          <div class="ai-perspectives">
+            {% if bull_en %}
+            <div class="ai-view bull">
+              <span class="ai-view-label">🐂 <span data-lang="en">AI Bull Case</span><span data-lang="zh">AI 多头观点</span></span>
+              <span class="ai-view-body" data-lang="en">{{ bull_en }}</span>
+              <span class="ai-view-body" data-lang="zh">{{ bull_zh or bull_en }}</span>
+            </div>
+            {% endif %}
+            {% if bear_en %}
+            <div class="ai-view bear">
+              <span class="ai-view-label">🐻 <span data-lang="en">AI Bear Case</span><span data-lang="zh">AI 空头观点</span></span>
+              <span class="ai-view-body" data-lang="en">{{ bear_en }}</span>
+              <span class="ai-view-body" data-lang="zh">{{ bear_zh or bear_en }}</span>
+            </div>
+            {% endif %}
+          </div>
+          <hr class="ai-perspectives-divider" />
+          {% endif %}
           <div class="comments-list" id="cl-{{ m.id }}">
             <div class="cmt-loading">Loading&#8230;</div>
           </div>
