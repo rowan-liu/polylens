@@ -364,6 +364,62 @@
       .history-item { display: inline-block; padding: 7px 14px; border-left: none; border-bottom: 2px solid transparent; }
       .history-item.active { border-bottom-color: var(--accent); border-left-color: transparent; }
     }
+    /* ── Comment section ─────────────────────────── */
+    .comment-section { border-top: 1px solid var(--border); margin-top: 14px; padding-top: 10px; }
+    .comment-toggle {
+      background: none; border: none; cursor: pointer; color: var(--muted);
+      font-size: 12px; display: flex; align-items: center; gap: 5px; padding: 2px 0;
+      transition: color 0.15s;
+    }
+    .comment-toggle:hover { color: var(--text); }
+    .ct-count { background: var(--border); border-radius: 8px; padding: 1px 6px; font-size: 11px; }
+    .comment-box { display: none; margin-top: 12px; }
+    .comment-box.open { display: block; }
+    .comments-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+    .cmt-item { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px; }
+    .cmt-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+    .cmt-author { font-weight: 600; color: var(--text); }
+    .cmt-time { color: var(--muted); font-size: 11px; }
+    .cmt-badge { border-radius: 4px; padding: 1px 6px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+    .cmt-badge.YES { background: rgba(34,197,94,0.15); color: var(--up); }
+    .cmt-badge.NO { background: rgba(239,68,68,0.15); color: var(--down); }
+    .cmt-badge.NEUTRAL { background: rgba(255,255,255,0.07); color: var(--muted); }
+    .cmt-text-body { color: var(--text); line-height: 1.5; }
+    .cmt-empty { color: var(--muted); font-size: 12px; text-align: center; padding: 12px 0; }
+    .cmt-loading { color: var(--muted); font-size: 12px; }
+    .comment-form { display: flex; flex-direction: column; gap: 8px; }
+    .side-picker { display: flex; gap: 6px; }
+    .s-btn {
+      flex: 1; padding: 5px 8px; border-radius: 6px; font-size: 12px; cursor: pointer;
+      border: 1px solid var(--border); background: var(--surface); color: var(--muted);
+      transition: all 0.15s;
+    }
+    .s-btn:hover { border-color: var(--accent); color: var(--text); }
+    .s-btn.active.yes { border-color: var(--up); color: var(--up); background: rgba(34,197,94,0.1); }
+    .s-btn.active.no { border-color: var(--down); color: var(--down); background: rgba(239,68,68,0.1); }
+    .s-btn.active.neutral { border-color: var(--accent); color: var(--accent); background: rgba(124,106,247,0.1); }
+    .cmt-name, .cmt-textarea {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 6px;
+      padding: 7px 10px; font-size: 12px; color: var(--text); font-family: var(--font);
+      outline: none; transition: border-color 0.15s;
+    }
+    .cmt-name { width: 100%; }
+    .cmt-textarea { width: 100%; resize: vertical; min-height: 64px; line-height: 1.5; }
+    .cmt-name:focus, .cmt-textarea:focus { border-color: var(--accent); }
+    .cmt-actions { display: flex; align-items: center; justify-content: space-between; }
+    .cmt-chars { font-size: 11px; color: var(--muted); }
+    .cmt-chars.warn { color: var(--down); }
+    .cmt-submit {
+      padding: 5px 14px; border-radius: 6px; font-size: 12px; font-weight: 600;
+      background: var(--accent); color: #fff; border: none; cursor: pointer; transition: opacity 0.15s;
+    }
+    .cmt-submit:hover:not(:disabled) { opacity: 0.85; }
+    .cmt-submit:disabled { opacity: 0.4; cursor: default; }
+    /* ── History distribution buttons ──────────────── */
+    .h-btn.twitter { background: #000; color: #fff; border: 1px solid #333; }
+    .h-btn.twitter:hover { background: #111; }
+    .h-btn.reddit { background: #ff4500; color: #fff; border: none; }
+    .h-btn.reddit:hover { opacity: 0.85; }
   </style>
 </head>
 <body>
@@ -502,6 +558,36 @@
           {% endfor %}
         </span>
         {% endif %}
+      </div>
+      <div class="comment-section" data-mid="{{ m.id }}" data-q="{{ m.question | e }}">
+        <button class="comment-toggle" onclick="toggleComments('{{ m.id }}')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-{{ m.id }}"></span>
+        </button>
+        <div class="comment-box" id="cb-{{ m.id }}">
+          <div class="comments-list" id="cl-{{ m.id }}">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-{{ m.id }}" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('{{ m.id }}','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('{{ m.id }}','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('{{ m.id }}','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-{{ m.id }}" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-{{ m.id }}" rows="3" maxlength="500"
+              oninput="updateChars('{{ m.id }}')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-{{ m.id }}">500</span>
+              <button class="cmt-submit" id="cs-{{ m.id }}" onclick="postComment('{{ m.id }}')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -861,6 +947,14 @@
         + '<button class="h-btn primary" id="btn-copy-' + slug + '" onclick="copyMd(\'' + slug + '\')">'
           + (isZh ? '&#22797;&#21046; Markdown' : 'Copy Markdown')
         + '</button>'
+        + (data.twitter_thread
+          ? '<button class="h-btn twitter" id="btn-tw-' + slug + '" onclick="copyField(\'' + slug + '\',\'twitter_thread\',\'btn-tw-\',\'&#120143; Copied!\',\'&#120143; Thread\')">'
+            + '&#120143; Thread</button>'
+          : '')
+        + (data.reddit_post
+          ? '<button class="h-btn reddit" id="btn-rd-' + slug + '" onclick="copyField(\'' + slug + '\',\'reddit_post\',\'btn-rd-\',\'&#10003; Copied!\',\'Reddit\')">'
+            + 'Reddit</button>'
+          : '')
         + '<button class="h-btn wechat" id="btn-wx-' + slug + '" onclick="sendToWechat(\'' + slug + '\')" title="Save draft to WeChat Official Account">'
           + '&#x516C;&#x4F17;&#x53F7; &#x8349;&#x7A3F;'
         + '</button>'
@@ -1046,6 +1140,145 @@
       msg.textContent = isZh ? '\u8ba2\u9605\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002' : 'Failed, please try again.';
       btn.disabled = false;
     }
+  }
+  // ── Distribution copy helper ───────────────────────────────────────────
+  const _snapshotCache = {};
+
+  async function _getSnapshot(slug) {
+    if (_snapshotCache[slug]) return _snapshotCache[slug];
+    const res = await fetch('/archive/' + slug + '.json?' + Date.now());
+    if (!res.ok) return null;
+    const data = await res.json();
+    _snapshotCache[slug] = data;
+    return data;
+  }
+
+  async function copyField(slug, field, btnPrefix, copiedLabel, defaultLabel) {
+    const btn = document.getElementById(btnPrefix + slug);
+    try {
+      const data = await _getSnapshot(slug);
+      if (!data || !data[field]) throw new Error('no content');
+      await navigator.clipboard.writeText(data[field]);
+      if (btn) { btn.textContent = copiedLabel; setTimeout(() => btn.textContent = defaultLabel, 2500); }
+    } catch {
+      if (btn) { btn.textContent = 'Failed'; setTimeout(() => btn.textContent = defaultLabel, 2000); }
+    }
+  }
+
+  // ── Comment system ─────────────────────────────────────────────────────
+  function toggleComments(mid) {
+    const box = document.getElementById('cb-' + mid);
+    if (!box) return;
+    const isOpen = box.classList.toggle('open');
+    if (isOpen && !box.dataset.loaded) {
+      box.dataset.loaded = '1';
+      loadComments(mid);
+    }
+  }
+
+  async function loadComments(mid) {
+    const list = document.getElementById('cl-' + mid);
+    if (!list) return;
+    try {
+      const res = await fetch('/api/comment?market_id=' + encodeURIComponent(mid));
+      const comments = res.ok ? await res.json() : [];
+      renderComments(mid, comments);
+    } catch {
+      list.innerHTML = '<div class="cmt-loading">Failed to load comments.</div>';
+    }
+  }
+
+  function renderComments(mid, comments) {
+    const list = document.getElementById('cl-' + mid);
+    const countEl = document.getElementById('cc-' + mid);
+    if (countEl) countEl.textContent = comments.length || '';
+    if (!list) return;
+    if (!comments.length) {
+      list.innerHTML = '<div class="cmt-empty">No comments yet. Be the first.</div>';
+      return;
+    }
+    list.innerHTML = comments.map(c => {
+      const ago = timeAgo(c.created_at);
+      const badgeClass = c.side === 'YES' ? 'YES' : c.side === 'NO' ? 'NO' : 'NEUTRAL';
+      const badgeLabel = c.side === 'NEUTRAL' ? '🤔' : (c.side === 'YES' ? '👍 YES' : '👎 NO');
+      return '<div class="cmt-item">'
+        + '<div class="cmt-meta">'
+          + '<span class="cmt-author">' + esc(c.author || 'Anonymous') + '</span>'
+          + '<span class="cmt-badge ' + badgeClass + '">' + badgeLabel + '</span>'
+          + '<span class="cmt-time">' + ago + '</span>'
+        + '</div>'
+        + '<div class="cmt-text-body">' + esc(c.content) + '</div>'
+        + '</div>';
+    }).join('');
+  }
+
+  function pickSide(mid, side, btn) {
+    const picker = document.getElementById('sp-' + mid);
+    if (!picker) return;
+    picker.dataset.side = side;
+    picker.querySelectorAll('.s-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+
+  function updateChars(mid) {
+    const ta = document.getElementById('ct-' + mid);
+    const cc = document.getElementById('cch-' + mid);
+    if (!ta || !cc) return;
+    const rem = 500 - ta.value.length;
+    cc.textContent = rem;
+    cc.classList.toggle('warn', rem < 50);
+  }
+
+  async function postComment(mid) {
+    const section = document.querySelector('.comment-section[data-mid="' + mid + '"]');
+    const picker  = document.getElementById('sp-' + mid);
+    const nameEl  = document.getElementById('cn-' + mid);
+    const textEl  = document.getElementById('ct-' + mid);
+    const btnEl   = document.getElementById('cs-' + mid);
+    if (!section || !picker || !textEl || !btnEl) return;
+
+    const side    = picker.dataset.side || 'NEUTRAL';
+    const author  = (nameEl ? nameEl.value.trim() : '') || 'Anonymous';
+    const content = textEl.value.trim();
+    if (!content) { textEl.focus(); return; }
+
+    btnEl.disabled = true;
+    const isZh = document.body.classList.contains('lang-zh');
+    btnEl.textContent = isZh ? '发送中…' : 'Posting…';
+
+    try {
+      const res = await fetch('/api/comment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ market_id: mid, market_question: section.dataset.q, author, side, content }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'error');
+      textEl.value = '';
+      updateChars(mid);
+      btnEl.textContent = isZh ? '✓ 发表成功' : '✓ Posted!';
+      setTimeout(() => {
+        btnEl.textContent = isZh ? '发表' : 'Post';
+        btnEl.disabled = false;
+      }, 2000);
+      loadComments(mid); // refresh list
+    } catch (e) {
+      btnEl.textContent = isZh ? '失败，重试' : 'Failed';
+      setTimeout(() => { btnEl.textContent = isZh ? '发表' : 'Post'; btnEl.disabled = false; }, 2000);
+    }
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function timeAgo(iso) {
+    const diff = Date.now() - new Date(iso).getTime();
+    const m = Math.floor(diff / 60000);
+    if (m < 1) return 'just now';
+    if (m < 60) return m + 'm ago';
+    const h = Math.floor(m / 60);
+    if (h < 24) return h + 'h ago';
+    return Math.floor(h / 24) + 'd ago';
   }
 </script>
 </body>

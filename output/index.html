@@ -364,6 +364,62 @@
       .history-item { display: inline-block; padding: 7px 14px; border-left: none; border-bottom: 2px solid transparent; }
       .history-item.active { border-bottom-color: var(--accent); border-left-color: transparent; }
     }
+    /* ── Comment section ─────────────────────────── */
+    .comment-section { border-top: 1px solid var(--border); margin-top: 14px; padding-top: 10px; }
+    .comment-toggle {
+      background: none; border: none; cursor: pointer; color: var(--muted);
+      font-size: 12px; display: flex; align-items: center; gap: 5px; padding: 2px 0;
+      transition: color 0.15s;
+    }
+    .comment-toggle:hover { color: var(--text); }
+    .ct-count { background: var(--border); border-radius: 8px; padding: 1px 6px; font-size: 11px; }
+    .comment-box { display: none; margin-top: 12px; }
+    .comment-box.open { display: block; }
+    .comments-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+    .cmt-item { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px; }
+    .cmt-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+    .cmt-author { font-weight: 600; color: var(--text); }
+    .cmt-time { color: var(--muted); font-size: 11px; }
+    .cmt-badge { border-radius: 4px; padding: 1px 6px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+    .cmt-badge.YES { background: rgba(34,197,94,0.15); color: var(--up); }
+    .cmt-badge.NO { background: rgba(239,68,68,0.15); color: var(--down); }
+    .cmt-badge.NEUTRAL { background: rgba(255,255,255,0.07); color: var(--muted); }
+    .cmt-text-body { color: var(--text); line-height: 1.5; }
+    .cmt-empty { color: var(--muted); font-size: 12px; text-align: center; padding: 12px 0; }
+    .cmt-loading { color: var(--muted); font-size: 12px; }
+    .comment-form { display: flex; flex-direction: column; gap: 8px; }
+    .side-picker { display: flex; gap: 6px; }
+    .s-btn {
+      flex: 1; padding: 5px 8px; border-radius: 6px; font-size: 12px; cursor: pointer;
+      border: 1px solid var(--border); background: var(--surface); color: var(--muted);
+      transition: all 0.15s;
+    }
+    .s-btn:hover { border-color: var(--accent); color: var(--text); }
+    .s-btn.active.yes { border-color: var(--up); color: var(--up); background: rgba(34,197,94,0.1); }
+    .s-btn.active.no { border-color: var(--down); color: var(--down); background: rgba(239,68,68,0.1); }
+    .s-btn.active.neutral { border-color: var(--accent); color: var(--accent); background: rgba(124,106,247,0.1); }
+    .cmt-name, .cmt-textarea {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 6px;
+      padding: 7px 10px; font-size: 12px; color: var(--text); font-family: var(--font);
+      outline: none; transition: border-color 0.15s;
+    }
+    .cmt-name { width: 100%; }
+    .cmt-textarea { width: 100%; resize: vertical; min-height: 64px; line-height: 1.5; }
+    .cmt-name:focus, .cmt-textarea:focus { border-color: var(--accent); }
+    .cmt-actions { display: flex; align-items: center; justify-content: space-between; }
+    .cmt-chars { font-size: 11px; color: var(--muted); }
+    .cmt-chars.warn { color: var(--down); }
+    .cmt-submit {
+      padding: 5px 14px; border-radius: 6px; font-size: 12px; font-weight: 600;
+      background: var(--accent); color: #fff; border: none; cursor: pointer; transition: opacity 0.15s;
+    }
+    .cmt-submit:hover:not(:disabled) { opacity: 0.85; }
+    .cmt-submit:disabled { opacity: 0.4; cursor: default; }
+    /* ── History distribution buttons ──────────────── */
+    .h-btn.twitter { background: #000; color: #fff; border: 1px solid #333; }
+    .h-btn.twitter:hover { background: #111; }
+    .h-btn.reddit { background: #ff4500; color: #fff; border: none; }
+    .h-btn.reddit:hover { opacity: 0.85; }
   </style>
 </head>
 <body>
@@ -503,6 +559,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="544092" data-q="Will Harvey Weinstein be sentenced to no prison time?">
+        <button class="comment-toggle" onclick="toggleComments('544092')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-544092"></span>
+        </button>
+        <div class="comment-box" id="cb-544092">
+          <div class="comments-list" id="cl-544092">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-544092" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('544092','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('544092','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('544092','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-544092" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-544092" rows="3" maxlength="500"
+              oninput="updateChars('544092')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-544092">500</span>
+              <button class="cmt-submit" id="cs-544092" onclick="postComment('544092')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="politics">
@@ -558,6 +644,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="567688" data-q="Netanyahu out by end of 2026?">
+        <button class="comment-toggle" onclick="toggleComments('567688')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-567688"></span>
+        </button>
+        <div class="comment-box" id="cb-567688">
+          <div class="comments-list" id="cl-567688">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-567688" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('567688','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('567688','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('567688','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-567688" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-567688" rows="3" maxlength="500"
+              oninput="updateChars('567688')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-567688">500</span>
+              <button class="cmt-submit" id="cs-567688" onclick="postComment('567688')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -615,6 +731,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="550708" data-q="Will Ukraine qualify for the 2026 FIFA World Cup?">
+        <button class="comment-toggle" onclick="toggleComments('550708')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-550708"></span>
+        </button>
+        <div class="comment-box" id="cb-550708">
+          <div class="comments-list" id="cl-550708">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-550708" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('550708','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('550708','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('550708','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-550708" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-550708" rows="3" maxlength="500"
+              oninput="updateChars('550708')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-550708">500</span>
+              <button class="cmt-submit" id="cs-550708" onclick="postComment('550708')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="sports">
@@ -670,6 +816,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="561370" data-q="Will Kon Knueppel win the 2025–26 NBA Rookie of the Year award?">
+        <button class="comment-toggle" onclick="toggleComments('561370')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-561370"></span>
+        </button>
+        <div class="comment-box" id="cb-561370">
+          <div class="comments-list" id="cl-561370">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-561370" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('561370','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('561370','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('561370','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-561370" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-561370" rows="3" maxlength="500"
+              oninput="updateChars('561370')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-561370">500</span>
+              <button class="cmt-submit" id="cs-561370" onclick="postComment('561370')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -727,6 +903,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="572734" data-q="Will Manchester City finish in 2nd place in the 2025-26 English Premier League?">
+        <button class="comment-toggle" onclick="toggleComments('572734')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-572734"></span>
+        </button>
+        <div class="comment-box" id="cb-572734">
+          <div class="comments-list" id="cl-572734">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-572734" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('572734','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('572734','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('572734','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-572734" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-572734" rows="3" maxlength="500"
+              oninput="updateChars('572734')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-572734">500</span>
+              <button class="cmt-submit" id="cs-572734" onclick="postComment('572734')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="politics">
@@ -782,6 +988,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="569373" data-q="Will Paloma Valencia win the 2026 Colombian presidential election?">
+        <button class="comment-toggle" onclick="toggleComments('569373')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-569373"></span>
+        </button>
+        <div class="comment-box" id="cb-569373">
+          <div class="comments-list" id="cl-569373">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-569373" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('569373','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('569373','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('569373','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-569373" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-569373" rows="3" maxlength="500"
+              oninput="updateChars('569373')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-569373">500</span>
+              <button class="cmt-submit" id="cs-569373" onclick="postComment('569373')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -839,6 +1075,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="569366" data-q="Will Abelardo de la Espriella  win the 2026 Colombian presidential election?">
+        <button class="comment-toggle" onclick="toggleComments('569366')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-569366"></span>
+        </button>
+        <div class="comment-box" id="cb-569366">
+          <div class="comments-list" id="cl-569366">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-569366" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('569366','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('569366','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('569366','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-569366" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-569366" rows="3" maxlength="500"
+              oninput="updateChars('569366')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-569366">500</span>
+              <button class="cmt-submit" id="cs-569366" onclick="postComment('569366')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="politics">
@@ -894,6 +1160,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="561975" data-q="Will Marco Rubio win the 2028 Republican presidential nomination?">
+        <button class="comment-toggle" onclick="toggleComments('561975')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-561975"></span>
+        </button>
+        <div class="comment-box" id="cb-561975">
+          <div class="comments-list" id="cl-561975">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-561975" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('561975','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('561975','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('561975','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-561975" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-561975" rows="3" maxlength="500"
+              oninput="updateChars('561975')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-561975">500</span>
+              <button class="cmt-submit" id="cs-561975" onclick="postComment('561975')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -951,6 +1247,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="569360" data-q="Will Juan Daniel Oviedo win the 2026 Colombian presidential election?">
+        <button class="comment-toggle" onclick="toggleComments('569360')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-569360"></span>
+        </button>
+        <div class="comment-box" id="cb-569360">
+          <div class="comments-list" id="cl-569360">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-569360" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('569360','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('569360','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('569360','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-569360" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-569360" rows="3" maxlength="500"
+              oninput="updateChars('569360')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-569360">500</span>
+              <button class="cmt-submit" id="cs-569360" onclick="postComment('569360')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="sports">
@@ -1006,6 +1332,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="564218" data-q="Will the San Antonio Spurs win the NBA Western Conference Finals?">
+        <button class="comment-toggle" onclick="toggleComments('564218')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-564218"></span>
+        </button>
+        <div class="comment-box" id="cb-564218">
+          <div class="comments-list" id="cl-564218">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-564218" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('564218','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('564218','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('564218','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-564218" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-564218" rows="3" maxlength="500"
+              oninput="updateChars('564218')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-564218">500</span>
+              <button class="cmt-submit" id="cs-564218" onclick="postComment('564218')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -1063,6 +1419,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="567561" data-q="Will the next Prime Minister of Hungary be Péter Magyar?">
+        <button class="comment-toggle" onclick="toggleComments('567561')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-567561"></span>
+        </button>
+        <div class="comment-box" id="cb-567561">
+          <div class="comments-list" id="cl-567561">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-567561" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('567561','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('567561','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('567561','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-567561" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-567561" rows="3" maxlength="500"
+              oninput="updateChars('567561')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-567561">500</span>
+              <button class="cmt-submit" id="cs-567561" onclick="postComment('567561')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="politics">
@@ -1118,6 +1504,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="562187" data-q="Will John Cornyn win the 2026 Texas Republican Primary?">
+        <button class="comment-toggle" onclick="toggleComments('562187')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-562187"></span>
+        </button>
+        <div class="comment-box" id="cb-562187">
+          <div class="comments-list" id="cl-562187">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-562187" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('562187','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('562187','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('562187','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-562187" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-562187" rows="3" maxlength="500"
+              oninput="updateChars('562187')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-562187">500</span>
+              <button class="cmt-submit" id="cs-562187" onclick="postComment('562187')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -1175,6 +1591,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="569313" data-q="Will PLC win the most seats in the 2026 Colombian Chamber of Representatives election?">
+        <button class="comment-toggle" onclick="toggleComments('569313')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-569313"></span>
+        </button>
+        <div class="comment-box" id="cb-569313">
+          <div class="comments-list" id="cl-569313">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-569313" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('569313','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('569313','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('569313','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-569313" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-569313" rows="3" maxlength="500"
+              oninput="updateChars('569313')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-569313">500</span>
+              <button class="cmt-submit" id="cs-569313" onclick="postComment('569313')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="sports">
@@ -1230,6 +1676,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="564210" data-q="Will the Oklahoma City Thunder win the NBA Western Conference Finals?">
+        <button class="comment-toggle" onclick="toggleComments('564210')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-564210"></span>
+        </button>
+        <div class="comment-box" id="cb-564210">
+          <div class="comments-list" id="cl-564210">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-564210" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('564210','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('564210','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('564210','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-564210" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-564210" rows="3" maxlength="500"
+              oninput="updateChars('564210')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-564210">500</span>
+              <button class="cmt-submit" id="cs-564210" onclick="postComment('564210')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -1287,6 +1763,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="564198" data-q="Will the Detroit Pistons win the NBA Eastern Conference Finals?">
+        <button class="comment-toggle" onclick="toggleComments('564198')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-564198"></span>
+        </button>
+        <div class="comment-box" id="cb-564198">
+          <div class="comments-list" id="cl-564198">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-564198" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('564198','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('564198','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('564198','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-564198" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-564198" rows="3" maxlength="500"
+              oninput="updateChars('564198')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-564198">500</span>
+              <button class="cmt-submit" id="cs-564198" onclick="postComment('564198')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="crypto">
@@ -1342,6 +1848,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="531202" data-q="BitBoy convicted?">
+        <button class="comment-toggle" onclick="toggleComments('531202')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-531202"></span>
+        </button>
+        <div class="comment-box" id="cb-531202">
+          <div class="comments-list" id="cl-531202">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-531202" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('531202','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('531202','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('531202','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-531202" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-531202" rows="3" maxlength="500"
+              oninput="updateChars('531202')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-531202">500</span>
+              <button class="cmt-submit" id="cs-531202" onclick="postComment('531202')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -1399,6 +1935,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="568630" data-q="Will Rory McIlroy win the 2026 Masters tournament?">
+        <button class="comment-toggle" onclick="toggleComments('568630')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-568630"></span>
+        </button>
+        <div class="comment-box" id="cb-568630">
+          <div class="comments-list" id="cl-568630">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-568630" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('568630','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('568630','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('568630','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-568630" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-568630" rows="3" maxlength="500"
+              oninput="updateChars('568630')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-568630">500</span>
+              <button class="cmt-submit" id="cs-568630" onclick="postComment('568630')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="sports">
@@ -1454,6 +2020,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="550694" data-q="Will Italy qualify for the 2026 FIFA World Cup?">
+        <button class="comment-toggle" onclick="toggleComments('550694')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-550694"></span>
+        </button>
+        <div class="comment-box" id="cb-550694">
+          <div class="comments-list" id="cl-550694">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-550694" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('550694','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('550694','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('550694','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-550694" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-550694" rows="3" maxlength="500"
+              oninput="updateChars('550694')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-550694">500</span>
+              <button class="cmt-submit" id="cs-550694" onclick="postComment('550694')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -1511,6 +2107,36 @@
         </span>
         
       </div>
+      <div class="comment-section" data-mid="572733" data-q="Will Arsenal finish in 2nd place in the 2025-26 English Premier League?">
+        <button class="comment-toggle" onclick="toggleComments('572733')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-572733"></span>
+        </button>
+        <div class="comment-box" id="cb-572733">
+          <div class="comments-list" id="cl-572733">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-572733" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('572733','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('572733','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('572733','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-572733" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-572733" rows="3" maxlength="500"
+              oninput="updateChars('572733')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-572733">500</span>
+              <button class="cmt-submit" id="cs-572733" onclick="postComment('572733')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
     </div>
     <div class="feed-item" data-category="politics">
@@ -1566,6 +2192,36 @@
           
         </span>
         
+      </div>
+      <div class="comment-section" data-mid="567563" data-q="Will the next Prime Minister of Hungary be László Toroczkai?">
+        <button class="comment-toggle" onclick="toggleComments('567563')">
+          <span>💬</span>
+          <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
+          <span class="ct-count" id="cc-567563"></span>
+        </button>
+        <div class="comment-box" id="cb-567563">
+          <div class="comments-list" id="cl-567563">
+            <div class="cmt-loading">Loading&#8230;</div>
+          </div>
+          <div class="comment-form">
+            <div class="side-picker" id="sp-567563" data-side="NEUTRAL">
+              <button class="s-btn yes" onclick="pickSide('567563','YES',this)">&#128077; YES</button>
+              <button class="s-btn neutral active" onclick="pickSide('567563','NEUTRAL',this)">&#129300; Neutral</button>
+              <button class="s-btn no" onclick="pickSide('567563','NO',this)">&#128078; NO</button>
+            </div>
+            <input class="cmt-name" id="cn-567563" type="text" maxlength="50"
+              placeholder="Name (optional)" autocomplete="off" />
+            <textarea class="cmt-textarea" id="ct-567563" rows="3" maxlength="500"
+              oninput="updateChars('567563')"
+              placeholder="Share your take… (max 500 chars)"></textarea>
+            <div class="cmt-actions">
+              <span class="cmt-chars" id="cch-567563">500</span>
+              <button class="cmt-submit" id="cs-567563" onclick="postComment('567563')">
+                <span data-lang="en">Post</span><span data-lang="zh">&#21457;&#34920;</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
     </div>
@@ -1920,6 +2576,14 @@
         + '<button class="h-btn primary" id="btn-copy-' + slug + '" onclick="copyMd(\'' + slug + '\')">'
           + (isZh ? '&#22797;&#21046; Markdown' : 'Copy Markdown')
         + '</button>'
+        + (data.twitter_thread
+          ? '<button class="h-btn twitter" id="btn-tw-' + slug + '" onclick="copyField(\'' + slug + '\',\'twitter_thread\',\'btn-tw-\',\'&#120143; Copied!\',\'&#120143; Thread\')">'
+            + '&#120143; Thread</button>'
+          : '')
+        + (data.reddit_post
+          ? '<button class="h-btn reddit" id="btn-rd-' + slug + '" onclick="copyField(\'' + slug + '\',\'reddit_post\',\'btn-rd-\',\'&#10003; Copied!\',\'Reddit\')">'
+            + 'Reddit</button>'
+          : '')
         + '<button class="h-btn wechat" id="btn-wx-' + slug + '" onclick="sendToWechat(\'' + slug + '\')" title="Save draft to WeChat Official Account">'
           + '&#x516C;&#x4F17;&#x53F7; &#x8349;&#x7A3F;'
         + '</button>'
@@ -2105,6 +2769,145 @@
       msg.textContent = isZh ? '\u8ba2\u9605\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002' : 'Failed, please try again.';
       btn.disabled = false;
     }
+  }
+  // ── Distribution copy helper ───────────────────────────────────────────
+  const _snapshotCache = {};
+
+  async function _getSnapshot(slug) {
+    if (_snapshotCache[slug]) return _snapshotCache[slug];
+    const res = await fetch('/archive/' + slug + '.json?' + Date.now());
+    if (!res.ok) return null;
+    const data = await res.json();
+    _snapshotCache[slug] = data;
+    return data;
+  }
+
+  async function copyField(slug, field, btnPrefix, copiedLabel, defaultLabel) {
+    const btn = document.getElementById(btnPrefix + slug);
+    try {
+      const data = await _getSnapshot(slug);
+      if (!data || !data[field]) throw new Error('no content');
+      await navigator.clipboard.writeText(data[field]);
+      if (btn) { btn.textContent = copiedLabel; setTimeout(() => btn.textContent = defaultLabel, 2500); }
+    } catch {
+      if (btn) { btn.textContent = 'Failed'; setTimeout(() => btn.textContent = defaultLabel, 2000); }
+    }
+  }
+
+  // ── Comment system ─────────────────────────────────────────────────────
+  function toggleComments(mid) {
+    const box = document.getElementById('cb-' + mid);
+    if (!box) return;
+    const isOpen = box.classList.toggle('open');
+    if (isOpen && !box.dataset.loaded) {
+      box.dataset.loaded = '1';
+      loadComments(mid);
+    }
+  }
+
+  async function loadComments(mid) {
+    const list = document.getElementById('cl-' + mid);
+    if (!list) return;
+    try {
+      const res = await fetch('/api/comment?market_id=' + encodeURIComponent(mid));
+      const comments = res.ok ? await res.json() : [];
+      renderComments(mid, comments);
+    } catch {
+      list.innerHTML = '<div class="cmt-loading">Failed to load comments.</div>';
+    }
+  }
+
+  function renderComments(mid, comments) {
+    const list = document.getElementById('cl-' + mid);
+    const countEl = document.getElementById('cc-' + mid);
+    if (countEl) countEl.textContent = comments.length || '';
+    if (!list) return;
+    if (!comments.length) {
+      list.innerHTML = '<div class="cmt-empty">No comments yet. Be the first.</div>';
+      return;
+    }
+    list.innerHTML = comments.map(c => {
+      const ago = timeAgo(c.created_at);
+      const badgeClass = c.side === 'YES' ? 'YES' : c.side === 'NO' ? 'NO' : 'NEUTRAL';
+      const badgeLabel = c.side === 'NEUTRAL' ? '🤔' : (c.side === 'YES' ? '👍 YES' : '👎 NO');
+      return '<div class="cmt-item">'
+        + '<div class="cmt-meta">'
+          + '<span class="cmt-author">' + esc(c.author || 'Anonymous') + '</span>'
+          + '<span class="cmt-badge ' + badgeClass + '">' + badgeLabel + '</span>'
+          + '<span class="cmt-time">' + ago + '</span>'
+        + '</div>'
+        + '<div class="cmt-text-body">' + esc(c.content) + '</div>'
+        + '</div>';
+    }).join('');
+  }
+
+  function pickSide(mid, side, btn) {
+    const picker = document.getElementById('sp-' + mid);
+    if (!picker) return;
+    picker.dataset.side = side;
+    picker.querySelectorAll('.s-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+
+  function updateChars(mid) {
+    const ta = document.getElementById('ct-' + mid);
+    const cc = document.getElementById('cch-' + mid);
+    if (!ta || !cc) return;
+    const rem = 500 - ta.value.length;
+    cc.textContent = rem;
+    cc.classList.toggle('warn', rem < 50);
+  }
+
+  async function postComment(mid) {
+    const section = document.querySelector('.comment-section[data-mid="' + mid + '"]');
+    const picker  = document.getElementById('sp-' + mid);
+    const nameEl  = document.getElementById('cn-' + mid);
+    const textEl  = document.getElementById('ct-' + mid);
+    const btnEl   = document.getElementById('cs-' + mid);
+    if (!section || !picker || !textEl || !btnEl) return;
+
+    const side    = picker.dataset.side || 'NEUTRAL';
+    const author  = (nameEl ? nameEl.value.trim() : '') || 'Anonymous';
+    const content = textEl.value.trim();
+    if (!content) { textEl.focus(); return; }
+
+    btnEl.disabled = true;
+    const isZh = document.body.classList.contains('lang-zh');
+    btnEl.textContent = isZh ? '发送中…' : 'Posting…';
+
+    try {
+      const res = await fetch('/api/comment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ market_id: mid, market_question: section.dataset.q, author, side, content }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'error');
+      textEl.value = '';
+      updateChars(mid);
+      btnEl.textContent = isZh ? '✓ 发表成功' : '✓ Posted!';
+      setTimeout(() => {
+        btnEl.textContent = isZh ? '发表' : 'Post';
+        btnEl.disabled = false;
+      }, 2000);
+      loadComments(mid); // refresh list
+    } catch (e) {
+      btnEl.textContent = isZh ? '失败，重试' : 'Failed';
+      setTimeout(() => { btnEl.textContent = isZh ? '发表' : 'Post'; btnEl.disabled = false; }, 2000);
+    }
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function timeAgo(iso) {
+    const diff = Date.now() - new Date(iso).getTime();
+    const m = Math.floor(diff / 60000);
+    if (m < 1) return 'just now';
+    if (m < 60) return m + 'm ago';
+    const h = Math.floor(m / 60);
+    if (h < 24) return h + 'h ago';
+    return Math.floor(h / 24) + 'd ago';
   }
 </script>
 </body>

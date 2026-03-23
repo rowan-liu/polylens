@@ -461,6 +461,78 @@ def render_html(data: dict) -> None:
 
 ARCHIVE_DIR = OUTPUT_DIR / "archive"
 
+_CAT_EMOJI = {
+    "politics": "🗳️", "ai_tech": "🤖", "economy": "📈",
+    "business": "💼", "world": "🌍", "sports": "⚽",
+    "crypto": "₿", "other": "🔥",
+}
+
+
+def _build_twitter_thread(data: dict, max_topics: int = 5) -> str:
+    """Generate copy-paste Twitter/X thread text from top insights."""
+    topics = data["topics"][:max_topics]
+    date_str = data["generated_at_readable"]
+    total = len(data["topics"])
+    n = len(topics)
+    tweets = []
+
+    tweets.append(
+        f"🔮 PolyLens Daily — {date_str}\n\n"
+        f"Top {n} prediction market movers, AI-powered 👇\n\n[1/{n + 1}]"
+    )
+    for i, item in enumerate(topics, 2):
+        m = item["market"]
+        en = item["insight"].get("en", item["insight"])
+        emoji = _CAT_EMOJI.get(classify_category(m["question"]), "🔥")
+        prob = f"{m['probability'] * 100:.0f}%"
+        chg = f"{'+' if m['change_24h'] >= 0 else ''}{m['change_24h'] * 100:.1f}%"
+        title = (en.get("title") or m["question"])[:80]
+        summary = (en.get("summary") or "")[:200]
+        tweets.append(f"{emoji} {title}\n\n{prob} YES | {chg} (24h)\n\n{summary}\n\n[{i}/{n + 1}]")
+
+    tweets.append(
+        f"Full analysis + all {total} markets:\n\nhttps://www.hika.fyi\n\n"
+        f"Free · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets\n\n[{n + 1}/{n + 1}]"
+    )
+    return "\n\n---\n\n".join(tweets)
+
+
+def _build_reddit_post(data: dict, max_topics: int = 8) -> str:
+    """Generate a Reddit post (Markdown) for r/Polymarket or r/PredictionMarkets."""
+    topics = data["topics"][:max_topics]
+    date_str = data["generated_at_readable"]
+    lines = [
+        f"**PolyLens Daily Digest — {date_str}**\n",
+        "AI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n",
+        "---\n",
+    ]
+    for i, item in enumerate(topics, 1):
+        m = item["market"]
+        en = item["insight"].get("en", item["insight"])
+        emoji = _CAT_EMOJI.get(classify_category(m["question"]), "🔥")
+        prob = f"{m['probability'] * 100:.0f}%"
+        chg = f"{'+' if m['change_24h'] >= 0 else ''}{m['change_24h'] * 100:.1f}%"
+        title = en.get("title") or m["question"]
+        summary = en.get("summary") or ""
+        drivers = en.get("drivers") or []
+
+        lines.append(f"## {i}. {emoji} {title}\n")
+        lines.append(f"**{prob} YES** | **{chg}** (24h) | Vol: ${m['volume_24h']:,.0f}\n")
+        lines.append(f"{summary}\n")
+        if drivers:
+            lines.append("**Key Drivers:**")
+            for d in drivers[:3]:
+                lines.append(f"- {d}")
+            lines.append("")
+        lines.append(f"*[View on Polymarket]({m['url']})*\n")
+        lines.append("---\n")
+
+    lines.append(
+        "*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n"
+        "*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+    )
+    return "\n".join(lines)
+
 
 def _build_markdown(data: dict) -> str:
     """Render a clean, publishable Markdown article from insight data."""
@@ -581,6 +653,8 @@ def save_archive(data: dict) -> None:
             ],
         })
     json_path = ARCHIVE_DIR / f"{slug}.json"
+    snapshot["twitter_thread"] = _build_twitter_thread(data)
+    snapshot["reddit_post"] = _build_reddit_post(data)
     json_path.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
     log.info("Saved JSON snapshot -> %s", json_path)
 
