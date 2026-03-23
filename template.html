@@ -1375,110 +1375,173 @@
   }
 
   // ── Canvas image card ──────────────────────────────────────────────────
+  /**
+   * _wrapText: handles both Latin (word-by-word) and CJK (char-by-char).
+   * Returns the Y baseline of the last drawn line.
+   */
   function _wrapText(ctx, text, x, y, maxW, lh, maxLines) {
-    const words = String(text || '').split(' ');
-    let line = '', drawn = 0;
-    for (let i = 0; i < words.length; i++) {
-      const test = line + words[i] + ' ';
-      if (ctx.measureText(test).width > maxW && i > 0) {
-        ctx.fillText(line.trimEnd(), x, y);
-        line = words[i] + ' '; y += lh; drawn++;
-        if (maxLines && drawn >= maxLines - 1) {
-          const rest = words.slice(i + 1).join(' ');
-          const tail = rest ? line.trimEnd() + ' ' + rest : line.trimEnd();
-          const fin = ctx.measureText(tail).width > maxW
-            ? tail.slice(0, Math.floor(tail.length * (maxW / ctx.measureText(tail).width) * 0.9)) + '…'
-            : tail;
-          ctx.fillText(fin.trimEnd(), x, y);
-          return;
-        }
-      } else { line = test; }
+    const s = String(text || '').trim();
+    if (!s) return y;
+
+    // Tokenize: CJK chars become individual tokens; Latin words stay whole
+    const tokens = [];
+    let buf = '';
+    for (const ch of s) {
+      const cp = ch.codePointAt(0);
+      const cjk = (cp >= 0x4e00 && cp <= 0x9fff)
+               || (cp >= 0x3040 && cp <= 0x30ff)
+               || (cp >= 0xac00 && cp <= 0xd7af);
+      if (cjk) {
+        if (buf.trim()) { tokens.push(buf.trim()); buf = ''; }
+        tokens.push(ch);
+      } else if (ch === ' ' || ch === '\n' || ch === '\t') {
+        if (buf.trim()) { tokens.push(buf.trim()); buf = ''; }
+      } else {
+        buf += ch;
+      }
     }
-    if (line.trim()) ctx.fillText(line.trimEnd(), x, y);
+    if (buf.trim()) tokens.push(buf.trim());
+
+    let line = '', linesDone = 0;
+
+    const isCJK = (t) => t && t.codePointAt(0) >= 0x4e00;
+    const join  = (a, b) => a + (a && !isCJK(b) && !isCJK(a[a.length-1]) ? ' ' : '') + b;
+
+    for (let i = 0; i < tokens.length; i++) {
+      const tok    = tokens[i];
+      const candidate = join(line, tok);
+
+      if (line && ctx.measureText(candidate).width > maxW) {
+        // Flush current line
+        ctx.fillText(line, x, y);
+        linesDone++;
+        y += lh;
+        line = tok;
+
+        if (maxLines && linesDone >= maxLines) {
+          // Fit as many remaining tokens as possible, then add ellipsis
+          let fit = line;
+          for (let k = i + 1; k < tokens.length; k++) {
+            const next = join(fit, tokens[k]);
+            if (ctx.measureText(next + '…').width > maxW) break;
+            fit = next;
+          }
+          const hasMore = i + 1 < tokens.length;
+          ctx.fillText(hasMore ? fit + '…' : fit, x, y);
+          return y;
+        }
+      } else {
+        line = candidate;
+      }
+    }
+    if (line) { ctx.fillText(line, x, y); }
+    return y;
   }
 
   function generateCard(bar) {
-    const isZh = document.body.classList.contains('lang-zh');
+    const isZh    = document.body.classList.contains('lang-zh');
     const title   = (isZh ? bar.dataset.zhTitle   : bar.dataset.enTitle)   || '';
     const summary = (isZh ? bar.dataset.zhSummary : bar.dataset.enSummary) || '';
-    const prob = bar.dataset.prob + '%';
-    const chg  = bar.dataset.chg;
-    const isUp = !chg.startsWith('-');
-    const q    = bar.dataset.q || '';
+    const prob    = bar.dataset.prob + '%';
+    const chg     = bar.dataset.chg;
+    const isUp    = !chg.startsWith('-');
+    const q       = bar.dataset.q || '';
 
-    const W = 1200, H = 630;
+    const W = 1200, H = 630, PAD = 50, MAXW = W - PAD * 2;
     const cvs = document.createElement('canvas');
     cvs.width = W; cvs.height = H;
     const c = cvs.getContext('2d');
+    const FONT = '-apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif';
 
-    // Background
-    c.fillStyle = '#0c0c0e'; c.fillRect(0, 0, W, H);
+    // ── Background ──────────────────────────────────────────────────────
+    c.fillStyle = '#0c0c0e';
+    c.fillRect(0, 0, W, H);
 
-    // Subtle grid texture
-    c.strokeStyle = 'rgba(255,255,255,0.03)'; c.lineWidth = 1;
-    for (let x = 0; x < W; x += 60) { c.beginPath(); c.moveTo(x,0); c.lineTo(x,H); c.stroke(); }
-    for (let y = 0; y < H; y += 60) { c.beginPath(); c.moveTo(0,y); c.lineTo(W,y); c.stroke(); }
+    // Subtle dot grid
+    c.fillStyle = 'rgba(255,255,255,0.025)';
+    for (let gx = 60; gx < W; gx += 60)
+      for (let gy = 60; gy < H; gy += 60) {
+        c.beginPath(); c.arc(gx, gy, 1, 0, Math.PI * 2); c.fill();
+      }
 
-    // Purple left accent bar
-    const grad = c.createLinearGradient(0,0,0,H);
-    grad.addColorStop(0, '#7c6af7'); grad.addColorStop(1, '#5b4fd4');
-    c.fillStyle = grad; c.fillRect(0, 0, 6, H);
+    // Purple left accent
+    const accentGrad = c.createLinearGradient(0,0,0,H);
+    accentGrad.addColorStop(0, '#9b8ffa'); accentGrad.addColorStop(1, '#5b4fd4');
+    c.fillStyle = accentGrad; c.fillRect(0, 0, 5, H);
 
-    // Top: brand
+    // ── Brand row (y=52) ────────────────────────────────────────────────
+    c.font = `bold 18px ${FONT}`;
     c.fillStyle = '#7c6af7';
-    c.font = 'bold 20px -apple-system, "Segoe UI", Arial, sans-serif';
-    c.fillText('🔮 PolyLens', 50, 58);
+    c.fillText('🔮 PolyLens', PAD, 52);
     c.fillStyle = '#444450';
-    c.font = '16px -apple-system, "Segoe UI", Arial, sans-serif';
-    c.textAlign = 'right'; c.fillText('hika.fyi', W - 50, 58); c.textAlign = 'left';
+    c.font = `15px ${FONT}`;
+    c.textAlign = 'right'; c.fillText('hika.fyi', W - PAD, 52); c.textAlign = 'left';
 
     // Divider
-    c.strokeStyle = '#222226'; c.lineWidth = 1;
-    c.beginPath(); c.moveTo(50, 76); c.lineTo(W - 50, 76); c.stroke();
+    c.strokeStyle = '#1e1e22'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(PAD, 66); c.lineTo(W - PAD, 66); c.stroke();
 
-    // Title
+    // ── Market question (y=90, 1 line truncated) ────────────────────────
+    c.fillStyle = '#3e3e4a';
+    c.font = `13px ${FONT}`;
+    let qDisplay = q;
+    while (qDisplay.length > 10 && c.measureText(qDisplay + '…').width > MAXW)
+      qDisplay = qDisplay.slice(0, -1);
+    if (qDisplay.length < q.length) qDisplay += '…';
+    c.fillText(qDisplay, PAD, 90);
+
+    // ── Title (starts y=118, max 2 lines, lh=36) ────────────────────────
     c.fillStyle = '#e8e8ec';
-    c.font = 'bold 30px -apple-system, "Segoe UI", Arial, sans-serif';
-    _wrapText(c, title, 50, 128, W - 100, 42, 2);
+    c.font = `bold 25px ${FONT}`;
+    const titleEndY = _wrapText(c, title, PAD, 118, MAXW, 36, 2);
 
-    // Probability
-    c.fillStyle = isUp ? '#22c55e' : '#ef4444';
-    c.font = 'bold 72px -apple-system, "Segoe UI", Arial, sans-serif';
-    c.fillText(prob, 50, 285);
+    // ── Probability row ─────────────────────────────────────────────────
+    const probY = Math.max(titleEndY + 44, 210);
+    const accentColor = isUp ? '#22c55e' : '#ef4444';
+    c.fillStyle = accentColor;
+    c.font = `bold 58px ${FONT}`;
+    c.fillText(prob, PAD, probY);
     const probW = c.measureText(prob).width;
 
-    // Change badge
-    c.fillStyle = isUp ? 'rgba(34,197,94,0.15)' : 'rgba(239,68,68,0.15)';
-    c.beginPath(); c.roundRect(50 + probW + 18, 238, 160, 36, 6); c.fill();
-    c.fillStyle = isUp ? '#22c55e' : '#ef4444';
-    c.font = 'bold 19px -apple-system, "Segoe UI", Arial, sans-serif';
-    c.fillText((isUp ? '▲ ' : '▼ ') + chg + ' 24h', 50 + probW + 30, 262);
+    // Change badge (inline, right of probability)
+    const badgeX = PAD + probW + 16;
+    const badgeY = probY - 42;
+    const badgeTxt = (isUp ? '▲' : '▼') + ' ' + chg;
+    c.font = `bold 17px ${FONT}`;
+    const badgeW = c.measureText(badgeTxt).width + 20;
+    c.fillStyle = isUp ? 'rgba(34,197,94,0.14)' : 'rgba(239,68,68,0.14)';
+    c.beginPath(); c.roundRect(badgeX, badgeY, badgeW, 28, 6); c.fill();
+    c.fillStyle = accentColor;
+    c.fillText(badgeTxt, badgeX + 10, badgeY + 19);
 
     // "YES probability" label
     c.fillStyle = '#444450';
-    c.font = '15px -apple-system, "Segoe UI", Arial, sans-serif';
-    c.fillText('YES probability', 50, 315);
+    c.font = `12px ${FONT}`;
+    c.fillText('YES probability', PAD, probY + 20);
 
     // Divider
-    c.strokeStyle = '#1a1a1e'; c.lineWidth = 1;
-    c.beginPath(); c.moveTo(50, 335); c.lineTo(W - 50, 335); c.stroke();
+    const divY = probY + 35;
+    c.strokeStyle = '#1e1e22'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(PAD, divY); c.lineTo(W - PAD, divY); c.stroke();
 
-    // Summary
-    c.fillStyle = '#a0a0b0';
-    c.font = '19px -apple-system, "Segoe UI", Arial, sans-serif';
-    _wrapText(c, summary, 50, 372, W - 100, 30, 4);
+    // ── Summary (starts divY+26, max 6 lines, lh=26) ───────────────────
+    c.fillStyle = '#9090a0';
+    c.font = `16px ${FONT}`;
+    _wrapText(c, summary, PAD, divY + 26, MAXW, 26, 6);
 
-    // Bottom bar
-    c.fillStyle = '#0f0f12'; c.fillRect(0, H - 70, W, 70);
+    // ── Bottom bar ──────────────────────────────────────────────────────
+    c.fillStyle = '#080808';
+    c.fillRect(0, H - 72, W, 72);
+    c.strokeStyle = '#1e1e22'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(0, H - 72); c.lineTo(W, H - 72); c.stroke();
+
     c.fillStyle = '#333338';
-    c.font = '14px -apple-system, "Segoe UI", Arial, sans-serif';
-    const qShort = q.length > 90 ? q.slice(0, 90) + '…' : q;
-    c.fillText('📊 ' + qShort, 50, H - 30);
+    c.font = `13px ${FONT}`;
+    c.fillText('polymarket.com  ·  ' + new Date().toLocaleDateString('en', {month:'short',day:'numeric',year:'numeric'}), PAD, H - 32);
     c.fillStyle = '#7c6af7';
-    c.font = 'bold 14px -apple-system, "Segoe UI", Arial, sans-serif';
-    c.textAlign = 'right'; c.fillText('www.hika.fyi', W - 50, H - 30); c.textAlign = 'left';
+    c.font = `bold 14px ${FONT}`;
+    c.textAlign = 'right'; c.fillText('www.hika.fyi', W - PAD, H - 32); c.textAlign = 'left';
 
-    // Show modal
     _showImgModal(cvs);
   }
 
