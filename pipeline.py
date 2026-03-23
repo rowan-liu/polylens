@@ -35,9 +35,8 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 GEMINI_MODELS = ["models/gemini-2.5-flash", "models/gemini-2.0-flash", "models/gemini-2.0-flash-lite"]
 OPENAI_MODEL = "gpt-4o-mini"
-TOP_N = 20
+TOP_N = 30
 MIN_VOLUME = 1_000    # lower bar — let scoring sort quality
-MIN_CHANGE = 0.003    # 0.3% — prediction markets rarely move more than 1-2%/day
 HIGH_VOL = 50_000     # markets above this are included regardless of change
 RATE_LIMIT_SLEEP = 20
 FETCH_LIMIT = 500
@@ -128,30 +127,25 @@ def parse_yes_probability(prices_raw) -> float:
 
 def rank_markets(raw: list[dict], top_n: int = TOP_N) -> list[dict]:
     """
-    Filter by volume/change thresholds, rank by score, take top N.
-    Score = volume24hr * (abs_change + 0.005)
-    The +0.005 bonus ensures high-volume stable markets still rank above noise.
+    Adaptive threshold: try 1% change first to keep quality high.
+    Fall back to 0.5%, then 0.3% until we fill top_n slots.
     High-volume markets (>HIGH_VOL) bypass the change filter entirely.
+    Score = abs_change*1000 + log10(volume)
     """
-    candidates = []
-    for m in raw:
-        volume = float(m.get("volume24hr") or 0)
-        change = float(m.get("oneDayPriceChange") or 0)
-        abs_change = abs(change)
+    import math
 
-        if volume < MIN_VOLUME:
-            continue
-        # Bypass change filter for very high-volume markets
-        if abs_change < MIN_CHANGE and volume < HIGH_VOL:
-            continue
-
-        # Score: prioritise movement; volume is tie-breaker within same change tier
-        # log(volume) smooths out the 100x gap between top and mid markets
-        import math
-        score = round(abs_change * 1000 + math.log10(max(volume, 1)), 2)
-
-        candidates.append(
-            {
+    def _filter(min_change: float) -> list[dict]:
+        out = []
+        for m in raw:
+            volume = float(m.get("volume24hr") or 0)
+            change = float(m.get("oneDayPriceChange") or 0)
+            abs_change = abs(change)
+            if volume < MIN_VOLUME:
+                continue
+            if abs_change < min_change and volume < HIGH_VOL:
+                continue
+            score = round(abs_change * 1000 + math.log10(max(volume, 1)), 2)
+            out.append({
                 "id": m.get("id", ""),
                 "question": m.get("question", ""),
                 "probability": parse_yes_probability(m.get("outcomePrices")),
@@ -159,10 +153,18 @@ def rank_markets(raw: list[dict], top_n: int = TOP_N) -> list[dict]:
                 "volume_24h": round(volume, 2),
                 "score": score,
                 "url": f"https://polymarket.com/event/{m.get('slug', m.get('id', ''))}",
-            }
-        )
+            })
+        out.sort(key=lambda x: x["score"], reverse=True)
+        return out
 
-    candidates.sort(key=lambda x: x["score"], reverse=True)
+    for threshold in (0.01, 0.005, 0.003):
+        candidates = _filter(threshold)
+        if len(candidates) >= top_n:
+            log.info("Using change threshold %.1f%% → %d candidates", threshold * 100, len(candidates))
+            break
+    else:
+        log.info("Using lowest threshold 0.3%% → %d candidates", len(candidates))
+
     return candidates[:top_n]
 
 
