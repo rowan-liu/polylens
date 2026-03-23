@@ -430,6 +430,27 @@
     .h-btn.twitter:hover { background: #111; }
     .h-btn.reddit { background: #ff4500; color: #fff; border: none; }
     .h-btn.reddit:hover { opacity: 0.85; }
+    /* ── Share bar ──────────────────────────────────── */
+    .share-bar { display: flex; gap: 6px; margin: 10px 0 4px; flex-wrap: wrap; }
+    .share-btn {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 600;
+      cursor: pointer; border: 1px solid var(--border); background: var(--surface);
+      color: var(--muted); transition: all 0.15s; text-decoration: none;
+    }
+    .share-btn:hover { color: var(--text); border-color: var(--accent); }
+    .share-btn.tw:hover  { border-color: #000; color: #000; background: #fff; }
+    .share-btn.rd:hover  { border-color: #ff4500; color: #ff4500; }
+    .share-btn.img:hover { border-color: var(--accent); color: var(--accent); }
+    /* Image modal */
+    #img-modal { display:none; position:fixed; inset:0; z-index:10000;
+      background:rgba(0,0,0,0.88); align-items:center; justify-content:center;
+      flex-direction:column; gap:14px; }
+    #img-modal.open { display:flex; }
+    #img-modal img { max-width:90vw; max-height:68vh; border-radius:10px; }
+    .img-modal-btns { display:flex; gap:10px; }
+    .img-modal-btn { padding:7px 18px; border-radius:6px; font-size:13px; cursor:pointer;
+      text-decoration:none; border:none; font-family:var(--font); }
   </style>
 </head>
 <body>
@@ -568,6 +589,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="34" data-chg="-21.7%"
+        data-url="https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-no-prison-time"
+        data-en-title="Weinstein No Prison Time Odds Plummet"
+        data-en-summary="The probability of Harvey Weinstein receiving no prison time has sharply dropped by 21.7%, now standing at 12.3%. This decline is primarily driven by Rosanna Arquette&#39;s open letter refuting Weinstein&#39;s prison interview claims, which intensified public scrutiny and reinforced the negative narrative against him."
+        data-zh-title="温斯坦免刑概率骤降"
+        data-zh-summary="哈维·温斯坦免于入狱的概率在24小时内骤降21.7%，目前为12.3%。这一跌幅主要源于罗珊娜·阿奎特公开信驳斥温斯坦狱中言论，此举加剧了公众审查并强化了对其的负面看法。"
+        data-q="Will Harvey Weinstein be sentenced to no prison time?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="544092" data-q="Will Harvey Weinstein be sentenced to no prison time?">
         <button class="comment-toggle" onclick="toggleComments('544092')">
@@ -654,6 +686,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="47" data-chg="-5.5%"
+        data-url="https://polymarket.com/event/netanyahu-out-before-2027-684-719-226"
+        data-en-title="Netanyahu&#39;s Tenure Strengthened by War Talk"
+        data-en-summary="The probability of Netanyahu being out by 2026 fell by 5.5% to 48%, indicating increased market confidence in his continued leadership. This shift is driven by analyses suggesting a potential war with Iran could consolidate his power and neutralize domestic opposition, as highlighted by recent headlines."
+        data-zh-title="内塔尼亚胡任期因战争言论巩固"
+        data-zh-summary="内塔尼亚胡在2026年底前下台的概率下降了5.5%至48%，表明市场对其继续执政的信心增强。这一变化源于分析认为，与伊朗的潜在战争可能巩固其权力并消除国内反对声音，正如近期头条新闻所强调的。"
+        data-q="Netanyahu out by end of 2026?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="567688" data-q="Netanyahu out by end of 2026?">
         <button class="comment-toggle" onclick="toggleComments('567688')">
@@ -740,6 +783,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="28" data-chg="+5.5%"
+        data-url="https://polymarket.com/event/will-ukraine-qualify-for-the-2026-fifa-world-cup"
+        data-en-title="Ukraine WC Odds Climb"
+        data-en-summary="Ukraine&#39;s 2026 World Cup qualification probability rose by 5.5% to 29%. This increase likely reflects a subtle re-evaluation of the European qualification landscape, with market participants potentially reacting to news of setbacks for other strong European contenders."
+        data-zh-title="乌克兰世界杯前景看涨"
+        data-zh-summary="乌克兰晋级2026年世界杯的概率上升5.5%至29%。此次上涨可能反映了欧洲区预选赛格局的微妙变化，市场参与者或对其他欧洲强队遭遇挫折的消息做出反应。"
+        data-q="Will Ukraine qualify for the 2026 FIFA World Cup?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="550708" data-q="Will Ukraine qualify for the 2026 FIFA World Cup?">
         <button class="comment-toggle" onclick="toggleComments('550708')">
@@ -826,6 +880,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="66" data-chg="+5.1%"
+        data-url="https://polymarket.com/event/will-kon-knueppel-win-the-202526-nba-rookie-of-the-year-award"
+        data-en-title="Knueppel ROY Odds Climb, Drivers Unclear"
+        data-en-summary="Kon Knueppel&#39;s 2025-26 NBA Rookie of the Year probability increased by 5.1% to 66% in the last 24 hours. However, the provided headlines, which focus on current NBA game results and a player injury, offer no direct explanation for this market movement."
+        data-zh-title="克努佩尔新秀赔率上涨，原因不明"
+        data-zh-summary="康·克努佩尔赢得2025-26 NBA年度最佳新秀的概率在过去24小时内上升了5.1%至66%。然而，所提供的近期头条新闻，主要关注当前NBA比赛结果和球员伤病，并未直接解释这一市场变动。"
+        data-q="Will Kon Knueppel win the 2025–26 NBA Rookie of the Year award?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="561370" data-q="Will Kon Knueppel win the 2025–26 NBA Rookie of the Year award?">
         <button class="comment-toggle" onclick="toggleComments('561370')">
@@ -912,6 +977,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="81" data-chg="-4.5%"
+        data-url="https://polymarket.com/event/will-manchester-city-finish-in-2nd-place-in-the-2025-26-english-premier-league"
+        data-en-title="Man City Dominance Shifts Outlook"
+        data-en-summary="The probability of Manchester City finishing 2nd in the 2025-26 Premier League fell by 4.5% to 82% after their dominant English League Cup final victory over Arsenal. This strong performance, highlighted by headlines stating Man City &#34;make statement in Premier League title race,&#34; suggests they are now more likely to win the league, thereby reducing the likelihood of a second-place finish."
+        data-zh-title="曼城强势表现改变预期"
+        data-zh-summary="曼城在英格兰联赛杯决赛中强势击败阿森纳后，其在2025-26赛季英超联赛中获得第二名的概率下降了4.5%至82%。媒体报道强调曼城“在英超冠军争夺战中发出声明”，这表明他们现在更有可能赢得联赛冠军，从而降低了获得第二名的可能性。"
+        data-q="Will Manchester City finish in 2nd place in the 2025-26 English Premier League?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="572734" data-q="Will Manchester City finish in 2nd place in the 2025-26 English Premier League?">
         <button class="comment-toggle" onclick="toggleComments('572734')">
@@ -998,6 +1074,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="42" data-chg="-3.5%"
+        data-url="https://polymarket.com/event/will-paloma-valencia-win-the-2026-colombian-presidential-election"
+        data-en-title="Petro&#39;s Investigation Impacts Valencia&#39;s Odds"
+        data-en-summary="Paloma Valencia&#39;s probability of winning the 2026 election fell to 42% as President Petro faces U.S. investigations for alleged drug ties. This uncertainty surrounding Petro&#39;s leadership likely influenced market sentiment against Valencia."
+        data-zh-title="佩特罗调查影响瓦伦西亚赔率"
+        data-zh-summary="由于总统佩特罗面临美国对其涉嫌毒品关系的调查，瓦伦西亚在2026年选举中的胜率降至42%。佩特罗领导下的不确定性可能影响市场对瓦伦西亚的支持。"
+        data-q="Will Paloma Valencia win the 2026 Colombian presidential election?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="569373" data-q="Will Paloma Valencia win the 2026 Colombian presidential election?">
         <button class="comment-toggle" onclick="toggleComments('569373')">
@@ -1084,6 +1171,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="14" data-chg="-2.5%"
+        data-url="https://polymarket.com/event/will-abelardo-de-la-espriella-win-the-2026-colombian-presidential-election"
+        data-en-title="Colombia Election Odds Shift"
+        data-en-summary="Abelardo de la Espriella&#39;s probability of winning the 2026 Colombian presidential election fell by 2.5% to 14%. This decline occurred as current President Gustavo Petro became the subject of multiple US investigations into alleged drug ties and campaign finance irregularities, potentially fragmenting the opposition field."
+        data-zh-title="哥伦比亚大选赔率变动"
+        data-zh-summary="阿韦拉多·德拉埃斯普列拉赢得2026年哥伦比亚总统选举的概率下降了2.5%至14%。此次下降发生之际，现任总统古斯塔沃·佩特罗因涉嫌毒品关系和竞选资金违规行为，正面临美国多项调查，这可能导致反对派阵营进一步分散。"
+        data-q="Will Abelardo de la Espriella  win the 2026 Colombian presidential election?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="569366" data-q="Will Abelardo de la Espriella  win the 2026 Colombian presidential election?">
         <button class="comment-toggle" onclick="toggleComments('569366')">
@@ -1170,6 +1268,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="27" data-chg="+2.4%"
+        data-url="https://polymarket.com/event/will-marco-rubio-win-the-2028-republican-presidential-nomination"
+        data-en-title="Rubio&#39;s 2028 Nomination Odds Rise"
+        data-en-summary="Marco Rubio&#39;s probability for the 2028 Republican presidential nomination increased by 2.4% to 27%. This rise is primarily driven by Newsweek&#39;s report highlighting former President Trump&#39;s past praise for Rubio, where he called him the “best ever” secretary, signaling potential high-level support for his future political ambitions."
+        data-zh-title="卢比奥2028年提名概率上升"
+        data-zh-summary="马尔科·卢比奥赢得2028年共和党总统提名的概率上升2.4%至27%。这一增长主要源于《新闻周刊》的报道，其中提及前总统特朗普曾称赞卢比奥为“有史以来最佳”部长，这被市场解读为对其未来政治抱负的潜在高层支持。"
+        data-q="Will Marco Rubio win the 2028 Republican presidential nomination?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="561975" data-q="Will Marco Rubio win the 2028 Republican presidential nomination?">
         <button class="comment-toggle" onclick="toggleComments('561975')">
@@ -1256,6 +1365,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="0" data-chg="+2.2%"
+        data-url="https://polymarket.com/event/will-juan-daniel-oviedo-win-the-2026-colombian-presidential-election"
+        data-en-title="Oviedo&#39;s Odds Improve Amid Petro Probe"
+        data-en-summary="Juan Daniel Oviedo&#39;s probability of winning the 2026 Colombian presidential election rose by 2.2% in 24 hours. This increase follows multiple reports, including from Al Jazeera and The New York Times, detailing U.S. investigations into current President Gustavo Petro for alleged drug ties and campaign finance irregularities."
+        data-zh-title="佩特罗受查，奥维耶多胜选率升"
+        data-zh-summary="胡安·丹尼尔·奥维耶多赢得2026年哥伦比亚总统选举的概率在24小时内上升了2.2%。这一增长是由于半岛电视台和《纽约时报》等多家媒体报道，美国正在调查现任总统古斯塔沃·佩特罗涉嫌毒品关系和竞选资金违规。"
+        data-q="Will Juan Daniel Oviedo win the 2026 Colombian presidential election?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="569360" data-q="Will Juan Daniel Oviedo win the 2026 Colombian presidential election?">
         <button class="comment-toggle" onclick="toggleComments('569360')">
@@ -1342,6 +1462,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="21" data-chg="+2.1%"
+        data-url="https://polymarket.com/event/will-the-san-antonio-spurs-win-the-nba-western-conference-finals"
+        data-en-title="Spurs Playoff Hopes Surge"
+        data-en-summary="The probability of the San Antonio Spurs winning the NBA Western Conference Finals rose by 2.1% to 22%, primarily driven by recent news confirming their playoff berth and growing media speculation about their potential deep run. Specifically, Sports Illustrated reported the Spurs are &#34;playoff bound for the first time since 2019,&#34; while Yahoo Sports discussed &#34;How Spurs can make legitimate NBA Finals run.&#34;"
+        data-zh-title="马刺季后赛前景看涨"
+        data-zh-summary="圣安东尼奥马刺队赢得NBA西部决赛的概率上升2.1%至22%，主要受近期确认其季后赛席位以及媒体对其深入季后赛潜力的猜测推动。具体而言，《体育画报》报道马刺队“自2019年以来首次进入季后赛”，而雅虎体育则讨论了“马刺如何能真正冲击NBA总决赛”。"
+        data-q="Will the San Antonio Spurs win the NBA Western Conference Finals?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="564218" data-q="Will the San Antonio Spurs win the NBA Western Conference Finals?">
         <button class="comment-toggle" onclick="toggleComments('564218')">
@@ -1428,6 +1559,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="62" data-chg="+2.0%"
+        data-url="https://polymarket.com/event/will-the-next-prime-minister-of-hungary-be-pter-magyar"
+        data-en-title="Magyar&#39;s PM Chances Rise Amid Orbán Scrutiny"
+        data-en-summary="Péter Magyar&#39;s probability to be Hungary&#39;s next Prime Minister increased by 2.0% to 62%. This rise is largely due to revelations that Russia proposed staging an assassination attempt to aid Viktor Orbán, indicating perceived weakness in the incumbent&#39;s position."
+        data-zh-title="马扎尔总理前景在奥尔班受审视中上升"
+        data-zh-summary="佩特·马扎尔成为匈牙利下任总理的概率上升2.0%至62%。此次上涨主要源于俄罗斯曾提议策划暗杀以帮助维克托·奥尔班的披露，这暗示了现任总理地位可能存在弱点。"
+        data-q="Will the next Prime Minister of Hungary be Péter Magyar?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="567561" data-q="Will the next Prime Minister of Hungary be Péter Magyar?">
         <button class="comment-toggle" onclick="toggleComments('567561')">
@@ -1514,6 +1656,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="56" data-chg="+2.0%"
+        data-url="https://polymarket.com/event/will-john-cornyn-win-the-2026-republican-primary"
+        data-en-title="Cornyn Primary Odds Rise"
+        data-en-summary="John Cornyn&#39;s 2026 Texas Republican Primary win probability rose 2.0% to 56%, despite a Newsweek poll indicating Ken Paxton leads him by 3 points. This increase suggests market participants are likely discounting the poll&#39;s credibility and may see Democratic nominee James Talarico&#39;s controversial &#34;God beyond gender&#34; comments as weakening the general election threat."
+        data-zh-title="康宁初选胜率上升"
+        data-zh-summary="约翰·康宁在2026年德克萨斯州共和党初选中获胜的概率上升2.0%至56%，尽管《新闻周刊》民调显示肯·帕克斯顿领先他3个百分点。这一增长表明市场参与者可能不相信该民调的可信度，并认为民主党提名人詹姆斯·塔拉里科关于“上帝超越性别”的争议性言论削弱了大选威胁。"
+        data-q="Will John Cornyn win the 2026 Texas Republican Primary?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="562187" data-q="Will John Cornyn win the 2026 Texas Republican Primary?">
         <button class="comment-toggle" onclick="toggleComments('562187')">
@@ -1600,6 +1753,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="0" data-chg="+2.0%"
+        data-url="https://polymarket.com/event/will-plc-win-the-most-seats-in-the-2026-colombian-chamber-of-representatives-election"
+        data-en-title="Petro Scandal Boosts PLC Election Odds"
+        data-en-summary="The probability for PLC to win the most seats in the 2026 Colombian Chamber of Representatives election briefly rose by 2.0% within the last 24 hours. This movement likely reflects market reaction to headlines detailing US investigations into Colombian President Gustavo Petro for alleged drug ties, potentially weakening the incumbent political establishment."
+        data-zh-title="佩特罗丑闻提振PLC选情"
+        data-zh-summary="PLC在2026年哥伦比亚众议院选举中赢得最多席位的概率在过去24小时内短暂上升了2.0%。这一变动可能反映了市场对哥伦比亚总统古斯塔沃·佩特罗因涉嫌毒品关系在美国接受调查的新闻的反应，这可能削弱现任政治建制派。"
+        data-q="Will PLC win the most seats in the 2026 Colombian Chamber of Representatives election?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="569313" data-q="Will PLC win the most seats in the 2026 Colombian Chamber of Representatives election?">
         <button class="comment-toggle" onclick="toggleComments('569313')">
@@ -1686,6 +1850,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="50" data-chg="-2.0%"
+        data-url="https://polymarket.com/event/will-the-oklahoma-city-thunder-win-the-nba-western-conference-finals"
+        data-en-title="Thunder WCF Odds Dip"
+        data-en-summary="The Oklahoma City Thunder&#39;s probability of winning the Western Conference Finals dropped by 2.0% to 50%, primarily due to rival Luka Dončić&#39;s dominant streak, signaling tougher competition. This shift reflects a market reassessment of the Western Conference landscape, despite premature headlines declaring the Thunder as champions."
+        data-zh-title="雷霆西决概率下降"
+        data-zh-summary="俄克拉荷马城雷霆队赢得西部决赛的概率下降2.0%至50%，主要原因是竞争对手卢卡·东契奇的强势表现，预示着更激烈的竞争。尽管有提前宣布雷霆夺冠的报道，市场仍重新评估了西部格局。"
+        data-q="Will the Oklahoma City Thunder win the NBA Western Conference Finals?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="564210" data-q="Will the Oklahoma City Thunder win the NBA Western Conference Finals?">
         <button class="comment-toggle" onclick="toggleComments('564210')">
@@ -1772,6 +1947,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="12" data-chg="-2.0%"
+        data-url="https://polymarket.com/event/will-the-detroit-pistons-win-the-nba-eastern-conference-finals"
+        data-en-title="Pistons&#39; Finals Hopes Dim Amid Cunningham Injury"
+        data-en-summary="The Detroit Pistons&#39; probability of winning the NBA Eastern Conference Finals fell by 2.0% to 12%. This decline is primarily due to star player Cade Cunningham being ruled out with an injured lung, significantly impacting the team&#39;s playoff prospects."
+        data-zh-title="活塞东决希望因坎宁安伤情受挫"
+        data-zh-summary="底特律活塞队赢得NBA东部决赛的概率下降了2.0%至12%。这一跌幅主要归因于核心球员凯德·坎宁安因肺部受伤缺阵，严重影响了球队的季后赛前景。"
+        data-q="Will the Detroit Pistons win the NBA Eastern Conference Finals?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="564198" data-q="Will the Detroit Pistons win the NBA Eastern Conference Finals?">
         <button class="comment-toggle" onclick="toggleComments('564198')">
@@ -1858,6 +2044,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="23" data-chg="-1.9%"
+        data-url="https://polymarket.com/event/bitboy-convicted"
+        data-en-title="BitBoy Conviction Odds Dip"
+        data-en-summary="The probability of BitBoy&#39;s conviction fell by 1.9% to 23%. This slight decrease occurred amidst a lack of new, direct negative headlines specifically targeting BitBoy, while other high-profile legal cases, such as the Super Micro co-founder&#39;s resignation due to smuggling charges, captured broader attention."
+        data-zh-title="BitBoy定罪概率下降"
+        data-zh-summary="BitBoy被定罪的概率下降了1.9%至23%。此次小幅下降发生之际，缺乏直接针对BitBoy的新的负面头条新闻，而其他备受关注的法律案件，例如超微电脑联合创始人因走私指控辞职，吸引了更广泛的关注。"
+        data-q="BitBoy convicted?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="531202" data-q="BitBoy convicted?">
         <button class="comment-toggle" onclick="toggleComments('531202')">
@@ -1944,6 +2141,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="8" data-chg="+1.5%"
+        data-url="https://polymarket.com/event/will-rory-mcilroy-win-the-2026-masters-tournament"
+        data-en-title="McIlroy&#39;s 2026 Masters Odds Climb"
+        data-en-summary="The probability of Rory McIlroy winning the 2026 Masters increased by 1.5% to 8%. This rise is primarily driven by a CBS Sports report detailing &#39;surprising PGA predictions&#39; from a golf model with a strong track record, suggesting favorable outlooks for McIlroy."
+        data-zh-title="麦克罗伊2026大师赛夺冠赔率上升"
+        data-zh-summary="罗里·麦克罗伊赢得2026年大师赛的概率上升了1.5%至8%。这一增长主要受CBS体育报道的推动，该报道详细介绍了来自一个曾成功预测16场大满贯赛事的模型所做出的“令人惊讶的PGA预测”，暗示了对麦克罗伊有利的前景。"
+        data-q="Will Rory McIlroy win the 2026 Masters tournament?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="568630" data-q="Will Rory McIlroy win the 2026 Masters tournament?">
         <button class="comment-toggle" onclick="toggleComments('568630')">
@@ -2030,6 +2238,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="65" data-chg="+1.5%"
+        data-url="https://polymarket.com/event/will-italy-qualify-for-the-2026-fifa-world-cup"
+        data-en-title="Chiesa Returns, Boosts Italy WC Hopes"
+        data-en-summary="Italy&#39;s probability of qualifying for the 2026 FIFA World Cup rose by 1.5% to 66%. This increase is primarily due to the call-up of key player Federico Chiesa for the World Cup playoffs after a nearly two-year absence, significantly strengthening the squad."
+        data-zh-title="基耶萨回归，意大利世界杯希望增"
+        data-zh-summary="意大利晋级2026年FIFA世界杯的概率上升了1.5%，达到66%。这一增长主要归因于关键球员费德里科·基耶萨在缺席近两年后被召回参加世界杯附加赛，显著增强了球队实力。"
+        data-q="Will Italy qualify for the 2026 FIFA World Cup?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="550694" data-q="Will Italy qualify for the 2026 FIFA World Cup?">
         <button class="comment-toggle" onclick="toggleComments('550694')">
@@ -2116,6 +2335,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="10" data-chg="-1.5%"
+        data-url="https://polymarket.com/event/will-arsenal-finish-in-2nd-place-in-the-2025-26-english-premier-league"
+        data-en-title="Arsenal 2nd Place Odds Fall Post-Cup Loss"
+        data-en-summary="The probability of Arsenal finishing 2nd in the 2025-26 Premier League dropped by 1.5% to 10%. This decline follows Manchester City&#39;s dominant victory over Arsenal in the English League Cup Final, significantly lowering confidence in Arsenal&#39;s future top-tier performance."
+        data-zh-title="阿森纳联赛亚军赔率因杯赛失利下跌"
+        data-zh-summary="阿森纳在2025-26赛季英超联赛中获得第二名的概率下降了1.5%至10%。此次下跌是由于曼城在英格兰联赛杯决赛中以压倒性优势击败阿森纳，显著降低了市场对阿森纳未来顶级表现的信心。"
+        data-q="Will Arsenal finish in 2nd place in the 2025-26 English Premier League?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="572733" data-q="Will Arsenal finish in 2nd place in the 2025-26 English Premier League?">
         <button class="comment-toggle" onclick="toggleComments('572733')">
@@ -2202,6 +2432,17 @@
           
         </span>
         
+      </div><div class="share-bar"
+        data-prob="1" data-chg="-1.4%"
+        data-url="https://polymarket.com/event/will-the-next-prime-minister-of-hungary-be-lszl-toroczkai"
+        data-en-title="Toroczkai PM Hopes Dim Amid Orbán Strength"
+        data-en-summary="The probability of László Toroczkai becoming Hungary&#39;s next Prime Minister fell by 1.4% to 1%. This decline is driven by recent headlines highlighting strong international endorsements for current PM Viktor Orbán, including &#39;total endorsement&#39; from Donald Trump, reinforcing Orbán&#39;s grip on power."
+        data-zh-title="托罗茨凯总理希望渺茫，欧尔班地位稳固"
+        data-zh-summary="拉斯洛·托罗茨凯成为匈牙利下任总理的概率下降1.4%至1%。这一跌幅主要受近期头条新闻影响，这些新闻强调现任总理维克托·欧尔班获得包括唐纳德·特朗普在内的国际强力支持，巩固了他的执政地位。"
+        data-q="Will the next Prime Minister of Hungary be László Toroczkai?">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="567563" data-q="Will the next Prime Minister of Hungary be László Toroczkai?">
         <button class="comment-toggle" onclick="toggleComments('567563')">
@@ -2918,6 +3159,161 @@
     const h = Math.floor(m / 60);
     if (h < 24) return h + 'h ago';
     return Math.floor(h / 24) + 'd ago';
+  }
+  // ── Share functions ────────────────────────────────────────────────────
+  function shareTwitter(bar) {
+    const isZh = document.body.classList.contains('lang-zh');
+    const title   = (isZh ? bar.dataset.zhTitle   : bar.dataset.enTitle)   || '';
+    const summary = (isZh ? bar.dataset.zhSummary : bar.dataset.enSummary) || '';
+    const text = [
+      '🔮 ' + title.slice(0, 70),
+      bar.dataset.prob + '% YES | ' + bar.dataset.chg + ' (24h)',
+      summary.slice(0, 120) + (summary.length > 120 ? '…' : ''),
+      '',
+      '📊 https://www.hika.fyi',
+      '#Polymarket #PredictionMarkets',
+    ].join('\n');
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text),
+      '_blank', 'width=600,height=420,noopener');
+  }
+
+  function shareReddit(bar) {
+    const isZh = document.body.classList.contains('lang-zh');
+    const title = (isZh ? bar.dataset.zhTitle : bar.dataset.enTitle) || '';
+    const rtitle = title.slice(0, 140) + ' | ' + bar.dataset.prob + '% YES | ' + bar.dataset.chg + ' (Polymarket)';
+    window.open('https://www.reddit.com/submit?url=' + encodeURIComponent('https://www.hika.fyi')
+      + '&title=' + encodeURIComponent(rtitle), '_blank', 'noopener');
+  }
+
+  // ── Canvas image card ──────────────────────────────────────────────────
+  function _wrapText(ctx, text, x, y, maxW, lh, maxLines) {
+    const words = String(text || '').split(' ');
+    let line = '', drawn = 0;
+    for (let i = 0; i < words.length; i++) {
+      const test = line + words[i] + ' ';
+      if (ctx.measureText(test).width > maxW && i > 0) {
+        ctx.fillText(line.trimEnd(), x, y);
+        line = words[i] + ' '; y += lh; drawn++;
+        if (maxLines && drawn >= maxLines - 1) {
+          const rest = words.slice(i + 1).join(' ');
+          const tail = rest ? line.trimEnd() + ' ' + rest : line.trimEnd();
+          const fin = ctx.measureText(tail).width > maxW
+            ? tail.slice(0, Math.floor(tail.length * (maxW / ctx.measureText(tail).width) * 0.9)) + '…'
+            : tail;
+          ctx.fillText(fin.trimEnd(), x, y);
+          return;
+        }
+      } else { line = test; }
+    }
+    if (line.trim()) ctx.fillText(line.trimEnd(), x, y);
+  }
+
+  function generateCard(bar) {
+    const isZh = document.body.classList.contains('lang-zh');
+    const title   = (isZh ? bar.dataset.zhTitle   : bar.dataset.enTitle)   || '';
+    const summary = (isZh ? bar.dataset.zhSummary : bar.dataset.enSummary) || '';
+    const prob = bar.dataset.prob + '%';
+    const chg  = bar.dataset.chg;
+    const isUp = !chg.startsWith('-');
+    const q    = bar.dataset.q || '';
+
+    const W = 1200, H = 630;
+    const cvs = document.createElement('canvas');
+    cvs.width = W; cvs.height = H;
+    const c = cvs.getContext('2d');
+
+    // Background
+    c.fillStyle = '#0c0c0e'; c.fillRect(0, 0, W, H);
+
+    // Subtle grid texture
+    c.strokeStyle = 'rgba(255,255,255,0.03)'; c.lineWidth = 1;
+    for (let x = 0; x < W; x += 60) { c.beginPath(); c.moveTo(x,0); c.lineTo(x,H); c.stroke(); }
+    for (let y = 0; y < H; y += 60) { c.beginPath(); c.moveTo(0,y); c.lineTo(W,y); c.stroke(); }
+
+    // Purple left accent bar
+    const grad = c.createLinearGradient(0,0,0,H);
+    grad.addColorStop(0, '#7c6af7'); grad.addColorStop(1, '#5b4fd4');
+    c.fillStyle = grad; c.fillRect(0, 0, 6, H);
+
+    // Top: brand
+    c.fillStyle = '#7c6af7';
+    c.font = 'bold 20px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText('🔮 PolyLens', 50, 58);
+    c.fillStyle = '#444450';
+    c.font = '16px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.textAlign = 'right'; c.fillText('hika.fyi', W - 50, 58); c.textAlign = 'left';
+
+    // Divider
+    c.strokeStyle = '#222226'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(50, 76); c.lineTo(W - 50, 76); c.stroke();
+
+    // Title
+    c.fillStyle = '#e8e8ec';
+    c.font = 'bold 30px -apple-system, "Segoe UI", Arial, sans-serif';
+    _wrapText(c, title, 50, 128, W - 100, 42, 2);
+
+    // Probability
+    c.fillStyle = isUp ? '#22c55e' : '#ef4444';
+    c.font = 'bold 72px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText(prob, 50, 285);
+    const probW = c.measureText(prob).width;
+
+    // Change badge
+    c.fillStyle = isUp ? 'rgba(34,197,94,0.15)' : 'rgba(239,68,68,0.15)';
+    c.beginPath(); c.roundRect(50 + probW + 18, 238, 160, 36, 6); c.fill();
+    c.fillStyle = isUp ? '#22c55e' : '#ef4444';
+    c.font = 'bold 19px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText((isUp ? '▲ ' : '▼ ') + chg + ' 24h', 50 + probW + 30, 262);
+
+    // "YES probability" label
+    c.fillStyle = '#444450';
+    c.font = '15px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText('YES probability', 50, 315);
+
+    // Divider
+    c.strokeStyle = '#1a1a1e'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(50, 335); c.lineTo(W - 50, 335); c.stroke();
+
+    // Summary
+    c.fillStyle = '#a0a0b0';
+    c.font = '19px -apple-system, "Segoe UI", Arial, sans-serif';
+    _wrapText(c, summary, 50, 372, W - 100, 30, 4);
+
+    // Bottom bar
+    c.fillStyle = '#0f0f12'; c.fillRect(0, H - 70, W, 70);
+    c.fillStyle = '#333338';
+    c.font = '14px -apple-system, "Segoe UI", Arial, sans-serif';
+    const qShort = q.length > 90 ? q.slice(0, 90) + '…' : q;
+    c.fillText('📊 ' + qShort, 50, H - 30);
+    c.fillStyle = '#7c6af7';
+    c.font = 'bold 14px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.textAlign = 'right'; c.fillText('www.hika.fyi', W - 50, H - 30); c.textAlign = 'left';
+
+    // Show modal
+    _showImgModal(cvs);
+  }
+
+  function _showImgModal(cvs) {
+    let modal = document.getElementById('img-modal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'img-modal';
+      modal.innerHTML = '<img id="img-modal-img" />'
+        + '<div class="img-modal-btns">'
+        + '<a id="img-modal-dl" class="img-modal-btn" style="background:#7c6af7;color:#fff">⬇ Download PNG</a>'
+        + '<button class="img-modal-btn" style="background:#1a1a1e;color:#aaa;border:1px solid #333" onclick="document.getElementById(\'img-modal\').classList.remove(\'open\')">✕ Close</button>'
+        + '</div>';
+      modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('open'); });
+      document.body.appendChild(modal);
+    }
+    cvs.toBlob(blob => {
+      const url = URL.createObjectURL(blob);
+      document.getElementById('img-modal-img').src = url;
+      const dl = document.getElementById('img-modal-dl');
+      dl.href = url;
+      dl.download = 'polylens-' + new Date().toISOString().slice(0, 10) + '.png';
+      modal.classList.add('open');
+    }, 'image/png');
   }
 </script>
 </body>

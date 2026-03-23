@@ -430,6 +430,27 @@
     .h-btn.twitter:hover { background: #111; }
     .h-btn.reddit { background: #ff4500; color: #fff; border: none; }
     .h-btn.reddit:hover { opacity: 0.85; }
+    /* ── Share bar ──────────────────────────────────── */
+    .share-bar { display: flex; gap: 6px; margin: 10px 0 4px; flex-wrap: wrap; }
+    .share-btn {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 600;
+      cursor: pointer; border: 1px solid var(--border); background: var(--surface);
+      color: var(--muted); transition: all 0.15s; text-decoration: none;
+    }
+    .share-btn:hover { color: var(--text); border-color: var(--accent); }
+    .share-btn.tw:hover  { border-color: #000; color: #000; background: #fff; }
+    .share-btn.rd:hover  { border-color: #ff4500; color: #ff4500; }
+    .share-btn.img:hover { border-color: var(--accent); color: var(--accent); }
+    /* Image modal */
+    #img-modal { display:none; position:fixed; inset:0; z-index:10000;
+      background:rgba(0,0,0,0.88); align-items:center; justify-content:center;
+      flex-direction:column; gap:14px; }
+    #img-modal.open { display:flex; }
+    #img-modal img { max-width:90vw; max-height:68vh; border-radius:10px; }
+    .img-modal-btns { display:flex; gap:10px; }
+    .img-modal-btn { padding:7px 18px; border-radius:6px; font-size:13px; cursor:pointer;
+      text-decoration:none; border:none; font-family:var(--font); }
   </style>
 </head>
 <body>
@@ -568,6 +589,21 @@
           {% endfor %}
         </span>
         {% endif %}
+      </div>
+      {%- set _prob = (m.probability * 100) | int -%}
+      {%- set _chg_sign = '+' if m.change_24h >= 0 else '' -%}
+      {%- set _chg = _chg_sign ~ ('%.1f' | format(m.change_24h * 100)) ~ '%' -%}
+      <div class="share-bar"
+        data-prob="{{ _prob }}" data-chg="{{ _chg }}"
+        data-url="{{ m.url | e }}"
+        data-en-title="{{ ins.en.title | e }}"
+        data-en-summary="{{ ins.en.summary | e }}"
+        data-zh-title="{{ (ins.zh.title or ins.en.title) | e }}"
+        data-zh-summary="{{ (ins.zh.summary or ins.en.summary) | e }}"
+        data-q="{{ m.question | e }}">
+        <button class="share-btn tw" onclick="shareTwitter(this.closest('.share-bar'))">&#120143; Tweet</button>
+        <button class="share-btn rd" onclick="shareReddit(this.closest('.share-bar'))">Reddit</button>
+        <button class="share-btn img" onclick="generateCard(this.closest('.share-bar'))">&#128248; Image</button>
       </div>
       <div class="comment-section" data-mid="{{ m.id }}" data-q="{{ m.question | e }}">
         <button class="comment-toggle" onclick="toggleComments('{{ m.id }}')">
@@ -1312,6 +1348,161 @@
     const h = Math.floor(m / 60);
     if (h < 24) return h + 'h ago';
     return Math.floor(h / 24) + 'd ago';
+  }
+  // ── Share functions ────────────────────────────────────────────────────
+  function shareTwitter(bar) {
+    const isZh = document.body.classList.contains('lang-zh');
+    const title   = (isZh ? bar.dataset.zhTitle   : bar.dataset.enTitle)   || '';
+    const summary = (isZh ? bar.dataset.zhSummary : bar.dataset.enSummary) || '';
+    const text = [
+      '🔮 ' + title.slice(0, 70),
+      bar.dataset.prob + '% YES | ' + bar.dataset.chg + ' (24h)',
+      summary.slice(0, 120) + (summary.length > 120 ? '…' : ''),
+      '',
+      '📊 https://www.hika.fyi',
+      '#Polymarket #PredictionMarkets',
+    ].join('\n');
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text),
+      '_blank', 'width=600,height=420,noopener');
+  }
+
+  function shareReddit(bar) {
+    const isZh = document.body.classList.contains('lang-zh');
+    const title = (isZh ? bar.dataset.zhTitle : bar.dataset.enTitle) || '';
+    const rtitle = title.slice(0, 140) + ' | ' + bar.dataset.prob + '% YES | ' + bar.dataset.chg + ' (Polymarket)';
+    window.open('https://www.reddit.com/submit?url=' + encodeURIComponent('https://www.hika.fyi')
+      + '&title=' + encodeURIComponent(rtitle), '_blank', 'noopener');
+  }
+
+  // ── Canvas image card ──────────────────────────────────────────────────
+  function _wrapText(ctx, text, x, y, maxW, lh, maxLines) {
+    const words = String(text || '').split(' ');
+    let line = '', drawn = 0;
+    for (let i = 0; i < words.length; i++) {
+      const test = line + words[i] + ' ';
+      if (ctx.measureText(test).width > maxW && i > 0) {
+        ctx.fillText(line.trimEnd(), x, y);
+        line = words[i] + ' '; y += lh; drawn++;
+        if (maxLines && drawn >= maxLines - 1) {
+          const rest = words.slice(i + 1).join(' ');
+          const tail = rest ? line.trimEnd() + ' ' + rest : line.trimEnd();
+          const fin = ctx.measureText(tail).width > maxW
+            ? tail.slice(0, Math.floor(tail.length * (maxW / ctx.measureText(tail).width) * 0.9)) + '…'
+            : tail;
+          ctx.fillText(fin.trimEnd(), x, y);
+          return;
+        }
+      } else { line = test; }
+    }
+    if (line.trim()) ctx.fillText(line.trimEnd(), x, y);
+  }
+
+  function generateCard(bar) {
+    const isZh = document.body.classList.contains('lang-zh');
+    const title   = (isZh ? bar.dataset.zhTitle   : bar.dataset.enTitle)   || '';
+    const summary = (isZh ? bar.dataset.zhSummary : bar.dataset.enSummary) || '';
+    const prob = bar.dataset.prob + '%';
+    const chg  = bar.dataset.chg;
+    const isUp = !chg.startsWith('-');
+    const q    = bar.dataset.q || '';
+
+    const W = 1200, H = 630;
+    const cvs = document.createElement('canvas');
+    cvs.width = W; cvs.height = H;
+    const c = cvs.getContext('2d');
+
+    // Background
+    c.fillStyle = '#0c0c0e'; c.fillRect(0, 0, W, H);
+
+    // Subtle grid texture
+    c.strokeStyle = 'rgba(255,255,255,0.03)'; c.lineWidth = 1;
+    for (let x = 0; x < W; x += 60) { c.beginPath(); c.moveTo(x,0); c.lineTo(x,H); c.stroke(); }
+    for (let y = 0; y < H; y += 60) { c.beginPath(); c.moveTo(0,y); c.lineTo(W,y); c.stroke(); }
+
+    // Purple left accent bar
+    const grad = c.createLinearGradient(0,0,0,H);
+    grad.addColorStop(0, '#7c6af7'); grad.addColorStop(1, '#5b4fd4');
+    c.fillStyle = grad; c.fillRect(0, 0, 6, H);
+
+    // Top: brand
+    c.fillStyle = '#7c6af7';
+    c.font = 'bold 20px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText('🔮 PolyLens', 50, 58);
+    c.fillStyle = '#444450';
+    c.font = '16px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.textAlign = 'right'; c.fillText('hika.fyi', W - 50, 58); c.textAlign = 'left';
+
+    // Divider
+    c.strokeStyle = '#222226'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(50, 76); c.lineTo(W - 50, 76); c.stroke();
+
+    // Title
+    c.fillStyle = '#e8e8ec';
+    c.font = 'bold 30px -apple-system, "Segoe UI", Arial, sans-serif';
+    _wrapText(c, title, 50, 128, W - 100, 42, 2);
+
+    // Probability
+    c.fillStyle = isUp ? '#22c55e' : '#ef4444';
+    c.font = 'bold 72px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText(prob, 50, 285);
+    const probW = c.measureText(prob).width;
+
+    // Change badge
+    c.fillStyle = isUp ? 'rgba(34,197,94,0.15)' : 'rgba(239,68,68,0.15)';
+    c.beginPath(); c.roundRect(50 + probW + 18, 238, 160, 36, 6); c.fill();
+    c.fillStyle = isUp ? '#22c55e' : '#ef4444';
+    c.font = 'bold 19px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText((isUp ? '▲ ' : '▼ ') + chg + ' 24h', 50 + probW + 30, 262);
+
+    // "YES probability" label
+    c.fillStyle = '#444450';
+    c.font = '15px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.fillText('YES probability', 50, 315);
+
+    // Divider
+    c.strokeStyle = '#1a1a1e'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(50, 335); c.lineTo(W - 50, 335); c.stroke();
+
+    // Summary
+    c.fillStyle = '#a0a0b0';
+    c.font = '19px -apple-system, "Segoe UI", Arial, sans-serif';
+    _wrapText(c, summary, 50, 372, W - 100, 30, 4);
+
+    // Bottom bar
+    c.fillStyle = '#0f0f12'; c.fillRect(0, H - 70, W, 70);
+    c.fillStyle = '#333338';
+    c.font = '14px -apple-system, "Segoe UI", Arial, sans-serif';
+    const qShort = q.length > 90 ? q.slice(0, 90) + '…' : q;
+    c.fillText('📊 ' + qShort, 50, H - 30);
+    c.fillStyle = '#7c6af7';
+    c.font = 'bold 14px -apple-system, "Segoe UI", Arial, sans-serif';
+    c.textAlign = 'right'; c.fillText('www.hika.fyi', W - 50, H - 30); c.textAlign = 'left';
+
+    // Show modal
+    _showImgModal(cvs);
+  }
+
+  function _showImgModal(cvs) {
+    let modal = document.getElementById('img-modal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'img-modal';
+      modal.innerHTML = '<img id="img-modal-img" />'
+        + '<div class="img-modal-btns">'
+        + '<a id="img-modal-dl" class="img-modal-btn" style="background:#7c6af7;color:#fff">⬇ Download PNG</a>'
+        + '<button class="img-modal-btn" style="background:#1a1a1e;color:#aaa;border:1px solid #333" onclick="document.getElementById(\'img-modal\').classList.remove(\'open\')">✕ Close</button>'
+        + '</div>';
+      modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('open'); });
+      document.body.appendChild(modal);
+    }
+    cvs.toBlob(blob => {
+      const url = URL.createObjectURL(blob);
+      document.getElementById('img-modal-img').src = url;
+      const dl = document.getElementById('img-modal-dl');
+      dl.href = url;
+      dl.download = 'polylens-' + new Date().toISOString().slice(0, 10) + '.png';
+      modal.classList.add('open');
+    }, 'image/png');
   }
 </script>
 </body>
