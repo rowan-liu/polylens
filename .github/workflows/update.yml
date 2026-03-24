@@ -31,6 +31,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+          SUPABASE_URL: https://yrvfgoonalygmjxtzhhc.supabase.co
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           SITE_URL: https://www.hika.fyi
           FROM_EMAIL: PolyLens <newsletter@hika.fyi>
         run: pdm run python pipeline.py

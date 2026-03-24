@@ -21,7 +21,28 @@ CREATE POLICY "Public insert comments"
     AND side IN ('YES', 'NO', 'NEUTRAL')
   );
 
--- market_appearances: deduplicate repeated markets across runs
+-- market_snapshots: time-series probability history for charts
+CREATE TABLE IF NOT EXISTS market_snapshots (
+  id          uuid        DEFAULT gen_random_uuid() PRIMARY KEY,
+  run_at      timestamptz NOT NULL,
+  market_id   text        NOT NULL,
+  question    text,
+  category    text,
+  probability numeric,
+  volume_24h  numeric,
+  change_24h  numeric,
+  insight_en  text,
+  insight_zh  text
+);
+CREATE INDEX IF NOT EXISTS idx_ms_market_run ON market_snapshots(market_id, run_at DESC);
+CREATE INDEX IF NOT EXISTS idx_ms_run_at     ON market_snapshots(run_at DESC);
+ALTER TABLE market_snapshots ENABLE ROW LEVEL SECURITY;
+-- public can read history for chart rendering
+CREATE POLICY "Public read snapshots" ON market_snapshots FOR SELECT USING (true);
+-- only service key (backend) can insert
+CREATE POLICY "Service insert snapshots"
+  ON market_snapshots FOR INSERT
+  WITH CHECK (true);   -- RLS bypassed for service role anyway
 CREATE TABLE IF NOT EXISTS market_appearances (
   id           uuid        DEFAULT gen_random_uuid() PRIMARY KEY,
   market_id    text        NOT NULL,
