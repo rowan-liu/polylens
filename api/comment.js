@@ -84,22 +84,36 @@ export default async function handler(request) {
     }
     // ── End rate limiting ──────────────────────────────────────────────────
 
-    const res = await fetch(`${SB_URL}/rest/v1/comments`, {
+    const payload = {
+      market_id,
+      market_question: (market_question || "").slice(0, 300),
+      author: (author || "").trim().slice(0, 50) || "Anonymous",
+      side,
+      content: text,
+      ip_hash: ipHash,
+    };
+
+    let res = await fetch(`${SB_URL}/rest/v1/comments`, {
       method: "POST",
       headers: { ...sbHeaders, Prefer: "return=representation" },
-      body: JSON.stringify({
-        market_id,
-        market_question: (market_question || "").slice(0, 300),
-        author: (author || "").trim().slice(0, 50) || "Anonymous",
-        side,
-        content: text,
-        ip_hash: ipHash,
-      }),
+      body: JSON.stringify(payload),
     });
 
+    // ip_hash column may not exist yet — retry without it
     if (!res.ok) {
-      console.error("Supabase error:", await res.text());
-      return new Response(JSON.stringify({ error: "Failed to save comment" }), { status: 500, headers: HEADERS });
+      const errText = await res.text();
+      if (errText.includes("ip_hash")) {
+        const { ip_hash: _dropped, ...payloadNoHash } = payload;
+        res = await fetch(`${SB_URL}/rest/v1/comments`, {
+          method: "POST",
+          headers: { ...sbHeaders, Prefer: "return=representation" },
+          body: JSON.stringify(payloadNoHash),
+        });
+      }
+      if (!res.ok) {
+        console.error("Supabase error:", await res.text());
+        return new Response(JSON.stringify({ error: "Failed to save comment" }), { status: 500, headers: HEADERS });
+      }
     }
     const data = await res.json();
     return new Response(JSON.stringify({ success: true, comment: data[0] }), { status: 201, headers: HEADERS });
