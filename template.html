@@ -383,8 +383,8 @@
     }
     .comment-toggle:hover { color: var(--text); }
     .ct-count { background: var(--border); border-radius: 8px; padding: 1px 6px; font-size: 11px; }
-    .comment-box { display: none; margin-top: 12px; }
-    .comment-box.open { display: block; }
+    .comment-box { margin-top: 12px; }
+    .comment-box.collapsed { display: none; }
     .comments-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
     .cmt-item { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px; }
     .cmt-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
@@ -395,6 +395,13 @@
     .cmt-badge.NO { background: rgba(239,68,68,0.15); color: var(--down); }
     .cmt-badge.NEUTRAL { background: rgba(255,255,255,0.07); color: var(--muted); }
     .cmt-text-body { color: var(--text); line-height: 1.5; }
+    .cmt-footer { display: flex; align-items: center; justify-content: flex-end; margin-top: 5px; }
+    .cmt-like-btn { background: none; border: none; cursor: pointer; color: var(--muted); font-size: 11px; padding: 2px 7px; border-radius: 10px; display: flex; align-items: center; gap: 3px; transition: all 0.15s; }
+    .cmt-like-btn:hover { color: #f87171; background: rgba(248,113,113,0.1); }
+    .cmt-like-btn.liked { color: #f87171; }
+    .like-count { min-width: 8px; }
+    .cmt-more-btn { width: 100%; background: none; border: 1px dashed var(--border); border-radius: 6px; padding: 6px; color: var(--muted); font-size: 12px; cursor: pointer; margin-top: 4px; transition: all 0.15s; }
+    .cmt-more-btn:hover { color: var(--text); border-color: var(--accent); }
     .cmt-empty { color: var(--muted); font-size: 12px; text-align: center; padding: 12px 0; }
     .cmt-loading { color: var(--muted); font-size: 12px; }
     .comment-form { display: flex; flex-direction: column; gap: 8px; }
@@ -613,7 +620,7 @@
           <span data-lang="en">Discuss</span><span data-lang="zh">&#35758;&#35770;</span>
           <span class="ct-count" id="cc-{{ m.id }}"></span>
         </button>
-        <div class="comment-box" id="cb-{{ m.id }}">
+        <div class="comment-box" id="cb-{{ m.id }}" data-mid="{{ m.id }}">
           {%- set bull_en = ins.en.get('bull_case','') -%}
           {%- set bear_en = ins.en.get('bear_case','') -%}
           {%- set bull_zh = ins.zh.get('bull_case','') -%}
@@ -1237,15 +1244,31 @@
   }
 
   // ── Comment system ─────────────────────────────────────────────────────
+  const CMT_PREVIEW = 3;
+
   function toggleComments(mid) {
     const box = document.getElementById('cb-' + mid);
     if (!box) return;
-    const isOpen = box.classList.toggle('open');
-    if (isOpen && !box.dataset.loaded) {
+    const isCollapsed = box.classList.toggle('collapsed');
+    if (!isCollapsed && !box.dataset.loaded) {
       box.dataset.loaded = '1';
       loadComments(mid);
     }
   }
+
+  // Lazy-load comments when card scrolls into view
+  const _cmtObs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const box = entry.target;
+      if (!box.dataset.loaded && !box.classList.contains('collapsed')) {
+        box.dataset.loaded = '1';
+        loadComments(box.dataset.mid);
+      }
+      _cmtObs.unobserve(box);
+    });
+  }, { rootMargin: '200px' });
+  document.querySelectorAll('.comment-box[data-mid]').forEach(box => _cmtObs.observe(box));
 
   async function loadComments(mid) {
     const list = document.getElementById('cl-' + mid);
@@ -1259,6 +1282,37 @@
     }
   }
 
+  // localStorage helpers for likes
+  function _getLikedSet() {
+    try { return new Set(JSON.parse(localStorage.getItem('pl_liked') || '[]')); } catch { return new Set(); }
+  }
+  function _setLiked(id) {
+    const s = _getLikedSet(); s.add(String(id));
+    try { localStorage.setItem('pl_liked', JSON.stringify([...s])); } catch {}
+  }
+  function isLiked(id) { return _getLikedSet().has(String(id)); }
+
+  function _cmtHtml(c) {
+    const ago = timeAgo(c.created_at);
+    const badgeClass = c.side === 'YES' ? 'YES' : c.side === 'NO' ? 'NO' : 'NEUTRAL';
+    const badgeLabel = c.side === 'NEUTRAL' ? '🤔' : (c.side === 'YES' ? '👍 YES' : '👎 NO');
+    const liked = isLiked(c.id);
+    const likes = c.likes > 0 ? c.likes : '';
+    return '<div class="cmt-item" data-cid="' + c.id + '">'
+      + '<div class="cmt-meta">'
+        + '<span class="cmt-author">' + esc(c.author || 'Anonymous') + '</span>'
+        + '<span class="cmt-badge ' + badgeClass + '">' + badgeLabel + '</span>'
+        + '<span class="cmt-time">' + ago + '</span>'
+      + '</div>'
+      + '<div class="cmt-text-body">' + esc(c.content) + '</div>'
+      + '<div class="cmt-footer">'
+        + '<button class="cmt-like-btn' + (liked ? ' liked' : '') + '" onclick="likeComment(\'' + c.id + '\',this)" title="Like">'
+          + '❤ <span class="like-count">' + likes + '</span>'
+        + '</button>'
+      + '</div>'
+      + '</div>';
+  }
+
   function renderComments(mid, comments) {
     const list = document.getElementById('cl-' + mid);
     const countEl = document.getElementById('cc-' + mid);
@@ -1268,19 +1322,35 @@
       list.innerHTML = '<div class="cmt-empty">No comments yet. Be the first.</div>';
       return;
     }
-    list.innerHTML = comments.map(c => {
-      const ago = timeAgo(c.created_at);
-      const badgeClass = c.side === 'YES' ? 'YES' : c.side === 'NO' ? 'NO' : 'NEUTRAL';
-      const badgeLabel = c.side === 'NEUTRAL' ? '🤔' : (c.side === 'YES' ? '👍 YES' : '👎 NO');
-      return '<div class="cmt-item">'
-        + '<div class="cmt-meta">'
-          + '<span class="cmt-author">' + esc(c.author || 'Anonymous') + '</span>'
-          + '<span class="cmt-badge ' + badgeClass + '">' + badgeLabel + '</span>'
-          + '<span class="cmt-time">' + ago + '</span>'
-        + '</div>'
-        + '<div class="cmt-text-body">' + esc(c.content) + '</div>'
-        + '</div>';
-    }).join('');
+    list._all = comments;
+    const preview = comments.slice(0, CMT_PREVIEW);
+    const remaining = comments.length - preview.length;
+    list.innerHTML = preview.map(_cmtHtml).join('')
+      + (remaining > 0
+          ? '<button class="cmt-more-btn" onclick="expandComments(\'' + mid + '\',this)">▾ Show ' + remaining + ' more comment' + (remaining > 1 ? 's' : '') + '</button>'
+          : '');
+  }
+
+  function expandComments(mid, btn) {
+    const list = document.getElementById('cl-' + mid);
+    if (!list || !list._all) return;
+    list.innerHTML = list._all.map(_cmtHtml).join('');
+  }
+
+  async function likeComment(id, btn) {
+    if (isLiked(id)) return; // already liked
+    _setLiked(id);
+    btn.classList.add('liked');
+    const countEl = btn.querySelector('.like-count');
+    const prev = parseInt(countEl.textContent) || 0;
+    countEl.textContent = prev + 1;
+    try {
+      const res = await fetch('/api/comment?id=' + encodeURIComponent(id), { method: 'PATCH' });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.likes != null) countEl.textContent = data.likes > 0 ? data.likes : '';
+      }
+    } catch {}
   }
 
   function pickSide(mid, side, btn) {

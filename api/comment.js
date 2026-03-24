@@ -36,11 +36,52 @@ export default async function handler(request) {
     const marketId = url.searchParams.get("market_id");
     if (!marketId) return new Response(JSON.stringify({ error: "market_id required" }), { status: 400, headers: HEADERS });
 
-    const res = await fetch(
-      `${SB_URL}/rest/v1/comments?market_id=eq.${encodeURIComponent(marketId)}&order=created_at.asc&select=id,author,side,content,created_at`,
+    // Try fetching with likes column; fall back gracefully if it doesn't exist yet
+    let res = await fetch(
+      `${SB_URL}/rest/v1/comments?market_id=eq.${encodeURIComponent(marketId)}&order=likes.desc,created_at.asc&select=id,author,side,content,created_at,likes`,
       { headers: sbHeaders }
     );
+    if (!res.ok) {
+      const errText = await res.text();
+      if (errText.includes("likes")) {
+        res = await fetch(
+          `${SB_URL}/rest/v1/comments?market_id=eq.${encodeURIComponent(marketId)}&order=created_at.asc&select=id,author,side,content,created_at`,
+          { headers: sbHeaders }
+        );
+      }
+    }
     return new Response(await res.text(), { status: 200, headers: HEADERS });
+  }
+
+  // PATCH /api/comment?id=xxx  — increment likes
+  if (request.method === "PATCH") {
+    const commentId = url.searchParams.get("id");
+    if (!commentId) return new Response(JSON.stringify({ error: "id required" }), { status: 400, headers: HEADERS });
+
+    // Fetch current likes
+    const getRes = await fetch(
+      `${SB_URL}/rest/v1/comments?id=eq.${encodeURIComponent(commentId)}&select=id,likes`,
+      { headers: sbHeaders }
+    );
+    if (!getRes.ok) return new Response(JSON.stringify({ likes: 1 }), { status: 200, headers: HEADERS });
+    const rows = await getRes.json().catch(() => []);
+    if (!Array.isArray(rows) || !rows.length) return new Response(JSON.stringify({ error: "not found" }), { status: 404, headers: HEADERS });
+
+    const newLikes = (rows[0].likes || 0) + 1;
+    const patchRes = await fetch(`${SB_URL}/rest/v1/comments?id=eq.${encodeURIComponent(commentId)}`, {
+      method: "PATCH",
+      headers: { ...sbHeaders, Prefer: "return=representation" },
+      body: JSON.stringify({ likes: newLikes }),
+    });
+    if (!patchRes.ok) {
+      const errText = await patchRes.text();
+      if (errText.includes("likes")) {
+        // likes column not yet created — return optimistic value
+        return new Response(JSON.stringify({ likes: null }), { status: 200, headers: HEADERS });
+      }
+      return new Response(JSON.stringify({ error: "Failed to update" }), { status: 500, headers: HEADERS });
+    }
+    return new Response(JSON.stringify({ likes: newLikes }), { status: 200, headers: HEADERS });
   }
 
   // POST /api/comment
