@@ -31,6 +31,8 @@ SITE_URL = os.environ.get("SITE_URL", "https://www.hika.fyi")
 FROM_EMAIL = os.environ.get("FROM_EMAIL", "PolyLens <newsletter@hika.fyi>")
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 POLYMARKET_BASE = "https://gamma-api.polymarket.com"
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -447,6 +449,7 @@ def run_pipeline() -> dict:
     log.info("=== Pipeline complete. %d insights generated. ===", len(results))
 
     send_newsletter(output)
+    send_telegram(output)
     return output
 
 
@@ -817,6 +820,74 @@ def _build_email_html(data: dict) -> str:
   </table>
 </body>
 </html>"""
+
+
+def send_telegram(data: dict) -> None:
+    """Push a digest message to the configured Telegram channel."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
+        log.info("Telegram skipped: bot token or channel ID not set")
+        return
+
+    ts = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
+    date_str = ts.strftime("%b %d, %Y %H:%M UTC")
+
+    # Group topics by category
+    cat_groups: dict[str, list] = {}
+    for item in data["topics"]:
+        cat = item.get("insight", {}).get("category", "world") if isinstance(item.get("insight"), dict) else "world"
+        cat_groups.setdefault(cat, []).append(item)
+
+    cat_order = ["politics", "ai_tech", "economy", "business", "world", "crypto", "sports"]
+    lines = [f"🔮 <b>PolyLens</b> · {date_str}\n"]
+
+    shown = 0
+    for cat in cat_order:
+        items = cat_groups.get(cat, [])
+        if not items:
+            continue
+        emoji = _CAT_EMOJI.get(cat, "🔥")
+        cat_label = {"ai_tech": "AI & Tech"}.get(cat, cat.replace("_", " ").title())
+        lines.append(f"{emoji} <b>{cat_label}</b>")
+        for item in items[:2]:
+            m = item["market"]
+            prob = int(round((m.get("probability") or 0) * 100))
+            ch = (m.get("change_24h") or 0)
+            arrow = "▲" if ch >= 0 else "▼"
+            ch_str = f"{arrow}{abs(ch) * 100:.1f}%"
+            q = m["question"]
+            q_short = q[:65] + ("…" if len(q) > 65 else "")
+            ins = item.get("insight", {})
+            summary = ""
+            if isinstance(ins, dict):
+                summary = (ins.get("en", {}) or {}).get("summary", "") or ""
+            summary_short = summary[:110] + ("…" if len(summary) > 110 else "")
+            lines.append(f"• <b>{q_short}</b>  {prob}% {ch_str}")
+            if summary_short:
+                lines.append(f"  <i>{summary_short}</i>")
+            shown += 1
+            if shown >= 10:
+                break
+        lines.append("")
+        if shown >= 10:
+            break
+
+    lines.append(f'🌐 <a href="{SITE_URL}">{SITE_URL.replace("https://", "")}</a> · {len(data["topics"])} markets')
+
+    text = "\n".join(lines)
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    try:
+        r = requests.post(url, json={
+            "chat_id": TELEGRAM_CHANNEL_ID,
+            "text": text,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": False,
+        }, timeout=15)
+        if r.ok:
+            log.info("Telegram notification sent to %s", TELEGRAM_CHANNEL_ID)
+        else:
+            log.warning("Telegram send failed: %s %s", r.status_code, r.text[:300])
+    except Exception as exc:
+        log.warning("Telegram error: %s", exc)
 
 
 def send_newsletter(data: dict) -> None:
