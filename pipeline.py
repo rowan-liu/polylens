@@ -40,41 +40,64 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 GEMINI_MODELS = ["models/gemini-2.5-flash", "models/gemini-2.0-flash", "models/gemini-2.0-flash-lite"]
 OPENAI_MODEL = "gpt-4o-mini"
 TOP_N = 30
-MIN_VOLUME = 1_000    # lower bar — let scoring sort quality
+MIN_VOLUME = 500     # lower bar — let scoring sort quality
 HIGH_VOL = 50_000     # markets above this are included regardless of change
 RATE_LIMIT_SLEEP = 20
 FETCH_LIMIT = 500
 NEWS_PER_TOPIC = 5
 
-# Category definitions (order matters for keyword matching)
-CATEGORIES = ["politics", "ai_tech", "economy", "business", "world", "sports", "crypto"]
+# Category definitions (order determines keyword-match priority — sports before geopolitics)
+CATEGORIES = ["sports", "politics", "ai_tech", "stocks", "economy", "geopolitics", "business", "crypto"]
 # Categories that get guaranteed fill-in slots if empty after main scoring
-GUARANTEED_CATS = ["ai_tech", "economy", "business", "world", "crypto"]
+GUARANTEED_CATS = ["ai_tech", "stocks", "economy", "geopolitics", "crypto", "business"]
 CAT_MIN_SLOTS = 1   # at least this many per guaranteed category
 
+# Polymarket event tag slugs to supplement general market feed per category
+_TAG_FETCH: dict[str, list[str]] = {
+    "stocks":      ["stocks", "finance"],
+    "geopolitics": ["middle-east", "iran", "geopolitics"],
+    "economy":     ["economy", "tariffs"],
+    "ai_tech":     ["technology"],
+    "crypto":      ["crypto"],
+}
+_TAG_FETCH_LIMIT = 30   # events per tag
+
 _CAT_KEYWORDS: dict[str, list[str]] = {
+    "sports":   ["nba","nfl","nhl","mlb","fifa","world cup","championship","premier league",
+                 "olympics","tournament","grand slam","wimbledon","super bowl","league title",
+                 "masters","pga","ufc","formula 1","f1 ","rookie of the year","mvp award",
+                 "stanley cup","march madness","ncaa","tennis","soccer","football season",
+                 "boxing","wrestling","mma","esports"],
     "politics": ["election","president","senator","congress","parliament","prime minister",
                  "republican","democrat","vote","ballot","campaign","governor","nomination",
-                 "white house","administration","impeach","cabinet","minister","chancellor"],
+                 "white house","administration","impeach","cabinet","minister","chancellor",
+                 "trump","biden","harris","executive order","legislation","approval rating",
+                 "midterm","polling","political party","supreme court"],
     "ai_tech":  ["artificial intelligence","openai","gpt-","chatgpt","gemini","claude","llm",
                  "machine learning","neural network","deep learning","automation",
-                 "nvidia","chip","semiconductor","tech giant","big tech","software",
-                 "apple inc","google search","microsoft ","meta platforms"],
-    "economy":  ["federal reserve","rate cut","interest rate","inflation","gdp",
-                 "recession","employment","jobs report","treasury","bond yield","tariff",
-                 "trade war","economic","economy","unemployment","cpi","pce",
-                 "stock market","s&p","dow jones","nasdaq"],
-    "business": ["acquisition","merger","ipo","ceo","startup","valuation","revenue",
-                 "earnings","shares","billion dollar","company","market cap","deal",
-                 "bankruptcy","buyout","takeover"],
-    "world":    ["war","conflict","peace","ceasefire","diplomatic","treaty","sanction",
-                 "nato","nuclear","missile","troops","invasion","ukraine","russia","israel",
-                 "china","taiwan","iran","middle east","united nations"],
-    "sports":   ["nba","nfl","nhl","mlb","fifa","world cup","championship","premier league",
-                 "olympics","tournament","grand slam","wimbledon","super bowl",
-                 "masters","pga","ufc","formula 1","f1 "],
+                 "nvidia","chip","semiconductor","big tech","software model",
+                 "apple inc","google search","microsoft ","meta platforms","anthropic",
+                 "robot","self-driving","autonomous","data center","quantum"],
+    "stocks":   ["s&p 500","s&p500","dow jones","nasdaq","stock price","stock market",
+                 "nyse","russell 2000","index fund","circuit breaker","market high",
+                 "apple stock","tesla","amazon stock","google stock","meta stock","nvidia stock",
+                 "netflix stock","microsoft stock","bull market","bear market","earnings report",
+                 "ipo listing","short squeeze","market cap overtake"],
+    "economy":  ["federal reserve","interest rate","inflation","gdp",
+                 "recession","employment","jobs report","treasury","bond yield",
+                 "tariff","trade war","economic","unemployment","cpi","pce",
+                 "debt ceiling","fiscal","deficit","imf","world bank","wto",
+                 "dollar index","oil price","gold price","energy price"],
+    "geopolitics": ["war","ceasefire","diplomatic","treaty","sanction","nato",
+                 "nuclear","missile","troops","invasion","ukraine","russia","israel",
+                 "taiwan","iran","middle east","united nations","coup","regime",
+                 "north korea","pakistan","india border","military strike",
+                 "us forces","airstrike","hostage","siege","occupation","conflict"],
+    "business": ["acquisition","merger","ceo","startup","valuation","revenue",
+                 "bankruptcy","buyout","takeover","venture capital","funding round",
+                 "layoffs","product launch","quarterly","profit","loss","deal"],
     "crypto":   ["bitcoin","ethereum","crypto","blockchain","token","defi","btc","eth",
-                 "solana","binance","nft","web3","stablecoin","coinbase"],
+                 "solana","binance","nft","web3","stablecoin","coinbase","xrp","dogecoin"],
 }
 
 
@@ -107,7 +130,10 @@ tavily = TavilyClient(api_key=TAVILY_API_KEY)
 # ---------------------------------------------------------------------------
 
 def fetch_markets(limit: int = FETCH_LIMIT) -> list[dict]:
-    """Fetch active, non-closed markets from Polymarket Gamma API."""
+    """Fetch markets: general feed + tag-targeted event markets for diversity."""
+    all_markets: dict[str, dict] = {}  # id → market dict, deduped
+
+    # 1. General feed (high-volume, any category)
     try:
         resp = requests.get(
             f"{POLYMARKET_BASE}/markets",
@@ -116,12 +142,61 @@ def fetch_markets(limit: int = FETCH_LIMIT) -> list[dict]:
         )
         resp.raise_for_status()
         data = resp.json()
-        if isinstance(data, list):
-            return data
-        return data.get("data", data.get("markets", []))
+        markets = data if isinstance(data, list) else data.get("data", data.get("markets", []))
+        for m in markets:
+            mid = str(m.get("id", ""))
+            if mid:
+                all_markets[mid] = m
+        log.info("General feed: %d markets", len(all_markets))
     except Exception as exc:
-        log.error("Failed to fetch markets: %s", exc)
-        return []
+        log.error("Failed to fetch general markets: %s", exc)
+
+    # 2. Tag-targeted event markets (ensures under-represented categories appear)
+    for cat, tag_slugs in _TAG_FETCH.items():
+        for tag_slug in tag_slugs:
+            try:
+                resp = requests.get(
+                    f"{POLYMARKET_BASE}/events",
+                    params={
+                        "limit": _TAG_FETCH_LIMIT,
+                        "active": "true",
+                        "closed": "false",
+                        "tag_slug": tag_slug,
+                        "order": "volume24hr",
+                        "ascending": "false",
+                    },
+                    timeout=30,
+                )
+                if not resp.ok:
+                    continue
+                events = resp.json()
+                if not isinstance(events, list):
+                    events = events.get("data", [])
+                added = 0
+                for event in events:
+                    # Pick the highest-volume market from each event
+                    event_markets = event.get("markets", [])
+                    if not event_markets:
+                        continue
+                    best = max(
+                        event_markets,
+                        key=lambda m: float(m.get("volume24hr") or 0),
+                    )
+                    # Backfill event-level volume if market-level is missing
+                    if not best.get("volume24hr"):
+                        best = best.copy()
+                        best["volume24hr"] = event.get("volume24hr", 0)
+                    mid = str(best.get("id", ""))
+                    if mid and mid not in all_markets:
+                        all_markets[mid] = best
+                        added += 1
+                if added:
+                    log.info("  Tag '%s' added %d new markets", tag_slug, added)
+            except Exception as exc:
+                log.warning("Tag fetch '%s' failed: %s", tag_slug, exc)
+
+    log.info("Total unique markets fetched: %d", len(all_markets))
+    return list(all_markets.values())
 
 
 def parse_yes_probability(prices_raw) -> float:
@@ -473,8 +548,8 @@ def render_html(data: dict) -> None:
 ARCHIVE_DIR = OUTPUT_DIR / "archive"
 
 _CAT_EMOJI = {
-    "politics": "🗳️", "ai_tech": "🤖", "economy": "📈",
-    "business": "💼", "world": "🌍", "sports": "⚽",
+    "politics": "🗳️", "ai_tech": "🤖", "economy": "📈", "stocks": "📊",
+    "business": "💼", "geopolitics": "🌍", "sports": "⚽",
     "crypto": "₿", "other": "🔥",
 }
 
@@ -822,8 +897,159 @@ def _build_email_html(data: dict) -> str:
 </html>"""
 
 
+def _build_telegram_image(data: dict) -> bytes | None:
+    """Generate a 1200×630 digest card using Pillow. Returns PNG bytes or None."""
+    try:
+        import io
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        return None
+
+    W, H = 1200, 630
+    PAD = 44
+    BG      = (13,  17,  23)
+    SURFACE = (22,  27,  34)
+    BORDER  = (33,  38,  45)
+    TEXT    = (230, 237, 243)
+    MUTED   = (125, 133, 144)
+    ACCENT  = (124, 106, 247)
+    UP      = (34,  197,  94)
+    DOWN    = (239,  68,  68)
+    CAT_LABELS = {
+        "politics": "POLITICS", "ai_tech": "AI & TECH", "economy": "ECONOMY",
+        "business": "BUSINESS", "world": "WORLD", "sports": "SPORTS", "crypto": "CRYPTO",
+    }
+
+    def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
+        for p in [
+            "/System/Library/Fonts/Helvetica.ttc",              # macOS
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold
+                else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf" if bold
+                else "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+            "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf" if bold
+                else "/usr/share/fonts/truetype/freefont/FreeSans.ttf",
+        ]:
+            try:
+                return ImageFont.truetype(p, size)
+            except Exception:
+                pass
+        return ImageFont.load_default(size=size)  # final fallback
+
+    def _wrap(d: ImageDraw.ImageDraw, text: str, font, max_w: int, max_lines: int = 2) -> list[str]:
+        words, lines, cur = text.split(), [], ""
+        for w in words:
+            test = (cur + " " + w).strip()
+            if d.textlength(test, font=font) <= max_w:
+                cur = test
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+            if len(lines) == max_lines:
+                cur = cur.rstrip() + "…"
+                break
+        if cur and len(lines) < max_lines:
+            lines.append(cur)
+        return lines
+
+    # Pick one best market per category (in order)
+    cat_order = ["politics", "ai_tech", "economy", "business", "world", "crypto", "sports"]
+    seen: dict[str, dict] = {}
+    for item in data["topics"]:
+        cat = (item.get("insight") or {}).get("category", "world")
+        if cat not in seen:
+            seen[cat] = item
+    items = [seen[c] for c in cat_order if c in seen][:6]
+
+    img = Image.new("RGB", (W, H), BG)
+    d = ImageDraw.Draw(img)
+
+    # ── Header ──────────────────────────────────────────────────────
+    f_logo   = _font(32, bold=True)
+    f_date   = _font(20)
+    f_cat    = _font(11, bold=True)
+    f_title  = _font(18, bold=True)
+    f_prob   = _font(26, bold=True)
+    f_delta  = _font(16)
+    f_summ   = _font(14)
+    f_foot   = _font(18)
+
+    HDR_H = 68
+    d.rectangle([0, 0, W, HDR_H], fill=SURFACE)
+    d.text((PAD, 16), "PolyLens", font=f_logo, fill=ACCENT)
+    ts = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
+    date_str = ts.strftime("%b %d, %Y  %H:%M UTC")
+    dw = d.textlength(date_str, font=f_date)
+    d.text((W - PAD - dw, 24), date_str, font=f_date, fill=MUTED)
+    d.rectangle([0, HDR_H, W, HDR_H + 1], fill=BORDER)
+
+    # ── 2-column grid ───────────────────────────────────────────────
+    FOOT_H = 40
+    GRID_Y  = HDR_H + 16
+    GRID_H  = H - HDR_H - FOOT_H - 16
+    COL_W   = (W - PAD * 3) // 2
+    ROW_H   = GRID_H // 3
+
+    for i, item in enumerate(items):
+        col = i % 2
+        row = i // 2
+        x = PAD + col * (COL_W + PAD)
+        y = GRID_Y + row * ROW_H
+
+        m   = item["market"]
+        ins = (item.get("insight") or {})
+        cat = ins.get("category", "world")
+        en  = (ins.get("en") or {})
+
+        prob = (m.get("probability") or 0) * 100
+        ch   = (m.get("change_24h") or 0) * 100
+        prob_color = UP if prob >= 50 else DOWN
+        ch_color   = UP if ch >= 0 else DOWN
+        arrow = "+" if ch >= 0 else ""
+
+        # Category chip
+        chip = CAT_LABELS.get(cat, cat.upper())
+        chip_w = int(d.textlength(chip, font=f_cat)) + 12
+        d.rounded_rectangle([x, y, x + chip_w, y + 18], radius=4, fill=BORDER)
+        d.text((x + 6, y + 2), chip, font=f_cat, fill=MUTED)
+
+        # Title
+        title_lines = _wrap(d, m.get("question", ""), f_title, COL_W - 8, max_lines=2)
+        for li, ln in enumerate(title_lines):
+            d.text((x, y + 22 + li * 22), ln, font=f_title, fill=TEXT)
+        title_bot = y + 22 + len(title_lines) * 22 + 2
+
+        # Probability
+        prob_str = f"{prob:.0f}%"
+        pw = d.textlength(prob_str, font=f_prob)
+        d.text((x, title_bot), prob_str, font=f_prob, fill=prob_color)
+        d.text((x + pw + 8, title_bot + 5), f"{arrow}{abs(ch):.1f}%", font=f_delta, fill=ch_color)
+
+        # Summary
+        summ = (en.get("summary") or "")[:90]
+        if summ:
+            d.text((x, title_bot + 30), summ + ("…" if len(en.get("summary","")) > 90 else ""),
+                   font=f_summ, fill=MUTED)
+
+        # Divider (right column only, not last row)
+        if col == 0 and row < 2:
+            mid_x = PAD + COL_W + PAD // 2
+            d.rectangle([mid_x, y, mid_x + 1, y + ROW_H - 8], fill=BORDER)
+
+    # ── Footer ──────────────────────────────────────────────────────
+    d.rectangle([0, H - FOOT_H, W, H], fill=SURFACE)
+    foot = f"www.hika.fyi  ·  {len(data['topics'])} markets tracked"
+    fw = d.textlength(foot, font=f_foot)
+    d.text(((W - fw) // 2, H - FOOT_H + 10), foot, font=f_foot, fill=MUTED)
+
+    buf = io.BytesIO()
+    img.save(buf, format="PNG", optimize=True)
+    return buf.getvalue()
+
+
 def send_telegram(data: dict) -> None:
-    """Push a digest message to the configured Telegram channel."""
+    """Push a digest image + caption to the configured Telegram channel."""
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
         log.info("Telegram skipped: bot token or channel ID not set")
         return
@@ -831,59 +1057,53 @@ def send_telegram(data: dict) -> None:
     ts = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
     date_str = ts.strftime("%b %d, %Y %H:%M UTC")
 
-    # Group topics by category
+    # Short caption (≤1024 chars) — one line per top market
+    cat_order = ["politics", "ai_tech", "economy", "business", "world", "crypto", "sports"]
     cat_groups: dict[str, list] = {}
     for item in data["topics"]:
-        cat = item.get("insight", {}).get("category", "world") if isinstance(item.get("insight"), dict) else "world"
+        cat = (item.get("insight") or {}).get("category", "world") if isinstance(item.get("insight"), dict) else "world"
         cat_groups.setdefault(cat, []).append(item)
 
-    cat_order = ["politics", "ai_tech", "economy", "business", "world", "crypto", "sports"]
-    lines = [f"🔮 <b>PolyLens</b> · {date_str}\n"]
-
-    shown = 0
+    caption_lines = [f"🔮 <b>PolyLens</b> · {date_str}\n"]
     for cat in cat_order:
         items = cat_groups.get(cat, [])
         if not items:
             continue
-        emoji = _CAT_EMOJI.get(cat, "🔥")
-        cat_label = {"ai_tech": "AI & Tech"}.get(cat, cat.replace("_", " ").title())
-        lines.append(f"{emoji} <b>{cat_label}</b>")
-        for item in items[:2]:
-            m = item["market"]
-            prob = int(round((m.get("probability") or 0) * 100))
-            ch = (m.get("change_24h") or 0)
-            arrow = "▲" if ch >= 0 else "▼"
-            ch_str = f"{arrow}{abs(ch) * 100:.1f}%"
-            q = m["question"]
-            q_short = q[:65] + ("…" if len(q) > 65 else "")
-            ins = item.get("insight", {})
-            summary = ""
-            if isinstance(ins, dict):
-                summary = (ins.get("en", {}) or {}).get("summary", "") or ""
-            summary_short = summary[:110] + ("…" if len(summary) > 110 else "")
-            lines.append(f"• <b>{q_short}</b>  {prob}% {ch_str}")
-            if summary_short:
-                lines.append(f"  <i>{summary_short}</i>")
-            shown += 1
-            if shown >= 10:
-                break
-        lines.append("")
-        if shown >= 10:
-            break
+        m   = items[0]["market"]
+        prob = int(round((m.get("probability") or 0) * 100))
+        ch   = (m.get("change_24h") or 0)
+        arrow = "▲" if ch >= 0 else "▼"
+        ch_str = f"{arrow}{abs(ch) * 100:.1f}%"
+        emoji  = _CAT_EMOJI.get(cat, "🔥")
+        q_short = m["question"][:60] + ("…" if len(m["question"]) > 60 else "")
+        caption_lines.append(f"{emoji} <b>{q_short}</b> — {prob}% {ch_str}")
 
-    lines.append(f'🌐 <a href="{SITE_URL}">{SITE_URL.replace("https://", "")}</a> · {len(data["topics"])} markets')
+    caption_lines.append(f'\n🌐 <a href="{SITE_URL}">{SITE_URL.replace("https://","")}</a>')
+    caption = "\n".join(caption_lines)[:1024]
 
-    text = "\n".join(lines)
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    bot_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
+    img_bytes = _build_telegram_image(data)
+
     try:
-        r = requests.post(url, json={
-            "chat_id": TELEGRAM_CHANNEL_ID,
-            "text": text,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": False,
-        }, timeout=15)
+        import io as _io
+        if img_bytes:
+            r = requests.post(f"{bot_url}/sendPhoto", data={
+                "chat_id": TELEGRAM_CHANNEL_ID,
+                "caption": caption,
+                "parse_mode": "HTML",
+            }, files={"photo": ("digest.png", _io.BytesIO(img_bytes), "image/png")}, timeout=30)
+        else:
+            # Fallback: text-only if image generation failed
+            r = requests.post(f"{bot_url}/sendMessage", json={
+                "chat_id": TELEGRAM_CHANNEL_ID,
+                "text": caption,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": False,
+            }, timeout=15)
+
         if r.ok:
-            log.info("Telegram notification sent to %s", TELEGRAM_CHANNEL_ID)
+            log.info("Telegram notification sent to %s (%s)", TELEGRAM_CHANNEL_ID,
+                     "photo" if img_bytes else "text")
         else:
             log.warning("Telegram send failed: %s %s", r.status_code, r.text[:300])
     except Exception as exc:
