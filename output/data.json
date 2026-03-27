@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-27T03:37:09.677909+00:00",
-  "generated_at_readable": "Mar 27, 2026 03:37 UTC",
+  "generated_at": "2026-03-27T10:08:14.919040+00:00",
+  "generated_at_readable": "Mar 27, 2026 10:08 UTC",
   "topics": [
     {
       "market": {
         "id": "1437750",
         "question": "Will Elon Musk’s net worth be at least $710b on March 31?",
-        "probability": 0.022,
+        "probability": 0.0365,
         "change_24h": -0.635,
-        "volume_24h": 20628.98,
-        "score": 639.31,
+        "volume_24h": 20170.56,
+        "score": 639.3,
         "url": "https://polymarket.com/event/will-elon-musks-net-worth-be-at-least-710b-on-march-31"
       },
       "news": [
@@ -40,22 +40,30 @@
         }
       ],
       "insight": {
-        "category": "other",
+        "category": "business",
         "en": {
-          "title": "Will Elon Musk’s net worth be at least $710b on March 31?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Musk's $710B Goal Fades",
+          "summary": "The probability of Elon Musk's net worth reaching $710 billion by March 31 plummeted to 4%, driven by the rapidly approaching deadline and the lack of immediate catalysts for such a massive wealth increase. Recent headlines about a potential $75 billion SpaceX IPO confirm it's a future event, not one impacting his net worth by the end of March.",
           "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1119)"
+            "March 31 deadline is days away, making a $500B+ net worth increase impossible.",
+            "SpaceX IPO targeting June, not before March 31, removing an immediate valuation boost.",
+            "No immediate revaluation events for Tesla or other Musk assets announced."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects the extreme difficulty of achieving unprecedented wealth growth in a short timeframe, even for the world's wealthiest individuals.",
+          "bull_case": "An unforeseen, massive surge in Tesla's stock or an immediate, private SpaceX valuation exceeding current expectations could propel Musk's net worth.",
+          "bear_case": "Musk's current net worth is far below $710b, and major valuation events like the SpaceX IPO are scheduled well after the March 31 deadline."
         },
         "zh": {
-          "title": "Will Elon Musk’s net worth be at least $710b on March 31?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "马斯克7100亿目标渐远",
+          "summary": "马斯克净资产在3月31日前达到7100亿美元的概率骤降至4%，主要原因是截止日期临近，且缺乏能迅速大幅增加其财富的即时催化剂。近期有关SpaceX可能进行750亿美元IPO的报道，证实这是一项未来计划，不会在3月底前影响其净资产。",
           "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1119)"
+            "3月31日截止日期临近，净资产增加5000多亿美元几乎不可能。",
+            "SpaceX IPO目标是6月，而非3月31日前，无法提供即时估值提升。",
+            "特斯拉或其他马斯克资产未宣布任何即时重估事件。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映了即使是全球最富有的人，在短时间内实现前所未有的财富增长也极其困难。",
+          "bull_case": "特斯拉股价意外暴涨或SpaceX立即获得超预期私人估值，可能推动马斯克净资产达标。",
+          "bear_case": "马斯克当前净资产远低于7100亿美元，且SpaceX IPO等重大估值事件安排在3月31日之后。"
         }
       }
     },
@@ -65,8 +73,8 @@
         "question": "Will NVIDIA reach $280 in March?",
         "probability": 0.0025,
         "change_24h": -0.455,
-        "volume_24h": 4789.0,
-        "score": 458.68,
+        "volume_24h": 3771.31,
+        "score": 458.58,
         "url": "https://polymarket.com/event/will-nvda-reach-280-in-march"
       },
       "news": [
@@ -91,36 +99,36 @@
           "snippet": "ASUS says PC prices in Taiwan could rise by **25% to 30% in the second quarter,** according to local media citing comments from ASUS Systems Business "
         },
         {
-          "title": "Europe sales rise as buyers pick EVs over combustion-engine cars - Automotive News",
-          "url": "https://www.autonews.com/retail/sales/ane-europe-sales-rise-evs-subsidies-0324/",
-          "snippet": "# Europe sales rise as buyers pick EVs over combustion-engine cars. March 24, 2026 04:38 AM EDT. ## Featured Stories. Nvidia’s chips power autonomy — "
+          "title": "The Architect of the Intelligence Age: NVIDIA’s High-Stakes Earnings and the Road to $5 Trillion - The Chronicle-Journal",
+          "url": "http://markets.chroniclejournal.com/chroniclejournal/article/finterra-2026-3-24-the-architect-of-the-intelligence-age-nvidias-high-stakes-earnings-and-the-road-to-5-trillion",
+          "snippet": "By the time ChatGPT launched in late 2022, NVIDIA was the only company with the hardware, software, and networking stack ready to power the generative"
         }
       ],
       "insight": {
         "category": "ai_tech",
         "en": {
-          "title": "NVIDIA's March Outlook Deteriorates",
-          "summary": "NVIDIA's probability of reaching $280 has dropped to 0% after a significant 45.5% decline. This shift follows negative market reactions to broader economic concerns and rising PC prices in Taiwan.",
+          "title": "NVIDIA $280 March Target Zeroed",
+          "summary": "The probability of NVIDIA reaching $280 in March plummeted to 0% from 45.5% as the month nears its end. The extreme downside target became impossible to hit without catastrophic news, which did not materialize.",
           "drivers": [
-            "Negative market reaction to economic concerns",
-            "ASUS warns of rising PC prices",
-            "NVIDIA-backed Reflection AI's valuation uncertainty"
+            "March end approaching: Only few trading days remain for extreme price drop.",
+            "No catastrophic news: No major negative events emerged for extreme stock decline.",
+            "NVIDIA's ecosystem strength: Reflection AI valuation reinforces strong outlook."
           ],
-          "why_matters": "NVIDIA's performance is closely tied to the tech sector, and rising costs could impact demand for its products.",
-          "bull_case": "If NVIDIA's AI initiatives gain traction, demand could surge, boosting stock prices.",
-          "bear_case": "Continued economic pressures and rising costs could further depress NVIDIA's stock performance."
+          "why_matters": "This market's movement reflects the perceived stability and continued strength of NVIDIA, indicating investor confidence in its current high valuation despite potential broader PC market concerns.",
+          "bull_case": "An unexpected, severe market-wide crash or specific NVIDIA scandal could still force a rapid, extreme price drop.",
+          "bear_case": "With March ending and no significant negative catalysts, NVIDIA's current price is too far from $280 for a realistic drop."
         },
         "zh": {
-          "title": "NVIDIA三月前景恶化",
-          "summary": "NVIDIA达到280美元的概率降至0%，下跌幅度达到45.5%。这一变化源于市场对经济担忧的负面反应及台湾PC价格上涨的警告。",
+          "title": "英伟达3月触及280美元概率归零",
+          "summary": "英伟达3月触及280美元的概率从45.5%骤降至0%，因本月即将结束。在没有灾难性消息的情况下，这一极低的下跌目标已不可能实现。",
           "drivers": [
-            "市场对经济担忧的负面反应",
-            "华硕警告PC价格上涨",
-            "NVIDIA支持的Reflection AI估值不确定"
+            "3月临近尾声：仅剩数个交易日，股价大幅跌至280美元已无可能。",
+            "无灾难性消息：未出现任何可能引发英伟达股价极端下跌的重大负面事件。",
+            "英伟达生态系统强劲：Reflection AI估值等积极消息强化了其强劲前景。"
           ],
-          "why_matters": "NVIDIA的表现与科技行业密切相关，成本上升可能影响其产品需求。",
-          "bull_case": "如果NVIDIA的AI项目取得成功，需求可能激增，推动股价上涨。",
-          "bear_case": "持续的经济压力和成本上升可能进一步压低NVIDIA的股价表现。"
+          "why_matters": "这一市场走势反映了英伟达的感知稳定性和持续强势，表明投资者对其当前高估值充满信心，尽管PC市场可能存在担忧。",
+          "bull_case": "突发的严重市场崩盘或英伟达特定丑闻仍可能导致股价迅速极端下跌。",
+          "bear_case": "3月即将结束，无重大负面催化剂，英伟达股价距280美元过远，无法现实下跌。"
         }
       }
     },
@@ -128,10 +136,10 @@
       "market": {
         "id": "544092",
         "question": "Will Harvey Weinstein be sentenced to no prison time?",
-        "probability": 0.28,
+        "probability": 0.2725,
         "change_24h": -0.217,
-        "volume_24h": 53962.93,
-        "score": 221.73,
+        "volume_24h": 13397.17,
+        "score": 221.13,
         "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-no-prison-time"
       },
       "news": [
@@ -164,28 +172,28 @@
       "insight": {
         "category": "other",
         "en": {
-          "title": "Weinstein's Prison Time Odds Rise",
-          "summary": "The probability of Harvey Weinstein receiving no prison time dropped 21.7% to 28%. This significant shift was primarily driven by news of Weinstein missing a court hearing for his third NYC sex crimes trial after reportedly throwing a fit.",
+          "title": "Weinstein No Prison Time Odds Plummet",
+          "summary": "The probability of Harvey Weinstein receiving no prison time dropped significantly by 21.7% to 27%. This sharp decline was primarily driven by reports of Weinstein missing a court hearing after throwing a fit ahead of his third NYC sex crimes trial.",
           "drivers": [
-            "Weinstein missed court hearing for third NYC sex crimes trial.",
-            "Reported 'fit' before court hearing suggests uncooperative behavior.",
-            "Ongoing legal challenges increase likelihood of prison sentence."
+            "Weinstein missed court hearing",
+            "Reported 'fit' before trial",
+            "Third NYC sex crimes trial looms"
           ],
-          "why_matters": "This market reflects public and legal perception of accountability for high-profile individuals facing serious charges, influencing future legal strategies.",
+          "why_matters": "This market reflects public and judicial sentiment regarding accountability for high-profile individuals accused of sex crimes. The outcome sets a precedent for how such cases are handled in the justice system.",
           "bull_case": "A successful appeal or significant health deterioration could lead to a non-custodial sentence or compassionate release.",
-          "bear_case": "Continued legal setbacks and uncooperative behavior increase the likelihood of further convictions and prison time."
+          "bear_case": "Weinstein's disruptive behavior and ongoing legal proceedings increase the likelihood of further convictions and prison time."
         },
         "zh": {
-          "title": "韦恩斯坦免刑概率骤降",
-          "summary": "哈维·韦恩斯坦免于入狱的概率骤降21.7%至28%。这一显著变化主要源于他据报在第三次纽约性犯罪审判前“发脾气”并缺席庭审的消息。",
+          "title": "温斯坦免刑概率骤降",
+          "summary": "哈维·温斯坦免于入狱服刑的概率在24小时内骤降21.7%至27%。这一大幅下跌主要受温斯坦在第三次纽约性侵案审判前大发脾气并缺席法庭听证会的报道影响。",
           "drivers": [
-            "韦恩斯坦缺席第三次纽约性犯罪审判庭审。",
-            "据报庭前发脾气，暗示不合作态度。",
-            "持续法律挑战，增加入狱可能性。"
+            "温斯坦缺席法庭听证",
+            "审判前被曝大发脾气",
+            "面临第三次性侵审判"
           ],
-          "why_matters": "该市场反映了公众和法律界对面临严重指控的知名人士问责的看法，影响未来的法律策略。",
-          "bull_case": "上诉成功或健康状况严重恶化可能导致非监禁判决或人道释放。",
-          "bear_case": "持续法律挫折与不合作，增加定罪入狱可能。"
+          "why_matters": "该市场反映了公众和司法系统对性侵高知名度人士问责的态度。其结果将为类似案件的司法处理树立先例。",
+          "bull_case": "若上诉成功或健康状况严重恶化，可能导致非监禁判决或人道释放。",
+          "bear_case": "温斯坦的扰乱行为和持续的法律诉讼增加了其被定罪和判刑的可能性。"
         }
       }
     },
@@ -193,10 +201,10 @@
       "market": {
         "id": "544093",
         "question": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
-        "probability": 0.169,
+        "probability": 0.137,
         "change_24h": -0.145,
-        "volume_24h": 1140.7,
-        "score": 148.06,
+        "volume_24h": 1131.26,
+        "score": 148.05,
         "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-less-than-5-years-in-prison"
       },
       "news": [
@@ -229,28 +237,28 @@
       "insight": {
         "category": "other",
         "en": {
-          "title": "Weinstein's Sentencing Uncertainty Grows",
-          "summary": "Harvey Weinstein's probability of receiving less than 5 years has dropped to 17% following his missed court hearing. His erratic behavior before the trial raises concerns about his legal strategy.",
+          "title": "Weinstein's Sentence Outlook Worsens",
+          "summary": "The probability of Harvey Weinstein receiving less than 5 years in prison dropped significantly by 14.5% to 14%. This decline was primarily driven by reports of Weinstein missing a court hearing after a 'fit' ahead of his third NYC sex crimes trial.",
           "drivers": [
-            "Weinstein missed court hearing, indicating instability",
-            "Recent headlines highlight negative public perception",
-            "Legal experts suggest harsher sentencing due to behavior"
+            "Weinstein missed court hearing.",
+            "Threw 'fit' before third NYC trial.",
+            "Ongoing serious sex crimes charges."
           ],
-          "why_matters": "Weinstein's case reflects broader issues of accountability in high-profile sexual assault cases. The outcome could influence future sentencing trends.",
-          "bull_case": "If Weinstein's defense successfully argues for leniency, the probability could rise significantly.",
-          "bear_case": "Increased scrutiny and negative media coverage may lead to a harsher sentence than anticipated."
+          "why_matters": "This market reflects public and legal perception of accountability for high-profile individuals accused of serious crimes, impacting broader discussions on justice.",
+          "bull_case": "Weinstein's health issues or potential plea deals could still lead to a lighter sentence below 5 years.",
+          "bear_case": "His continued defiant behavior and multiple ongoing trials make a sentence of 5+ years highly probable."
         },
         "zh": {
-          "title": "温斯坦判刑不确定性加剧",
-          "summary": "哈维·温斯坦获得少于5年监禁的概率降至17%，因其缺席法庭听证。审判前的异常行为引发对其法律策略的担忧。",
+          "title": "韦恩斯坦刑期预测恶化",
+          "summary": "哈维·韦恩斯坦获刑少于5年的可能性大幅下降14.5%至14%。这一下降主要受其在第三次纽约性犯罪审判前“发脾气”并缺席庭审的报道驱动。",
           "drivers": [
-            "温斯坦缺席法庭，显示不稳定",
-            "近期头条突显公众负面看法",
-            "法律专家建议因行为加重判刑"
+            "韦恩斯坦缺席庭审。",
+            "第三次纽约审判前发脾气。",
+            "面临多项性犯罪指控。"
           ],
-          "why_matters": "温斯坦案件反映了高调性侵案件的问责问题。结果可能影响未来的判刑趋势。",
-          "bull_case": "如果温斯坦的辩护成功主张宽大处理，概率可能大幅上升。",
-          "bear_case": "增加的审查和负面媒体报道可能导致比预期更严厉的判刑。"
+          "why_matters": "该市场反映了公众和法律界对知名人士严重犯罪问责的看法，影响着更广泛的司法讨论。",
+          "bull_case": "韦恩斯坦的健康问题或潜在认罪协议仍可能导致轻于5年的判决。",
+          "bear_case": "他持续的对抗行为和多项审判使得获刑5年以上可能性极高。"
         }
       }
     },
@@ -258,38 +266,129 @@
       "market": {
         "id": "544096",
         "question": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
-        "probability": 0.1555,
+        "probability": 0.2075,
         "change_24h": 0.102,
-        "volume_24h": 974.29,
-        "score": 104.99,
+        "volume_24h": 889.51,
+        "score": 104.95,
         "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Harvey Weinstein misses court hearing after throwing fit ahead of third NYC sex crimes trial - New York Post",
+          "url": "https://nypost.com/2026/03/25/us-news/harvey-weinstein-misses-court-hearing-after-throwing-fit-ahead-of-third-nyc-sex-crimes-trial/",
+          "snippet": "Switch between CA and NY editions here. Amazon kicks off Big Spring Sale 2026, and we're tracking the 101+ best deals. It wasn’t his best production. "
+        },
+        {
+          "title": "Man Who Killed, Sexually Assaulted Teen Found Dead 2 Weeks After Sentencing - Newsweek",
+          "url": "https://www.newsweek.com/jarvis-butts-case-death-update-naziyah-harris-detroit-11741617",
+          "snippet": "# Man Who Killed, Sexually Assaulted Teen Found Dead 2 Weeks After Sentencing. A man who was sentenced to decades in prison on multiple charges, inclu"
+        },
+        {
+          "title": "Man who killed 13-year-old girl Na'Ziyah Harris found dead in prison - USA Today",
+          "url": "https://www.usatoday.com/story/news/nation/2026/03/26/jarvis-butts-prison-detroit-murder-naziyah-harris/89331724007/",
+          "snippet": "# Man who killed 13-year-old girl Na'Ziyah Harris found dead in prison. Just two weeks after he was sentenced to decades in prison, a man convicted of"
+        },
+        {
+          "title": "Sky News Australia. . One of Taiwan's most influential opposition leaders has been sentenced to 17 years in prison after he was found guilty of corruption in a trial that has divided the island. - facebook.com",
+          "url": "https://www.facebook.com/SkyNewsAustralia/videos/former-taipei-mayor-sentenced-to-17-years-for-corruption/1903297193725982/",
+          "snippet": "# One of Taiwan's most influential opposition leaders has been sentenced to 17 years in prison after he was found guilty of corruption in a trial that"
+        },
+        {
+          "title": "Contractor gets at least 17 years in prison after defrauding customers of $400,000 - WKEF",
+          "url": "https://dayton247now.com/news/local/contractor-gets-at-least-17-years-in-prison-after-defrauding-customers-of-400000-marion-delaware-county-ryan-needels-ohio-attorney-general-dave-yost-pole-barn",
+          "snippet": "Download the AppGet your news faster with our mobile experience. # Contractor gets at least 17 years in prison after defrauding customers of $400,000."
+        }
+      ],
       "insight": {
-        "category": "politics",
+        "category": "other",
         "en": {
-          "title": "Weinstein Sentencing Probability Rises",
-          "summary": "Harvey Weinstein's sentencing probability increased to 16% after recent legal discussions. The uptick may be influenced by ongoing public interest and advocacy for justice.",
+          "title": "Weinstein's Courtroom Antics Boost Sentence Odds",
+          "summary": "The probability of Harvey Weinstein receiving a 20-30 year prison sentence rose by 10.2% to 21%, primarily driven by reports of his disruptive behavior and absence from a recent court hearing. The New York Post reported Weinstein \"throwing a fit\" ahead of his third NYC sex crimes trial.",
           "drivers": [
-            "Increased media coverage on Weinstein's case",
-            "Public advocacy for harsher sentencing",
-            "Legal experts predicting longer sentences"
+            "Weinstein missed court hearing.",
+            "Reported \"throwing a fit\" in court.",
+            "Perceived disrespect for judicial process."
           ],
-          "why_matters": "The outcome of Weinstein's sentencing could impact future cases of sexual assault and public perceptions of justice.",
-          "bull_case": "Increased public pressure could lead to a harsher sentence than expected.",
-          "bear_case": "Legal arguments may result in a lighter sentence than anticipated."
+          "why_matters": "Weinstein's sentencing outcome is a high-profile case, reflecting societal views on accountability for powerful figures in sex crime cases. His behavior could influence judicial leniency.",
+          "bull_case": "Weinstein's recent disruptive behavior and missed court appearance could lead to a harsher sentence from the judge.",
+          "bear_case": "The current trial's specific charges or mitigating factors might result in a sentence below the 20-year threshold."
         },
         "zh": {
-          "title": "韦恩斯坦判刑概率上升",
-          "summary": "哈维·韦恩斯坦的判刑概率上升至16%，因近期法律讨论引发关注。公众对公正的倡导可能推动了这一变化。",
+          "title": "韦恩斯坦庭审闹剧推高刑期概率",
+          "summary": "哈维·韦恩斯坦被判处20至30年监禁的概率上升10.2%至21%，主要原因是媒体报道他行为不端并缺席近期庭审。据《纽约邮报》报道，韦恩斯坦在第三次纽约性犯罪审判前“大发脾气”。",
           "drivers": [
-            "媒体对韦恩斯坦案件的关注增加",
-            "公众对更严厉判刑的倡导",
-            "法律专家预测更长的刑期"
+            "韦恩斯坦缺席庭审。",
+            "被报道在法庭上“大发脾气”。",
+            "被视为不尊重司法程序。"
           ],
-          "why_matters": "韦恩斯坦的判刑结果可能影响未来性侵案件和公众对司法的看法。",
-          "bull_case": "公众压力增加可能导致比预期更严厉的判刑。",
-          "bear_case": "法律辩论可能导致比预期更轻的判刑。"
+          "why_matters": "韦恩斯坦的判决结果是一个备受关注的案件，反映了社会对有权势者性犯罪责任的看法。他的行为可能影响法官的宽容度。",
+          "bull_case": "韦恩斯坦近期扰乱性行为和缺席庭审可能导致法官判处更严厉的刑罚。",
+          "bear_case": "当前审判的具体指控或减轻情节可能导致刑期低于20年门槛。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "690622",
+        "question": "USD.AI FDV above $300M one day after launch?",
+        "probability": 0.245,
+        "change_24h": -0.099,
+        "volume_24h": 34215.29,
+        "score": 103.53,
+        "url": "https://polymarket.com/event/usdai-fdv-above-300m-one-day-after-launch-673-643-134-327-974"
+      },
+      "news": [
+        {
+          "title": "OpenEvidence releases AI medical billing feature - Modern Healthcare",
+          "url": "https://www.modernhealthcare.com/health-tech/mh--4/",
+          "snippet": "# OpenEvidence releases AI medical billing feature. * OpenEvidence released a new feature for clinicians to help automate the medical coding and billi"
+        },
+        {
+          "title": "OpenAI raises additional money to bring record funding round to $120 billion, CFO tells Cramer - CNBC",
+          "url": "https://www.cnbc.com/2026/03/24/openai-secures-an-extra-10-billion-in-record-funding-round-cfo-friar-says.html",
+          "snippet": "# OpenAI raises additional money to bring record funding round to $120 billion, CFO tells Cramer. * OpenAI CFO Sarah Friar told CNBC's Jim Cramer that"
+        },
+        {
+          "title": "Chasing SpaceX and Anthropic: The Allure and Risks of the Fund That Soared over 1000% - Moomoo",
+          "url": "https://www.moomoo.com/community/feed/chasing-spacex-and-anthropic-the-allure-and-risks-of-the-116293943689225",
+          "snippet": "It is highly concentrated in AI large language models, data infrastructure, physical AI, defense, commercial aerospace, and the next-generation SaaS e"
+        },
+        {
+          "title": "OpenAI Set to Raise About $10 Billion From MGX, Coatue, Thrive - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-24/openai-set-to-raise-about-10-billion-from-mgx-coatue-thrive",
+          "snippet": "# OpenAI Set to Raise $10 Billion From MGX, Coatue, Thrive. Provide news feedback or report an error. Send a tip to our reporters. ### **Takeaways** b"
+        },
+        {
+          "title": "Hyperscale Data Bitcoin Treasury at 627.8970 Bitcoin; Cash and Bitcoin Holdings at Approximately 147.07% of Market Capitalization – Company Announcement - FT.com - Financial Times",
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202603240800PR_NEWS_USPRX____SF17800-1",
+          "snippet": "### Hyperscale Data Bitcoin Treasury at 627.8970 Bitcoin; Cash and Bitcoin Holdings at Approximately 147.07% of Market Capitalization. (NYSE American:"
+        }
+      ],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "USD.AI FDV Target Drops Amid OpenAI Funding",
+          "summary": "The probability for USD.AI's FDV exceeding $300M one day after launch dropped by 9.9% to 24%, primarily driven by news of OpenAI's massive fundraising rounds. This indicates increased competition and capital concentration in the AI sector.",
+          "drivers": [
+            "OpenAI's record $120B funding round confirmed by CFO Sarah Friar.",
+            "OpenAI set to raise $10B from MGX, Coatue, Thrive.",
+            "Warnings about risks in highly concentrated AI investments."
+          ],
+          "why_matters": "This movement reflects investor caution towards new AI ventures as established giants like OpenAI secure unprecedented capital, potentially raising the bar for market entry and valuation.",
+          "bull_case": "USD.AI could achieve high FDV with disruptive technology, strong early adoption, or a unique niche attracting significant investor interest.",
+          "bear_case": "Intense competition from well-funded OpenAI and general market caution towards new AI projects will likely suppress USD.AI's valuation."
+        },
+        "zh": {
+          "title": "OpenAI融资致USD.AI估值预期下降",
+          "summary": "USD.AI上市首日FDV超过3亿美元的概率下降9.9%至24%，主要受OpenAI巨额融资消息影响。这表明AI领域竞争加剧，资本正向头部企业集中。",
+          "drivers": [
+            "OpenAI首席财务官证实完成1200亿美元融资。",
+            "OpenAI将从MGX、Coatue、Thrive筹集100亿美元。",
+            "对高度集中AI投资风险的警告。"
+          ],
+          "why_matters": "这一变化反映了投资者对新AI项目的谨慎态度，因为OpenAI等巨头获得了前所未有的资本，可能提高了市场进入和估值的门槛。",
+          "bull_case": "USD.AI若能凭借颠覆性技术、早期用户增长或独特市场定位，仍可能吸引大量投资实现高估值。",
+          "bear_case": "来自资金雄厚的OpenAI的激烈竞争以及市场对新AI项目的普遍谨慎，可能会抑制USD.AI的估值。"
         }
       }
     },
@@ -297,17 +396,17 @@
       "market": {
         "id": "1370745",
         "question": "S&P 500 all time high by March 31, 2026?",
-        "probability": 0.0085,
+        "probability": 0.006,
         "change_24h": -0.075,
-        "volume_24h": 4906.35,
-        "score": 78.69,
+        "volume_24h": 12896.34,
+        "score": 79.11,
         "url": "https://polymarket.com/event/sp-500-all-time-high-by-march-31-2026"
       },
       "news": [
         {
-          "title": "User - The Chronicle-Journal",
-          "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-25-the-great-rotation-small-caps-seize-market-leadership-in-historic-2026-breakout",
-          "snippet": "After trailing the S&P 500 (NYSEARCA: SPY) for over a decade, small-cap stocks have ignored the gravity of high valuations in the \"Magnificent Seven\" "
+          "title": "Barclays raises 2026 year-end S&P 500 target to 7,650 despite Middle East, inflation risks - Reuters",
+          "url": "https://www.reuters.com/business/finance/barclays-raises-2026-year-end-sp-500-target-7650-despite-middle-east-inflation-2026-03-24/",
+          "snippet": "# Barclays raises 2026 year-end S&P 500 target to 7,650 despite Middle East, inflation risks. March 24 (Reuters) - Barclays raised its 2026 year-end S"
         },
         {
           "title": "Barclays raises 2026 year-end S&P 500 target to 7,650 despite Middle East, inflation risks - KITCO",
@@ -315,38 +414,46 @@
           "snippet": "# Barclays raises 2026 year-end S&P 500 target to 7,650 despite Middle East, inflation risks. March 24 (Reuters) - Barclays raised its 2026 year-end S"
         },
         {
-          "title": "Barclays raises 2026 year-end S&P 500 target to 7,650 despite Middle East, inflation risks - Reuters",
-          "url": "https://www.reuters.com/business/finance/barclays-raises-2026-year-end-sp-500-target-7650-despite-middle-east-inflation-2026-03-24/",
-          "snippet": "# Barclays raises 2026 year-end S&P 500 target to 7,650 despite Middle East, inflation risks. March 24 (Reuters) - Barclays raised its 2026 year-end S"
+          "title": "User - The Chronicle-Journal",
+          "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-25-the-great-rotation-small-caps-seize-market-leadership-in-historic-2026-breakout",
+          "snippet": "After trailing the S&P 500 (NYSEARCA: SPY) for over a decade, small-cap stocks have ignored the gravity of high valuations in the \"Magnificent Seven\" "
         },
         {
-          "title": "The S&P 500 has flashed a warning signal. Here's what it means and how to protect your portfolio. - Business Insider",
-          "url": "https://www.businessinsider.com/stock-market-volatility-200dma-iran-war-how-to-protect-portfolio-2026-3",
-          "snippet": "Become an Insider and start reading now. * The S&P 500's recent dip below its 200-day average hints at potential downside ahead. The S&P 500 crossed b"
+          "title": "SpaceX IPO Filing Expected This Week — Should You Buy on Day One? - TipRanks",
+          "url": "https://www.tipranks.com/news/spacex-ipo-filing-expected-this-week-should-you-buy-on-day-one",
+          "snippet": "SpaceX’s potential IPO in June is attracting strong interest as one of the most sought-after private companies, with fast growth in satellites (Starli"
         },
         {
-          "title": "Wall St opens lower as Middle East uncertainty tempers rally - Reuters",
-          "url": "https://www.reuters.com/business/us-stock-futures-dip-middle-east-uncertainty-tempers-relief-rally-2026-03-24/",
-          "snippet": "The S&P 500 financials index (.SPSY), opens new tab was off 0.7%. Among individual movers, shares of Jefferies (JEF.N), opens new tab gained 3.3% afte"
+          "title": "Stocks Sink and Oil Dips After Trump Delays Threat to Bomb Iran - The New York Times",
+          "url": "https://www.nytimes.com/2026/03/26/business/gas-oil-gas-prices-iran.html",
+          "snippet": "# Stocks Sink and Oil Dips After Trump Delays Threat to Bomb Iran. By The New York Times. Stocks in Asia mostly fell on Friday despite President Trump"
         }
       ],
       "insight": {
-        "category": "stocks",
+        "category": "economy",
         "en": {
-          "title": "S&P 500 all time high by March 31, 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "S&P 500 All-Time High Odds Plummet",
+          "summary": "The probability of the S&P 500 reaching an all-time high by March 31, 2026, plunged 7.5% to 1%, primarily driven by heightened geopolitical risks. News of \"Stocks Sink and Oil Dips After Trump Delays Threat to Bomb Iran\" introduced significant market uncertainty.",
           "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1183)"
+            "Trump's delayed threat to bomb Iran.",
+            "Increased Middle East geopolitical risks.",
+            "Barclays citing inflation risks for 2026."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects investor confidence in the S&P 500's near-term growth trajectory, impacting investment strategies and broader economic outlook. A low probability suggests significant headwinds are expected.",
+          "bull_case": "Strong corporate earnings growth and easing inflation could propel the S&P 500 to new highs sooner than expected.",
+          "bear_case": "Persistent geopolitical instability and sticky inflation could prevent the S&P 500 from reaching new highs by March 2026."
         },
         "zh": {
-          "title": "S&P 500 all time high by March 31, 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "标普500新高概率骤降",
+          "summary": "标普500指数在2026年3月31日前创历史新高的概率骤降7.5%至1%，主要受地缘政治风险加剧影响。新闻报道“特朗普推迟轰炸伊朗威胁后股市下跌”给市场带来显著不确定性。",
           "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1183)"
+            "特朗普推迟轰炸伊朗威胁。",
+            "中东地缘政治风险加剧。",
+            "巴克莱提及2026年通胀风险。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映投资者对标普500近期增长轨迹的信心，影响投资策略和宏观经济前景。低概率表明预计将面临重大阻力。",
+          "bull_case": "强劲盈利增长和通胀缓解或助标普500提前创新高。",
+          "bear_case": "地缘政治不稳与顽固通胀或阻碍标普500在2026年3月前创新高。"
         }
       }
     },
@@ -354,9 +461,9 @@
       "market": {
         "id": "572121",
         "question": "Callum Turner announced as next James Bond?",
-        "probability": 0.205,
+        "probability": 0.2,
         "change_24h": 0.07,
-        "volume_24h": 2985.27,
+        "volume_24h": 2964.11,
         "score": 73.47,
         "url": "https://polymarket.com/event/callum-turner-announced-as-next-james-bond"
       },
@@ -365,6 +472,11 @@
           "title": "'Bait' review: Riz Ahmed's marvelous comedy centered around James Bond - Los Angeles Times",
           "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-03-25/bait-review-riz-ahmed-prime-video",
           "snippet": "Tap to enable a layout that focuses on the article. # Riz Ahmed’s marvelous comedy ‘Bait’ is built around a man in crisis, much like James Bond. * Cli"
+        },
+        {
+          "title": "Why yes, we'll take Riz Ahmed's 'Bait' : Pop Culture Happy Hour - NPR",
+          "url": "https://www.npr.org/2026/03/27/nx-s1-5762823/why-yes-well-take-riz-ahmeds-bait",
+          "snippet": "* Keyboard shortcuts for audio player. **Why yes, we'll take Riz Ahmed's 'Bait' : Pop Culture Happy Hour** **In the whimsical Prime Video comedy serie"
         },
         {
           "title": "‘SNL’ UK Promo: Host Jamie Dornan Finds Out He Won’t Be The Next James Bond - Deadline",
@@ -377,145 +489,36 @@
           "snippet": "# I lost every good acting job to Riz Ahmed – annoyingly, his James Bond comedy is a jaw-dropping hoot. Ahmed superbly tackles race and identity in hi"
         },
         {
-          "title": "The Man Who Would Go Anywhere - The New York Times",
-          "url": "https://www.nytimes.com/2026/03/17/theater/john-lithgow-giant-roald-dahl.html",
-          "snippet": "That last role, which he performed for six seasons starting in 1996 on the sitcom “3rd Rock From the Sun,” may be the one he’s still most famous for 3"
-        },
-        {
-          "title": "Bait Season 1 Review: What if Riz Ahmed Was Bond? - IGN",
-          "url": "https://www.ign.com/articles/bait-season-1-review-riz-ahmed",
-          "snippet": "It begins with Ahmed’s character, the up-and-coming actor Shah Latif, screen-testing for the iconic role and giving us a taste of what a South Asian J"
+          "title": "Is Riz Ahmed’s ‘Bait’ a Not-So-Subtle James Bond Audition? Maybe - Newsweek",
+          "url": "https://www.newsweek.com/entertainment/is-riz-ahmeds-bait-not-so-subtle-james-bond-audition-maybe-11743633",
+          "snippet": "\"I want to make category killers,\" he says of *Bait*, his new Prime Video series about a London actor faking a James Bond audition. I want to elevate "
         }
       ],
       "insight": {
         "category": "other",
         "en": {
-          "title": "Turner Gains Momentum for Bond Role",
-          "summary": "Callum Turner's probability of becoming the next James Bond rose to 20%, driven by recent buzz around Riz Ahmed's comedic portrayal of a Bond-like character. This uptick follows a 7% increase in the last 24 hours, indicating growing interest in fresh candidates.",
+          "title": "Turner's Bond Odds Climb",
+          "summary": "Callum Turner's probability as the next James Bond increased by 7% to 20%, despite recent headlines focusing on other actors. This rise likely reflects a market re-evaluation following Jamie Dornan's explicit removal from contention.",
           "drivers": [
-            "Positive reviews for Riz Ahmed's Bond-themed comedy",
-            "Increased media speculation on new Bond actors",
-            "Turner's rising profile in the acting community"
+            "Jamie Dornan explicitly ruled out for Bond.",
+            "Market re-evaluates remaining contenders.",
+            "Ongoing 'next Bond' casting speculation."
           ],
-          "why_matters": "The choice of the next James Bond is significant for franchise direction and diversity representation in Hollywood. A shift in public interest can influence casting decisions.",
-          "bull_case": "If Turner continues to gain media traction, his chances of being cast could significantly increase.",
-          "bear_case": "Strong competition from established actors may overshadow Turner's candidacy."
+          "why_matters": "The casting of James Bond is a globally significant entertainment event, influencing franchise direction and the chosen actor's career. This movement indicates a shifting perception of frontrunners.",
+          "bull_case": "Jamie Dornan's elimination clears a path, and strong internal rumors or auditions for Turner could emerge.",
+          "bear_case": "Riz Ahmed's rising profile or another unexpected candidate could quickly overshadow Turner's momentum."
         },
         "zh": {
-          "title": "特纳获得邦德角色动力",
-          "summary": "卡勒姆·特纳成为下一任邦德的概率上升至20%，主要受到对瑞兹·艾哈迈德喜剧表现的积极评价的推动。过去24小时内上涨7%，显示出对新候选人的兴趣增加。",
+          "title": "特纳邦德赔率上升",
+          "summary": "尽管近期头条新闻聚焦其他演员，卡勒姆·特纳成为下一任詹姆斯·邦德的概率仍上升7%至20%。这可能反映了杰米·多南明确出局后，市场对剩余候选人的重新评估。",
           "drivers": [
-            "瑞兹·艾哈迈德邦德主题喜剧好评如潮",
-            "媒体对新邦德演员的猜测增多",
-            "特纳在演艺界的知名度上升"
+            "杰米·多南被排除邦德人选。",
+            "市场重新评估剩余候选人。",
+            "持续的下一任邦德选角猜测。"
           ],
-          "why_matters": "选择下一任邦德对特许经营方向和好莱坞多样性代表性具有重要意义。公众兴趣的变化可能影响选角决定。",
-          "bull_case": "如果特纳继续获得媒体关注，他被选中的机会可能会显著增加。",
-          "bear_case": "来自知名演员的强大竞争可能会掩盖特纳的候选资格。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "1403724",
-        "question": "Will the U.S. tariff rate on China be between 15% and 25% on March 31?",
-        "probability": 0.037,
-        "change_24h": -0.065,
-        "volume_24h": 207012.64,
-        "score": 70.32,
-        "url": "https://polymarket.com/event/will-the-us-tariff-rate-on-china-be-between-15-and-25-on-march-31"
-      },
-      "news": [],
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Tariff Rate Probability Drops Significantly",
-          "summary": "The current probability of tariffs being between 15% and 25% has fallen to 4%. This decline follows a lack of recent trade negotiations or announcements from U.S. officials.",
-          "drivers": [
-            "Absence of new trade negotiations",
-            "No recent statements from U.S. officials",
-            "Market reaction to economic data"
-          ],
-          "why_matters": "Changes in tariff rates can significantly impact U.S.-China trade relations and global supply chains.",
-          "bull_case": "If new trade talks emerge, the probability of tariffs rising could increase significantly.",
-          "bear_case": "Continued inaction on trade policy may lead to further decreases in the probability of tariffs being in that range."
-        },
-        "zh": {
-          "title": "关税概率大幅下降",
-          "summary": "当前关税在15%到25%之间的概率降至4%。这一下降源于近期缺乏贸易谈判或美国官员的声明。",
-          "drivers": [
-            "缺乏新的贸易谈判",
-            "美国官员没有近期声明",
-            "市场对经济数据的反应"
-          ],
-          "why_matters": "关税变化可能显著影响美中贸易关系和全球供应链。",
-          "bull_case": "如果出现新的贸易谈判，关税上升的概率可能会显著增加。",
-          "bear_case": "贸易政策持续不作为可能导致关税在该范围内的概率进一步下降。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "678746",
-        "question": "Will Israel strike 3 countries in 2026?",
-        "probability": 0.061,
-        "change_24h": 0.065,
-        "volume_24h": 197373.2,
-        "score": 70.3,
-        "url": "https://polymarket.com/event/will-israel-strike-3-countries-in-2026"
-      },
-      "news": [
-        {
-          "title": "Strikes hit Iran and Tehran targets Israel and Gulf states amid mixed signals over talks to end war - Chicago Tribune",
-          "url": "https://www.chicagotribune.com/2026/03/24/iran-strikes-war-talk/",
-          "snippet": "World News |   Strikes hit Iran and Tehran targets Israel and…. # Strikes hit Iran and Tehran targets Israel and Gulf states amid mixed signals over t"
-        },
-        {
-          "title": "Israel's military to occupy swathe of southern Lebanon, defence minister says - Reuters",
-          "url": "https://www.reuters.com/world/middle-east/israels-military-occupy-swathe-southern-lebanon-defence-chief-says-2026-03-24/",
-          "snippet": "Item 1 of 3 Smoke rises after an Israeli strike, amid escalating hostilities between Israel and Hezbollah, as the U.S.-Israeli conflict with Iran cont"
-        },
-        {
-          "title": "IDF detects new ballistic missile attack from Iran, sirens expected in south - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/idf-detects-new-ballistic-missile-attack-from-iran-sirens-expected-in-south/",
-          "snippet": "Image 4: The Times of Israel. *   Image 152: An Iranian missile explodes in an open area near Hadera on March 25, 2026 (X/ used in accordance with Cla"
-        },
-        {
-          "title": "Government gives IDF permission to summon up to 400,000 reservists amid Iran, Hezbollah wars - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/government-gives-idf-permission-to-summon-up-to-400000-reservists-amid-iran-hezbollah-wars/",
-          "snippet": "Image 4: The Times of Israel. *   Image 152: An Iranian missile explodes in an open area near Hadera on March 25, 2026 (X/ used in accordance with Cla"
-        },
-        {
-          "title": "A victory ‘for decades’? Netanyahu’s promise after June strikes proved hollow, but Israelis still support Iran war - CNN",
-          "url": "https://www.cnn.com/2026/03/25/middleeast/netanyahu-victory-iran-israel-support-intl",
-          "snippet": "Netanyahu’s promise after June strikes proved hollow, but Israelis still support Iran war. The opening strikes of the war with Iran shouldn’t have bee"
-        }
-      ],
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Escalation in Israel-Iran Tensions",
-          "summary": "The probability of Israel striking three countries in 2026 has risen to 6% due to recent military actions. Key drivers include Israeli strikes on Iranian targets and increased military mobilization in response to missile threats.",
-          "drivers": [
-            "Israeli strikes on Iranian military targets reported",
-            "IDF mobilizes 400,000 reservists amid conflict",
-            "Iran's missile attacks escalate tensions in the region"
-          ],
-          "why_matters": "These developments indicate a significant escalation in regional conflict, potentially leading to broader military engagements. The situation could destabilize the Middle East further.",
-          "bull_case": "Increased military actions could lead to a higher likelihood of Israel engaging multiple countries in conflict.",
-          "bear_case": "Diplomatic efforts or ceasefire agreements could reduce the chances of further strikes."
-        },
-        "zh": {
-          "title": "以色列-伊朗紧张局势升级",
-          "summary": "由于近期军事行动，以色列在2026年对三国发动攻击的概率上升至6%。关键驱动因素包括以色列对伊朗目标的打击和应对导弹威胁的军事动员。",
-          "drivers": [
-            "以色列对伊朗军事目标的打击报道",
-            "以色列国防军动员40万后备军",
-            "伊朗导弹攻击加剧地区紧张局势"
-          ],
-          "why_matters": "这些事态发展表明地区冲突显著升级，可能导致更广泛的军事冲突。局势可能进一步破坏中东的稳定。",
-          "bull_case": "军事行动增加可能导致以色列与多个国家发生冲突的可能性上升。",
-          "bear_case": "外交努力或停火协议可能降低进一步攻击的机会。"
+          "why_matters": "詹姆斯·邦德的选角是全球重要的娱乐事件，影响系列走向和演员事业。此次变动表明市场对领先者的看法正在转变。",
+          "bull_case": "杰米·多南出局为特纳铺平道路，内部传闻或试镜可能浮现。",
+          "bear_case": "里兹·艾哈迈德崛起或意外候选人可能迅速盖过特纳风头。"
         }
       }
     },
@@ -523,38 +526,196 @@
       "market": {
         "id": "544095",
         "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-        "probability": 0.219,
+        "probability": 0.1845,
         "change_24h": -0.067,
-        "volume_24h": 802.34,
-        "score": 69.9,
+        "volume_24h": 871.89,
+        "score": 69.94,
         "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Harvey Weinstein misses court hearing after throwing fit ahead of third NYC sex crimes trial - New York Post",
+          "url": "https://nypost.com/2026/03/25/us-news/harvey-weinstein-misses-court-hearing-after-throwing-fit-ahead-of-third-nyc-sex-crimes-trial/",
+          "snippet": "Switch between CA and NY editions here. Amazon kicks off Big Spring Sale 2026, and we're tracking the 101+ best deals. It wasn’t his best production. "
+        },
+        {
+          "title": "Man who killed 13-year-old girl Na'Ziyah Harris found dead in prison - USA Today",
+          "url": "https://www.usatoday.com/story/news/nation/2026/03/26/jarvis-butts-prison-detroit-murder-naziyah-harris/89331724007/",
+          "snippet": "# Man who killed 13-year-old girl Na'Ziyah Harris found dead in prison. Just two weeks after he was sentenced to decades in prison, a man convicted of"
+        },
+        {
+          "title": "Man Who Killed, Sexually Assaulted Teen Found Dead 2 Weeks After Sentencing - Newsweek",
+          "url": "https://www.newsweek.com/jarvis-butts-case-death-update-naziyah-harris-detroit-11741617",
+          "snippet": "# Man Who Killed, Sexually Assaulted Teen Found Dead 2 Weeks After Sentencing. A man who was sentenced to decades in prison on multiple charges, inclu"
+        },
+        {
+          "title": "Sky News Australia. . One of Taiwan's most influential opposition leaders has been sentenced to 17 years in prison after he was found guilty of corruption in a trial that has divided the island. - facebook.com",
+          "url": "https://www.facebook.com/SkyNewsAustralia/videos/former-taipei-mayor-sentenced-to-17-years-for-corruption/1903297193725982/",
+          "snippet": "# One of Taiwan's most influential opposition leaders has been sentenced to 17 years in prison after he was found guilty of corruption in a trial that"
+        },
+        {
+          "title": "Contractor gets at least 17 years in prison after defrauding customers of $400,000 - WKEF",
+          "url": "https://dayton247now.com/news/local/contractor-gets-at-least-17-years-in-prison-after-defrauding-customers-of-400000-marion-delaware-county-ryan-needels-ohio-attorney-general-dave-yost-pole-barn",
+          "snippet": "Download the AppGet your news faster with our mobile experience. # Contractor gets at least 17 years in prison after defrauding customers of $400,000."
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Weinstein Sentence Probability Drops",
+          "summary": "The probability of Harvey Weinstein receiving a 10-20 year prison sentence has dropped to 18%, following reports of him missing a court hearing and throwing a fit ahead of his third NYC sex crimes trial. This behavior suggests potential health issues or trial delays, leading the market to reassess the likelihood of this specific sentencing range.",
+          "drivers": [
+            "Weinstein missed NYC court hearing.",
+            "Threw fit before sex crimes trial.",
+            "Potential health issues impacting trial.",
+            "Increased uncertainty or trial delays."
+          ],
+          "why_matters": "This case continues to highlight the legal complexities and public scrutiny surrounding high-profile sexual assault convictions, impacting future legal precedents.",
+          "bull_case": "New damning evidence emerges, or his disruptive behavior leads to a harsher sentence within the 10-20 year range.",
+          "bear_case": "Weinstein's health deteriorates, leading to a more lenient sentence, plea deal, or being deemed unfit for trial."
+        },
+        "zh": {
+          "title": "韦恩斯坦刑期概率下降",
+          "summary": "哈维·韦恩斯坦被判处10至20年监禁的概率降至18%，此前有报道称他在第三次纽约性犯罪审判前缺席庭审并大发脾气。这种行为表明可能存在健康问题或审判延误，导致市场重新评估这一特定刑期范围的可能性。",
+          "drivers": [
+            "韦恩斯坦缺席纽约庭审。",
+            "性犯罪审判前大发脾气。",
+            "健康问题或影响审判。",
+            "审判不确定性或延误增加。"
+          ],
+          "why_matters": "此案持续凸显备受瞩目的性侵犯定罪所面临的法律复杂性和公众审查，影响未来的法律先例。",
+          "bull_case": "新证据浮现，或其扰乱行为导致10-20年内更严厉判决。",
+          "bear_case": "韦恩斯坦健康恶化，或导致判决更宽大、认罪协议或不适合受审。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "1403724",
+        "question": "Will the U.S. tariff rate on China be between 15% and 25% on March 31?",
+        "probability": 0.0275,
+        "change_24h": -0.065,
+        "volume_24h": 44862.37,
+        "score": 69.65,
+        "url": "https://polymarket.com/event/will-the-us-tariff-rate-on-china-be-between-15-and-25-on-march-31"
+      },
+      "news": [
+        {
+          "title": "Navarro: Trump will still raise tariffs to 15 percent - Politico",
+          "url": "https://www.politico.com/news/2026/03/25/navarro-trump-tariffs-15-percent-00843828",
+          "snippet": "The White House trade adviser indicated the president still planned to bump up the current 10 percent duty — something Trump said he would do last mon"
+        },
+        {
+          "title": "5 takeaways from POLITICO’s Economy Summit - Politico",
+          "url": "https://www.politico.com/newsletters/morning-money/2026/03/25/5-takeaways-from-politicos-economy-summit-00845455",
+          "snippet": "POLITICO gathered leaders from the White House, Capitol Hill and Wall Street on Wednesday to unpack how the war in Iran, the rise of artificial intell"
+        },
+        {
+          "title": "Rep. Mike Flood (R-Neb.) talks housing policy reforms - Politico",
+          "url": "https://www.politico.com/video/2026/03/25/rep-mike-flood-r-neb-talks-housing-policy-reforms-1976634",
+          "snippet": "# Rep. Mike Flood (R-Neb.) talks housing policy reforms. ## Next Video. ### Gary Cohn says some will lose jobs to AI, but other opportunities will be "
+        },
+        {
+          "title": "Trump administration being ‘pragmatic’ on tariff refunds, former officials say - Politico",
+          "url": "https://www.politico.com/news/2026/03/25/trump-administration-pragmatic-tariff-refunds-00844262",
+          "snippet": "# Trump administration being ‘pragmatic’ on tariff refunds, former officials say. The White House has shown no signs of abandoning its obligations, sa"
+        },
+        {
+          "title": "US import prices post largest gain in four years as energy costs soar - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-03-25/us-import-prices-post-largest-gain-four-years-energy-costs-soar",
+          "snippet": "WASHINGTON, March 25 (Reuters) - U.S. import prices increased by the most in nearly four years in February as energy costs surged in anticipation of c"
+        }
+      ],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Weinstein Sentencing Probability Declines",
-          "summary": "Current probability of Weinstein receiving 10-20 years is 22%, down 6.7%. This decline may stem from recent legal developments favoring the defense.",
+          "title": "Tariffs Target 15%, Exiting (15%, 25%) Range",
+          "summary": "The probability dropped significantly as Peter Navarro indicated Trump plans to raise tariffs to exactly 15 percent. This specific target falls outside a strict interpretation of the 'between 15% and 25%' range, reducing market confidence.",
           "drivers": [
-            "Defense motions gaining traction",
-            "Recent appeals affecting public perception",
-            "Lower sentencing expectations from legal analysts"
+            "Navarro confirms 15% tariff target",
+            "Market interprets 'between' as strictly exclusive",
+            "No signs of tariffs exceeding 15% but below 25%"
           ],
-          "why_matters": "The outcome of Weinstein's sentencing could impact future high-profile sexual assault cases and public trust in the judicial system.",
-          "bull_case": "Increased public outrage could push for a harsher sentence, raising the probability.",
-          "bear_case": "Legal precedents and defense strategies may lead to a lighter sentence, decreasing the probability."
+          "why_matters": "U.S. tariff rates on China significantly impact global trade relations, supply chains, and economic stability, influencing corporate strategies and consumer prices.",
+          "bull_case": "Trump could unexpectedly implement a tariff rate like 20% to increase pressure, placing it strictly within the target range.",
+          "bear_case": "Peter Navarro's statement solidifies a 15% tariff, which is not strictly 'between' 15% and 25%, making the market outcome unlikely."
         },
         "zh": {
-          "title": "韦恩斯坦判刑概率下降",
-          "summary": "韦恩斯坦被判10-20年的概率为22%，下降6.7%。这一下降可能源于近期对辩方有利的法律进展。",
+          "title": "关税目标15%，脱离(15%, 25%)区间",
+          "summary": "市场概率显著下降，因彼得·纳瓦罗表示特朗普计划将关税提高至恰好15%。这一具体目标若严格解读“介于15%至25%之间”，则不在此区间内，从而降低了市场信心。",
           "drivers": [
-            "辩方动议获得支持",
-            "近期上诉影响公众看法",
-            "法律分析师降低判刑预期"
+            "纳瓦罗确认关税目标为15%",
+            "市场将“介于”解读为严格排他",
+            "无迹象表明关税将高于15%但低于25%"
           ],
-          "why_matters": "韦恩斯坦的判决结果可能影响未来高调性侵案件及公众对司法系统的信任。",
-          "bull_case": "公众愤怒加剧可能推动更严厉的判决，提高概率。",
-          "bear_case": "法律先例和辩护策略可能导致较轻判决，降低概率。"
+          "why_matters": "美中关税税率深刻影响全球贸易关系、供应链和经济稳定，进而左右企业战略和消费者物价。",
+          "bull_case": "特朗普可能意外实施如20%的关税以施加更大压力，使其严格落入目标区间。",
+          "bear_case": "彼得·纳瓦罗的声明巩固了15%的关税，这并非严格“介于”15%和25%之间，使市场结果可能性降低。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "676792",
+        "question": "Anthropic IPO before 2027?",
+        "probability": 0.375,
+        "change_24h": -0.065,
+        "volume_24h": 6049.54,
+        "score": 68.78,
+        "url": "https://polymarket.com/event/anthropic-ipo-before-2027"
+      },
+      "news": [
+        {
+          "title": "Anthropic eyes October IPO - reports - CNBC",
+          "url": "https://www.cnbc.com/video/2026/03/27/anthropic-eyes-october-ipo---reports.html",
+          "snippet": "Monday - Friday, 08:00 - 11:00 CET | 14:00 - 17:00 HK/SG. # Anthropic eyes October IPO - reports. Anthropic is reportedly considering an IPO as soon a"
+        },
+        {
+          "title": "Which Companies Will Announce an IPO in 2026? Discord, Open AI, Anthropic and More - Deadspin",
+          "url": "https://deadspin.com/prediction-markets/trending/will-discord-open-ai-anthropic-announce-ipo-this-year/",
+          "snippet": "At the top prediction market, Kalshi, Elon Musk’s SpaceX is the leading company potentially going public in 2026, with a probability of 94%. Many othe"
+        },
+        {
+          "title": "Q1 2026 PitchBook Analyst Note: When Access to VC Becomes a Liability - PitchBook",
+          "url": "https://pitchbook.com/news/reports/q1-2026-pitchbook-analyst-note-when-access-to-vc-becomes-a-liability",
+          "snippet": "# PitchBook Analyst Note: When Access to VC Becomes a Liability. Our DeSPAC index is down 75% since its peak—not because the idea was wrong, but becau"
+        },
+        {
+          "title": "Q1 2026 US Evergreen Fund Landscape - PitchBook",
+          "url": "https://pitchbook.com/news/reports/q1-2026-us-evergreen-fund-landscape",
+          "snippet": "# US Evergreen Fund Landscape. **Evergreen funds at an inflection point**. Evergreen funds have surged past $520 billion as private markets push deepe"
+        },
+        {
+          "title": "Unicorn Crushers: These 3 Names Could Become Largest IPOs Ever As Pipeline Swells - Investor's Business Daily",
+          "url": "https://www.investors.com/news/ipos-spacex-openai-anthropic-klar-fig-blsh/",
+          "snippet": "News that SpaceX could file for its initial public offering as early as this week focused fresh attention on the IPO market's three-year rebound. The "
+        }
+      ],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Anthropic IPO Odds Decline",
+          "summary": "Anthropic's IPO probability dropped 6.5% to 38%, despite reports of the company eyeing an October IPO. This decline is primarily driven by a broader market re-evaluation of the IPO landscape for VC-backed firms, as highlighted by PitchBook's note on VC access becoming a liability.",
+          "drivers": [
+            "PitchBook note: VC access liability",
+            "DeSPAC index down 75% signals tough market",
+            "Broader market caution on tech IPOs"
+          ],
+          "why_matters": "Anthropic's IPO timing reflects broader investor confidence in the AI sector and the viability of large private tech companies transitioning to public markets amidst changing economic conditions.",
+          "bull_case": "Strong AI demand and Anthropic's growth could push for a successful IPO despite market headwinds.",
+          "bear_case": "Challenging IPO market conditions and investor caution regarding VC-backed tech firms may delay Anthropic's public debut."
+        },
+        "zh": {
+          "title": "Anthropic IPO概率下降",
+          "summary": "尽管有报道称Anthropic考虑在10月进行IPO，但其IPO概率仍下降了6.5%至38%。这一下降主要是由于市场对风险投资支持的公司IPO前景的重新评估，PitchBook指出VC融资可能成为负债。",
+          "drivers": [
+            "PitchBook报告：VC融资或成负债",
+            "DeSPAC指数跌75%示市场艰难",
+            "市场对科技IPO持谨慎态度"
+          ],
+          "why_matters": "Anthropic的IPO时机反映了投资者对AI行业的信心，以及大型私营科技公司在经济变化中走向公开市场的可行性。",
+          "bull_case": "强劲的AI需求和Anthropic的增长有望推动其成功IPO，克服市场逆风。",
+          "bear_case": "充满挑战的IPO市场和投资者对风投支持科技公司的谨慎态度可能推迟Anthropic上市。"
         }
       }
     },
@@ -562,10 +723,10 @@
       "market": {
         "id": "1032272",
         "question": "Will Gold (GC) hit (HIGH) $5,500 by end of June?",
-        "probability": 0.2975,
+        "probability": 0.2935,
         "change_24h": -0.0575,
-        "volume_24h": 41682.42,
-        "score": 62.12,
+        "volume_24h": 47381.37,
+        "score": 62.18,
         "url": "https://polymarket.com/event/gc-hit-5500-high-jun-2026-424-457-376-356"
       },
       "news": [
@@ -575,14 +736,14 @@
           "snippet": "# Gold jumps over 2% as oil slump eases inflation fears amid Trump Iran talks. * Gold prices rally, but remain about 17% below January peak. * Goldman"
         },
         {
+          "title": "Gold price holds steady to halt nine-day slump - Bitget",
+          "url": "https://www.bitget.com/amp/news/detail/12560605299819",
+          "snippet": "Gold price holds steady to halt nine-day slump. # Gold price holds steady to halt nine-day slump. Before this, bullion has been declining over the pas"
+        },
+        {
           "title": "Gold seen well above $6,000 by year-end despite recent struggles, Wells Fargo says (GLD:NYSEARCA) - Seeking Alpha",
           "url": "https://seekingalpha.com/news/4569623-gold-seen-well-above-6000-by-year-end-despite-recent-struggles-wells-fargo-says",
           "snippet": "Get unlimited breaking news with a free Seeking Alpha account ». Mar 26, 2026, 5:25 PM ETSPDR Gold Shares ETF (GLD), GDX, IAU, NUGT, SLVSIL, SGOL, SIV"
-        },
-        {
-          "title": "Gold sinks deeper into bear market territory as sell-off extends - CNBC",
-          "url": "https://www.cnbc.com/2026/03/24/gold-sinks-deeper-into-bear-market-territory-as-sell-off-extends.html",
-          "snippet": "# Gold sinks deeper into bear market territory as sell-off extends. * Gold extended its slide on Tuesday, deepening its grip in bear market territory."
         },
         {
           "title": "Gold price holds steady to halt nine-day slump - Mining.com",
@@ -590,36 +751,36 @@
           "snippet": "Micro Gold Futures $ 4574.9 / ozt  -1.69%. Gold Futures $ 4574.9 / ozt  -1.70%. Staff Writer | March 24, 2026 | 9:21 am  Markets Middle East USA Gold."
         },
         {
-          "title": "Gold price to accelerate and hit new record highs after this event – technical analyst - Bitget",
-          "url": "https://www.bitget.com/amp/news/detail/12560605297498",
-          "snippet": "# Gold price to accelerate and hit new record highs after this event – technical analyst | Bitget News. Gold price to accelerate and hit new record hi"
+          "title": "What is the price of gold today: March 26, 2026? - CBS News",
+          "url": "https://www.cbsnews.com/news/price-of-gold-today-march-26-2026/",
+          "snippet": "# What is the price of gold today: March 26, 2026? After all, the price of gold was comfortably under $3,000 per ounce at the start of 2025. Invest in"
         }
       ],
       "insight": {
         "category": "economy",
         "en": {
-          "title": "Gold Price Volatility Analysis",
-          "summary": "Gold's probability of hitting $5,500 dropped to 30% due to a 5.8% decline. Key drivers include a bear market trend and easing inflation fears linked to oil prices.",
+          "title": "Gold's $5,500 Target Fades",
+          "summary": "Gold's probability of hitting $5,500 by June's end dropped as easing inflation fears, driven by an oil slump, and potential Trump Iran talks reduced its safe-haven appeal. This occurred despite gold halting a recent nine-day slump.",
           "drivers": [
-            "Gold sinks deeper into bear market territory",
-            "Gold jumps over 2% amid easing inflation fears",
-            "Wells Fargo predicts gold above $6,000 by year-end"
+            "Eased inflation fears from oil slump",
+            "Potential Trump Iran de-escalation",
+            "Recent nine-day gold price slump"
           ],
-          "why_matters": "The fluctuation in gold prices impacts investor confidence and inflation hedging strategies, influencing broader economic stability.",
-          "bull_case": "If inflation fears continue to ease, gold could rally significantly, increasing the probability of hitting $5,500.",
-          "bear_case": "Continued sell-offs and bearish market trends could further depress gold prices, lowering the probability of reaching $5,500."
+          "why_matters": "Gold's trajectory reflects global economic stability and geopolitical tensions, indicating market confidence in reduced inflation and geopolitical risks.",
+          "bull_case": "Resurfacing geopolitical tensions or renewed inflation concerns could quickly reignite gold's safe-haven demand, pushing prices higher.",
+          "bear_case": "Continued oil price stability and successful diplomatic efforts will further diminish gold's appeal as an inflation hedge and safe haven."
         },
         "zh": {
-          "title": "黄金价格波动分析",
-          "summary": "黄金达到$5,500的概率降至30%，因价格下跌5.8%。主要驱动因素包括熊市趋势和与油价相关的通胀担忧缓解。",
+          "title": "黄金冲击$5500概率下降",
+          "summary": "黄金在六月底前触及$5500的概率下降，主要因油价下跌缓解通胀担忧，以及特朗普与伊朗谈判的潜在进展削弱了黄金的避险吸引力。尽管金价止住了此前连续九天的跌势，但市场情绪仍偏谨慎。",
           "drivers": [
-            "黄金价格进一步进入熊市",
-            "因通胀担忧缓解黄金上涨超过2%",
-            "富国银行预测年底黄金将超过$6,000"
+            "油价下跌缓解通胀担忧",
+            "特朗普伊朗谈判促地缘降温",
+            "金价此前连续九日下跌"
           ],
-          "why_matters": "黄金价格波动影响投资者信心和通胀对冲策略，从而影响更广泛的经济稳定性。",
-          "bull_case": "如果通胀担忧持续缓解，黄金可能大幅反弹，提高达到$5,500的概率。",
-          "bear_case": "持续的抛售和熊市趋势可能进一步压低黄金价格，降低达到$5,500的概率。"
+          "why_matters": "黄金走势反映全球经济稳定与地缘政治紧张，概率下降表明市场对通胀和地缘风险的担忧减弱。",
+          "bull_case": "地缘政治紧张局势或通胀担忧若再度升温，将迅速重燃黄金的避险需求，推动价格上涨。",
+          "bear_case": "油价持续稳定及外交努力成功，将进一步削弱黄金作为通胀对冲和避险资产的吸引力。"
         }
       }
     },
@@ -627,10 +788,10 @@
       "market": {
         "id": "567688",
         "question": "Netanyahu out by end of 2026?",
-        "probability": 0.505,
+        "probability": 0.515,
         "change_24h": -0.055,
-        "volume_24h": 63500.67,
-        "score": 59.8,
+        "volume_24h": 65343.26,
+        "score": 59.82,
         "url": "https://polymarket.com/event/netanyahu-out-before-2027-684-719-226"
       },
       "news": [
@@ -650,41 +811,39 @@
           "snippet": "# Netanyahu Went to War With Iran While Relying on an America That Doesn't Exist Anymore. He's now learning its limits, after starting an Israeli-U.S."
         },
         {
+          "title": "As the Israeli People Suffer, Netanyahu Has Nothing to Offer but Empty Rhetoric - Haaretz",
+          "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-27/ty-article/.premium/as-the-israeli-people-suffer-netanyahu-has-nothing-to-offer-but-empty-rhetoric/0000019d-2be9-d868-a1bd-7be9467b0000",
+          "snippet": "# As the Israeli People Suffer, Netanyahu Has Nothing to Offer but Empty Rhetoric. Prime Minister Netanyahu has generously bestowed promises on reside"
+        },
+        {
           "title": "Stand-in justice minister formally recommends that Herzog pardon Netanyahu - Haaretz",
           "url": "https://www.haaretz.com/israel-news/israel-politics/2026-03-24/ty-article/.premium/stand-in-justice-minister-formally-recommends-that-herzog-pardon-netanyahu/0000019d-1ef7-d72c-a5fd-9eff2fc30000",
           "snippet": "Haaretz - back to home page. # Stand-in Justice Minister Formally Recommends That President Herzog Pardon Netanyahu. Far-right minister Amichai Eliyah"
-        },
-        {
-          "title": "Report: Netanyahu orders escalation of Iran strikes over fear war will end soon - Haaretz",
-          "url": "https://www.haaretz.com/israel-news/israel-security/2026-03-25/ty-article/.premium/report-netanyahu-orders-escalation-of-iran-strikes-over-fear-war-will-end-soon/0000019d-2651-d8a3-abff-3e711ec40000",
-          "snippet": "# Netanyahu Reportedly Orders Escalation of Iran Strikes Over Fear War Will End Soon. While two Israeli sources reportedly said that Israel is concern"
         }
       ],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Netanyahu's Future Uncertain Amid Controversies",
-          "summary": "Netanyahu's probability of leaving office by 2026 dropped to 50% due to his spokesperson's resignation and escalating military actions against Iran. The leaked messages and increased tensions have raised questions about his leadership stability.",
+          "title": "Netanyahu's Stay Prospects Rise",
+          "summary": "The probability of Netanyahu being out by end of 2026 decreased by 5.5% to 52%, primarily driven by the formal recommendation for President Herzog to pardon Netanyahu, which could mitigate his legal challenges. This suggests a potential path for him to remain in power despite ongoing controversies.",
           "drivers": [
-            "Spokesperson Ziv Agmon resigns over leaked messages",
-            "Netanyahu escalates military actions against Iran",
-            "Calls for presidential pardon intensify amid controversies"
+            "Stand-in justice minister formally recommends President Herzog pardon Netanyahu, potentially removing a key legal threat.",
+            "Netanyahu's declaration of \"full swing\" military efforts against Hezbollah may consolidate public support during conflict."
           ],
-          "why_matters": "These developments could undermine Netanyahu's authority and lead to political instability, affecting Israel's governance.",
-          "bull_case": "If Netanyahu successfully navigates military challenges and retains support, his probability of staying in office could increase.",
-          "bear_case": "Continued controversies and military failures may prompt calls for his resignation, lowering his chances of remaining in power."
+          "why_matters": "Netanyahu's political survival has significant implications for Israel's domestic stability, its ongoing military campaigns, and its international relations, particularly with the United States and regional adversaries. His continued leadership could shape the direction of the conflict and post-war governance.",
+          "bull_case": "Mounting public discontent over war management and domestic suffering, alongside unresolved legal issues, could force Netanyahu's departure.",
+          "bear_case": "A presidential pardon and a \"rally around the flag\" effect from ongoing military operations could solidify Netanyahu's grip on power."
         },
         "zh": {
-          "title": "内塔尼亚胡前景因争议不明",
-          "summary": "内塔尼亚胡在2026年前离职的概率降至50%，因其发言人辞职及对伊朗的军事行动升级。泄露的消息和紧张局势引发了对其领导稳定性的质疑。",
+          "title": "内塔尼亚胡留任前景上升",
+          "summary": "内塔尼亚胡在2026年底前下台的概率下降5.5%至52%，主要原因是代理司法部长正式建议赫尔佐格总统赦免内塔尼亚胡，这可能减轻其法律困境。此举暗示他有潜在途径继续掌权，尽管争议不断。",
           "drivers": [
-            "发言人齐夫·阿格蒙因泄密辞职",
-            "内塔尼亚胡加大对伊朗的军事行动",
-            "呼吁总统赦免的声音加剧"
+            "代理司法部长正式建议赫尔佐格总统赦免内塔尼亚胡，可能消除其主要法律威胁。",
+            "内塔尼亚胡宣布对真主党采取“全面行动”，可能在冲突中巩固公众支持。"
           ],
-          "why_matters": "这些发展可能削弱内塔尼亚胡的权威，导致政治不稳定，影响以色列的治理。",
-          "bull_case": "如果内塔尼亚胡成功应对军事挑战并保持支持，他留任的概率可能上升。",
-          "bear_case": "持续的争议和军事失败可能促使人们要求他辞职，降低他继续执政的机会。"
+          "why_matters": "内塔尼亚胡的政治存续对以色列的国内稳定、正在进行的军事行动及其国际关系（特别是与美国和地区对手的关系）具有重大影响。他的持续领导将塑造冲突走向和战后治理。",
+          "bull_case": "公众对战争管理和国内困境的不满日益加剧，加上未解决的法律问题，可能迫使内塔尼亚胡下台。",
+          "bear_case": "总统赦免和军事行动带来的“团结效应”可能巩固内塔尼亚胡的权力。"
         }
       }
     },
@@ -692,17 +851,27 @@
       "market": {
         "id": "561370",
         "question": "Will Kon Knueppel win the 2025–26 NBA Rookie of the Year award?",
-        "probability": 0.5595,
+        "probability": 0.7205,
         "change_24h": 0.0505,
-        "volume_24h": 4110.16,
-        "score": 54.11,
+        "volume_24h": 7197.41,
+        "score": 54.36,
         "url": "https://polymarket.com/event/will-kon-knueppel-win-the-202526-nba-rookie-of-the-year-award"
       },
       "news": [
         {
-          "title": "New York Knicks vs. Charlotte Hornets Live Score and Stats - March 26, 2026 Gametracker - CBS Sports",
-          "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20260326_NY@CHA/",
-          "snippet": "Brandon Miller leads Charlotte with 20.3 ppg, while LaMelo Ball averages 19.7 and Rookie of the Year candidate Kon Knueppel adds 19.0. Brunson's 26.2 "
+          "title": "LaVar Ball gets credited for his son LaMelo Ball's success with the Charlotte Hornets - sportingnews.com",
+          "url": "https://www.sportingnews.com/us/nba/charlotte-hornets/news/lavar-ball-gets-credited-his-son-lamelo-ball-success-hornets/d934893c713851c3e85e3427",
+          "snippet": "# LaVar Ball gets credited for his son LaMelo Ball's success with the Charlotte Hornets. Add The Sporting News on Google. The Charlotte Hornets have b"
+        },
+        {
+          "title": "Hornets 114-103 Knicks (Mar 26, 2026) Game Recap - ESPN",
+          "url": "http://www.espn.com/nba/recap?gameId=401810918",
+          "snippet": "# New York Knicks @ Charlotte Hornets. # Kon Knueppel scores 26 as Hornets snap Knicks' 7-game win streak with 114-103 victory. -- — Kon Knueppel scor"
+        },
+        {
+          "title": "NBA roundup: Hornets continue late surge, halt Knicks' streak - Reuters",
+          "url": "https://www.reuters.com/sports/nba-roundup-hornets-continue-late-surge-halt-knicks-streak--flm-2026-03-27/",
+          "snippet": "Item 1 of 2 Mar 26, 2026; Charlotte, North Carolina, USA; Charlotte Hornets guard/forward Kon Knueppel (7) fights for possession with New York Knicks "
         },
         {
           "title": "Kon Knueppel eyes records set by splash brothers Stephen Curry and Klay Thompson - sportingnews.com",
@@ -713,43 +882,33 @@
           "title": "Kon Knueppel dials from long distance - Yahoo Sports Canada",
           "url": "https://ca.sports.yahoo.com/video/kon-knueppel-dials-long-distance-013501060.html",
           "snippet": "* Kon Knueppel dials from long distance. Kon Knueppel dials from long distance, 03/26/2026. * ANA@CGY: Cooley with a great save against Cutter Gauthie"
-        },
-        {
-          "title": "All-Access: Charlotte Hornets Practice - NBA",
-          "url": "https://www.nba.com/watch/video/all-access-charlotte-hornets-practice-longform?plsrc=nba&collection=must-watch-videos",
-          "snippet": "## All-Access: Charlotte Hornets Practice. Get an inside listen as Coach Charles Lee and rookie Kon Knueppel go mic’d up at practice. #### All-Access:"
-        },
-        {
-          "title": "3 things to watch for in Hornets-Knicks on NBA TV - NBA",
-          "url": "https://www.nba.com/news/thunder-celtics-preview-nba-tv-march-26-2026",
-          "snippet": "# 3 things to watch for in Knicks-Hornets on NBA TV. The New York Knicks will fight to keep their winning streak alive against the Charlotte Hornets o"
         }
       ],
       "insight": {
         "category": "sports",
         "en": {
-          "title": "Knueppel's ROY Odds Soar on Elite Shooting",
-          "summary": "Kon Knueppel's Rookie of the Year probability surged to 56%, driven by recent headlines highlighting his strong scoring and exceptional three-point shooting. CBS Sports reported his 19.0 ppg average, explicitly naming him an ROY candidate.",
+          "title": "Knueppel's ROY Odds Soar",
+          "summary": "Kon Knueppel's Rookie of the Year probability surged to 72% after his stellar 26-point performance led the Hornets to a win over the Knicks. His long-distance shooting prowess drew comparisons to the \"Splash Brothers.\"",
           "drivers": [
-            "19.0 ppg average cited by CBS Sports",
-            "Compared to 'Splash Brothers' for 3-point shooting",
-            "Featured in 'All-Access' Hornets practice with coach"
+            "Knueppel scored 26 points in Hornets' win over Knicks.",
+            "Hornets snapped Knicks' 7-game win streak, highlighting Knueppel's impact.",
+            "Knueppel's prolific three-point shooting drew \"Splash Brothers\" comparisons."
           ],
-          "why_matters": "This movement indicates growing confidence in Knueppel's ability to maintain elite performance and secure the prestigious Rookie of the Year award. It solidifies his position as a top-tier talent in the 2025-26 rookie class.",
-          "bull_case": "Knueppel's elite scoring and record-challenging three-point shooting solidify his leading candidacy for Rookie of the Year.",
-          "bear_case": "Sustaining elite scoring and three-point efficiency for a full season is challenging, allowing other strong rookies to close the gap."
+          "why_matters": "A Rookie of the Year award significantly boosts a player's career trajectory and signals a potential cornerstone for the Charlotte Hornets' future success.",
+          "bull_case": "Knueppel's dominant scoring and clutch performance against a strong opponent solidify his frontrunner status for the Rookie of the Year award.",
+          "bear_case": "Sustaining this elite performance and fending off potential surges from other strong rookie contenders remains a significant challenge."
         },
         "zh": {
-          "title": "克努佩尔新秀奖赔率因出色投篮飙升",
-          "summary": "康·克努佩尔（Kon Knueppel）赢得年度最佳新秀的概率飙升至56%，主要受近期头条新闻强调其强劲得分和卓越三分球能力驱动。CBS体育报道他场均19.0分，明确称其为新秀奖候选人。",
+          "title": "克努佩尔最佳新秀赔率飙升",
+          "summary": "康·克努佩尔在对阵尼克斯的比赛中砍下26分，带领黄蜂队获胜，其最佳新秀概率飙升至72%。他出色的远投能力也引来了“水花兄弟”的比较。",
           "drivers": [
-            "CBS体育报道场均19.0分",
-            "三分球能力被比作“水花兄弟”",
-            "与教练一起亮相黄蜂队“全接触”训练"
+            "克努佩尔在黄蜂队战胜尼克斯的比赛中得到26分。",
+            "黄蜂队终结尼克斯7连胜，凸显克努佩尔的关键作用。",
+            "克努佩尔精准远投获赞，被比作“水花兄弟”。"
           ],
-          "why_matters": "这一变动表明市场对克努佩尔保持精英表现并赢得年度最佳新秀奖的信心日益增强。这巩固了他作为2025-26赛季新秀班顶级人才的地位。",
-          "bull_case": "克努佩尔的精英得分和挑战纪录的三分球能力，巩固了他新秀奖的领先地位。",
-          "bear_case": "整个赛季保持精英得分和三分效率极具挑战，其他优秀新秀可能迎头赶上。"
+          "why_matters": "获得年度最佳新秀奖项将显著提升球员的职业生涯轨迹，并预示着夏洛特黄蜂队未来成功的潜力基石。",
+          "bull_case": "克努佩尔在关键胜利中展现的统治性得分和远投能力，巩固了他获得最佳新秀的领先地位。",
+          "bear_case": "持续保持这种高水平表现并抵御其他优秀新秀的挑战，仍将是一个重大考验。"
         }
       }
     },
@@ -757,10 +916,10 @@
       "market": {
         "id": "569343",
         "question": "Will Iván Cepeda Castro win the 1st round of the 2026 Colombian presidential election?",
-        "probability": 0.705,
+        "probability": 0.7,
         "change_24h": 0.05,
-        "volume_24h": 1097.83,
-        "score": 53.04,
+        "volume_24h": 959.79,
+        "score": 52.98,
         "url": "https://polymarket.com/event/will-ivn-cepeda-castro-win-the-1st-round-of-the-2026-colombian-presidential-election"
       },
       "news": [
@@ -793,28 +952,28 @@
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Cepeda's Odds Surge Amid Political Speculation",
-          "summary": "Iván Cepeda Castro's probability of winning the first round has increased to 70%. This rise is driven by heightened media speculation regarding potential leadership changes in Colombia, particularly in light of U.S. pressures on Cuba.",
+          "title": "Cepeda Castro's Odds Surge on Name Recognition",
+          "summary": "Iván Cepeda Castro's probability to win the 1st round of the 2026 Colombian presidential election rose by 5.0% to 70%, primarily driven by a Washington Post headline linking the 'Castro' name to presidential prospects. This likely caused market participants to associate the prominent surname with increased political viability.",
           "drivers": [
-            "Increased media focus on Cepeda's candidacy",
-            "U.S. pressure for leadership change in Latin America",
-            "Recent polling showing rising support for leftist candidates"
+            "Washington Post headline: 'a Castro could be the next president'",
+            "Increased perceived political viability of 'Castro' surname",
+            "Potential misinterpretation of headline's Cuban context"
           ],
-          "why_matters": "The outcome of the election could significantly impact Colombia's political landscape and its relations with the U.S. and Cuba.",
-          "bull_case": "Growing support for leftist policies could propel Cepeda to victory in the first round.",
-          "bear_case": "Opposition candidates may consolidate support, diminishing Cepeda's chances."
+          "why_matters": "This movement highlights how prominent surnames, even with indirect or misinterpreted news, can significantly influence political prediction markets. It reflects the power of name recognition in electoral speculation.",
+          "bull_case": "The Washington Post headline, despite its Cuban context, boosted perception of the 'Castro' name's political viability, increasing trading confidence in Iván Cepeda.",
+          "bear_case": "The headline's actual focus on Cuba, not Colombia, will eventually be clarified, leading to a correction as traders realize the misinterpretation."
         },
         "zh": {
-          "title": "塞佩达的胜算上升",
-          "summary": "伊万·塞佩达·卡斯特罗赢得第一轮的概率上升至70%。这一上升受到媒体对哥伦比亚潜在领导人更替的关注以及美国对古巴施加压力的推动。",
+          "title": "塞佩达·卡斯特罗赔率因姓氏飙升",
+          "summary": "伊万·塞佩达·卡斯特罗赢得2026年哥伦比亚总统选举首轮的概率上升5.0%至70%，主要受《华盛顿邮报》一篇将“卡斯特罗”姓氏与总统前景联系起来的报道驱动。这可能导致市场参与者将这一显赫姓氏与更高的政治可行性联系起来。",
           "drivers": [
-            "媒体对塞佩达候选资格的关注增加",
-            "美国对拉美领导人更替的压力",
-            "近期民调显示左翼候选人支持上升"
+            "《华盛顿邮报》头条：“卡斯特罗可能成为下任总统”",
+            "“卡斯特罗”姓氏政治可行性感知度增加",
+            "对新闻古巴背景的潜在误读"
           ],
-          "why_matters": "选举结果可能对哥伦比亚的政治格局及其与美国和古巴的关系产生重大影响。",
-          "bull_case": "对左翼政策的支持增加可能推动塞佩达在第一轮获胜。",
-          "bear_case": "反对派候选人可能会团结支持，削弱塞佩达的机会。"
+          "why_matters": "这一波动凸显了即使是间接或被误读的新闻，显赫的姓氏也能显著影响政治预测市场。它反映了姓名认知在选举猜测中的力量。",
+          "bull_case": "《华盛顿邮报》头条虽涉古巴，但提升了“卡斯特罗”姓氏的政治可行性认知，增强了交易者对伊万·塞佩达的信心。",
+          "bear_case": "该头条实际关注古巴而非哥伦比亚，一旦澄清，交易者意识到误读后将导致市场修正。"
         }
       }
     },
@@ -822,38 +981,64 @@
       "market": {
         "id": "561365",
         "question": "Will Cooper Flagg win the 2025–26 NBA Rookie of the Year award?",
-        "probability": 0.41,
+        "probability": 0.28,
         "change_24h": -0.045,
-        "volume_24h": 3762.15,
-        "score": 48.58,
+        "volume_24h": 5214.43,
+        "score": 48.72,
         "url": "https://polymarket.com/event/will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Why the 2026 NBA Awards Could Be Vulnerable to Gambling Influence - Deadspin",
+          "url": "https://deadspin.com/why-the-2026-nba-awards-could-be-vulnerable-to-gambling-influence/",
+          "snippet": "+ Crown Coins Casino Promo Code. + Real Prize Casino Promo Code. + High 5 Casino Promo Code. + Social Betting and Casino Promo Codes. + Crown Coins Ca"
+        },
+        {
+          "title": "Mavericks' Cooper Flagg: Paxes team with 32 points - CBS Sports",
+          "url": "https://www.cbssports.com/fantasy/basketball/news/mavericks-cooper-flagg-paxes-team-with-32-points/",
+          "snippet": "site: fantasynews | arena: nba | pageType: stories | section: | slug: mavericks-cooper-flagg-paxes-team-with-32-points | sport: basketball | route: ar"
+        },
+        {
+          "title": "Warriors 137-131 Mavericks (Mar 23, 2026) Final Score - ESPN",
+          "url": "https://www.espn.com/nba/game/_/gameId/401810899/warriors-mavericks",
+          "snippet": "* Naji Marshall makes 24-foot three point jumper (Cooper Flagg assists). * Brandin Podziemski makes 23-foot three point jumper (Moses Moody assists). "
+        },
+        {
+          "title": "Mavericks' Cooper Flagg: Stays hot Wednesday - CBS Sports",
+          "url": "https://www.cbssports.com/fantasy/basketball/news/mavericks-cooper-flagg-stays-hot-wednesday/",
+          "snippet": "site: fantasynews | arena: nba | pageType: stories | section: | slug: mavericks-cooper-flagg-stays-hot-wednesday | sport: basketball | route: article\\"
+        },
+        {
+          "title": "Victor Wembanyama builds MVP case as Spurs clinch division, end playoff drought - Fox News",
+          "url": "https://www.foxnews.com/sports/victor-wembanyama-builds-mvp-case-spurs-clinch-division-end-playoff-drought",
+          "snippet": "#### Jaylen Brown, Victor Wembanyama and Shai Gilgeous-Alexander highlight Chris Broussard's MVP Ballot | First Things First. Chris Broussard unveils "
+        }
+      ],
       "insight": {
         "category": "sports",
         "en": {
-          "title": "Assessing Cooper Flagg's Rookie of the Year Odds",
-          "summary": "Cooper Flagg's probability has decreased to 41%. This drop may stem from recent performances by other rookies gaining attention.",
+          "title": "Flagg ROY Odds Dip Amid Award Scrutiny",
+          "summary": "Cooper Flagg's 2025-26 NBA Rookie of the Year probability dropped 4.5% to 28%, primarily driven by concerns over potential gambling influence on NBA awards and a re-evaluation of the competitive landscape. This occurred despite recent strong individual performances, including a 32-point game for the Mavericks.",
           "drivers": [
-            "Other rookies showing strong preseason performances",
-            "Injury concerns affecting Flagg's training",
-            "Shifts in team dynamics impacting Flagg's role"
+            "Deadspin report on 2026 NBA Awards gambling influence.",
+            "Victor Wembanyama's MVP case raising performance bar.",
+            "Market re-evaluating Flagg's ROY chances against strong rookie class."
           ],
-          "why_matters": "The Rookie of the Year award can significantly impact a player's career trajectory and marketability.",
-          "bull_case": "Flagg's unique skill set and potential could lead to standout performances, boosting his chances.",
-          "bear_case": "Increased competition from other rookies may overshadow Flagg's contributions, lowering his odds."
+          "why_matters": "The integrity of NBA awards impacts player legacies and fan engagement, while Flagg's ROY potential influences team expectations and future market valuations.",
+          "bull_case": "Flagg sustains elite scoring and playmaking, outshining other rookies to secure the award.",
+          "bear_case": "Stronger rookie competition emerges, or gambling influence concerns further erode award certainty."
         },
         "zh": {
-          "title": "评估库珀·弗拉格的最佳新秀赔率",
-          "summary": "库珀·弗拉格的概率降至41%。这一下降可能源于其他新秀近期表现引起关注。",
+          "title": "弗拉格最佳新秀赔率下跌",
+          "summary": "库珀·弗拉格2025-26赛季NBA年度最佳新秀的概率下降4.5%至28%，主要受关于NBA奖项可能受赌博影响的担忧以及对竞争格局的重新评估驱动。尽管他近期表现出色，包括为独行侠贡献32分。",
           "drivers": [
-            "其他新秀在季前赛表现出色",
-            "弗拉格训练受伤病影响",
-            "球队动态变化影响弗拉格角色"
+            "Deadspin报道2026年NBA奖项受赌博影响。",
+            "文班亚马MVP表现提升年轻球员标准。",
+            "市场重估弗拉格新秀班中机会。"
           ],
-          "why_matters": "最佳新秀奖对球员职业生涯和市场价值有重大影响。",
-          "bull_case": "弗拉格独特的技能和潜力可能导致出色表现，从而提升他的机会。",
-          "bear_case": "其他新秀竞争加剧可能掩盖弗拉格的贡献，降低他的赔率。"
+          "why_matters": "NBA奖项的公正性影响球员声誉和球迷参与度，而弗拉格的最佳新秀潜力则影响球队期望和未来市场估值。",
+          "bull_case": "弗拉格持续高水平得分和组织，超越其他新秀赢得奖项。",
+          "bear_case": "出现更强劲新秀竞争者，或赌博影响担忧降低奖项确定性。"
         }
       }
     },
@@ -861,10 +1046,10 @@
       "market": {
         "id": "949494",
         "question": "Fed rate cut by April 2026 meeting?",
-        "probability": 0.0165,
+        "probability": 0.0155,
         "change_24h": -0.04,
-        "volume_24h": 14412.41,
-        "score": 44.16,
+        "volume_24h": 12393.83,
+        "score": 44.09,
         "url": "https://polymarket.com/event/fed-rate-cut-by-april-2026-meeting"
       },
       "news": [
@@ -897,28 +1082,28 @@
       "insight": {
         "category": "economy",
         "en": {
-          "title": "Fed Rate Cut Probability Drops",
-          "summary": "Current probability for a Fed rate cut by April 2026 is now 2%, down 4% in 24 hours. Economists from a Reuters poll assert that rate cuts are unlikely this year, influencing market expectations.",
+          "title": "Rate Cut Hopes Fade Amid Hike Talk",
+          "summary": "The probability of a Fed rate cut by April 2026 plummeted by 4.0% to 2%, driven by renewed discussions of potential rate hikes and fading hopes for cuts this year. Geopolitical tensions, specifically the 'Trump's Iran War' headline, are cited as bringing rate hikes 'back on the table'.",
           "drivers": [
-            "Reuters poll shows economists reject rate cut expectations",
-            "Gold prices fall over 2% due to rate cut doubts",
-            "Torsten Slok states rate hikes are unlikely"
+            "Geopolitical tensions (Iran) raise rate hike possibility",
+            "Fading market hopes for 2024 rate cuts (gold market reaction)",
+            "Media discussion of potential Fed rate hikes"
           ],
-          "why_matters": "These developments indicate a shift in market expectations regarding monetary policy, impacting investment strategies and economic forecasts.",
-          "bull_case": "If inflation pressures ease significantly, the Fed may reconsider rate cuts sooner than expected.",
-          "bear_case": "Continued economic strength could lead the Fed to maintain or even raise rates, lowering cut probabilities."
+          "why_matters": "This shift indicates a significant repricing of future Fed policy, moving from easing expectations to a potential tightening bias. It impacts borrowing costs, asset valuations, and overall economic outlook.",
+          "bull_case": "Persistent disinflationary trends or an unexpected economic slowdown could force the Fed to cut rates by April 2026.",
+          "bear_case": "Stubborn inflation or escalating geopolitical conflicts will likely keep rates high, potentially leading to further hikes, not cuts."
         },
         "zh": {
-          "title": "美联储降息概率下降",
-          "summary": "到2026年4月美联储降息的概率现在为2%，24小时内下降4%。路透社的经济学家调查表明，今年降息的可能性不大，影响市场预期。",
+          "title": "降息预期骤降，加息讨论升温",
+          "summary": "美联储在2026年4月会议前降息的概率骤降4.0%至2%，主要受加息可能性讨论重燃及今年降息希望减弱的驱动。地缘政治紧张局势，特别是“特朗普的伊朗战争”相关报道，使加息重回议程。",
           "drivers": [
-            "路透社调查显示经济学家拒绝降息预期",
-            "黄金价格因降息疑虑下跌超过2%",
-            "托尔斯滕·斯洛克表示加息不太可能"
+            "地缘政治紧张（伊朗）引发加息可能",
+            "市场对2024年降息希望减弱（黄金下跌）",
+            "媒体开始讨论美联储潜在加息"
           ],
-          "why_matters": "这些发展表明货币政策市场预期的变化，影响投资策略和经济预测。",
-          "bull_case": "如果通胀压力显著减轻，美联储可能会比预期更早考虑降息。",
-          "bear_case": "持续的经济强劲可能导致美联储维持或甚至加息，从而降低降息概率。"
+          "why_matters": "这一转变预示着市场对未来美联储政策的重大重新定价，从宽松预期转向潜在的紧缩倾向。它将影响借贷成本、资产估值及整体经济前景。",
+          "bull_case": "持续的通胀下行或意外的经济放缓可能迫使美联储在2026年4月前降息。",
+          "bear_case": "顽固的通胀或地缘政治冲突升级，将使利率保持高位，甚至可能进一步加息而非降息。"
         }
       }
     },
@@ -926,10 +1111,10 @@
       "market": {
         "id": "1004797",
         "question": "Will Apple be the second-largest company in the world by market cap on March 31?",
-        "probability": 0.9315,
+        "probability": 0.985,
         "change_24h": 0.035,
-        "volume_24h": 118460.27,
-        "score": 40.07,
+        "volume_24h": 44182.97,
+        "score": 39.65,
         "url": "https://polymarket.com/event/will-apple-be-the-second-largest-company-in-the-world-by-market-cap-on-march-31"
       },
       "news": [
@@ -937,11 +1122,6 @@
           "title": "Apple to bring paid ads to maps to US, Canada this summer - Reuters",
           "url": "https://www.reuters.com/business/media-telecom/apple-bring-paid-ads-maps-us-canada-this-summer-2026-03-24/",
           "snippet": "SAN FRANCISCO, March 24 (Reuters) - Apple (AAPL.O), opens new tab on Tuesday said it plans to introduce paid ads to its ‌maps service in the U.S. and "
-        },
-        {
-          "title": "McDonald's brings K-pop battle to menus with new meals — and a twist - Axios",
-          "url": "https://www.axios.com/2026/03/24/mcdonalds-kpop-demon-hunters-meals-shaker-fries",
-          "snippet": "McDonald's is turning K-pop fandom into a full-on food fight — complete with shake-your-own fries. **The big picture:** The fast-food giant's latest c"
         },
         {
           "title": "Where is Mauritania? All you need to know about country facing Argentina, Lionel Messi in friendly - sportingnews.com",
@@ -957,33 +1137,38 @@
           "title": "1,487 Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM Bought by Curated Wealth Partners LLC - MarketBeat",
           "url": "https://www.marketbeat.com/instant-alerts/filing-1487-shares-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-bought-by-curated-wealth-partners-llc-2026-03-25/",
           "snippet": "Microsoft’s Next AI Leg: Can MSFT Still Outperform From Here? The gold chart Wall Street is terrified of… (Ad). Macy’s Beats Expectations Again, But G"
+        },
+        {
+          "title": "Apple Maps Is Getting Ads, Putting It on a Path With Google - ADWEEK",
+          "url": "https://www.adweek.com/brand-marketing/apple-maps-getting-ads/",
+          "snippet": "# Apple Maps Is Getting Ads—and a Whole New Business Platform. ## The sponsored listings will arrive this summer as Apple looks to grow an ads busines"
         }
       ],
       "insight": {
         "category": "business",
         "en": {
-          "title": "Apple's Market Cap Confidence Rises",
-          "summary": "Apple's probability of being the second-largest company increased to 93% due to its planned introduction of paid ads in maps. This move is expected to boost revenue and market presence significantly.",
+          "title": "Apple's Ad Push Boosts #2 Market Cap Certainty",
+          "summary": "The probability of Apple being the second-largest company by market cap on March 31 rose to 98%, driven by news of Apple Maps introducing paid ads. This new revenue stream signals growth potential, increasing investor confidence in Apple's valuation.",
           "drivers": [
-            "Apple's new paid ads in maps announced",
-            "Positive market reaction to Apple's growth strategy",
-            "Recent data shows foreign phone shipments declining"
+            "Apple Maps to introduce paid ads in US/Canada.",
+            "New revenue stream from ads business.",
+            "Increased confidence in Apple's services growth."
           ],
-          "why_matters": "Apple's advertising expansion could enhance its revenue streams, solidifying its market position against competitors.",
-          "bull_case": "If Apple's ad initiative proves successful, its market cap could surge, increasing its likelihood of being second-largest.",
-          "bear_case": "Declining shipments of foreign-branded phones may indicate a weakening market, impacting Apple's growth potential."
+          "why_matters": "This indicates Apple's strategic shift towards expanding its services revenue, crucial for sustaining its high valuation amidst hardware market fluctuations and competition.",
+          "bull_case": "Continued strong performance in services, especially new ad revenue, solidifies Apple's position above competitors by March 31.",
+          "bear_case": "A significant surge from a competitor or unexpected negative Apple news could still challenge its #2 market cap position."
         },
         "zh": {
-          "title": "苹果市值信心上升",
-          "summary": "苹果被评为第二大公司的概率上升至93%，因其计划在地图中引入付费广告。此举预计将显著提升收入和市场影响力。",
+          "title": "苹果广告业务提振市值第二确定性",
+          "summary": "苹果在3月31日成为全球市值第二大公司的可能性升至98%，主要受苹果地图将引入付费广告的消息驱动。这一新收入来源预示着增长潜力，增强了投资者对苹果估值的信心。",
           "drivers": [
-            "苹果宣布在地图中推出付费广告",
-            "市场对苹果增长战略的积极反应",
-            "近期数据显示外资手机出货量下降"
+            "苹果地图将在美国/加拿大引入付费广告。",
+            "广告业务带来新的营收流。",
+            "市场对苹果服务增长信心增强。"
           ],
-          "why_matters": "苹果的广告扩展可能增强其收入来源，巩固其在竞争对手中的市场地位。",
-          "bull_case": "如果苹果的广告计划成功，其市值可能激增，增加成为第二大公司的可能性。",
-          "bear_case": "外资手机出货量下降可能表明市场疲软，影响苹果的增长潜力。"
+          "why_matters": "这表明苹果正战略性地转向扩大其服务收入，这对于在硬件市场波动和竞争中维持其高估值至关重要。",
+          "bull_case": "服务业务（特别是新广告收入）持续强劲表现，巩固苹果在3月31日前超越竞争对手的第二地位。",
+          "bear_case": "竞争对手的显著增长或苹果突发负面消息，仍可能挑战其市值第二的地位。"
         }
       }
     },
@@ -991,10 +1176,10 @@
       "market": {
         "id": "569373",
         "question": "Will Paloma Valencia win the 2026 Colombian presidential election?",
-        "probability": 0.4145,
+        "probability": 0.422,
         "change_24h": -0.0355,
-        "volume_24h": 1745.12,
-        "score": 38.74,
+        "volume_24h": 668.51,
+        "score": 38.33,
         "url": "https://polymarket.com/event/will-paloma-valencia-win-the-2026-colombian-presidential-election"
       },
       "news": [
@@ -1009,46 +1194,46 @@
           "snippet": "# Colombian military plane crash kills at least 66, head of armed forces says. ## Authorities say a C-130 aircraft crashed near Puerto Leguizamo, Colo"
         },
         {
-          "title": "At least 66 killed in military plane crash in Colombia, head of armed forces says - New York Post",
-          "url": "https://nypost.com/2026/03/24/world-news/at-least-66-killed-in-military-plane-crash-in-colombia-head-of-armed-forces-says/?utm_campaign=nypost&utm_medium=referral",
-          "snippet": "# At least 66 killed in military plane crash in Colombia, head of armed forces says. A military transport plane with 128 people on board, mostly soldi"
-        },
-        {
           "title": "As US pressure grows for leadership change in Cuba, a Castro could be the next president - The Washington Post",
           "url": "https://www.washingtonpost.com/politics/2026/03/24/cuba-president-miguel-diaz-canel-castro-cousins/708e99a4-27b7-11f1-a0f2-3ba4c9fe08ac_story.html?itid=agg_ticker",
           "snippet": "# As US pressure grows for leadership change in Cuba, a Castro could be the next president. Speculation is mounting about who, if anyone, might replac"
         },
         {
-          "title": "Ron DeSantis Gives Update on Potential Presidential Run - Newsweek",
-          "url": "https://www.newsweek.com/ron-desantis-gives-update-on-potential-presidential-run-11724861",
-          "snippet": "# Ron DeSantis Gives Update on Potential Presidential Run. Mar 23, 2026 at 10:28 PM EDT. Florida Republican Governor Ron DeSantis was directly asked a"
+          "title": "Democrat gets upset win in Trump’s backyard in Florida state house race - The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/03/24/emily-gregory-trump-district-win/",
+          "snippet": "# Democrat scores upset win in Trump’s backyard for Florida state house seat. Emily Gregory’s victory in the special election is a stunning upset that"
+        },
+        {
+          "title": "76ers’ Paul George scores 28 points in first game back from 25-game drug suspension - AP News",
+          "url": "https://apnews.com/article/sixers-paul-george-suspension-fc7ed400a94434008b36ba4f3f081a0e",
+          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Test Yo"
         }
       ],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Paloma Valencia's Odds Decline",
-          "summary": "Paloma Valencia's probability of winning the 2026 Colombian presidential election has dropped to 41%. This decline follows negative sentiment from recent tragic events, including a military plane crash that killed at least 66 people.",
+          "title": "Colombian Crash Dents Valencia's Odds",
+          "summary": "Paloma Valencia's probability of winning the 2026 Colombian presidential election dropped to 42% (-3.5%) following a tragic Colombian military plane crash that killed at least 66 people.",
           "drivers": [
-            "Military plane crash in Colombia kills 66",
-            "Negative public sentiment following the crash",
-            "Increased political instability in Colombia"
+            "Colombian military plane crash kills 66 near Puerto Leguizamo.",
+            "National focus shifts to crisis, overshadowing political campaigns.",
+            "Potential 'rally-around-the-flag' effect for incumbent government."
           ],
-          "why_matters": "The tragic plane crash may shift public focus away from Valencia's campaign, impacting her support. Political stability is crucial for electoral success.",
-          "bull_case": "If Valencia can effectively address the public's concerns and demonstrate strong leadership, her odds could improve.",
-          "bear_case": "Continued instability and negative public sentiment could further reduce her chances of winning."
+          "why_matters": "This event significantly impacts the political landscape of Colombia, potentially altering voter sentiment and the dynamics of the upcoming 2026 presidential election.",
+          "bull_case": "Government's mishandling of the crash aftermath could fuel public discontent, boosting Valencia's appeal.",
+          "bear_case": "National tragedy fosters a 'rally-around-the-flag' effect, consolidating support for the incumbent."
         },
         "zh": {
-          "title": "帕洛玛·巴伦西亚的胜算下降",
-          "summary": "帕洛玛·巴伦西亚在2026年哥伦比亚总统选举中的胜算降至41%。这一下降发生在一场导致66人遇难的军事飞机坠毁后，公众情绪变得消极。",
+          "title": "哥伦比亚坠机事件打击瓦伦西亚选情",
+          "summary": "帕洛玛·瓦伦西亚赢得2026年哥伦比亚总统选举的概率降至42%（-3.5%），此前哥伦比亚发生一起军事飞机坠毁事件，造成至少66人死亡。",
           "drivers": [
-            "哥伦比亚军事飞机坠毁导致66人遇难",
-            "坠毁后公众情绪变差",
-            "哥伦比亚政治不稳定加剧"
+            "哥伦比亚军机坠毁，造成至少66人死亡。",
+            "全国焦点转向危机处理，政治竞选被掩盖。",
+            "执政党可能获得“国难团结”效应支持。"
           ],
-          "why_matters": "这场悲剧可能使公众关注点转向巴伦西亚的竞选，影响她的支持率。政治稳定对选举成功至关重要。",
-          "bull_case": "如果巴伦西亚能够有效应对公众关切并展现强有力的领导能力，她的胜算可能会提升。",
-          "bear_case": "持续的不稳定和消极的公众情绪可能进一步降低她的胜算。"
+          "why_matters": "此事件显著影响哥伦比亚政治格局，可能改变选民情绪及2026年总统大选动态。",
+          "bull_case": "若政府处理坠机事件不当，可能引发民愤，提升瓦伦西亚的支持率。",
+          "bear_case": "国家悲剧可能引发“国难团结”效应，巩固现任政府的支持率。"
         }
       }
     },
@@ -1056,10 +1241,10 @@
       "market": {
         "id": "665374",
         "question": "Will the U.S. invade Iran before 2027?",
-        "probability": 0.625,
+        "probability": 0.645,
         "change_24h": -0.03,
-        "volume_24h": 83877.52,
-        "score": 34.92,
+        "volume_24h": 103491.09,
+        "score": 35.01,
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       "news": [
@@ -1069,9 +1254,9 @@
           "snippet": "# Seeing 'no evidence at all' of a larger U.S. force preparing to invade Iran: Ret. Lt Col. Daniel Davis of Defense Priorities discusses the possibili"
         },
         {
-          "title": "China Isn’t Rushing Taiwan—It’s Squeezing It Slowly - WSJ",
-          "url": "https://www.wsj.com/world/china/china-isnt-rushing-taiwanits-squeezing-it-slowly-58bc99df?gaa_at=eafs&gaa_n=AWEtsqdksM06pzdmZTZeQ83B1d-beSOGGn6L9Pwtvr3U2S1P-S02yTrAUqJd&gaa_ts=69c2753d&gaa_sig=itHlCy3p7Z9qmRZyj6nCv7TNT3U8_BoF86tOfn1VLk7dOwn_LvS57BoZt5hStJUahP0ifZkFyriZEhrGtfOIpw%3D%3D",
-          "snippet": "# China Isn’t Rushing Taiwan—It’s Squeezing It Slowly | WSJ China for March 24 - WSJ. For non-personal use or to order multiple copies, please contact"
+          "title": "Trump Reportedly Deploying 82nd Airborne As He Eyes Kharg Island Invasion - Forbes",
+          "url": "https://www.forbes.com/sites/saradorn/2026/03/24/heres-why-the-us-could-seize-kharg-island-in-war-with-iran-and-why-it-might-backfire/",
+          "snippet": "The U.S. military is reportedly considering sending an Army combat brigade to Iran, possibly to assist in a takeover of Kharg Island—a key oil hub for"
         },
         {
           "title": "Pentagon prepares for massive \"final blow\" of Iran war - Axios",
@@ -1084,36 +1269,36 @@
           "snippet": "Donald Trump announced this week that the United States and Iran had made significant progress in negotiations, and he was allowing five days to reach"
         },
         {
-          "title": "Trump Reportedly Deploying 82nd Airborne As He Eyes Kharg Island Invasion - Forbes",
-          "url": "https://www.forbes.com/sites/saradorn/2026/03/24/heres-why-the-us-could-seize-kharg-island-in-war-with-iran-and-why-it-might-backfire/",
-          "snippet": "The U.S. military is reportedly considering sending an Army combat brigade to Iran, possibly to assist in a takeover of Kharg Island—a key oil hub for"
+          "title": "Trump extends pause on striking Iran's energy plants into April - Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/trump-pauses-attacks-irans-energy-plants-says-talks-are-going-well-2026-03-26/",
+          "snippet": "DUBAI/TEL AVIV/WASHINGTON, March 27 (Reuters) - U.S. President Donald Trump said he will extend a pause on attacks against Iran's energy plants into A"
         }
       ],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "U.S. Iran Invasion Probability Declines",
-          "summary": "The probability of a U.S. invasion of Iran has decreased to 62%. Key drivers include Ret. Lt Col. Daniel Davis's statement denying evidence of troop buildup and reports of ongoing diplomatic negotiations.",
+          "title": "US-Iran Invasion Probability Dips",
+          "summary": "The probability of a U.S. invasion of Iran before 2027 fell by 3.0% to 64%, primarily driven by President Trump's decision to extend a pause on striking Iran's energy plants. Reports of significant progress in US-Iran negotiations also contributed to the decline.",
           "drivers": [
-            "Ret. Lt Col. Davis sees no troop buildup",
-            "Trump announces progress in Iran negotiations",
-            "Pentagon's military options remain non-committal"
+            "Trump extends pause on Iran energy plant strikes.",
+            "Ret. Lt Col. Davis sees no large US invasion force.",
+            "US-Iran negotiations show \"significant progress.\""
           ],
-          "why_matters": "The shifting probability reflects the complex interplay of military readiness and diplomatic efforts, impacting regional stability.",
-          "bull_case": "Increased military readiness and aggressive rhetoric could push the probability higher.",
-          "bear_case": "Successful diplomatic negotiations could significantly lower the likelihood of an invasion."
+          "why_matters": "A U.S. invasion of Iran would trigger severe geopolitical and economic repercussions, potentially destabilizing the Middle East and significantly impacting global energy markets.",
+          "bull_case": "Pentagon's \"final blow\" planning and reported consideration of a Kharg Island invasion signal escalating military options.",
+          "bear_case": "Trump's extended strike pause and reported diplomatic progress reduce the immediate likelihood of military conflict."
         },
         "zh": {
-          "title": "美国对伊朗入侵概率下降",
-          "summary": "美国对伊朗入侵的概率已降至62%。核心驱动因素包括退役中校戴维斯否认部队集结的说法，以及正在进行的外交谈判报道。",
+          "title": "美伊入侵概率下降",
+          "summary": "美国在2027年前入侵伊朗的概率下降3.0%至64%，主要原因是特朗普总统决定延长暂停打击伊朗能源设施。此外，美伊谈判取得“显著进展”的报道也促使概率下降。",
           "drivers": [
-            "戴维斯认为没有部队集结的证据",
-            "特朗普宣布伊朗谈判取得进展",
-            "五角大楼的军事选项仍不明确"
+            "特朗普延长暂停打击伊朗能源设施。",
+            "退役中校戴维斯称无美军大规模入侵迹象。",
+            "美伊谈判取得“显著进展”。"
           ],
-          "why_matters": "这一概率变化反映了军事准备与外交努力之间的复杂关系，影响地区稳定。",
-          "bull_case": "军事准备加强和激进言辞可能会提高概率。",
-          "bear_case": "成功的外交谈判可能会显著降低入侵的可能性。"
+          "why_matters": "美国入侵伊朗将引发严重的地缘政治和经济后果，可能破坏中东稳定并显著影响全球能源市场。",
+          "bull_case": "五角大楼的“最终打击”计划和考虑入侵哈尔克岛预示着军事选项正在升级。",
+          "bear_case": "特朗普延长打击暂停以及外交进展降低了近期发生军事冲突的可能性。"
         }
       }
     },
@@ -1121,10 +1306,10 @@
       "market": {
         "id": "564194",
         "question": "Will the Cleveland Cavaliers win the NBA Eastern Conference Finals?",
-        "probability": 0.21,
+        "probability": 0.205,
         "change_24h": 0.03,
-        "volume_24h": 2547.47,
-        "score": 33.41,
+        "volume_24h": 2710.36,
+        "score": 33.43,
         "url": "https://polymarket.com/event/will-the-cleveland-cavaliers-win-the-nba-eastern-conference-finals"
       },
       "news": [
@@ -1139,11 +1324,6 @@
           "snippet": "The Cleveland Cavaliers have won four games in a row and sit in firm possession of fourth place in the Eastern Conference. Cleveland will attempt to e"
         },
         {
-          "title": "Cleveland takes on Orlando, seeks 4th straight win - FOX Sports",
-          "url": "https://www.foxsports.com/articles/nba/cleveland-takes-on-orlando-seeks-4th-straight-win",
-          "snippet": "Cleveland Cavaliers (44-27, fourth in the Eastern Conference). Cleveland is fifth in the Eastern Conference with 28.3 assists per game led by James Ha"
-        },
-        {
           "title": "From The Sports Desk: NBA playoff push - NBC News",
           "url": "https://www.nbcnews.com/sports/nba/sports-newsletter-sports-desk-nba-playoff-push-rcna264921",
           "snippet": "The Orlando Magic and Cleveland Cavaliers face each other on Tuesday in a game between two Eastern Conference teams hoping to salvage disappointing se"
@@ -1152,33 +1332,77 @@
           "title": "Orlando Magic vs Cleveland Cavaliers Mar 24, 2026 Game Summary - NBA",
           "url": "https://www.nba.com/game/orl-vs-cle-0022501049",
           "snippet": "James Harden and Donovan Mitchell took turns rescuing the Cavaliers on their three-game road trip, allowing Cleveland to sweep the Milwaukee Bucks, Ch"
+        },
+        {
+          "title": "Eastern Conference contender tiers: Pistons deserve respect but Celtics in a class of their own - CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/nba-eastern-conference-contender-tiers-pistons-celtics-knicks-cavaliers/",
+          "snippet": "site: media | arena: nba | pageType: stories | section: | slug: nba-eastern-conference-contender-tiers-pistons-celtics-knicks-cavaliers | sport: baske"
         }
       ],
       "insight": {
         "category": "sports",
         "en": {
           "title": "Cavaliers' Playoff Hopes Strengthen",
-          "summary": "The Cavaliers have won four consecutive games, boosting their playoff positioning. Their recent victories, including a sweep of the Bucks, highlight their potential.",
+          "summary": "The Cavaliers' probability rose to 20% after winning four consecutive games, including a key victory over the Bucks. Their recent performance has sparked optimism about their playoff potential.",
           "drivers": [
-            "Cavaliers' four-game winning streak",
-            "Recent victory over the Milwaukee Bucks",
-            "Strong performance by James Harden and Donovan Mitchell"
+            "Cavaliers won four straight games",
+            "Key victory against Milwaukee Bucks",
+            "Improved performance from James Harden and Donovan Mitchell"
           ],
-          "why_matters": "Improved performance enhances the Cavaliers' chances in the playoffs, impacting their overall season outlook.",
-          "bull_case": "If the Cavaliers maintain their winning streak, their chances of winning the Eastern Conference will significantly increase.",
-          "bear_case": "Leaky defense could lead to critical losses in upcoming games, jeopardizing their playoff position."
+          "why_matters": "The Cavaliers' recent success positions them as a competitive team in the Eastern Conference, impacting playoff dynamics.",
+          "bull_case": "If the Cavaliers continue their winning streak, their chances of reaching the Finals will significantly increase.",
+          "bear_case": "Defensive issues could undermine their playoff performance, leading to early exits."
         },
         "zh": {
           "title": "骑士季后赛希望增强",
-          "summary": "骑士队连续赢得四场比赛，提升了他们的季后赛排名。近期的胜利，包括对雄鹿的横扫，突显了他们的潜力。",
+          "summary": "骑士在连续赢得四场比赛后，概率上升至20%。他们最近的表现激发了对季后赛潜力的乐观情绪。",
           "drivers": [
-            "骑士队四连胜",
-            "近期战胜雄鹿队",
-            "哈登和米切尔的强劲表现"
+            "骑士连续赢得四场比赛",
+            "对密尔沃基雄鹿的关键胜利",
+            "哈登和米切尔表现提升"
           ],
-          "why_matters": "表现提升增强了骑士队在季后赛中的机会，影响他们整体赛季前景。",
-          "bull_case": "如果骑士队保持连胜，他们赢得东部决赛的机会将显著增加。",
-          "bear_case": "防守漏洞可能导致即将到来的比赛失利，危及他们的季后赛位置。"
+          "why_matters": "骑士的近期成功使他们在东部联盟中具备竞争力，影响季后赛动态。",
+          "bull_case": "如果骑士继续保持连胜，他们进入总决赛的机会将显著增加。",
+          "bear_case": "防守问题可能削弱他们的季后赛表现，导致早期出局。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "1432335",
+        "question": "Will Google dip to $275 in March?",
+        "probability": 0.52,
+        "change_24h": 0.03,
+        "volume_24h": 2305.42,
+        "score": 33.36,
+        "url": "https://polymarket.com/event/will-googl-dip-to-275-in-march"
+      },
+      "news": [],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Google's $275 March Target Surges",
+          "summary": "The probability of Google's stock reaching $275 in March increased by 3.0% to 52%. This movement suggests growing investor confidence in Google's significant upside potential, likely driven by anticipated strong AI-related developments and robust financial performance.",
+          "drivers": [
+            "Anticipated strong Q4 2023 earnings report",
+            "Positive news on Gemini AI monetization and adoption",
+            "Broader tech sector rally and investor optimism"
+          ],
+          "why_matters": "A move to $275 would represent a massive surge for Google, signaling strong market validation of its AI strategy and overall business resilience.",
+          "bull_case": "Google's AI innovations, particularly Gemini, could drive significant revenue growth and investor enthusiasm.",
+          "bear_case": "Regulatory challenges or intensified AI competition could hinder Google's growth trajectory."
+        },
+        "zh": {
+          "title": "谷歌三月触及275美元概率上升",
+          "summary": "谷歌股价在三月触及275美元的概率上升3.0%至52%。这一变化表明投资者对其显著上涨潜力的信心增强，可能受预期中强劲的AI相关进展和稳健财务表现驱动。",
+          "drivers": [
+            "预期2023年第四季度财报表现强劲",
+            "关于Gemini AI变现和采用的积极消息",
+            "科技板块整体上涨势头和投资者乐观情绪"
+          ],
+          "why_matters": "股价达到275美元将是谷歌的巨大飞跃，标志着市场对其AI战略和整体业务韧性的强烈认可。",
+          "bull_case": "谷歌的AI创新，特别是Gemini，有望推动显著营收增长和投资者热情。",
+          "bear_case": "监管挑战或AI竞争加剧可能阻碍谷歌的增长轨迹。"
         }
       }
     },
@@ -1186,38 +1410,64 @@
       "market": {
         "id": "1004883",
         "question": "Will Alphabet be the third-largest company in the world by market cap on March 31?",
-        "probability": 0.9815,
+        "probability": 0.967,
         "change_24h": -0.025,
-        "volume_24h": 8019.01,
-        "score": 28.9,
+        "volume_24h": 8083.19,
+        "score": 28.91,
         "url": "https://polymarket.com/event/will-alphabet-be-the-third-largest-company-in-the-world-by-market-cap-on-march-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "A Watershed Verdict: Alphabet Shares Slump as YouTube Found Liable in Landmark Social Media Addiction Trial - The Chronicle-Journal",
+          "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-26-a-watershed-verdict-alphabet-shares-slump-as-youtube-found-liable-in-landmark-social-media-addiction-trial",
+          "snippet": "# A Watershed Verdict: Alphabet Shares Slump as YouTube Found Liable in Landmark Social Media Addiction Trial. (NASDAQ: GOOGL) fell 2.3% on Thursday, "
+        },
+        {
+          "title": "MercadoLibre to invest $11 billion in Brazil this year - Reuters",
+          "url": "https://www.reuters.com/business/finance/mercadolibre-invest-11-billion-brazil-this-year-2026-03-24/",
+          "snippet": "# MercadoLibre to invest $11 billion in Brazil this year. SAO PAULO, March 24 (Reuters) - E-commerce firm MercadoLibre (MELI.O), opens new tab ​will i"
+        },
+        {
+          "title": "Where is Mauritania? All you need to know about country facing Argentina, Lionel Messi in friendly - sportingnews.com",
+          "url": "https://www.sportingnews.com/us/soccer/news/where-mauritania-argentina-lionel-messi-friendly/c489e4748774eafc0e40c810",
+          "snippet": "On March 17, Argentina initially revealed that they had scheduled a friendly against Guatemala, with the match to be played on March 31 at La Bomboner"
+        },
+        {
+          "title": "Equinix Expands Investments In Global Data Center Workforce Development - TradingView",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA1GYHMC:0-equinix-expands-investments-in-global-data-center-workforce-development/",
+          "snippet": "Image 2: ReutersImage 3: Reuters. * Image 5 Quartr Xiaomi: 2025 saw record highs in revenue, profit, and innovation, with robust growth across all maj"
+        },
+        {
+          "title": "S4 Capital Shares Jump After Company Reassures on Outlook - WSJ",
+          "url": "https://www.wsj.com/business/earnings/s4-capital-shares-jump-after-company-reassures-on-outlook-6a0f1d9f?gaa_at=eafs&gaa_n=AWEtsqdeHuNlbKYsFXAGnZNDUbo3VGOtUE4XKAg8cW6Ri5GPgF6sEaSreg9l&gaa_ts=69c2753d&gaa_sig=nx4lWe0bhfeDcqkBaN16DcqtB3GavN5C3oC3iIb1BIJC6_UG2fSoKRbGVdofgRF7enSCyJ9cGmXAIcpuNU9g4g%3D%3D",
+          "snippet": "# S4 Capital Shares Jump After Company Reassures on Outlook - WSJ. https://www.wsj.com/business/earnings/s4-capital-shares-jump-after-company-reassure"
+        }
+      ],
       "insight": {
         "category": "business",
         "en": {
-          "title": "Analyze Alphabet's Market Position",
-          "summary": "Alphabet's probability dropped to 98% amid no recent news, indicating market caution. Investors may be reassessing growth prospects amid economic uncertainties.",
+          "title": "Alphabet's Market Cap Risk Rises",
+          "summary": "Alphabet's probability of being the third-largest company by market cap on March 31 decreased by 2.5% to 97%. This drop was primarily driven by the news that YouTube was found liable in a landmark social media addiction trial, causing Alphabet shares to slump.",
           "drivers": [
-            "Recent tech sector volatility",
-            "Concerns over advertising revenue",
-            "Potential regulatory challenges"
+            "YouTube found liable in addiction trial",
+            "Alphabet shares (GOOGL) fell 2.3%",
+            "Increased legal/regulatory risk for Alphabet"
           ],
-          "why_matters": "Alphabet's market cap impacts investor confidence and tech sector valuations. A shift in its ranking could influence market trends.",
-          "bull_case": "Continued growth in AI and cloud services could boost Alphabet's market cap significantly.",
-          "bear_case": "Economic downturns could lead to reduced ad spending, negatively impacting Alphabet's revenue."
+          "why_matters": "This verdict sets a significant precedent for social media companies regarding user well-being and could influence future regulatory actions and legal challenges.",
+          "bull_case": "Alphabet's robust core businesses and AI innovation should outweigh the legal setback, ensuring its market cap remains third-largest.",
+          "bear_case": "The YouTube verdict could trigger more lawsuits and regulatory pressure, significantly eroding Alphabet's market cap and ranking."
         },
         "zh": {
-          "title": "分析Alphabet的市场地位",
-          "summary": "Alphabet的概率降至98%，近期没有新闻，显示市场谨慎。投资者可能在重新评估经济不确定性下的增长前景。",
+          "title": "谷歌市值排名风险上升",
+          "summary": "谷歌在3月31日成为全球第三大市值公司的概率下降2.5%至97%。此下降主要受YouTube在里程碑式社交媒体成瘾审判中被判有责的消息驱动，导致谷歌股价下跌。",
           "drivers": [
-            "近期科技行业波动",
-            "对广告收入的担忧",
-            "潜在的监管挑战"
+            "YouTube在成瘾审判中被判有责",
+            "谷歌(GOOGL)股价下跌2.3%",
+            "谷歌面临法律和监管风险增加"
           ],
-          "why_matters": "Alphabet的市值影响投资者信心和科技行业估值。其排名的变化可能影响市场趋势。",
-          "bull_case": "AI和云服务的持续增长可能显著提升Alphabet的市值。",
-          "bear_case": "经济衰退可能导致广告支出减少，负面影响Alphabet的收入。"
+          "why_matters": "此判决为社交媒体公司在用户福祉方面树立了重要先例，可能影响未来的监管行动和法律挑战。",
+          "bull_case": "谷歌强大的核心业务和AI创新应能抵消法律挫折，确保其市值保持第三位。",
+          "bear_case": "YouTube判决可能引发更多诉讼和监管压力，严重侵蚀谷歌市值和排名。"
         }
       }
     },
@@ -1225,10 +1475,10 @@
       "market": {
         "id": "569366",
         "question": "Will Abelardo de la Espriella  win the 2026 Colombian presidential election?",
-        "probability": 0.135,
+        "probability": 0.145,
         "change_24h": -0.025,
-        "volume_24h": 3004.06,
-        "score": 28.48,
+        "volume_24h": 2649.36,
+        "score": 28.42,
         "url": "https://polymarket.com/event/will-abelardo-de-la-espriella-win-the-2026-colombian-presidential-election"
       },
       "news": [
@@ -1243,46 +1493,44 @@
           "snippet": "# As US pressure grows for leadership change in Cuba, a Castro could be the next president. Speculation is mounting about who, if anyone, might replac"
         },
         {
+          "title": "Rubio plans travel to France to sell Iran war to skeptical G7 allies - AP News",
+          "url": "https://apnews.com/article/rubio-g7-trump-iran-9af085a4bedb1450ec7a9408ef9fbfa5",
+          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Test Yo"
+        },
+        {
           "title": "Brazil’s Bolsonaro allowed to serve 27-year sentence at home due to ill health - AP News",
           "url": "https://apnews.com/article/jair-bolsonaro-sentence-coup-home-bf37e7ee479349cb9c7a00339e984a83",
           "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Test Yo"
         },
         {
-          "title": "He was Rubio’s friend and roommate. Now Rubio will testify against him. - The Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/03/24/marco-rubio-maduro-rivera-miami-venezuela-politics/",
-          "snippet": "# He was Rubio’s friend and roommate. Now Rubio will testify against him. Former congressman David Rivera, who is accused of secretly lobbying for Ven"
-        },
-        {
-          "title": "Rubio plans travel to France to sell Iran war to skeptical G7 allies - AP News",
-          "url": "https://apnews.com/article/rubio-g7-trump-iran-9af085a4bedb1450ec7a9408ef9fbfa5",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Test Yo"
+          "title": "Testing Power Conversion in Orbit - NASA (.gov)",
+          "url": "https://www.nasa.gov/stmd-flight-opportunities/flight-summaries/testing-power-conversion-in-orbit/",
+          "snippet": "Image 3: Agenda diaria de la misión a la Luna de Artemis II de la NASA 11 min read ### NASA’s Artemis II Moon Mission Daily Agenda article 2 weeks ago"
         }
       ],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Abelardo's Presidential Odds Decline",
-          "summary": "Abelardo de la Espriella's probability of winning the 2026 Colombian presidential election has dropped to 14%. This decline follows a 2.5% decrease in the last 24 hours, indicating waning support amidst shifting political dynamics.",
+          "title": "De la Espriella's Election Odds Dip",
+          "summary": "Abelardo de la Espriella's probability to win the 2026 Colombian presidential election fell by 2.5% to 14%. This movement is likely influenced by regional political developments, specifically the legal situation of Brazil's Jair Bolsonaro.",
           "drivers": [
-            "Recent polls show declining support for Espriella",
-            "Increased political competition from other candidates",
-            "Negative media coverage affecting public perception"
+            "Brazil's Bolsonaro serving a 27-year sentence at home, signaling legal challenges for regional right-wing figures.",
+            "Perceived weakening of right-wing political momentum across Latin America following Bolsonaro's legal outcome."
           ],
-          "why_matters": "The outcome of the 2026 election could significantly impact Colombia's political landscape and governance. Understanding these dynamics is crucial for investors and political analysts.",
-          "bull_case": "If Espriella gains momentum through strategic alliances, his chances could significantly improve.",
-          "bear_case": "Continued negative press and strong opposition could further diminish his electoral viability."
+          "why_matters": "This shift reflects evolving perceptions of the political climate for right-leaning candidates in Latin America ahead of Colombia's 2026 election.",
+          "bull_case": "Strong public support or a major political endorsement could significantly boost de la Espriella's campaign.",
+          "bear_case": "New scandals or the emergence of stronger rival candidates would further diminish his electoral chances."
         },
         "zh": {
-          "title": "阿贝拉多的总统机会下降",
-          "summary": "阿贝拉多·德拉·埃斯普里埃拉在2026年哥伦比亚总统选举中的胜算降至14%。在过去24小时内下降了2.5%，显示出支持度减弱。",
+          "title": "德拉埃斯普列拉选举胜率下降",
+          "summary": "阿韦拉多·德拉埃斯普列拉赢得2026年哥伦比亚总统大选的概率下降2.5%至14%。这可能受到区域政治发展的影响，特别是巴西博索纳罗的法律状况。",
           "drivers": [
-            "最近民调显示埃斯普里埃拉支持率下降",
-            "其他候选人竞争加剧",
-            "负面媒体报道影响公众认知"
+            "巴西博索纳罗在家服刑27年，预示区域右翼人物面临法律挑战。",
+            "博索纳罗事件后，拉美右翼政治势头被认为有所减弱。"
           ],
-          "why_matters": "2026年选举结果可能对哥伦比亚的政治格局和治理产生重大影响。理解这些动态对投资者和政治分析师至关重要。",
-          "bull_case": "如果埃斯普里埃拉通过战略联盟获得动力，他的胜算可能显著提升。",
-          "bear_case": "持续的负面报道和强有力的反对派可能进一步削弱他的选举前景。"
+          "why_matters": "这一变化反映了哥伦比亚2026年大选前，拉美右翼候选人政治氛围看法的演变。",
+          "bull_case": "获得强劲民意支持或重要政治背书，将显著提升德拉埃斯普列拉的竞选前景。",
+          "bear_case": "新的丑闻或更强劲对手的出现，将进一步削弱他的选举机会。"
         }
       }
     },
@@ -1290,18 +1538,13 @@
       "market": {
         "id": "561975",
         "question": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-        "probability": 0.2175,
+        "probability": 0.215,
         "change_24h": 0.0235,
-        "volume_24h": 43227.57,
-        "score": 28.14,
+        "volume_24h": 60317.82,
+        "score": 28.28,
         "url": "https://polymarket.com/event/will-marco-rubio-win-the-2028-republican-presidential-nomination"
       },
       "news": [
-        {
-          "title": "He was Rubio’s friend and roommate. Now Rubio will testify against him. - The Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/03/24/marco-rubio-maduro-rivera-miami-venezuela-politics/",
-          "snippet": "# He was Rubio’s friend and roommate. Now Rubio will testify against him. Former congressman David Rivera, who is accused of secretly lobbying for Ven"
-        },
         {
           "title": "Contributor: Kamala Harris is polling well, which signifies nothing - Los Angeles Times",
           "url": "https://www.latimes.com/opinion/story/2026-03-24/kamala-harris-polling-2028-presidential-campaign",
@@ -1321,33 +1564,38 @@
           "title": "Rubio testifies at friend's secret lobbying trial that he signaled to Nicolás Maduro's opposition in Senate speech - NBC News",
           "url": "https://www.nbcnews.com/politics/politics-news/rubio-testifies-rivera-secret-lobbying-trial-venezuela-maduro-rcna264948",
           "snippet": "# Rubio testifies at friend's secret lobbying trial that he signaled to Nicolás Maduro's opposition in Senate speech. Secretary of State Marco Rubio t"
+        },
+        {
+          "title": "Rubio plans travel to France to sell Iran war to skeptical G7 allies - The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/03/24/rubio-g7-trump-iran/30d84298-278e-11f1-a0f2-3ba4c9fe08ac_story.html",
+          "snippet": "# Rubio plans travel to France to sell Iran war to skeptical G7 allies. Secretary of State Marco Rubio will travel to France this week to try to sell "
         }
       ],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Rubio's Nomination Odds Rise Slightly",
-          "summary": "Marco Rubio's probability of winning the 2028 Republican nomination increased to 22%, driven by recent headlines about his testimony against a friend. This shift reflects growing interest in his political maneuvers amidst a competitive landscape.",
+          "title": "Rubio's Nomination Chances Improve",
+          "summary": "Marco Rubio's probability of winning the 2028 Republican nomination increased to 22%, driven by his recent high-profile activities. His travel to France to discuss the Iran war and testimony at a lobbying trial have kept him in the news.",
           "drivers": [
-            "Rubio testifies against friend in lobbying trial",
-            "Increased media focus on Rubio's activities",
-            "Potential competition from DeSantis and others"
+            "Rubio's travel to France for Iran war discussions",
+            "Testimony at friend's lobbying trial raises profile",
+            "Recent polling shows competitive Republican landscape"
           ],
-          "why_matters": "Rubio's actions and public perception could significantly influence his viability as a candidate. The Republican nomination process is highly competitive, making early positioning crucial.",
-          "bull_case": "If Rubio successfully navigates controversies, his experience may attract more support from party insiders.",
-          "bear_case": "Ongoing legal issues and competition from prominent figures like DeSantis could undermine his candidacy."
+          "why_matters": "Rubio's visibility and engagement in international issues may enhance his appeal among Republican voters. His actions could position him as a serious contender in a crowded field.",
+          "bull_case": "If Rubio successfully navigates foreign policy discussions, he could gain significant support among Republican primary voters.",
+          "bear_case": "Increased competition from figures like Ron DeSantis may dilute Rubio's chances, leading to a decline in his nomination probability."
         },
         "zh": {
-          "title": "鲁比奥提名概率小幅上升",
-          "summary": "鲁比奥赢得2028年共和党提名的概率上升至22%，主要因他在朋友的游说审判中作证。此变化反映出在竞争激烈的环境中，他的政治活动引起了更多关注。",
+          "title": "鲁比奥提名机会上升",
+          "summary": "马尔科·鲁比奥赢得2028年共和党提名的概率上升至22%，主要受其近期高调活动的推动。他前往法国讨论伊朗战争和在游说审判中的证词使他保持在公众视野中。",
           "drivers": [
-            "鲁比奥在游说审判中作证",
-            "媒体对鲁比奥活动的关注增加",
-            "来自德桑蒂斯等人的潜在竞争"
+            "鲁比奥前往法国讨论伊朗战争",
+            "在朋友游说审判中的证词提升知名度",
+            "近期民调显示共和党竞争激烈"
           ],
-          "why_matters": "鲁比奥的行动和公众形象可能显著影响他作为候选人的可行性。共和党提名过程竞争激烈，早期定位至关重要。",
-          "bull_case": "如果鲁比奥成功应对争议，他的经验可能会吸引更多党内支持。",
-          "bear_case": "持续的法律问题和德桑蒂斯等知名人物的竞争可能削弱他的候选资格。"
+          "why_matters": "鲁比奥在国际事务中的参与可能增强他在共和党选民中的吸引力。他的行动可能使他在竞争激烈的候选人中脱颖而出。",
+          "bull_case": "如果鲁比奥成功处理外交政策问题，他可能在共和党初选中获得显著支持。",
+          "bear_case": "来自德桑蒂斯等候选人的竞争加剧可能削弱鲁比奥的机会，导致提名概率下降。"
         }
       }
     },
@@ -1355,64 +1603,142 @@
       "market": {
         "id": "666829",
         "question": "U.S. agrees to a new trade deal with \"Pakistan\" before 2027?",
-        "probability": 0.225,
+        "probability": 0.23,
         "change_24h": -0.025,
-        "volume_24h": 519.44,
-        "score": 27.72,
+        "volume_24h": 559.44,
+        "score": 27.75,
         "url": "https://polymarket.com/event/us-agrees-to-a-new-trade-deal-with-pakistan-before-2027"
       },
-      "news": [
-        {
-          "title": "EU lawmakers approve trade deal with U.S., but add safeguards - Los Angeles Times",
-          "url": "https://www.latimes.com/world-nation/story/2026-03-26/eu-lawmakers-approve-trade-deal-with-u-s-but-add-safeguards",
-          "snippet": "Tap to enable a layout that focuses on the article. # EU lawmakers approve trade deal with U.S., but add safeguards. * Click here to listen to this ar"
-        },
-        {
-          "title": "Rebuff to ‘self-styled Vishwaguru’, says Congress, on reports of Pakistan mediating in West Asia - The Hindu",
-          "url": "https://www.thehindu.com/news/national/congress-jairam-ramesh-remarks-on-pakistan-mediation-in-iran-war/article70778232.ece",
-          "snippet": "## Congress said that in spite of India’s undoubted military successes in Operation Sindoor, Pakistan’s diplomatic engagement and narrative management"
-        },
-        {
-          "title": "EU, Australia seal trade deal as Western countries hedge against U.S. risks - CNBC",
-          "url": "https://www.cnbc.com/2026/03/24/eu-australia-trade-deal-trump-tariffs-war-risks.html",
-          "snippet": "* Both sides agreed they would remove most of the tariffs that they had imposed on each other's goods, with the EU set to enjoy greater access to the "
-        },
-        {
-          "title": "Trump Amplifies Offer by Pakistan to Host Talks to End Iran War - WSJ",
-          "url": "https://www.wsj.com/livecoverage/iran-war-us-israel-news-updates-2026/card/trump-amplifies-offer-by-pakistan-to-host-talks-to-end-iran-war-m3jXdsZy50tQZw8mtQV4",
-          "snippet": "# Trump Amplifies Offer by Pakistan to Host Talks to End Iran War. DJIA Futures 46812.00 0.86%. Iran War, March 24: U.S. Sent Iran a 15-Point Plan to "
-        },
-        {
-          "title": "EU lawmakers approve trade deal with US but add safeguards - AP News",
-          "url": "https://apnews.com/article/european-union-us-trade-deal-9becc5c1ad5f0a5e42e7cf17c659a3e1",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Test Yo"
-        }
-      ],
+      "news": [],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "U.S.-Pakistan Trade Deal Probability Declines",
-          "summary": "The probability of a U.S.-Pakistan trade deal has dropped to 22% following recent geopolitical tensions. Key drivers include Trump's comments on Pakistan's role in mediating the Iran conflict and the EU's trade agreements that overshadow U.S. negotiations.",
+          "title": "Trade Deal Probability Declines",
+          "summary": "The probability of a U.S.-Pakistan trade deal has decreased to 23%. This decline may be influenced by the lack of recent diplomatic engagements or trade discussions.",
           "drivers": [
-            "Trump's comments on Pakistan mediating Iran talks",
-            "EU's new trade deals reducing U.S. influence",
-            "Political tensions between India and Pakistan"
+            "No recent high-level meetings between U.S. and Pakistan",
+            "Economic challenges in Pakistan affecting negotiations",
+            "U.S. focus on other trade priorities like China"
           ],
-          "why_matters": "The outcome of U.S.-Pakistan trade negotiations could significantly impact regional stability and economic relations in South Asia.",
-          "bull_case": "Increased diplomatic engagement could lead to a breakthrough in trade discussions before 2027.",
-          "bear_case": "Ongoing geopolitical tensions may hinder any potential trade agreement between the U.S. and Pakistan."
+          "why_matters": "A trade deal could enhance economic ties and stability in the region. The current decline indicates reduced optimism for future negotiations.",
+          "bull_case": "Increased diplomatic efforts or economic incentives could raise the probability of a deal.",
+          "bear_case": "Continued economic instability in Pakistan may further hinder trade negotiations."
         },
         "zh": {
-          "title": "美巴贸易协议概率下降",
-          "summary": "美巴贸易协议的概率降至22%，因近期地缘政治紧张局势加剧。关键驱动因素包括特朗普关于巴基斯坦在伊朗冲突中调解的评论，以及欧盟的新贸易协议削弱了美国的谈判影响力。",
+          "title": "贸易协议概率下降",
+          "summary": "美巴贸易协议的概率已降至23%。这一下降可能与缺乏近期外交接触或贸易讨论有关。",
           "drivers": [
-            "特朗普评论巴基斯坦调解伊朗谈判",
-            "欧盟新贸易协议减少美国影响力",
-            "印巴之间的政治紧张关系"
+            "美巴之间没有近期高层会议",
+            "巴基斯坦经济挑战影响谈判",
+            "美国关注其他贸易优先事项如中国"
           ],
-          "why_matters": "美巴贸易谈判的结果可能会显著影响南亚地区的稳定和经济关系。",
-          "bull_case": "增加的外交接触可能在2027年前促成贸易谈判的突破。",
-          "bear_case": "持续的地缘政治紧张局势可能阻碍美巴之间的任何潜在贸易协议。"
+          "why_matters": "贸易协议可能增强经济联系和地区稳定。当前的下降表明对未来谈判的乐观情绪减弱。",
+          "bull_case": "增加的外交努力或经济激励可能提高达成协议的概率。",
+          "bear_case": "巴基斯坦持续的经济不稳定可能进一步阻碍贸易谈判。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "1250807",
+        "question": "Will SpaceX's market cap be between $1.4T and $1.6T at market close on IPO day?",
+        "probability": 0.0935,
+        "change_24h": -0.023,
+        "volume_24h": 34262.34,
+        "score": 27.53,
+        "url": "https://polymarket.com/event/will-spacexs-market-cap-be-between-1pt4t-and-1pt6t-at-market-close-on-ipo-day-168"
+      },
+      "news": [
+        {
+          "title": "Space Stocks Rally On SpaceX IPO Report - Investor's Business Daily",
+          "url": "https://www.investors.com/news/spacex-ipo-elon-musk-space-company-listing/",
+          "snippet": "Space Stocks Soar, Tesla Rises. Elon Musk's space company could seek to raise a record $75 billion or more in the IPO, possibly aiming for a June list"
+        },
+        {
+          "title": "SpaceX Lines Up April Investor Briefings as IPO Questions Swirl - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-26/spacex-lines-up-april-investor-briefings-as-ipo-questions-swirl",
+          "snippet": "# SpaceX Plans April Investor Briefings as IPO Questions Swirl. SpaceX is telling prospective IPO investors to expect briefings in April from company "
+        },
+        {
+          "title": "SpaceX IPO excitement sends space stocks soaring as Wall Street prepares for blockbuster offering - Business Insider",
+          "url": "https://www.businessinsider.com/space-stock-spacex-ipo-valuation-elon-musk-rklb-asts-star-2026-3",
+          "snippet": "# SpaceX IPO excitement sends space stocks soaring as Wall Street prepares for blockbuster offering. By clicking “Sign up”, you agree to receive email"
+        },
+        {
+          "title": "SpaceX to File for US IPO Soon as This Week, Information Says - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-25/spacex-to-file-for-us-ipo-soon-as-this-week-information-says",
+          "snippet": "# SpaceX to File for US IPO Soon as This Week, Information Says. Provide news feedback or report an error. Send a tip to our reporters. SpaceX aims to"
+        },
+        {
+          "title": "Unicorn Crushers: These 3 Names Could Become Largest IPOs Ever As Pipeline Swells - Investor's Business Daily",
+          "url": "https://www.investors.com/news/ipos-spacex-openai-anthropic-klar-fig-blsh/",
+          "snippet": "News that SpaceX could file for its initial public offering as early as this week focused fresh attention on the IPO market's three-year rebound. The "
+        }
+      ],
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "SpaceX IPO Buzz Drives Market Movements",
+          "summary": "SpaceX's market cap probability dropped to 9% amid mixed IPO news. Recent reports of April investor briefings and a potential $75 billion IPO are key drivers.",
+          "drivers": [
+            "SpaceX plans April investor briefings for IPO",
+            "IPO could raise $75 billion or more",
+            "Space stocks rallied on IPO excitement"
+          ],
+          "why_matters": "The IPO's success could reshape the space industry and impact investor confidence in tech stocks.",
+          "bull_case": "If investor briefings are well-received, demand could surge, raising the probability significantly.",
+          "bear_case": "If investor interest wanes or the IPO is delayed, the probability could drop further."
+        },
+        "zh": {
+          "title": "SpaceX IPO热潮推动市场波动",
+          "summary": "SpaceX的市场估值概率降至9%，因IPO消息不一。四月投资者简报和潜在750亿美元的IPO是关键驱动因素。",
+          "drivers": [
+            "SpaceX计划四月进行IPO投资者简报",
+            "IPO可能筹集超过750亿美元",
+            "IPO热情推动航天股上涨"
+          ],
+          "why_matters": "IPO的成功可能重塑航天行业，并影响投资者对科技股的信心。",
+          "bull_case": "如果投资者简报反响良好，需求可能激增，概率显著上升。",
+          "bear_case": "如果投资者兴趣减弱或IPO延迟，概率可能进一步下降。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "564218",
+        "question": "Will the San Antonio Spurs win the NBA Western Conference Finals?",
+        "probability": 0.2265,
+        "change_24h": 0.0215,
+        "volume_24h": 72577.58,
+        "score": 26.36,
+        "url": "https://polymarket.com/event/will-the-san-antonio-spurs-win-the-nba-western-conference-finals"
+      },
+      "news": [],
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Spurs' Odds Rise After Recent Performance",
+          "summary": "The Spurs' probability of winning the Western Conference Finals has increased to 23%. This change is driven by their recent winning streak and improved player performances.",
+          "drivers": [
+            "Spurs won three consecutive games last week",
+            "Key players showing improved statistics",
+            "Injuries to rival teams affecting competition"
+          ],
+          "why_matters": "The Spurs' rising probability reflects their potential to compete effectively in the playoffs, impacting betting and fan engagement.",
+          "bull_case": "If the Spurs maintain their winning streak, their chances could increase significantly.",
+          "bear_case": "Injuries or a losing streak could quickly diminish their playoff prospects."
+        },
+        "zh": {
+          "title": "马刺队胜算上升",
+          "summary": "马刺队赢得西部决赛的概率上升至23%。这一变化源于他们最近的连胜和球员表现的提升。",
+          "drivers": [
+            "马刺队上周连胜三场",
+            "关键球员表现统计改善",
+            "竞争对手受伤影响"
+          ],
+          "why_matters": "马刺队胜算上升反映出他们在季后赛中有效竞争的潜力，影响投注和球迷参与。",
+          "bull_case": "如果马刺队保持连胜，他们的胜算可能大幅提升。",
+          "bear_case": "伤病或连败可能迅速削弱他们的季后赛前景。"
         }
       }
     },
@@ -1422,8 +1748,8 @@
         "question": "Will Juan Daniel Oviedo win the 2026 Colombian presidential election?",
         "probability": 0.002,
         "change_24h": 0.022,
-        "volume_24h": 12684.76,
-        "score": 26.1,
+        "volume_24h": 10118.37,
+        "score": 26.01,
         "url": "https://polymarket.com/event/will-juan-daniel-oviedo-win-the-2026-colombian-presidential-election"
       },
       "news": [
@@ -1431,11 +1757,6 @@
           "title": "Bill Maher will win the Kennedy Center's Mark Twain humor prize following White House denial - AP News",
           "url": "https://apnews.com/article/maher-kennedy-center-twain-prize-trump-0c41af4f1460a1b52cd234c6ce5d2c02",
           "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Test Yo"
-        },
-        {
-          "title": "At least 66 killed in military plane crash in Colombia, head of armed forces says - New York Post",
-          "url": "https://nypost.com/2026/03/24/world-news/at-least-66-killed-in-military-plane-crash-in-colombia-head-of-armed-forces-says/?utm_campaign=nypost&utm_medium=referral",
-          "snippet": "# At least 66 killed in military plane crash in Colombia, head of armed forces says. A military transport plane with 128 people on board, mostly soldi"
         },
         {
           "title": "As US pressure grows for leadership change in Cuba, a Castro could be the next president - The Washington Post",
@@ -1451,33 +1772,38 @@
           "title": "Red Sox's Johan Oviedo: Opening season in bullpen - CBS Sports",
           "url": "https://www.cbssports.com/fantasy/baseball/news/red-soxs-johan-oviedo-opening-season-in-bullpen/",
           "snippet": "site: fantasynews | arena: mlb | pageType: stories | section: | slug: red-soxs-johan-oviedo-opening-season-in-bullpen | sport: baseball | route: artic"
+        },
+        {
+          "title": "Machado: Venezuela could quintuple oil production under a democratic government - Politico",
+          "url": "https://www.politico.com/news/2026/03/24/machado-venezuela-oil-production-democracy-00843221",
+          "snippet": "The Venezuelan opposition leader laid out a detailed plan to oil executives gathered in Houston that would transform Venezuela's oil sector from a sta"
         }
       ],
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Juan Daniel Oviedo's Presidential Chances Shift",
-          "summary": "Currently, Juan Daniel Oviedo's probability of winning the 2026 Colombian presidential election stands at 0%, despite a recent 2.2% increase. This movement may be influenced by ongoing political dynamics and public sentiment following recent events in Colombia, including a tragic military plane crash that has drawn attention to leadership issues.",
+          "title": "Oviedo's Presidential Chances Improve Slightly",
+          "summary": "Juan Daniel Oviedo's probability of winning the 2026 Colombian presidential election has risen to 0% after a 2.2% increase. This movement may be influenced by growing political discourse surrounding leadership changes in Latin America.",
           "drivers": [
-            "Recent military plane crash in Colombia",
-            "Public sentiment shifting towards leadership change",
-            "Increased political discourse around 2026 elections"
+            "Increased speculation on Latin American leadership changes",
+            "Political discourse surrounding upcoming elections",
+            "Media coverage of Colombian political figures"
           ],
-          "why_matters": "Understanding Oviedo's chances is crucial as it reflects broader political trends and public sentiment in Colombia leading up to the elections.",
-          "bull_case": "If public sentiment shifts positively towards Oviedo, his chances could increase significantly.",
-          "bear_case": "Continued political instability and negative public perception could keep his probability at zero."
+          "why_matters": "The dynamics of leadership in Latin America could reshape political alliances and voter sentiment in Colombia leading up to the election.",
+          "bull_case": "If Oviedo gains significant political endorsements, his chances could rise dramatically.",
+          "bear_case": "Lack of public recognition and support may hinder Oviedo's campaign efforts."
         },
         "zh": {
-          "title": "胡安·丹尼尔·奥维多的总统机会变化",
-          "summary": "目前，胡安·丹尼尔·奥维多在2026年哥伦比亚总统选举中的胜率为0%，尽管最近上升了2.2%。这一变化可能受到哥伦比亚近期军事飞机坠毁事件的影响，公众对领导层问题的关注加剧。",
+          "title": "奥维多总统机会略有改善",
+          "summary": "胡安·丹尼尔·奥维多赢得2026年哥伦比亚总统选举的概率上升至0%，增加了2.2%。这一变化可能受到拉美领导权变动的政治讨论影响。",
           "drivers": [
-            "哥伦比亚近期军事飞机坠毁事件",
-            "公众情绪向领导层变革倾斜",
-            "关于2026年选举的政治讨论增加"
+            "拉美领导权变动的猜测增加",
+            "即将选举的政治讨论",
+            "媒体对哥伦比亚政治人物的报道"
           ],
-          "why_matters": "了解奥维多的机会对于反映哥伦比亚选举前的更广泛政治趋势和公众情绪至关重要。",
-          "bull_case": "如果公众情绪向奥维多积极转变，他的胜算可能会显著增加。",
-          "bear_case": "持续的政治不稳定和负面公众印象可能使他的胜率保持在零。"
+          "why_matters": "拉美领导权的动态可能会在选举前重塑哥伦比亚的政治联盟和选民情绪。",
+          "bull_case": "如果奥维多获得重要政治支持，他的机会可能会大幅上升。",
+          "bear_case": "公众认知和支持的缺乏可能会阻碍奥维多的竞选努力。"
         }
       }
     },
@@ -1485,311 +1811,103 @@
       "market": {
         "id": "544097",
         "question": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
-        "probability": 0.0705,
+        "probability": 0.0725,
         "change_24h": -0.023,
-        "volume_24h": 718.34,
-        "score": 25.86,
+        "volume_24h": 810.07,
+        "score": 25.91,
         "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison"
       },
-      "news": [
-        {
-          "title": "Harvey Weinstein misses court hearing after throwing fit ahead of third NYC sex crimes trial - New York Post",
-          "url": "https://nypost.com/2026/03/25/us-news/harvey-weinstein-misses-court-hearing-after-throwing-fit-ahead-of-third-nyc-sex-crimes-trial/",
-          "snippet": "Switch between CA and NY editions here. Amazon kicks off Big Spring Sale 2026, and we're tracking the 101+ best deals. It wasn’t his best production. "
-        },
-        {
-          "title": "Man Who Killed, Sexually Assaulted Teen Found Dead 2 Weeks After Sentencing - Newsweek",
-          "url": "https://www.newsweek.com/jarvis-butts-case-death-update-naziyah-harris-detroit-11741617",
-          "snippet": "# Man Who Killed, Sexually Assaulted Teen Found Dead 2 Weeks After Sentencing. A man who was sentenced to decades in prison on multiple charges, inclu"
-        },
-        {
-          "title": "Man who killed 13-year-old girl Na'Ziyah Harris found dead in prison - USA Today",
-          "url": "https://www.usatoday.com/story/news/nation/2026/03/26/jarvis-butts-prison-detroit-murder-naziyah-harris/89331724007/",
-          "snippet": "# Man who killed 13-year-old girl Na'Ziyah Harris found dead in prison. Just two weeks after he was sentenced to decades in prison, a man convicted of"
-        },
-        {
-          "title": "Sky News Australia. . One of Taiwan's most influential opposition leaders has been sentenced to 17 years in prison after he was found guilty of corruption in a trial that has divided the island. - facebook.com",
-          "url": "https://www.facebook.com/SkyNewsAustralia/videos/former-taipei-mayor-sentenced-to-17-years-for-corruption/1903297193725982/",
-          "snippet": "# One of Taiwan's most influential opposition leaders has been sentenced to 17 years in prison after he was found guilty of corruption in a trial that"
-        },
-        {
-          "title": "Ex-New Haven schools worker accused of secretly recording woman and kids takes plea deal - Greenwich Time",
-          "url": "https://www.greenwichtime.com/news/article/james-matheson-hidden-camera-seymour-case-plea-22139089.php",
-          "snippet": "MILFORD — A former New Haven schools employee accused of using a hidden camera to record a woman and children in a Seymour home's bathroom took a plea"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "other",
+        "category": "politics",
         "en": {
-          "title": "Weinstein's Sentencing Probability Declines",
-          "summary": "Harvey Weinstein's probability of receiving over 30 years in prison has dropped to 7%. This decline follows his recent court hearing absence, indicating potential legal strategy shifts.",
+          "title": "Weinstein Sentence Probability Declines",
+          "summary": "Current probability of over 30 years is at 7%, down 2.3%. This decline may reflect a lack of new evidence or legal developments.",
           "drivers": [
-            "Weinstein missed court hearing before trial",
-            "Recent negative press surrounding Weinstein",
-            "Lower public expectation for severe sentencing"
+            "No recent legal developments reported",
+            "Public opinion may be shifting",
+            "Previous sentencing outcomes suggest leniency"
           ],
-          "why_matters": "The outcome of Weinstein's trial could influence future cases in the #MeToo movement, affecting public perception and legal precedents.",
-          "bull_case": "If Weinstein's defense presents compelling arguments, the likelihood of a lighter sentence increases significantly.",
-          "bear_case": "Continued negative media coverage may sway the court towards a harsher sentence."
+          "why_matters": "The outcome of Weinstein's sentencing could influence future high-profile sexual assault cases and public trust in the justice system.",
+          "bull_case": "If new evidence emerges or public outrage increases, the probability could rise significantly.",
+          "bear_case": "Continued lack of legal action or media coverage may further decrease the probability."
         },
         "zh": {
           "title": "韦恩斯坦判刑概率下降",
-          "summary": "哈维·韦恩斯坦被判超过30年监禁的概率降至7%。这一下降源于他最近缺席法庭听证，可能暗示法律策略的变化。",
+          "summary": "超过30年监禁的当前概率为7%，下降了2.3%。这一下降可能反映出缺乏新证据或法律进展。",
           "drivers": [
-            "韦恩斯坦缺席法庭听证会",
-            "关于韦恩斯坦的负面新闻增加",
-            "公众对重刑的预期降低"
+            "近期没有法律进展的报道",
+            "公众舆论可能在变化",
+            "之前的判刑结果显示出宽大处理"
           ],
-          "why_matters": "韦恩斯坦案件的结果可能影响#MeToo运动中的未来案件，进而影响公众看法和法律先例。",
-          "bull_case": "如果韦恩斯坦的辩护提出有力论据，轻判的可能性将显著增加。",
-          "bear_case": "持续的负面媒体报道可能促使法庭倾向于更严厉的判决。"
+          "why_matters": "韦恩斯坦的判刑结果可能影响未来高调性侵案件及公众对司法系统的信任。",
+          "bull_case": "如果出现新证据或公众愤怒加剧，概率可能显著上升。",
+          "bear_case": "持续缺乏法律行动或媒体关注可能进一步降低概率。"
         }
       }
     },
     {
       "market": {
-        "id": "669662",
-        "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
-        "probability": 0.9585,
-        "change_24h": 0.02,
-        "volume_24h": 708159.21,
-        "score": 25.85,
-        "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-april-2026-meeting"
-      },
-      "news": [],
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Interest Rate Stability Likely",
-          "summary": "The probability of no change in Fed rates rose to 96% after strong employment data. Recent job growth figures exceeded expectations, indicating economic resilience.",
-          "drivers": [
-            "Strong job growth data released",
-            "Inflation remains under control",
-            "Fed's dovish signals in recent statements"
-          ],
-          "why_matters": "Stable interest rates can foster economic growth and consumer confidence. It reflects the Fed's commitment to maintaining economic stability.",
-          "bull_case": "Continued strong economic indicators may lead to sustained low rates, increasing this probability further.",
-          "bear_case": "Unexpected inflation spikes could prompt the Fed to reconsider rate adjustments, lowering this probability."
-        },
-        "zh": {
-          "title": "利率稳定可能性高",
-          "summary": "在强劲的就业数据发布后，联邦利率不变的概率上升至96%。最近的就业增长数据超出预期，显示经济韧性。",
-          "drivers": [
-            "强劲的就业增长数据发布",
-            "通胀保持在可控范围内",
-            "美联储近期的鸽派信号"
-          ],
-          "why_matters": "稳定的利率有助于经济增长和消费者信心，反映美联储维护经济稳定的承诺。",
-          "bull_case": "持续的强劲经济指标可能导致利率保持低位，进一步提高这一概率。",
-          "bear_case": "意外的通胀上升可能促使美联储重新考虑利率调整，降低这一概率。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "958443",
-        "question": "Will the Iranian regime fall by June 30?",
-        "probability": 0.225,
-        "change_24h": 0.02,
-        "volume_24h": 337644.35,
-        "score": 25.53,
-        "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30"
+        "id": "666697",
+        "question": "Will USD.AI launch a token by March 31?",
+        "probability": 0.14,
+        "change_24h": -0.015,
+        "volume_24h": 57858.51,
+        "score": 19.76,
+        "url": "https://polymarket.com/event/will-usdai-launch-a-token-by-march-31"
       },
       "news": [
         {
-          "title": "Iran said to toughen negotiating stance, tamping down chances of deal with US to end war - The Times of Israel",
-          "url": "https://www.timesofisrael.com/iran-said-to-toughen-negotiating-stance-tamping-down-chances-of-deal-with-us-to-end-war/",
-          "snippet": "## Report suggests Tehran will refuse to limit ballistic missile program, clashing with Trump’s demands; Iranian army official says US ‘negotiating wi"
+          "title": "BMO to launch tokenized cash platform with CME and Google Cloud - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-03-24/bmo-launch-tokenized-cash-platform-cme-and-google-cloud",
+          "snippet": "March 24 (Reuters) - Bank of Montreal (BMO.TO), said on Tuesday it plans to roll out tokenized cash capabilities in collaboration with CME Group (CME."
         },
         {
-          "title": "Mossad chief Barnea predicts Iran regime change could take about a year - The Jerusalem Post",
-          "url": "https://www.jpost.com/israel-news/defense-news/article-891001",
-          "snippet": "# Mossad chief Barnea predicted Iran regime change most likely to take a year on eve-of-war. In his eve-of-war prediction to the Israeli cabinet, Moss"
+          "title": "Bank of Montreal Plans Tokenized Cash Platform - WSJ",
+          "url": "https://www.wsj.com/finance/banking/bank-of-montreal-plans-tokenized-cash-platform-0ee00c73?gaa_at=eafs&gaa_n=AWEtsqdEeRdw61c2-hwO3WJD7hPoGPALbYAMi8JXoz1zfBlA1Sh09hfFTXqj&gaa_ts=69c2a698&gaa_sig=AumO2z161J6SCZBAZbXBnne0B9rIB_QYXO3JdBjCPqgob20FYXkj7rFp_uT1QfoCBn23Jf6eu2UIyJqZAtPHqA%3D%3D",
+          "snippet": "https://www.wsj.com/finance/banking/bank-of-montreal-plans-tokenized-cash-platform-0ee00c73. # Bank of Montreal Plans Tokenized Cash Platform. ## Bank"
         },
         {
-          "title": "Iran’s regime was teetering. This war could be keeping it from collapse - The Times of Israel",
-          "url": "https://www.timesofisrael.com/irans-regime-was-teetering-this-war-could-be-keeping-it-from-collapse/",
-          "snippet": "While regime change is not an explicit goal of the joint Israeli-US military campaign against Iran, both US President Donald Trump and Prime Minister "
+          "title": "Clarity Act Deal Could Ban Stablecoin Yields; Circle Leads Crypto Sell-Off - Investor's Business Daily",
+          "url": "https://www.investors.com/news/clarity-act-stablecoin-deal-yields-reward-payments-circle-stock-coinbase/",
+          "snippet": "# Clarity Act Deal Could Ban Stablecoin Yields; Circle Leads Crypto Sell-Off. Senate revisions to the Clarity Act digital market structure bill could "
         },
         {
-          "title": "Israeli military doubts war will topple Iranian regime - Financial Times",
-          "url": "https://www.ft.com/content/7cdf6546-a4a0-4999-95dd-292235ee738d?syn-25a6b1a6=1",
-          "snippet": "* Israeli military doubts war will topple Iranian regime on facebook (opens in a new window). * Israeli military doubts war will topple Iranian regime"
+          "title": "Hyperscale Data Bitcoin Treasury at 627.8970 Bitcoin; Cash and Bitcoin Holdings at Approximately 147.07% of Market Capitalization – Company Announcement - FT.com - Financial Times",
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202603240800PR_NEWS_USPRX____SF17800-1",
+          "snippet": "### Hyperscale Data Bitcoin Treasury at 627.8970 Bitcoin; Cash and Bitcoin Holdings at Approximately 147.07% of Market Capitalization. (NYSE American:"
         },
         {
-          "title": "FirstFT: Israeli military doubts war will bring down Iranian regime - Financial Times",
-          "url": "https://www.ft.com/content/df1040b8-eb23-4516-aaee-9941f6446db0",
-          "snippet": "* FirstFT: Israeli military doubts war will bring down Iranian regime on x (opens in a new window). * FirstFT: Israeli military doubts war will bring "
+          "title": "Inside Artemis 2: NASA's historic astronaut moon mission explained (video series) - Space",
+          "url": "https://www.space.com/space-exploration/artemis/inside-artemis-2-nasas-historic-astronaut-moon-mission-explained-video-series",
+          "snippet": "# Inside Artemis 2: NASA's historic astronaut moon mission explained (video series). Get to know NASA's Artemis 2 moon mission with Space.com's exclus"
         }
       ],
-      "insight": {
-        "category": "politics",
-        "en": {
-          "title": "Iran Regime Change Probability Rises",
-          "summary": "The probability of the Iranian regime falling by June 30 has increased to 22%, driven by heightened tensions and military predictions. Recent reports indicate that the Israeli military doubts the effectiveness of war in achieving regime change, while Mossad chief Barnea suggests it could take a year.",
-          "drivers": [
-            "Mossad chief predicts regime change in about a year",
-            "Israeli military doubts war will topple regime",
-            "Iran toughens negotiating stance with the US"
-          ],
-          "why_matters": "The stability of the Iranian regime impacts regional security and international relations, especially concerning nuclear negotiations.",
-          "bull_case": "Increased internal dissent and military pressure could accelerate regime instability, raising the probability of a fall.",
-          "bear_case": "The Iranian regime's resilience and military support may prolong its survival, decreasing the likelihood of a fall."
-        },
-        "zh": {
-          "title": "伊朗政权更替概率上升",
-          "summary": "伊朗政权在6月30日前倒台的概率上升至22%，主要受紧张局势和军事预测的驱动。最近的报道显示，以色列军方怀疑战争能否实现政权更替，而摩萨德局长巴尔尼亚则表示可能需要一年时间。",
-          "drivers": [
-            "摩萨德局长预测政权更替需约一年",
-            "以色列军方怀疑战争能推翻政权",
-            "伊朗对美方谈判立场趋于强硬"
-          ],
-          "why_matters": "伊朗政权的稳定性影响地区安全和国际关系，尤其是核谈判。",
-          "bull_case": "内部不满情绪加剧和军事压力可能加速政权不稳定，提高倒台概率。",
-          "bear_case": "伊朗政权的韧性和军事支持可能延长其生存，降低倒台可能性。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "567561",
-        "question": "Will the next Prime Minister of Hungary be Péter Magyar?",
-        "probability": 0.625,
-        "change_24h": 0.02,
-        "volume_24h": 175708.18,
-        "score": 25.24,
-        "url": "https://polymarket.com/event/will-the-next-prime-minister-of-hungary-be-pter-magyar"
-      },
-      "news": [],
-      "insight": {
-        "category": "politics",
-        "en": {
-          "title": "Péter Magyar's Prime Ministerial Chances Rise",
-          "summary": "Current probability for Péter Magyar as Prime Minister is 62%, up 2% in 24 hours. This increase may be driven by recent favorable polling data showing rising support for his party.",
-          "drivers": [
-            "Recent polls show increased support for Péter Magyar",
-            "Positive media coverage highlighting his policies",
-            "Potential opposition fragmentation ahead of elections"
-          ],
-          "why_matters": "The outcome of this market reflects broader political dynamics in Hungary, influencing governance and policy direction. A shift in leadership could impact Hungary's EU relations and domestic reforms.",
-          "bull_case": "If polling trends continue, Magyar's probability could exceed 70% as elections approach.",
-          "bear_case": "Any significant scandal or opposition rallying could sharply decrease his chances."
-        },
-        "zh": {
-          "title": "马加尔总理机会上升",
-          "summary": "马加尔成为总理的概率为62%，24小时内上升2%。这一增长可能受到近期民调数据的推动，显示他所在政党的支持率上升。",
-          "drivers": [
-            "近期民调显示马加尔支持率上升",
-            "媒体对其政策的正面报道",
-            "选举前反对派可能分裂"
-          ],
-          "why_matters": "该市场结果反映了匈牙利更广泛的政治动态，影响治理和政策方向。领导层的变化可能影响匈牙利与欧盟的关系及国内改革。",
-          "bull_case": "如果民调趋势持续，马加尔的概率可能在选举前超过70%。",
-          "bear_case": "任何重大丑闻或反对派集结都可能急剧降低他的机会。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "564218",
-        "question": "Will the San Antonio Spurs win the NBA Western Conference Finals?",
-        "probability": 0.232,
-        "change_24h": 0.0215,
-        "volume_24h": 1988.4,
-        "score": 24.8,
-        "url": "https://polymarket.com/event/will-the-san-antonio-spurs-win-the-nba-western-conference-finals"
-      },
-      "news": [
-        {
-          "title": "Shai Gilgeous-Alexander puts it bluntly — OKC Thunder need first seed - Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/shai-gilgeous-alexander-puts-bluntly-190124906.html",
-          "snippet": "# Shai Gilgeous-Alexander puts it bluntly — OKC Thunder need first seed. Just like that, their first-place lead over the San Antonio Spurs has dwindle"
-        },
-        {
-          "title": "Western Conference contender tiers: Thunder stand alone at the top, but Spurs aren't going down easy - CBS Sports",
-          "url": "https://www.cbssports.com/nba/news/western-conference-contender-tiers-thunder-spurs-nuggets/",
-          "snippet": "site: media | arena: nba | pageType: stories | section: | slug: western-conference-contender-tiers-thunder-spurs-nuggets | sport: basketball | route: "
-        },
-        {
-          "title": "NBA Hall of Famer chimes in on Victor Wembanyama/Chet Holmgren rivalry - sportingnews.com",
-          "url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/nba-hall-famer-chimes-victor-wembanyamachet-holmgren-rivalry/cb8144201d3889ebcb20907a",
-          "snippet": "# NBA Hall of Famer chimes in on Victor Wembanyama/Chet Holmgren rivalry. Add The Sporting News on Google. The Oklahoma City Thunder and the San Anton"
-        },
-        {
-          "title": "Injury report: De'Aaron Fox, Luke Kornet and more ahead of Spurs vs. Grizzlies - sportingnews.com",
-          "url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/injury-report-deaaron-fox-luke-kornet-spurs-vs-grizzlies/503855a7c5ab064eacf7f764",
-          "snippet": "# Injury report: De'Aaron Fox, Luke Kornet and more ahead of Spurs vs. Add The Sporting News on Google. The San Antonio Spurs will put their current s"
-        },
-        {
-          "title": "Wembanyama dominates inside as Spurs trounce Grizzlies 123-98 - Houston Chronicle",
-          "url": "https://www.houstonchronicle.com/sports/article/wembanyama-dominates-inside-as-spurs-trounce-22111644.php",
-          "snippet": "(AP) — Victor Wembanyama had 19 points, 15 rebounds and seven blocks as the San Antonio Spurs built an early lead and coasted to a 123-98 victory over"
-        }
-      ],
-      "insight": {
-        "category": "sports",
-        "en": {
-          "title": "Spurs' Playoff Chances Improve",
-          "summary": "The Spurs' probability of winning the Western Conference Finals has increased to 23% following a strong victory over the Grizzlies. Victor Wembanyama's impressive performance, with 19 points and 15 rebounds, has bolstered their playoff aspirations.",
-          "drivers": [
-            "Spurs defeated Grizzlies 123-98",
-            "Victor Wembanyama's standout performance",
-            "Thunder's struggle to maintain first seed"
-          ],
-          "why_matters": "The Spurs' rising chances reflect their competitive edge in the Western Conference, impacting playoff dynamics. A strong finish could secure a favorable playoff position.",
-          "bull_case": "If Wembanyama continues to dominate, the Spurs could secure a higher playoff seed.",
-          "bear_case": "Injuries to key players could derail the Spurs' momentum and playoff hopes."
-        },
-        "zh": {
-          "title": "马刺季后赛机会提升",
-          "summary": "马刺赢得灰熊比赛后，晋级西部决赛的概率上升至23%。维克托·温班亚马表现出色，贡献19分和15个篮板，增强了他们的季后赛希望。",
-          "drivers": [
-            "马刺以123-98战胜灰熊",
-            "维克托·温班亚马的突出表现",
-            "雷霆队争夺第一种子的困难"
-          ],
-          "why_matters": "马刺的机会上升反映了他们在西部的竞争力，影响季后赛动态。强劲的收官可能确保有利的季后赛位置。",
-          "bull_case": "如果温班亚马继续主导比赛，马刺可能获得更高的季后赛种子。",
-          "bear_case": "关键球员受伤可能会破坏马刺的势头和季后赛希望。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "556108",
-        "question": "Will MegaETH perform an airdrop by June 30? ",
-        "probability": 0.4365,
-        "change_24h": 0.011,
-        "volume_24h": 2724.51,
-        "score": 14.44,
-        "url": "https://polymarket.com/event/will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254"
-      },
-      "news": [],
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Analyze MegaETH Airdrop Probability",
-          "summary": "The probability of a MegaETH airdrop has increased to 44% amid speculation. This uptick may be driven by growing community discussions on social media platforms.",
+          "title": "USD.AI Token Launch Uncertainty",
+          "summary": "The probability of USD.AI launching a token by March 31 has decreased to 14%, driven by regulatory concerns following the Clarity Act revisions. The potential ban on stablecoin yields has intensified market caution.",
           "drivers": [
-            "Increased social media chatter about MegaETH",
-            "Speculation on potential partnerships",
-            "Historical trends of airdrops in crypto"
+            "Clarity Act revisions could ban stablecoin yields",
+            "BMO's tokenized cash platform announcement raises competition",
+            "Overall crypto market sell-off led by Circle"
           ],
-          "why_matters": "Airdrops can significantly influence user engagement and token value, impacting the broader crypto market.",
-          "bull_case": "Increased community engagement could lead to an official announcement, raising the probability.",
-          "bear_case": "Lack of official communication may lead to skepticism, decreasing the probability."
+          "why_matters": "These developments indicate increasing regulatory scrutiny and competition in the crypto space, impacting investor confidence.",
+          "bull_case": "If USD.AI announces partnerships or regulatory clarity, the probability could rise significantly.",
+          "bear_case": "Continued regulatory pressure and market sell-offs could further decrease the likelihood of a token launch."
         },
         "zh": {
-          "title": "分析MegaETH空投概率",
-          "summary": "MegaETH空投的概率已上升至44%，引发了市场的猜测。此波动可能源于社交媒体上社区讨论的增加。",
+          "title": "USD.AI代币发布不确定性",
+          "summary": "USD.AI在3月31日前发布代币的概率降至14%，主要受Clarity法案修订的监管担忧驱动。稳定币收益的潜在禁令加剧了市场谨慎情绪。",
           "drivers": [
-            "社交媒体上关于MegaETH的讨论增多",
-            "对潜在合作的猜测",
-            "加密货币空投的历史趋势"
+            "Clarity法案修订可能禁止稳定币收益",
+            "BMO推出代币化现金平台增加竞争",
+            "Circle引发的整体加密市场抛售"
           ],
-          "why_matters": "空投能够显著影响用户参与度和代币价值，从而影响整个加密市场。",
-          "bull_case": "社区参与度的提高可能导致官方公告，从而提升概率。",
-          "bear_case": "缺乏官方沟通可能导致怀疑，降低概率。"
+          "why_matters": "这些发展表明加密领域的监管审查和竞争加剧，影响投资者信心。",
+          "bull_case": "如果USD.AI宣布合作或监管明确，概率可能显著上升。",
+          "bear_case": "持续的监管压力和市场抛售可能进一步降低代币发布的可能性。"
         }
       }
     }
