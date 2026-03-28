@@ -554,31 +554,93 @@ _CAT_EMOJI = {
 }
 
 
+def _battle_card(item: dict) -> dict:
+    """Extract battle-card fields from a topic item."""
+    m   = item["market"]
+    ins = item.get("insight") or {}
+    en  = ins.get("en") or {}
+    prob = (m.get("probability") or 0.5)
+    yes_pct = round(prob * 100)
+    no_pct  = 100 - yes_pct
+    ch = (m.get("change_24h") or 0)
+    ch_pct = ch * 100
+
+    # Conviction label
+    if yes_pct >= 75:
+        signal = "YES conviction: Strong 💪" if ch_pct >= 0 else "YES losing ground ⚠️"
+    elif yes_pct >= 55:
+        if ch_pct > 0.5:
+            signal = "YES momentum building 📈"
+        elif ch_pct < -0.5:
+            signal = "Momentum shifting to NO ⚡"
+        else:
+            signal = "YES favored — watch for catalysts 👀"
+    elif yes_pct >= 45:
+        signal = "Too close to call — next move is critical 🎲"
+    elif yes_pct >= 25:
+        signal = "NO momentum: Strong 📉" if ch_pct < -0.5 else "NO asymmetry: High risk/reward 🎯"
+    else:
+        signal = "Strong NO conviction 🔴"
+
+    # Arrow
+    arrow = f"▲+{ch_pct:.1f}%" if ch_pct >= 0 else f"▼{ch_pct:.1f}%"
+
+    return {
+        "question": m.get("question", ""),
+        "yes_pct": yes_pct,
+        "no_pct": no_pct,
+        "arrow": arrow,
+        "signal": signal,
+        "bull": (en.get("bull_case") or "")[:140],
+        "bear": (en.get("bear_case") or "")[:140],
+        "summary": (en.get("summary") or "")[:160],
+        "cat": ins.get("category", "other"),
+        "vol": m.get("volume_24h") or 0,
+        "url": m.get("url", SITE_URL),
+    }
+
+
 def _build_twitter_thread(data: dict, max_topics: int = 5) -> str:
-    """Generate copy-paste Twitter/X thread text from top insights."""
+    """Battle-card Twitter/X thread — one card per tweet."""
     topics = data["topics"][:max_topics]
     date_str = data["generated_at_readable"]
-    total = len(data["topics"])
     n = len(topics)
+    total = len(data["topics"])
     tweets = []
 
     tweets.append(
-        f"🔮 PolyLens Daily — {date_str}\n\n"
-        f"Top {n} prediction market movers, AI-powered 👇\n\n[1/{n + 1}]"
+        f"🔮 PolyLens Battle Cards — {date_str}\n\n"
+        f"AI breaks down {n} key prediction markets: who's winning, who's bluffing 👇\n\n"
+        f"[1/{n + 1}]"
     )
+
     for i, item in enumerate(topics, 2):
-        m = item["market"]
-        en = item["insight"].get("en", item["insight"])
-        emoji = _CAT_EMOJI.get(classify_category(m["question"]), "🔥")
-        prob = f"{m['probability'] * 100:.0f}%"
-        chg = f"{'+' if m['change_24h'] >= 0 else ''}{m['change_24h'] * 100:.1f}%"
-        title = (en.get("title") or m["question"])[:80]
-        summary = (en.get("summary") or "")[:200]
-        tweets.append(f"{emoji} {title}\n\n{prob} YES | {chg} (24h)\n\n{summary}\n\n[{i}/{n + 1}]")
+        bc = _battle_card(item)
+        emoji = _CAT_EMOJI.get(bc["cat"], "🔥")
+        q = bc["question"][:72] + ("…" if len(bc["question"]) > 72 else "")
+        bull_short = bc["bull"][:90] + ("…" if len(bc["bull"]) > 90 else "")
+        bear_short = bc["bear"][:90] + ("…" if len(bc["bear"]) > 90 else "")
+
+        card = (
+            f"🥊 {emoji} {q}\n\n"
+            f"✅ YES — {bc['yes_pct']}%  {bc['arrow']}\n"
+        )
+        if bull_short:
+            card += f'"{bull_short}"\n'
+        card += (
+            f"\n❌ NO — {bc['no_pct']}%\n"
+        )
+        if bear_short:
+            card += f'"{bear_short}"\n'
+        card += f"\n🤖 {bc['signal']}\n📊 hika.fyi  [{i}/{n + 1}]"
+
+        tweets.append(card[:280])
 
     tweets.append(
-        f"Full analysis + all {total} markets:\n\nhttps://www.hika.fyi\n\n"
-        f"Free · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets\n\n[{n + 1}/{n + 1}]"
+        f"🔗 Full analysis + {total} markets → https://www.hika.fyi\n\n"
+        f"Free · Updated every 8h · AI-powered\n"
+        f"#Polymarket #PredictionMarkets #BattleCard\n\n"
+        f"[{n + 1}/{n + 1}]"
     )
     return "\n\n---\n\n".join(tweets)
 
@@ -985,61 +1047,155 @@ def _build_telegram_image(data: dict) -> bytes | None:
     d.rectangle([0, HDR_H, W, HDR_H + 1], fill=BORDER)
 
     # ── 2-column grid ───────────────────────────────────────────────
-    FOOT_H = 40
-    GRID_Y  = HDR_H + 16
-    GRID_H  = H - HDR_H - FOOT_H - 16
-    COL_W   = (W - PAD * 3) // 2
-    ROW_H   = GRID_H // 3
+def _build_telegram_image(data: dict) -> bytes | None:
+    """Generate a 1200×630 Market Battle Card image using Pillow."""
+    try:
+        import io
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        return None
 
-    for i, item in enumerate(items):
-        col = i % 2
-        row = i // 2
-        x = PAD + col * (COL_W + PAD)
-        y = GRID_Y + row * ROW_H
+    if not data.get("topics"):
+        return None
 
-        m   = item["market"]
-        ins = (item.get("insight") or {})
-        cat = ins.get("category", "world")
-        en  = (ins.get("en") or {})
+    W, H = 1200, 630
+    PAD = 44
+    BG      = (13,  17,  23)
+    SURFACE = (22,  27,  34)
+    BORDER  = (33,  38,  45)
+    TEXT    = (230, 237, 243)
+    MUTED   = (125, 133, 144)
+    ACCENT  = (124, 106, 247)
+    UP      = (34,  197,  94)
+    DOWN    = (239,  68,  68)
+    YES_BG  = (20,  50,  30)
+    NO_BG   = (50,  18,  18)
 
-        prob = (m.get("probability") or 0) * 100
-        ch   = (m.get("change_24h") or 0) * 100
-        prob_color = UP if prob >= 50 else DOWN
-        ch_color   = UP if ch >= 0 else DOWN
-        arrow = "+" if ch >= 0 else ""
+    def _font(size: int, bold: bool = False):
+        for p in [
+            "/System/Library/Fonts/Helvetica.ttc",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold
+                else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf" if bold
+                else "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        ]:
+            try:
+                return ImageFont.truetype(p, size)
+            except Exception:
+                pass
+        return ImageFont.load_default(size=size)
 
-        # Category chip
-        chip = CAT_LABELS.get(cat, cat.upper())
-        chip_w = int(d.textlength(chip, font=f_cat)) + 12
-        d.rounded_rectangle([x, y, x + chip_w, y + 18], radius=4, fill=BORDER)
-        d.text((x + 6, y + 2), chip, font=f_cat, fill=MUTED)
+    def _wrap(d, text, font, max_w, max_lines=2):
+        words, lines, cur = text.split(), [], ""
+        for w in words:
+            test = (cur + " " + w).strip()
+            if d.textlength(test, font=font) <= max_w:
+                cur = test
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+            if len(lines) == max_lines:
+                cur = cur.rstrip() + "…"
+                break
+        if cur and len(lines) < max_lines:
+            lines.append(cur)
+        return lines
 
-        # Title
-        title_lines = _wrap(d, m.get("question", ""), f_title, COL_W - 8, max_lines=2)
-        for li, ln in enumerate(title_lines):
-            d.text((x, y + 22 + li * 22), ln, font=f_title, fill=TEXT)
-        title_bot = y + 22 + len(title_lines) * 22 + 2
+    # Use top market for the battle card
+    bc = _battle_card(data["topics"][0])
+    # Mini list: next 4 markets
+    mini = [_battle_card(t) for t in data["topics"][1:5]]
 
-        # Probability
-        prob_str = f"{prob:.0f}%"
-        pw = d.textlength(prob_str, font=f_prob)
-        d.text((x, title_bot), prob_str, font=f_prob, fill=prob_color)
-        d.text((x + pw + 8, title_bot + 5), f"{arrow}{abs(ch):.1f}%", font=f_delta, fill=ch_color)
+    img = Image.new("RGB", (W, H), BG)
+    d = ImageDraw.Draw(img)
 
-        # Summary
-        summ = (en.get("summary") or "")[:90]
-        if summ:
-            d.text((x, title_bot + 30), summ + ("…" if len(en.get("summary","")) > 90 else ""),
-                   font=f_summ, fill=MUTED)
+    f_logo  = _font(28, bold=True)
+    f_date  = _font(17)
+    f_tag   = _font(11, bold=True)
+    f_q     = _font(22, bold=True)
+    f_pct   = _font(52, bold=True)
+    f_side  = _font(13, bold=True)
+    f_body  = _font(14)
+    f_sig   = _font(15, bold=True)
+    f_mini  = _font(13)
+    f_foot  = _font(15)
 
-        # Divider (right column only, not last row)
-        if col == 0 and row < 2:
-            mid_x = PAD + COL_W + PAD // 2
-            d.rectangle([mid_x, y, mid_x + 1, y + ROW_H - 8], fill=BORDER)
+    HDR_H = 58
+    FOOT_H = 36
+
+    # ── Header ──────────────────────────────────────────────────────
+    d.rectangle([0, 0, W, HDR_H], fill=SURFACE)
+    d.text((PAD, 14), "PolyLens", font=f_logo, fill=ACCENT)
+    d.text((PAD + 180, 20), "Market Battle Card", font=f_date, fill=MUTED)
+    ts = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
+    date_str = ts.strftime("%b %d, %Y  %H:%M UTC")
+    dw = d.textlength(date_str, font=f_date)
+    d.text((W - PAD - dw, 20), date_str, font=f_date, fill=MUTED)
+    d.rectangle([0, HDR_H, W, HDR_H + 1], fill=BORDER)
+
+    # ── Question ───────────────────────────────────────────────────
+    MAIN_W = W - PAD * 2 - 260  # leave 260px for mini list on right
+    q_lines = _wrap(d, bc["question"], f_q, MAIN_W, max_lines=2)
+    QY = HDR_H + 16
+    for i, ln in enumerate(q_lines):
+        d.text((PAD, QY + i * 28), ln, font=f_q, fill=TEXT)
+    QY += len(q_lines) * 28 + 10
+
+    # Category chip
+    cat_label = bc["cat"].replace("_", " ").upper()
+    chip_w = int(d.textlength(cat_label, font=f_tag)) + 14
+    d.rounded_rectangle([PAD, QY, PAD + chip_w, QY + 18], radius=4, fill=BORDER)
+    d.text((PAD + 7, QY + 2), cat_label, font=f_tag, fill=MUTED)
+    QY += 26
+
+    # ── YES / NO columns ────────────────────────────────────────────
+    COL_H = H - QY - FOOT_H - 8
+    COL_W = (MAIN_W - 10) // 2
+    YES_X, NO_X = PAD, PAD + COL_W + 10
+
+    # YES panel
+    d.rounded_rectangle([YES_X, QY, YES_X + COL_W, QY + COL_H], radius=10, fill=YES_BG)
+    d.rounded_rectangle([YES_X, QY, YES_X + COL_W, QY + 36], radius=10, fill=(30, 70, 40))
+    d.text((YES_X + 12, QY + 8), "✅  YES", font=f_side, fill=UP)
+    d.text((YES_X + 12, QY + 42), f"{bc['yes_pct']}%", font=f_pct, fill=UP)
+    d.text((YES_X + 12, QY + 100), bc["arrow"] if bc["yes_pct"] >= 50 else "", font=f_date, fill=UP)
+    bull_lines = _wrap(d, bc["bull"] or "No bull case available", f_body, COL_W - 24, max_lines=4)
+    for i, ln in enumerate(bull_lines):
+        d.text((YES_X + 12, QY + 122 + i * 20), ln, font=f_body, fill=(180, 230, 180))
+
+    # NO panel
+    d.rounded_rectangle([NO_X, QY, NO_X + COL_W, QY + COL_H], radius=10, fill=NO_BG)
+    d.rounded_rectangle([NO_X, QY, NO_X + COL_W, QY + 36], radius=10, fill=(70, 25, 25))
+    d.text((NO_X + 12, QY + 8), "❌  NO", font=f_side, fill=DOWN)
+    d.text((NO_X + 12, QY + 42), f"{bc['no_pct']}%", font=f_pct, fill=DOWN)
+    bear_lines = _wrap(d, bc["bear"] or "No bear case available", f_body, COL_W - 24, max_lines=4)
+    for i, ln in enumerate(bear_lines):
+        d.text((NO_X + 12, QY + 122 + i * 20), ln, font=f_body, fill=(230, 180, 180))
+
+    # Signal line
+    SIG_Y = QY + COL_H - 30
+    d.text((PAD, SIG_Y), f"AI  {bc['signal']}", font=f_sig, fill=ACCENT)
+
+    # ── Mini list (right side) ───────────────────────────────────────
+    MX = W - 260 + 10
+    d.rectangle([MX - 8, HDR_H + 1, MX - 8, H - FOOT_H], fill=BORDER)
+    d.text((MX, HDR_H + 14), "Also watching:", font=f_tag, fill=MUTED)
+    for i, m2 in enumerate(mini):
+        my = HDR_H + 36 + i * 112
+        emoji2 = _CAT_EMOJI.get(m2["cat"], "🔥")
+        q2 = (m2["question"][:38] + "…") if len(m2["question"]) > 38 else m2["question"]
+        d.text((MX, my), q2, font=f_mini, fill=TEXT)
+        col2 = UP if m2["yes_pct"] >= 50 else DOWN
+        d.text((MX, my + 18), f"YES {m2['yes_pct']}%  {m2['arrow']}", font=f_mini, fill=col2)
+        sig2 = m2["signal"][:38] + ("…" if len(m2["signal"]) > 38 else "")
+        d.text((MX, my + 36), sig2, font=_font(11), fill=MUTED)
+        if i < len(mini) - 1:
+            d.rectangle([MX, my + 52, MX + 220, my + 53], fill=BORDER)
 
     # ── Footer ──────────────────────────────────────────────────────
     d.rectangle([0, H - FOOT_H, W, H], fill=SURFACE)
-    foot = f"www.hika.fyi  ·  {len(data['topics'])} markets tracked"
+    foot = f"www.hika.fyi  ·  {len(data['topics'])} markets  ·  Updated every 8h"
     fw = d.textlength(foot, font=f_foot)
     d.text(((W - fw) // 2, H - FOOT_H + 10), foot, font=f_foot, fill=MUTED)
 
@@ -1049,7 +1205,7 @@ def _build_telegram_image(data: dict) -> bytes | None:
 
 
 def send_telegram(data: dict) -> None:
-    """Push a digest image + caption to the configured Telegram channel."""
+    """Push battle-card digest (image + text) to the configured Telegram channel."""
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
         log.info("Telegram skipped: bot token or channel ID not set")
         return
@@ -1057,29 +1213,25 @@ def send_telegram(data: dict) -> None:
     ts = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
     date_str = ts.strftime("%b %d, %Y %H:%M UTC")
 
-    # Short caption (≤1024 chars) — one line per top market
-    cat_order = ["politics", "ai_tech", "economy", "business", "world", "crypto", "sports"]
-    cat_groups: dict[str, list] = {}
-    for item in data["topics"]:
-        cat = (item.get("insight") or {}).get("category", "world") if isinstance(item.get("insight"), dict) else "world"
-        cat_groups.setdefault(cat, []).append(item)
+    # Build battle-card message for top 5 markets (≤4096 chars)
+    topics = data["topics"][:5]
+    lines = [f"🔮 <b>PolyLens Battle Cards</b> · {date_str}\n"]
 
-    caption_lines = [f"🔮 <b>PolyLens</b> · {date_str}\n"]
-    for cat in cat_order:
-        items = cat_groups.get(cat, [])
-        if not items:
-            continue
-        m   = items[0]["market"]
-        prob = int(round((m.get("probability") or 0) * 100))
-        ch   = (m.get("change_24h") or 0)
-        arrow = "▲" if ch >= 0 else "▼"
-        ch_str = f"{arrow}{abs(ch) * 100:.1f}%"
-        emoji  = _CAT_EMOJI.get(cat, "🔥")
-        q_short = m["question"][:60] + ("…" if len(m["question"]) > 60 else "")
-        caption_lines.append(f"{emoji} <b>{q_short}</b> — {prob}% {ch_str}")
+    for item in topics:
+        bc = _battle_card(item)
+        emoji = _CAT_EMOJI.get(bc["cat"], "🔥")
+        q = bc["question"][:70] + ("…" if len(bc["question"]) > 70 else "")
+        lines.append(f"🥊 {emoji} <b>{q}</b>")
+        lines.append(f"✅ YES {bc['yes_pct']}%  {bc['arrow']}  |  ❌ NO {bc['no_pct']}%")
+        if bc["bull"]:
+            lines.append(f'<i>YES: "{bc["bull"][:100]}"</i>')
+        if bc["bear"]:
+            lines.append(f'<i>NO: "{bc["bear"][:100]}"</i>')
+        lines.append(f"🤖 {bc['signal']}")
+        lines.append("")
 
-    caption_lines.append(f'\n🌐 <a href="{SITE_URL}">{SITE_URL.replace("https://","")}</a>')
-    caption = "\n".join(caption_lines)[:1024]
+    lines.append(f'🌐 <a href="{SITE_URL}">{SITE_URL.replace("https://","")}</a> · {len(data["topics"])} markets tracked')
+    text = "\n".join(lines)[:4096]
 
     bot_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
     img_bytes = _build_telegram_image(data)
@@ -1087,23 +1239,31 @@ def send_telegram(data: dict) -> None:
     try:
         import io as _io
         if img_bytes:
+            # Send battle card image with shortened caption
+            short_cap = "\n".join(lines[:3 + len(topics) * 2])[:1024]
             r = requests.post(f"{bot_url}/sendPhoto", data={
                 "chat_id": TELEGRAM_CHANNEL_ID,
-                "caption": caption,
+                "caption": short_cap,
                 "parse_mode": "HTML",
-            }, files={"photo": ("digest.png", _io.BytesIO(img_bytes), "image/png")}, timeout=30)
+            }, files={"photo": ("battle.png", _io.BytesIO(img_bytes), "image/png")}, timeout=30)
+            if r.ok:
+                # Send full battle-card text as follow-up message
+                requests.post(f"{bot_url}/sendMessage", json={
+                    "chat_id": TELEGRAM_CHANNEL_ID,
+                    "text": text,
+                    "parse_mode": "HTML",
+                    "disable_web_page_preview": True,
+                }, timeout=15)
         else:
-            # Fallback: text-only if image generation failed
             r = requests.post(f"{bot_url}/sendMessage", json={
                 "chat_id": TELEGRAM_CHANNEL_ID,
-                "text": caption,
+                "text": text,
                 "parse_mode": "HTML",
-                "disable_web_page_preview": False,
+                "disable_web_page_preview": True,
             }, timeout=15)
 
         if r.ok:
-            log.info("Telegram notification sent to %s (%s)", TELEGRAM_CHANNEL_ID,
-                     "photo" if img_bytes else "text")
+            log.info("Telegram battle cards sent to %s", TELEGRAM_CHANNEL_ID)
         else:
             log.warning("Telegram send failed: %s %s", r.status_code, r.text[:300])
     except Exception as exc:
