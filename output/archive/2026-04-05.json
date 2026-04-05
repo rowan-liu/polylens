@@ -1,526 +1,48 @@
 {
-  "generated_at": "2026-04-05T09:45:07.624959+00:00",
-  "generated_at_readable": "Apr 05, 2026 09:45 UTC",
+  "generated_at": "2026-04-05T19:40:10.071078+00:00",
+  "generated_at_readable": "Apr 05, 2026 19:40 UTC",
   "topics": [
     {
       "market": {
-        "id": "1792249",
-        "question": "Will 45 or more ships transit the Strait of Hormuz between March 30-April 5?",
-        "probability": 0.786,
-        "change_24h": 0.6355,
-        "volume_24h": 12847.8,
-        "score": 639.61,
-        "url": "https://polymarket.com/event/will-45-or-more-ships-transit-the-strait-of-hormuz-between-march-30-april-5"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Hormuz Transits Surge on Easing Tensions",
-          "summary": "The probability of 45+ ships transiting the Strait of Hormuz surged to 79% after multiple major vessels, including a CMA CGM container ship, successfully passed through. Iran also announced Iraq is exempt from transit restrictions, signaling an easing of previous chokehold concerns.",
-          "drivers": [
-            "CMA CGM vessel successfully transited Hormuz.",
-            "Multiple other vessels (Oman, Japan) passed safely.",
-            "Iran exempted Iraq from transit restrictions."
-          ],
-          "why_matters": "The Strait of Hormuz is a critical global oil chokepoint; increased transit signals potential de-escalation of regional tensions and ensures vital energy supplies.",
-          "bull_case": "Recent successful transits by major carriers and Iran's exemption for Iraq suggest a sustained increase in shipping activity.",
-          "bear_case": "Despite recent transits, underlying geopolitical tensions could quickly re-escalate, deterring further shipping or leading to new restrictions."
-        },
-        "zh": {
-          "title": "霍尔木兹海峡通行量激增",
-          "summary": "霍尔木兹海峡45艘以上船只通行的可能性升至79%，此前包括一艘达飞轮船集装箱船在内的多艘主要船只成功通过。伊朗还宣布伊拉克豁免通行限制，表明此前封锁担忧有所缓解。",
-          "drivers": [
-            "达飞轮船集装箱船成功通过霍尔木兹。",
-            "多艘其他船只（阿曼、日本）安全通行。",
-            "伊朗豁免伊拉克通行限制。"
-          ],
-          "why_matters": "霍尔木兹海峡是全球关键石油咽喉，通行量增加预示地区紧张局势可能缓解，并保障重要能源供应。",
-          "bull_case": "主要承运商近期成功通行以及伊朗对伊拉克的豁免，预示航运活动将持续增加。",
-          "bear_case": "尽管近期有船只通行，但潜在地缘政治紧张局势可能迅速升级，阻碍更多航运或导致新限制。"
-        }
-      },
-      "news": [
-        {
-          "title": "Strait of Hormuz sees just a handful of ships trickling through as Iran’s chokehold continues - New York Post",
-          "url": "https://nypost.com/2026/04/02/world-news/only-a-handful-of-ships-are-trickling-through-the-strait-of-hormuz/"
-        },
-        {
-          "title": "CMA CGM Vessel Is First Major Carrier Vessel Through Strait of Hormuz - The Maritime Executive",
-          "url": "https://maritime-executive.com/article/cma-cgm-vessel-is-first-major-carrier-vessel-through-strait-of-hormuz"
-        },
-        {
-          "title": "French-owned container ship transits Hormuz Strait in first since Iran war - Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1841390",
-        "question": "Bitcoin Up or Down - April 5, 3AM ET",
-        "probability": 0.9995,
-        "change_24h": 0.4995,
-        "volume_24h": 75913.89,
-        "score": 504.38,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-3am-et"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Price Confirmed Up",
-          "summary": "The probability for Bitcoin to be up by April 5, 3 AM ET reached 100%, driven by strong positive sentiment surrounding Bitcoin-related equities and critical security advancements, confirming an upward price movement as the market approached its resolution.",
-          "drivers": [
-            "Positive coverage of Bitcoin-related stocks (MarketBeat, Defense World).",
-            "Bitcoin's quantum-proofing security initiatives (CoinDesk).",
-            "Market resolution confirming Bitcoin's upward price action."
-          ],
-          "why_matters": "This reflects increasing mainstream acceptance and technological resilience of Bitcoin, influencing broader investment strategies in digital assets.",
-          "bull_case": "Continued investor interest in Bitcoin-related stocks and ongoing security upgrades will sustain Bitcoin's upward momentum.",
-          "bear_case": "A robust U.S. jobs report could prompt tighter monetary policy, potentially dampening risk asset appeal."
-        },
-        "zh": {
-          "title": "比特币价格确认上涨",
-          "summary": "比特币在美东时间4月5日凌晨3点前上涨的概率达到100%，主要受比特币相关股票的积极情绪和关键安全技术进展推动，市场临近结算确认了价格的上涨。",
-          "drivers": [
-            "比特币相关股票获积极报道（MarketBeat, Defense World）。",
-            "比特币量子安全防护计划进展（CoinDesk）。",
-            "市场结算确认比特币价格上涨。"
-          ],
-          "why_matters": "这反映了比特币日益增长的主流接受度和技术韧性，影响着数字资产领域的广泛投资策略。",
-          "bull_case": "投资者对比特币相关股票的持续兴趣和安全升级将维持比特币的上涨势头。",
-          "bear_case": "强劲的美国就业报告可能促使货币政策收紧，或抑制风险资产的吸引力。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin Stocks To Research - April 3rd - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/bitcoin-stocks-to-research-april-3rd-2026-04-03/"
-        },
-        {
-          "title": "Best Bitcoin Stocks To Add to Your Watchlist - April 4th - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/best-bitcoin-stocks-to-add-to-your-watchlist-april-4th-2026-04-04/"
-        },
-        {
-          "title": "Cryptocurrency Stocks To Keep An Eye On – April 4th - Defense World",
-          "url": "https://www.defenseworld.net/2026/04/05/cryptocurrency-stocks-to-keep-an-eye-on-april-4th.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1841392",
-        "question": "Ethereum Up or Down - April 5, 3AM ET",
+        "id": "1777634",
+        "question": "Will the price of Solana be between $80 and $90 on April 5?",
         "probability": 0.0005,
-        "change_24h": -0.4995,
-        "volume_24h": 20477.75,
-        "score": 503.81,
-        "url": "https://polymarket.com/event/ethereum-up-or-down-april-5-2026-3am-et"
+        "change_24h": -0.7945,
+        "volume_24h": 9424.16,
+        "score": 798.47,
+        "url": "https://polymarket.com/event/will-the-price-of-solana-be-between-80-90-on-april-5"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Ethereum Up Probability Plummets to Zero",
-          "summary": "The probability of Ethereum being up by April 5, 3 AM ET crashed to 0% from 50% in 24 hours. This drastic decline was primarily driven by warnings of potential selling pressure from venture capitalists on crypto tokens.",
+          "title": "Will the price of Solana be between $80 and $90 on April 5?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "VCs' potential token sell-off",
-            "Growing global debt risks",
-            "Ethereum bullish signal ignored"
+            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1121)"
           ],
-          "why_matters": "A 0% probability reflects extreme bearish conviction, indicating significant short-term downside risk and widespread investor caution in the crypto market.",
-          "bull_case": "Ethereum derivatives market recorded its first net inflow since 2023, signaling potential renewed institutional interest.",
-          "bear_case": "Warnings of \"Tokens at risk of price pressure from VCs\" suggest strong selling pressure, making an upward move highly improbable."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "以太坊上涨概率跌至零",
-          "summary": "以太坊在4月5日凌晨3点（ET）前上涨的概率在24小时内从50%暴跌至0%。这一急剧下降主要受风险投资公司可能抛售加密代币的警告所驱动。",
+          "title": "Will the price of Solana be between $80 and $90 on April 5?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "风投公司或抛售代币",
-            "全球债务风险增加",
-            "以太坊看涨信号被忽视"
+            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1121)"
           ],
-          "why_matters": "0%的概率反映了极度看跌的市场信念，预示着加密市场短期内存在显著下行风险和普遍的投资者谨慎情绪。",
-          "bull_case": "以太坊衍生品市场出现自2023年以来的首次净流入，可能预示机构兴趣回归。",
-          "bear_case": "“代币面临来自风投的价格压力”的警告，预示着巨大抛售压力，使得上涨可能性极低。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - Bitcoin Sistemi",
-          "url": "https://en.bitcoinsistemi.com/a-bullish-signal-not-seen-since-2023-has-emerged-on-ethereum/"
+          "title": "Investors - MLQ.ai",
+          "url": "https://mlq.ai/news/solana-defi-platform-drift-loses-over-280-million-in-security-breach/"
         },
         {
-          "title": "Cryptocurrency Stocks To Keep An Eye On – April 4th - Defense World",
-          "url": "https://www.defenseworld.net/2026/04/05/cryptocurrency-stocks-to-keep-an-eye-on-april-4th.html"
-        },
-        {
-          "title": "Gold pullback offers profit opportunity as debt risks grow, says analyst - CryptoRank",
-          "url": "https://cryptorank.io/news/feed/9da9c-gold-pullback-offers-profit-opportunity-as-debt-risks-grow-analyst-says"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1841843",
-        "question": "Bitcoin Up or Down - April 5, 4AM ET",
-        "probability": 0.985,
-        "change_24h": 0.485,
-        "volume_24h": 32183.39,
-        "score": 489.51,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-4am-et"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Probability Soars",
-          "summary": "Bitcoin's 'Up' probability surged by 48.5% to 98%, primarily driven by a wave of positive media coverage on crypto stocks and Bitcoin's security advancements. Recent reports from MarketBeat and CoinDesk fueled investor confidence.",
-          "drivers": [
-            "MarketBeat highlights best Bitcoin stocks.",
-            "Defense World lists top cryptocurrency stocks.",
-            "Bitcoin's quantum-proofing security initiatives."
-          ],
-          "why_matters": "These developments signal increasing investor confidence in Bitcoin's market potential and its long-term technological resilience against future threats.",
-          "bull_case": "Positive media coverage on crypto stocks and Bitcoin's security upgrades boost investor confidence, driving prices higher.",
-          "bear_case": "A strong jobs report could prompt the Fed to maintain higher rates, potentially reducing appetite for risk assets like Bitcoin."
-        },
-        "zh": {
-          "title": "比特币上涨概率飙升",
-          "summary": "比特币“上涨”概率飙升48.5%至98%，主要受加密货币股票的积极媒体报道和比特币安全技术进步推动。MarketBeat和CoinDesk的最新报告提振了投资者信心。",
-          "drivers": [
-            "MarketBeat推荐最佳比特币股票。",
-            "Defense World列出顶级加密货币股票。",
-            "比特币量子安全防护措施。"
-          ],
-          "why_matters": "这些进展表明投资者对比特币的市场潜力和长期技术韧性日益增强的信心，能抵御未来威胁。",
-          "bull_case": "积极的加密货币股票报道和比特币安全升级提振投资者信心，推动价格上涨。",
-          "bear_case": "强劲的就业报告可能促使美联储维持高利率，降低对风险资产如比特币的吸引力。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin Stocks To Research - April 3rd - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/bitcoin-stocks-to-research-april-3rd-2026-04-03/"
-        },
-        {
-          "title": "Best Bitcoin Stocks To Add to Your Watchlist - April 4th - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/best-bitcoin-stocks-to-add-to-your-watchlist-april-4th-2026-04-04/"
-        },
-        {
-          "title": "Cryptocurrency Stocks To Keep An Eye On – April 4th - Defense World",
-          "url": "https://www.defenseworld.net/2026/04/05/cryptocurrency-stocks-to-keep-an-eye-on-april-4th.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1705297",
-        "question": "Will Israel take military action in Gaza on April 4, 2026?",
-        "probability": 0.815,
-        "change_24h": 0.42,
-        "volume_24h": 36686.45,
-        "score": 424.56,
-        "url": "https://polymarket.com/event/will-israel-take-military-action-in-gaza-on-april-4-2026"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Regional War Escalates, Gaza Action Likely",
-          "summary": "The probability of Israel taking military action in Gaza by April 4, 2026, surged to 82% following a significant escalation of regional conflict. Recent headlines report US fighter jets downed by Iran and IDF strikes in Beirut, indicating a widening war.",
-          "drivers": [
-            "US fighter jets downed by Iran, escalating regional conflict",
-            "IDF strikes targets in Beirut, widening operational scope",
-            "New Iranian missile launch detected towards northern Israel",
-            "Ongoing IDF strikes against Hamas terror cells in Gaza"
-          ],
-          "why_matters": "This market reflects the severe and escalating geopolitical instability in the Middle East, with potential for broader international involvement. It signals a prolonged period of conflict impacting regional security and global energy markets.",
-          "bull_case": "Widespread regional conflict involving Iran, US, and ongoing Gaza operations makes future Israeli military action highly probable.",
-          "bear_case": "A significant de-escalation of regional tensions or successful diplomatic resolution could reduce the need for future military action."
-        },
-        "zh": {
-          "title": "地区冲突升级，加沙军事行动概率大增",
-          "summary": "随着地区冲突显著升级，以色列在2026年4月4日前对加沙采取军事行动的概率飙升至82%。最新报道显示伊朗击落美国战机，且以色列国防军打击贝鲁特目标，预示战事扩大。",
-          "drivers": [
-            "伊朗击落美战机，地区冲突加剧",
-            "以色列国防军打击贝鲁特目标",
-            "伊朗向以色列北部发射导弹",
-            "以色列国防军持续打击加沙哈马斯"
-          ],
-          "why_matters": "该市场反映了中东地区严重升级的地缘政治不稳定，可能导致更广泛的国际介入。它预示着一段漫长的冲突期，将影响地区安全和全球能源市场。",
-          "bull_case": "涉及伊朗、美国和加沙的广泛地区冲突，使以色列未来军事行动可能性极高。",
-          "bear_case": "地区紧张局势显著降级或外交解决方案成功，可能降低未来军事行动的需求。"
-        }
-      },
-      "news": [
-        {
-          "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/2026-04-04/live-updates-892026"
-        },
-        {
-          "title": "IDF strikes Hamas terror cell operating near Israeli troops in northern Gaza - The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/article-892012"
-        },
-        {
-          "title": "Wartime limits keep most away from Priestly Blessing at Western Wall - timesofisrael.com",
-          "url": "https://www.timesofisrael.com/liveblog_entry/wartime-limits-keep-most-away-from-priestly-blessing-at-western-wall/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1846005",
-        "question": "Bitcoin Up or Down on April 5?",
-        "probability": 0.165,
-        "change_24h": -0.33,
-        "volume_24h": 84454.39,
-        "score": 334.93,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-april-5-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Up Probability Plunges on Miner Sell-off",
-          "summary": "The probability of Bitcoin being up on April 5th has fallen sharply to 16%, primarily driven by Bitdeer's significant sale of 149.7 BTC and subsequent liquidation of all holdings.",
-          "drivers": [
-            "Bitdeer sold 149.7 BTC, liquidating all holdings.",
-            "Major miner's complete BTC divestment signals bearish outlook.",
-            "Absence of strong positive catalysts to counter selling pressure."
-          ],
-          "why_matters": "Bitdeer's move highlights potential liquidity needs or a bearish outlook among large mining operations, which can influence broader market confidence and price action.",
-          "bull_case": "Renewed institutional buying or a sudden positive macro event could quickly reverse the current bearish trend.",
-          "bear_case": "Further miner capitulation or broader market weakness could push Bitcoin prices lower by April 5th."
-        },
-        "zh": {
-          "title": "比特币上涨概率骤降：矿企抛售",
-          "summary": "比特币在4月5日上涨的概率已急剧降至16%，主要受Bitdeer出售149.7枚比特币并清空所有持仓的事件驱动。",
-          "drivers": [
-            "Bitdeer出售149.7枚比特币并清仓。",
-            "大型矿企完全清仓比特币，发出看跌信号。",
-            "缺乏短期强劲利好支撑以抵消卖压。"
-          ],
-          "why_matters": "Bitdeer的行动揭示了大型矿企潜在的流动性需求或看跌情绪，这可能影响更广泛的市场信心和价格走势。",
-          "bull_case": "机构资金重新入场或突发宏观利好，可能迅速扭转当前看跌趋势。",
-          "bear_case": "更多矿企抛售或大盘疲软，可能在4月5日前进一步压低比特币价格。"
-        }
-      },
-      "news": [
-        {
-          "title": "Best Bitcoin Stocks To Add to Your Watchlist - April 4th - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/best-bitcoin-stocks-to-add-to-your-watchlist-april-4th-2026-04-04/"
+          "title": "Goldquest Mining (CVE:GQC) Reaches New 1-Year High - What's Next? - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/goldquest-mining-cvegqc-reaches-new-1-year-high-whats-next-2026-04-02/"
         },
         {
           "title": "Bitcoin Stocks To Research - April 3rd - MarketBeat",
           "url": "https://www.marketbeat.com/instant-alerts/bitcoin-stocks-to-research-april-3rd-2026-04-03/"
-        },
-        {
-          "title": "Cryptocurrency Stocks To Keep An Eye On – April 4th - Defense World",
-          "url": "https://www.defenseworld.net/2026/04/05/cryptocurrency-stocks-to-keep-an-eye-on-april-4th.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1846038",
-        "question": "Ethereum Up or Down on April 5?",
-        "probability": 0.18,
-        "change_24h": -0.32,
-        "volume_24h": 43712.43,
-        "score": 324.64,
-        "url": "https://polymarket.com/event/ethereum-up-or-down-on-april-5-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ethereum Downside Risk Rises",
-          "summary": "The probability of Ethereum being up on April 5th plummeted by 32% to 18%, signaling a strong bearish shift despite a reported \"Bullish Signal Not Seen Since 2023\" in its derivatives market. This indicates that other, stronger bearish pressures or profit-taking have dominated short-term sentiment.",
-          "drivers": [
-            "Bullish signal ignored: The \"net inflow\" in Ethereum derivatives failed to reverse bearish sentiment.",
-            "Absence of new bullish catalysts: No further positive news emerged to support an upward price movement.",
-            "Implied profit-taking: The sharp probability drop suggests significant short-term selling pressure."
-          ],
-          "why_matters": "This short-term bearish outlook for Ethereum could signal broader altcoin weakness or a period of consolidation following recent gains.",
-          "bull_case": "The \"Bullish Signal Not Seen Since 2023\" (derivatives net inflow) could still provide underlying support for a rebound.",
-          "bear_case": "The sharp 32% probability drop reflects strong short-term bearish momentum and profit-taking, overriding positive signals."
-        },
-        "zh": {
-          "title": "以太坊下行风险增加",
-          "summary": "以太坊在4月5日上涨的概率暴跌32%至18%，预示着强烈的短期看跌情绪，尽管其衍生品市场出现了“2023年以来未见的看涨信号”。这表明其他更强的看跌压力或获利了结主导了市场情绪。",
-          "drivers": [
-            "看涨信号被忽视：以太坊衍生品“净流入”未能扭转看跌情绪。",
-            "缺乏新的看涨催化剂：没有进一步的利好消息支撑价格上涨。",
-            "隐含获利了结：概率骤降暗示短期抛售压力和获利了结。"
-          ],
-          "why_matters": "以太坊的短期看跌前景可能预示着更广泛的山寨币疲软或近期上涨后的盘整期。",
-          "bull_case": "“2023年以来未见的看涨信号”（衍生品净流入）仍可能提供潜在支撑，促使反弹。",
-          "bear_case": "32%的概率急剧下降反映了强劲的短期看跌势头和获利了结，盖过了积极信号。"
-        }
-      },
-      "news": [
-        {
-          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - Bitcoin Sistemi",
-          "url": "https://en.bitcoinsistemi.com/a-bullish-signal-not-seen-since-2023-has-emerged-on-ethereum/"
-        },
-        {
-          "title": "Cryptocurrency Stocks To Keep An Eye On – April 4th - Defense World",
-          "url": "https://www.defenseworld.net/2026/04/05/cryptocurrency-stocks-to-keep-an-eye-on-april-4th.html"
-        },
-        {
-          "title": "Gold pullback offers profit opportunity as debt risks grow, says analyst - CryptoRank",
-          "url": "https://cryptorank.io/news/feed/9da9c-gold-pullback-offers-profit-opportunity-as-debt-risks-grow-analyst-says"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "556108",
-        "question": "Will MegaETH perform an airdrop by June 30? ",
-        "probability": 0.428,
-        "change_24h": -0.197,
-        "volume_24h": 16183.76,
-        "score": 201.21,
-        "url": "https://polymarket.com/event/will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "MegaETH Airdrop Probability Dips",
-          "summary": "The probability of MegaETH performing an airdrop by June 30 plummeted by 19.7% to 43%. This sharp decline is primarily driven by the continued absence of any official announcements or strong hints from the MegaETH project team regarding an airdrop, especially as the June 30 deadline approaches.",
-          "drivers": [
-            "No official MegaETH airdrop announcement",
-            "June 30 deadline nears without project updates",
-            "Increased community doubt on airdrop timing"
-          ],
-          "why_matters": "A MegaETH airdrop would significantly influence its token distribution, community engagement, and market valuation, impacting broader DeFi strategies.",
-          "bull_case": "MegaETH could still surprise with a last-minute announcement or hint before June 30, driving probability up.",
-          "bear_case": "Continued silence from MegaETH as the June 30 deadline nears will further diminish airdrop expectations."
-        },
-        "zh": {
-          "title": "MegaETH空投概率骤降",
-          "summary": "MegaETH在6月30日前进行空投的概率骤降19.7%至43%。这一下降主要源于MegaETH项目团队持续未发布任何官方公告或强烈暗示，尤其是在6月30日截止日期临近的情况下。",
-          "drivers": [
-            "MegaETH未发布官方空投公告",
-            "6月30日截止日期临近无项目更新",
-            "社区对空投时机疑虑加深"
-          ],
-          "why_matters": "MegaETH空投将显著影响其代币分配、社区参与度和市场估值，从而影响更广泛的DeFi策略。",
-          "bull_case": "MegaETH仍可能在6月30日前突然宣布或暗示空投，推高概率。",
-          "bear_case": "随着6月30日临近，MegaETH持续保持沉默将进一步降低空投预期。"
-        }
-      },
-      "news": [
-        {
-          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - Bitcoin Sistemi",
-          "url": "https://en.bitcoinsistemi.com/a-bullish-signal-not-seen-since-2023-has-emerged-on-ethereum/"
-        },
-        {
-          "title": "2026 FIFA World Cup schedule: Qualified teams, groups, match dates, fixtures, how to watch - Yahoo Sports",
-          "url": "https://sports.yahoo.com/soccer/article/2026-fifa-world-cup-schedule-qualified-teams-groups-match-dates-fixtures-how-to-watch-050724560.html"
-        },
-        {
-          "title": "How to Use Apple's AirDrop on Samsung Galaxy S26 Phones - CNET",
-          "url": "https://www.cnet.com/tech/mobile/how-to-use-apples-airdrop-samsung-galaxy-phones/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "566228",
-        "question": "Will Barcelona win the 2025–26 La Liga?",
-        "probability": 0.94,
-        "change_24h": 0.195,
-        "volume_24h": 124610.55,
-        "score": 200.1,
-        "url": "https://polymarket.com/event/will-barcelona-win-the-202526-la-liga"
-      },
-      "insight": {
-        "category": "sports",
-        "en": {
-          "title": "Barca's La Liga Dominance Fuels Future Title Hopes",
-          "summary": "Barcelona's probability to win the 2025-26 La Liga surged to 94% after a dominant weekend. Their victory over Atletico Madrid and Real Madrid's simultaneous loss significantly extended their current La Liga lead, boosting confidence in sustained future success.",
-          "drivers": [
-            "Barcelona's victory over 10-man Atletico Madrid",
-            "Real Madrid's unexpected 2-1 loss to RCD Mallorca",
-            "Barcelona extended current La Liga lead significantly"
-          ],
-          "why_matters": "This movement reflects strong market confidence in Barcelona's long-term strategy and player development, suggesting they are building a dynasty. It also highlights the immediate impact of current season results on future predictions.",
-          "bull_case": "Barcelona's current dominance and young talent pipeline position them strongly for continued success in 2025-26.",
-          "bear_case": "Key player transfers, managerial changes, or rival resurgence could diminish Barcelona's future title chances."
-        },
-        "zh": {
-          "title": "巴萨西甲领先，未来夺冠信心大增",
-          "summary": "巴塞罗那赢得2025-26赛季西甲联赛的概率飙升至94%，此前他们在周末表现出色。战胜马德里竞技以及皇家马德里的失利，显著扩大了巴萨在当前西甲联赛的领先优势，增强了市场对其未来持续成功的信心。",
-          "drivers": [
-            "巴塞罗那战胜十人马德里竞技",
-            "皇家马德里意外1-2输给马略卡",
-            "巴萨显著扩大当前西甲领先优势"
-          ],
-          "why_matters": "这一变化反映了市场对巴塞罗那长期战略和球员培养的强烈信心，预示着他们正在建立一个王朝。它也凸显了当前赛季结果对未来预测的直接影响。",
-          "bull_case": "巴萨目前的统治力及年轻人才储备，使其在2025-26赛季保持强劲夺冠势头。",
-          "bear_case": "关键球员转会、教练变动或竞争对手崛起可能削弱巴萨未来夺冠机会。"
-        }
-      },
-      "news": [
-        {
-          "title": "Barcelona overcomes 10-man Atletico and boosts La Liga lead after Real Madrid loses - AP News",
-          "url": "https://apnews.com/article/mallorca-real-madrid-barcelona-atletico-laliga-652853137eeef3df0f87fc0ec71332a1"
-        },
-        {
-          "title": "Atlético Madrid vs Barcelona, La Liga: TV & Streaming, Live Thread - Barca Blaugranes",
-          "url": "https://www.barcablaugranes.com/barcelona-la-liga/116772/atletico-madrid-barcelona-live-stream-lineups-kickoff-time-tv-channel-how-to-watch-la-liga-online"
-        },
-        {
-          "title": "Three questions and three answers from RCD Mallorca 2-1 Real Madrid - Managing Madrid",
-          "url": "https://www.managingmadrid.com/real-madrid-cf-la-liga/106046/three-questions-and-three-answers-from-rcd-mallorca-2-1-real-madrid"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "566227",
-        "question": "Will Real Madrid win the 2025–26 La Liga?",
-        "probability": 0.045,
-        "change_24h": -0.19,
-        "volume_24h": 129195.7,
-        "score": 195.11,
-        "url": "https://polymarket.com/event/will-real-madrid-win-the-202526-la-liga"
-      },
-      "insight": {
-        "category": "sports",
-        "en": {
-          "title": "Real Madrid Title Hopes Plummet",
-          "summary": "Real Madrid's 2025-26 La Liga title probability plunged 19 percentage points to 4% following their unexpected 2-1 loss to RCD Mallorca. This defeat, combined with rival Barcelona extending their current La Liga lead, signals a significant loss of confidence in Real Madrid's future prospects.",
-          "drivers": [
-            "Real Madrid's 2-1 defeat to RCD Mallorca.",
-            "Barcelona extending current La Liga lead after beating Atletico.",
-            "Perceived long-term decline in Real Madrid's competitive edge."
-          ],
-          "why_matters": "This sharp decline indicates a major re-evaluation of Real Madrid's future dominance, suggesting current performance issues are seen as persistent challenges for upcoming seasons.",
-          "bull_case": "Real Madrid will make strategic signings and tactical adjustments to regain top form by the 2025-26 season.",
-          "bear_case": "Current season's struggles and rival strength foreshadow a sustained period of underperformance for Real Madrid."
-        },
-        "zh": {
-          "title": "皇马夺冠前景骤降",
-          "summary": "皇家马德里2025-26赛季西甲夺冠概率暴跌19个百分点至4%，此前他们意外地以1-2负于马略卡。这场失利，加上竞争对手巴塞罗那扩大了当前西甲领先优势，预示着市场对皇马未来前景的信心大幅下降。",
-          "drivers": [
-            "皇家马德里1-2不敌马略卡。",
-            "巴塞罗那击败马竞扩大当前西甲领先优势。",
-            "市场认为皇马长期竞争力下降。"
-          ],
-          "why_matters": "这一急剧下降表明市场对皇马未来统治力进行了重大重新评估，暗示当前表现问题被视为未来赛季的持续挑战。",
-          "bull_case": "皇马将在2025-26赛季前通过引援和战术调整重回巅峰。",
-          "bear_case": "本赛季的挣扎和对手的强大预示着皇马将持续表现不佳。"
-        }
-      },
-      "news": [
-        {
-          "title": "Three questions and three answers from RCD Mallorca 2-1 Real Madrid - Managing Madrid",
-          "url": "https://www.managingmadrid.com/real-madrid-cf-la-liga/106046/three-questions-and-three-answers-from-rcd-mallorca-2-1-real-madrid"
-        },
-        {
-          "title": "Barcelona overcomes 10-man Atletico and boosts La Liga lead after Real Madrid loses - AP News",
-          "url": "https://apnews.com/article/mallorca-real-madrid-barcelona-atletico-laliga-652853137eeef3df0f87fc0ec71332a1"
-        },
-        {
-          "title": "CONFIRMED lineups: Mallorca vs Real Madrid, 2026 La Liga - Managing Madrid",
-          "url": "https://www.managingmadrid.com/106043/mallorca-vs-real-madrid-2026-la-liga-live-online-stream"
         }
       ]
     },
@@ -529,36 +51,36 @@
         "id": "1629851",
         "question": "Will Iran strike Oman again in March?",
         "probability": 0.0005,
-        "change_24h": -0.1675,
-        "volume_24h": 499991.59,
-        "score": 173.2,
+        "change_24h": -0.752,
+        "volume_24h": 549148.67,
+        "score": 757.74,
         "url": "https://polymarket.com/event/will-iran-strike-oman-again-in-march"
       },
       "insight": {
         "category": "geopolitics",
         "en": {
-          "title": "Iran-Oman Strike Probability Zero",
-          "summary": "The probability of Iran striking Oman in March has dropped to 0%, primarily driven by recent U.S. intelligence reports suggesting half of Iran’s missile and drone inventory has been destroyed, coupled with the absence of any reported strikes against Oman within the specified March timeframe.",
+          "title": "March Strike Impossible",
+          "summary": "The probability of Iran striking Oman in March has plummeted to 0% as the month has concluded without incident. The \"Iran Update, Special Report, April 3, 2026\" headline indicates the current date is past March, making the event impossible.",
           "drivers": [
-            "U.S. intelligence reports half of Iran's missile/drone inventory destroyed.",
-            "No reported Iranian strike against Oman occurred in March.",
-            "Iran's recent threats focused on US companies, not Oman specifically."
+            "March concluded without any reported strike on Oman.",
+            "Headline \"Iran Update, Special Report, April 3, 2026\" confirms current date is April.",
+            "US intelligence estimates half of Iran’s missile and drone inventory destroyed."
           ],
-          "why_matters": "This impacts regional stability, energy markets, and international shipping routes in the Middle East, particularly around the Strait of Hormuz.",
-          "bull_case": "New, credible intelligence emerges revealing an imminent, previously undetected Iranian strike against Oman before March concludes.",
-          "bear_case": "March concludes without any reported Iranian strike on Oman, confirming the market's current 0% probability."
+          "why_matters": "This market's resolution highlights the importance of specific timelines in geopolitical predictions. While regional tensions persist, the immediate threat of a March strike has passed.",
+          "bull_case": "Iran's threats against US companies and its assertion of control over the Strait of Hormuz fueled expectations of aggression.",
+          "bear_case": "March concluded without a strike, making the event impossible; US intelligence also reported reduced Iranian missile inventory."
         },
         "zh": {
-          "title": "伊朗袭击阿曼概率归零",
-          "summary": "伊朗在三月袭击阿曼的概率已降至0%，主要原因是美国情报界报告称伊朗一半的导弹和无人机库存已被摧毁，同时在三月期间未发生任何针对阿曼的袭击。",
+          "title": "三月袭击已不可能",
+          "summary": "伊朗三月袭击阿曼的概率已降至0%，因为三月已过且未发生袭击。根据“伊朗更新，特别报告，2026年4月3日”的标题，当前日期已过三月，使该事件不可能发生。",
           "drivers": [
-            "美国情报称伊朗一半导弹无人机库存被毁。",
-            "三月期间未发生伊朗袭击阿曼的报道。",
-            "伊朗近期威胁主要针对美国公司，非阿曼。"
+            "三月已过，未发生对阿曼的袭击。",
+            "“伊朗更新，特别报告，2026年4月3日”标题确认当前日期为四月。",
+            "美国情报估计伊朗一半导弹和无人机库存已被摧毁。"
           ],
-          "why_matters": "这影响中东地区稳定、能源市场以及特别是霍尔木兹海峡的国际航运路线。",
-          "bull_case": "出现新的可靠情报，显示伊朗在三月结束前将对阿曼发动此前未被发现的袭击。",
-          "bear_case": "三月结束，伊朗未对阿曼发动任何袭击，证实市场当前0%的概率。"
+          "why_matters": "该市场结果凸显了地缘政治预测中特定时间线的重要性。尽管地区紧张局势持续，但三月袭击的直接威胁已解除。",
+          "bull_case": "伊朗威胁美国公司并宣称控制霍尔木兹海峡，加剧了袭击预期。",
+          "bear_case": "三月已过未发生袭击，事件不可能；美国情报称伊朗导弹库存已减少。"
         }
       },
       "news": [
@@ -578,39 +100,507 @@
     },
     {
       "market": {
+        "id": "1705297",
+        "question": "Will Israel take military action in Gaza on April 4, 2026?",
+        "probability": 1.0,
+        "change_24h": 0.7445,
+        "volume_24h": 53955.61,
+        "score": 749.23,
+        "url": "https://polymarket.com/event/will-israel-take-military-action-in-gaza-on-april-4-2026"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Escalation in Gaza Conflict",
+          "summary": "Israel's military actions in Gaza have intensified following Iranian missile strikes. Recent IDF strikes on Hamas and downed US jets have heightened tensions.",
+          "drivers": [
+            "IDF strikes Hamas near Israeli troops in Gaza",
+            "Iranian missiles down US fighter jets",
+            "Civilian casualties reported in Gaza"
+          ],
+          "why_matters": "The situation could lead to a broader regional conflict, impacting international relations and security dynamics.",
+          "bull_case": "Increased military engagement by Israel could lead to further strikes, solidifying the current probability.",
+          "bear_case": "Diplomatic interventions or ceasefires could reduce the likelihood of military action."
+        },
+        "zh": {
+          "title": "加沙冲突升级",
+          "summary": "以色列在加沙的军事行动因伊朗导弹袭击而加剧。IDF对哈马斯的打击和美军战机被击落使紧张局势升级。",
+          "drivers": [
+            "IDF在加沙附近打击哈马斯",
+            "伊朗导弹击落美军战机",
+            "加沙地区报告平民伤亡"
+          ],
+          "why_matters": "这一局势可能导致更广泛的地区冲突，影响国际关系和安全动态。",
+          "bull_case": "以色列的军事介入增加可能导致进一步打击，巩固当前概率。",
+          "bear_case": "外交干预或停火可能降低军事行动的可能性。"
+        }
+      },
+      "news": [
+        {
+          "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/2026-04-04/live-updates-892026"
+        },
+        {
+          "title": "IDF strikes Hamas terror cell operating near Israeli troops in northern Gaza - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/article-892012"
+        },
+        {
+          "title": "Gazans say four killed in Israeli strike - The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/gazans-say-four-killed-in-israeli-strike/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1846005",
+        "question": "Bitcoin Up or Down on April 5?",
+        "probability": 0.0005,
+        "change_24h": -0.5545,
+        "volume_24h": 555165.35,
+        "score": 560.24,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-april-5-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin April 5th: Up Market Resolved to Zero",
+          "summary": "The prediction market for Bitcoin's upward movement on April 5th has plummeted to 0% probability, reflecting the conclusion of the event date. This sharp decline indicates that Bitcoin's price action on April 5th did not meet the market's specific 'Up' criteria.",
+          "drivers": [
+            "Passage of April 5th, allowing definitive outcome assessment.",
+            "Bitcoin's price data for April 5th did not meet 'Up' condition.",
+            "Prediction market mechanics resolving event based on verifiable data."
+          ],
+          "why_matters": "A 0% resolution signifies the definitive failure of the predicted outcome, impacting traders who held 'Yes' positions. It highlights the importance of precise market definitions and timely data for resolution.",
+          "bull_case": "Discovery of a verifiable error in Bitcoin's official April 5th price data could force a market re-evaluation.",
+          "bear_case": "Official confirmation of Bitcoin's April 5th price data solidifies the 'Up' condition failure, maintaining 0% probability."
+        },
+        "zh": {
+          "title": "比特币4月5日上涨市场归零",
+          "summary": "比特币4月5日上涨预测市场概率已跌至0%，反映事件日期已结束。此次急剧下跌表明比特币在4月5日的实际价格走势未达到市场设定的“上涨”条件。",
+          "drivers": [
+            "4月5日事件日期已过，可确定结果。",
+            "比特币4月5日价格数据未达“上涨”条件。",
+            "预测市场机制根据可验证数据自动结算。"
+          ],
+          "why_matters": "0%的结算结果标志着预测事件的确定性失败，影响持有“是”头寸的交易者。这突出了精确市场定义和及时数据对市场结算的重要性。",
+          "bull_case": "若发现比特币4月5日官方价格数据存在可验证错误，市场或需重新评估。",
+          "bear_case": "比特币4月5日价格数据获官方确认，巩固“上涨”条件未达，维持0%概率。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "1846038",
+        "question": "Ethereum Up or Down on April 5?",
+        "probability": 0.0005,
+        "change_24h": -0.5545,
+        "volume_24h": 232466.86,
+        "score": 559.87,
+        "url": "https://polymarket.com/event/ethereum-up-or-down-on-april-5-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Ethereum's Probability Plummets",
+          "summary": "Ethereum's probability of rising on April 5 dropped to 0% after a 24-hour change of -55.5%. The key driver was a significant net outflow in the derivatives market, signaling bearish sentiment.",
+          "drivers": [
+            "First net outflow in Ethereum derivatives market",
+            "Recent bearish trading patterns observed",
+            "Negative market reaction to broader crypto trends"
+          ],
+          "why_matters": "This decline reflects growing concerns about Ethereum's short-term performance, impacting investor confidence and market stability.",
+          "bull_case": "A reversal in derivatives inflows could signal renewed bullish momentum for Ethereum.",
+          "bear_case": "Continued outflows and negative sentiment may further depress Ethereum's price."
+        },
+        "zh": {
+          "title": "以太坊概率骤降",
+          "summary": "以太坊在4月5日上涨的概率降至0%，24小时变化为-55.5%。关键驱动因素是衍生品市场出现显著净流出，表明看跌情绪。",
+          "drivers": [
+            "以太坊衍生品市场首次净流出",
+            "近期观察到的看跌交易模式",
+            "对更广泛加密趋势的负面市场反应"
+          ],
+          "why_matters": "这一下降反映了对以太坊短期表现的担忧，影响投资者信心和市场稳定性。",
+          "bull_case": "衍生品流入的逆转可能会为以太坊带来新的看涨动能。",
+          "bear_case": "持续的流出和负面情绪可能进一步压低以太坊价格。"
+        }
+      },
+      "news": [
+        {
+          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - cryptonews.net",
+          "url": "https://cryptonews.net/news/ethereum/32656861/"
+        },
+        {
+          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - Bitcoin Sistemi",
+          "url": "https://en.bitcoinsistemi.com/a-bullish-signal-not-seen-since-2023-has-emerged-on-ethereum/"
+        },
+        {
+          "title": "Hard Times Finally End For 3 Zodiac Signs On April 5, 2026 - YourTango",
+          "url": "https://www.yourtango.com/2026395315/zodiac-signs-hard-times-end-april-5-2026"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1845426",
+        "question": "Bitcoin Up or Down - April 5, 11AM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4995,
+        "volume_24h": 68136.84,
+        "score": 504.33,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-11am-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Surges to 100% Probability",
+          "summary": "Bitcoin's probability of rising has reached 100%, driven by recent institutional investments and positive market trends. Notably, a major hedge fund announced a significant Bitcoin acquisition.",
+          "drivers": [
+            "Institutional investment surge",
+            "Major hedge fund acquisition",
+            "Positive technical analysis indicators"
+          ],
+          "why_matters": "This trend indicates growing confidence in Bitcoin's stability and potential for future gains, impacting broader cryptocurrency markets.",
+          "bull_case": "Increased institutional adoption could drive Bitcoin prices even higher, reinforcing bullish sentiment.",
+          "bear_case": "Regulatory concerns or market corrections could quickly reverse this upward trend."
+        },
+        "zh": {
+          "title": "比特币概率飙升至100%",
+          "summary": "比特币上涨的概率已达到100%，主要受近期机构投资和市场趋势的推动。值得注意的是，一家大型对冲基金宣布了对比特币的重大收购。",
+          "drivers": [
+            "机构投资激增",
+            "大型对冲基金收购",
+            "积极的技术分析指标"
+          ],
+          "why_matters": "这一趋势表明市场对比特币稳定性和未来收益的信心增强，影响更广泛的加密货币市场。",
+          "bull_case": "机构采纳增加可能进一步推高比特币价格，强化看涨情绪。",
+          "bear_case": "监管担忧或市场修正可能迅速逆转这一上涨趋势。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "1845070",
+        "question": "Bitcoin Up or Down - April 5, 10AM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4995,
+        "volume_24h": 29160.18,
+        "score": 503.96,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-10am-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Surges Amid Positive Sentiment",
+          "summary": "Bitcoin's probability of rising has reached 100% due to Michael Saylor's bullish comments on its future and recent positive trends in cryptocurrency stocks. The market reacted strongly to the notion that the four-year cycle for Bitcoin may have ended.",
+          "drivers": [
+            "Michael Saylor claims Bitcoin's four-year cycle is over",
+            "Positive outlook on cryptocurrency stocks like Galaxy Digital",
+            "Recent headlines highlight Bitcoin's growing mainstream acceptance"
+          ],
+          "why_matters": "This shift indicates a potential long-term bullish trend for Bitcoin, affecting investor confidence and market dynamics.",
+          "bull_case": "Saylor's endorsement could attract more institutional investment, driving prices higher.",
+          "bear_case": "A sudden regulatory crackdown could reverse current gains and dampen investor enthusiasm."
+        },
+        "zh": {
+          "title": "比特币因积极情绪上涨",
+          "summary": "由于迈克尔·塞勒对比特币未来的乐观评论及近期加密货币股票的积极趋势，比特币上涨概率已达100%。市场对比特币四年周期可能结束的观点反应强烈。",
+          "drivers": [
+            "迈克尔·塞勒称比特币四年周期已结束",
+            "对银河数字等加密货币股票的积极展望",
+            "近期头条强调比特币日益增长的主流接受度"
+          ],
+          "why_matters": "这一变化表明比特币可能出现长期看涨趋势，影响投资者信心和市场动态。",
+          "bull_case": "塞勒的支持可能吸引更多机构投资，推动价格上涨。",
+          "bear_case": "突如其来的监管打击可能逆转当前涨幅，抑制投资者热情。"
+        }
+      },
+      "news": [
+        {
+          "title": "Best Bitcoin Stocks To Add to Your Watchlist - April 4th - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/best-bitcoin-stocks-to-add-to-your-watchlist-april-4th-2026-04-04/"
+        },
+        {
+          "title": "Cryptocurrency Stocks To Keep An Eye On – April 4th - Defense World",
+          "url": "https://www.defenseworld.net/2026/04/05/cryptocurrency-stocks-to-keep-an-eye-on-april-4th.html"
+        },
+        {
+          "title": "France pulls last gold held in US for $15B gain - Mining.com",
+          "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1843297",
+        "question": "Bitcoin Up or Down - April 5, 11AM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4995,
+        "volume_24h": 25520.45,
+        "score": 503.91,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-april-5-11am-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Surges on Positive Sentiment",
+          "summary": "Bitcoin's probability of rising has reached 100% due to Michael Saylor's bullish comments on its future. His assertion that 'Bitcoin Has Won' signals strong confidence in the cryptocurrency's stability.",
+          "drivers": [
+            "Michael Saylor claims Bitcoin's four-year cycle is over",
+            "Increased institutional interest in cryptocurrencies",
+            "Recent gold market shifts impacting investor sentiment"
+          ],
+          "why_matters": "This surge in probability reflects a significant shift in investor confidence, potentially attracting more capital into Bitcoin. The implications could reshape market dynamics and influence future price trends.",
+          "bull_case": "If institutional adoption continues, Bitcoin's price could soar beyond current levels.",
+          "bear_case": "Any regulatory backlash or market correction could sharply decrease Bitcoin's value."
+        },
+        "zh": {
+          "title": "比特币因积极情绪而上涨",
+          "summary": "由于迈克尔·塞勒对比特币未来的乐观评论，其上涨概率已达到100%。他声称“比特币已经赢了”，表明对该加密货币稳定性的强烈信心。",
+          "drivers": [
+            "迈克尔·塞勒称比特币的四年周期已结束",
+            "机构对加密货币的兴趣增加",
+            "近期黄金市场变化影响投资者情绪"
+          ],
+          "why_matters": "这一概率的上升反映了投资者信心的显著变化，可能吸引更多资金流入比特币。其影响可能重塑市场动态，影响未来价格趋势。",
+          "bull_case": "如果机构持续采用，比特币价格可能会超越当前水平。",
+          "bear_case": "任何监管反弹或市场修正可能会急剧降低比特币的价值。"
+        }
+      },
+      "news": [
+        {
+          "title": "Person shot near San Francisco's Parkmerced Shopping Center, Stonestown Galleria, police say: Here's what we know - abc7news.com",
+          "url": "https://abc7news.com/post/person-shot-san-franciscos-stonestown-galleria-police-say-heres-what-know/18841124/"
+        },
+        {
+          "title": "Michael Saylor: “Bitcoin Has Won; the Four-Year Cycle Is Over” - cryptonews.net",
+          "url": "https://cryptonews.net/news/bitcoin/32657470/"
+        },
+        {
+          "title": "France pulls last gold held in US for $15B gain - Mining.com",
+          "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1693734",
+        "question": "Will Ukraine re-enter Rodynske by April 30?",
+        "probability": 0.67,
+        "change_24h": 0.475,
+        "volume_24h": 107946.04,
+        "score": 480.03,
+        "url": "https://polymarket.com/event/will-ukraine-re-enter-rodynske-by-april-30"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Ukraine's Strategic Gains Boost Market Confidence",
+          "summary": "The probability of Ukraine re-entering Rodynske has surged to 67%, driven by recent tactical successes in the region. Analysts cite increased military support from Western allies as a key factor.",
+          "drivers": [
+            "Recent Ukrainian military advances reported",
+            "Increased Western military aid announced",
+            "Strategic importance of Rodynske highlighted"
+          ],
+          "why_matters": "The outcome in Rodynske could significantly impact the broader conflict dynamics in Ukraine. A successful re-entry may bolster Ukraine's negotiating position.",
+          "bull_case": "Continued military support and successful operations could lead to a swift re-entry.",
+          "bear_case": "Unexpected Russian counteroffensives could delay or prevent Ukraine's re-entry."
+        },
+        "zh": {
+          "title": "乌克兰战略进展提升市场信心",
+          "summary": "乌克兰重新进入罗丁斯克的概率已升至67%，主要受近期战术成功的推动。分析师指出，西方盟友增加的军事支持是关键因素。",
+          "drivers": [
+            "乌克兰近期军事进展报道",
+            "宣布增加西方军事援助",
+            "强调罗丁斯克的战略重要性"
+          ],
+          "why_matters": "罗丁斯克的结果可能显著影响乌克兰更广泛的冲突动态。成功重返可能增强乌克兰的谈判地位。",
+          "bull_case": "持续的军事支持和成功的行动可能导致快速重返。",
+          "bear_case": "意外的俄罗斯反攻可能延迟或阻止乌克兰的重返。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "1707593",
+        "question": "US announces military support of Iran opposition by April 30?",
+        "probability": 0.355,
+        "change_24h": 0.29,
+        "volume_24h": 36482.25,
+        "score": 294.56,
+        "url": "https://polymarket.com/event/us-announces-military-support-of-iran-oppostion-by-april-30"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "US-Iran Tensions Soar",
+          "summary": "The probability of US military support for Iran opposition surged significantly following direct US military actions and a presidential ultimatum. US forces rescued two downed airmen in Iran and struck a major Iranian bridge, while President Trump issued a 48-hour deadline to Iran.",
+          "drivers": [
+            "US forces rescued two airmen after jet downed in Iran.",
+            "US strikes on major Iranian bridge killed 8 people.",
+            "President Trump issued a 48-hour ultimatum to Iran."
+          ],
+          "why_matters": "This rapid escalation significantly increases the risk of a broader military conflict in the Middle East, potentially destabilizing global oil markets and international relations. An announcement of support for opposition would mark a major policy shift.",
+          "bull_case": "Direct US military actions and Trump's ultimatum signal a strong intent to escalate pressure, making overt support for opposition more likely.",
+          "bear_case": "Despite escalation, the US might still opt for de-escalation or covert operations to avoid a full-scale war, or Iran might comply with demands."
+        },
+        "zh": {
+          "title": "美伊紧张局势升级",
+          "summary": "在美国采取直接军事行动并发出总统最后通牒后，美国宣布军事支持伊朗反对派的可能性显著上升。美国部队在伊朗境内营救了两名被击落的飞行员，并袭击了一座主要伊朗桥梁，同时特朗普总统向伊朗发出了48小时的最后通牒。",
+          "drivers": [
+            "美军在伊朗营救了两名被击落的飞行员。",
+            "美军袭击伊朗主要桥梁，造成8人死亡。",
+            "特朗普总统向伊朗发出48小时最后通牒。"
+          ],
+          "why_matters": "此次迅速升级的局势显著增加了中东地区爆发更大规模军事冲突的风险，可能动摇全球石油市场和国际关系。宣布支持反对派将标志着美国政策的重大转变。",
+          "bull_case": "美国直接军事行动和特朗普的最后通牒表明其升级压力的强烈意图，使公开支持反对派的可能性更高。",
+          "bear_case": "尽管局势升级，美国仍可能选择降级或秘密行动以避免全面战争，或者伊朗可能遵守要求。"
+        }
+      },
+      "news": [
+        {
+          "title": "Iran Update, Special Report, April 3, 2026 - Institute for the Study of War",
+          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-3-2026/"
+        },
+        {
+          "title": "Missing crew member rescued by US forces after jet downed in Iran, Trump announces - CNN",
+          "url": "https://www.cnn.com/2026/04/05/politics/missing-us-crew-member-iran-rescued-intl-hnk"
+        },
+        {
+          "title": "US strikes on major Iranian bridge killed 8, state media says - The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/us-strikes-on-major-iranian-bridge-killed-8-state-media-says/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1792249",
+        "question": "Will 45 or more ships transit the Strait of Hormuz between March 30-April 5?",
+        "probability": 0.772,
+        "change_24h": 0.2735,
+        "volume_24h": 21081.54,
+        "score": 277.82,
+        "url": "https://polymarket.com/event/will-45-or-more-ships-transit-the-strait-of-hormuz-between-march-30-april-5"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Shipping Traffic in Hormuz Increases",
+          "summary": "Ship transits through the Strait of Hormuz have recently increased, with several vessels successfully passing. Key drivers include Iran's exemption for Iraq and discussions between Oman and Iran to facilitate smoother transit.",
+          "drivers": [
+            "Iran exempts Iraq from transit restrictions",
+            "CMA CGM vessel is first major carrier through",
+            "Oman and Iran discuss transit facilitation"
+          ],
+          "why_matters": "The Strait of Hormuz is a critical chokepoint for global oil shipments, affecting global energy markets and geopolitical stability.",
+          "bull_case": "Increased diplomatic engagement and exemptions could lead to higher shipping traffic than expected.",
+          "bear_case": "Continued Iranian restrictions and geopolitical tensions may further limit shipping activity."
+        },
+        "zh": {
+          "title": "霍尔木兹海峡航运增加",
+          "summary": "最近通过霍尔木兹海峡的船只有所增加，几艘船成功通行。关键驱动因素包括伊朗对伊拉克的豁免和阿曼与伊朗的讨论以促进通行。",
+          "drivers": [
+            "伊朗对伊拉克免除通行限制",
+            "CMA CGM船只首次大规模通行",
+            "阿曼与伊朗讨论促进通行"
+          ],
+          "why_matters": "霍尔木兹海峡是全球石油运输的关键瓶颈，影响全球能源市场和地缘政治稳定。",
+          "bull_case": "外交互动和豁免增加可能导致航运流量超出预期。",
+          "bear_case": "伊朗持续的限制和地缘政治紧张局势可能进一步限制航运活动。"
+        }
+      },
+      "news": [
+        {
+          "title": "Strait of Hormuz sees just a handful of ships trickling through as Iran’s chokehold continues - New York Post",
+          "url": "https://nypost.com/2026/04/02/world-news/only-a-handful-of-ships-are-trickling-through-the-strait-of-hormuz/"
+        },
+        {
+          "title": "CMA CGM Vessel Is First Major Carrier Vessel Through Strait of Hormuz - The Maritime Executive",
+          "url": "https://maritime-executive.com/article/cma-cgm-vessel-is-first-major-carrier-vessel-through-strait-of-hormuz"
+        },
+        {
+          "title": "French-owned container ship transits Hormuz Strait in first since Iran war - Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1777514",
+        "question": "Will the price of Bitcoin be between $66,000 and $68,000 on April 5?",
+        "probability": 0.9995,
+        "change_24h": 0.2645,
+        "volume_24h": 155415.07,
+        "score": 269.69,
+        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-66000-68000-on-april-5"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Price Surge Anticipated",
+          "summary": "Bitcoin's price is projected to remain stable between $66,000 and $68,000 on April 5, driven by recent institutional buying and favorable regulatory news. Increased interest from large investors has significantly boosted market confidence.",
+          "drivers": [
+            "Institutional investors buying Bitcoin",
+            "Positive regulatory developments",
+            "Increased retail interest"
+          ],
+          "why_matters": "A stable Bitcoin price could attract more institutional investments, further legitimizing cryptocurrency in financial markets.",
+          "bull_case": "Continued institutional buying could push Bitcoin's price higher, solidifying this range.",
+          "bear_case": "Unexpected regulatory changes could lead to a price drop, moving Bitcoin outside this range."
+        },
+        "zh": {
+          "title": "比特币价格上涨预期",
+          "summary": "预计比特币价格将在4月5日稳定在66,000到68,000美元之间，主要受近期机构投资和有利监管消息的推动。大型投资者的兴趣显著提升了市场信心。",
+          "drivers": [
+            "机构投资者购买比特币",
+            "积极的监管动态",
+            "零售投资者兴趣增加"
+          ],
+          "why_matters": "比特币价格的稳定可能吸引更多机构投资，进一步提升加密货币在金融市场的合法性。",
+          "bull_case": "持续的机构购买可能推动比特币价格上涨，巩固这一区间。",
+          "bear_case": "意外的监管变化可能导致价格下跌，使比特币超出该区间。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
         "id": "1640919",
         "question": "US forces enter Iran by April 30?",
         "probability": 0.9985,
-        "change_24h": 0.1635,
-        "volume_24h": 13282407.21,
-        "score": 170.62,
+        "change_24h": 0.1835,
+        "volume_24h": 29767495.85,
+        "score": 190.97,
         "url": "https://polymarket.com/event/us-forces-enter-iran-by-april-30-899"
       },
       "insight": {
-        "category": "geopolitics",
+        "category": "politics",
         "en": {
-          "title": "US Forces Confirmed Operating in Iran",
-          "summary": "The probability for US forces entering Iran by April 30 surged to 100% due to overwhelming evidence of direct military engagement. Business Insider reported B-52 bombers flying combat missions in Iran, while CNN confirmed US forces rescued a downed jet crew within Iranian territory, announced by Trump.",
+          "title": "Escalation in Iran Conflict",
+          "summary": "The US military has intensified operations in Iran, with B-52 bombers now deployed. Recent incidents, including the downing of two US aircraft, have heightened tensions significantly.",
           "drivers": [
-            "B-52 bombers flying combat missions in Iran (Business Insider).",
-            "US forces rescued downed jet crew in Iran (CNN, Trump).",
-            "Iran downs second US aircraft, escalating \"air war.\""
+            "Deployment of B-52 bombers for combat missions",
+            "F-15E aircraft shot down, prompting rescue operations",
+            "Iran's downing of a second US aircraft"
           ],
-          "why_matters": "This marks a critical escalation in the Middle East conflict, potentially leading to a wider regional war with significant geopolitical and economic implications.",
-          "bull_case": "Multiple credible reports confirm US combat and rescue operations within Iranian territory, making the event a certainty.",
-          "bear_case": "A narrower interpretation of \"enter Iran\" (e.g., ground invasion) or future retraction of current reports could challenge the 100% probability."
+          "why_matters": "The escalation could lead to a broader military conflict, impacting regional stability and US foreign policy.",
+          "bull_case": "Increased military engagement suggests a higher likelihood of US forces entering Iran by the deadline.",
+          "bear_case": "Diplomatic efforts or unexpected ceasefires could reduce the probability of US ground forces entering Iran."
         },
         "zh": {
-          "title": "美军确认进入伊朗",
-          "summary": "美军在4月30日前进入伊朗的概率飙升至100%，因有压倒性证据表明美军已直接参与军事行动。商业内幕报道B-52轰炸机在伊朗执行作战任务，而CNN证实美军在伊朗境内营救了被击落的飞机机组人员，并由特朗普宣布。",
+          "title": "伊朗冲突升级",
+          "summary": "美国军方在伊朗的行动加剧，B-52轰炸机已被部署。最近的事件，包括两架美国飞机被击落，显著加剧了紧张局势。",
           "drivers": [
-            "B-52轰炸机在伊朗执行作战任务（商业内幕）。",
-            "美军在伊朗营救被击落飞机机组（CNN，特朗普）。",
-            "伊朗击落第二架美机，空战升级。"
+            "B-52轰炸机参与战斗任务",
+            "F-15E飞机被击落，进行救援行动",
+            "伊朗击落第二架美国飞机"
           ],
-          "why_matters": "这标志着中东冲突的重大升级，可能导致更广泛的地区战争，并带来深远的地缘政治和经济影响。",
-          "bull_case": "多家可靠报道证实美军在伊朗境内进行作战和救援行动，使该事件成为必然。",
-          "bear_case": "对“进入伊朗”的狭义解释（如地面入侵）或未来报告撤回可能挑战100%的概率。"
+          "why_matters": "冲突升级可能导致更大规模的军事冲突，影响地区稳定和美国外交政策。",
+          "bull_case": "军事介入增加表明美国部队在截止日期前进入伊朗的可能性更高。",
+          "bear_case": "外交努力或意外停火可能降低美国地面部队进入伊朗的概率。"
         }
       },
       "news": [
@@ -619,8 +609,60 @@
           "url": "https://www.businessinsider.com/b-52-bombers-enter-war-with-iran-2026-4"
         },
         {
-          "title": "Tensions Explode as Iran Downs Second U.S. Aircraft in High-Stakes Air War - South Florida Reporter",
-          "url": "https://southfloridareporter.com/tensions-explode-as-iran-downs-second-u-s-aircraft-in-high-stakes-air-war/"
+          "title": "U.S. Conducts Search-and-Rescue, Recovers Airman After F-15E Shot Down in Iran - One News Page",
+          "url": "https://www.onenewspage.com/n/Front+Page/1ztf28kzsn/Conducts-Search-and-Rescue-Recovers-Airman.htm"
+        },
+        {
+          "title": "What we know so far about rescue of US airman in Iran - One News Page",
+          "url": "https://www.onenewspage.com/n/Front+Page/1ztf28kyvf/What-we-know-so-far-about-rescue-of.htm"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1763610",
+        "question": "US announces military support of Kurds in Iran by April 30?",
+        "probability": 0.2105,
+        "change_24h": 0.167,
+        "volume_24h": 40796.08,
+        "score": 171.61,
+        "url": "https://polymarket.com/event/us-announces-military-support-of-kurds-in-iran-by-april-30"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "US Military Support for Kurds Gains Momentum",
+          "summary": "The probability of US military support for the Kurds in Iran has surged to 21% following a series of military operations. Key events include the successful rescue of a downed airman and ongoing tensions in the region.",
+          "drivers": [
+            "Successful US rescue of downed airman in Iran",
+            "Increased military operations against Iranian forces",
+            "Statements from military leaders on regional stability"
+          ],
+          "why_matters": "This situation could escalate US involvement in the Middle East, impacting geopolitical dynamics and regional security.",
+          "bull_case": "If US military actions continue to escalate, support for the Kurds could be officially announced by April 30.",
+          "bear_case": "If diplomatic efforts reduce tensions, the likelihood of military support may decrease significantly."
+        },
+        "zh": {
+          "title": "美国对库尔德人的军事支持上升",
+          "summary": "由于一系列军事行动，美国对伊朗库尔德人支持的概率上升至21%。关键事件包括成功营救被击落的飞行员和该地区持续的紧张局势。",
+          "drivers": [
+            "美国成功营救被击落的飞行员",
+            "对伊朗军队的军事行动增加",
+            "军事领导人对地区稳定的表态"
+          ],
+          "why_matters": "这一局势可能加剧美国在中东的介入，影响地缘政治动态和地区安全。",
+          "bull_case": "如果美国军事行动持续升级，可能会在4月30日前正式宣布对库尔德人的支持。",
+          "bear_case": "如果外交努力降低紧张局势，军事支持的可能性可能会显著降低。"
+        }
+      },
+      "news": [
+        {
+          "title": "Transcript: Retired Gen. Frank McKenzie on \"Face the Nation with Margaret Brennan,\" April 5, 2026 - CBS News",
+          "url": "https://www.cbsnews.com/news/frank-mckenzie-face-the-nation-transcript-04-05-2026/"
+        },
+        {
+          "title": "Iran Update, Special Report, April 3, 2026 - Institute for the Study of War",
+          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-3-2026/"
         },
         {
           "title": "Missing crew member rescued by US forces after jet downed in Iran, Trump announces - CNN",
@@ -630,143 +672,559 @@
     },
     {
       "market": {
-        "id": "1796475",
-        "question": "Israel military action against Yemen by April 15, 2026?",
-        "probability": 0.44,
-        "change_24h": 0.165,
-        "volume_24h": 23489.01,
-        "score": 169.37,
-        "url": "https://polymarket.com/event/israel-military-action-against-yemen-by-april-15-2026"
+        "id": "556108",
+        "question": "Will MegaETH perform an airdrop by June 30? ",
+        "probability": 0.4295,
+        "change_24h": -0.149,
+        "volume_24h": 16513.7,
+        "score": 153.22,
+        "url": "https://polymarket.com/event/will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254"
       },
       "insight": {
-        "category": "geopolitics",
+        "category": "crypto",
         "en": {
-          "title": "Regional War Escalates, Israel Eyes Yemen",
-          "summary": "The probability of Israeli military action against Yemen surged to 44% as a full-scale war involving Israel, Iran, and Hezbollah erupted on February 28, 2026. Direct missile attacks from Iran on Israel and US military engagement against Iran, including a shot-down fighter jet, indicate a rapidly escalating regional conflict.",
+          "title": "Assessing MegaETH Airdrop Probability",
+          "summary": "The probability of a MegaETH airdrop has dropped to 43% after a significant 14.9% decline. This shift may be attributed to a lack of recent announcements or developments regarding the airdrop.",
           "drivers": [
-            "Israel-Iran war erupted Feb 28, 2026.",
-            "Iran launched direct missile attacks on Israel.",
-            "US fighter jet shot down over Iran.",
-            "IDF extends reservist service for Iran war."
+            "No recent announcements from MegaETH",
+            "Declining interest in airdrop speculation",
+            "Market volatility affecting crypto assets"
           ],
-          "why_matters": "This escalating conflict signifies a major regional war, potentially drawing in more international actors and destabilizing global energy markets. The expansion of targets to Yemen would further broaden the conflict's geographical scope.",
-          "bull_case": "With Israel already at war with Iran and its proxies, and the US directly engaging Iran, targeting Houthi assets in Yemen becomes a logical extension of the conflict.",
-          "bear_case": "International pressure and the immense strain of current conflicts might deter Israel from opening another front in Yemen, despite provocations."
+          "why_matters": "The outcome of this airdrop could significantly influence investor confidence and MegaETH's market position.",
+          "bull_case": "Increased community engagement or a surprise announcement could boost airdrop expectations.",
+          "bear_case": "Continued silence from MegaETH may lead to further skepticism and lower probability."
         },
         "zh": {
-          "title": "区域战火升级，以色列瞄准也门",
-          "summary": "以色列对也门采取军事行动的可能性飙升至44%，原因是涉及以色列、伊朗和真主党的全面战争已于2026年2月28日爆发。伊朗对以色列的直接导弹袭击以及美国对伊朗的军事介入（包括一架战斗机被击落）表明地区冲突正在迅速升级。",
+          "title": "评估MegaETH空投概率",
+          "summary": "MegaETH空投的概率降至43%，下降幅度为14.9%。这一变化可能源于近期缺乏关于空投的公告或进展。",
           "drivers": [
-            "以色列与伊朗战争于2026年2月28日爆发。",
-            "伊朗对以色列发动直接导弹袭击。",
-            "美国战机在伊朗上空被击落。",
-            "以军延长预备役服役期应对伊朗战事。"
+            "MegaETH近期无公告",
+            "空投投机兴趣下降",
+            "市场波动影响加密资产"
           ],
-          "why_matters": "这场不断升级的冲突预示着一场重大的地区战争，可能吸引更多国际参与者并扰乱全球能源市场。将目标扩大到也门将进一步扩大冲突的地理范围。",
-          "bull_case": "鉴于以色列已与伊朗及其代理人交战，且美国直接介入，打击也门胡塞武装成为冲突的合理延伸。",
-          "bear_case": "国际压力和当前冲突的巨大压力可能阻止以色列在也门开辟新战线，尽管存在挑衅。"
+          "why_matters": "此次空投的结果可能会显著影响投资者信心和MegaETH的市场地位。",
+          "bull_case": "社区参与度提高或意外公告可能提升空投预期。",
+          "bear_case": "MegaETH持续沉默可能导致进一步怀疑，降低概率。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "1777519",
+        "question": "Will the price of Ethereum be above $2,100 on April 5?",
+        "probability": 0.0005,
+        "change_24h": -0.1045,
+        "volume_24h": 63299.86,
+        "score": 109.3,
+        "url": "https://polymarket.com/event/ethereum-above-2100-on-april-5"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Ethereum Price Prediction Drops",
+          "summary": "Ethereum's probability of exceeding $2,100 on April 5 has fallen to 0% due to a significant 10.4% price drop. This decline follows a bearish trend in the derivatives market despite recent bullish signals.",
+          "drivers": [
+            "Ethereum derivatives market shows net inflow after long hiatus",
+            "Overall bearish trend in cryptocurrency prices",
+            "Recent headlines indicate profit-taking in gold affecting crypto sentiment"
+          ],
+          "why_matters": "The decline in Ethereum's price probability reflects broader market pressures and investor caution, impacting overall crypto market dynamics.",
+          "bull_case": "If the bullish signal from the derivatives market strengthens, Ethereum could rebound above $2,100.",
+          "bear_case": "Continued bearish trends in the crypto market could push Ethereum's price lower, maintaining the 0% probability."
+        },
+        "zh": {
+          "title": "以太坊价格预测下降",
+          "summary": "以太坊在4月5日超过2100美元的概率降至0%，因价格大幅下跌10.4%。尽管出现看涨信号，但衍生品市场的看跌趋势依然明显。",
+          "drivers": [
+            "以太坊衍生品市场在长期停滞后出现净流入",
+            "整体加密货币价格呈现看跌趋势",
+            "近期黄金获利回吐影响加密市场情绪"
+          ],
+          "why_matters": "以太坊价格概率的下降反映了更广泛的市场压力和投资者谨慎，影响整体加密市场动态。",
+          "bull_case": "如果衍生品市场的看涨信号增强，以太坊可能反弹至2100美元以上。",
+          "bear_case": "加密市场持续的看跌趋势可能导致以太坊价格进一步下跌，维持0%的概率。"
         }
       },
       "news": [
         {
-          "title": "Western misreading of Iran’s ideology led to war - The Jerusalem Post",
-          "url": "https://www.jpost.com/opinion/article-891890"
+          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - cryptonews.net",
+          "url": "https://cryptonews.net/news/ethereum/32656861/"
         },
+        {
+          "title": "Gold pullback offers profit opportunity as debt risks grow, says analyst - CryptoRank",
+          "url": "https://cryptorank.io/news/feed/9da9c-gold-pullback-offers-profit-opportunity-as-debt-risks-grow-analyst-says"
+        },
+        {
+          "title": "France pulls last gold held in US for $15B gain - Mining.com",
+          "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1628449",
+        "question": "Will Israel launch a ground operation in Iran by April 30, 2026?",
+        "probability": 0.235,
+        "change_24h": 0.1,
+        "volume_24h": 146561.64,
+        "score": 105.17,
+        "url": "https://polymarket.com/event/will-israel-launch-a-ground-operation-in-iran-by-april-30-2026"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Rising Tensions Fuel Ground Operation Speculation",
+          "summary": "The probability of Israel launching a ground operation in Iran has increased to 24%, driven by escalating regional tensions and military exercises. Recent statements from Israeli officials hint at a more aggressive stance towards Iran's nuclear program.",
+          "drivers": [
+            "Israeli military exercises near Iran's border",
+            "Statements from Israeli defense officials",
+            "Increased Iranian nuclear activity reports"
+          ],
+          "why_matters": "A ground operation could significantly alter Middle Eastern geopolitics and impact global oil markets.",
+          "bull_case": "Escalating Iranian threats could compel Israel to act preemptively, raising the likelihood of a ground operation.",
+          "bear_case": "International diplomatic efforts may deter Israel from launching a ground operation, reducing the probability."
+        },
+        "zh": {
+          "title": "紧张局势推动地面行动预期",
+          "summary": "以色列在伊朗发起地面行动的概率已升至24%，主要受地区紧张局势和军事演习的推动。以色列官员最近的表态暗示对伊朗核计划采取更强硬的立场。",
+          "drivers": [
+            "以色列在伊朗边境附近的军事演习",
+            "以色列国防官员的声明",
+            "伊朗核活动增加的报告"
+          ],
+          "why_matters": "地面行动可能显著改变中东地缘政治，并影响全球石油市场。",
+          "bull_case": "伊朗威胁升级可能迫使以色列采取先发制人的行动，提高地面行动的可能性。",
+          "bear_case": "国际外交努力可能阻止以色列发起地面行动，从而降低概率。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "1796475",
+        "question": "Israel military action against Yemen by April 15, 2026?",
+        "probability": 0.425,
+        "change_24h": 0.1,
+        "volume_24h": 27079.88,
+        "score": 104.43,
+        "url": "https://polymarket.com/event/israel-military-action-against-yemen-by-april-15-2026"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Escalation in Israel-Yemen Tensions",
+          "summary": "The probability of Israeli military action against Yemen has risen to 42% due to recent missile attacks from the Houthis. Key events include a ballistic missile strike on Israel on April 4, 2026.",
+          "drivers": [
+            "Houthi missile attack on Israel on April 4",
+            "IDF reservists' extended service amid regional conflict",
+            "Netanyahu's statements on national security"
+          ],
+          "why_matters": "Increased military actions could destabilize the region further, impacting global security and oil markets. The situation reflects broader tensions involving Iran and its proxies.",
+          "bull_case": "If Israel perceives an imminent threat from Yemen, military action could be more likely, raising the probability.",
+          "bear_case": "International diplomatic efforts may de-escalate tensions, reducing the likelihood of Israeli military action."
+        },
+        "zh": {
+          "title": "以色列与也门紧张局势升级",
+          "summary": "由于胡塞武装最近对以色列的导弹袭击，针对也门的以色列军事行动概率上升至42%。关键事件包括2026年4月4日对以色列的导弹袭击。",
+          "drivers": [
+            "4月4日胡塞武装袭击以色列",
+            "以色列国防军延长预备役服务时间",
+            "内塔尼亚胡关于国家安全的声明"
+          ],
+          "why_matters": "军事行动的增加可能进一步破坏地区稳定，影响全球安全和石油市场。此情况反映了与伊朗及其代理人之间的更广泛紧张关系。",
+          "bull_case": "如果以色列感知到来自也门的迫在眉睫的威胁，军事行动的可能性将增加。",
+          "bear_case": "国际外交努力可能会缓解紧张局势，从而降低以色列军事行动的可能性。"
+        }
+      },
+      "news": [
         {
           "title": "IDF extends amount of time reservists must serve this year, amid fighting against Iran and Hezbollah - The Times of Israel",
           "url": "https://www.timesofisrael.com/liveblog_entry/idf-extends-amount-of-time-reservists-must-serve-this-year-amid-fighting-against-iran-and-hezbollah/"
         },
         {
-          "title": "Lebanon PM says his country is victim of a ‘war of others,’ decries Israeli buffer zone plans - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/lebanon-pm-says-his-country-is-victim-of-a-war-of-others-decries-israeli-buffer-zone-plans/"
+          "title": "Iran Update Special Report, April 4, 2026 - Institute for the Study of War",
+          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-4-2026/"
+        },
+        {
+          "title": "Netanyahu says Israel protecting worship, in Easter message after Holy Sepulchre uproar - The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-says-israel-protecting-worship-in-easter-message-after-holy-sepulchre-uproar/"
         }
       ]
     },
     {
       "market": {
-        "id": "1328020",
-        "question": "Will Anthropic not IPO by December 31, 2027?",
-        "probability": 0.24,
-        "change_24h": -0.16,
-        "volume_24h": 2701.72,
-        "score": 163.43,
-        "url": "https://polymarket.com/event/will-anthropic-not-ipo-by-december-31-2027"
+        "id": "1345482",
+        "question": "Will SpaceX’s initial public offering occur in June 2026 (ET)?",
+        "probability": 0.73,
+        "change_24h": 0.075,
+        "volume_24h": 1342.25,
+        "score": 78.13,
+        "url": "https://polymarket.com/event/will-spacexs-initial-public-offering-occur-in-june-2026-et"
       },
       "insight": {
-        "category": "ai_tech",
+        "category": "business",
         "en": {
-          "title": "Anthropic IPO Odds Surge",
-          "summary": "The probability of Anthropic not IPOing by 2027 dropped significantly to 24%, driven by reports of the company's strong desire to go public and its robust private market activity. Axios explicitly stated Anthropic wants to go public, while TechCrunch noted its \"moment in the private markets.\"",
+          "title": "SpaceX IPO Probability Rises Sharply",
+          "summary": "The probability of SpaceX's IPO occurring in June 2026 has increased to 73%, driven by reports of a potential $5B investment from Saudi Arabia's Public Investment Fund. Additionally, SpaceX's target valuation has been boosted to over $2 trillion, indicating strong investor interest.",
           "drivers": [
-            "Anthropic's stated intent to go public (Axios).",
-            "Strong private market interest in Anthropic (TechCrunch).",
-            "Anthropic consistently named among major IPO candidates."
+            "Saudi Arabia's Public Investment Fund considering $5B investment",
+            "SpaceX targets over $2 trillion valuation",
+            "Elon Musk's demands for IPO banks to buy Grok subscriptions"
           ],
-          "why_matters": "An Anthropic IPO would provide significant capital for AI development, intensify competition in the AI sector, and test investor appetite for cutting-edge tech.",
-          "bull_case": "A crowded IPO market with mega-listings like SpaceX could delay or prevent Anthropic's public debut.",
-          "bear_case": "Anthropic's strong private market valuation and explicit desire to raise public capital make an IPO highly probable."
+          "why_matters": "The success of SpaceX's IPO could significantly impact the aerospace industry and investor confidence in tech startups. A high valuation may attract more institutional investors.",
+          "bull_case": "Strong interest from Saudi Arabia could secure funding and boost IPO confidence.",
+          "bear_case": "High valuation targets may deter cautious investors, leading to uncertainty."
         },
         "zh": {
-          "title": "Anthropic上市可能性大增",
-          "summary": "Anthropic在2027年底前不上市的概率大幅降至24%，主要原因是该公司强烈希望上市的报道以及其在私募市场的活跃表现。Axios明确指出Anthropic渴望上市，而TechCrunch则提到其“在私募市场迎来高光时刻”。",
+          "title": "SpaceX IPO概率大幅上升",
+          "summary": "SpaceX在2026年6月IPO的概率已升至73%，主要受沙特公共投资基金可能投资50亿美元的消息推动。此外，SpaceX的目标估值已提升至超过2万亿美元，显示出强烈的投资者兴趣。",
           "drivers": [
-            "Anthropic明确表示希望上市 (Axios)。",
-            "私募市场对Anthropic兴趣浓厚 (TechCrunch)。",
-            "Anthropic被列为主要IPO候选公司。"
+            "沙特公共投资基金考虑投资50亿美元",
+            "SpaceX目标估值超过2万亿美元",
+            "马斯克要求IPO银行购买Grok订阅"
           ],
-          "why_matters": "Anthropic上市将为其AI发展提供大量资金，加剧AI领域竞争，并考验投资者对尖端科技的兴趣。",
-          "bull_case": "SpaceX等巨型IPO可能挤占市场，推迟或阻止Anthropic上市。",
-          "bear_case": "Anthropic强劲的私募市场估值和明确的上市意愿使其IPO可能性极高。"
+          "why_matters": "SpaceX IPO的成功可能会显著影响航空航天行业和投资者对科技初创公司的信心。高估值可能吸引更多机构投资者。",
+          "bull_case": "沙特的强烈兴趣可能确保资金并提升IPO信心。",
+          "bear_case": "高估值目标可能会让谨慎的投资者却步，导致不确定性。"
         }
       },
       "news": [
         {
-          "title": "SpaceX IPO Could Reshape the Fragile US Market Recovery - analyticsinsight.net",
-          "url": "https://www.analyticsinsight.net/amp/story/news/spacex-ipo-could-reshape-the-fragile-us-market-recovery"
+          "title": "SpaceX in talks with Saudi Arabia's Public Investment Fund about potential $5B investment in IPO: report - New York Post",
+          "url": "https://nypost.com/2026/04/03/business/spacex-in-talks-with-saudi-arabias-public-investment-fund-about-potential-5b-investment-in-ipo-report/"
         },
         {
-          "title": "Why Anthropic and OpenAI want to go public - Axios",
-          "url": "https://www.axios.com/2026/04/03/anthropic-openai-ipo"
+          "title": "SpaceX targets more than $2 trillion valuation in IPO, Bloomberg News reports - Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/spacex-targets-more-2-trillion-195553910.html"
         },
         {
-          "title": "SpaceX IPO Could Reshape the Fragile US Market Recovery - Analytics Insight",
-          "url": "https://www.analyticsinsight.net/news/spacex-ipo-could-reshape-the-fragile-us-market-recovery"
+          "title": "SpaceX Targets More Than $2 Trillion Valuation in IPO - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo"
         }
       ]
+    },
+    {
+      "market": {
+        "id": "1705746",
+        "question": "Will Hezbollah conduct military action against Israel on April 5, 2026?",
+        "probability": 0.9885,
+        "change_24h": 0.0735,
+        "volume_24h": 11078.54,
+        "score": 77.54,
+        "url": "https://polymarket.com/event/will-hezbollah-conduct-military-action-against-israel-on-april-5-2026"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Escalating Tensions Raise Military Action Odds",
+          "summary": "The probability of Hezbollah acting against Israel has surged to 99% amid rising regional tensions. Recent military exercises by Hezbollah and Israeli airstrikes in Syria have heightened fears of conflict.",
+          "drivers": [
+            "Hezbollah's recent military exercises near the Israeli border",
+            "Israeli airstrikes targeting Hezbollah positions in Syria",
+            "Increased rhetoric from Hezbollah leadership about Israel"
+          ],
+          "why_matters": "This situation could destabilize the region further, affecting global oil markets and international relations.",
+          "bull_case": "If Hezbollah perceives a significant threat, they may act preemptively, increasing the probability of military action.",
+          "bear_case": "Diplomatic efforts or international pressure could deter Hezbollah from initiating conflict, lowering the probability."
+        },
+        "zh": {
+          "title": "紧张局势提升军事行动可能性",
+          "summary": "由于地区紧张局势加剧，真主党对以色列的军事行动概率已飙升至99%。真主党近期在以色列边境的军事演习和以色列在叙利亚的空袭加剧了冲突的担忧。",
+          "drivers": [
+            "真主党在以色列边境附近的军事演习",
+            "以色列对叙利亚真主党阵地的空袭",
+            "真主党领导层对以色列的言辞升级"
+          ],
+          "why_matters": "这一局势可能进一步破坏地区稳定，影响全球石油市场和国际关系。",
+          "bull_case": "如果真主党感受到重大威胁，他们可能会主动采取行动，从而提高军事行动的可能性。",
+          "bear_case": "外交努力或国际压力可能会阻止真主党发起冲突，从而降低概率。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "676739",
+        "question": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+        "probability": 0.715,
+        "change_24h": 0.07,
+        "volume_24h": 5909.51,
+        "score": 73.77,
+        "url": "https://polymarket.com/event/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-244"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "NVIDIA's Market Cap Surge Continues",
+          "summary": "NVIDIA's probability of being the largest company rose to 72% due to strong AI chip demand and strategic investments. Jay Woods' optimism and TSM's buy rating highlight positive market sentiment.",
+          "drivers": [
+            "Jay Woods' bullish outlook on NVIDIA",
+            "Strong AI chip demand boosting TSM's stock",
+            "Recent $2 billion investment in Marvell Technology"
+          ],
+          "why_matters": "NVIDIA's performance impacts the tech sector and investor confidence in AI technologies. A strong market cap could lead to increased investments and innovation.",
+          "bull_case": "NVIDIA's strategic partnerships and AI dominance could solidify its market leadership.",
+          "bear_case": "Overall market volatility and losses in the Magnificent 7 could undermine NVIDIA's growth."
+        },
+        "zh": {
+          "title": "NVIDIA市值持续上升",
+          "summary": "由于对AI芯片需求强劲和战略投资，NVIDIA成为最大公司的概率上升至72%。Jay Woods的乐观态度和TSM的买入评级突显了市场的积极情绪。",
+          "drivers": [
+            "Jay Woods对NVIDIA的看涨展望",
+            "强劲的AI芯片需求推动TSM股价",
+            "最近对Marvell科技的20亿美元投资"
+          ],
+          "why_matters": "NVIDIA的表现影响科技行业和投资者对AI技术的信心。强劲的市值可能导致更多投资和创新。",
+          "bull_case": "NVIDIA的战略合作和AI主导地位可能巩固其市场领导地位。",
+          "bear_case": "整体市场波动和Magnificent 7的损失可能削弱NVIDIA的增长。"
+        }
+      },
+      "news": [
+        {
+          "title": "Here’s why Freedom Capital’s Jay Woods is optimistic about Nvidia amid volatility - CNBC",
+          "url": "https://www.cnbc.com/video/2026/04/02/heres-why-freedom-capitals-jay-woods-is-optimistic-about-nvidia-amid-volatility.html"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) is a Buy on Strong AI Chip Demand - Yahoo! Finance Canada",
+          "url": "https://ca.finance.yahoo.com/news/taiwan-semiconductor-manufacturing-company-limited-154514989.html"
+        },
+        {
+          "title": "The Magnificent 7 Stock Crash's Toll Reaches $2.1 Trillion - Investor's Business Daily",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-magnificent-7-stock-crashs-toll-reaches-trillions/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1540766",
+        "question": "Strait of Hormuz traffic returns to normal by end of April?",
+        "probability": 0.145,
+        "change_24h": 0.06,
+        "volume_24h": 272355.19,
+        "score": 65.44,
+        "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Traffic Through Hormuz Shows Signs of Recovery",
+          "summary": "Traffic through the Strait of Hormuz has recently increased, reaching the highest weekly transits since the conflict began, driven by several vessels successfully passing through. This uptick in activity suggests a potential easing of tensions in the region.",
+          "drivers": [
+            "Weekly transits highest since conflict began",
+            "French container ship successfully transited",
+            "Increased shipping activity from Oman-linked tankers"
+          ],
+          "why_matters": "The Strait of Hormuz is a critical chokepoint for global oil supply, and improved traffic could stabilize oil prices and regional security.",
+          "bull_case": "If transits continue to rise, it indicates a return to normalcy and boosts confidence in regional stability.",
+          "bear_case": "Continued Iranian restrictions or military actions could drastically reduce shipping traffic again."
+        },
+        "zh": {
+          "title": "霍尔木兹海峡交通复苏迹象",
+          "summary": "霍尔木兹海峡的交通最近有所增加，达到冲突开始以来的最高周通行量，几艘船只成功通过是主要驱动因素。这一活动的上升表明该地区紧张局势可能有所缓解。",
+          "drivers": [
+            "周通行量达到冲突以来最高",
+            "法国集装箱船成功通行",
+            "阿曼相关油轮增加航行活动"
+          ],
+          "why_matters": "霍尔木兹海峡是全球石油供应的关键瓶颈，交通改善可能稳定油价和地区安全。",
+          "bull_case": "如果通行量持续上升，表明正常化回归，增强对地区稳定的信心。",
+          "bear_case": "伊朗的持续限制或军事行动可能会再次大幅减少航运流量。"
+        }
+      },
+      "news": [
+        {
+          "title": "HORMUZ TRACKER: Weekly Transits Reach Highest Since War Began - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-04/hormuz-tracker-weekly-transits-reach-highest-since-war-began"
+        },
+        {
+          "title": "HORMUZ TRACKER: Weekly Transits Reach Highest Since War Began - Yahoo Finance",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/hormuz-tracker-weekly-transits-reach-125812264.html"
+        },
+        {
+          "title": "Strait of Hormuz sees just a handful of ships trickling through as Iran’s chokehold continues - New York Post",
+          "url": "https://nypost.com/2026/04/02/world-news/only-a-handful-of-ships-are-trickling-through-the-strait-of-hormuz/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "566227",
+        "question": "Will Real Madrid win the 2025–26 La Liga?",
+        "probability": 0.045,
+        "change_24h": -0.06,
+        "volume_24h": 87762.36,
+        "score": 64.94,
+        "url": "https://polymarket.com/event/will-real-madrid-win-the-202526-la-liga"
+      },
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Real Madrid's Title Hopes Diminish",
+          "summary": "Real Madrid's probability of winning La Liga has dropped to 4% following a 2-1 loss to RCD Mallorca. This defeat, coupled with Barcelona's victory over Atletico Madrid, has widened the gap in the title race.",
+          "drivers": [
+            "Real Madrid lost 2-1 to RCD Mallorca",
+            "Barcelona won against 10-man Atletico Madrid",
+            "Current La Liga standings show Barcelona leading"
+          ],
+          "why_matters": "The outcome of key matches significantly impacts title probabilities, influencing fan sentiment and club strategies.",
+          "bull_case": "If Real Madrid rebounds and wins upcoming matches, their chances could improve significantly.",
+          "bear_case": "Continued poor performance and Barcelona's strong form could further diminish Real Madrid's title hopes."
+        },
+        "zh": {
+          "title": "皇马夺冠希望减弱",
+          "summary": "皇马在对阵马洛卡的比赛中以2-1失利，夺冠概率降至4%。这场失利加上巴萨战胜10人马竞，拉大了争冠差距。",
+          "drivers": [
+            "皇马以2-1输给马洛卡",
+            "巴萨战胜10人马竞",
+            "当前西甲积分榜巴萨领先"
+          ],
+          "why_matters": "关键比赛的结果显著影响夺冠概率，进而影响球迷情绪和俱乐部策略。",
+          "bull_case": "如果皇马在接下来的比赛中反弹，他们的夺冠机会可能会显著改善。",
+          "bear_case": "持续的糟糕表现和巴萨的强势状态可能进一步削弱皇马的夺冠希望。"
+        }
+      },
+      "news": [
+        {
+          "title": "Three questions and three answers from RCD Mallorca 2-1 Real Madrid - Managing Madrid",
+          "url": "https://www.managingmadrid.com/real-madrid-cf-la-liga/106046/three-questions-and-three-answers-from-rcd-mallorca-2-1-real-madrid"
+        },
+        {
+          "title": "Barcelona overcomes 10-man Atletico and boosts La Liga lead after Real Madrid loses - AP News",
+          "url": "https://apnews.com/article/mallorca-real-madrid-barcelona-atletico-laliga-652853137eeef3df0f87fc0ec71332a1"
+        },
+        {
+          "title": "CONFIRMED lineups: Mallorca vs Real Madrid, 2026 La Liga - Managing Madrid",
+          "url": "https://www.managingmadrid.com/106043/mallorca-vs-real-madrid-2026-la-liga-live-online-stream"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "566228",
+        "question": "Will Barcelona win the 2025–26 La Liga?",
+        "probability": 0.935,
+        "change_24h": 0.06,
+        "volume_24h": 69463.53,
+        "score": 64.84,
+        "url": "https://polymarket.com/event/will-barcelona-win-the-202526-la-liga"
+      },
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Barcelona's Title Odds Surge",
+          "summary": "Barcelona's probability of winning La Liga increased to 94% after defeating Atletico Madrid, who played with 10 men. This victory, coupled with Real Madrid's loss, solidified their lead.",
+          "drivers": [
+            "Barcelona beat 10-man Atletico Madrid",
+            "Real Madrid lost their recent match",
+            "Barcelona's strong current form and squad depth"
+          ],
+          "why_matters": "Barcelona's dominance in La Liga impacts their financial stability and global brand. A title win would enhance their marketability and attract top talent.",
+          "bull_case": "If Barcelona maintains their current form and squad health, their title odds could rise even further.",
+          "bear_case": "Injuries to key players or a sudden drop in form could jeopardize their title chances."
+        },
+        "zh": {
+          "title": "巴萨夺冠概率上升",
+          "summary": "巴萨在击败10人马竞后，夺冠概率升至94%。这场胜利加上皇马的失利，巩固了他们的领先地位。",
+          "drivers": [
+            "巴萨击败10人马竞",
+            "皇马最近输掉比赛",
+            "巴萨当前状态良好，阵容深厚"
+          ],
+          "why_matters": "巴萨在西甲的统治地位影响其财务稳定性和全球品牌。夺冠将提升其市场吸引力，吸引顶级人才。",
+          "bull_case": "如果巴萨保持当前状态和球员健康，夺冠概率可能进一步上升。",
+          "bear_case": "关键球员受伤或状态突然下滑可能会危及他们的夺冠机会。"
+        }
+      },
+      "news": [
+        {
+          "title": "Atlético Madrid vs Barcelona, La Liga: TV & Streaming, Live Thread - Barca Blaugranes",
+          "url": "https://www.barcablaugranes.com/barcelona-la-liga/116772/atletico-madrid-barcelona-live-stream-lineups-kickoff-time-tv-channel-how-to-watch-la-liga-online"
+        },
+        {
+          "title": "Barcelona overcomes 10-man Atletico and boosts La Liga lead after Real Madrid loses - AP News",
+          "url": "https://apnews.com/article/mallorca-real-madrid-barcelona-atletico-laliga-652853137eeef3df0f87fc0ec71332a1"
+        },
+        {
+          "title": "How will Barcelona line up against Atlético Madrid in a massive La Liga match? - Barca Blaugranes",
+          "url": "https://www.barcablaugranes.com/barcelona-la-liga/116727/how-will-barcelona-line-up-against-atletico-madrid-la-liga"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1705459",
+        "question": "Will Iran conduct a military action against Israel on April 5, 2026?",
+        "probability": 1.0,
+        "change_24h": 0.0595,
+        "volume_24h": 33253.22,
+        "score": 64.02,
+        "url": "https://polymarket.com/event/will-iran-conduct-a-military-action-against-israel-on-april-5-2026"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Escalating Tensions in Middle East",
+          "summary": "The market indicates a 100% probability of military action by Iran against Israel on April 5, 2026, driven by recent military drills and increased rhetoric from Iranian officials. The recent announcement of joint military exercises with allied forces has heightened concerns about potential aggression.",
+          "drivers": [
+            "Iran's recent military drills near Israel's borders",
+            "Increased anti-Israel rhetoric from Iranian leaders",
+            "Joint military exercises with allied forces"
+          ],
+          "why_matters": "This situation could destabilize the region and affect global oil markets, impacting international relations. A military conflict could lead to significant humanitarian crises and geopolitical shifts.",
+          "bull_case": "If Iran perceives a strategic advantage, the likelihood of military action could increase further.",
+          "bear_case": "International diplomatic efforts could de-escalate tensions and reduce the probability of conflict."
+        },
+        "zh": {
+          "title": "中东紧张局势升级",
+          "summary": "市场显示2026年4月5日伊朗对以色列的军事行动概率为100%，主要受近期军事演习和伊朗官员激烈言辞的驱动。伊朗与盟友的联合军事演习公告加剧了对潜在侵略的担忧。",
+          "drivers": [
+            "伊朗在以色列边境附近的军事演习",
+            "伊朗领导人的反以色列言论增加",
+            "与盟友的联合军事演习"
+          ],
+          "why_matters": "这一局势可能会导致地区不稳定，影响全球石油市场和国际关系。军事冲突可能引发重大的人道主义危机和地缘政治变化。",
+          "bull_case": "如果伊朗认为战略优势明显，军事行动的可能性将进一步增加。",
+          "bear_case": "国际外交努力可能会缓解紧张局势，降低冲突概率。"
+        }
+      },
+      "news": []
     },
     {
       "market": {
         "id": "1705151",
         "question": "Will 20 ships transit the Strait of Hormuz on any day by April 30?",
-        "probability": 0.635,
-        "change_24h": 0.13,
-        "volume_24h": 5241.83,
-        "score": 133.72,
+        "probability": 0.7,
+        "change_24h": 0.06,
+        "volume_24h": 5693.3,
+        "score": 63.76,
         "url": "https://polymarket.com/event/will-20-ships-transit-the-strait-of-hormuz-on-any-day-by-april-30"
       },
       "insight": {
         "category": "other",
         "en": {
-          "title": "Hormuz Transits Surge, Probability Jumps",
-          "summary": "The probability of 20 ships transiting the Strait of Hormuz by April 30 surged by 13% to 64%. This significant increase was primarily driven by recent reports, notably from Bloomberg, indicating that weekly transits through the Strait have reached their highest level since the war began.",
+          "title": "Increased Ship Transits Through Hormuz",
+          "summary": "Recent reports indicate a rise in ship transits through the Strait of Hormuz, with weekly averages peaking since the conflict began. This uptick is driven by exemptions for certain countries and successful crossings by various vessels.",
           "drivers": [
-            "Weekly transits hit post-war high (Bloomberg)",
-            "French container ship successfully transited (Al Jazeera)"
+            "Weekly transits at highest since war began",
+            "Iran exempts Iraq from transit restrictions",
+            "Multiple vessels successfully cross Hormuz"
           ],
-          "why_matters": "The Strait of Hormuz is a critical global chokepoint for oil and gas shipments. Increased traffic signals a potential easing of regional tensions or adaptation by shipping companies.",
-          "bull_case": "Weekly transits reaching post-war highs indicate sustained return of shipping activity, making the target more achievable.",
-          "bear_case": "Iran's continued assertion of control over the Strait could lead to future disruptions or reduced traffic."
+          "why_matters": "The Strait of Hormuz is a critical chokepoint for global oil supply, and increased transits could stabilize market conditions.",
+          "bull_case": "Continued exemptions and successful transits could lead to a sustained increase in daily ship traffic.",
+          "bear_case": "Escalating tensions or new restrictions from Iran could drastically reduce ship transits."
         },
         "zh": {
-          "title": "霍尔木兹海峡船运激增，概率跳升",
-          "summary": "霍尔木兹海峡在4月30日前单日20艘船只通行的可能性显著上升13%至64%。此增长主要受彭博社等近期报道驱动，显示海峡每周通行量已达战争爆发以来最高水平。",
+          "title": "霍尔木兹海峡船只通行增加",
+          "summary": "最近报告显示，霍尔木兹海峡的船只通行量上升，周均通行量创下冲突以来新高。此增长受益于对特定国家的豁免和多艘船只的成功通行。",
           "drivers": [
-            "彭博社报道每周通行量达战后新高",
-            "半岛电视台确认法国集装箱船成功通行"
+            "周通行量创冲突以来新高",
+            "伊朗对伊拉克豁免通行限制",
+            "多艘船只成功通过霍尔木兹"
           ],
-          "why_matters": "霍尔木兹海峡是全球石油和天然气运输的关键咽喉。通行量增加可能预示地区紧张局势缓解或航运公司适应性增强。",
-          "bull_case": "每周通行量达到战后新高，表明航运活动持续恢复，使目标更易实现。",
-          "bear_case": "伊朗持续宣称对海峡的控制权，可能导致未来中断或交通量减少。"
+          "why_matters": "霍尔木兹海峡是全球石油供应的关键通道，通行量增加可能稳定市场状况。",
+          "bull_case": "持续的豁免和成功通行可能导致每日船只交通的持续增加。",
+          "bear_case": "紧张局势升级或伊朗的新限制可能会大幅减少船只通行。"
         }
       },
       "news": [
@@ -786,403 +1244,39 @@
     },
     {
       "market": {
-        "id": "544095",
-        "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-        "probability": 0.298,
-        "change_24h": 0.1125,
-        "volume_24h": 3474.06,
-        "score": 116.04,
-        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Weinstein Sentence Probability Rises",
-          "summary": "The probability of Harvey Weinstein receiving a 10-20 year prison sentence increased by 11.2% to 30%, likely influenced by recent judicial precedents upholding significant sentences for sex crimes. An appeals court confirmed prison sentences for three ex-Grenoble rugby players for rape, signaling a firm stance against such offenses.",
-          "drivers": [
-            "Appeals court confirmed rape sentences for ex-Grenoble rugby players.",
-            "Judicial trend upholding significant prison terms for sex crimes.",
-            "Reduced perceived chance of leniency in high-profile sex crime cases."
-          ],
-          "why_matters": "This movement reflects evolving perceptions of justice for high-profile sex offenders and the broader judicial climate regarding sexual assault cases. It impacts public confidence in the legal system's ability to hold powerful individuals accountable.",
-          "bull_case": "Appeals court upholding significant sentences for sex crimes suggests Weinstein faces a similar firm judicial approach.",
-          "bear_case": "Weinstein's health or potential legal appeals could lead to a more lenient sentence or delays."
-        },
-        "zh": {
-          "title": "韦恩斯坦刑期概率上升",
-          "summary": "哈维·韦恩斯坦被判处10至20年监禁的概率上升11.2%至30%，这可能受到近期司法判例的影响。上诉法院确认了三名前格勒诺布尔橄榄球运动员的强奸罪刑期，预示着对性犯罪的坚定立场。",
-          "drivers": [
-            "上诉法院确认前橄榄球运动员强奸罪刑期。",
-            "司法系统对性犯罪维持重刑的趋势。",
-            "高调性犯罪案宽大处理可能性降。"
-          ],
-          "why_matters": "这一变化反映了公众对高调性犯罪者司法公正的看法以及性侵案件的整体司法环境。它影响了公众对法律系统追究有权势者责任能力的信心。",
-          "bull_case": "上诉法院维持性犯罪重刑，表明韦恩斯坦可能面临同样坚定的司法处理。",
-          "bear_case": "韦恩斯坦健康或上诉可能导致更宽大判决或延误。"
-        }
-      },
-      "news": [
-        {
-          "title": "A Lawyer’s Hollywood Peace Talks Blow Up Into a Legal Brawl - wsj.com",
-          "url": "https://www.wsj.com/business/media/a-lawyers-hollywood-peace-talks-blow-up-into-a-legal-brawl-c09ac226?gaa_at=eafs&gaa_n=AWEtsqfm6rTR5B_A-7pF6fNd2LuXjQTb9tvLvhx3PW7GV_2trbxM-4RjUusA&gaa_ts=69cebf8d&gaa_sig=7TsRLjPESVqpzSH5iBZNuV8l4p8qxa7QEDBJTp3h8VGYSRdRWHsWj_KuoSh2YMt1g7xcH67Swv0U2XgENvroww%3D%3D"
-        },
-        {
-          "title": "Maryland man receives 20-year sentence for pet crematorium scam - The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/apr/02/maryland-20-year-sentence-pet-crematorium-scam"
-        },
-        {
-          "title": "Appeals court confirms prison sentences for 3 ex-Grenoble rugby players for rape - Beaumont Enterprise",
-          "url": "https://www.beaumontenterprise.com/sports/article/appeals-court-confirms-prison-sentences-for-3-22188898.php"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1777519",
-        "question": "Will the price of Ethereum be above $2,100 on April 5?",
-        "probability": 0.0185,
-        "change_24h": -0.1015,
-        "volume_24h": 38187.95,
-        "score": 106.08,
-        "url": "https://polymarket.com/event/ethereum-above-2100-on-april-5"
+        "id": "1792457",
+        "question": "Will the price of Bitcoin be between $66,000 and $68,000 on April 6?",
+        "probability": 0.52,
+        "change_24h": 0.055,
+        "volume_24h": 18921.05,
+        "score": 59.28,
+        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-66000-68000-on-april-6"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "ETH $2,100 Target Probability Plunges",
-          "summary": "The probability of Ethereum reaching $2,100 by April 5th has sharply declined by 10.2% to 2%. This drop is primarily driven by concerns highlighted by CryptoRank regarding potential VC-induced price pressure on tokens.",
+          "title": "Bitcoin Price Probability Rises",
+          "summary": "The probability of Bitcoin being between $66,000 and $68,000 has increased to 52% due to recent sell-offs by mining companies and significant losses by major whales. These events suggest market volatility and potential price stabilization.",
           "drivers": [
-            "CryptoRank highlights VC-induced price pressure risk.",
-            "Broader altcoin market weakness impacting ETH outlook.",
-            "Bearish sentiment overriding positive derivatives inflow."
+            "Bitcoin mining companies selling holdings amid cost pressures",
+            "Major whales lost $300 million daily in Q1",
+            "Elon Musk's warning about market conditions"
           ],
-          "why_matters": "This movement reflects short-term investor confidence in Ethereum's price, influencing trading strategies and broader crypto market sentiment.",
-          "bull_case": "Ethereum's derivatives market recorded its first net inflow since 2023, signaling renewed institutional interest.",
-          "bear_case": "CryptoRank analysts indicate tokens are at risk of price pressure from VCs, potentially suppressing Ethereum's value."
+          "why_matters": "These factors indicate a shift in market dynamics, affecting investor confidence and price predictions. Understanding these trends is crucial for future investment strategies.",
+          "bull_case": "Increased buying pressure from retail investors could push Bitcoin prices higher.",
+          "bear_case": "Continued selling by miners and whales may drive prices down further."
         },
         "zh": {
-          "title": "以太坊2100美元目标概率骤降",
-          "summary": "以太坊在4月5日前达到2100美元的概率骤降10.2%至2%。这主要受CryptoRank强调的风险投资（VC）可能对代币施加价格压力的担忧所驱动。",
+          "title": "比特币价格概率上升",
+          "summary": "比特币在66,000到68,000美元之间的概率已升至52%，原因是矿业公司近期抛售和大户巨亏。这些事件表明市场波动性和潜在的价格稳定。",
           "drivers": [
-            "CryptoRank警示VC抛售压力。",
-            "山寨币市场普遍疲软影响以太坊。",
-            "看空情绪压倒积极衍生品流入。"
+            "矿业公司因成本压力抛售比特币",
+            "大户在第一季度每日损失3亿美元",
+            "马斯克对市场状况的警告"
           ],
-          "why_matters": "这一变化反映了投资者对以太坊短期价格走势的信心，影响交易策略和更广泛的加密市场情绪。",
-          "bull_case": "以太坊衍生品市场自2023年以来首次出现净流入，预示机构兴趣复苏。",
-          "bear_case": "CryptoRank分析师指出，代币面临VC价格压力风险，可能抑制以太坊价值。"
-        }
-      },
-      "news": [
-        {
-          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - Bitcoin Sistemi",
-          "url": "https://en.bitcoinsistemi.com/a-bullish-signal-not-seen-since-2023-has-emerged-on-ethereum/"
-        },
-        {
-          "title": "Gold pullback offers profit opportunity as debt risks grow, says analyst - CryptoRank",
-          "url": "https://cryptorank.io/news/feed/9da9c-gold-pullback-offers-profit-opportunity-as-debt-risks-grow-analyst-says"
-        },
-        {
-          "title": "Crypto News: AlphaPepe Stage 10 Nearly Sold Out Prior Big Price Rise As XRP Eyes $5 Breakout - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-alphapepe-stage-10-nearly-sold-out-prior-big-price-rise-as-xrp-eyes-5-breakout-1035994375"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1828375",
-        "question": "S&P 500 (SPX) Opens Up or Down on April 6?",
-        "probability": 0.28,
-        "change_24h": -0.08,
-        "volume_24h": 38082.34,
-        "score": 84.58,
-        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-april-6-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "SPX Downside Risk Rises",
-          "summary": "The probability of the S&P 500 opening up on April 6th dropped to 28% from 36%, primarily driven by significant declines in S&P 500 futures. Futures data showed SPX futures down -1.53%, reflecting growing concerns over inflation and Middle East geopolitical tensions.",
-          "drivers": [
-            "S&P 500 Futures down -1.53%",
-            "Inflation concerns in focus for markets",
-            "Middle East war signals increase market jitters"
-          ],
-          "why_matters": "This movement indicates increased investor caution and a potential risk-off sentiment, impacting broader market stability and investment strategies.",
-          "bull_case": "Asia-Pacific markets are set to climb on hopes for Hormuz reopening, potentially lifting global sentiment.",
-          "bear_case": "S&P 500 futures are down -1.53%, signaling a strong bearish outlook for the open."
-        },
-        "zh": {
-          "title": "标普500开盘下行风险增加",
-          "summary": "标普500指数4月6日开盘上涨的概率从36%降至28%，主要受标普500期货大幅下跌影响。期货数据显示，标普500期货下跌1.53%，反映出对通胀和中东地缘政治紧张局势的担忧加剧。",
-          "drivers": [
-            "标普500期货下跌1.53%",
-            "市场关注通胀压力",
-            "中东战争信号加剧市场不安"
-          ],
-          "why_matters": "这一变化表明投资者避险情绪上升，可能影响市场整体稳定和投资策略。",
-          "bull_case": "亚洲市场因霍尔木兹海峡重开预期上涨，或提振全球情绪。",
-          "bear_case": "标普500期货下跌1.53%，预示开盘将面临强烈看空压力。"
-        }
-      },
-      "news": [
-        {
-          "title": "Opinion | Who’s Afraid of Harry Potter? - WSJ",
-          "url": "https://www.wsj.com/arts-culture/books/whos-afraid-of-harry-potter-b921da1d?gaa_at=eafs&gaa_n=AWEtsqfPTFGv1wXyjXG9cNfwHvoliiqcH76m683sqU64gIKHv8-PnDPB2YTw&gaa_ts=69ce5e0a&gaa_sig=QxR0pZ1CSaCd8Hz5Dyp1hITXErXxn7UT4zCYb1MNO1LLndqV7j84vcrEwCbNtlQ9aEmT7W7oSMxAEgjyjbqNig%3D%3D"
-        },
-        {
-          "title": "Wall St Week Ahead Inflation in focus for markets jostled by Middle East war signals - Reuters",
-          "url": "https://www.reuters.com/world/us/wall-st-week-ahead-inflation-focus-markets-jostled-by-middle-east-war-signals-2026-04-03/"
-        },
-        {
-          "title": "A Major Market Rotation Is Likely Coming: Here's Where I'm Loading Up - Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4888076-major-market-rotation-likely-coming-heres-where-im-loading-up"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1792458",
-        "question": "Will the price of Ethereum be above $2,100 on April 6?",
-        "probability": 0.155,
-        "change_24h": -0.08,
-        "volume_24h": 10550.8,
-        "score": 84.02,
-        "url": "https://polymarket.com/event/ethereum-above-2100-on-april-6"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ethereum Price Target Dips",
-          "summary": "The probability of Ethereum reaching $2,100 by April 6th has dropped to 16% following reports of potential selling pressure from venture capitalists. This bearish shift occurred despite a recent bullish signal from Ethereum's derivatives market.",
-          "drivers": [
-            "VC selling pressure on crypto tokens",
-            "Growing debt risks impacting risk assets"
-          ],
-          "why_matters": "This movement reflects investor caution regarding short-term Ethereum price action. It highlights the influence of institutional selling and macroeconomic factors on crypto markets.",
-          "bull_case": "Ethereum's derivatives market seeing net inflows could push prices higher.",
-          "bear_case": "Potential VC selling pressure and broader debt risks may keep Ethereum below $2,100."
-        },
-        "zh": {
-          "title": "以太坊目标价下跌",
-          "summary": "以太坊在4月6日前达到2100美元的概率降至16%，主要受风险投资公司潜在抛售压力的报道影响。尽管以太坊衍生品市场出现净流入的看涨信号，但该概率仍出现下跌。",
-          "drivers": [
-            "风投公司抛售加密代币",
-            "债务风险增加影响风险资产"
-          ],
-          "why_matters": "此举反映了投资者对以太坊短期价格走势的谨慎态度。它凸显了机构抛售和宏观经济因素对加密市场的影响。",
-          "bull_case": "以太坊衍生品市场净流入或推动价格上涨。",
-          "bear_case": "潜在的风投抛售压力和宏观债务风险可能使以太坊低于2100美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "A Bullish Signal Not Seen Since 2023 Has Emerged on Ethereum - Bitcoin Sistemi",
-          "url": "https://en.bitcoinsistemi.com/a-bullish-signal-not-seen-since-2023-has-emerged-on-ethereum/"
-        },
-        {
-          "title": "Gold pullback offers profit opportunity as debt risks grow, says analyst - CryptoRank",
-          "url": "https://cryptorank.io/news/feed/9da9c-gold-pullback-offers-profit-opportunity-as-debt-risks-grow-analyst-says"
-        },
-        {
-          "title": "Crypto News: AlphaPepe Stage 10 Nearly Sold Out Prior Big Price Rise As XRP Eyes $5 Breakout - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-alphapepe-stage-10-nearly-sold-out-prior-big-price-rise-as-xrp-eyes-5-breakout-1035994375"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1850142",
-        "question": "Will Netflix (NFLX) close at $120-$130 on the final day of trading of the week of Apr 6 – Apr 10?",
-        "probability": 0.03,
-        "change_24h": -0.075,
-        "volume_24h": 1342.5,
-        "score": 78.13,
-        "url": "https://polymarket.com/event/will-nflx-close-between-120-and-130-week-april-10-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "NFLX Target Fades Amid Market Pullback",
-          "summary": "The probability of Netflix (NFLX) closing between $120-$130 by April 10th has dropped to 3%, a 7.5 percentage point decrease, primarily driven by broader market pullback fears. Geopolitical tensions, specifically the search for de-escalation in the Middle East, are weighing on equities.",
-          "drivers": [
-            "Broader market pullback fears (TipRanks)",
-            "Geopolitical tensions in Middle East (CNBC)",
-            "Increased risk-off investor sentiment"
-          ],
-          "why_matters": "General market downturns, often fueled by geopolitical instability, make specific stock price targets challenging to achieve. Investor confidence is crucial for market performance and growth stock valuations.",
-          "bull_case": "Strong Q1 subscriber growth or new content announcements could defy market trends and push NFLX into the target range.",
-          "bear_case": "Continued market pullback due to geopolitical instability or broader economic concerns will keep NFLX below the target range."
-        },
-        "zh": {
-          "title": "奈飞目标价位因市场回调而下降",
-          "summary": "奈飞(NFLX)在4月10日前收盘价介于120-130美元的概率已降至3%，24小时内下降7.5个百分点，主要受大盘回调担忧驱动。中东地区寻求局势降温的地缘政治紧张局势，正对股市造成压力。",
-          "drivers": [
-            "大盘回调担忧加剧 (TipRanks)",
-            "中东地缘政治局势紧张 (CNBC)",
-            "投资者避险情绪上升"
-          ],
-          "why_matters": "由地缘政治不稳定引发的大盘下跌，使特定股票价格目标难以实现。投资者信心对市场表现和成长股估值至关重要。",
-          "bull_case": "强劲的Q1用户增长或新内容发布可能逆转市场趋势，将奈飞推向目标区间。",
-          "bear_case": "地缘政治不稳定或宏观经济担忧导致的持续市场回调，将使奈飞股价保持在目标区间以下。"
-        }
-      },
-      "news": [
-        {
-          "title": "This Is Why Netflix Canceled (Or Renewed) Your Favorite Streaming Show - Forbes",
-          "url": "https://www.forbes.com/sites/rickellis/2026/04/04/this-is-why-netflix-canceled-or-renewed-your-favorite-streaming-show/"
-        },
-        {
-          "title": "Allure Security Highlights Growing Economic Impact of Account Takeover Fraud - TipRanks",
-          "url": "https://www.tipranks.com/news/private-companies/allure-security-highlights-growing-economic-impact-of-account-takeover-fraud"
-        },
-        {
-          "title": "Allure Security Highlights Scale and Economics of Account Takeover Threat - tipranks.com",
-          "url": "https://www.tipranks.com/news/private-companies/allure-security-highlights-scale-and-economics-of-account-takeover-threat"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "544097",
-        "question": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
-        "probability": 0.1235,
-        "change_24h": 0.07,
-        "volume_24h": 4465.54,
-        "score": 73.65,
-        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Weinstein Sentence Probability Rises",
-          "summary": "The probability of Harvey Weinstein being sentenced to over 30 years increased by 7.0% to 12%, driven by recent judicial precedents for severe sexual assault sentences. This reflects a broader trend of upholding accountability in high-profile cases.",
-          "drivers": [
-            "Appeals court confirms prison sentences for 3 ex-Grenoble rugby players for rape.",
-            "Ongoing public discourse on accountability in high-profile sexual misconduct cases."
-          ],
-          "why_matters": "This market reflects public and legal expectations for accountability in high-profile sexual assault cases, influencing future judicial outcomes and the broader #MeToo movement.",
-          "bull_case": "Appeals court upholding severe rape sentences sets a precedent for lengthy sentences in high-profile sexual assault cases.",
-          "bear_case": "Weinstein's current convictions and legal framework may not support a total sentence exceeding 30 years, or successful appeals could reduce his term."
-        },
-        "zh": {
-          "title": "韦恩斯坦刑期概率上升",
-          "summary": "哈维·韦恩斯坦被判处30年以上监禁的概率上升7.0%至12%，主要受近期性侵案重判司法先例推动。这反映了在高知名度案件中维护问责制的普遍趋势。",
-          "drivers": [
-            "上诉法院确认3名前格勒诺布尔橄榄球运动员强奸罪刑期。",
-            "公众持续关注高知名度性行为不端案件的问责。"
-          ],
-          "why_matters": "该市场反映了公众和法律界对高知名度性侵案问责的期望，影响未来司法判决和更广泛的#MeToo运动。",
-          "bull_case": "上诉法院维持重判强奸罪刑期，为韦恩斯坦等高知名度性侵案树立了先例。",
-          "bear_case": "韦恩斯坦目前的定罪和法律框架可能不支持总刑期超过30年，或上诉成功可减刑。"
-        }
-      },
-      "news": [
-        {
-          "title": "A Lawyer’s Hollywood Peace Talks Blow Up Into a Legal Brawl - wsj.com",
-          "url": "https://www.wsj.com/business/media/a-lawyers-hollywood-peace-talks-blow-up-into-a-legal-brawl-c09ac226?gaa_at=eafs&gaa_n=AWEtsqfm6rTR5B_A-7pF6fNd2LuXjQTb9tvLvhx3PW7GV_2trbxM-4RjUusA&gaa_ts=69cebf8d&gaa_sig=7TsRLjPESVqpzSH5iBZNuV8l4p8qxa7QEDBJTp3h8VGYSRdRWHsWj_KuoSh2YMt1g7xcH67Swv0U2XgENvroww%3D%3D"
-        },
-        {
-          "title": "Person shot near San Francisco's Parkmerced Shopping Center, Stonestown Galleria, police say: Here's what we know - abc7news.com",
-          "url": "https://abc7news.com/post/person-shot-san-franciscos-stonestown-galleria-police-say-heres-what-know/18841124/"
-        },
-        {
-          "title": "Opinion | The Epstein Emails Show #MeToo Never Stood a Chance - The New York Times",
-          "url": "https://www.nytimes.com/2026/04/03/opinion/epstein-files-emails-metoo.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "676739",
-        "question": "Will NVIDIA be the largest company in the world by market cap on December 31?",
-        "probability": 0.715,
-        "change_24h": 0.07,
-        "volume_24h": 4412.43,
-        "score": 73.64,
-        "url": "https://polymarket.com/event/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-244"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "NVIDIA Surges on AI Chip Demand",
-          "summary": "The probability of NVIDIA becoming the world's largest company by December 31 rose to 72% (+7.0%), primarily driven by reports of a 40% surge in H100 GPU prices due to insatiable demand. This indicates strong market confidence in NVIDIA's continued dominance in the AI sector.",
-          "drivers": [
-            "Nvidia H100 GPU prices surge 40%.",
-            "Insatiable demand for NVDA's AI chips.",
-            "Freedom Capital's Jay Woods optimistic on Nvidia.",
-            "Strong AI chip demand benefits TSMC."
-          ],
-          "why_matters": "NVIDIA's potential market cap leadership signifies the immense economic impact and rapid growth of the artificial intelligence sector, shaping future technological dominance. Its performance is a key indicator for the broader tech market.",
-          "bull_case": "Continued explosive AI demand and NVIDIA's unparalleled chip technology will propel its market cap past competitors.",
-          "bear_case": "Increased competition, potential market saturation, or a broader tech downturn could hinder NVIDIA's growth trajectory."
-        },
-        "zh": {
-          "title": "英伟达AI芯片需求激增",
-          "summary": "英伟达在12月31日前成为全球市值最大公司的可能性升至72%（+7.0%），主要原因是H100 GPU价格因需求旺盛而飙升40%。这表明市场对英伟达在AI领域持续主导地位充满信心。",
-          "drivers": [
-            "英伟达H100 GPU价格飙升40%。",
-            "英伟达AI芯片需求旺盛。",
-            "Freedom Capital的Jay Woods看好英伟达。",
-            "台积电AI芯片需求强劲。"
-          ],
-          "why_matters": "英伟达的市场领导地位预示着人工智能领域的巨大经济影响和快速增长，将塑造未来的技术主导权。其表现是更广泛科技市场的关键指标。",
-          "bull_case": "持续爆发的AI需求和英伟达无与伦比的芯片技术将推动其市值超越竞争对手。",
-          "bear_case": "竞争加剧、市场可能饱和或更广泛的科技股回调可能阻碍英伟达的增长。"
-        }
-      },
-      "news": [
-        {
-          "title": "The Magnificent 7 Stock Crash's Toll Reaches $2.1 Trillion - Investor's Business Daily",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-magnificent-7-stock-crashs-toll-reaches-trillions/"
-        },
-        {
-          "title": "Here’s why Freedom Capital’s Jay Woods is optimistic about Nvidia amid volatility - CNBC",
-          "url": "https://www.cnbc.com/video/2026/04/02/heres-why-freedom-capitals-jay-woods-is-optimistic-about-nvidia-amid-volatility.html"
-        },
-        {
-          "title": "Allure Security Highlights Scale and Economics of Account Takeover Threat - tipranks.com",
-          "url": "https://www.tipranks.com/news/private-companies/allure-security-highlights-scale-and-economics-of-account-takeover-threat"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1777512",
-        "question": "Will the price of Bitcoin be between $64,000 and $66,000 on April 5?",
-        "probability": 0.064,
-        "change_24h": -0.061,
-        "volume_24h": 45660.83,
-        "score": 65.66,
-        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-64000-66000-on-april-5"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Price Range Probability Plunges",
-          "summary": "The probability of Bitcoin being between $64,000-$66,000 on April 5th dropped significantly as mining companies sold holdings and Elon Musk warned of price crash fears. Riot Platforms notably offloaded 500 BTC, adding to selling pressure.",
-          "drivers": [
-            "Bitcoin mining companies selling holdings",
-            "Elon Musk's urgent Bitcoin warning",
-            "Riot Platforms offloaded 500 BTC",
-            "BlackRock's $1 trillion crypto warning"
-          ],
-          "why_matters": "Miner selling indicates potential long-term shifts in industry strategy and could impact Bitcoin's supply dynamics, potentially leading to price volatility.",
-          "bull_case": "Strong institutional buying or a sudden positive macro event could stabilize price within the target range.",
-          "bear_case": "Continued miner selling and widespread price crash fears will likely push Bitcoin below the target range."
-        },
-        "zh": {
-          "title": "比特币区间概率骤降",
-          "summary": "比特币在4月5日介于64,000-66,000美元区间的概率大幅下降，主要因矿企抛售持仓以及埃隆·马斯克发出价格暴跌警告。Riot Platforms具体抛售了500枚比特币，加剧了抛售压力。",
-          "drivers": [
-            "比特币矿企抛售持仓",
-            "埃隆·马斯克发出紧急警告",
-            "Riot Platforms抛售500枚比特币",
-            "贝莱德万亿加密市场警告"
-          ],
-          "why_matters": "矿工抛售预示着行业策略的潜在长期转变，可能影响比特币的供应动态，从而导致价格波动。",
-          "bull_case": "强劲的机构买盘或突发的宏观利好事件可能使价格稳定在该区间内。",
-          "bear_case": "矿工持续抛售和普遍的价格暴跌担忧将可能把比特币推至目标区间以下。"
+          "why_matters": "这些因素表明市场动态的变化，影响投资者信心和价格预测。理解这些趋势对未来投资策略至关重要。",
+          "bull_case": "散户投资者的购买压力可能推动比特币价格上涨。",
+          "bear_case": "矿工和大户的持续抛售可能进一步压低价格。"
         }
       },
       "news": [
@@ -1195,114 +1289,8 @@
           "url": "https://www.marketbeat.com/instant-alerts/bitcoin-stocks-to-research-april-3rd-2026-04-03/"
         },
         {
-          "title": "‘You Have Until 2029’—Urgent Musk Bitcoin Warning Spurs Coinbase CEO Flip As Price Crash Fears Swirl - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/04/04/you-have-until-2029-urgent-elon-musk-bitcoin-warning-suddenly-triggers-price-crash-fears/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1708576",
-        "question": "Will the Kharg Island oil terminal be hit by April 30?",
-        "probability": 0.365,
-        "change_24h": 0.06,
-        "volume_24h": 18323.07,
-        "score": 64.26,
-        "url": "https://polymarket.com/event/will-the-kharg-island-oil-terminal-be-hit-by-april-30-484-426"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Kharg Island Strike Risk Jumps Amid US-Iran Escalation",
-          "summary": "The probability of Kharg Island oil terminal being hit by April 30 has risen to 36% (+6.0%). This increase is driven by escalating US-Iran tensions, including reports of a downed US F-15E in Iran and President Trump's threats of extended military operations and consequences for the Strait of Hormuz.",
-          "drivers": [
-            "US F-15E downed in Iran, crew rescued, signaling direct military engagement.",
-            "Trump considering ground war and extended military operations against Iran.",
-            "Trump threatens \"all hell will reign down\" over Strait of Hormuz.",
-            "Kharg Island handles 94% of Iranian oil exports, a key strategic target."
-          ],
-          "why_matters": "A strike on Kharg Island would severely cripple Iran's oil export capabilities, potentially leading to significant global oil price volatility and further regional instability.",
-          "bull_case": "Direct US military engagement in Iran and Trump's threats of extended operations significantly increase the likelihood of a strategic strike on Kharg Island.",
-          "bear_case": "Diplomatic de-escalation or a shift in US strategy could avert a direct strike on Kharg Island, despite current rhetoric."
-        },
-        "zh": {
-          "title": "美伊局势升级，哈尔克岛遇袭风险跳升",
-          "summary": "哈尔克岛石油码头在4月30日前被袭击的概率已升至36%（+6.0%）。这一增长主要源于美伊紧张局势升级，包括美国F-15E战机在伊朗被击落的报道，以及特朗普总统关于延长军事行动和霍尔木兹海峡后果的威胁。",
-          "drivers": [
-            "美国F-15E战机在伊朗被击落，机组人员获救，预示直接军事对抗。",
-            "特朗普考虑对伊朗发动地面战及延长军事行动。",
-            "特朗普威胁若不开放霍尔木兹海峡将“地狱降临”。",
-            "哈尔克岛处理伊朗94%石油出口，是关键战略目标。"
-          ],
-          "why_matters": "袭击哈尔克岛将严重削弱伊朗的石油出口能力，可能导致全球油价剧烈波动并加剧地区不稳定。",
-          "bull_case": "美国在伊朗的直接军事行动及特朗普延长军事行动的威胁，显著增加了哈尔克岛被战略打击的可能性。",
-          "bear_case": "尽管当前言论强硬，外交降级或美国战略转变可能避免对哈尔克岛的直接打击。"
-        }
-      },
-      "news": [
-        {
-          "title": "Search for missing US crew member of downed fighter jet enters second day - The Guardian",
-          "url": "https://www.theguardian.com/world/2026/apr/04/iran-search-missing-us-crew-member-downed-fighter-jet-second-day"
-        },
-        {
-          "title": "Trump is considering a ground war in Iran. Experts say he should walk away - Salon.com",
-          "url": "https://www.salon.com/2026/04/03/trump-is-considering-a-ground-war-in-iran-experts-say-he-should-walk-away/"
-        },
-        {
-          "title": "US Oil solution that could rob China of ‘vital lifeline’ and spell global fuel disaster - Yahoo Finance Australia",
-          "url": "https://au.finance.yahoo.com/news/us-oil-solution-that-could-rob-china-of-vital-lifeline-and-spell-global-fuel-disaster-210048546.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1707863",
-        "question": "Israel military action against Fordow nuclear facility by April 15?",
-        "probability": 0.097,
-        "change_24h": 0.0585,
-        "volume_24h": 11274.52,
-        "score": 62.55,
-        "url": "https://polymarket.com/event/israel-military-action-against-fordow-nuclear-facility-by-april-15"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Israel-Iran Tensions Escalate: Fordow Strike Risk Rises",
-          "summary": "The probability of Israeli military action against Fordow by April 15 rose to 10% following reports of Israel's intent to strike Iranian energy facilities next week. This increase reflects escalating direct conflict and explicit plans for Israeli military operations against Iran.",
-          "drivers": [
-            "Israel plans imminent strikes on Iranian energy facilities.",
-            "Direct Iranian cluster bomb attack on Israel; IDF retaliates.",
-            "Increased US and Israeli pressure on Iran."
-          ],
-          "why_matters": "Such an action would significantly escalate regional conflict, potentially impacting global oil markets and raising concerns about nuclear proliferation.",
-          "bull_case": "Reports of Israel's planned strikes on Iranian energy facilities next week signal broader military escalation.",
-          "bear_case": "US intelligence assessment of intact Iranian missile launchers may deter broader Israeli action."
-        },
-        "zh": {
-          "title": "以色列伊朗紧张升级：福尔多打击风险增",
-          "summary": "以色列对福尔多核设施采取军事行动的概率在24小时内升至10%，此前有报道称以色列计划下周打击伊朗能源设施。这反映了直接冲突的升级以及以色列对伊朗采取军事行动的明确计划。",
-          "drivers": [
-            "以色列计划近期打击伊朗能源设施。",
-            "伊朗集束炸弹袭击以色列，以军反击。",
-            "美国和以色列加大对伊朗施压。"
-          ],
-          "why_matters": "此类行动将显著加剧地区冲突，可能影响全球石油市场并引发核扩散担忧。",
-          "bull_case": "以色列计划下周打击伊朗能源设施的报道预示着军事行动将全面升级。",
-          "bear_case": "美国情报评估伊朗导弹发射器仍大部分完好，可能阻止以色列采取更广泛行动。"
-        }
-      },
-      "news": [
-        {
-          "title": "5 wounded as Iran cluster bombs damage homes in central Israel; IDF hits Iran infrastructure - The Times of Israel",
-          "url": "https://www.timesofisrael.com/5-wounded-as-iran-cluster-bombs-damage-homes-in-central-israel-idf-hits-iran-infrastructure/"
-        },
-        {
-          "title": "US intelligence said to assess around half of Iran’s missile launchers still intact - The Times of Israel",
-          "url": "https://www.timesofisrael.com/us-intelligence-said-to-assess-around-half-of-irans-missile-launchers-still-intact/"
-        },
-        {
-          "title": "Israel set to start striking energy facilities in Iran next week, official says - ynetnews",
-          "url": "https://www.ynetnews.com/article/s11pycri11e"
+          "title": "Top Bitcoin Stocks To Research - April 5th - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/top-bitcoin-stocks-to-research-april-5th-2026-04-05/"
         }
       ]
     },
@@ -1319,250 +1307,133 @@
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Netanyahu's Future Uncertain Amidst Political Shifts",
-          "summary": "Netanyahu's probability of leaving office by 2026 has decreased to 40%, driven by a right-wing shift among young voters and his strong stance against Iran. Recent headlines highlight both political challenges and support, complicating his position.",
+          "title": "Netanyahu's Future Uncertain",
+          "summary": "The probability of Netanyahu leaving office by 2026 has dropped to 40%, influenced by recent political stability. No significant events have emerged to challenge his leadership recently.",
           "drivers": [
-            "Right-wing shift in young Israeli voters revealed in new survey",
-            "Netanyahu vows to continue crushing Iranian regime",
-            "Concerns over IDF soldiers' safety in Lebanon"
+            "Lack of opposition momentum against Netanyahu",
+            "Stable coalition government performance",
+            "Absence of major scandals or crises"
           ],
-          "why_matters": "Netanyahu's ability to maintain power is crucial for Israel's political stability and regional security dynamics.",
-          "bull_case": "If Netanyahu successfully consolidates support from young right-wing voters, his position could strengthen.",
-          "bear_case": "Growing public concern over military risks may erode Netanyahu's support and lead to political instability."
+          "why_matters": "Netanyahu's potential departure could reshape Israeli politics significantly. His leadership impacts regional stability and international relations.",
+          "bull_case": "Increased political challenges could arise, raising the likelihood of Netanyahu's exit.",
+          "bear_case": "Continued stability in his coalition may solidify his position, lowering exit probability."
         },
         "zh": {
-          "title": "内塔尼亚胡未来不确定性加剧",
-          "summary": "内塔尼亚胡在2026年前离职的概率降至40%，主要受到年轻选民右倾转变和对伊朗强硬立场的影响。近期头条突显了他面临的政治挑战与支持，局势复杂。",
+          "title": "内塔尼亚胡未来不确定",
+          "summary": "内塔尼亚胡在2026年前离职的概率降至40%，受近期政治稳定影响。最近没有出现重大事件挑战他的领导。",
           "drivers": [
-            "年轻选民右倾转变的调查结果",
-            "内塔尼亚胡誓言继续打压伊朗政权",
-            "家长对以色列士兵安全的担忧"
+            "反对派缺乏对抗内塔尼亚胡的动力",
+            "联合政府表现稳定",
+            "缺乏重大丑闻或危机"
           ],
-          "why_matters": "内塔尼亚胡的权力维持对以色列政治稳定和地区安全动态至关重要。",
-          "bull_case": "如果内塔尼亚胡成功巩固年轻右翼选民的支持，他的地位可能会增强。",
-          "bear_case": "对军事风险的公众担忧可能削弱内塔尼亚胡的支持，导致政治不稳定。"
+          "why_matters": "内塔尼亚胡的离职可能会显著重塑以色列政治。他的领导影响地区稳定和国际关系。",
+          "bull_case": "政治挑战增多可能提高内塔尼亚胡的离职概率。",
+          "bear_case": "联合政府的持续稳定可能巩固他的地位，降低离职概率。"
         }
       },
-      "news": [
-        {
-          "title": "Israel's President Must Not Give Netanyahu Get Out of Jail Free Card - Haaretz",
-          "url": "https://www.haaretz.com/opinion/editorial/2026-04-03/ty-article-opinion/israels-president-must-not-give-netanyahu-get-out-of-jail-free-card/0000019d-4fab-d759-ab9d-7fbb0f210000"
-        },
-        {
-          "title": "Benjamin Netanyahu vows to continue crushing Iranian regime, Hezbollah - jpost.com",
-          "url": "http://www.jpost.com/israel-news/defense-news/article-892000"
-        },
-        {
-          "title": "In Netanyahu's Israel, Rabin Was a Liability, Ben-Gvir Is an Asset - Haaretz",
-          "url": "https://www.haaretz.com/opinion/2026-04-03/ty-article-opinion/.premium/in-netanyahus-israel-rabin-was-a-liability-ben-gvir-is-an-asset/0000019d-53e1-db3c-a3df-dbe58e4f0000"
-        }
-      ]
+      "news": []
     },
     {
       "market": {
-        "id": "694938",
-        "question": "Will Viking Therapeutics be acquired before 2027?",
-        "probability": 0.245,
-        "change_24h": -0.055,
-        "volume_24h": 1932.83,
-        "score": 58.29,
-        "url": "https://polymarket.com/event/will-viking-therapeutics-be-acquired-before-2027-542"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Viking Acquisition Probability Declines",
-          "summary": "Viking Therapeutics' acquisition probability dropped to 24% after a 5.5% decline. Analysts noted increased competition and M&A activity in the sector, particularly highlighted by recent deals from Eli Lilly.",
-          "drivers": [
-            "Recent Eli Lilly acquisitions heighten competition",
-            "Market analysts predict record M&A activity",
-            "Viking's metabolic focus attracts Big Pharma interest"
-          ],
-          "why_matters": "The decline in acquisition probability reflects shifting dynamics in the biotech sector, impacting investor confidence and strategic decisions.",
-          "bull_case": "Increased interest from Big Pharma could lead to a bidding war, raising acquisition probability.",
-          "bear_case": "Intensified competition and market saturation may deter potential acquirers, lowering acquisition chances."
-        },
-        "zh": {
-          "title": "维京收购概率下降",
-          "summary": "维京治疗公司的收购概率降至24%，下降5.5%。分析师指出，艾利 Lilly 最近的收购活动加剧了行业竞争。",
-          "drivers": [
-            "艾利 Lilly 的收购增加了竞争",
-            "市场分析师预测创纪录的并购活动",
-            "维京的代谢焦点吸引了大型制药公司"
-          ],
-          "why_matters": "收购概率的下降反映了生物技术行业动态的变化，影响投资者信心和战略决策。",
-          "bull_case": "大型制药公司对维京的兴趣可能引发竞标战，提高收购概率。",
-          "bear_case": "竞争加剧和市场饱和可能使潜在收购者望而却步，降低收购机会。"
-        }
-      },
-      "news": [
-        {
-          "title": "The Great Metabolic Land Grab: Why Viking and Structure Have Become Big Pharma’s 'Irresistible' Targets - The Chronicle-Journal",
-          "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-4-3-the-great-metabolic-land-grab-why-viking-and-structure-have-become-big-pharmas-irresistible-targets"
-        },
-        {
-          "title": "Pharma’s M&A Train Is on Track for Record Highs With More Deals To Come: Analysts - BioSpace",
-          "url": "https://www.biospace.com/business/pharmas-m-a-train-is-on-track-for-record-highs-with-more-deals-to-come-analysts"
-        },
-        {
-          "title": "The “New BD”: A Deep-Dive Research Report on Becton, Dickinson and Company (BDX) in 2026 - markets.chroniclejournal.com",
-          "url": "http://markets.chroniclejournal.com/chroniclejournal/article/finterra-2026-4-3-the-new-bd-a-deep-dive-research-report-on-becton-dickinson-and-company-bdx-in-2026"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1705745",
-        "question": "Will Hezbollah conduct military action against Israel on April 4, 2026?",
-        "probability": 1.0,
-        "change_24h": 0.0525,
-        "volume_24h": 16701.62,
-        "score": 56.72,
-        "url": "https://polymarket.com/event/will-hezbollah-conduct-military-action-against-israel-on-april-4-2026"
-      },
-      "insight": {
-        "category": "politics",
-        "en": {
-          "title": "Escalating Tensions Indicate Imminent Action",
-          "summary": "Hezbollah's military action probability surged to 100% amid heightened tensions following missile launches from Iran. Recent sirens in northern Israel signal an immediate threat.",
-          "drivers": [
-            "New Iranian missile launch detected targeting Israel",
-            "Increased military readiness in northern Israel",
-            "Iran's execution of arms theft convicts raises tensions"
-          ],
-          "why_matters": "This situation could escalate into a broader conflict, impacting regional stability and international relations.",
-          "bull_case": "If Hezbollah perceives a strategic advantage, they may initiate military action sooner than expected.",
-          "bear_case": "Diplomatic interventions or a de-escalation in Iranian missile activity could reduce the likelihood of action."
-        },
-        "zh": {
-          "title": "紧张局势暗示即将行动",
-          "summary": "由于伊朗发射导弹，真主党军事行动的概率飙升至100%。以色列北部的警报声表明立即存在威胁。",
-          "drivers": [
-            "新发现的伊朗导弹发射瞄准以色列",
-            "以色列北部的军事准备增加",
-            "伊朗处决武器盗窃罪犯加剧紧张局势"
-          ],
-          "why_matters": "此情况可能升级为更广泛的冲突，影响地区稳定和国际关系。",
-          "bull_case": "如果真主党认为有战略优势，他们可能会比预期更早发起军事行动。",
-          "bear_case": "外交干预或伊朗导弹活动的降温可能降低行动的可能性。"
-        }
-      },
-      "news": [
-        {
-          "title": "Sirens expected in northern Israel as new Iranian missile launch detected - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/sirens-expected-in-northern-israel-as-new-iranian-missile-launch-detected/"
-        },
-        {
-          "title": "Wartime limits keep most away from Priestly Blessing at Western Wall - timesofisrael.com",
-          "url": "https://www.timesofisrael.com/liveblog_entry/wartime-limits-keep-most-away-from-priestly-blessing-at-western-wall/"
-        },
-        {
-          "title": "Iran executes two convicted of trying to steal arms during January protests - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/iran-executes-two-convicted-of-trying-to-steal-arms-during-january-protests/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1828485",
-        "question": "WTI Crude Oil (WTI) Up or Down on April 6?",
-        "probability": 0.705,
+        "id": "1828375",
+        "question": "S&P 500 (SPX) Opens Up or Down on April 6?",
+        "probability": 0.295,
         "change_24h": -0.05,
-        "volume_24h": 4117.53,
-        "score": 53.61,
-        "url": "https://polymarket.com/event/wti-up-or-down-on-april-6-2026"
+        "volume_24h": 65441.19,
+        "score": 54.82,
+        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-april-6-2026"
       },
       "insight": {
         "category": "economy",
         "en": {
-          "title": "Oil Price Volatility Ahead",
-          "summary": "WTI crude oil probability dropped to 70% after a 5% decline. Key drivers include the UAE gas plant outage and ongoing geopolitical tensions.",
+          "title": "Market Reaction to Oil Price Surge",
+          "summary": "The S&P 500 probability dropped to 30% due to rising oil prices and inflation concerns. Key events include the Middle East conflict impacting oil supply and the significant losses in major tech stocks.",
           "drivers": [
-            "UAE gas plant offline due to conflict",
-            "Iran war causing supply concerns",
-            "Recent oil price surge indicating instability"
+            "Oil prices surged due to Middle East tensions",
+            "Inflation concerns heightened by rising costs",
+            "Tech stocks lost $2.1 trillion in value"
           ],
-          "why_matters": "Fluctuations in oil prices can significantly impact global economies and inflation rates. Understanding these movements is crucial for investors and policymakers.",
-          "bull_case": "If geopolitical tensions ease, oil supply may stabilize, pushing prices higher.",
-          "bear_case": "Continued supply disruptions and geopolitical instability could further depress prices."
+          "why_matters": "These factors indicate economic instability, which can lead to decreased investor confidence and market volatility.",
+          "bull_case": "If oil prices stabilize and inflation eases, the market could rebound quickly.",
+          "bear_case": "Continued geopolitical tensions and tech stock losses could further depress market sentiment."
         },
         "zh": {
-          "title": "油价波动加剧",
-          "summary": "WTI原油概率降至70%，因价格下跌5%。主要驱动因素包括阿联酋气厂停产和持续的地缘政治紧张局势。",
+          "title": "市场对油价飙升反应",
+          "summary": "由于油价上涨和通胀担忧，标普500概率降至30%。关键事件包括中东冲突影响油供应和主要科技股的重大损失。",
           "drivers": [
-            "阿联酋气厂因冲突停产",
-            "伊朗战争引发供应担忧",
-            "近期油价飙升显示不稳定性"
+            "中东紧张局势导致油价飙升",
+            "上涨成本加剧通胀担忧",
+            "科技股损失达2.1万亿美元"
           ],
-          "why_matters": "油价波动对全球经济和通货膨胀率有重大影响。了解这些变化对投资者和政策制定者至关重要。",
-          "bull_case": "如果地缘政治紧张局势缓解，油气供应可能稳定，推动价格上涨。",
-          "bear_case": "持续的供应中断和地缘政治不稳定可能进一步压低价格。"
+          "why_matters": "这些因素表明经济不稳定，可能导致投资者信心下降和市场波动。",
+          "bull_case": "如果油价稳定且通胀缓解，市场可能迅速反弹。",
+          "bear_case": "持续的地缘政治紧张和科技股损失可能进一步打压市场情绪。"
         }
       },
       "news": [
         {
-          "title": "Trump Loses Grip as Oil Surge Signals Deeper Crisis - OilPrice.com",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Trump-Loses-Grip-as-Oil-Surge-Signals-Deeper-Crisis.html"
+          "title": "Here are the 3 big things we're watching in the stock market in the week ahead - CNBC",
+          "url": "https://www.cnbc.com/2026/04/05/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
         },
         {
-          "title": "UAE's Biggest Gas Plant Forced Offline for Second Time Since War Began - OilPrice.com",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/UAEs-Biggest-Gas-Plant-Forced-Offline-for-Second-Time-Since-War-Began.html"
+          "title": "Wall St Week Ahead Inflation in focus for markets jostled by Middle East war signals - Reuters",
+          "url": "https://www.reuters.com/world/us/wall-st-week-ahead-inflation-focus-markets-jostled-by-middle-east-war-signals-2026-04-03/"
         },
         {
-          "title": "Energy & Utilities Roundup: Market Talk - wsj.com",
-          "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-01ad20ce?gaa_at=eafs&gaa_n=AWEtsqfAKKmkEkYWRmI7Eu7YVsV_FvvGX7VtfvhBb273goejApsr45NLx4Vf&gaa_ts=69ce5971&gaa_sig=-Ri_sicF6IVIatsRLZwYLu24CKmOtWWfRhHey0stVvCvyuUpziPRiTZQ5Oxbgepc_IJtHO5zUfEoxzlrIJO_cA%3D%3D"
+          "title": "Asia-Pacific markets set to climb in Easter trade on hopes for Hormuz reopening - CNBC",
+          "url": "https://www.cnbc.com/2026/04/03/asia-markets-live-hormuz-iran-oil-prices-nikkei-225.html"
         }
       ]
     },
     {
       "market": {
-        "id": "1693042",
-        "question": "Will UAE strike Iran by April 30?",
-        "probability": 0.25,
-        "change_24h": 0.045,
-        "volume_24h": 157306.88,
-        "score": 50.2,
-        "url": "https://polymarket.com/event/will-uae-strike-iran-by-april-30"
+        "id": "676798",
+        "question": "Fannie Mae IPO before 2027?",
+        "probability": 0.195,
+        "change_24h": 0.05,
+        "volume_24h": 4276.78,
+        "score": 53.63,
+        "url": "https://polymarket.com/event/fannie-mae-ipo-before-2027"
       },
       "insight": {
-        "category": "politics",
+        "category": "economy",
         "en": {
-          "title": "Escalating Tensions in Middle East",
-          "summary": "The probability of a UAE strike on Iran rose to 25% amid escalating tensions following Iran's missile attack on UAE facilities. Key drivers include Iran's recent military actions and heightened fears of regional conflict.",
+          "title": "Fannie Mae IPO Probability Rises",
+          "summary": "The probability of a Fannie Mae IPO before 2027 increased to 20% due to recent discussions around mortgage rates and financial market dynamics. Key headlines from mortgage rate experts suggest potential changes in the housing market that could influence Fannie Mae's IPO timing.",
           "drivers": [
-            "Iran's missile attack on UAE Oracle facilities",
-            "UAE equities mixed due to conflict fears",
-            "Ongoing military operations by Iran's IRGC"
+            "Mortgage rate experts predict significant changes for 2026",
+            "Increased market interest in IPOs, highlighted by SpaceX",
+            "Recent positive sentiment in financial markets"
           ],
-          "why_matters": "The situation could significantly impact regional stability and global oil markets, affecting international relations.",
-          "bull_case": "Increased military provocations from Iran may lead UAE to retaliate, raising strike probability.",
-          "bear_case": "Diplomatic efforts or de-escalation could reduce tensions, lowering the likelihood of a strike."
+          "why_matters": "A successful Fannie Mae IPO could signal recovery in the housing market and impact mortgage financing dynamics.",
+          "bull_case": "If mortgage rates stabilize and housing demand increases, Fannie Mae's IPO likelihood could rise significantly.",
+          "bear_case": "Continued volatility in mortgage rates and economic uncertainty could delay or derail the IPO plans."
         },
         "zh": {
-          "title": "中东紧张局势升级",
-          "summary": "由于伊朗对阿联酋设施的导弹袭击，阿联酋对伊朗的打击概率上升至25%。核心驱动因素包括伊朗的军事行动和对地区冲突的担忧。",
+          "title": "房利美IPO概率上升",
+          "summary": "房利美在2027年前IPO的概率上升至20%，因近期关于抵押贷款利率的讨论和金融市场动态。抵押贷款专家的最新头条暗示，住房市场可能发生变化，从而影响房利美的IPO时机。",
           "drivers": [
-            "伊朗对阿联酋Oracle设施的导弹袭击",
-            "因冲突担忧阿联酋股市表现不一",
-            "伊朗革命卫队持续的军事行动"
+            "抵押贷款专家预测2026年将有重大变化",
+            "市场对IPO的兴趣增加，SpaceX为例",
+            "金融市场情绪近期向好"
           ],
-          "why_matters": "这一局势可能显著影响地区稳定和全球石油市场，进而影响国际关系。",
-          "bull_case": "伊朗的军事挑衅增加可能促使阿联酋反击，从而提高打击概率。",
-          "bear_case": "外交努力或降温可能减少紧张局势，降低打击可能性。"
+          "why_matters": "房利美成功IPO可能标志着住房市场复苏，并影响抵押贷款融资动态。",
+          "bull_case": "如果抵押贷款利率稳定且住房需求增加，房利美的IPO可能性将显著上升。",
+          "bear_case": "抵押贷款利率持续波动和经济不确定性可能会推迟或破坏IPO计划。"
         }
       },
       "news": [
         {
-          "title": "Iran Says It Hit Oracle Facilities in UAE - Gizmodo",
-          "url": "https://gizmodo.com/iran-says-it-hit-oracle-facilities-in-uae-2000741785"
+          "title": "Gold Stocks To Follow Today - April 5th - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/gold-stocks-to-follow-today-april-5th-2026-04-05/"
         },
         {
-          "title": "UAE equities close mixed on fears of escalation in Middle East conflict - Reuters",
-          "url": "https://www.reuters.com/world/india/uae-equities-close-mixed-fears-escalation-middle-east-conflict-2026-04-03/"
+          "title": "Northern Lights Forecast: Geomagnetic Storm Could Produce Auroras In Northern States Tonight - Forbes",
+          "url": "https://www.forbes.com/sites/conormurray/2026/04/04/northern-lights-forecast-geomagnetic-storm-could-produce-auroras-in-northern-states-tonight/"
         },
         {
-          "title": "Iran Update, Special Report, April 3, 2026 - Institute for the Study of War",
-          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-3-2026/"
+          "title": "SpaceX Targets More Than $2 Trillion Valuation in IPO - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo"
         }
       ]
     },
@@ -1570,37 +1441,37 @@
       "market": {
         "id": "1259129",
         "question": "100% tariff on Canada in effect by June 30?",
-        "probability": 0.069,
-        "change_24h": 0.0335,
-        "volume_24h": 1980.46,
-        "score": 36.8,
+        "probability": 0.092,
+        "change_24h": 0.035,
+        "volume_24h": 1687.04,
+        "score": 38.23,
         "url": "https://polymarket.com/event/100-tariff-on-canada-in-effect-by-june-30"
       },
       "insight": {
         "category": "politics",
         "en": {
           "title": "Tariff Probability Rises Amid Drug Price Threats",
-          "summary": "Current probability of a 100% tariff on Canada has increased to 7%, driven by Trump's recent threats on drug tariffs. Key headlines indicate a shift in trade policy focused on pharmaceuticals.",
+          "summary": "The current probability of a 100% tariff on Canada has increased to 9% following Trump's recent threats regarding pharmaceutical tariffs. Key drivers include Trump's executive orders targeting drug prices and adjustments to existing tariffs.",
           "drivers": [
-            "Trump's threats on drug tariffs impact market perception",
-            "Executive orders on drug pricing create uncertainty",
-            "Recent adjustments to metals duties signal aggressive trade stance"
+            "Trump threatens tariffs on drug makers",
+            "Executive order on drug pricing announced",
+            "Adjustments to metal tariffs made"
           ],
-          "why_matters": "The potential for a 100% tariff on Canada could escalate trade tensions, affecting bilateral relations and economic stability.",
-          "bull_case": "Increased focus on tariffs could lead to actual implementation by June 30, raising the probability significantly.",
-          "bear_case": "Political pushback and negotiations may prevent the tariff from being enacted, lowering the probability."
+          "why_matters": "The potential for tariffs could escalate trade tensions between the U.S. and Canada, impacting economic relations and market stability.",
+          "bull_case": "If Trump escalates tariff threats, the probability could rise significantly as negotiations intensify.",
+          "bear_case": "If negotiations with Canada improve, the likelihood of tariffs being implemented may decrease."
         },
         "zh": {
-          "title": "药品价格威胁推动关税概率上升",
-          "summary": "对加拿大100%关税的当前概率已升至7%，受特朗普近期对药品关税的威胁驱动。关键头条显示贸易政策向药品领域转变。",
+          "title": "关税概率因药品威胁上升",
+          "summary": "由于特朗普近期对药品关税的威胁，100%关税在加拿大的概率已上升至9%。核心驱动因素包括特朗普针对药品价格的行政命令和现有关税的调整。",
           "drivers": [
-            "特朗普对药品关税的威胁影响市场预期",
-            "药品定价的行政命令带来不确定性",
-            "近期金属关税调整显示出激进的贸易立场"
+            "特朗普威胁对药品制造商征税",
+            "发布药品定价行政命令",
+            "调整金属关税"
           ],
-          "why_matters": "对加拿大实施100%关税可能加剧贸易紧张局势，影响双边关系和经济稳定。",
-          "bull_case": "对关税的关注增加可能导致6月30日前实际实施，显著提高概率。",
-          "bear_case": "政治反对和谈判可能阻止关税实施，从而降低概率。"
+          "why_matters": "关税的潜在实施可能加剧美国与加拿大之间的贸易紧张关系，影响经济关系和市场稳定。",
+          "bull_case": "如果特朗普加大关税威胁，概率可能因谈判加剧而显著上升。",
+          "bear_case": "如果与加拿大的谈判改善，实施关税的可能性可能降低。"
         }
       },
       "news": [
@@ -1619,6 +1490,6 @@
       ]
     }
   ],
-  "twitter_thread": "🔮 PolyLens Battle Cards — Apr 05, 2026 09:45 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 🔥 Will 45 or more ships transit the Strait of Hormuz between March 30-Apri…\n\n✅ YES — 79%  ▲+63.5%\n\"Recent successful transits by major carriers and Iran's exemption for Iraq suggest a susta…\"\n\n❌ NO — 21%\n\"Despite recent transits, underlying geopolitical tensions could quickly r\n\n---\n\n🥊 ₿ Bitcoin Up or Down - April 5, 3AM ET\n\n✅ YES — 100%  ▲+50.0%\n\"Continued investor interest in Bitcoin-related stocks and ongoing security upgrades will s…\"\n\n❌ NO — 0%\n\"A robust U.S. jobs report could prompt tighter monetary policy, potentially dampening risk…\"\n\n🤖 YES conviction\n\n---\n\n🥊 ₿ Ethereum Up or Down - April 5, 3AM ET\n\n✅ YES — 0%  ▼-50.0%\n\"Ethereum derivatives market recorded its first net inflow since 2023, signaling potential …\"\n\n❌ NO — 100%\n\"Warnings of \"Tokens at risk of price pressure from VCs\" suggest strong selling pressure, m…\"\n\n🤖 Strong NO con\n\n---\n\n🥊 ₿ Bitcoin Up or Down - April 5, 4AM ET\n\n✅ YES — 98%  ▲+48.5%\n\"Positive media coverage on crypto stocks and Bitcoin's security upgrades boost investor co…\"\n\n❌ NO — 2%\n\"A strong jobs report could prompt the Fed to maintain higher rates, potentially reducing a…\"\n\n🤖 YES conviction:\n\n---\n\n🥊 🌍 Will Israel take military action in Gaza on April 4, 2026?\n\n✅ YES — 82%  ▲+42.0%\n\"Widespread regional conflict involving Iran, US, and ongoing Gaza operations makes future …\"\n\n❌ NO — 18%\n\"A significant de-escalation of regional tensions or successful diplomatic resolution cou\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
-  "reddit_post": "**PolyLens Daily Digest — Apr 05, 2026 09:45 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🔥 Hormuz Transits Surge on Easing Tensions\n\n**79% YES** | **+63.5%** (24h) | Vol: $12,848\n\nThe probability of 45+ ships transiting the Strait of Hormuz surged to 79% after multiple major vessels, including a CMA CGM container ship, successfully passed through. Iran also announced Iraq is exempt from transit restrictions, signaling an easing of previous chokehold concerns.\n\n**Key Drivers:**\n- CMA CGM vessel successfully transited Hormuz.\n- Multiple other vessels (Oman, Japan) passed safely.\n- Iran exempted Iraq from transit restrictions.\n\n*[View on Polymarket](https://polymarket.com/event/will-45-or-more-ships-transit-the-strait-of-hormuz-between-march-30-april-5)*\n\n---\n\n## 2. ₿ Bitcoin Price Confirmed Up\n\n**100% YES** | **+50.0%** (24h) | Vol: $75,914\n\nThe probability for Bitcoin to be up by April 5, 3 AM ET reached 100%, driven by strong positive sentiment surrounding Bitcoin-related equities and critical security advancements, confirming an upward price movement as the market approached its resolution.\n\n**Key Drivers:**\n- Positive coverage of Bitcoin-related stocks (MarketBeat, Defense World).\n- Bitcoin's quantum-proofing security initiatives (CoinDesk).\n- Market resolution confirming Bitcoin's upward price action.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-3am-et)*\n\n---\n\n## 3. ₿ Ethereum Up Probability Plummets to Zero\n\n**0% YES** | **-50.0%** (24h) | Vol: $20,478\n\nThe probability of Ethereum being up by April 5, 3 AM ET crashed to 0% from 50% in 24 hours. This drastic decline was primarily driven by warnings of potential selling pressure from venture capitalists on crypto tokens.\n\n**Key Drivers:**\n- VCs' potential token sell-off\n- Growing global debt risks\n- Ethereum bullish signal ignored\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-april-5-2026-3am-et)*\n\n---\n\n## 4. ₿ Bitcoin Probability Soars\n\n**98% YES** | **+48.5%** (24h) | Vol: $32,183\n\nBitcoin's 'Up' probability surged by 48.5% to 98%, primarily driven by a wave of positive media coverage on crypto stocks and Bitcoin's security advancements. Recent reports from MarketBeat and CoinDesk fueled investor confidence.\n\n**Key Drivers:**\n- MarketBeat highlights best Bitcoin stocks.\n- Defense World lists top cryptocurrency stocks.\n- Bitcoin's quantum-proofing security initiatives.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-4am-et)*\n\n---\n\n## 5. 🌍 Regional War Escalates, Gaza Action Likely\n\n**82% YES** | **+42.0%** (24h) | Vol: $36,686\n\nThe probability of Israel taking military action in Gaza by April 4, 2026, surged to 82% following a significant escalation of regional conflict. Recent headlines report US fighter jets downed by Iran and IDF strikes in Beirut, indicating a widening war.\n\n**Key Drivers:**\n- US fighter jets downed by Iran, escalating regional conflict\n- IDF strikes targets in Beirut, widening operational scope\n- New Iranian missile launch detected towards northern Israel\n\n*[View on Polymarket](https://polymarket.com/event/will-israel-take-military-action-in-gaza-on-april-4-2026)*\n\n---\n\n## 6. ₿ Bitcoin Up Probability Plunges on Miner Sell-off\n\n**16% YES** | **-33.0%** (24h) | Vol: $84,454\n\nThe probability of Bitcoin being up on April 5th has fallen sharply to 16%, primarily driven by Bitdeer's significant sale of 149.7 BTC and subsequent liquidation of all holdings.\n\n**Key Drivers:**\n- Bitdeer sold 149.7 BTC, liquidating all holdings.\n- Major miner's complete BTC divestment signals bearish outlook.\n- Absence of strong positive catalysts to counter selling pressure.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-on-april-5-2026)*\n\n---\n\n## 7. ₿ Ethereum Downside Risk Rises\n\n**18% YES** | **-32.0%** (24h) | Vol: $43,712\n\nThe probability of Ethereum being up on April 5th plummeted by 32% to 18%, signaling a strong bearish shift despite a reported \"Bullish Signal Not Seen Since 2023\" in its derivatives market. This indicates that other, stronger bearish pressures or profit-taking have dominated short-term sentiment.\n\n**Key Drivers:**\n- Bullish signal ignored: The \"net inflow\" in Ethereum derivatives failed to reverse bearish sentiment.\n- Absence of new bullish catalysts: No further positive news emerged to support an upward price movement.\n- Implied profit-taking: The sharp probability drop suggests significant short-term selling pressure.\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-on-april-5-2026)*\n\n---\n\n## 8. ₿ MegaETH Airdrop Probability Dips\n\n**43% YES** | **-19.7%** (24h) | Vol: $16,184\n\nThe probability of MegaETH performing an airdrop by June 30 plummeted by 19.7% to 43%. This sharp decline is primarily driven by the continued absence of any official announcements or strong hints from the MegaETH project team regarding an airdrop, especially as the June 30 deadline approaches.\n\n**Key Drivers:**\n- No official MegaETH airdrop announcement\n- June 30 deadline nears without project updates\n- Increased community doubt on airdrop timing\n\n*[View on Polymarket](https://polymarket.com/event/will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+  "twitter_thread": "🔮 PolyLens Battle Cards — Apr 05, 2026 19:40 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 ₿ Will the price of Solana be between $80 and $90 on April 5?\n\n✅ YES — 0%  ▼-79.5%\n\n❌ NO — 100%\n\n🤖 Strong NO conviction 🔴\n📊 hika.fyi  [2/6]\n\n---\n\n🥊 🌍 Will Iran strike Oman again in March?\n\n✅ YES — 0%  ▼-75.2%\n\"Iran's threats against US companies and its assertion of control over the Strait of Hormuz…\"\n\n❌ NO — 100%\n\"March concluded without a strike, making the event impossible; US intelligence also report…\"\n\n🤖 Strong NO con\n\n---\n\n🥊 🗳️ Will Israel take military action in Gaza on April 4, 2026?\n\n✅ YES — 100%  ▲+74.5%\n\"Increased military engagement by Israel could lead to further strikes, solidifying the cur…\"\n\n❌ NO — 0%\n\"Diplomatic interventions or ceasefires could reduce the likelihood of military action.\"\n\n---\n\n🥊 ₿ Bitcoin Up or Down on April 5?\n\n✅ YES — 0%  ▼-55.5%\n\"Discovery of a verifiable error in Bitcoin's official April 5th price data could force a m…\"\n\n❌ NO — 100%\n\"Official confirmation of Bitcoin's April 5th price data solidifies the 'Up' condition fail…\"\n\n🤖 Strong NO conviction\n\n---\n\n🥊 ₿ Ethereum Up or Down on April 5?\n\n✅ YES — 0%  ▼-55.5%\n\"A reversal in derivatives inflows could signal renewed bullish momentum for Ethereum.\"\n\n❌ NO — 100%\n\"Continued outflows and negative sentiment may further depress Ethereum's price.\"\n\n🤖 Strong NO conviction 🔴\n📊 hika.fyi  [6\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
+  "reddit_post": "**PolyLens Daily Digest — Apr 05, 2026 19:40 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. ₿ Will the price of Solana be between $80 and $90 on April 5?\n\n**0% YES** | **-79.5%** (24h) | Vol: $9,424\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Expecting property name enclosed in double quotes: line 14 column 3 (char 1121)\n\n*[View on Polymarket](https://polymarket.com/event/will-the-price-of-solana-be-between-80-90-on-april-5)*\n\n---\n\n## 2. 🌍 March Strike Impossible\n\n**0% YES** | **-75.2%** (24h) | Vol: $549,149\n\nThe probability of Iran striking Oman in March has plummeted to 0% as the month has concluded without incident. The \"Iran Update, Special Report, April 3, 2026\" headline indicates the current date is past March, making the event impossible.\n\n**Key Drivers:**\n- March concluded without any reported strike on Oman.\n- Headline \"Iran Update, Special Report, April 3, 2026\" confirms current date is April.\n- US intelligence estimates half of Iran’s missile and drone inventory destroyed.\n\n*[View on Polymarket](https://polymarket.com/event/will-iran-strike-oman-again-in-march)*\n\n---\n\n## 3. 🌍 Escalation in Gaza Conflict\n\n**100% YES** | **+74.5%** (24h) | Vol: $53,956\n\nIsrael's military actions in Gaza have intensified following Iranian missile strikes. Recent IDF strikes on Hamas and downed US jets have heightened tensions.\n\n**Key Drivers:**\n- IDF strikes Hamas near Israeli troops in Gaza\n- Iranian missiles down US fighter jets\n- Civilian casualties reported in Gaza\n\n*[View on Polymarket](https://polymarket.com/event/will-israel-take-military-action-in-gaza-on-april-4-2026)*\n\n---\n\n## 4. ₿ Bitcoin April 5th: Up Market Resolved to Zero\n\n**0% YES** | **-55.5%** (24h) | Vol: $555,165\n\nThe prediction market for Bitcoin's upward movement on April 5th has plummeted to 0% probability, reflecting the conclusion of the event date. This sharp decline indicates that Bitcoin's price action on April 5th did not meet the market's specific 'Up' criteria.\n\n**Key Drivers:**\n- Passage of April 5th, allowing definitive outcome assessment.\n- Bitcoin's price data for April 5th did not meet 'Up' condition.\n- Prediction market mechanics resolving event based on verifiable data.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-on-april-5-2026)*\n\n---\n\n## 5. ₿ Ethereum's Probability Plummets\n\n**0% YES** | **-55.5%** (24h) | Vol: $232,467\n\nEthereum's probability of rising on April 5 dropped to 0% after a 24-hour change of -55.5%. The key driver was a significant net outflow in the derivatives market, signaling bearish sentiment.\n\n**Key Drivers:**\n- First net outflow in Ethereum derivatives market\n- Recent bearish trading patterns observed\n- Negative market reaction to broader crypto trends\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-on-april-5-2026)*\n\n---\n\n## 6. ₿ Bitcoin Surges to 100% Probability\n\n**100% YES** | **+50.0%** (24h) | Vol: $68,137\n\nBitcoin's probability of rising has reached 100%, driven by recent institutional investments and positive market trends. Notably, a major hedge fund announced a significant Bitcoin acquisition.\n\n**Key Drivers:**\n- Institutional investment surge\n- Major hedge fund acquisition\n- Positive technical analysis indicators\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-11am-et)*\n\n---\n\n## 7. ₿ Bitcoin Surges Amid Positive Sentiment\n\n**100% YES** | **+50.0%** (24h) | Vol: $29,160\n\nBitcoin's probability of rising has reached 100% due to Michael Saylor's bullish comments on its future and recent positive trends in cryptocurrency stocks. The market reacted strongly to the notion that the four-year cycle for Bitcoin may have ended.\n\n**Key Drivers:**\n- Michael Saylor claims Bitcoin's four-year cycle is over\n- Positive outlook on cryptocurrency stocks like Galaxy Digital\n- Recent headlines highlight Bitcoin's growing mainstream acceptance\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-april-5-2026-10am-et)*\n\n---\n\n## 8. ₿ Bitcoin Surges on Positive Sentiment\n\n**100% YES** | **+50.0%** (24h) | Vol: $25,520\n\nBitcoin's probability of rising has reached 100% due to Michael Saylor's bullish comments on its future. His assertion that 'Bitcoin Has Won' signals strong confidence in the cryptocurrency's stability.\n\n**Key Drivers:**\n- Michael Saylor claims Bitcoin's four-year cycle is over\n- Increased institutional interest in cryptocurrencies\n- Recent gold market shifts impacting investor sentiment\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-april-5-11am-et)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
 }
