@@ -1,250 +1,42 @@
 {
-  "generated_at": "2026-05-16T10:53:04.048756+00:00",
-  "generated_at_readable": "May 16, 2026 10:53 UTC",
+  "generated_at": "2026-05-16T20:00:03.936926+00:00",
+  "generated_at_readable": "May 16, 2026 20:00 UTC",
   "topics": [
     {
       "market": {
-        "id": "2231026",
-        "question": "Will Silver (XAGUSD) hit (LOW) $76 in May?",
-        "probability": 1.0,
-        "change_24h": 0.6945,
-        "volume_24h": 4877.41,
-        "score": 698.19,
-        "url": "https://polymarket.com/event/will-silver-xagusd-hit-low-76-in-may-521-651"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Silver Hits $76 Low",
-          "summary": "Silver prices recently plunged, with multiple reports confirming the metal has already traded below $76. This direct observation of the price hitting the target drove the prediction market probability to 100%.",
-          "drivers": [
-            "Kitco reported Silver diving below $76.",
-            "Mining.com cited Silver Futures at $75.495/ozt.",
-            "Geopolitical \"Iran risk\" fueled oil and rate fears."
-          ],
-          "why_matters": "The sharp decline in silver, alongside gold, reflects broader market anxieties over inflation and potential interest rate hikes, impacting safe-haven demand.",
-          "bull_case": "Silver has already been reported trading below $76, confirming the market condition for a 100% probability.",
-          "bear_case": "Should reports of Silver trading below $76 prove inaccurate or temporary, the 100% probability could be challenged."
-        },
-        "zh": {
-          "title": "银价触及76美元低点",
-          "summary": "银价近期暴跌，多方报告证实其已跌破76美元。价格直接触及目标，推动预测市场概率升至100%。",
-          "drivers": [
-            "Kitco报道白银跌破76美元。",
-            "Mining.com引用白银期货价为75.495美元/盎司。",
-            "地缘政治“伊朗风险”加剧油价和利率担忧。"
-          ],
-          "why_matters": "银价与金价的急剧下跌，反映了市场对通胀和潜在加息的普遍担忧，影响了避险需求。",
-          "bull_case": "白银已确认跌破76美元，使得五月份触及此低点的概率确定为100%。",
-          "bear_case": "若关于白银跌破76美元的报道不准确或价格迅速反弹，则100%概率可能受挑战。"
-        }
-      },
-      "news": [
-        {
-          "title": "Silver Price Plunges 10% From Two-Month High—Here’s Why - Forbes",
-          "url": "https://www.forbes.com/sites/conormurray/2026/05/15/gold-and-silver-plunge-on-inflation-fears-after-hitting-highest-prices-in-months/"
-        },
-        {
-          "title": "Silver dives below $76, gold tests $4,500 support as Iran risk drives oil, rate fears - Kitco PM Report - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-05-15/silver-dives-below-76-gold-tests-4500-support-iran-risk-drives-oil-rate"
-        },
-        {
-          "title": "Silver dives below $76, gold tests $4,500 support as Iran risk drives oil, rate fears - Kitco PM Report - Bitget",
-          "url": "https://www.bitget.com/amp/news/detail/12560605414419"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "544092",
-        "question": "Will Harvey Weinstein be sentenced to no prison time?",
-        "probability": 0.9195,
-        "change_24h": 0.6155,
-        "volume_24h": 10098.87,
-        "score": 619.5,
-        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-no-prison-time"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Weinstein Mistrial Boosts No Prison Time Odds",
-          "summary": "The probability of Harvey Weinstein receiving no additional prison time surged to 92% after a New York judge declared a mistrial in his rape retrial. A hung jury for the second time means no conviction on these specific charges, significantly reducing immediate sentencing risk.",
-          "drivers": [
-            "New York rape retrial ends in mistrial",
-            "Jury unable to reach a verdict (hung jury)",
-            "No immediate conviction on new charges"
-          ],
-          "why_matters": "This outcome highlights the complexities of prosecuting high-profile sexual assault cases and could influence future legal strategies for similar defendants. It also impacts the perception of justice for victims.",
-          "bull_case": "Another mistrial makes new convictions less likely, increasing chances of no additional prison time beyond his current sentence.",
-          "bear_case": "Prosecutors could pursue a third retrial, or other legal challenges might emerge, leading to future convictions."
-        },
-        "zh": {
-          "title": "温斯坦审判流产，无额外刑期概率飙升",
-          "summary": "哈维·温斯坦在纽约的强奸重审被法官宣布流审后，他免于额外刑期的概率飙升至92%。陪审团第二次未能达成一致，意味着这些具体指控目前无法定罪，显著降低了即时判刑的风险。",
-          "drivers": [
-            "纽约强奸案重审被判流审",
-            "陪审团未能达成一致意见",
-            "目前无新指控被定罪"
-          ],
-          "why_matters": "此结果凸显了起诉备受瞩目的性侵案件的复杂性，并可能影响类似被告未来的法律策略。它也影响了受害者对司法公正的看法。",
-          "bull_case": "再次流审降低了新定罪的可能性，增加了他现有刑期之外无额外刑期的机会。",
-          "bear_case": "检察官可能寻求第三次重审，或出现其他法律挑战，导致未来定罪。"
-        }
-      },
-      "news": [
-        {
-          "title": "Harvey Weinstein's third sex crimes trial in New York ends in mistrial - HPPR",
-          "url": "https://www.hppr.org/npr-news/2026-05-15/harvey-weinsteins-third-sex-crimes-trial-in-new-york-ends-in-mistrial"
-        },
-        {
-          "title": "Judge declares another mistrial on Harvey Weinstein New York rape charge - BBC",
-          "url": "https://www.bbc.com/news/articles/c152lexw1vxo"
-        },
-        {
-          "title": "Judge declares a mistrial in Harvey Weinstein’s rape retrial after jury is unable to reach a verdict - CNN",
-          "url": "https://www.cnn.com/2026/05/15/us/harvey-weinstein-retrial-mistrial"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2223018",
-        "question": "Will the price of Ethereum be above $2,200 on May 17?",
-        "probability": 0.27,
-        "change_24h": -0.59,
-        "volume_24h": 19469.28,
-        "score": 594.29,
-        "url": "https://polymarket.com/event/ethereum-above-2200-on-may-17"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ethereum Price Outlook Plunges",
-          "summary": "Ethereum's probability of staying above $2,200 by May 17 plummeted 59% to 27%, primarily driven by SharpLink CEO's comments suggesting Ethereum companies are moving away from aggressive crypto accumulation strategies. This indicates weakening institutional conviction.",
-          "drivers": [
-            "SharpLink CEO notes Ethereum firms diverge from Saylor's crypto accumulation.",
-            "Capital potentially diverting to AI tokens and new altcoin presales.",
-            "Absence of strong positive catalysts for Ethereum's price."
-          ],
-          "why_matters": "This shift in corporate strategy for Ethereum companies could signal a broader change in institutional crypto investment approaches, impacting long-term asset valuations.",
-          "bull_case": "A sudden surge in broader crypto market demand or unexpected positive Ethereum-specific news could push prices above $2,200.",
-          "bear_case": "Continued institutional caution and capital diversion to other assets will likely keep Ethereum below $2,200."
-        },
-        "zh": {
-          "title": "以太坊价格展望暴跌",
-          "summary": "以太坊在5月17日前保持2200美元以上的可能性暴跌59%至27%，主要受SharpLink首席执行官言论影响，暗示以太坊公司正放弃激进的加密资产积累策略。这表明机构信心减弱。",
-          "drivers": [
-            "SharpLink CEO指出以太坊偏离Saylor积累模式。",
-            "资金或转向AI代币及新预售山寨币。",
-            "以太坊短期缺乏强劲利好催化剂。"
-          ],
-          "why_matters": "以太坊公司策略的转变可能预示着机构加密投资方式的广泛变化，影响资产长期估值。",
-          "bull_case": "市场需求突然激增或以太坊出现意外利好消息，可能推动价格突破2200美元。",
-          "bear_case": "机构持续谨慎且资金流向其他资产，可能使以太坊价格维持在2200美元以下。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bill Ackman has been quietly buying Microsoft since February, when AI fears were dragging the stock - Fortune",
-          "url": "https://fortune.com/2026/05/15/bill-ackman-microsoft-stock-openai-azure-spending/"
-        },
-        {
-          "title": "Crypto News Today: AlphaPepe Presale Announces $1.22M Raised While Bitcoin Price Prediction Targets $200,000 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-presale-announces-1-22m-raised-while-bitcoin-price-prediction-targets-200-000-1036165834"
-        },
-        {
-          "title": "Crypto News: AlphaPepe Presale Announces $1.2M Raised as XRP Price Prediction Aims For $5.00 Amid CLARITY Act - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-alphapepe-presale-announces-1-2m-raised-as-xrp-price-prediction-aims-for-5-00-amid-clarity-act-1036158729"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2117158",
-        "question": "Will Trump speak to Friedrich Merz in May?",
-        "probability": 1.0,
-        "change_24h": 0.5495,
-        "volume_24h": 68923.86,
-        "score": 554.34,
-        "url": "https://polymarket.com/event/will-trump-speak-to-friedrich-merz-in-may"
-      },
-      "insight": {
-        "category": "politics",
-        "en": {
-          "title": "Trump-Merz May Talk Confirmed",
-          "summary": "The probability of Trump speaking to Friedrich Merz in May surged to 100% following Merz's highly publicized criticism of the US, stating he wouldn't advise his children to work or study there. This created an urgent need for direct dialogue between a prominent German leader and a key US political figure.",
-          "drivers": [
-            "Friedrich Merz's public criticism of the US",
-            "Merz's repeated negative remarks about US opportunities",
-            "Perceived necessity for Trump to address German leader's comments"
-          ],
-          "why_matters": "This potential meeting highlights growing transatlantic tensions and the need for high-level diplomatic engagement to manage critical bilateral relations, especially with a potential future US presidential candidate.",
-          "bull_case": "Merz's strong anti-US statements necessitate a direct conversation with Trump to address growing diplomatic friction.",
-          "bear_case": "Despite Merz's comments, no official confirmation of a May meeting exists, making 100% probability premature."
-        },
-        "zh": {
-          "title": "特朗普梅尔茨五月会谈确认",
-          "summary": "特朗普与梅尔茨五月会谈的概率升至100%，此前梅尔茨公开批评美国，称不建议子女赴美工作或学习。这使得德国重要领导人与美国关键政治人物之间的直接对话变得迫切。",
-          "drivers": [
-            "梅尔茨公开批评美国言论",
-            "梅尔茨多次表达对美负面看法",
-            "特朗普需回应德国领导人批评"
-          ],
-          "why_matters": "这次潜在会谈凸显跨大西洋紧张局势加剧，以及在高层外交层面管理关键双边关系的必要性，尤其涉及一位潜在的未来美国总统候选人。",
-          "bull_case": "梅尔茨强硬的反美言论，使得与特朗普直接对话以解决外交摩擦成为必然。",
-          "bear_case": "尽管梅尔茨发表言论，但五月会谈尚未官方确认，100%概率为时过早。"
-        }
-      },
-      "news": [
-        {
-          "title": "Friedrich Merz says he would not advise his children to ‘work or study in US’ - The Guardian",
-          "url": "https://www.theguardian.com/world/2026/may/15/friedrich-merz-germany-children-study-work-us-politics"
-        },
-        {
-          "title": "German Chancellor takes a swipe at America - Newsweek",
-          "url": "https://www.newsweek.com/merz-trump-us-colleges-employment-europe-iran-war-11956290"
-        },
-        {
-          "title": "German Chancellor Won’t Advise His Own Children To Come To America For School Or Work - HuffPost",
-          "url": "https://www.huffpost.com/entry/friedrich-merz-donald-trump-not-advise-social-climate_n_6a077528e4b098065be9e5ea?ncid=NEWSSTAND0001"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2203093",
-        "question": "Will Palantir (PLTR) finish week of May 11 above $134?",
-        "probability": 0.005,
-        "change_24h": -0.535,
-        "volume_24h": 4180.02,
-        "score": 538.62,
-        "url": "https://polymarket.com/event/pltr-above-134-on-may-15-2026"
+        "id": "2203070",
+        "question": "Will Palantir (PLTR) close at $132-$134 on the final day of trading of the week of May 11 – May 15?",
+        "probability": 0.995,
+        "change_24h": 0.82,
+        "volume_24h": 1264.95,
+        "score": 823.1,
+        "url": "https://polymarket.com/event/will-pltr-close-between-132-and-134-week-may-15-2026"
       },
       "insight": {
         "category": "ai_tech",
         "en": {
-          "title": "PLTR Probability Plunges Amid Retail Exodus",
-          "summary": "The probability of Palantir (PLTR) finishing the week of May 11 above $134 has plummeted to 0%, driven by reports of retail traders trimming holdings and a broader shift towards AI chip stocks. JPMorgan highlighted this capital rotation away from software names like Palantir.",
+          "title": "Palantir's AI Model Drives Price Surge",
+          "summary": "The prediction market has assigned a 100% probability for Palantir (PLTR) to close at $132-$134 by May 15, reflecting an 82.0% increase. This surge is primarily driven by Palantir's declaration that \"SaaS is dead,\" signaling a revolutionary, high-value AI-centric business model.",
           "drivers": [
-            "Retail traders trimming Palantir holdings.",
-            "Capital rotation towards AI chip stocks.",
-            "Rising producer prices (6% increase) adding macro pressure."
+            "Palantir strategist Danny Lukus declared \"SaaS is dead.\"",
+            "Market interprets Palantir's new approach as highly disruptive.",
+            "Investors foresee unprecedented revenue growth from Palantir's AI platforms."
           ],
-          "why_matters": "This movement reflects a significant shift in retail investor sentiment and capital allocation within the AI sector, impacting Palantir's short-term valuation.",
-          "bull_case": "Palantir's expanding commercial growth engine outside government contracts could drive future stock appreciation.",
-          "bear_case": "Retail investors are exiting Palantir for AI chip stocks, coupled with macro economic headwinds from rising producer prices."
+          "why_matters": "This indicates a significant shift in how the market values Palantir's unique AI and data integration capabilities, potentially setting a new benchmark for enterprise software valuation.",
+          "bull_case": "Palantir's \"SaaS is dead\" declaration signals a disruptive, highly profitable AI-centric business model, justifying a massive re-rating to $132-$134.",
+          "bear_case": "Retail traders are trimming PLTR holdings for AI chip stocks, and broader market risks could prevent the $132-$134 target."
         },
         "zh": {
-          "title": "PLTR概率暴跌，散户抛售",
-          "summary": "Palantir (PLTR) 在5月11日当周收盘价高于134美元的概率已跌至0%，主要原因是零售交易员减持Palantir，并将资金转向AI芯片股。摩根大通指出，资金正从Palantir等软件股流出。",
+          "title": "Palantir AI模式推动股价飙升",
+          "summary": "预测市场对Palantir (PLTR) 在5月15日前收盘价将达到$132-$134的概率升至100%，24小时内上涨82.0%。这一飙升主要源于Palantir宣称“SaaS已死”，预示其革命性的高价值AI商业模式。",
           "drivers": [
-            "散户投资者减持Palantir股票。",
-            "资金流向AI芯片股。",
-            "生产者价格指数（PPI）上涨6%带来宏观压力。"
+            "Palantir战略家Danny Lukus宣称“SaaS已死”。",
+            "市场将Palantir新方法解读为颠覆性。",
+            "投资者预见Palantir AI平台将带来空前营收增长。"
           ],
-          "why_matters": "这一变化反映了人工智能领域散户投资者情绪和资金配置的重大转变，影响Palantir的短期估值。",
-          "bull_case": "Palantir在政府合同之外的商业增长引擎扩张，有望推动未来股价上涨。",
-          "bear_case": "散户投资者转向AI芯片股，加上生产者价格上涨带来的宏观经济逆风。"
+          "why_matters": "这表明市场对Palantir独特AI和数据整合能力的估值发生重大转变，可能为企业软件估值树立新标杆。",
+          "bull_case": "Palantir“SaaS已死”宣言预示颠覆性高利润AI商业模式，支撑股价重估至$132-$134。",
+          "bear_case": "散户转向AI芯片股，且大盘风险可能阻碍PLTR达到$132-$134目标。"
         }
       },
       "news": [
@@ -253,64 +45,64 @@
           "url": "https://www.businessinsider.com/palantir-stock-sell-retail-traders-ai-memory-chips-pltr-msft-2026-5"
         },
         {
-          "title": "Palantir may have found its next growth engine outside Washington - thestreet.com",
-          "url": "https://www.thestreet.com/investing/palantir-may-have-found-its-next-growth-engine-outside-washington"
+          "title": "Palantir Says SaaS Is Dead - Forbes",
+          "url": "https://www.forbes.com/sites/stevebanker/2026/05/16/palantir-says-saas-is-dead/"
         },
         {
-          "title": "Trump touted Palantir on Truth Social after buying the company's stock, records show - CNBC",
-          "url": "https://www.cnbc.com/amp/2026/05/15/trump-palantir-stock-truth-social.html"
+          "title": "2 Ways Jerome Powell's Successor, Kevin Warsh, Intends to Alter the Fed -- and Both Risk Upsetting a Historically Pricey Stock Market - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/14/ways-jerome-powell-successor-kevin-warsh-alter-fed/"
         }
       ]
     },
     {
       "market": {
-        "id": "2258870",
-        "question": "Bitcoin Up or Down - May 16, 4AM ET",
-        "probability": 0.9995,
-        "change_24h": 0.4995,
-        "volume_24h": 119772.59,
-        "score": 504.58,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-4am-et"
+        "id": "2261145",
+        "question": "Bitcoin Up or Down on May 16?",
+        "probability": 0.0005,
+        "change_24h": -0.5445,
+        "volume_24h": 351873.79,
+        "score": 550.05,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-may-16-2026"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Soars: Regulatory Clarity Fuels Rally",
-          "summary": "Bitcoin's probability of being up by May 16, 4 AM ET, surged to 100% following its climb to $82,000. This strong upward movement is primarily driven by the advancement of the 'Clarity Act,' signaling positive regulatory developments.",
+          "title": "Bitcoin Price Dips, Up Probability Zeroes",
+          "summary": "The probability of Bitcoin being up on May 16 plummeted to 0% following a reported 2% price drop to $79,370.24. This decline occurred amidst broader stock market fears driven by rising oil prices, as reported by WSJ.",
           "drivers": [
-            "Bitcoin price hits $82,000 milestone.",
-            "'Clarity Act' advances, signaling positive crypto regulation.",
-            "Billionaires betting on significant crypto market growth."
+            "Bitcoin price fell 2% to $79,370.24.",
+            "Dow Jones dropped 400 points on oil fears.",
+            "Nasdaq also declined by 0.84%."
           ],
-          "why_matters": "The market's certainty reflects growing institutional confidence and potential for mainstream adoption, as regulatory clarity often reduces investment risk. This could signal a new phase of growth for the broader crypto ecosystem.",
-          "bull_case": "Continued regulatory progress and strong institutional investment will push Bitcoin even higher.",
-          "bear_case": "Profit-taking after the rapid surge or unexpected negative regulatory shifts could cause a pullback."
+          "why_matters": "This movement reflects immediate market reactions to macroeconomic factors and risk-off sentiment, potentially signaling short-term volatility for cryptocurrencies.",
+          "bull_case": "Despite current dip, Bitcoin's recent surge to $82,000 and advancing Clarity Act could signal quick recovery.",
+          "bear_case": "Broader market downturn from oil fears and Bitcoin's 2% drop suggest continued downward pressure."
         },
         "zh": {
-          "title": "比特币飙升：监管明朗化助推涨势",
-          "summary": "比特币在5月16日凌晨4点前上涨的概率飙升至100%，此前其价格已突破82,000美元。这一强劲涨势主要受“清晰法案”推进的驱动，预示着积极的监管进展。",
+          "title": "比特币下跌，上涨概率归零",
+          "summary": "比特币5月16日上涨的概率暴跌至0%，此前据《华尔街日报》报道，比特币价格已下跌2%至79,370.24美元。此次下跌发生在全球股市因油价担忧而普遍下跌之际。",
           "drivers": [
-            "比特币价格突破82,000美元。",
-            "“清晰法案”推进，预示积极监管。",
-            "亿万富翁押注加密市场大涨。"
+            "比特币价格下跌2%至$79,370.24。",
+            "道琼斯指数因油价担忧下跌400点。",
+            "纳斯达克指数也下跌0.84%。"
           ],
-          "why_matters": "市场的高度确定性反映了机构信心的增强和主流采用的潜力，因为监管明朗化通常会降低投资风险。这可能预示着更广泛的加密生态系统进入新的增长阶段。",
-          "bull_case": "监管持续进步和机构投资强劲将进一步推高比特币价格。",
-          "bear_case": "快速上涨后的获利了结或意外的负面监管变化可能导致回调。"
+          "why_matters": "这一走势反映了市场对宏观经济因素和避险情绪的即时反应，可能预示着加密货币短期内的波动性。",
+          "bull_case": "尽管当前下跌，比特币近期曾触及82,000美元，且《清晰法案》推进，预示可能快速反弹。",
+          "bear_case": "油价担忧引发的股市普遍下跌及比特币2%的跌幅，预示下行压力持续。"
         }
       },
       "news": [
         {
-          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
-        },
-        {
-          "title": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates - WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-15-2026"
+          "title": "Crypto News Today: AlphaPepe Presale Announces $1.22M Raised While Bitcoin Price Prediction Targets $200,000 - markets.businessinsider.com",
+          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-presale-announces-1-22m-raised-while-bitcoin-price-prediction-targets-200-000-1036165834"
         },
         {
           "title": "‘Like Bitcoin In 2013’—Sudden 1,000% Price Surge Has Billionaires Betting On A Surprise $1.6 Trillion Crypto Flip - Forbes",
           "url": "https://www.forbes.com/sites/digital-assets/2026/05/14/like-bitcoin-in-2013-sudden-1000-price-surge-has-billionaires-betting-on-a-surprise-15-trillion-crypto-flip/"
+        },
+        {
+          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
         }
       ]
     },
@@ -318,37 +110,39 @@
       "market": {
         "id": "2261210",
         "question": "Ethereum Up or Down on May 16?",
-        "probability": 0.0165,
-        "change_24h": -0.4885,
-        "volume_24h": 62993.87,
-        "score": 493.3,
+        "probability": 0.0005,
+        "change_24h": -0.5245,
+        "volume_24h": 85937.01,
+        "score": 529.43,
         "url": "https://polymarket.com/event/ethereum-up-or-down-on-may-16-2026"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Ethereum Up Probability Plunges Amid Strategy Shift",
-          "summary": "The probability of Ethereum being up on May 16th plummeted to 2%. This sharp decline was driven by SharpLink's report of Ethereum companies diverging from Michael Saylor's crypto asset management model, alongside a strengthening US Dollar.",
+          "title": "Ethereum Up Probability Crashes to Zero",
+          "summary": "The probability of Ethereum being up on May 16th plummeted to 0%, reflecting a 52.4% drop in 24 hours. This sharp decline was primarily driven by SharpLink's criticism of Ethereum companies for diverging from Michael Saylor's crypto asset management model.",
           "drivers": [
-            "Ethereum firms diverge from Saylor's crypto strategy",
-            "US Dollar strengthens on rate hike bets",
-            "Safe-haven flows boost dollar amid Trump-Xi talks"
+            "SharpLink criticizes Ethereum firms' asset management",
+            "Ethereum companies diverge from Saylor's BTC model",
+            "Concerns over institutional conviction in ETH"
           ],
-          "why_matters": "This indicates potential institutional caution within the Ethereum ecosystem and broader macroeconomic headwinds impacting risk assets like crypto.",
-          "bull_case": "Unexpected positive news or a sudden weakening of the dollar could reverse the trend, boosting Ethereum's price.",
-          "bear_case": "Continued dollar strength and a lack of institutional buying will likely keep Ethereum under pressure."
+          "why_matters": "This shift indicates a significant loss of confidence in Ethereum's short-term price performance, potentially signaling broader institutional re-evaluation of crypto asset strategies beyond Bitcoin.",
+          "bull_case": "Ethereum companies' new strategies may offer sustainable long-term growth despite current criticism.",
+          "bear_case": "SharpLink's criticism signals weakening institutional conviction and increased selling pressure for Ethereum.",
+          "related_events": []
         },
         "zh": {
-          "title": "以太坊上涨概率暴跌，策略转变",
-          "summary": "以太坊在5月16日上涨的概率暴跌至2%。这主要受SharpLink报道以太坊公司偏离Michael Saylor加密资产管理模式，以及美元因加息预期和避险资金流走强的影响。",
+          "title": "以太坊上涨概率跌至零",
+          "summary": "5月16日以太坊上涨的概率已降至0%，24小时内暴跌52.4%。这一下跌主要源于SharpLink批评以太坊公司偏离了Michael Saylor的加密资产管理模式。",
           "drivers": [
-            "以太坊公司偏离Saylor加密策略",
-            "美元因加息预期走强",
-            "特朗普习会谈引发避险资金流"
+            "SharpLink批评以太坊资产管理",
+            "以太坊公司偏离Saylor比特币模式",
+            "机构对以太坊信心受损"
           ],
-          "why_matters": "这表明以太坊生态系统内部可能存在机构谨慎情绪，以及宏观经济逆风对加密等风险资产的影响。",
-          "bull_case": "意外利好消息或美元突然走弱可能逆转趋势，提振以太坊价格。",
-          "bear_case": "美元持续走强和机构购买不足将可能使以太坊承压。"
+          "why_matters": "这一转变表明市场对以太坊短期价格表现信心大失，可能预示着机构对加密资产策略的重新评估，超越了比特币。",
+          "bull_case": "尽管面临批评，以太坊公司的新策略或能带来长期可持续增长。",
+          "bear_case": "SharpLink的批评预示着机构信心的减弱，增加了以太坊的卖压。",
+          "related_events": []
         }
       },
       "news": [
@@ -368,39 +162,31 @@
     },
     {
       "market": {
-        "id": "2259028",
-        "question": "Bitcoin Up or Down - May 16, 5AM ET",
-        "probability": 0.0175,
-        "change_24h": -0.4825,
-        "volume_24h": 36882.81,
-        "score": 487.07,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-5am-et"
+        "id": "2260596",
+        "question": "Bitcoin Up or Down - May 16, 10AM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4995,
+        "volume_24h": 49518.85,
+        "score": 504.19,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-10am-et"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Downside Bets Surge",
-          "summary": "The probability of Bitcoin being up by May 16, 5 AM ET, has plummeted to 2%, reflecting strong bearish sentiment. This shift is primarily driven by Bitcoin's recent 2% price drop to $79,370.24 and a broader stock market decline.",
+          "title": "Bitcoin Up or Down - May 16, 10AM ET",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Bitcoin's 2% price drop to $79,370.24",
-            "Dow Jones falling 400 points on oil price fears",
-            "Reversal from recent $82,000 highs"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This movement indicates a significant shift in short-term crypto market sentiment, potentially signaling a broader correction for risk assets.",
-          "bull_case": "Renewed momentum from the advancing Clarity Act or billionaire crypto investments could push Bitcoin higher.",
-          "bear_case": "Continued broader market weakness and profit-taking after recent highs will likely keep Bitcoin under pressure."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "比特币看跌情绪飙升",
-          "summary": "截至5月16日凌晨5点，比特币上涨的概率已跌至2%，反映出强烈的看跌情绪。这一转变主要受比特币近期下跌2%至79,370.24美元以及大盘股市下跌的推动。",
+          "title": "Bitcoin Up or Down - May 16, 10AM ET",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "比特币价格下跌2%至79,370.24美元",
-            "道琼斯指数因油价担忧下跌400点",
-            "从近期82,000美元高点回落"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这一走势表明短期加密市场情绪发生重大转变，可能预示着风险资产将面临更广泛的调整。",
-          "bull_case": "澄清法案的推进或亿万富翁的加密投资可能重新提振比特币价格。",
-          "bear_case": "大盘持续疲软以及近期高点后的获利了结，可能使比特币承压。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
@@ -420,122 +206,18 @@
     },
     {
       "market": {
-        "id": "2261145",
-        "question": "Bitcoin Up or Down on May 16?",
-        "probability": 0.0295,
-        "change_24h": -0.4655,
-        "volume_24h": 173790.56,
-        "score": 470.74,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-may-16-2026"
+        "id": "2260848",
+        "question": "Bitcoin Up or Down - May 16, 11AM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4995,
+        "volume_24h": 43186.66,
+        "score": 504.14,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-11am-et"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Probability Plunges on Price Drop",
-          "summary": "The probability of Bitcoin being up on May 16 plummeted by 46.6% to 3%, primarily driven by a significant 2% price drop to $79,370.24 as reported by the WSJ. This decline occurred amidst a broader stock market downturn fueled by oil price fears.",
-          "drivers": [
-            "Bitcoin price fell 2% to $79,370.24",
-            "Dow fell 400 points on oil price fears",
-            "Broader risk-off sentiment in markets"
-          ],
-          "why_matters": "This sharp drop reflects immediate market reaction to negative price action and broader economic concerns, signaling increased volatility and uncertainty for short-term crypto performance. It highlights Bitcoin's sensitivity to macro-economic shifts.",
-          "bull_case": "Strong underlying bullish sentiment and institutional interest could quickly reverse the current dip, pushing Bitcoin higher.",
-          "bear_case": "Broader market downturns and Bitcoin's recent 2% price drop suggest continued downward pressure for the short term."
-        },
-        "zh": {
-          "title": "比特币上涨概率暴跌",
-          "summary": "比特币在5月16日上涨的概率骤降46.6%至3%，主要原因是华尔街日报报道比特币价格下跌2%至79,370.24美元。此次下跌发生在全球股市因油价担忧而普遍下挫之际。",
-          "drivers": [
-            "比特币价格下跌2%至$79,370.24",
-            "道指因油价担忧下跌400点",
-            "市场普遍避险情绪升温"
-          ],
-          "why_matters": "此次急剧下跌反映了市场对负面价格走势和宏观经济担忧的即时反应，预示着短期加密货币表现的波动性和不确定性增加。这凸显了比特币对宏观经济变化的敏感性。",
-          "bull_case": "强劲的潜在看涨情绪和机构兴趣可能迅速逆转当前跌势，推动比特币走高。",
-          "bear_case": "大盘下跌和比特币近期2%的跌幅预示短期内将面临持续下行压力。"
-        }
-      },
-      "news": [
-        {
-          "title": "Crypto News Today: AlphaPepe Presale Announces $1.22M Raised While Bitcoin Price Prediction Targets $200,000 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-presale-announces-1-22m-raised-while-bitcoin-price-prediction-targets-200-000-1036165834"
-        },
-        {
-          "title": "‘Like Bitcoin In 2013’—Sudden 1,000% Price Surge Has Billionaires Betting On A Surprise $1.6 Trillion Crypto Flip - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/05/14/like-bitcoin-in-2013-sudden-1000-price-surge-has-billionaires-betting-on-a-surprise-15-trillion-crypto-flip/"
-        },
-        {
-          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2228189",
-        "question": "MicroStrategy announces >1000 BTC purchase May 12-18?",
-        "probability": 0.603,
-        "change_24h": -0.3765,
-        "volume_24h": 55813.11,
-        "score": 381.25,
-        "url": "https://polymarket.com/event/microstrategy-announces-1000-btc-purchase-may-12-18"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "MicroStrategy BTC Buy Probability Plunges",
-          "summary": "The probability of MicroStrategy announcing a >1000 BTC purchase by May 18th dropped significantly to 60%, primarily driven by Bitcoin hitting $82,000 and the absence of any specific MicroStrategy buying signals this week. Market participants likely anticipate a pause or delay given the rapid price surge.",
-          "drivers": [
-            "Bitcoin's rapid surge to $82,000",
-            "Absence of MicroStrategy buying announcements",
-            "Bitdeer selling 198.3 BTC this week"
-          ],
-          "why_matters": "MicroStrategy's consistent Bitcoin accumulation strategy is a key indicator of institutional confidence. A pause or delay in their buying could signal caution at current price levels, impacting broader market sentiment.",
-          "bull_case": "MicroStrategy's long-term accumulation strategy means they might buy into strength, viewing $82,000 BTC as further validation.",
-          "bear_case": "Bitcoin's rapid ascent to $82,000 may prompt MicroStrategy to delay a large purchase, awaiting a price correction."
-        },
-        "zh": {
-          "title": "微策略购入比特币概率骤降",
-          "summary": "微策略在5月18日前宣布购买超1000枚比特币的概率大幅下降至60%，主要原因是比特币飙升至82,000美元，且本周缺乏微策略的具体购买信号。市场参与者可能预期在高价位下，微策略会暂停或推迟购买。",
-          "drivers": [
-            "比特币迅速飙升至82,000美元",
-            "微策略未发布购买公告",
-            "Bitdeer本周出售198.3枚比特币"
-          ],
-          "why_matters": "微策略持续的比特币积累策略是机构信心的关键指标。其购买行为的暂停或延迟可能预示着对当前价格水平的谨慎，从而影响更广泛的市场情绪。",
-          "bull_case": "微策略的长期积累策略意味着他们可能在强势市场中继续购买，将82,000美元视为进一步的验证。",
-          "bear_case": "比特币迅速升至82,000美元可能促使微策略推迟大额购买，等待价格回调。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
-        },
-        {
-          "title": "Bitdeer currently maintains zero holdings and sold 198.3 BTC this week - Bitget",
-          "url": "https://www.bitget.com/asia/amp/news/detail/12560605414672"
-        },
-        {
-          "title": "Hyperscale Data Announces Intent to Launch Tender Offer to Acquire Up to $5,000,000 of Outstanding Shares at $0.21 Per Share – Company Announcement - Financial Times",
-          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202605151322PR_NEWS_USPRX____SF61050-1"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2182292",
-        "question": "Will Gold (XAUUSD) hit (LOW) $4,600 in May?",
-        "probability": 1.0,
-        "change_24h": 0.3195,
-        "volume_24h": 15008.92,
-        "score": 323.68,
-        "url": "https://polymarket.com/event/will-gold-xauusd-hit-low-4600-in-may"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Gold (XAUUSD) hit (LOW) $4,600 in May?",
+          "title": "Bitcoin Up or Down - May 16, 11AM ET",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -543,7 +225,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Gold (XAUUSD) hit (LOW) $4,600 in May?",
+          "title": "Bitcoin Up or Down - May 16, 11AM ET",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -553,54 +235,46 @@
       },
       "news": [
         {
-          "title": "Gold breaks below $4,600 as dollar, yields overpower haven demand - Kitco AM Report - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-05-15/gold-breaks-below-4600-dollar-yields-overpower-haven-demand-kitco-am-report"
+          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
         },
         {
-          "title": "Gold price falls back to $4,500 on heightened inflation fears - Mining.com",
-          "url": "https://www.mining.com/gold-price-falls-back-to-4500-on-heightened-inflation-fears/"
+          "title": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates - WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-15-2026"
         },
         {
-          "title": "Silver dives below $76, gold tests $4,500 support as Iran risk drives oil, rate fears - Kitco PM Report - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-05-15/silver-dives-below-76-gold-tests-4500-support-iran-risk-drives-oil-rate"
+          "title": "‘Like Bitcoin In 2013’—Sudden 1,000% Price Surge Has Billionaires Betting On A Surprise $1.6 Trillion Crypto Flip - Forbes",
+          "url": "https://www.forbes.com/sites/digital-assets/2026/05/14/like-bitcoin-in-2013-sudden-1000-price-surge-has-billionaires-betting-on-a-surprise-15-trillion-crypto-flip/"
         }
       ]
     },
     {
       "market": {
-        "id": "2228181",
-        "question": "Will Microstrategy announce a Bitcoin purchase May 12-18?",
-        "probability": 0.66,
-        "change_24h": -0.318,
-        "volume_24h": 38397.72,
-        "score": 322.58,
-        "url": "https://polymarket.com/event/will-microstrategy-announce-a-bitcoin-purchase-may-12-18"
+        "id": "2261144",
+        "question": "Bitcoin Up or Down - May 16, 12PM ET",
+        "probability": 0.015,
+        "change_24h": -0.485,
+        "volume_24h": 41519.58,
+        "score": 489.62,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-12pm-et"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Microstrategy Bitcoin Buy Odds Drop",
-          "summary": "The probability of Microstrategy announcing a Bitcoin purchase this week dropped significantly by 31.8% to 66%. This movement was primarily driven by Bitcoin mining company Bitdeer selling 198.3 BTC and maintaining zero holdings, alongside Bitcoin's surge to $82,000, potentially making immediate large purchases less attractive.",
+          "title": "Bitcoin Up or Down - May 16, 12PM ET",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Bitdeer sold 198.3 BTC, now holds zero.",
-            "Bitcoin surged to $82,000, a higher entry price.",
-            "Absence of specific Microstrategy purchase signals."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "Microstrategy's consistent Bitcoin accumulation strategy significantly influences institutional interest and market sentiment for the asset. Its buying decisions are closely watched by the crypto community.",
-          "bull_case": "Microstrategy consistently buys Bitcoin, and its recent price surge could encourage further accumulation.",
-          "bear_case": "Bitcoin's high price and another crypto firm's selling activity may deter Microstrategy from an immediate purchase."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "微策略购币概率大跌",
-          "summary": "微策略本周宣布购买比特币的概率大幅下降31.8%至66%。主要驱动因素是比特币矿企Bitdeer出售198.3枚比特币并清零持仓，以及比特币价格飙升至82,000美元，可能降低了立即大额购买的吸引力。",
+          "title": "Bitcoin Up or Down - May 16, 12PM ET",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "Bitdeer出售198.3枚比特币并清零。",
-            "比特币涨至82,000美元，入场价更高。",
-            "微策略本周无明确购币信号。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "微策略持续的比特币积累策略显著影响机构兴趣和市场情绪。其购买决策受到加密社区的密切关注。",
-          "bull_case": "微策略一贯坚持购买比特币，近期币价上涨可能促使其进一步增持。",
-          "bear_case": "比特币高价及其他加密公司抛售行为，可能打消微策略立即购买的意愿。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
@@ -609,416 +283,42 @@
           "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
         },
         {
-          "title": "Bitdeer currently maintains zero holdings and sold 198.3 BTC this week - Bitget",
-          "url": "https://www.bitget.com/asia/amp/news/detail/12560605414672"
+          "title": "‘Like Bitcoin In 2013’—Sudden 1,000% Price Surge Has Billionaires Betting On A Surprise $1.6 Trillion Crypto Flip - Forbes",
+          "url": "https://www.forbes.com/sites/digital-assets/2026/05/14/like-bitcoin-in-2013-sudden-1000-price-surge-has-billionaires-betting-on-a-surprise-15-trillion-crypto-flip/"
         },
         {
-          "title": "Hyperscale Data Announces Intent to Launch Tender Offer to Acquire Up to $5,000,000 of Outstanding Shares at $0.21 Per Share – Company Announcement - Financial Times",
-          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202605151322PR_NEWS_USPRX____SF61050-1"
+          "title": "Stock Market Today: Dow Falls 400 Points Lower on Oil Price Fears — Live Updates - WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-15-2026"
         }
       ]
     },
     {
       "market": {
-        "id": "2073901",
-        "question": "Will Microsoft Corporation (MSFT) hit (LOW) $390 in May?",
-        "probability": 0.125,
-        "change_24h": -0.27,
-        "volume_24h": 951.43,
-        "score": 272.98,
-        "url": "https://polymarket.com/event/will-msft-dip-to-390-in-may-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "MSFT $390 Low Target Dips",
-          "summary": "The probability of Microsoft (MSFT) hitting $390 in May has dropped significantly to 12% after hedge fund manager Bill Ackman disclosed a new, 'highly compelling' stake in the company. This news caused MSFT stock to jump, moving it further from the $390 low target.",
-          "drivers": [
-            "Bill Ackman revealed a new, 'highly compelling' Microsoft stake.",
-            "MSFT stock jumped following Ackman's investment news.",
-            "Ackman's quiet buying since February signals strong conviction."
-          ],
-          "why_matters": "This movement highlights the significant impact of major institutional investor endorsements on stock valuations and market expectations for tech giants.",
-          "bull_case": "A broader market downturn or unexpected regulatory challenges could still push MSFT's price down to $390.",
-          "bear_case": "Strong investor confidence from Bill Ackman's stake and continued AI-driven growth will likely keep MSFT well above $390."
-        },
-        "zh": {
-          "title": "微软跌至390美元概率下降",
-          "summary": "微软（MSFT）在5月跌至390美元的概率已大幅降至12%，此前对冲基金经理比尔·阿克曼披露了对该公司“极具吸引力”的新持仓。此消息导致微软股价跳涨，使其远离390美元的低点目标。",
-          "drivers": [
-            "比尔·阿克曼披露“极具吸引力”的微软新持仓。",
-            "阿克曼投资消息后，微软股价跳涨。",
-            "阿克曼自2月起悄然增持，显示坚定信心。"
-          ],
-          "why_matters": "这一变化凸显了主要机构投资者认可对科技巨头估值和市场预期的重大影响。",
-          "bull_case": "市场普遍回调或意料之外的监管挑战仍可能将微软股价推至390美元。",
-          "bear_case": "比尔·阿克曼持股带来的强劲投资者信心和持续的AI增长将使微软远高于390美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Ackman reveals new Microsoft stake, calls valuation ‘highly compelling’ (MSFT:NASDAQ) - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4593577-ackman-reveals-new-microsoft-stake-calls-valuation-highly-compelling"
-        },
-        {
-          "title": "Microsoft Stock Jumps After Bill Ackman Reveals New Position - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-jumps-bill-ackman-170324594.html"
-        },
-        {
-          "title": "Microsoft Stock (NASDAQ:MSFT) Jumps as Microsoft Plans to Roll Back Faulty Drivers - TipRanks",
-          "url": "https://www.tipranks.com/news/microsoft-stock-nasdaqmsft-jumps-as-microsoft-plans-to-roll-back-faulty-drivers"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2074061",
-        "question": "Will NVIDIA (NVDA) hit (HIGH) $240 in May?",
-        "probability": 0.57,
-        "change_24h": -0.24,
-        "volume_24h": 3778.64,
-        "score": 243.58,
-        "url": "https://polymarket.com/event/will-nvda-reach-240-in-may-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "NVDA $240 May: Earnings Risk Looms",
-          "summary": "NVIDIA's probability to hit $240 in May dropped 24% to 57%, despite trading at $236, as market attention shifts to the high-stakes May 20 earnings report. Options traders anticipate a significant 9% stock move post-earnings, introducing considerable uncertainty.",
-          "drivers": [
-            "Uncertainty around May 20 earnings",
-            "Options traders expect 9% post-earnings move",
-            "Recent 20% rally invites profit-taking",
-            "Potential \"sell the news\" event post-earnings"
-          ],
-          "why_matters": "NVIDIA's performance significantly impacts the broader AI sector and investor confidence in high-growth tech stocks, especially ahead of key financial disclosures.",
-          "bull_case": "Strong Q1 earnings and optimistic guidance could easily push NVDA past $240 and sustain it through May.",
-          "bear_case": "Disappointing earnings or guidance, or a \"sell the news\" event, could cause a sharp drop below $240 post-May 20."
-        },
-        "zh": {
-          "title": "英伟达五月240美元：财报风险",
-          "summary": "尽管英伟达股价已达236美元，但其五月触及240美元的概率骤降24%至57%，市场焦点转向5月20日高风险财报。期权交易员预计财报后股价将有9%的显著波动，增加了不确定性。",
-          "drivers": [
-            "5月20日财报不确定性",
-            "期权市场预期9%股价波动",
-            "近期20%涨幅引获利了结",
-            "财报后“卖事实”风险"
-          ],
-          "why_matters": "英伟达的表现对更广泛的AI行业和投资者对高增长科技股的信心至关重要，尤其是在关键财务披露前。",
-          "bull_case": "若Q1财报强劲且指引乐观，NVDA有望轻松突破并维持240美元。",
-          "bear_case": "财报或指引不佳，或“卖事实”效应，股价恐在5月20日后跌破240。"
-        }
-      },
-      "news": [
-        {
-          "title": "NVIDIA is Up 20% in a Month. Could the May 20 Earnings Report Knock It Right Back Down? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/14/nvidia-is-up-20-in-a-month-could-the-may-20-earnings-report-knock-it-right-back-down/"
-        },
-        {
-          "title": "How Much Could Nvidia Stock Move after Q1 Earnings? Here’s What Options Traders Expect - TipRanks",
-          "url": "https://www.tipranks.com/news/how-much-could-nvidia-stock-move-after-q1-earnings-heres-what-options-traders-expect"
-        },
-        {
-          "title": "‘Buckle Up For Another Surge,’ Says Top Analyst Christopher Rolland About Nvidia Stock - TipRanks",
-          "url": "https://www.tipranks.com/news/buckle-up-for-another-surge-says-top-analyst-christopher-rolland-about-nvidia-stock"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2074142",
-        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $230 in May?",
-        "probability": 0.15,
-        "change_24h": -0.24,
-        "volume_24h": 3129.39,
-        "score": 243.5,
-        "url": "https://polymarket.com/event/will-coin-reach-230-in-may-2026"
+        "id": "2223018",
+        "question": "Will the price of Ethereum be above $2,200 on May 17?",
+        "probability": 0.27,
+        "change_24h": -0.445,
+        "volume_24h": 34297.67,
+        "score": 449.54,
+        "url": "https://polymarket.com/event/ethereum-above-2200-on-may-17"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "COIN Probability Dips on CLARITY Act",
-          "summary": "The probability of COIN hitting $230 in May dropped significantly by 24% to 15%. This decline was primarily driven by Coinbase stock stumbling as the Senate progressed the CLARITY Act, with the CEO publicly critiquing the bill.",
+          "title": "Will the price of Ethereum be above $2,200 on May 17?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Coinbase stock stumbled after CLARITY Act vote.",
-            "Coinbase CEO critiqued the CLARITY Act bill.",
-            "Investor concerns over CLARITY Act's impact."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "The CLARITY Act's final form and its impact on Coinbase's operations are crucial for its future valuation and regulatory standing.",
-          "bull_case": "Bitcoin's continued rally above $82,000 could drive COIN higher, especially if CLARITY Act concerns ease.",
-          "bear_case": "The CLARITY Act's progression, coupled with CEO's critique, suggests unfavorable regulatory conditions for COIN."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Coinbase因CLARITY法案概率下跌",
-          "summary": "COIN在五月达到230美元的概率大幅下降24%至15%。这一下跌主要由于参议院推进CLARITY法案后，Coinbase股价下跌，且其CEO公开批评该法案。",
+          "title": "Will the price of Ethereum be above $2,200 on May 17?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "CLARITY法案推进后Coinbase股价下跌。",
-            "Coinbase首席执行官批评CLARITY法案。",
-            "投资者担忧CLARITY法案的监管影响。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "CLARITY法案的最终形式及其对Coinbase运营的影响，对其未来估值和监管地位至关重要。",
-          "bull_case": "比特币持续突破82,000美元可能推高COIN，尤其若CLARITY法案担忧缓解。",
-          "bear_case": "CLARITY法案的推进及CEO批评，预示COIN面临不利监管环境。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
-        },
-        {
-          "title": "Coinbase Stock Stumbles as the Senate Vote Progresses the CLARITY Act; CEO Critiques the Bill - TipRanks",
-          "url": "https://www.tipranks.com/news/coinbase-stock-stumbles-as-the-senate-vote-progresses-the-clarity-act-ceo-critiques-the-bill"
-        },
-        {
-          "title": "US fund Alpine Fox Capital lists bitcoin mining company Cipher Mining as its largest holding - Bitget",
-          "url": "https://www.bitget.com/asia/amp/news/detail/12560605412891"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2132815",
-        "question": "Will Solana reach $100 in May?",
-        "probability": 0.175,
-        "change_24h": -0.235,
-        "volume_24h": 7735.94,
-        "score": 238.89,
-        "url": "https://polymarket.com/event/will-solana-reach-100-in-may-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Solana $100 May Probability Dips",
-          "summary": "Solana's probability to reach $100 in May fell by 23.5% to 18%, largely due to investor capital shifting towards new presale projects like Pepeto and AlphaPepe. Despite Bitcoin's rally to $82,000, Solana appears to be underperforming relative to broader crypto market strength.",
-          "drivers": [
-            "Capital diversion to new presales (Pepeto, AlphaPepe).",
-            "Solana's relative underperformance vs. Bitcoin's rally.",
-            "Lack of specific bullish catalysts for Solana in May."
-          ],
-          "why_matters": "This movement indicates a potential shift in investor preference within the crypto market, favoring speculative new projects over established altcoins, impacting Solana's short-term price trajectory.",
-          "bull_case": "A sustained broader crypto market rally, fueled by Bitcoin's strength and positive regulatory developments, could still propel Solana towards $100.",
-          "bear_case": "Continued investor preference for new presales and memecoins, alongside a lack of specific Solana catalysts, will likely keep its price below $100."
-        },
-        "zh": {
-          "title": "Solana五月破百概率下降",
-          "summary": "Solana五月达到100美元的概率下降23.5%至18%，主要原因是投资者资金转向Pepeto和AlphaPepe等新预售项目。尽管比特币飙升至82,000美元，Solana的表现似乎不及大盘。",
-          "drivers": [
-            "资金流向Pepeto、AlphaPepe等新预售项目。",
-            "Solana相对于比特币上涨表现不佳。",
-            "Solana缺乏五月冲高100美元的具体利好催化剂。"
-          ],
-          "why_matters": "这一变化表明加密市场投资者偏好可能正在转移，更青睐高风险新项目而非成熟山寨币，影响Solana短期价格走势。",
-          "bull_case": "比特币强势和监管利好若能持续推动大盘上涨，Solana仍可能被带动冲向100美元。",
-          "bear_case": "投资者持续青睐新预售和迷因币，加上Solana缺乏自身催化剂，可能使其价格难以突破100美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Crypto News: Pepeto Presale Crosses $10 Million While Solana Price Prediction Targets $10,000 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-presale-crosses-10-million-while-solana-price-prediction-targets-10-000-1036162344"
-        },
-        {
-          "title": "Stonebridge Financial Group LLC MO Invests $527,000 in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-stonebridge-financial-group-llc-mo-invests-527000-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-05-13/"
-        },
-        {
-          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "544095",
-        "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-        "probability": 0.019,
-        "change_24h": -0.231,
-        "volume_24h": 5686.73,
-        "score": 234.75,
-        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Weinstein Sentence Probability Plummets After Mistrial",
-          "summary": "The probability of Harvey Weinstein receiving a 10-20 year sentence dropped significantly after his New York rape retrial ended in a mistrial. A deadlocked jury prevented a conviction, directly impacting the likelihood of additional prison time.",
-          "drivers": [
-            "New York rape retrial declared mistrial",
-            "Jury deadlocked, unable to reach verdict",
-            "Prosecution failed to secure conviction"
-          ],
-          "why_matters": "This outcome highlights the challenges of prosecuting high-profile sexual assault cases and could influence future legal strategies. It also impacts the public perception of accountability for powerful figures.",
-          "bull_case": "Prosecution could pursue a third retrial and secure a conviction, increasing potential sentencing.",
-          "bear_case": "Prosecutors may drop the charges, or appeals could reduce existing sentences, further lowering the probability."
-        },
-        "zh": {
-          "title": "温斯坦刑期概率因流审暴跌",
-          "summary": "哈维·温斯坦在纽约的强奸案重审以流审告终后，他被判处10至20年监禁的概率大幅下降。陪审团僵持不下未能达成裁决，直接影响了额外刑期的可能性。",
-          "drivers": [
-            "纽约强奸案重审被宣布流审",
-            "陪审团僵持，无法达成裁决",
-            "检方未能获得定罪"
-          ],
-          "why_matters": "此结果凸显了起诉备受关注的性侵案件的挑战，并可能影响未来的法律策略。它也影响了公众对有权势人物问责的看法。",
-          "bull_case": "检方可能进行第三次重审并成功定罪，从而增加潜在刑期。",
-          "bear_case": "检方可能撤销指控，或上诉成功减少现有刑期，进一步降低概率。"
-        }
-      },
-      "news": [
-        {
-          "title": "Harvey Weinstein's third sex crimes trial in New York ends in mistrial - HPPR",
-          "url": "https://www.hppr.org/npr-news/2026-05-15/harvey-weinsteins-third-sex-crimes-trial-in-new-york-ends-in-mistrial"
-        },
-        {
-          "title": "Harvey Weinstein Rape Retrial Ends in Hung Jury for Second Time - Bloomberg Law News",
-          "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-rape-retrial-ends-in-hung-jury-for-second-time"
-        },
-        {
-          "title": "Harvey Weinstein reports chest pain and court ends early as jury deliberates in his rape retrial - NBC New York",
-          "url": "https://www.nbcnewyork.com/news/local/crime-and-courts/harvey-weinstein-chest-pain-leaves-court-jury-deliberates-rape-retrial/6501406/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "544096",
-        "question": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
-        "probability": 0.0175,
-        "change_24h": -0.2265,
-        "volume_24h": 8273.78,
-        "score": 230.42,
-        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Weinstein Sentence Probability Plummets After Mistrial",
-          "summary": "The probability of Harvey Weinstein receiving a 20-30 year sentence dropped significantly to 2% after his third New York sex crimes trial ended in a mistrial. This outcome means no new conviction from this trial, directly reducing the chance of additional sentencing.",
-          "drivers": [
-            "Harvey Weinstein's NY sex crimes trial ended in mistrial.",
-            "Jury deadlocked, unable to reach a verdict.",
-            "No new conviction from latest trial."
-          ],
-          "why_matters": "This outcome highlights the challenges of prosecuting high-profile sex crimes cases and the complexities of jury deliberations. It also impacts the ongoing legal saga surrounding the #MeToo movement.",
-          "bull_case": "A successful retrial in New York leading to a new conviction could increase sentencing probability.",
-          "bear_case": "Further mistrials or successful appeals of existing convictions would lower the probability."
-        },
-        "zh": {
-          "title": "温斯坦刑期概率因流审暴跌",
-          "summary": "哈维·温斯坦在纽约的第三次性犯罪审判以流审告终，导致其被判20至30年监禁的概率大幅下降至2%。此次结果意味着没有新的定罪，直接降低了追加刑期的可能性。",
-          "drivers": [
-            "温斯坦纽约性犯罪审判流审。",
-            "陪审团僵持，未能达成裁决。",
-            "最新审判未产生新定罪。"
-          ],
-          "why_matters": "此结果凸显了起诉备受关注的性犯罪案件的挑战以及陪审团审议的复杂性。它也影响了围绕#MeToo运动的持续法律纠葛。",
-          "bull_case": "纽约重审成功并获得新定罪，可能推高判刑概率。",
-          "bear_case": "进一步流审或现有定罪上诉成功将降低概率。"
-        }
-      },
-      "news": [
-        {
-          "title": "Harvey Weinstein's third sex crimes trial in New York ends in mistrial - HPPR",
-          "url": "https://www.hppr.org/npr-news/2026-05-15/harvey-weinsteins-third-sex-crimes-trial-in-new-york-ends-in-mistrial"
-        },
-        {
-          "title": "Harvey Weinstein Rape Retrial Ends in Hung Jury for Second Time - Bloomberg Law News",
-          "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-rape-retrial-ends-in-hung-jury-for-second-time"
-        },
-        {
-          "title": "Judge declares another mistrial on Harvey Weinstein New York rape charge - BBC",
-          "url": "https://www.bbc.com/news/articles/c152lexw1vxo"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2203072",
-        "question": "Will Palantir (PLTR) close at $134-$136 on the final day of trading of the week of May 11 – May 15?",
-        "probability": 0.005,
-        "change_24h": -0.205,
-        "volume_24h": 3676.58,
-        "score": 208.57,
-        "url": "https://polymarket.com/event/will-pltr-close-between-134-and-136-week-may-15-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Palantir Probability Plunges",
-          "summary": "The probability of Palantir (PLTR) closing at $134-$136 by May 15th has plummeted to 0% due to reports of retail traders trimming holdings. JPMorgan highlighted a pivot from Palantir software to AI chip stocks.",
-          "drivers": [
-            "Retail traders trimming Palantir holdings.",
-            "Shift of investment focus to AI chip stocks.",
-            "Broader market uncertainty impacting pricey stocks."
-          ],
-          "why_matters": "This shift indicates a potential rotation within the AI sector, impacting Palantir's valuation and investor confidence in its near-term growth trajectory.",
-          "bull_case": "Unexpected strong Q1 earnings or new major government contracts could rapidly boost PLTR's price towards the target range.",
-          "bear_case": "Continued retail selling and a broader market downturn will likely keep PLTR's price well below the $134-$136 target."
-        },
-        "zh": {
-          "title": "Palantir概率骤降",
-          "summary": "Palantir (PLTR) 在5月15日前收盘价达到134-136美元的概率已降至0%，原因是零售交易者据报正在减持。摩根大通指出投资者正从Palantir软件转向AI芯片股。",
-          "drivers": [
-            "零售交易者减持Palantir股票。",
-            "投资焦点转向AI芯片股。",
-            "大盘不确定性影响高估值股票。"
-          ],
-          "why_matters": "这种转变预示着AI板块内部的潜在轮动，影响Palantir的估值及其近期增长轨迹的投资者信心。",
-          "bull_case": "意外强劲的第一季度财报或新的政府大合同可能迅速推高PLTR股价至目标区间。",
-          "bear_case": "持续的散户抛售和大盘回调将使PLTR股价远低于134-136美元的目标。"
-        }
-      },
-      "news": [
-        {
-          "title": "JPMorgan says retail traders are trimming Palantir holdings in a rush toward AI chip stocks - Business Insider",
-          "url": "https://www.businessinsider.com/palantir-stock-sell-retail-traders-ai-memory-chips-pltr-msft-2026-5"
-        },
-        {
-          "title": "2 Ways Jerome Powell's Successor, Kevin Warsh, Intends to Alter the Fed -- and Both Risk Upsetting a Historically Pricey Stock Market - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/14/ways-jerome-powell-successor-kevin-warsh-alter-fed/"
-        },
-        {
-          "title": "Major NET Power Stakeholders Quietly Unload Matching Blocks of Shares - TipRanks",
-          "url": "https://www.tipranks.com/news/insider-trading/major-net-power-stakeholders-quietly-unload-matching-blocks-of-shares-insider-trading-news?utm_source=edition.cnn.com&utm_medium=referral"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2227254",
-        "question": "Will Ethereum dip to $2,100 May 11-17?",
-        "probability": 0.203,
-        "change_24h": 0.1875,
-        "volume_24h": 23654.76,
-        "score": 191.87,
-        "url": "https://polymarket.com/event/will-ethereum-dip-to-2100-may-11-17"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ethereum Dip Probability Rises",
-          "summary": "The probability of Ethereum dipping to $2,100 by May 17th surged to 20% from 1.2%, driven by concerns over institutional crypto asset management strategies. SharpLink CEO noted Ethereum companies are diverging from aggressive accumulation models, potentially signaling reduced buying pressure.",
-          "drivers": [
-            "SharpLink CEO notes Ethereum companies' strategy shift.",
-            "Divergence from aggressive crypto accumulation models.",
-            "Potential reduced institutional buying pressure for ETH."
-          ],
-          "why_matters": "This shift in institutional strategy could indicate a more cautious outlook for Ethereum's short-term price action, impacting investor confidence.",
-          "bull_case": "SharpLink's report signals reduced institutional conviction in aggressive ETH accumulation, increasing dip vulnerability.",
-          "bear_case": "Broader crypto market optimism, evidenced by AlphaPepe presale success and bullish BTC/XRP predictions, could prevent a significant ETH dip."
-        },
-        "zh": {
-          "title": "以太坊下跌概率上升",
-          "summary": "以太坊在5月17日前跌至2,100美元的概率从1.2%飙升至20%，主要受机构加密资产管理策略担忧的推动。SharpLink首席执行官指出，以太坊公司正在偏离激进的积累模式，可能预示着买盘压力减弱。",
-          "drivers": [
-            "SharpLink CEO指出以太坊公司策略转变。",
-            "偏离激进的加密资产积累模式。",
-            "机构对以太坊的买盘压力可能减弱。"
-          ],
-          "why_matters": "机构策略的转变可能预示着以太坊短期价格走势的谨慎前景，影响投资者信心。",
-          "bull_case": "SharpLink报告暗示机构对以太坊激进积累信心减弱，增加下跌风险。",
-          "bear_case": "AlphaPepe预售成功及比特币/XRP看涨预测显示市场乐观，可能阻止以太坊大幅下跌。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
@@ -1038,260 +338,18 @@
     },
     {
       "market": {
-        "id": "2074173",
-        "question": "Will S&P 500 (SPY) hit (HIGH) $750 in May?",
-        "probability": 0.47,
-        "change_24h": -0.175,
-        "volume_24h": 9990.2,
-        "score": 179.0,
-        "url": "https://polymarket.com/event/will-sp-500-spy-hit-high-750-in-may"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "SPY $750 May Target Doubt",
-          "summary": "The probability of SPY hitting $750 in May dropped 17.5% to 47%, despite the S&P 500 index recently closing above 7,500. This decline suggests market participants are re-evaluating SPY's ability to definitively hit or sustain the $750 level following a recent market pullback.",
-          "drivers": [
-            "Post-record high pullback after S&P 500 index hit 7,500.",
-            "Market skepticism on SPY ETF's definitive $750 target achievement.",
-            "Profit-taking activity following S&P 500's parabolic rally."
-          ],
-          "why_matters": "This movement highlights a divergence between headline index performance and specific ETF price targets, reflecting underlying market caution regarding sustained upward momentum.",
-          "bull_case": "Strong tech sector performance, led by Nvidia, continues to drive the S&P 500 index higher, pushing SPY towards or above $750.",
-          "bear_case": "Recent market pullbacks and profit-taking indicate a lack of conviction for SPY to definitively hit or hold $750."
-        },
-        "zh": {
-          "title": "SPY五月触及750美元存疑",
-          "summary": "尽管标普500指数近期首次收盘突破7500点，SPY在五月触及750美元的概率仍下降17.5%至47%。这表明市场参与者在近期回调后，对SPY ETF能否明确达到或维持750美元水平持重新评估态度。",
-          "drivers": [
-            "创纪录高点后回调，削弱SPY持续上涨信心。",
-            "市场对SPY ETF能否明确达到750美元存疑。",
-            "标普500快速上涨后，投资者获利了结。"
-          ],
-          "why_matters": "这一变化揭示了指数头条表现与特定ETF价格目标之间的分歧，反映出市场对持续上涨动力的潜在谨慎。",
-          "bull_case": "英伟达领涨的科技板块持续推动标普500指数走高，将SPY推向或突破750美元。",
-          "bear_case": "近期市场回调和获利了结表明，SPY能否明确触及或维持750美元缺乏信心。"
-        }
-      },
-      "news": [
-        {
-          "title": "The stock market rally can keep going despite Friday's pullback. How to stay long while hedging slightly - CNBC",
-          "url": "https://www.cnbc.com/2026/05/15/the-stock-rally-can-keep-going-despite-fridays-pullback-how-to-stay-long-while-hedging.html"
-        },
-        {
-          "title": "S&P Closes Over 7,500 In New All-Time High - Forbes",
-          "url": "https://www.forbes.com/sites/zacharyfolk/2026/05/14/sp-500-soars-to-new-record-high-closes-above-7500-for-first-time/"
-        },
-        {
-          "title": "Markets News, May 14, 2026: Cisco Leads Tech Charge as S&P 500, Nasdaq Close at Record Highs; Dow Ends Above 50000 for 1st Time Since February - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-05142026-11974563"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2074162",
-        "question": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $85 in May?",
-        "probability": 0.325,
-        "change_24h": -0.1605,
-        "volume_24h": 4145.94,
-        "score": 164.12,
-        "url": "https://polymarket.com/event/will-hood-reach-85-in-may-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "HOOD Probability Drops on Crypto Bill",
-          "summary": "The probability of Robinhood hitting $85 in May fell by 16.1% to 32% due to investor concerns over crypto regulation. Robinhood shares dropped following the progression of the CLARITY Act, which also impacted Coinbase.",
-          "drivers": [
-            "CLARITY Act progression sparked crypto regulatory fears.",
-            "Coinbase and Robinhood shares dropped on regulatory concerns.",
-            "Trump disclosed large Robinhood stock purchases (counteracting positive)."
-          ],
-          "why_matters": "Regulatory developments in the crypto space significantly impact fintech platforms like Robinhood, which derive substantial revenue from crypto trading. This affects investor confidence and future growth prospects.",
-          "bull_case": "Trump's disclosed large HOOD stock purchase could attract more investor interest and signal underlying value.",
-          "bear_case": "Increased regulatory scrutiny from the CLARITY Act could suppress Robinhood's crypto-related revenue and growth."
-        },
-        "zh": {
-          "title": "HOOD概率因加密法案下跌",
-          "summary": "罗宾汉5月触及85美元的概率下降16.1%至32%，原因是投资者对加密货币监管的担忧。随着CLARITY法案的推进，罗宾汉股价下跌，Coinbase也受到影响。",
-          "drivers": [
-            "CLARITY法案进展引发加密监管担忧。",
-            "Coinbase和罗宾汉股价因监管顾虑下跌。",
-            "特朗普披露大量购买罗宾汉股票（抵消性利好）。"
-          ],
-          "why_matters": "加密领域的监管发展对罗宾汉等金融科技平台影响巨大，这些平台从加密交易中获得可观收入，影响投资者信心和未来增长前景。",
-          "bull_case": "特朗普披露大量购买HOOD股票可能吸引更多投资者兴趣，预示潜在价值。",
-          "bear_case": "CLARITY法案带来的监管审查增加可能抑制罗宾汉的加密相关收入和增长。"
-        }
-      },
-      "news": [
-        {
-          "title": "Trump Discloses Large Stock Purchases in Nvidia, Robinhood, Palantir and Other Tech Firms - Quiver Quantitative",
-          "url": "https://www.quiverquant.com/news/Trump+Discloses+Large+Stock+Purchases+in+Nvidia%2C+Robinhood%2C+Palantir+and+Other+Tech+Firms"
-        },
-        {
-          "title": "Coinbase Stock Stumbles as the Senate Vote Progresses the CLARITY Act; CEO Critiques the Bill - TipRanks",
-          "url": "https://www.tipranks.com/news/coinbase-stock-stumbles-as-the-senate-vote-progresses-the-clarity-act-ceo-critiques-the-bill"
-        },
-        {
-          "title": "Stonebridge Financial Group LLC MO Invests $527,000 in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-stonebridge-financial-group-llc-mo-invests-527000-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-05-13/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2074029",
-        "question": "Will Meta Platforms, Inc. (META) hit (LOW) $580 in May?",
-        "probability": 0.315,
-        "change_24h": -0.145,
-        "volume_24h": 3450.47,
-        "score": 148.54,
-        "url": "https://polymarket.com/event/will-meta-dip-to-580-in-may-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will Meta Platforms, Inc. (META) hit (LOW) $580 in May?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Meta Platforms, Inc. (META) hit (LOW) $580 in May?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Jim Cramer Says Buy 2 Artificial Intelligence (AI) Stocks Down 24% and 46% Before They Soar - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/15/jim-cramer-buy-2-ai-stocks-down-46-before-soar/"
-        },
-        {
-          "title": "Meta Platforms (META) Plans 10% Workforce Reduction Amid Record Profits - GuruFocus",
-          "url": "https://www.gurufocus.com/news/8859076/meta-platforms-meta-plans-10-workforce-reduction-amid-record-profits"
-        },
-        {
-          "title": "More Job Cuts on the Way at Meta Platforms, Inc. (META) amid AI Pivot for Efficiency and Growth - Yahoo Finance",
-          "url": "https://finance.yahoo.com/news/more-job-cuts-way-meta-170234760.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2242161",
-        "question": "Will the price of Bitcoin be above $76,000 on May 19?",
-        "probability": 0.811,
-        "change_24h": -0.135,
-        "volume_24h": 11466.43,
-        "score": 139.06,
-        "url": "https://polymarket.com/event/bitcoin-above-76k-on-may-19"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Will the price of Bitcoin be above $76,000 on May 19?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the price of Bitcoin be above $76,000 on May 19?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Technology News | ⚡Google-Backed Adda247 Reduces Workforce by 20% Ahead of Planned IPO - LatestLY",
-          "url": "https://www.latestly.com/quickly/technology/google-backed-adda247-reduces-workforce-by-20-ahead-of-planned-ipo-7425712.html"
-        },
-        {
-          "title": "‘Like Bitcoin In 2013’—Sudden 1,000% Price Surge Has Billionaires Betting On A Surprise $1.6 Trillion Crypto Flip - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/05/14/like-bitcoin-in-2013-sudden-1000-price-surge-has-billionaires-betting-on-a-surprise-15-trillion-crypto-flip/"
-        },
-        {
-          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2073951",
-        "question": "Will Amazon.com, Inc. (AMZN) hit (LOW) $256 in May?",
-        "probability": 0.57,
-        "change_24h": 0.135,
-        "volume_24h": 2284.63,
-        "score": 138.36,
-        "url": "https://polymarket.com/event/will-amzn-dip-to-256-in-may-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "AMZN Low $256 Probability Surges",
-          "summary": "The probability of Amazon (AMZN) hitting a low of $256 in May increased by 13.5% to 57%, primarily driven by a significant downturn in the broader market. Reports indicated the S&P 500 (SPY) was \"Deep in the Red,\" signaling widespread market weakness.",
-          "drivers": [
-            "S&P 500 (SPY) reported \"Deep in the Red.\"",
-            "Cerebras Systems (CBRS) post-IPO dip."
-          ],
-          "why_matters": "A notable drop in a major tech stock like Amazon can signal broader economic concerns or a shift in investor sentiment, impacting portfolio strategies.",
-          "bull_case": "Widespread market downturn, with S&P 500 \"Deep in the Red,\" will push AMZN lower towards $256.",
-          "bear_case": "Amazon's strong AI momentum and market value growth will keep its stock price above $256."
-        },
-        "zh": {
-          "title": "亚马逊触及256美元低点概率飙升",
-          "summary": "亚马逊（AMZN）5月触及256美元低点的概率上升13.5%至57%，主要受大盘显著下跌驱动。报道指出标普500指数（SPY）“深度下跌”，预示市场普遍疲软。",
-          "drivers": [
-            "标普500指数（SPY）“深度下跌”。",
-            "Cerebras Systems (CBRS) IPO后股价下跌。"
-          ],
-          "why_matters": "亚马逊这类主要科技股的显著下跌可能预示更广泛的经济担忧或投资者情绪转变，影响投资组合策略。",
-          "bull_case": "大盘普遍下跌，标普500指数“深度下跌”，将推动亚马逊股价跌至256美元。",
-          "bear_case": "亚马逊强劲的AI发展势头和市值增长将使其股价保持在256美元以上。"
-        }
-      },
-      "news": [
-        {
-          "title": "Trump’s Manufacturing Push Is Creating Tailwinds for These 3 Stocks Under $30 - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/15/trumps-manufacturing-push-is-creating-tailwinds-for-these-3-stocks-under-30/"
-        },
-        {
-          "title": "Amazon’s market value charges toward $3 trillion on AI momentum - Los Angeles Times",
-          "url": "https://www.latimes.com/business/story/2026-05-14/amazons-market-value-charges-toward-3-trillion-on-ai-momentum"
-        },
-        {
-          "title": "Ackman reveals new Microsoft stake, calls valuation ‘highly compelling’ (MSFT:NASDAQ) - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4593577-ackman-reveals-new-microsoft-stake-calls-valuation-highly-compelling"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1032329",
-        "question": "Will Silver (SI) settle at $70-$80 in June?",
-        "probability": 0.372,
-        "change_24h": 0.131,
-        "volume_24h": 10826.46,
-        "score": 135.03,
-        "url": "https://polymarket.com/event/si-settle-70-80-jun-2026"
+        "id": "544092",
+        "question": "Will Harvey Weinstein be sentenced to no prison time?",
+        "probability": 0.75,
+        "change_24h": 0.445,
+        "volume_24h": 14986.23,
+        "score": 449.18,
+        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-no-prison-time"
       },
       "insight": {
         "category": "other",
         "en": {
-          "title": "Will Silver (SI) settle at $70-$80 in June?",
+          "title": "Will Harvey Weinstein be sentenced to no prison time?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1299,7 +357,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Silver (SI) settle at $70-$80 in June?",
+          "title": "Will Harvey Weinstein be sentenced to no prison time?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1309,33 +367,33 @@
       },
       "news": [
         {
-          "title": "Silver dives below $76, gold tests $4,500 support as Iran risk drives oil, rate fears - Kitco PM Report - Bitget",
-          "url": "https://www.bitget.com/amp/news/detail/12560605414419"
+          "title": "Harvey Weinstein's third sex crimes trial in New York ends in mistrial - HPPR",
+          "url": "https://www.hppr.org/npr-news/2026-05-15/harvey-weinsteins-third-sex-crimes-trial-in-new-york-ends-in-mistrial"
         },
         {
-          "title": "Silver Price Plunges 10% From Two-Month High—Here’s Why - Forbes",
-          "url": "https://www.forbes.com/sites/conormurray/2026/05/15/gold-and-silver-plunge-on-inflation-fears-after-hitting-highest-prices-in-months/"
+          "title": "Judge declares another mistrial on Harvey Weinstein New York rape charge - BBC",
+          "url": "https://www.bbc.com/news/articles/c152lexw1vxo"
         },
         {
-          "title": "Silver dives below $76, gold tests $4,500 support as Iran risk drives oil, rate fears - Kitco PM Report - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-05-15/silver-dives-below-76-gold-tests-4500-support-iran-risk-drives-oil-rate"
+          "title": "Judge declares a mistrial in Harvey Weinstein’s rape retrial after jury is unable to reach a verdict - CNN",
+          "url": "https://www.cnn.com/2026/05/15/us/harvey-weinstein-retrial-mistrial"
         }
       ]
     },
     {
       "market": {
-        "id": "1576154",
-        "question": "US x Cuba economic deal by June 30, 2026?",
-        "probability": 0.31,
-        "change_24h": -0.115,
-        "volume_24h": 6109.54,
-        "score": 118.79,
-        "url": "https://polymarket.com/event/us-x-cuba-economic-deal-by-june-30-2026"
+        "id": "2203094",
+        "question": "Will Palantir (PLTR) finish week of May 11 above $135?",
+        "probability": 0.0,
+        "change_24h": -0.2395,
+        "volume_24h": 994.25,
+        "score": 242.5,
+        "url": "https://polymarket.com/event/pltr-above-135-on-may-15-2026"
       },
       "insight": {
-        "category": "economy",
+        "category": "other",
         "en": {
-          "title": "US x Cuba economic deal by June 30, 2026?",
+          "title": "Will Palantir (PLTR) finish week of May 11 above $135?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1343,7 +401,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "US x Cuba economic deal by June 30, 2026?",
+          "title": "Will Palantir (PLTR) finish week of May 11 above $135?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1353,16 +411,218 @@
       },
       "news": [
         {
-          "title": "CIA director visits Cuba for rare meeting as island runs out of fuel - Axios",
-          "url": "https://www.axios.com/2026/05/14/cia-ratcliffe-cuba-talks-raulito"
+          "title": "JPMorgan says retail traders are trimming Palantir holdings in a rush toward AI chip stocks - Business Insider",
+          "url": "https://www.businessinsider.com/palantir-stock-sell-retail-traders-ai-memory-chips-pltr-msft-2026-5"
         },
         {
-          "title": "AI-generated fantasies of US intervention reveal how desperation has narrowed Cuba’s political horizons - The Conversation",
-          "url": "https://theconversation.com/ai-generated-fantasies-of-us-intervention-reveal-how-desperation-has-narrowed-cubas-political-horizons-274932"
+          "title": "Trump touted Palantir on Truth Social after buying the company's stock, records show - CNBC",
+          "url": "https://www.cnbc.com/amp/2026/05/15/trump-palantir-stock-truth-social.html"
         },
         {
-          "title": "Secretary of State Marco Rubio on Cuba's humanitarian crisis - NBC News",
-          "url": "https://www.nbcnews.com/video/secretary-of-state-marco-rubio-on-cuba-s-humanitarian-crisis-263355973798"
+          "title": "Palantir may have found its next growth engine outside Washington - thestreet.com",
+          "url": "https://www.thestreet.com/investing/palantir-may-have-found-its-next-growth-engine-outside-washington"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "544096",
+        "question": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
+        "probability": 0.0315,
+        "change_24h": -0.213,
+        "volume_24h": 10856.11,
+        "score": 217.04,
+        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Weinstein Sentence Range Dives",
+          "summary": "The probability for Harvey Weinstein's sentence to be between 20 and 30 years plummeted to 3%, driven by a market re-evaluation of his combined New York and Los Angeles sentences. Traders likely recognized his total effective time served will exceed this range.",
+          "drivers": [
+            "Re-evaluation of combined sentences (NY 23 years + LA 16 years = 39 years).",
+            "Market consensus that total effective sentence will exceed 30 years.",
+            "Absence of new trials expected to yield a sentence in this range."
+          ],
+          "why_matters": "This market highlights how prediction markets adjust to complex legal realities, reflecting collective understanding of high-profile criminal justice outcomes.",
+          "bull_case": "A successful appeal significantly reducing his combined sentences could bring the total effective time into the 20-30 year range.",
+          "bear_case": "His current combined sentences of 39 years already significantly exceed the 30-year upper limit, making this range highly improbable."
+        },
+        "zh": {
+          "title": "韦恩斯坦刑期预测暴跌",
+          "summary": "哈维·韦恩斯坦刑期在20至30年间的可能性骤降至3%，主要由于市场重新评估其纽约和洛杉矶两地判决的合计刑期。交易者普遍认为其总服刑时间将超出此范围。",
+          "drivers": [
+            "重新评估合计刑期（纽约23年+洛杉矶16年=39年）。",
+            "市场共识认为总有效刑期将超过30年。",
+            "预期无新审判会产生此范围内的刑期。"
+          ],
+          "why_matters": "该市场反映了预测市场如何根据复杂的法律现实进行调整，体现了公众对高知名度刑事司法结果的集体理解。",
+          "bull_case": "若上诉成功大幅减少合并刑期，可能使其总有效服刑时间落入20-30年区间。",
+          "bear_case": "其目前合计39年的刑期已远超30年上限，使得此范围内的判决可能性极低。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "544095",
+        "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
+        "probability": 0.0455,
+        "change_24h": -0.209,
+        "volume_24h": 8220.3,
+        "score": 212.91,
+        "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Harvey Weinstein be sentenced to between 10 and 20 years in priso",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Harvey Weinstein be sentenced to between 10 and 20 years in priso",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Harvey Weinstein's third sex crimes trial in New York ends in mistrial - HPPR",
+          "url": "https://www.hppr.org/npr-news/2026-05-15/harvey-weinsteins-third-sex-crimes-trial-in-new-york-ends-in-mistrial"
+        },
+        {
+          "title": "Harvey Weinstein Rape Retrial Ends in Hung Jury for Second Time - Bloomberg Law News",
+          "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-rape-retrial-ends-in-hung-jury-for-second-time"
+        },
+        {
+          "title": "Harvey Weinstein reports chest pain and court ends early as jury deliberates in his rape retrial - NBC New York",
+          "url": "https://www.nbcnewyork.com/news/local/crime-and-courts/harvey-weinstein-chest-pain-leaves-court-jury-deliberates-rape-retrial/6501406/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2169995",
+        "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "probability": 0.395,
+        "change_24h": -0.205,
+        "volume_24h": 462225.47,
+        "score": 210.66,
+        "url": "https://polymarket.com/event/microstrategy-sells-any-bitcoin-by-may-31-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bill Ackman has been quietly buying Microsoft since February, when AI fears were dragging the stock - Fortune",
+          "url": "https://fortune.com/2026/05/15/bill-ackman-microsoft-stock-openai-azure-spending/"
+        },
+        {
+          "title": "Bitcoin miner posts $10M loss, keeps $25M in Bitcoin - Stock Titan",
+          "url": "https://www.stocktitan.net/news/LMFA/lm-funding-america-inc-reports-first-quarter-2026-financial-8malukwaxv7n.html"
+        },
+        {
+          "title": "Sporting Jax vs. Brooklyn FC - Playbyplay - Live Score - May 31, 2026 - FOX Sports",
+          "url": "https://www.foxsports.com/soccer/usl-championship-sporting-jax-vs-brooklyn-fc-may-31-2026-game-boxscore-650077?tab=playbyplay"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2074173",
+        "question": "Will S&P 500 (SPY) hit (HIGH) $750 in May?",
+        "probability": 0.465,
+        "change_24h": -0.12,
+        "volume_24h": 7975.42,
+        "score": 123.9,
+        "url": "https://polymarket.com/event/will-sp-500-spy-hit-high-750-in-may"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Will S&P 500 (SPY) hit (HIGH) $750 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will S&P 500 (SPY) hit (HIGH) $750 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "2073784",
+        "question": "Will Apple (AAPL) hit (HIGH) $304 in May?",
+        "probability": 0.735,
+        "change_24h": -0.12,
+        "volume_24h": 1379.4,
+        "score": 123.14,
+        "url": "https://polymarket.com/event/will-aapl-reach-304-in-may-2026-172"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Apple (AAPL) hit (HIGH) $304 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Apple (AAPL) hit (HIGH) $304 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Markets News, May 14, 2026: Cisco Leads Tech Charge as S&P 500, Nasdaq Close at Record Highs; Dow Ends Above 50000 for 1st Time Since February - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-05142026-11974563"
+        },
+        {
+          "title": "Stock Market Today: S&P 500, Dow, Nasdaq Futures Gain As Trump Clears NVDA's H200 Sales To China— Cisco S - Benzinga",
+          "url": "https://www.benzinga.com/markets/equities/26/05/52551920/stock-market-today-sp-500-dow-jones-futures-gain-as-trump-clears-nvdas-h200-sales-to-china-cisco-systems-doximity-grocery-outlet-in-focus"
+        },
+        {
+          "title": "Lockheed Martin Investment Management Co. Boosts Position in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-lockheed-martin-investment-management-co-boosts-position-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-05-16/"
         }
       ]
     },
@@ -1372,8 +632,8 @@
         "question": "Will the 10-year Treasury yield hit 4.5% before 2027?",
         "probability": 1.0,
         "change_24h": 0.112,
-        "volume_24h": 4793.25,
-        "score": 115.68,
+        "volume_24h": 3495.49,
+        "score": 115.54,
         "url": "https://polymarket.com/event/will-the-10-year-treasury-yield-hit-4pt5-before-2027-372-618"
       },
       "insight": {
@@ -1395,35 +655,22 @@
           "why_matters": "请检查 API 密钥后重试。"
         }
       },
-      "news": [
-        {
-          "title": "Treasury yields surge as inflation data points to tricky rates path for new Fed chair Warsh - CNBC",
-          "url": "https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html"
-        },
-        {
-          "title": "Yields surge to one-year high as oil prices and inflation data rattle markets - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-05-15/yields-surge-one-year-high-oil-prices-and-inflation-data-rattle"
-        },
-        {
-          "title": "Bonds, stocks and precious metals slump as inflation fears mount, silver falls 7% - CNBC",
-          "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html"
-        }
-      ]
+      "news": []
     },
     {
       "market": {
-        "id": "2074045",
-        "question": "Will Tesla, Inc. (TSLA) hit (HIGH) $465 in May?",
-        "probability": 0.225,
-        "change_24h": -0.09,
-        "volume_24h": 6452.19,
-        "score": 93.81,
-        "url": "https://polymarket.com/event/will-tsla-reach-465-in-may-2026-613"
+        "id": "2132778",
+        "question": "Will Bitcoin dip to $75,000 in May?",
+        "probability": 0.595,
+        "change_24h": 0.09,
+        "volume_24h": 189135.52,
+        "score": 95.28,
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-75k-in-may-2026"
       },
       "insight": {
-        "category": "stocks",
+        "category": "crypto",
         "en": {
-          "title": "Will Tesla, Inc. (TSLA) hit (HIGH) $465 in May?",
+          "title": "Will Bitcoin dip to $75,000 in May?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1431,7 +678,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Tesla, Inc. (TSLA) hit (HIGH) $465 in May?",
+          "title": "Will Bitcoin dip to $75,000 in May?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1441,27 +688,102 @@
       },
       "news": [
         {
-          "title": "Ford Is Up 7% Today: Is It Outperforming Other Car Stocks Like General Motors and Tesla? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/ford-is-up-7-today-is-it-outperforming-other-car-stocks-like-general-motors-and-tesla/"
+          "title": "‘Like Bitcoin In 2013’—Sudden 1,000% Price Surge Has Billionaires Betting On A Surprise $1.6 Trillion Crypto Flip - Forbes",
+          "url": "https://www.forbes.com/sites/digital-assets/2026/05/14/like-bitcoin-in-2013-sudden-1000-price-surge-has-billionaires-betting-on-a-surprise-15-trillion-crypto-flip/"
         },
         {
-          "title": "Tesla Stock Wobbles. Full Self-Driving in China Is a Hot Topic. - Barron's",
-          "url": "https://www.barrons.com/articles/tesla-stock-price-china-fsd-77152ad2"
+          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
         },
         {
-          "title": "Trump Brought 17 CEOs to China. Only Two Got Seats on Air Force One: Elon Musk and Jensen Huang - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/14/trump-brought-17-ceos-to-china-only-two-got-seats-on-air-force-one-elon-musk-and-jensen-huang/"
+          "title": "Bitdeer currently maintains zero holdings and sold 198.3 BTC this week - Bitget",
+          "url": "https://www.bitget.com/asia/amp/news/detail/12560605414672"
         }
       ]
     },
     {
       "market": {
+        "id": "1032344",
+        "question": "Will Silver (SI) hit (LOW) $65 by end of June?",
+        "probability": 0.28,
+        "change_24h": 0.085,
+        "volume_24h": 1851.5,
+        "score": 88.27,
+        "url": "https://polymarket.com/event/will-silver-si-hit-low-65-by-end-of-june-998-897"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Silver (SI) hit (LOW) $65 by end of June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Silver (SI) hit (LOW) $65 by end of June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Silver Price Plunges 10% From Two-Month High—Here’s Why - Forbes",
+          "url": "https://www.forbes.com/sites/conormurray/2026/05/15/gold-and-silver-plunge-on-inflation-fears-after-hitting-highest-prices-in-months/"
+        },
+        {
+          "title": "Silver dives below $76, gold tests $4,500 support as Iran risk drives oil, rate fears - Kitco PM Report - KITCO",
+          "url": "https://www.kitco.com/news/article/2026-05-15/silver-dives-below-76-gold-tests-4500-support-iran-risk-drives-oil-rate"
+        },
+        {
+          "title": "Silver is emulating gold’s post-2024 rise - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-05-14/silver-emulating-golds-post-2024-rise"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1032329",
+        "question": "Will Silver (SI) settle at $70-$80 in June?",
+        "probability": 0.3515,
+        "change_24h": 0.0755,
+        "volume_24h": 12216.94,
+        "score": 79.59,
+        "url": "https://polymarket.com/event/si-settle-70-80-jun-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Silver (SI) settle at $70-$80 in June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Silver (SI) settle at $70-$80 in June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
         "id": "544097",
         "question": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
-        "probability": 0.0075,
-        "change_24h": -0.0715,
-        "volume_24h": 6034.62,
-        "score": 75.28,
+        "probability": 0.0035,
+        "change_24h": -0.0745,
+        "volume_24h": 6410.91,
+        "score": 78.31,
         "url": "https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison"
       },
       "insight": {
@@ -1485,16 +807,166 @@
       },
       "news": [
         {
-          "title": "Harvey Weinstein Rape Retrial Ends in Hung Jury for Second Time - Bloomberg Law News",
-          "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-rape-retrial-ends-in-hung-jury-for-second-time"
-        },
-        {
           "title": "Harvey Weinstein's third sex crimes trial in New York ends in mistrial - HPPR",
           "url": "https://www.hppr.org/npr-news/2026-05-15/harvey-weinsteins-third-sex-crimes-trial-in-new-york-ends-in-mistrial"
         },
         {
-          "title": "Judge declares mistrial in Harvey Weinstein’s rape retrial after jury deadlocked - Los Angeles Times",
-          "url": "https://www.latimes.com/entertainment-arts/story/2026-05-15/harvey-weinsteins-rape-retrial-has-been-declared-mistrial-by-judge"
+          "title": "Harvey Weinstein Rape Retrial Ends in Hung Jury for Second Time - Bloomberg Law News",
+          "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-rape-retrial-ends-in-hung-jury-for-second-time"
+        },
+        {
+          "title": "Judge declares another mistrial on Harvey Weinstein New York rape charge - BBC",
+          "url": "https://www.bbc.com/news/articles/c152lexw1vxo"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2074162",
+        "question": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $85 in May?",
+        "probability": 0.28,
+        "change_24h": -0.072,
+        "volume_24h": 4384.27,
+        "score": 75.64,
+        "url": "https://polymarket.com/event/will-hood-reach-85-in-may-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $85 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $85 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "2074211",
+        "question": "Will Gold (XAUUSD) hit (LOW) $4,100 in May?",
+        "probability": 0.041,
+        "change_24h": -0.066,
+        "volume_24h": 7004.36,
+        "score": 69.85,
+        "url": "https://polymarket.com/event/will-xauusd-dip-to-4100-in-may-2026-467"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Gold (XAUUSD) hit (LOW) $4,100 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Gold (XAUUSD) hit (LOW) $4,100 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Gold breaks below $4,600 as dollar, yields overpower haven demand - Kitco AM Report - KITCO",
+          "url": "https://www.kitco.com/news/article/2026-05-15/gold-breaks-below-4600-dollar-yields-overpower-haven-demand-kitco-am-report"
+        },
+        {
+          "title": "Gold prices steadies as inflation revives higher-rate bets - Mining.com",
+          "url": "https://www.mining.com/gold-prices-steadies-as-inflation-revives-higher-rate-bets/"
+        },
+        {
+          "title": "Gold price falls back to $4,500 on heightened inflation fears - Mining.com",
+          "url": "https://www.mining.com/gold-price-falls-back-to-4500-on-heightened-inflation-fears/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2132798",
+        "question": "Will Ethereum dip to $2,200 in May?",
+        "probability": 1.0,
+        "change_24h": 0.0645,
+        "volume_24h": 182450.5,
+        "score": 69.76,
+        "url": "https://polymarket.com/event/will-ethereum-dip-to-2200-in-may-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will Ethereum dip to $2,200 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Ethereum dip to $2,200 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "2074044",
+        "question": "Will Tesla, Inc. (TSLA) hit (HIGH) $480 in May?",
+        "probability": 0.0985,
+        "change_24h": -0.065,
+        "volume_24h": 2764.1,
+        "score": 68.44,
+        "url": "https://polymarket.com/event/will-tsla-reach-480-in-may-2026-622"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Will Tesla, Inc. (TSLA) hit (HIGH) $480 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Tesla, Inc. (TSLA) hit (HIGH) $480 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Tesla Stock Wobbles. Full Self-Driving in China Is a Hot Topic. - Barron's",
+          "url": "https://www.barrons.com/articles/tesla-stock-price-china-fsd-77152ad2"
+        },
+        {
+          "title": "Trump Brought 17 CEOs to China. Only Two Got Seats on Air Force One: Elon Musk and Jensen Huang - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/14/trump-brought-17-ceos-to-china-only-two-got-seats-on-air-force-one-elon-musk-and-jensen-huang/"
+        },
+        {
+          "title": "Tesla Stock Wobbles as China Self-Driving Talks Heat Up Again - TradingView",
+          "url": "https://www.tradingview.com/news/gurufocus:e8e5718c6094b:0-tesla-stock-wobbles-as-china-self-driving-talks-heat-up-again/"
         }
       ]
     },
@@ -1502,10 +974,10 @@
       "market": {
         "id": "665374",
         "question": "Will the U.S. invade Iran before 2027?",
-        "probability": 0.305,
-        "change_24h": 0.04,
-        "volume_24h": 367213.71,
-        "score": 45.56,
+        "probability": 0.315,
+        "change_24h": 0.06,
+        "volume_24h": 393127.58,
+        "score": 65.59,
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       "insight": {
@@ -1527,11 +999,126 @@
           "why_matters": "请检查 API 密钥后重试。"
         }
       },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "2074142",
+        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $230 in May?",
+        "probability": 0.15,
+        "change_24h": -0.06,
+        "volume_24h": 1597.83,
+        "score": 63.2,
+        "url": "https://polymarket.com/event/will-coin-reach-230-in-may-2026"
+      },
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $230 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $230 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
       "news": [
         {
-          "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/2026-05-13/live-updates-895982"
+          "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"
         },
+        {
+          "title": "Coinbase Stock Stumbles as the Senate Vote Progresses the CLARITY Act; CEO Critiques the Bill - TipRanks",
+          "url": "https://www.tipranks.com/news/coinbase-stock-stumbles-as-the-senate-vote-progresses-the-clarity-act-ceo-critiques-the-bill"
+        },
+        {
+          "title": "US fund Alpine Fox Capital lists bitcoin mining company Cipher Mining as its largest holding - Bitget",
+          "url": "https://www.bitget.com/asia/amp/news/detail/12560605412891"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2074095",
+        "question": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $126 in May?",
+        "probability": 0.545,
+        "change_24h": 0.055,
+        "volume_24h": 7219.26,
+        "score": 58.86,
+        "url": "https://polymarket.com/event/will-pltr-dip-to-126-in-may-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $126 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $126 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "JPMorgan says retail traders are trimming Palantir holdings in a rush toward AI chip stocks - Business Insider",
+          "url": "https://www.businessinsider.com/palantir-stock-sell-retail-traders-ai-memory-chips-pltr-msft-2026-5"
+        },
+        {
+          "title": "Palantir Says SaaS Is Dead - Forbes",
+          "url": "https://www.forbes.com/sites/stevebanker/2026/05/16/palantir-says-saas-is-dead/"
+        },
+        {
+          "title": "Trump touted Palantir on Truth Social after buying the company's stock, records show - CNBC",
+          "url": "https://www.cnbc.com/amp/2026/05/15/trump-palantir-stock-truth-social.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1796138",
+        "question": " Iran agrees to end enrichment of uranium by December 31?",
+        "probability": 0.52,
+        "change_24h": 0.055,
+        "volume_24h": 2904.95,
+        "score": 58.46,
+        "url": "https://polymarket.com/event/iran-agrees-to-end-enrichment-of-uranium-by-december-31"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": " Iran agrees to end enrichment of uranium by December 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": " Iran agrees to end enrichment of uranium by December 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
         {
           "title": "Iran giving mixed signals on deals, Donald Trump says - The Jerusalem Post",
           "url": "http://www.jpost.com/middle-east/iran-news/article-896343"
@@ -1539,10 +1126,164 @@
         {
           "title": "Iran giving mixed signals on deals, US open to 20 year halt to enrichment deal, Trump says - The Jerusalem Post",
           "url": "https://www.jpost.com/middle-east/iran-news/article-896343"
+        },
+        {
+          "title": "Iran’s Top Diplomat Says a Lack of Trust Is Impeding Talks to End War With the US - Military.com",
+          "url": "https://www.military.com/irans-top-diplomat-says-a-lack-of-trust-is-impeding-talks-to-end-war-with-the-us"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2073951",
+        "question": "Will Amazon.com, Inc. (AMZN) hit (LOW) $256 in May?",
+        "probability": 0.57,
+        "change_24h": -0.05,
+        "volume_24h": 1011.66,
+        "score": 53.01,
+        "url": "https://polymarket.com/event/will-amzn-dip-to-256-in-may-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Amazon.com, Inc. (AMZN) hit (LOW) $256 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Amazon.com, Inc. (AMZN) hit (LOW) $256 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "2074080",
+        "question": "Will Netflix, Inc. (NFLX) hit (LOW) $85 in May?",
+        "probability": 0.695,
+        "change_24h": 0.05,
+        "volume_24h": 963.34,
+        "score": 52.98,
+        "url": "https://polymarket.com/event/will-nflx-dip-to-85-in-may-2026"
+      },
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Will Netflix, Inc. (NFLX) hit (LOW) $85 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Netflix, Inc. (NFLX) hit (LOW) $85 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Lockheed Martin Investment Management Co. Boosts Position in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-lockheed-martin-investment-management-co-boosts-position-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-05-16/"
+        },
+        {
+          "title": "Stock Market News May 14, 2026: S&P 500 and Nasdaq notch new records, Dow ends above 50,000 with U.S. retail-sales data and Trump’s China trip in focus - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-sp500-nasdaq-eye-new-record-dow-up-trump-china-long-bond-5-percent-retail-sales"
+        },
+        {
+          "title": "Major NET Power Stakeholders Quietly Unload Matching Blocks of Shares - TipRanks",
+          "url": "https://www.tipranks.com/news/insider-trading/major-net-power-stakeholders-quietly-unload-matching-blocks-of-shares-insider-trading-news?utm_source=edition.cnn.com&utm_medium=referral"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1116646",
+        "question": "Israel x Syria security agreement by June 30?",
+        "probability": 0.055,
+        "change_24h": -0.04,
+        "volume_24h": 2149859.7,
+        "score": 46.33,
+        "url": "https://polymarket.com/event/israel-x-syria-security-agreement-by-june-30"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Israel x Syria security agreement by June 30?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Israel x Syria security agreement by June 30?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": []
+    },
+    {
+      "market": {
+        "id": "2074061",
+        "question": "Will NVIDIA (NVDA) hit (HIGH) $240 in May?",
+        "probability": 0.605,
+        "change_24h": 0.02,
+        "volume_24h": 1940.14,
+        "score": 23.29,
+        "url": "https://polymarket.com/event/will-nvda-reach-240-in-may-2026"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Will NVIDIA (NVDA) hit (HIGH) $240 in May?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will NVIDIA (NVDA) hit (HIGH) $240 in May?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "NVIDIA is Up 20% in a Month. Could the May 20 Earnings Report Knock It Right Back Down? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/14/nvidia-is-up-20-in-a-month-could-the-may-20-earnings-report-knock-it-right-back-down/"
+        },
+        {
+          "title": "How Much Could Nvidia Stock Move after Q1 Earnings? Here’s What Options Traders Expect - TipRanks",
+          "url": "https://www.tipranks.com/news/how-much-could-nvidia-stock-move-after-q1-earnings-heres-what-options-traders-expect"
+        },
+        {
+          "title": "Buy Nvidia Under $250 on Trump’s China Visit and Warsh’s Dovish AI Signals - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/16/buy-nvidia-under-250-on-trumps-china-visit-and-warshs-dovish-ai-signals/"
         }
       ]
     }
   ],
-  "twitter_thread": "🔮 PolyLens Battle Cards — May 16, 2026 10:53 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 📈 Will Silver (XAGUSD) hit (LOW) $76 in May?\n\n✅ YES — 100%  ▲+69.5%\n\"Silver has already been reported trading below $76, confirming the market condition for a …\"\n\n❌ NO — 0%\n\"Should reports of Silver trading below $76 prove inaccurate or temporary, the 100% probabi…\"\n\n🤖 YES conv\n\n---\n\n🥊 🔥 Will Harvey Weinstein be sentenced to no prison time?\n\n✅ YES — 92%  ▲+61.6%\n\"Another mistrial makes new convictions less likely, increasing chances of no additional pr…\"\n\n❌ NO — 8%\n\"Prosecutors could pursue a third retrial, or other legal challenges might emerge, leading …\"\n\n\n\n---\n\n🥊 ₿ Will the price of Ethereum be above $2,200 on May 17?\n\n✅ YES — 27%  ▼-59.0%\n\"A sudden surge in broader crypto market demand or unexpected positive Ethereum-specific ne…\"\n\n❌ NO — 73%\n\"Continued institutional caution and capital diversion to other assets will likely keep Eth…\"\n\n\n---\n\n🥊 🗳️ Will Trump speak to Friedrich Merz in May?\n\n✅ YES — 100%  ▲+54.9%\n\"Merz's strong anti-US statements necessitate a direct conversation with Trump to address g…\"\n\n❌ NO — 0%\n\"Despite Merz's comments, no official confirmation of a May meeting exists, making 100% pro…\"\n\n🤖 YES con\n\n---\n\n🥊 🤖 Will Palantir (PLTR) finish week of May 11 above $134?\n\n✅ YES — 0%  ▼-53.5%\n\"Palantir's expanding commercial growth engine outside government contracts could drive fut…\"\n\n❌ NO — 100%\n\"Retail investors are exiting Palantir for AI chip stocks, coupled with macro economic head…\"\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
-  "reddit_post": "**PolyLens Daily Digest — May 16, 2026 10:53 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🔥 Silver Hits $76 Low\n\n**100% YES** | **+69.5%** (24h) | Vol: $4,877\n\nSilver prices recently plunged, with multiple reports confirming the metal has already traded below $76. This direct observation of the price hitting the target drove the prediction market probability to 100%.\n\n**Key Drivers:**\n- Kitco reported Silver diving below $76.\n- Mining.com cited Silver Futures at $75.495/ozt.\n- Geopolitical \"Iran risk\" fueled oil and rate fears.\n\n*[View on Polymarket](https://polymarket.com/event/will-silver-xagusd-hit-low-76-in-may-521-651)*\n\n---\n\n## 2. 🔥 Weinstein Mistrial Boosts No Prison Time Odds\n\n**92% YES** | **+61.6%** (24h) | Vol: $10,099\n\nThe probability of Harvey Weinstein receiving no additional prison time surged to 92% after a New York judge declared a mistrial in his rape retrial. A hung jury for the second time means no conviction on these specific charges, significantly reducing immediate sentencing risk.\n\n**Key Drivers:**\n- New York rape retrial ends in mistrial\n- Jury unable to reach a verdict (hung jury)\n- No immediate conviction on new charges\n\n*[View on Polymarket](https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-no-prison-time)*\n\n---\n\n## 3. ₿ Ethereum Price Outlook Plunges\n\n**27% YES** | **-59.0%** (24h) | Vol: $19,469\n\nEthereum's probability of staying above $2,200 by May 17 plummeted 59% to 27%, primarily driven by SharpLink CEO's comments suggesting Ethereum companies are moving away from aggressive crypto accumulation strategies. This indicates weakening institutional conviction.\n\n**Key Drivers:**\n- SharpLink CEO notes Ethereum firms diverge from Saylor's crypto accumulation.\n- Capital potentially diverting to AI tokens and new altcoin presales.\n- Absence of strong positive catalysts for Ethereum's price.\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-above-2200-on-may-17)*\n\n---\n\n## 4. 🗳️ Trump-Merz May Talk Confirmed\n\n**100% YES** | **+54.9%** (24h) | Vol: $68,924\n\nThe probability of Trump speaking to Friedrich Merz in May surged to 100% following Merz's highly publicized criticism of the US, stating he wouldn't advise his children to work or study there. This created an urgent need for direct dialogue between a prominent German leader and a key US political figure.\n\n**Key Drivers:**\n- Friedrich Merz's public criticism of the US\n- Merz's repeated negative remarks about US opportunities\n- Perceived necessity for Trump to address German leader's comments\n\n*[View on Polymarket](https://polymarket.com/event/will-trump-speak-to-friedrich-merz-in-may)*\n\n---\n\n## 5. 🔥 PLTR Probability Plunges Amid Retail Exodus\n\n**0% YES** | **-53.5%** (24h) | Vol: $4,180\n\nThe probability of Palantir (PLTR) finishing the week of May 11 above $134 has plummeted to 0%, driven by reports of retail traders trimming holdings and a broader shift towards AI chip stocks. JPMorgan highlighted this capital rotation away from software names like Palantir.\n\n**Key Drivers:**\n- Retail traders trimming Palantir holdings.\n- Capital rotation towards AI chip stocks.\n- Rising producer prices (6% increase) adding macro pressure.\n\n*[View on Polymarket](https://polymarket.com/event/pltr-above-134-on-may-15-2026)*\n\n---\n\n## 6. ₿ Bitcoin Soars: Regulatory Clarity Fuels Rally\n\n**100% YES** | **+50.0%** (24h) | Vol: $119,773\n\nBitcoin's probability of being up by May 16, 4 AM ET, surged to 100% following its climb to $82,000. This strong upward movement is primarily driven by the advancement of the 'Clarity Act,' signaling positive regulatory developments.\n\n**Key Drivers:**\n- Bitcoin price hits $82,000 milestone.\n- 'Clarity Act' advances, signaling positive crypto regulation.\n- Billionaires betting on significant crypto market growth.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-4am-et)*\n\n---\n\n## 7. ₿ Ethereum Up Probability Plunges Amid Strategy Shift\n\n**2% YES** | **-48.9%** (24h) | Vol: $62,994\n\nThe probability of Ethereum being up on May 16th plummeted to 2%. This sharp decline was driven by SharpLink's report of Ethereum companies diverging from Michael Saylor's crypto asset management model, alongside a strengthening US Dollar.\n\n**Key Drivers:**\n- Ethereum firms diverge from Saylor's crypto strategy\n- US Dollar strengthens on rate hike bets\n- Safe-haven flows boost dollar amid Trump-Xi talks\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-on-may-16-2026)*\n\n---\n\n## 8. ₿ Bitcoin Downside Bets Surge\n\n**2% YES** | **-48.2%** (24h) | Vol: $36,883\n\nThe probability of Bitcoin being up by May 16, 5 AM ET, has plummeted to 2%, reflecting strong bearish sentiment. This shift is primarily driven by Bitcoin's recent 2% price drop to $79,370.24 and a broader stock market decline.\n\n**Key Drivers:**\n- Bitcoin's 2% price drop to $79,370.24\n- Dow Jones falling 400 points on oil price fears\n- Reversal from recent $82,000 highs\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-5am-et)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+  "twitter_thread": "🔮 PolyLens Battle Cards — May 16, 2026 20:00 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 🤖 Will Palantir (PLTR) close at $132-$134 on the final day of trading of t…\n\n✅ YES — 100%  ▲+82.0%\n\"Palantir's \"SaaS is dead\" declaration signals a disruptive, highly profitable AI-centric b…\"\n\n❌ NO — 0%\n\"Retail traders are trimming PLTR holdings for AI chip stocks, and broader\n\n---\n\n🥊 ₿ Bitcoin Up or Down on May 16?\n\n✅ YES — 0%  ▼-54.4%\n\"Despite current dip, Bitcoin's recent surge to $82,000 and advancing Clarity Act could sig…\"\n\n❌ NO — 100%\n\"Broader market downturn from oil fears and Bitcoin's 2% drop suggest continued downward pr…\"\n\n🤖 Strong NO conviction \n\n---\n\n🥊 ₿ Ethereum Up or Down on May 16?\n\n✅ YES — 0%  ▼-52.4%\n\"Ethereum companies' new strategies may offer sustainable long-term growth despite current …\"\n\n❌ NO — 100%\n\"SharpLink's criticism signals weakening institutional conviction and increased selling pre…\"\n\n🤖 Strong NO conviction\n\n---\n\n🥊 ₿ Bitcoin Up or Down - May 16, 10AM ET\n\n✅ YES — 100%  ▲+50.0%\n\n❌ NO — 0%\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [5/6]\n\n---\n\n🥊 ₿ Bitcoin Up or Down - May 16, 11AM ET\n\n✅ YES — 100%  ▲+50.0%\n\n❌ NO — 0%\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [6/6]\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
+  "reddit_post": "**PolyLens Daily Digest — May 16, 2026 20:00 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🔥 Palantir's AI Model Drives Price Surge\n\n**100% YES** | **+82.0%** (24h) | Vol: $1,265\n\nThe prediction market has assigned a 100% probability for Palantir (PLTR) to close at $132-$134 by May 15, reflecting an 82.0% increase. This surge is primarily driven by Palantir's declaration that \"SaaS is dead,\" signaling a revolutionary, high-value AI-centric business model.\n\n**Key Drivers:**\n- Palantir strategist Danny Lukus declared \"SaaS is dead.\"\n- Market interprets Palantir's new approach as highly disruptive.\n- Investors foresee unprecedented revenue growth from Palantir's AI platforms.\n\n*[View on Polymarket](https://polymarket.com/event/will-pltr-close-between-132-and-134-week-may-15-2026)*\n\n---\n\n## 2. ₿ Bitcoin Price Dips, Up Probability Zeroes\n\n**0% YES** | **-54.4%** (24h) | Vol: $351,874\n\nThe probability of Bitcoin being up on May 16 plummeted to 0% following a reported 2% price drop to $79,370.24. This decline occurred amidst broader stock market fears driven by rising oil prices, as reported by WSJ.\n\n**Key Drivers:**\n- Bitcoin price fell 2% to $79,370.24.\n- Dow Jones dropped 400 points on oil fears.\n- Nasdaq also declined by 0.84%.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-on-may-16-2026)*\n\n---\n\n## 3. ₿ Ethereum Up Probability Crashes to Zero\n\n**0% YES** | **-52.4%** (24h) | Vol: $85,937\n\nThe probability of Ethereum being up on May 16th plummeted to 0%, reflecting a 52.4% drop in 24 hours. This sharp decline was primarily driven by SharpLink's criticism of Ethereum companies for diverging from Michael Saylor's crypto asset management model.\n\n**Key Drivers:**\n- SharpLink criticizes Ethereum firms' asset management\n- Ethereum companies diverge from Saylor's BTC model\n- Concerns over institutional conviction in ETH\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-on-may-16-2026)*\n\n---\n\n## 4. ₿ Bitcoin Up or Down - May 16, 10AM ET\n\n**100% YES** | **+50.0%** (24h) | Vol: $49,519\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-10am-et)*\n\n---\n\n## 5. ₿ Bitcoin Up or Down - May 16, 11AM ET\n\n**100% YES** | **+50.0%** (24h) | Vol: $43,187\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-11am-et)*\n\n---\n\n## 6. ₿ Bitcoin Up or Down - May 16, 12PM ET\n\n**2% YES** | **-48.5%** (24h) | Vol: $41,520\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-may-16-2026-12pm-et)*\n\n---\n\n## 7. ₿ Will the price of Ethereum be above $2,200 on May 17?\n\n**27% YES** | **-44.5%** (24h) | Vol: $34,298\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-above-2200-on-may-17)*\n\n---\n\n## 8. 🔥 Will Harvey Weinstein be sentenced to no prison time?\n\n**75% YES** | **+44.5%** (24h) | Vol: $14,986\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-harvey-weinstein-be-sentenced-to-no-prison-time)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
 }
