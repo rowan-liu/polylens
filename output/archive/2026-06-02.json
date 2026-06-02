@@ -1,623 +1,125 @@
 {
-  "generated_at": "2026-06-02T14:21:03.552798+00:00",
-  "generated_at_readable": "Jun 02, 2026 14:21 UTC",
+  "generated_at": "2026-06-02T22:40:03.821806+00:00",
+  "generated_at_readable": "Jun 02, 2026 22:40 UTC",
   "topics": [
     {
       "market": {
-        "id": "2362128",
-        "question": "Will the price of Bitcoin be between $68,000 and $70,000 on June 2?",
-        "probability": 0.7095,
-        "change_24h": 0.674,
-        "volume_24h": 59148.53,
-        "score": 678.77,
-        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-68000-70000-on-june-2-2026"
+        "id": "2409594",
+        "question": "Will Google (GOOGL) close above $370 on June 2?",
+        "probability": 0.0355,
+        "change_24h": -0.8595,
+        "volume_24h": 927.18,
+        "score": 862.47,
+        "url": "https://polymarket.com/event/googl-close-above-370-on-june-2-2026"
       },
       "insight": {
-        "category": "crypto",
+        "category": "business",
         "en": {
-          "title": "Bitcoin Dips Into Target Range",
-          "summary": "The probability surged to 71% as Bitcoin's price recently fell below $70,000, moving into the $68,000-$70,000 target range. This decline was partly influenced by Michael Saylor's Strategy selling 32 BTC for $2.5 million in late May.",
+          "title": "GOOGL Plunges on $80B Capital Raise",
+          "summary": "GOOGL's probability of closing above $370 plummeted to 4% after Google announced an $80 billion capital raise. This massive equity raise sparked fears of significant shareholder dilution, causing shares to fall sharply.",
           "drivers": [
-            "Bitcoin price falling below $70,000",
-            "Strategy's sale of 32 BTC for $2.5 million",
-            "General crypto market weakness"
+            "Google's $80 billion equity capital raise announcement",
+            "Fears of significant shareholder dilution",
+            "Broader tech stock weakness, including Alphabet and Microsoft"
           ],
-          "why_matters": "This market reflects short-term volatility and the impact of institutional selling on Bitcoin's price. It highlights how specific events can quickly shift market expectations.",
-          "bull_case": "Bitcoin's price has already entered the $68,000-$70,000 range, increasing the likelihood of it closing there.",
-          "bear_case": "Continued selling pressure could push Bitcoin below $68,000, or a quick rebound could take it above $70,000."
+          "why_matters": "The move highlights the intense capital demands for AI development and its immediate impact on tech giants' valuations. It signals a new phase of aggressive investment in the AI race.",
+          "bull_case": "Aggressive AI investment could yield future growth, justifying current dilution and driving GOOGL above $370.",
+          "bear_case": "Massive $80 billion equity raise causes significant dilution, pushing GOOGL shares further down below $370."
         },
         "zh": {
-          "title": "比特币跌入目标区间",
-          "summary": "随着比特币价格跌破70,000美元，进入68,000-70,000美元的目标区间，该预测市场概率飙升至71%。Michael Saylor的Strategy公司在5月底出售32枚比特币是下跌原因之一。",
+          "title": "谷歌800亿融资致股价暴跌",
+          "summary": "谷歌宣布800亿美元融资后，其股价收盘高于370美元的概率暴跌至4%。此次巨额股权融资引发了严重的股东稀释担忧，导致股价大幅下跌。",
           "drivers": [
-            "比特币价格跌破70,000美元",
-            "Strategy公司出售32枚比特币",
-            "加密货币市场普遍疲软"
+            "谷歌宣布800亿美元股权融资",
+            "市场担忧股权稀释效应",
+            "科技股整体走弱，Alphabet股价下滑"
           ],
-          "why_matters": "该市场反映了比特币的短期波动性及机构抛售对其价格的影响。它突显了特定事件如何迅速改变市场预期。",
-          "bull_case": "比特币价格已进入68,000-70,000美元区间，增加了在此区间收盘的可能性。",
-          "bear_case": "持续的抛售压力可能将比特币推至68,000美元以下，或迅速反弹至70,000美元以上。"
+          "why_matters": "此举凸显了人工智能发展对资本的巨大需求及其对科技巨头估值的直接影响。这预示着人工智能竞赛进入了激进投资的新阶段。",
+          "bull_case": "激进的AI投资或带来未来增长，证明稀释合理，推动GOOGL突破370美元。",
+          "bear_case": "800亿美元巨额股权融资导致严重稀释，将GOOGL股价进一步推低至370美元以下。"
         }
       },
       "news": [
         {
-          "title": "Bitcoin slide to $70,000 as stocks pause and Strategy's BTC sale weighs on crypto - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-slide-to-usd70-000-as-stocks-pause-and-strategy-s-btc-sale-weighs-on-crypto"
+          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip"
+        },
+        {
+          "title": "Google Announces $80 Billion Capital Raise Amid Artificial Intelligence Spending Jump. Shares Fall. - Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/google-stock-alphabet-artificial-intelligence-80-billion-capital-raise/"
+        },
+        {
+          "title": "Google Is Daring Rivals To Keep Up in AI Spending Race - WSJ",
+          "url": "https://www.wsj.com/tech/ai/google-is-daring-rivals-to-keep-up-in-ai-spending-race-9975c3c0"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2410979",
+        "question": "Will Bitcoin dip to $68,000 June 1-7?",
+        "probability": 1.0,
+        "change_24h": 0.6745,
+        "volume_24h": 67177.11,
+        "score": 679.33,
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-68k-june-1-7-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Dips Below $68K",
+          "summary": "The probability of Bitcoin dipping to $68,000 between June 1-7 surged to 100% as the cryptocurrency has already fallen below this mark. This sharp decline was primarily triggered by reports of MicroStrategy selling a small amount of Bitcoin, which spooked investors.",
+          "drivers": [
+            "Bitcoin price fell below $68,000",
+            "MicroStrategy's BTC sale spooked investors",
+            "Bitcoin traders flipped bearish"
+          ],
+          "why_matters": "This price action indicates significant bearish sentiment in the crypto market, potentially signaling further downside or a re-evaluation of Bitcoin's immediate support levels.",
+          "bull_case": "Bitcoin has already dipped below $68,000, confirming the market event will occur within the specified timeframe.",
+          "bear_case": "A sustained rebound above $68,000 before June 1st could prevent the dip during the specified period."
+        },
+        "zh": {
+          "title": "比特币跌破6.8万美元",
+          "summary": "比特币在6月1日至7日期间跌至6.8万美元的概率飙升至100%，因为该加密货币价格已跌破此关口。此次急剧下跌主要由MicroStrategy出售少量比特币的报道引发，导致投资者恐慌。",
+          "drivers": [
+            "比特币价格已跌破6.8万美元",
+            "MicroStrategy出售比特币引发市场恐慌",
+            "比特币交易员转为看跌"
+          ],
+          "why_matters": "此次价格走势表明加密市场存在显著看跌情绪，可能预示进一步下跌或比特币即时支撑位的重新评估。",
+          "bull_case": "比特币已跌破6.8万美元，确认市场事件将在指定时间内发生。",
+          "bear_case": "若在6月1日前持续反弹至6.8万美元以上，且期间不再下跌，则预测可能不成立。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bitcoin drops back under $70,000, Strategy extends its slide - CNBC",
+          "url": "https://www.cnbc.com/2026/06/02/bitcoin-drops-back-under-70000-strategy-extends-its-slide.html"
+        },
+        {
+          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip"
         },
         {
           "title": "Bitcoin Falls Below $70,000 For The First Time Since April - Forbes",
           "url": "https://www.forbes.com/sites/siladityaray/2026/06/02/bitcoin-falls-below-70000-for-the-first-time-since-april/"
-        },
-        {
-          "title": "Bitcoin news: Strategy sold 32 BTC for $2.5 million in late May, filing shows - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"
         }
       ]
     },
     {
       "market": {
-        "id": "1301184",
-        "question": "Will Anthropic or OpenAI IPO first?",
-        "probability": 0.8,
-        "change_24h": 0.555,
-        "volume_24h": 23644.39,
-        "score": 559.37,
-        "url": "https://polymarket.com/event/will-anthropic-or-openai-ipo-first"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Anthropic Leads IPO Race",
-          "summary": "Anthropic's confidential IPO filing significantly boosted its probability of IPOing first, marking a concrete step ahead of OpenAI. This move, earlier than expected, directly addresses the market's core question.",
-          "drivers": [
-            "Anthropic filed confidential IPO papers.",
-            "News outlets declared Anthropic \"beat\" OpenAI.",
-            "Filing occurred \"earlier than expected.\""
-          ],
-          "why_matters": "This IPO race highlights the intense competition and investor appetite for leading AI foundational model companies, potentially setting a valuation benchmark for the sector.",
-          "bull_case": "Anthropic has completed a definitive IPO step by filing confidential papers, putting them demonstrably ahead of OpenAI.",
-          "bear_case": "IPO processes are complex and subject to delays, while OpenAI could still accelerate its own public offering plans."
-        },
-        "zh": {
-          "title": "Anthropic领跑IPO",
-          "summary": "Anthropic提交了保密IPO文件，显著提升了其率先上市的可能性，这标志着它在OpenAI之前迈出了具体一步。此举比预期更早，直接回应了市场核心问题。",
-          "drivers": [
-            "Anthropic提交了保密IPO文件。",
-            "媒体报道Anthropic“击败”OpenAI。",
-            "提交时间“比预期更早”。"
-          ],
-          "why_matters": "这场IPO竞赛凸显了投资者对领先AI基础模型公司的强烈兴趣和竞争，可能为该行业设定估值基准。",
-          "bull_case": "Anthropic已提交保密IPO文件，迈出了明确的上市步骤，明显领先于OpenAI。",
-          "bear_case": "IPO流程复杂且可能延迟，OpenAI仍有可能加速其上市计划。"
-        }
-      },
-      "news": [
-        {
-          "title": "OpenAI and Anthropic are racing to Wall Street. Going public first might not be an advantage. - Business Insider",
-          "url": "https://www.businessinsider.com/an-ipo-before-openai-that-could-be-a-trap-2026-6"
-        },
-        {
-          "title": "Anthropic files for its IPO - Axios",
-          "url": "https://www.axios.com/2026/06/01/anthropic-ipo-openai"
-        },
-        {
-          "title": "Anthropic files for IPO before OpenAI as trillion-dollar startups race to go public - NBC News",
-          "url": "https://www.nbcnews.com/business/corporations/anthropic-files-ipo-openai-rcna347897"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2388684",
-        "question": "Will Microsoft Corporation (MSFT) hit (HIGH) $465 Week of June 1 2026?",
-        "probability": 1.0,
-        "change_24h": 0.5295,
-        "volume_24h": 1259.0,
-        "score": 532.6,
-        "url": "https://polymarket.com/event/will-msft-reach-465-by-june-1-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "AI Boom Fuels MSFT $465 Confidence",
-          "summary": "Microsoft's probability to hit $465 by June 2026 surged to 100% following strong AI sector performance. Dell Technologies' 33% stock jump on robust earnings and NVIDIA's Computex 2026 AI chip unveiling signal sustained AI growth benefiting MSFT.",
-          "drivers": [
-            "Dell Technologies' 33% surge on strong AI server demand.",
-            "NVIDIA CEO unveils new PC AI chips at Computex 2026.",
-            "Broader software sector rally on strong earnings."
-          ],
-          "why_matters": "This indicates the market's conviction in the long-term AI growth trajectory and its significant positive impact on major tech players like Microsoft. It suggests AI infrastructure and software demand will remain robust.",
-          "bull_case": "Sustained AI infrastructure demand and Microsoft's dominant position in cloud and AI software will drive significant revenue growth.",
-          "bear_case": "Intense competition or regulatory scrutiny in the AI sector could slow Microsoft's growth and valuation expansion."
-        },
-        "zh": {
-          "title": "AI热潮推高MSFT至465美元信心",
-          "summary": "微软股价在2026年6月前触及465美元的概率飙升至100%，主要受AI板块强劲表现驱动。戴尔科技因强劲财报股价大涨33%，以及英伟达在2026年Computex大会发布AI芯片，预示AI持续增长利好微软。",
-          "drivers": [
-            "戴尔科技因AI服务器需求强劲股价飙升33%。",
-            "英伟达CEO在2026年Computex大会发布PC AI芯片。",
-            "软件板块因强劲财报普遍上涨。"
-          ],
-          "why_matters": "这表明市场对AI长期增长轨迹及其对微软等主要科技公司的巨大积极影响充满信心。预示AI基础设施和软件需求将保持强劲。",
-          "bull_case": "AI基础设施需求持续旺盛，微软在云和AI软件的主导地位将推动营收大幅增长。",
-          "bear_case": "AI领域竞争加剧或监管审查可能减缓微软增长，限制其估值扩张。"
-        }
-      },
-      "news": [
-        {
-          "title": "The AI Trade Just Broke Out Beyond Chips: 3 Stocks Powering the Next Leg Higher - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/31/the-ai-trade-just-broke-out-beyond-chips-3-stocks/"
-        },
-        {
-          "title": "Power Rankings: Week of May 31 - MLB.com",
-          "url": "https://www.mlb.com/video/power-rankings-week-of-may-31"
-        },
-        {
-          "title": "Palantir Eyes Buy Point As Software Stocks Extend Rally On Snowflake, Dell Earnings - Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/palantir-stock-buy-point-software-rally-artificial-intelligence-disruption/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2388995",
-        "question": "Will NVIDIA (NVDA) hit (HIGH) $220 Week of June 1 2026?",
-        "probability": 1.0,
-        "change_24h": 0.4945,
-        "volume_24h": 4756.0,
-        "score": 498.18,
-        "url": "https://polymarket.com/event/will-nvda-reach-220-by-june-1-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "NVIDIA PC Chips Drive $220 Target",
-          "summary": "The probability for NVIDIA (NVDA) to hit $220 by June 2026 surged to 100% after CEO Jensen Huang unveiled the company's first PC chips at Computex 2026. This significant market expansion is bolstered by a strategic partnership with Arm.",
-          "drivers": [
-            "NVIDIA CEO Jensen Huang unveils first PC chips at Computex 2026.",
-            "Arm joins NVIDIA's PC chip development effort.",
-            "CEO Huang announces unlocking new growth opportunities."
-          ],
-          "why_matters": "NVIDIA's entry into the PC CPU market dramatically expands its total addressable market beyond GPUs, positioning it to capture a significant share of the consumer computing sector. This diversification could reshape the industry and drive substantial long-term revenue growth.",
-          "bull_case": "Successful PC chip adoption and continued AI leadership ensure NVDA easily surpasses $220 by June 2026, driven by new revenue streams.",
-          "bear_case": "Intense competition in the PC market or unexpected delays in chip adoption could hinder NVIDIA's growth, preventing the $220 target.",
-          "current_probability": "100%",
-          "24h_change": "+49.5%"
-        },
-        "zh": {
-          "title": "英伟达PC芯片推动股价迈向220美元",
-          "summary": "英伟达（NVDA）在2026年6月前达到220美元的概率飙升至100%，此前首席执行官黄仁勋在2026年台北电脑展上发布了公司首款PC芯片。与Arm的战略合作进一步巩固了这一重要的市场扩张。",
-          "drivers": [
-            "英伟达CEO黄仁勋在2026年台北电脑展发布首款PC芯片。",
-            "Arm加入英伟达的PC芯片开发工作。",
-            "黄仁勋宣布解锁新的增长机遇。"
-          ],
-          "why_matters": "英伟达进军PC CPU市场，大幅拓展了其GPU之外的总潜在市场，有望在消费计算领域占据重要份额。这一多元化战略可能重塑行业格局，并带来可观的长期收入增长。",
-          "bull_case": "PC芯片成功普及和AI领导地位巩固，确保英伟达在2026年6月前轻松突破220美元，新收入流是主要驱动。",
-          "bear_case": "PC市场竞争激烈或芯片普及受阻，可能阻碍英伟达的增长，使其无法达到220美元的目标。"
-        }
-      },
-      "news": [
-        {
-          "title": "Jensen Huang Says Nvidia Has Unlocked a New Growth Opportunity the Company Hasn't Gone After Before - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/06/01/jensen-huang-says-nvidia-has-unlocked-a-new-growth/"
-        },
-        {
-          "title": "NVDA Stock Set For Strong Open Today: CEO Unveils First PC Chips At Computex 2026 - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-set-strong-open-073837501.html"
-        },
-        {
-          "title": "Nvidia CEO to kick off and dominate Computex gathering in Taipei - Reuters",
-          "url": "https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2402899",
-        "question": "Bitcoin Up or Down on June 2?",
-        "probability": 0.025,
-        "change_24h": -0.465,
-        "volume_24h": 236434.89,
-        "score": 470.37,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-june-2-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Plunges on Strategy Sale",
-          "summary": "The probability of Bitcoin being up on June 2 plummeted by 46.5% to 2% following a significant price slide below $71,000. This sharp decline was primarily driven by Michael Saylor's Strategy selling $2.5 million in BTC, disclosed on June 1.",
-          "drivers": [
-            "Strategy's $2.5M Bitcoin sale",
-            "Bitcoin price slide below $71,000",
-            "Polymarket bet dispute over sale timing"
-          ],
-          "why_matters": "Strategy's unexpected BTC sale, a major holder, signals potential bearish sentiment or profit-taking, impacting broader crypto market confidence and immediate price action.",
-          "bull_case": "A sudden, unexpected surge in institutional buying or a short squeeze could quickly reverse the current downtrend.",
-          "bear_case": "Continued selling pressure from large holders like Strategy and negative macro data could push Bitcoin further down."
-        },
-        "zh": {
-          "title": "比特币因Strategy抛售暴跌",
-          "summary": "比特币在6月2日上涨的概率暴跌46.5%至2%，此前价格跌破71,000美元。此次急剧下跌主要受Michael Saylor的Strategy公司于6月1日披露出售250万美元比特币的驱动。",
-          "drivers": [
-            "Strategy公司出售250万美元比特币",
-            "比特币价格跌破71,000美元",
-            "Polymarket因抛售时机产生争议"
-          ],
-          "why_matters": "作为主要持有者，Strategy公司意外出售比特币，预示着潜在的看跌情绪或获利了结，影响更广泛的加密市场信心和即时价格走势。",
-          "bull_case": "机构购买量意外激增或空头挤压可能迅速逆转当前下跌趋势。",
-          "bear_case": "Strategy等大型持有者持续抛售压力及负面宏观数据可能进一步推低比特币。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin slide to $70,000 as stocks pause and Strategy's BTC sale weighs on crypto - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-slide-to-usd70-000-as-stocks-pause-and-strategy-s-btc-sale-weighs-on-crypto"
-        },
-        {
-          "title": "3 Things That May Move Bitcoin Price This Week - Cryptonews.net",
-          "url": "https://cryptonews.net/news/finance/32944613/"
-        },
-        {
-          "title": "Michael Saylor's Strategy sells $2.5 million bitcoin. Chaos ensues in a major prediction market over who gets paid - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-s-bitcoin-sale-sparks-a-usd14-million-crypto-betting-chaos-on-a-major-prediction-market"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2388875",
-        "question": "Will Meta Platforms, Inc. (META) hit (HIGH) $690 Week of June 1 2026?",
-        "probability": 0.03,
-        "change_24h": -0.465,
-        "volume_24h": 1590.27,
-        "score": 468.2,
-        "url": "https://polymarket.com/event/will-meta-reach-690-by-june-1-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $690 Week of June 1 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $690 Week of June 1 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Meta Glasses Create Biometric Gray Area For Privacy Enforcers - Bloomberg Law News",
-          "url": "https://news.bloomberglaw.com/business-and-practice/meta-glasses-create-biometric-gray-area-for-privacy-enforcers"
-        },
-        {
-          "title": "Meta reveals details about layoffs in Playa Vista and Menlo Park - Los Angeles Times",
-          "url": "https://www.latimes.com/business/story/2026-06-02/meta-provides-details-about-layoffs-in-playa-vista-menlo-park"
-        },
-        {
-          "title": "China toughens rules on outbound investment after Meta-Manus contention - Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/china-toughens-rules-outbound-investment-after-meta-manus-contention-2026-06-01/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2350499",
-        "question": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $100 in June?",
-        "probability": 0.285,
-        "change_24h": -0.46,
-        "volume_24h": 8034.12,
-        "score": 463.9,
-        "url": "https://polymarket.com/event/will-hood-reach-100-in-june-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $100 in June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1168)"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $100 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1168)"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Supreme Court seeks Trump administration views on Robinhood IPO dispute - Reuters",
-          "url": "https://www.reuters.com/business/supreme-court-seeks-trump-administration-views-robinhood-ipo-dispute-2026-06-01/"
-        },
-        {
-          "title": "Crypto exchange Binance rolls out trading in US stocks, ETFs - Reuters",
-          "url": "https://www.reuters.com/legal/government/crypto-exchange-binance-rolls-out-trading-us-stocks-etfs-2026-06-01/"
-        },
-        {
-          "title": "Sustainable Growth Advisers LP Sells 148,028 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-sustainable-growth-advisers-lp-sells-148028-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2388868",
-        "question": "Will Meta (META) finish week of June 1 above $620?",
-        "probability": 0.235,
-        "change_24h": -0.445,
-        "volume_24h": 980.46,
-        "score": 447.99,
-        "url": "https://polymarket.com/event/meta-above-620-on-june-5-2026"
-      },
-      "insight": {
-        "category": "politics",
-        "en": {
-          "title": "Meta Probability Plunges on Regulatory Fears",
-          "summary": "The probability of Meta finishing above $620 plummeted by 44.5% due to escalating regulatory and geopolitical risks. Recent headlines regarding China's toughened outbound investment rules and privacy concerns for Meta's smart glasses fueled investor apprehension.",
-          "drivers": [
-            "China toughens outbound investment rules.",
-            "Meta Glasses face biometric privacy scrutiny."
-          ],
-          "why_matters": "These events signal growing regulatory and geopolitical headwinds for Meta's global operations and its ambitious hardware/AI initiatives, potentially impacting future revenue and market access.",
-          "bull_case": "Meta's AI pendant development and continued innovation in AI could unlock new revenue streams and user engagement, driving the stock higher.",
-          "bear_case": "Heightened regulatory scrutiny in China and privacy concerns for Meta Glasses pose significant operational and legal risks, pushing the stock below $620."
-        },
-        "zh": {
-          "title": "Meta概率暴跌，监管担忧加剧",
-          "summary": "Meta股价收于620美元以上的可能性骤降44.5%，主要受监管和地缘政治风险加剧影响。中国收紧对外投资规定以及Meta智能眼镜的隐私担忧等新闻，加剧了投资者的不安情绪。",
-          "drivers": [
-            "中国收紧对外投资规定。",
-            "Meta眼镜面临生物识别隐私审查。"
-          ],
-          "why_matters": "这些事件预示着Meta全球业务及其雄心勃勃的硬件/AI计划将面临日益增长的监管和地缘政治阻力，可能影响未来收入和市场准入。",
-          "bull_case": "Meta的AI吊坠开发及其在AI领域的持续创新，有望开启新的收入来源并提升用户参与度，从而推高股价。",
-          "bear_case": "中国日益严格的监管审查和Meta眼镜的隐私担忧，对公司构成重大的运营和法律风险，可能导致股价跌破620美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "China toughens rules on outbound investment after Meta-Manus contention - Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/china-toughens-rules-outbound-investment-after-meta-manus-contention-2026-06-01/"
-        },
-        {
-          "title": "Meta Expands Global Teen Content Controls, Adds Instagram Feed Tools - Global Banking & Finance Review",
-          "url": "https://www.globalbankingandfinance.com/meta-expands-teen-content-controls-globally-tests-new/"
-        },
-        {
-          "title": "Meta is reportedly developing an AI pendant - TechCrunch",
-          "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2388973",
-        "question": "Will NVIDIA (NVDA) finish week of June 1 above $220?",
-        "probability": 0.77,
-        "change_24h": 0.39,
-        "volume_24h": 1937.18,
-        "score": 393.29,
-        "url": "https://polymarket.com/event/nvda-above-220-on-june-5-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will NVIDIA (NVDA) finish week of June 1 above $220?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will NVIDIA (NVDA) finish week of June 1 above $220?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Nvidia outperforming peers on margins, analyst says valuation still ‘unassailable’ - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/01/dave-nicholson.html"
-        },
-        {
-          "title": "Jensen Huang Says Nvidia Has Unlocked a New Growth Opportunity the Company Hasn't Gone After Before - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/06/01/jensen-huang-says-nvidia-has-unlocked-a-new-growth/"
-        },
-        {
-          "title": "Stock Market Today: Indexes Mostly Rise as Nvidia-Driven Tech Gains Outweigh Soaring Oil Prices - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06012026-11987627"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2350404",
-        "question": "Will NVIDIA (NVDA) hit (HIGH) $232 in June?",
-        "probability": 0.815,
-        "change_24h": 0.33,
-        "volume_24h": 5729.91,
-        "score": 333.76,
-        "url": "https://polymarket.com/event/will-nvda-reach-232-in-june-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "NVDA Surges on New Growth, PC Chips",
-          "summary": "The probability of NVDA hitting $232 in June surged by 33% to 82%, driven by CEO Jensen Huang's announcement of new growth opportunities and the unveiling of Nvidia's first PC chips at Computex. This expansion into the PC market, including a collaboration with Arm, significantly boosts future revenue expectations.",
-          "drivers": [
-            "CEO Jensen Huang unveils new growth opportunities.",
-            "Nvidia's first PC chips revealed at Computex.",
-            "Collaboration with Arm on new PC chip efforts.",
-            "Analyst praises Nvidia's \"unassailable\" valuation."
-          ],
-          "why_matters": "Nvidia's strategic move into the PC market with new chips and partnerships could diversify its revenue streams beyond AI, solidifying its long-term market dominance. This signals a significant expansion of its addressable market.",
-          "bull_case": "Strong AI chip demand and successful PC market entry by CEO Jensen Huang will propel NVDA past $232.",
-          "bear_case": "Increased competition or a broader tech sector slowdown could prevent NVDA from reaching $232."
-        },
-        "zh": {
-          "title": "英伟达新增长、PC芯片推动股价",
-          "summary": "英伟达(NVDA)六月触及232美元的概率飙升33%至82%，主要受CEO黄仁勋宣布新增长机遇以及在Computex上发布首款PC芯片的推动。与Arm的合作等PC市场扩张显著提升了未来的营收预期。",
-          "drivers": [
-            "CEO黄仁勋宣布新增长机遇。",
-            "英伟达在Computex发布首款PC芯片。",
-            "与Arm合作开发PC芯片。",
-            "分析师称英伟达估值“坚不可摧”。"
-          ],
-          "why_matters": "英伟达通过新芯片和合作进军PC市场，有望使其收入来源超越AI领域，巩固其长期市场主导地位。这预示着其可寻址市场的大幅扩张。",
-          "bull_case": "强劲的AI芯片需求和CEO黄仁勋成功进军PC市场将推动NVDA突破232美元。",
-          "bear_case": "激烈的市场竞争或科技板块整体放缓可能阻止NVDA达到232美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Jensen Huang Says Nvidia Has Unlocked a New Growth Opportunity the Company Hasn't Gone After Before - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/06/01/jensen-huang-says-nvidia-has-unlocked-a-new-growth/"
-        },
-        {
-          "title": "Nvidia outperforming peers on margins, analyst says valuation still ‘unassailable’ - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/01/dave-nicholson.html"
-        },
-        {
-          "title": "Arm Stock Jumps As Chip Designer Joins Nvidia PC Effort - Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/arm-stock-jumps-nvidia-pc-effort/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2350485",
-        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $210 in June?",
-        "probability": 0.245,
-        "change_24h": -0.315,
-        "volume_24h": 3484.62,
-        "score": 318.54,
-        "url": "https://polymarket.com/event/will-coin-reach-210-in-june-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "COIN Probability Plunges on Competitor Moves",
-          "summary": "The probability of COIN hitting $210 in June dropped significantly to 24% following news of increased competition. Binance's expansion into US stocks/ETFs and Exodus's UFC partnership signal a more crowded crypto market.",
-          "drivers": [
-            "Binance expands into US stocks/ETFs",
-            "Exodus secures UFC payments partnership",
-            "Increased competition in crypto space"
-          ],
-          "why_matters": "These developments highlight the intensifying competition among crypto platforms for market share and user adoption. Coinbase's dominance could be challenged by diversified offerings and high-profile partnerships from rivals.",
-          "bull_case": "Stronger-than-expected crypto market recovery or favorable regulatory clarity could boost COIN's valuation.",
-          "bear_case": "Intensified competition and potential regulatory headwinds could further depress COIN's price."
-        },
-        "zh": {
-          "title": "COIN概率骤降，竞争加剧",
-          "summary": "COIN在6月触及210美元的概率大幅降至24%，主要受竞争加剧消息影响。币安拓展美国股票/ETF交易及Exodus与UFC合作预示加密市场竞争白热化。",
-          "drivers": [
-            "币安拓展美国股票/ETF交易",
-            "Exodus获UFC官方支付合作",
-            "加密货币市场竞争加剧"
-          ],
-          "why_matters": "这些进展凸显了加密平台之间争夺市场份额和用户采纳的竞争日益激烈。Coinbase的主导地位可能受到竞争对手多元化产品和高调合作的挑战。",
-          "bull_case": "加密市场强劲复苏或监管利好，可能推高COIN估值。",
-          "bear_case": "竞争加剧及潜在监管逆风，可能进一步压低COIN股价。"
-        }
-      },
-      "news": [
-        {
-          "title": "Arthur J. Gallagher (AJG) Acquires Twin Elms - InsuranceNewsNet",
-          "url": "https://insurancenewsnet.com/oarticle/arthur-j-gallagher-ajg-acquires-twin-elms"
-        },
-        {
-          "title": "Crypto exchange Binance rolls out trading in US stocks, ETFs - Reuters",
-          "url": "https://www.reuters.com/legal/government/crypto-exchange-binance-rolls-out-trading-us-stocks-etfs-2026-06-01/"
-        },
-        {
-          "title": "One Capital Management LLC Trims Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-one-capital-management-llc-trims-holdings-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2350355",
-        "question": "Will Alphabet Inc. (GOOGL) hit (HIGH) $400 in June?",
-        "probability": 0.265,
-        "change_24h": -0.285,
-        "volume_24h": 2242.56,
-        "score": 288.35,
-        "url": "https://polymarket.com/event/will-googl-reach-400-in-june-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "GOOGL Dilution Fears Hit $400 Target",
-          "summary": "The probability of Alphabet Inc. (GOOGL) hitting $400 in June has dropped significantly to 26% after news broke of the company's plan to raise $80 billion through stock sales. This massive equity raise, despite Berkshire Hathaway's $10 billion investment, signals potential dilution for existing shareholders.",
-          "drivers": [
-            "Alphabet's $80B stock sale plan for AI",
-            "Investor concerns over significant share dilution",
-            "S&P 500 and Dow futures dip after record highs"
-          ],
-          "why_matters": "This event highlights the immense capital requirements for leading AI development and the potential trade-offs for shareholders. It also shows how even positive news like AI investment can be perceived negatively if funding mechanisms are unfavorable.",
-          "bull_case": "Massive AI investment, backed by Berkshire, could drive long-term growth and future profitability, eventually pushing the stock higher.",
-          "bear_case": "Significant share dilution from $80B stock sales will likely depress GOOGL's price, making the $400 target difficult to reach in June."
-        },
-        "zh": {
-          "title": "谷歌稀释担忧，400美元目标承压",
-          "summary": "谷歌（GOOGL）六月触及400美元的概率大幅下降至26%，此前有消息称公司计划通过股票出售筹集800亿美元。尽管伯克希尔哈撒韦投资100亿美元，但这一巨额股权融资引发了现有股东对潜在稀释的担忧。",
-          "drivers": [
-            "谷歌计划通过股票出售筹集800亿美元",
-            "市场担忧现有股份将面临大幅稀释",
-            "大盘期货在创纪录高位后回落"
-          ],
-          "why_matters": "此事件凸显了领先AI发展所需的巨大资本投入，以及对股东可能带来的权衡。它也表明即使是AI投资等利好消息，如果融资方式不利，也可能被市场负面解读。",
-          "bull_case": "AI巨额投资与伯克希尔支持，驱动谷歌长期增长，股价有望走高。",
-          "bear_case": "800亿股票出售稀释股份，压低股价，六月难达400美元目标。"
-        }
-      },
-      "news": [
-        {
-          "title": "Alphabet raises $80B for AI investments, including $10B from Berkshire Hathaway (GOOG:NASDAQ) - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4599490-alphabet-raises-80b-for-ai-investments-including-10b-from-berkshire-hathaway"
-        },
-        {
-          "title": "Berkshire invests extra $10 billion in Alphabet, deepening bet on AI - CNBC",
-          "url": "https://www.cnbc.com/2026/06/01/berkshire-hathaway-alphabet-investment.html"
-        },
-        {
-          "title": "Wall Street futures dip after record highs; HPE soars - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/wall-street-futures-dip-after-record-highs-hpe-soars"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2350393",
-        "question": "Will Tesla, Inc. (TSLA) hit (LOW) $420 in June?",
-        "probability": 1.0,
-        "change_24h": 0.2595,
-        "volume_24h": 2967.29,
-        "score": 262.97,
-        "url": "https://polymarket.com/event/will-tsla-dip-to-420-in-june-2026"
+        "id": "2409537",
+        "question": "S&P 500 (SPX) Opens Up or Down on June 2?",
+        "probability": 0.0005,
+        "change_24h": -0.6245,
+        "volume_24h": 78474.14,
+        "score": 629.39,
+        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-june-2-2026"
       },
       "insight": {
         "category": "stocks",
         "en": {
-          "title": "Will Tesla, Inc. (TSLA) hit (LOW) $420 in June?",
+          "title": "S&P 500 (SPX) Opens Up or Down on June 2?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -625,7 +127,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Tesla, Inc. (TSLA) hit (LOW) $420 in June?",
+          "title": "S&P 500 (SPX) Opens Up or Down on June 2?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -635,122 +137,120 @@
       },
       "news": [
         {
-          "title": "Tesla (TSLA) Faces Class-Action Lawsuit Over Full Self-Driving F - GuruFocus",
-          "url": "https://www.gurufocus.com/news/8892731/tesla-tsla-faces-classaction-lawsuit-over-full-selfdriving-feature"
+          "title": "Asia stocks skittish as Middle East anxiety offsets AI optimism - Reuters",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-02/"
         },
         {
-          "title": "Tesla Stock Drops. OpenAI Is Coming for One Line of Its Business. - Barron's",
-          "url": "https://www.barrons.com/articles/tesla-stock-openai-robots-16fcf0d2"
+          "title": "Stocks rally on AI optimism; jitters over Iran simmer - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/stocks-rally-ai-optimism-jitters-over-iran-simmer"
         },
         {
-          "title": "Jensen Huang Just Called Humanoid Robots a $40 Trillion Market. Here's Why Wall Street Is Loading Up on Physical AI Stocks - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/31/jensen-huang-just-called-humanoid-robots-a-40-trillion-market-heres-why-wall-street-is-loading-up-on-physical-ai-stocks/"
+          "title": "S&P 500, Nasdaq dip after record highs; HPE soars - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/sp-500-nasdaq-dip-after-record-highs-hpe-soars"
         }
       ]
     },
     {
       "market": {
-        "id": "2350528",
-        "question": "Will South Korea ETF (EWY) hit (HIGH) $190 in June?",
-        "probability": 1.0,
-        "change_24h": 0.2545,
-        "volume_24h": 2210.0,
-        "score": 257.84,
-        "url": "https://polymarket.com/event/will-ewy-reach-190-in-june-2026"
+        "id": "2409589",
+        "question": "Google (GOOGL) Up or Down on June 2?",
+        "probability": 0.0095,
+        "change_24h": -0.6105,
+        "volume_24h": 4903.53,
+        "score": 614.19,
+        "url": "https://polymarket.com/event/googl-up-or-down-on-june-2-2026"
       },
       "insight": {
-        "category": "economy",
+        "category": "business",
         "en": {
-          "title": "Korea ETF Surges on AI Export Boom",
-          "summary": "The probability of EWY hitting $190 in June surged to 100% following news of South Korea's stock market reaching record highs and overtaking India as the world's sixth-largest. This was primarily driven by an AI boom propelling export growth to a four-decade high.",
+          "title": "Google Stock Dips on $80B Plan",
+          "summary": "The probability of GOOGL being up on June 2 plummeted to 1% as Google stock fell. This was primarily driven by reports of Google's plan to raise $80 billion, likely for AI investments, which the market reacted to negatively.",
           "drivers": [
-            "AI boom drives export growth to four-decade high.",
-            "South Korea stocks hit new record highs.",
-            "Overtakes India as world's 6th largest market."
+            "Google stock falls on $80B capital raise plan.",
+            "Alphabet/Microsoft slide amidst Nasdaq dip.",
+            "Broader S&P 500 and Nasdaq tick lower."
           ],
-          "why_matters": "This indicates robust economic performance and strong investor confidence in South Korea's tech-driven export sector. It highlights the nation's growing influence in global financial markets.",
-          "bull_case": "Sustained AI demand and strong export growth will continue to boost corporate earnings and investor confidence, pushing EWY higher.",
-          "bear_case": "Imminent rate hikes due to high inflation could dampen economic activity and increase borrowing costs, capping EWY's upside."
+          "why_matters": "This reflects investor short-term skepticism regarding large capital expenditures, even for strategic AI growth, impacting tech sector sentiment.",
+          "bull_case": "Google's aggressive $80 billion AI investment could yield significant long-term growth and market leadership.",
+          "bear_case": "Short-term concerns over Google's $80 billion capital raise and broader tech sector weakness will continue to weigh on GOOGL."
         },
         "zh": {
-          "title": "韩国ETF因AI出口激增而飙升",
-          "summary": "韩国股市创历史新高并超越印度成为全球第六大股市后，EWY在6月触及190美元的概率飙升至100%。这主要得益于AI热潮推动出口增长达到四十年高位。",
+          "title": "谷歌股价因800亿计划下跌",
+          "summary": "谷歌(GOOGL)股价上涨的概率骤降至1%，因有报道称谷歌计划筹集800亿美元。市场对这笔可能用于AI投资的巨额资金反应负面，导致股价下跌。",
           "drivers": [
-            "AI热潮推动出口增长达四十年高位。",
-            "韩国股市创下新的历史记录。",
-            "超越印度成为全球第六大股市。"
+            "谷歌股价因800亿美元融资计划下跌。",
+            "Alphabet/微软随纳斯达克指数下跌。",
+            "标普500和纳斯达克指数普遍走低。"
           ],
-          "why_matters": "这表明韩国经济表现强劲，投资者对其科技驱动的出口部门信心十足。它突显了该国在全球金融市场中日益增长的影响力。",
-          "bull_case": "AI需求持续旺盛和强劲的出口增长将继续提振企业盈利和投资者信心，推动EWY走高。",
-          "bear_case": "高通胀导致的即将来临的加息可能会抑制经济活动并增加借贷成本，限制EWY的上涨空间。"
+          "why_matters": "这反映了投资者对大规模资本支出（即使是战略性AI增长）的短期担忧，影响了科技板块情绪。",
+          "bull_case": "谷歌800亿美元的AI投资有望带来显著的长期增长和市场领先地位。",
+          "bear_case": "市场对谷歌800亿美元融资的短期担忧及科技板块整体疲软将继续拖累GOOGL。"
         }
       },
       "news": [
         {
-          "title": "South Korea inflation hits two-year high, imminent rate hike in play - Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/south-korea-may-inflation-31-yy-higher-than-expected-2026-06-01/"
+          "title": "S&P 500, Nasdaq dip after record highs; HPE soars - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/sp-500-nasdaq-dip-after-record-highs-hpe-soars"
         },
         {
-          "title": "Japan, South Korea stocks hit more records, as oil gains on Iran war ending fragility - Bozeman Daily Chronicle",
-          "url": "https://www.bozemandailychronicle.com/ap_news/business/japan-south-korea-stocks-hit-more-records-as-oil-gains-on-iran-war-ending-fragility/article_db4faf18-a87d-556c-8f93-3f0e8fcd3e3c.html"
+          "title": "Wall Street futures dip after record highs; HPE soars - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/wall-street-futures-dip-after-record-highs-hpe-soars"
         },
         {
-          "title": "South Korea Overtakes India as World’s Sixth-Largest Stock Market - Bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-02/s-korea-surpasses-india-as-world-s-sixth-largest-stock-market"
+          "title": "Google Is Daring Rivals To Keep Up in AI Spending Race - WSJ",
+          "url": "https://www.wsj.com/tech/ai/google-is-daring-rivals-to-keep-up-in-ai-spending-race-9975c3c0"
         }
       ]
     },
     {
       "market": {
-        "id": "2350547",
-        "question": "Will Gold (XAUUSD) hit (LOW) $4,500 in June?",
-        "probability": 1.0,
-        "change_24h": 0.2395,
-        "volume_24h": 11000.0,
-        "score": 243.54,
-        "url": "https://polymarket.com/event/will-xauusd-dip-to-4500-in-june-2026"
+        "id": "2409616",
+        "question": "NVIDIA (NVDA) Up or Down on June 2?",
+        "probability": 0.03,
+        "change_24h": -0.565,
+        "volume_24h": 12605.69,
+        "score": 569.1,
+        "url": "https://polymarket.com/event/nvda-up-or-down-on-june-2-2026"
       },
       "insight": {
-        "category": "economy",
+        "category": "ai_tech",
         "en": {
-          "title": "Gold Hits $4,500, Market Certainty",
-          "summary": "The probability of Gold hitting $4,500 in June surged to 100% after a MarketBeat ad explicitly stated \"Gold hit $4,500.\" This confirmation, coupled with gold retreating from record highs due to rate hike fears, solidified market certainty.",
+          "title": "NVDA Probability Plummets Due to Sunday",
+          "summary": "The probability of NVIDIA (NVDA) being 'Up' on June 2nd has sharply fallen by 56.5% to 3%. This significant drop is primarily driven by the realization that June 2nd, 2024, is a Sunday, a non-trading day for the stock market.",
           "drivers": [
-            "MarketBeat ad: \"Gold hit $4,500\"",
-            "Gold retreats from record highs",
-            "Rising interest rate fears",
-            "U.S.-Iran deadlock impacting oil"
+            "June 2nd, 2024, is a Sunday.",
+            "Stock markets are closed on Sundays.",
+            "NVDA cannot trade 'Up' on a non-trading day."
           ],
-          "why_matters": "Gold's sharp decline to $4,500 reflects significant shifts in monetary policy expectations and global economic stability, impacting investor confidence.",
-          "bull_case": "MarketBeat's ad confirming \"Gold hit $4,500\" provides direct evidence the event has occurred, solidifying the 100% probability for June.",
-          "bear_case": "The MarketBeat ad might be a general statement or refer to a past event, not definitively confirming the $4,500 low within June."
+          "why_matters": "This highlights how market mechanics and calendar awareness can override strong fundamental news in prediction markets.",
+          "bull_case": "Jensen Huang's Computex announcements regarding new AI PC chips and growth opportunities suggest strong upward momentum for NVDA on the next trading day.",
+          "bear_case": "The stock market is closed on Sunday, June 2nd, making it impossible for NVDA to trade 'up' on that specific day."
         },
         "zh": {
-          "title": "黄金触及4500美元，市场确信",
-          "summary": "市场对黄金在六月触及4500美元低点的概率飙升至100%，因MarketBeat广告明确指出“黄金已触及4500美元”。此确认加上金价因加息担忧从历史高位回落，巩固了市场确定性。",
+          "title": "英伟达周日概率暴跌",
+          "summary": "英伟达(NVDA)在6月2日“上涨”的概率已暴跌56.5%至3%。这一显著下降主要是由于市场意识到2024年6月2日是星期日，股市休市。",
           "drivers": [
-            "MarketBeat广告：“黄金已触及4500美元”",
-            "黄金从历史高位回落",
-            "加息担忧加剧",
-            "美伊僵局影响油价"
+            "2024年6月2日是星期日。",
+            "股票市场在周日休市。",
+            "英伟达无法在非交易日上涨。"
           ],
-          "why_matters": "黄金跌至4500美元反映了货币政策预期和全球经济稳定的重大转变，影响投资者信心。",
-          "bull_case": "MarketBeat广告确认“黄金已触及4500美元”，直接证明事件已发生，巩固了六月100%的概率。",
-          "bear_case": "MarketBeat广告可能是一般性陈述或指代过去事件，未能明确证实六月已触及4500美元低点。"
+          "why_matters": "这凸显了预测市场中市场机制和日历意识如何超越强劲的基本面新闻。",
+          "bull_case": "黄仁勋在Computex上关于新AI PC芯片和增长机会的宣布，预示着英伟达在下一个交易日有强劲上涨势头。",
+          "bear_case": "6月2日是星期日，股市休市，英伟达当天不可能出现“上涨”。"
         }
       },
       "news": [
         {
-          "title": "Gold falls as oil jumps on U.S.-Iran deadlock - Kitco PM Report - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-06-01/gold-falls-oil-jumps-us-iran-deadlock-kitco-pm-report"
+          "title": "Stock Market Today: Indexes Mostly Rise as Nvidia-Driven Tech Gains Outweigh Soaring Oil Prices - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06012026-11987627"
         },
         {
-          "title": "The price of gold today, June 1, 2026 — and the best places to buy - CNBC",
-          "url": "https://www.cnbc.com/amp/select/gold-prices-today-on-june-1-2026/"
+          "title": "Jensen Huang Says Nvidia Has Unlocked a New Growth Opportunity the Company Hasn't Gone After Before - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/06/01/jensen-huang-says-nvidia-has-unlocked-a-new-growth/"
         },
         {
-          "title": "Gold retreats from record highs as rate hike fears weigh on sentiment - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-01/gold-retreats-record-highs-rate-hike-fears-weigh-sentiment"
+          "title": "Nvidia's Jensen Huang Just Announced Something Big - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/06/01/nvidias-jensen-huang-just-announced-something-big/"
         }
       ]
     },
@@ -758,37 +258,73 @@
       "market": {
         "id": "2394900",
         "question": "Will the price of Bitcoin be above $68,000 on June 6?",
-        "probability": 0.717,
-        "change_24h": -0.229,
-        "volume_24h": 22155.28,
-        "score": 233.35,
+        "probability": 0.352,
+        "change_24h": -0.5495,
+        "volume_24h": 23055.05,
+        "score": 553.86,
         "url": "https://polymarket.com/event/bitcoin-above-68k-on-june-6-2026"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Probability Plunges on Saylor Sale",
-          "summary": "The probability of Bitcoin staying above $68,000 by June 6th dropped significantly by 22.9% to 72% as Bitcoin slid below $71,000. This decline was primarily driven by news of Michael Saylor's Strategy selling 32 BTC for $2.5 million, impacting market sentiment and causing a price dip.",
+          "title": "Will the price of Bitcoin be above $68,000 on June 6?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Bitcoin price slid below $71,000",
-            "Michael Saylor's Strategy sold 32 BTC",
-            "JPMorgan CEO Jamie Dimon's negative crypto comments"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "Strategy's unexpected BTC sale signals a shift from a prominent Bitcoin bull, potentially influencing institutional confidence and broader market dynamics.",
-          "bull_case": "Bitcoin could rebound quickly if broader market conditions improve or new institutional buying emerges before June 6.",
-          "bear_case": "Continued selling pressure from large holders or macroeconomic headwinds could push Bitcoin below $68,000."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "比特币概率暴跌，因Saylor出售",
-          "summary": "比特币在6月6日前维持在68,000美元以上的概率大幅下降22.9%至72%，因比特币跌破71,000美元。此次下跌主要受Michael Saylor的Strategy出售32枚比特币的消息影响，打击了市场情绪并导致价格下跌。",
+          "title": "Will the price of Bitcoin be above $68,000 on June 6?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "比特币价格跌破71,000美元",
-            "Michael Saylor的Strategy出售32枚比特币",
-            "摩根大通CEO戴蒙发表负面加密货币言论"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "Strategy意外出售比特币，可能预示着一位知名比特币多头的立场转变，影响机构信心和更广泛的市场动态。",
-          "bull_case": "若宏观市场状况改善或新机构买盘涌现，比特币在6月6日前可能迅速反弹。",
-          "bear_case": "大型持有者持续抛售或宏观经济逆风可能将比特币推至68,000美元以下。"
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip"
+        },
+        {
+          "title": "Bitcoin slide to $70,000 as stocks pause and Strategy's BTC sale weighs on crypto - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-slide-to-usd70-000-as-stocks-pause-and-strategy-s-btc-sale-weighs-on-crypto"
+        },
+        {
+          "title": "Morning Minute: Saylor Sells Bitcoin for First Time Since 2022 - Decrypt",
+          "url": "https://decrypt.co/369709/morning-minute-saylor-sells-bitcoin-for-first-time-since-2022"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2403438",
+        "question": "Bitcoin Up or Down - June 2, 1PM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4995,
+        "volume_24h": 37780.84,
+        "score": 504.08,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-june-2-2026-1pm-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down - June 2, 1PM ET",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Bitcoin Up or Down - June 2, 1PM ET",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
@@ -797,236 +333,29 @@
           "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-slide-to-usd70-000-as-stocks-pause-and-strategy-s-btc-sale-weighs-on-crypto"
         },
         {
-          "title": "Bitcoin news: Strategy sold 32 BTC for $2.5 million in late May, filing shows - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"
+          "title": "Bitcoin breakdown spurs market rotation: ETH resilience and Altcoin divergence - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-06-02/bitcoin-breakdown-spurs-market-rotation-eth-resilience-and-altcoin-divergence"
         },
         {
-          "title": "It Will ‘Blow Up’—JPMorgan CEO Issues ‘Huge’ Crypto And Bitcoin Price Prediction - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/05/31/it-will-blow-up-jpmorgan-ceo-issues-huge-crypto-and-bitcoin-price-prediction/"
+          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip"
         }
       ]
     },
     {
       "market": {
-        "id": "2389233",
-        "question": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $82.50 Week of June 1 2026?",
-        "probability": 0.59,
-        "change_24h": 0.23,
-        "volume_24h": 716.05,
-        "score": 232.85,
-        "url": "https://polymarket.com/event/will-hood-dip-to-82-50-by-june-1-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $82.50 Week of June 1 20",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $82.50 Week of June 1 20",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Supreme Court seeks Trump administration views on Robinhood IPO dispute - Reuters",
-          "url": "https://www.reuters.com/business/supreme-court-seeks-trump-administration-views-robinhood-ipo-dispute-2026-06-01/"
-        },
-        {
-          "title": "Opening Bell: June 1, 2026 - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/01/opening-bell-june-1-2026.html"
-        },
-        {
-          "title": "Power Rankings: Week of May 31 - MLB.com",
-          "url": "https://www.mlb.com/video/power-rankings-week-of-may-31"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2389202",
-        "question": "Will Airbnb, Inc. (ABNB) hit (LOW) $130 Week of June 1 2026?",
-        "probability": 0.41,
-        "change_24h": -0.23,
-        "volume_24h": 600.0,
-        "score": 232.78,
-        "url": "https://polymarket.com/event/will-abnb-dip-to-130-by-june-1-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Airbnb, Inc. (ABNB) hit (LOW) $130 Week of June 1 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Airbnb, Inc. (ABNB) hit (LOW) $130 Week of June 1 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Power Rankings: Week of May 31 - MLB.com",
-          "url": "https://www.mlb.com/video/power-rankings-week-of-may-31"
-        },
-        {
-          "title": "Alcantara rebounds on the mound and the Marlins snap their 5-game skid with a 7-3 win over the Nats - Bozeman Daily Chronicle",
-          "url": "https://www.bozemandailychronicle.com/ap_news/sports/alcantara-rebounds-on-the-mound-and-the-marlins-snap-their-5-game-skid-with-a/article_424d5898-0d3e-5d27-8a16-522735f590c0.html"
-        },
-        {
-          "title": "SpaceX's float will end up being a major factor in the stock's performance, says Jim Cramer - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/01/spacexs-float-will-end-up-being-a-major-factor-in-the-stocks-performance-says-jim-cramer.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2169995",
-        "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "id": "2409561",
+        "question": "Microsoft (MSFT) Up or Down on June 2?",
         "probability": 0.0095,
-        "change_24h": -0.217,
-        "volume_24h": 129113025.22,
-        "score": 225.11,
-        "url": "https://polymarket.com/event/microstrategy-sells-any-bitcoin-by-may-31-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin news: Strategy sold 32 BTC for $2.5 million in late May, filing shows - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"
-        },
-        {
-          "title": "Strategy's Bitcoin Sale Timing Throws $50 Million Polymarket Bet Into Dispute - Decrypt",
-          "url": "https://decrypt.co/369664/strategy-bitcoin-sale-throws-50-million-polymarket-bet-dispute"
-        },
-        {
-          "title": "Michael Saylor's Strategy sells $2.5 million bitcoin. Chaos ensues in a major prediction market over who gets paid - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-s-bitcoin-sale-sparks-a-usd14-million-crypto-betting-chaos-on-a-major-prediction-market"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2389045",
-        "question": "Will Netflix, Inc. (NFLX) hit (HIGH) $87.50 Week of June 1 2026?",
-        "probability": 0.58,
-        "change_24h": -0.21,
-        "volume_24h": 1106.37,
-        "score": 213.04,
-        "url": "https://polymarket.com/event/will-nflx-reach-87-50-by-june-1-2026"
-      },
-      "insight": {
-        "category": "sports",
-        "en": {
-          "title": "Will Netflix, Inc. (NFLX) hit (HIGH) $87.50 Week of June 1 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Netflix, Inc. (NFLX) hit (HIGH) $87.50 Week of June 1 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "The 10 Best Movies Coming to Netflix in June 2026 - Business Insider",
-          "url": "https://www.businessinsider.com/best-movies-on-netflix-june-2026"
-        },
-        {
-          "title": "The Films and Shows You Should Be Streaming in June 2026 - Gizmodo",
-          "url": "https://gizmodo.com/film-tv-movies-streaming-june-2026-netflix-hulu-disney-2000764878"
-        },
-        {
-          "title": "Opening Bell: June 1, 2026 - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/01/opening-bell-june-1-2026.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2350469",
-        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $108 in June?",
-        "probability": 0.6,
-        "change_24h": 0.175,
-        "volume_24h": 556.74,
-        "score": 177.75,
-        "url": "https://polymarket.com/event/will-rklb-dip-to-108-in-june-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $108 in June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $108 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": []
-    },
-    {
-      "market": {
-        "id": "676792",
-        "question": "Anthropic IPO before 2027?",
-        "probability": 0.885,
-        "change_24h": 0.17,
-        "volume_24h": 27257.26,
-        "score": 174.44,
-        "url": "https://polymarket.com/event/anthropic-ipo-before-2027"
+        "change_24h": -0.4955,
+        "volume_24h": 1928.12,
+        "score": 498.79,
+        "url": "https://polymarket.com/event/msft-up-or-down-on-june-2-2026"
       },
       "insight": {
         "category": "ai_tech",
         "en": {
-          "title": "Anthropic IPO before 2027?",
+          "title": "Microsoft (MSFT) Up or Down on June 2?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1034,7 +363,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Anthropic IPO before 2027?",
+          "title": "Microsoft (MSFT) Up or Down on June 2?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1044,121 +373,33 @@
       },
       "news": [
         {
-          "title": "Anthropic files for its IPO - Axios",
-          "url": "https://www.axios.com/2026/06/01/anthropic-ipo-openai"
+          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip"
         },
         {
-          "title": "Anthropic confidentially files to go public - CNN",
-          "url": "https://www.cnn.com/2026/06/01/tech/anthropic-ipo-filing"
+          "title": "Stock Market Today: Indexes Mostly Rise as Nvidia-Driven Tech Gains Outweigh Soaring Oil Prices - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06012026-11987627"
         },
         {
-          "title": "AI giant Anthropic files paperwork for an IPO - NPR",
-          "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large"
+          "title": "Microsoft teases new era of AI-driven devices at software developer conference - Reuters",
+          "url": "https://www.reuters.com/world/china/microsoft-expected-showcase-new-pc-cloud-ai-tools-developer-conference-2026-06-02/"
         }
       ]
     },
     {
       "market": {
-        "id": "2362244",
-        "question": "Will the price of Bitcoin be above $74,000 on June 2?",
-        "probability": 0.0005,
-        "change_24h": -0.1545,
-        "volume_24h": 339275.33,
-        "score": 160.03,
-        "url": "https://polymarket.com/event/bitcoin-above-74k-on-june-2-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Will the price of Bitcoin be above $74,000 on June 2?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the price of Bitcoin be above $74,000 on June 2?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin Falls Below $70,000 For The First Time Since April - Forbes",
-          "url": "https://www.forbes.com/sites/siladityaray/2026/06/02/bitcoin-falls-below-70000-for-the-first-time-since-april/"
-        },
-        {
-          "title": "Bitcoin slide to $70,000 as stocks pause and Strategy's BTC sale weighs on crypto - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-slide-to-usd70-000-as-stocks-pause-and-strategy-s-btc-sale-weighs-on-crypto"
-        },
-        {
-          "title": "Bitcoin news: Strategy sold 32 BTC for $2.5 million in late May, filing shows - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2402968",
-        "question": "Ethereum Up or Down on June 2?",
-        "probability": 0.66,
-        "change_24h": 0.155,
-        "volume_24h": 51949.74,
-        "score": 159.72,
-        "url": "https://polymarket.com/event/ethereum-up-or-down-on-june-2-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ethereum Up or Down on June 2?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Ethereum Up or Down on June 2?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Ethereum Meme Coin Little Pepe (LILPEPE) Nearly Sells Out Presale, Tops $28 Million Raised - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/ethereum-meme-coin-little-pepe-lilpepe-nearly-sells-out-presale-tops-28-million-raised-1036215203"
-        },
-        {
-          "title": "Crypto News Today: AlphaPepe Presale Hits $1.43M While Ethereum Price Prediction Eyes $10K - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-presale-hits-1-43m-while-ethereum-price-prediction-eyes-10k-1036210256"
-        },
-        {
-          "title": "Stocks rally on AI optimism; jitters over Iran simmer - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/stocks-rally-ai-optimism-jitters-over-iran-simmer"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2350429",
-        "question": "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $168 in June?",
-        "probability": 0.62,
-        "change_24h": -0.15,
-        "volume_24h": 1825.97,
-        "score": 153.26,
-        "url": "https://polymarket.com/event/will-pltr-reach-168-in-june-2026"
+        "id": "2409629",
+        "question": "Palantir (PLTR) Up or Down on June 2?",
+        "probability": 0.008,
+        "change_24h": -0.492,
+        "volume_24h": 3264.8,
+        "score": 495.51,
+        "url": "https://polymarket.com/event/pltr-up-or-down-on-june-2-2026"
       },
       "insight": {
         "category": "other",
         "en": {
-          "title": "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $168 in June?",
+          "title": "Palantir (PLTR) Up or Down on June 2?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1166,7 +407,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $168 in June?",
+          "title": "Palantir (PLTR) Up or Down on June 2?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1191,18 +432,18 @@
     },
     {
       "market": {
-        "id": "1697100",
-        "question": "No change in the Selic rate after Bank of Brazil’s June 2026 meeting?",
-        "probability": 0.285,
-        "change_24h": 0.14,
-        "volume_24h": 3681.37,
-        "score": 143.57,
-        "url": "https://polymarket.com/event/no-change-in-the-selic-rate-after-bank-of-brazils-june-2026-meeting"
+        "id": "2409581",
+        "question": "Amazon (AMZN) Up or Down on June 2?",
+        "probability": 0.015,
+        "change_24h": -0.49,
+        "volume_24h": 1502.98,
+        "score": 493.18,
+        "url": "https://polymarket.com/event/amzn-up-or-down-on-june-2-2026"
       },
       "insight": {
         "category": "other",
         "en": {
-          "title": "No change in the Selic rate after Bank of Brazil’s June 2026 meeting?",
+          "title": "Amazon (AMZN) Up or Down on June 2?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1210,38 +451,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "No change in the Selic rate after Bank of Brazil’s June 2026 meeting?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": []
-    },
-    {
-      "market": {
-        "id": "2389255",
-        "question": "Will S&P 500 (SPY) hit (HIGH) $765 Week of June 1 2026?",
-        "probability": 0.35,
-        "change_24h": -0.135,
-        "volume_24h": 9974.98,
-        "score": 139.0,
-        "url": "https://polymarket.com/event/will-spy-reach-765-by-june-1-2026"
-      },
-      "insight": {
-        "category": "stocks",
-        "en": {
-          "title": "Will S&P 500 (SPY) hit (HIGH) $765 Week of June 1 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will S&P 500 (SPY) hit (HIGH) $765 Week of June 1 2026?",
+          "title": "Amazon (AMZN) Up or Down on June 2?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1250,34 +460,474 @@
         }
       },
       "news": [
+        {
+          "title": "S&P 500, Nasdaq dip after record highs; HPE soars - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/sp-500-nasdaq-dip-after-record-highs-hpe-soars"
+        },
+        {
+          "title": "Amazon moves Prime Day back to June, keeps it a four-day event - Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/amazon-moves-prime-day-back-june-keeps-it-four-day-event-2026-06-02/"
+        },
+        {
+          "title": "HPE expects to achieve 2028 financial targets this year after record quarter on AI boom - Reuters",
+          "url": "https://www.reuters.com/business/hpe-expects-achieve-2028-financial-targets-this-year-after-record-quarter-ai-2026-06-01/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409570",
+        "question": "WTI Crude Oil (WTI) closes above $92 on June 2?",
+        "probability": 0.9865,
+        "change_24h": 0.4865,
+        "volume_24h": 12993.31,
+        "score": 490.61,
+        "url": "https://polymarket.com/event/wti-closes-above-92-on-june-2-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "WTI Crude Oil (WTI) closes above $92 on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "WTI Crude Oil (WTI) closes above $92 on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Ukrainian Drones Strike Russian Refinery Deep Behind Front Lines - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Geopolitics/Europe/Ukrainian-Drones-Strike-Russian-Refinery-Deep-Behind-Front-Lines.html"
+        },
+        {
+          "title": "Goldman Sachs Sees Oil Demand Destruction Offsetting Supply Shock Risks - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-Oil-Demand-Destruction-Offsetting-Supply-Shock-Risks.html"
+        },
+        {
+          "title": "Oil Prices Rise as Israel Expands Lebanon Offensive and U.S. Strikes Iran - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-as-Israel-Expands-Lebanon-Offensive.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2411752",
+        "question": "Bitcoin Up or Down - June 2, 12:00PM-4:00PM ET",
+        "probability": 0.015,
+        "change_24h": -0.485,
+        "volume_24h": 53059.46,
+        "score": 489.72,
+        "url": "https://polymarket.com/event/btc-updown-4h-1780416000"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down - June 2, 12:00PM-4:00PM ET",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Bitcoin Up or Down - June 2, 12:00PM-4:00PM ET",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bitcoin slide to $70,000 as stocks pause and Strategy's BTC sale weighs on crypto - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-slide-to-usd70-000-as-stocks-pause-and-strategy-s-btc-sale-weighs-on-crypto"
+        },
+        {
+          "title": "Bitcoin breakdown spurs market rotation: ETH resilience and Altcoin divergence - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-06-02/bitcoin-breakdown-spurs-market-rotation-eth-resilience-and-altcoin-divergence"
+        },
+        {
+          "title": "Michael Saylor's Strategy sells $2.5 million bitcoin. Chaos ensues in a major prediction market over who gets paid - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-s-bitcoin-sale-sparks-a-usd14-million-crypto-betting-chaos-on-a-major-prediction-market"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409684",
+        "question": "Robinhood (HOOD) Up or Down on June 2?",
+        "probability": 0.0145,
+        "change_24h": -0.4855,
+        "volume_24h": 1646.2,
+        "score": 488.72,
+        "url": "https://polymarket.com/event/hood-up-or-down-on-june-2-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Robinhood (HOOD) Up or Down on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Robinhood (HOOD) Up or Down on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Supreme Court seeks Trump administration views on Robinhood IPO dispute - Reuters",
+          "url": "https://www.reuters.com/business/supreme-court-seeks-trump-administration-views-robinhood-ipo-dispute-2026-06-01/"
+        },
+        {
+          "title": "Daily Horoscope: June 2: Slow Down, You're Doing Great - People.com",
+          "url": "https://people.com/daily-horoscope-june-2-2026-11988883"
+        },
+        {
+          "title": "FanDuel Odds and Trends for June 2 - MLB.com",
+          "url": "https://www.mlb.com/video/fanduel-odds-and-trends-for-june-2?t=fanduel-sgp-dinger-tuesdays"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409541",
+        "question": "S&P 500 (SPX) Up or Down on June 2?",
+        "probability": 0.935,
+        "change_24h": 0.475,
+        "volume_24h": 171358.26,
+        "score": 480.23,
+        "url": "https://polymarket.com/event/spx-up-or-down-on-june-2-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "S&P 500 (SPX) Up or Down on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "S&P 500 (SPX) Up or Down on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Stocks rally on AI optimism; jitters over Iran simmer - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/stocks-rally-ai-optimism-jitters-over-iran-simmer"
+        },
+        {
+          "title": "Asia stocks skittish as Middle East anxiety offsets AI optimism - Reuters",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-02/"
+        },
+        {
+          "title": "S&P 500, Nasdaq dip after record highs; HPE soars - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/sp-500-nasdaq-dip-after-record-highs-hpe-soars"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409607",
+        "question": "Tesla (TSLA) Up or Down on June 2?",
+        "probability": 0.9855,
+        "change_24h": 0.4655,
+        "volume_24h": 3627.01,
+        "score": 469.06,
+        "url": "https://polymarket.com/event/tsla-up-or-down-on-june-2-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Tesla (TSLA) Up or Down on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Tesla (TSLA) Up or Down on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Tesla's Chinese-made EV sales rise 39.4% in May - Reuters",
+          "url": "https://www.reuters.com/business/autos-transportation/teslas-chinese-made-ev-sales-rise-394-may-2026-06-02/"
+        },
+        {
+          "title": "Jensen Huang Just Called Humanoid Robots a $40 Trillion Market. Here's Why Wall Street Is Loading Up on Physical AI Stocks - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/31/jensen-huang-just-called-humanoid-robots-a-40-trillion-market-heres-why-wall-street-is-loading-up-on-physical-ai-stocks/"
+        },
+        {
+          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409701",
+        "question": "EWY (EWY) Up or Down on June 2?",
+        "probability": 0.04,
+        "change_24h": -0.46,
+        "volume_24h": 2076.75,
+        "score": 463.32,
+        "url": "https://polymarket.com/event/ewy-up-or-down-on-june-2-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "EWY (EWY) Up or Down on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "EWY (EWY) Up or Down on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Daily Horoscope: June 2: Slow Down, You're Doing Great - People.com",
+          "url": "https://people.com/daily-horoscope-june-2-2026-11988883"
+        },
+        {
+          "title": "European stocks poised to rebound ahead of key inflation update - CNBC",
+          "url": "https://www.cnbc.com/2026/06/02/european-stocks-poised-to-rebound-ahead-of-key-inflation-update.html"
+        },
+        {
+          "title": "NYT Strands Hints for June 2, 2026 - The New York Times",
+          "url": "https://www.nytimes.com/2026/06/01/crosswords/strands-sidekick-821.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2412363",
+        "question": "Will Afghanistan recognize Israel by December 31?",
+        "probability": 0.075,
+        "change_24h": -0.4,
+        "volume_24h": 5715.21,
+        "score": 403.76,
+        "url": "https://polymarket.com/event/will-afghanistan-recognize-israel-by-december-31"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will Afghanistan recognize Israel by December 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Afghanistan recognize Israel by December 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Trump Wants Arab States to Recognize Israel. The War Has Made That Harder. - WSJ",
+          "url": "https://www.wsj.com/world/middle-east/trump-wants-arab-states-to-recognize-israel-the-war-has-made-that-harder-32cb449e"
+        },
+        {
+          "title": "Abraham Accords might lose momentum due to Pakistan, Muslim world - The Jerusalem Post",
+          "url": "https://www.jpost.com/opinion/article-897924"
+        },
+        {
+          "title": "NYC Mayor Zohran Mamdani skips annual parade celebrating Israel - The Sun Chronicle",
+          "url": "https://www.thesunchronicle.com/news/nation_world/nyc-mayor-zohran-mamdani-skips-annual-parade-celebrating-israel/article_85b81d5b-110d-5122-9b5f-53b0a255120d.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409547",
+        "question": "Apple (AAPL) Up or Down on June 2?",
+        "probability": 0.995,
+        "change_24h": 0.375,
+        "volume_24h": 1511.09,
+        "score": 378.18,
+        "url": "https://polymarket.com/event/aapl-up-or-down-on-june-2-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Apple (AAPL) Up or Down on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Apple (AAPL) Up or Down on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "WWCD 2026: Everything Apple is expected to announce on June 8 - Newsweek",
+          "url": "https://www.newsweek.com/wwdc-2026-everything-apple-is-expected-to-announce-on-june-8-12016937"
+        },
+        {
+          "title": "Apple iOS 27 Release Date: When You Can Download And Test The New iPhone Update - Forbes",
+          "url": "https://www.forbes.com/sites/davidphelan/2026/05/31/apple-ios-27-release-date-when-you-can-download-and-test-the-new-iphone-update/"
+        },
+        {
+          "title": "New on Apple TV: Full List of Movies, Shows in June 2026 - Newsweek",
+          "url": "https://www.newsweek.com/entertainment/tv/new-on-apple-tv-june-2026-12017921"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2362132",
+        "question": "Will the price of Bitcoin be between $72,000 and $74,000 on June 2?",
+        "probability": 0.0,
+        "change_24h": -0.3545,
+        "volume_24h": 244138.94,
+        "score": 359.89,
+        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-72000-74000-on-june-2-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will the price of Bitcoin be between $72,000 and $74,000 on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the price of Bitcoin be between $72,000 and $74,000 on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bitcoin price news: BTC appears set for re-test of February's lows as AI boom draws flood of capital - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/live-markets-bitcoin-s-plunge-continues-putting-february-usd60-000-low-back-in-play"
+        },
+        {
+          "title": "Bitcoin price analysis: BTC could have further room to fall, based on derivatives positioning - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-derivatives-markets-flashing-warning-signs-as-price-plunges-below-usd70-000"
+        },
+        {
+          "title": "Bitcoin news: Strategy sold 32 BTC for $2.5 million in late May, filing shows - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409695",
+        "question": "SPY (SPY) Up or Down on June 2?",
+        "probability": 0.955,
+        "change_24h": 0.315,
+        "volume_24h": 54478.28,
+        "score": 319.74,
+        "url": "https://polymarket.com/event/spy-up-or-down-on-june-2-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "SPY (SPY) Up or Down on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "SPY (SPY) Up or Down on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceMobile Rises 10%, Planet Labs Climbs 9% - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/02/virgin-galactic-crashes-32-on-settlement-dilution-fears-ast-spacemobile-rises-10-planet-labs-climbs-9/"
+        },
         {
           "title": "Virgin Galactic Rockets 18% Monday: AST SpaceMobile Sinks 9%, Rocket Lab Drops 13% as Space Divergence Widens - 24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/06/01/virgin-galactic-rockets-18-monday-ast-spacemobile-sinks-9-rocket-lab-drops-13-as-space-divergence-widens/"
         },
         {
-          "title": "Stock futures are flat in overnight trading as June trading begins near record highs: Live updates - CNBC",
-          "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html"
-        },
-        {
-          "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
-          "url": "https://www.cnbc.com/2026/06/01/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html"
+          "title": "TSX futures up as Middle East tensions ease - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-02/tsx-futures-middle-east-tensions-ease"
         }
       ]
     },
     {
       "market": {
-        "id": "2270232",
-        "question": "Will Apple be the third-largest company in the world by market cap on June 30?",
-        "probability": 0.495,
-        "change_24h": -0.125,
-        "volume_24h": 1984.7,
-        "score": 128.3,
-        "url": "https://polymarket.com/event/will-apple-be-the-third-largest-company-in-the-world-by-market-cap-on-june-30"
+        "id": "2370663",
+        "question": "Will the price of Bitcoin be above $66,000 on June 3?",
+        "probability": 0.6845,
+        "change_24h": -0.307,
+        "volume_24h": 189967.14,
+        "score": 312.28,
+        "url": "https://polymarket.com/event/bitcoin-above-66k-on-june-3-2026"
       },
       "insight": {
-        "category": "other",
+        "category": "crypto",
         "en": {
-          "title": "Will Apple be the third-largest company in the world by market cap on ",
+          "title": "Will the price of Bitcoin be above $66,000 on June 3?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1285,7 +935,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Apple be the third-largest company in the world by market cap on ",
+          "title": "Will the price of Bitcoin be above $66,000 on June 3?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1295,33 +945,33 @@
       },
       "news": [
         {
-          "title": "Sustainable Growth Advisers LP Sells 148,028 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-sustainable-growth-advisers-lp-sells-148028-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/"
+          "title": "Bitcoin price news: BTC appears set for re-test of February's lows as AI boom draws flood of capital - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/live-markets-bitcoin-s-plunge-continues-putting-february-usd60-000-low-back-in-play"
         },
         {
-          "title": "Lingotto Investment Management LLP Boosts Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-lingotto-investment-management-llp-boosts-holdings-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/"
+          "title": "Bitcoin price analysis: BTC could have further room to fall, based on derivatives positioning - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-derivatives-markets-flashing-warning-signs-as-price-plunges-below-usd70-000"
         },
         {
-          "title": "One Capital Management LLC Trims Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-one-capital-management-llc-trims-holdings-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/"
+          "title": "Bitcoin slide to $70,000 as stocks pause and Strategy's BTC sale weighs on crypto - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-slide-to-usd70-000-as-stocks-pause-and-strategy-s-btc-sale-weighs-on-crypto"
         }
       ]
     },
     {
       "market": {
-        "id": "2155023",
-        "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by June 30, 2026?",
-        "probability": 0.6,
-        "change_24h": 0.115,
-        "volume_24h": 118724.52,
-        "score": 120.07,
-        "url": "https://polymarket.com/event/will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-june-30-2026-159-962"
+        "id": "2370551",
+        "question": "Will the price of Bitcoin be less than $66,000 on June 3?",
+        "probability": 0.3095,
+        "change_24h": 0.2985,
+        "volume_24h": 22865.34,
+        "score": 302.86,
+        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-less-than-66000-on-june-3-2026"
       },
       "insight": {
-        "category": "politics",
+        "category": "crypto",
         "en": {
-          "title": "Will Donald Trump announce that the United States blockade of the Stra",
+          "title": "Will the price of Bitcoin be less than $66,000 on June 3?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1329,7 +979,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Donald Trump announce that the United States blockade of the Stra",
+          "title": "Will the price of Bitcoin be less than $66,000 on June 3?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1337,16 +987,205 @@
           "why_matters": "请检查 API 密钥后重试。"
         }
       },
-      "news": []
+      "news": [
+        {
+          "title": "Bitcoin price news: BTC appears set for re-test of February's lows as AI boom draws flood of capital - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/live-markets-bitcoin-s-plunge-continues-putting-february-usd60-000-low-back-in-play"
+        },
+        {
+          "title": "Bitcoin drops back under $70,000, Strategy extends its slide - CNBC",
+          "url": "https://www.cnbc.com/2026/06/02/bitcoin-drops-back-under-70000-strategy-extends-its-slide.html"
+        },
+        {
+          "title": "Bitcoin Falls Below $70,000 For The First Time Since April - Forbes",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/06/02/bitcoin-falls-below-70000-for-the-first-time-since-april/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409553",
+        "question": "S&P 500 (SPY) closes above $755 on June 2?",
+        "probability": 0.9865,
+        "change_24h": 0.2665,
+        "volume_24h": 22131.4,
+        "score": 270.85,
+        "url": "https://polymarket.com/event/spy-closes-above-755-on-june-2-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "S&P 500 (SPY) closes above $755 on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "S&P 500 (SPY) closes above $755 on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Google Sends a Clear Signal - WSJ",
+          "url": "https://www.wsj.com/finance/stocks/google-sends-a-clear-signal-3120cd4f"
+        },
+        {
+          "title": "SpaceX’s IPO Is the Final Frontier for Index Funds - WSJ",
+          "url": "https://www.wsj.com/finance/investing/spacexs-ipo-is-the-final-frontier-for-index-funds-2b411b81"
+        },
+        {
+          "title": "Stock Market Could Crash In June (NYSEARCA:SPY) - Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4910915-stock-market-could-crash-in-june"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2410993",
+        "question": "Will Ethereum dip to $1,800 June 1-7?",
+        "probability": 0.37,
+        "change_24h": 0.265,
+        "volume_24h": 13649.13,
+        "score": 269.14,
+        "url": "https://polymarket.com/event/will-ethereum-dip-to-1800-june-1-7-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will Ethereum dip to $1,800 June 1-7?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Ethereum dip to $1,800 June 1-7?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Morning Minute: Saylor Sells Bitcoin for First Time Since 2022 - Decrypt",
+          "url": "https://decrypt.co/369709/morning-minute-saylor-sells-bitcoin-for-first-time-since-2022"
+        },
+        {
+          "title": "Crypto News Today: AlphaPepe Presale Hits $1.43M While Ethereum Price Prediction Eyes $10K - markets.businessinsider.com",
+          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-presale-hits-1-43m-while-ethereum-price-prediction-eyes-10k-1036210256"
+        },
+        {
+          "title": "One of the World’s Richest Men Just Donated to Spencer Pratt’s Campaign - Newsweek",
+          "url": "https://www.newsweek.com/spencer-pratt-celebrity-billionaire-donors-los-angeles-mayor-12018149"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2409710",
+        "question": "WTI Crude Oil (WTI) Up or Down on June 2?",
+        "probability": 0.982,
+        "change_24h": 0.262,
+        "volume_24h": 71968.16,
+        "score": 266.86,
+        "url": "https://polymarket.com/event/wti-up-or-down-on-june-2-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "WTI Crude Oil (WTI) Up or Down on June 2?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "WTI Crude Oil (WTI) Up or Down on June 2?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Oil jumps 2% as Israel expands Lebanon offensive, rattling ceasefire hopes - CNBC",
+          "url": "https://www.cnbc.com/2026/06/01/oil-prices-wti-brent-crude-israel-lebanon-hezbollah-iran-trump-us.html"
+        },
+        {
+          "title": "Ukrainian Drones Strike Russian Refinery Deep Behind Front Lines - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Geopolitics/Europe/Ukrainian-Drones-Strike-Russian-Refinery-Deep-Behind-Front-Lines.html"
+        },
+        {
+          "title": "Energy & Utilities Roundup: Market Talk - WSJ",
+          "url": "https://www.wsj.com/business/energy-oil/energy-utilities-roundup-market-talk-eeb753b0"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2379360",
+        "question": "Will the price of Bitcoin be between $64,000 and $66,000 on June 4?",
+        "probability": 0.2625,
+        "change_24h": 0.248,
+        "volume_24h": 15858.9,
+        "score": 252.2,
+        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-64000-66000-on-june-4-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will the price of Bitcoin be between $64,000 and $66,000 on June 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the price of Bitcoin be between $64,000 and $66,000 on June 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bitcoin price news: BTC appears set for re-test of February's lows as AI boom draws flood of capital - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/live-markets-bitcoin-s-plunge-continues-putting-february-usd60-000-low-back-in-play"
+        },
+        {
+          "title": "Bitcoin price analysis: BTC could have further room to fall, based on derivatives positioning - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-derivatives-markets-flashing-warning-signs-as-price-plunges-below-usd70-000"
+        },
+        {
+          "title": "It Will ‘Blow Up’—JPMorgan CEO Issues ‘Huge’ Crypto And Bitcoin Price Prediction - Forbes",
+          "url": "https://www.forbes.com/sites/digital-assets/2026/05/31/it-will-blow-up-jpmorgan-ceo-issues-huge-crypto-and-bitcoin-price-prediction/"
+        }
+      ]
     },
     {
       "market": {
         "id": "2350249",
         "question": "Will Microsoft Corporation (MSFT) hit (HIGH) $495 in June?",
-        "probability": 0.32,
-        "change_24h": -0.11,
-        "volume_24h": 2091.56,
-        "score": 113.32,
+        "probability": 0.225,
+        "change_24h": -0.23,
+        "volume_24h": 1949.03,
+        "score": 233.29,
         "url": "https://polymarket.com/event/will-msft-reach-495-in-june-2026"
       },
       "insight": {
@@ -1378,25 +1217,25 @@
           "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06012026-11987627"
         },
         {
-          "title": "Software Stocks Post Best Month Since 2001 as Snowflake, Okta Surge on AI Catalysts - MLQ.ai",
-          "url": "https://mlq.ai/news/software-stocks-post-best-month-since-2001-as-snowflake-okta-surge-on-ai-catalysts/"
+          "title": "Sustainable Growth Advisers LP Sells 148,028 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-sustainable-growth-advisers-lp-sells-148028-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/"
         }
       ]
     },
     {
       "market": {
-        "id": "665325",
-        "question": "US-Iran nuclear deal before 2027?",
-        "probability": 0.64,
-        "change_24h": -0.075,
-        "volume_24h": 33234.98,
-        "score": 79.52,
-        "url": "https://polymarket.com/event/us-iran-nuclear-deal-before-2027"
+        "id": "2350361",
+        "question": "Will Alphabet Inc. (GOOGL) hit (LOW) $370 in June?",
+        "probability": 1.0,
+        "change_24h": 0.2195,
+        "volume_24h": 3553.69,
+        "score": 223.05,
+        "url": "https://polymarket.com/event/will-googl-dip-to-370-in-june-2026"
       },
       "insight": {
-        "category": "geopolitics",
+        "category": "other",
         "en": {
-          "title": "US-Iran nuclear deal before 2027?",
+          "title": "Will Alphabet Inc. (GOOGL) hit (LOW) $370 in June?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1404,7 +1243,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "US-Iran nuclear deal before 2027?",
+          "title": "Will Alphabet Inc. (GOOGL) hit (LOW) $370 in June?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1414,33 +1253,33 @@
       },
       "news": [
         {
-          "title": "Iran Update Special Report, May 30, 2026 - Institute for the Study of War",
-          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-30-2026/"
+          "title": "Is Alphabet's stock offering the sign of things to come for AI companies? - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4599611-is-alphabets-stock-offering-the-sign-of-things-to-come-for-ai-companies"
         },
         {
-          "title": "Iran Update Special Report, May 31, 2026 - Institute for the Study of War",
-          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-31-2026/"
+          "title": "Alphabet raises $80B for AI investments, including $10B from Berkshire Hathaway (GOOG:NASDAQ) - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4599490-alphabet-raises-80b-for-ai-investments-including-10b-from-berkshire-hathaway"
         },
         {
-          "title": "Trump sent back Iran deal text with changes - CNN",
-          "url": "https://www.cnn.com/2026/05/31/politics/trump-iran-deal-changes"
+          "title": "Google Announces $80 Billion Capital Raise Amid Artificial Intelligence Spending Jump. Shares Fall. - Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/google-stock-alphabet-artificial-intelligence-80-billion-capital-raise/"
         }
       ]
     },
     {
       "market": {
-        "id": "2252244",
-        "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "probability": 0.795,
-        "change_24h": 0.04,
-        "volume_24h": 2521.79,
-        "score": 43.4,
-        "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
+        "id": "2389256",
+        "question": "Will S&P 500 (SPY) hit (HIGH) $760 Week of June 1 2026?",
+        "probability": 1.0,
+        "change_24h": 0.2145,
+        "volume_24h": 12211.24,
+        "score": 218.59,
+        "url": "https://polymarket.com/event/will-spy-reach-760-by-june-1-2026"
       },
       "insight": {
-        "category": "economy",
+        "category": "stocks",
         "en": {
-          "title": "Will there be no change in Fed interest rates after the September 2026",
+          "title": "Will S&P 500 (SPY) hit (HIGH) $760 Week of June 1 2026?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1448,7 +1287,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will there be no change in Fed interest rates after the September 2026",
+          "title": "Will S&P 500 (SPY) hit (HIGH) $760 Week of June 1 2026?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1456,16 +1295,73 @@
           "why_matters": "请检查 API 密钥后重试。"
         }
       },
-      "news": []
+      "news": [
+        {
+          "title": "Virgin Galactic Rockets 18% Monday: AST SpaceMobile Sinks 9%, Rocket Lab Drops 13% as Space Divergence Widens - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/01/virgin-galactic-rockets-18-monday-ast-spacemobile-sinks-9-rocket-lab-drops-13-as-space-divergence-widens/"
+        },
+        {
+          "title": "Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceMobile Rises 10%, Planet Labs Climbs 9% - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/02/virgin-galactic-crashes-32-on-settlement-dilution-fears-ast-spacemobile-rises-10-planet-labs-climbs-9/"
+        },
+        {
+          "title": "Stock futures are flat in overnight trading as June trading begins near record highs: Live updates - CNBC",
+          "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2270167",
+        "question": "Will Apple be the second-largest company in the world by market cap on June 30?",
+        "probability": 0.625,
+        "change_24h": 0.2,
+        "volume_24h": 16238.35,
+        "score": 204.21,
+        "url": "https://polymarket.com/event/will-apple-be-the-second-largest-company-in-the-world-by-market-cap-on-june-30-439"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Apple be the second-largest company in the world by market cap on",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Apple be the second-largest company in the world by market cap on",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "The Largest Companies by Market Cap in June 2026",
+          "url": "https://www.fool.com/research/largest-companies-by-market-cap/"
+        },
+        {
+          "title": "World’s Largest Companies In 2026",
+          "url": "https://gfmag.com/data/biggest-company-in-the-world/"
+        },
+        {
+          "title": "Top 10 biggest companies in the world by market cap in 2025",
+          "url": "https://www.forbesindia.com/article/explainers/top-10-largest-companies-world-market-cap/86341/1"
+        }
+      ]
     },
     {
       "market": {
         "id": "666820",
         "question": "U.S. agrees to a new trade deal with \"Brazil\" before 2027?",
-        "probability": 0.13,
-        "change_24h": -0.035,
-        "volume_24h": 503.79,
-        "score": 37.7,
+        "probability": 0.085,
+        "change_24h": -0.07,
+        "volume_24h": 842.2,
+        "score": 72.93,
         "url": "https://polymarket.com/event/us-agrees-to-a-new-trade-deal-with-brazil-before-2027"
       },
       "insight": {
@@ -1489,20 +1385,64 @@
       },
       "news": [
         {
+          "title": "Trump administration proposes 25% tariffs on Brazil despite US trade surplus - The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs"
+        },
+        {
           "title": "Trump administration proposes 25% tariff on Brazilian goods over unfair trade practices - CNBC",
           "url": "https://www.cnbc.com/2026/06/02/trump-proposes-25-tariff-on-brazil.html"
         },
         {
-          "title": "U.S. cuts tariffs on farm and construction equipment to 15% - Farm Progress",
-          "url": "https://www.farmprogress.com/farm-policy/u-s-cuts-tariffs-on-farm-and-construction-equipment-to-15-"
+          "title": "Trump Targets Brazil With 25% Tariff, Citing Unfair Trade Practices - The New York Times",
+          "url": "https://www.nytimes.com/2026/06/02/business/trump-tariffs-brazil.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2252243",
+        "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+        "probability": 0.07,
+        "change_24h": -0.01,
+        "volume_24h": 2152.44,
+        "score": 13.33,
+        "url": "https://polymarket.com/event/will-the-fed-decrease-interest-rates-by-25-bps-after-the-september-2026-meeting-586"
+      },
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "Will the Fed decrease interest rates by 25 bps after the September 202",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the Fed decrease interest rates by 25 bps after the September 202",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Fed predictions for 2026: What experts say about the possibility of rate cuts this year",
+          "url": "https://finance.yahoo.com/personal-finance/banking/article/fed-rate-predictions-2026-154647304.html"
         },
         {
-          "title": "U.S.-China trade talks signal new agricultural commitments - American Journal of Transportation",
-          "url": "https://www.ajot.com/news/u.s-china-trade-talks-signal-new-agricultural-commitments"
+          "title": "March 2026 Fed Dot Plot Sees Low-3% Fed Funds by 2027",
+          "url": "https://www.bondsavvy.com/fixed-income-investments-blog/fed-dot-plot"
+        },
+        {
+          "title": "Federal Funds Rate History 1990 to 2026",
+          "url": "https://www.forbes.com/advisor/investing/fed-funds-rate-history/"
         }
       ]
     }
   ],
-  "twitter_thread": "🔮 PolyLens Battle Cards — Jun 02, 2026 14:21 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 ₿ Will the price of Bitcoin be between $68,000 and $70,000 on June 2?\n\n✅ YES — 71%  ▲+67.4%\n\"Bitcoin's price has already entered the $68,000-$70,000 range, increasing the likelihood o…\"\n\n❌ NO — 29%\n\"Continued selling pressure could push Bitcoin below $68,000, or a quick rebound\n\n---\n\n🥊 🤖 Will Anthropic or OpenAI IPO first?\n\n✅ YES — 80%  ▲+55.5%\n\"Anthropic has completed a definitive IPO step by filing confidential papers, putting them …\"\n\n❌ NO — 20%\n\"IPO processes are complex and subject to delays, while OpenAI could still accelerate its o…\"\n\n🤖 YES conviction:\n\n---\n\n🥊 🤖 Will Microsoft Corporation (MSFT) hit (HIGH) $465 Week of June 1 2026?\n\n✅ YES — 100%  ▲+52.9%\n\"Sustained AI infrastructure demand and Microsoft's dominant position in cloud and AI softw…\"\n\n❌ NO — 0%\n\"Intense competition or regulatory scrutiny in the AI sector could slow Micro\n\n---\n\n🥊 🤖 Will NVIDIA (NVDA) hit (HIGH) $220 Week of June 1 2026?\n\n✅ YES — 100%  ▲+49.5%\n\"Successful PC chip adoption and continued AI leadership ensure NVDA easily surpasses $220 …\"\n\n❌ NO — 0%\n\"Intense competition in the PC market or unexpected delays in chip adoption could hinder NV…\n\n---\n\n🥊 ₿ Bitcoin Up or Down on June 2?\n\n✅ YES — 2%  ▼-46.5%\n\"A sudden, unexpected surge in institutional buying or a short squeeze could quickly revers…\"\n\n❌ NO — 98%\n\"Continued selling pressure from large holders like Strategy and negative macro data could …\"\n\n🤖 Strong NO conviction 🔴\n\n---\n\n🔗 Full analysis + 33 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
-  "reddit_post": "**PolyLens Daily Digest — Jun 02, 2026 14:21 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. ₿ Bitcoin Dips Into Target Range\n\n**71% YES** | **+67.4%** (24h) | Vol: $59,149\n\nThe probability surged to 71% as Bitcoin's price recently fell below $70,000, moving into the $68,000-$70,000 target range. This decline was partly influenced by Michael Saylor's Strategy selling 32 BTC for $2.5 million in late May.\n\n**Key Drivers:**\n- Bitcoin price falling below $70,000\n- Strategy's sale of 32 BTC for $2.5 million\n- General crypto market weakness\n\n*[View on Polymarket](https://polymarket.com/event/will-the-price-of-bitcoin-be-between-68000-70000-on-june-2-2026)*\n\n---\n\n## 2. 🤖 Anthropic Leads IPO Race\n\n**80% YES** | **+55.5%** (24h) | Vol: $23,644\n\nAnthropic's confidential IPO filing significantly boosted its probability of IPOing first, marking a concrete step ahead of OpenAI. This move, earlier than expected, directly addresses the market's core question.\n\n**Key Drivers:**\n- Anthropic filed confidential IPO papers.\n- News outlets declared Anthropic \"beat\" OpenAI.\n- Filing occurred \"earlier than expected.\"\n\n*[View on Polymarket](https://polymarket.com/event/will-anthropic-or-openai-ipo-first)*\n\n---\n\n## 3. 🤖 AI Boom Fuels MSFT $465 Confidence\n\n**100% YES** | **+52.9%** (24h) | Vol: $1,259\n\nMicrosoft's probability to hit $465 by June 2026 surged to 100% following strong AI sector performance. Dell Technologies' 33% stock jump on robust earnings and NVIDIA's Computex 2026 AI chip unveiling signal sustained AI growth benefiting MSFT.\n\n**Key Drivers:**\n- Dell Technologies' 33% surge on strong AI server demand.\n- NVIDIA CEO unveils new PC AI chips at Computex 2026.\n- Broader software sector rally on strong earnings.\n\n*[View on Polymarket](https://polymarket.com/event/will-msft-reach-465-by-june-1-2026)*\n\n---\n\n## 4. 🤖 NVIDIA PC Chips Drive $220 Target\n\n**100% YES** | **+49.5%** (24h) | Vol: $4,756\n\nThe probability for NVIDIA (NVDA) to hit $220 by June 2026 surged to 100% after CEO Jensen Huang unveiled the company's first PC chips at Computex 2026. This significant market expansion is bolstered by a strategic partnership with Arm.\n\n**Key Drivers:**\n- NVIDIA CEO Jensen Huang unveils first PC chips at Computex 2026.\n- Arm joins NVIDIA's PC chip development effort.\n- CEO Huang announces unlocking new growth opportunities.\n\n*[View on Polymarket](https://polymarket.com/event/will-nvda-reach-220-by-june-1-2026)*\n\n---\n\n## 5. ₿ Bitcoin Plunges on Strategy Sale\n\n**2% YES** | **-46.5%** (24h) | Vol: $236,435\n\nThe probability of Bitcoin being up on June 2 plummeted by 46.5% to 2% following a significant price slide below $71,000. This sharp decline was primarily driven by Michael Saylor's Strategy selling $2.5 million in BTC, disclosed on June 1.\n\n**Key Drivers:**\n- Strategy's $2.5M Bitcoin sale\n- Bitcoin price slide below $71,000\n- Polymarket bet dispute over sale timing\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-on-june-2-2026)*\n\n---\n\n## 6. 🤖 Will Meta Platforms, Inc. (META) hit (HIGH) $690 Week of June 1 2026?\n\n**3% YES** | **-46.5%** (24h) | Vol: $1,590\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-meta-reach-690-by-june-1-2026)*\n\n---\n\n## 7. 🔥 Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $100 in June?\n\n**28% YES** | **-46.0%** (24h) | Vol: $8,034\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Expecting property name enclosed in double quotes: line 14 column 3 (char 1168)\n\n*[View on Polymarket](https://polymarket.com/event/will-hood-reach-100-in-june-2026)*\n\n---\n\n## 8. 🔥 Meta Probability Plunges on Regulatory Fears\n\n**24% YES** | **-44.5%** (24h) | Vol: $980\n\nThe probability of Meta finishing above $620 plummeted by 44.5% due to escalating regulatory and geopolitical risks. Recent headlines regarding China's toughened outbound investment rules and privacy concerns for Meta's smart glasses fueled investor apprehension.\n\n**Key Drivers:**\n- China toughens outbound investment rules.\n- Meta Glasses face biometric privacy scrutiny.\n\n*[View on Polymarket](https://polymarket.com/event/meta-above-620-on-june-5-2026)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+  "twitter_thread": "🔮 PolyLens Battle Cards — Jun 02, 2026 22:40 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 💼 Will Google (GOOGL) close above $370 on June 2?\n\n✅ YES — 4%  ▼-86.0%\n\"Aggressive AI investment could yield future growth, justifying current dilution and drivin…\"\n\n❌ NO — 96%\n\"Massive $80 billion equity raise causes significant dilution, pushing GOOGL shares further…\"\n\n🤖 Stro\n\n---\n\n🥊 ₿ Will Bitcoin dip to $68,000 June 1-7?\n\n✅ YES — 100%  ▲+67.5%\n\"Bitcoin has already dipped below $68,000, confirming the market event will occur within th…\"\n\n❌ NO — 0%\n\"A sustained rebound above $68,000 before June 1st could prevent the dip during the specifi…\"\n\n🤖 YES convictio\n\n---\n\n🥊 📊 S&P 500 (SPX) Opens Up or Down on June 2?\n\n✅ YES — 0%  ▼-62.5%\n\n❌ NO — 100%\n\n🤖 Strong NO conviction 🔴\n📊 hika.fyi  [4/6]\n\n---\n\n🥊 💼 Google (GOOGL) Up or Down on June 2?\n\n✅ YES — 1%  ▼-61.1%\n\"Google's aggressive $80 billion AI investment could yield significant long-term growth and…\"\n\n❌ NO — 99%\n\"Short-term concerns over Google's $80 billion capital raise and broader tech sector weakne…\"\n\n🤖 Strong NO convi\n\n---\n\n🥊 🤖 NVIDIA (NVDA) Up or Down on June 2?\n\n✅ YES — 3%  ▼-56.5%\n\"Jensen Huang's Computex announcements regarding new AI PC chips and growth opportunities s…\"\n\n❌ NO — 97%\n\"The stock market is closed on Sunday, June 2nd, making it impossible for NVDA to trade 'up…\"\n\n🤖 Strong NO convic\n\n---\n\n🔗 Full analysis + 32 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
+  "reddit_post": "**PolyLens Daily Digest — Jun 02, 2026 22:40 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🔥 GOOGL Plunges on $80B Capital Raise\n\n**4% YES** | **-86.0%** (24h) | Vol: $927\n\nGOOGL's probability of closing above $370 plummeted to 4% after Google announced an $80 billion capital raise. This massive equity raise sparked fears of significant shareholder dilution, causing shares to fall sharply.\n\n**Key Drivers:**\n- Google's $80 billion equity capital raise announcement\n- Fears of significant shareholder dilution\n- Broader tech stock weakness, including Alphabet and Microsoft\n\n*[View on Polymarket](https://polymarket.com/event/googl-close-above-370-on-june-2-2026)*\n\n---\n\n## 2. ₿ Bitcoin Dips Below $68K\n\n**100% YES** | **+67.5%** (24h) | Vol: $67,177\n\nThe probability of Bitcoin dipping to $68,000 between June 1-7 surged to 100% as the cryptocurrency has already fallen below this mark. This sharp decline was primarily triggered by reports of MicroStrategy selling a small amount of Bitcoin, which spooked investors.\n\n**Key Drivers:**\n- Bitcoin price fell below $68,000\n- MicroStrategy's BTC sale spooked investors\n- Bitcoin traders flipped bearish\n\n*[View on Polymarket](https://polymarket.com/event/will-bitcoin-dip-to-68k-june-1-7-2026)*\n\n---\n\n## 3. 📊 S&P 500 (SPX) Opens Up or Down on June 2?\n\n**0% YES** | **-62.5%** (24h) | Vol: $78,474\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/spx-opens-up-or-down-on-june-2-2026)*\n\n---\n\n## 4. 🔥 Google Stock Dips on $80B Plan\n\n**1% YES** | **-61.1%** (24h) | Vol: $4,904\n\nThe probability of GOOGL being up on June 2 plummeted to 1% as Google stock fell. This was primarily driven by reports of Google's plan to raise $80 billion, likely for AI investments, which the market reacted to negatively.\n\n**Key Drivers:**\n- Google stock falls on $80B capital raise plan.\n- Alphabet/Microsoft slide amidst Nasdaq dip.\n- Broader S&P 500 and Nasdaq tick lower.\n\n*[View on Polymarket](https://polymarket.com/event/googl-up-or-down-on-june-2-2026)*\n\n---\n\n## 5. 🤖 NVDA Probability Plummets Due to Sunday\n\n**3% YES** | **-56.5%** (24h) | Vol: $12,606\n\nThe probability of NVIDIA (NVDA) being 'Up' on June 2nd has sharply fallen by 56.5% to 3%. This significant drop is primarily driven by the realization that June 2nd, 2024, is a Sunday, a non-trading day for the stock market.\n\n**Key Drivers:**\n- June 2nd, 2024, is a Sunday.\n- Stock markets are closed on Sundays.\n- NVDA cannot trade 'Up' on a non-trading day.\n\n*[View on Polymarket](https://polymarket.com/event/nvda-up-or-down-on-june-2-2026)*\n\n---\n\n## 6. ₿ Will the price of Bitcoin be above $68,000 on June 6?\n\n**35% YES** | **-54.9%** (24h) | Vol: $23,055\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-above-68k-on-june-6-2026)*\n\n---\n\n## 7. ₿ Bitcoin Up or Down - June 2, 1PM ET\n\n**100% YES** | **+50.0%** (24h) | Vol: $37,781\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-june-2-2026-1pm-et)*\n\n---\n\n## 8. 🤖 Microsoft (MSFT) Up or Down on June 2?\n\n**1% YES** | **-49.5%** (24h) | Vol: $1,928\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/msft-up-or-down-on-june-2-2026)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
 }
