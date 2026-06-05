@@ -1,352 +1,86 @@
 {
-  "generated_at": "2026-06-05T07:13:04.062944+00:00",
-  "generated_at_readable": "Jun 05, 2026 07:13 UTC",
+  "generated_at": "2026-06-05T13:10:03.804347+00:00",
+  "generated_at_readable": "Jun 05, 2026 13:10 UTC",
   "topics": [
     {
       "market": {
-        "id": "2374366",
-        "question": "Will Innio's market cap be between $23B and $26B at market close on IPO day?",
-        "probability": 0.995,
-        "change_24h": 0.725,
-        "volume_24h": 5234.8,
-        "score": 728.72,
-        "url": "https://polymarket.com/event/will-innios-market-cap-be-between-23b-and-26b-at-market-close-on-ipo-day"
-      },
-      "news": [
-        {
-          "title": "Gas engine maker Innio set for Nasdaq debut after upsized $2.43 billion IPO - Reuters",
-          "url": "https://www.reuters.com/business/gas-engine-maker-innio-set-nasdaq-debut-after-upsized-243-billion-ipo-2026-06-04/",
-          "snippet": "June 4 (Reuters) - Innio is set to make its U.S. market debut later on Thursday after strong investor interest helped the gas engine manufacturer rais"
-        },
-        {
-          "title": "SpaceX Targets $75 Billion For IPO—Valuing Company Above $1.75 Trillion - Forbes",
-          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/06/03/spacex-targets-75-billion-for-ipo-valuing-company-above-175-trillion/",
-          "snippet": "# SpaceX Targets $75 Billion For IPO—Valuing Company Above $1.75 Trillion. Elon Musk’s SpaceX is aiming to raise $75 billion in its highly anticipated"
-        },
-        {
-          "title": "Elon Musk’s SpaceX eyes $1.77tn valuation ahead of historic IPO - Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/6/4/elon-musks-spacex-eyes-1-77tn-valuation-ahead-of-historic-ipo",
-          "snippet": "# Elon Musk’s SpaceX eyes $1.77tn valuation ahead of historic IPO. *Texas-based rocket company announces plans to sell shares at $135 apiece, aiming t"
-        },
-        {
-          "title": "SpaceX targets fixed $135 IPO roadshow price at $1.75 trillion valuation, source says - CNBC",
-          "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
-          "snippet": "# SpaceX targets fixed $135 IPO roadshow price at $1.75 trillion valuation, source says. * SpaceX plans to market its IPO at a fixed price of $135 per"
-        },
-        {
-          "title": "The dot-com crash shows why mega-IPOs might mark the peak of the stock boom - Business Insider",
-          "url": "https://www.businessinsider.com/stock-market-bubble-ipo-boom-ai-rally-peak-dot-com-2026-6",
-          "snippet": "The race to go public among mega-cap tech companies might be a warning to investors that the tech-fueled stock boom is nearly over. That's because the"
-        }
-      ],
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Innio IPO Confirms $23B-$26B Market Cap",
-          "summary": "The probability for Innio's market cap to be between $23B and $26B at IPO close is now 100%, driven by the June 4th Reuters report confirming an upsized $2.43 billion IPO. This IPO size strongly implies a total market capitalization within the specified range.",
-          "drivers": [
-            "Innio's upsized $2.43 billion IPO",
-            "Implied total valuation from IPO size",
-            "Strong investor interest in Innio's debut"
-          ],
-          "why_matters": "This indicates strong investor confidence in Innio's valuation and growth prospects, setting a positive precedent for its public trading debut.",
-          "bull_case": "Innio's successful $2.43 billion IPO strongly implies a total market cap within the target $23B-$26B range.",
-          "bear_case": "Unexpected post-IPO share price volatility could push Innio's market cap outside the $23B-$26B range."
-        },
-        "zh": {
-          "title": "创新奥IPO确认230-260亿美元市值",
-          "summary": "创新奥在IPO收盘时市值介于230亿至260亿美元的概率现为100%，主要驱动因素是6月4日路透社报道确认其IPO规模增至24.3亿美元。这一IPO规模强烈暗示其总市值将落在指定区间内。",
-          "drivers": [
-            "创新奥24.3亿美元的增发IPO",
-            "IPO规模推算的隐含总估值",
-            "投资者对创新奥上市的强烈兴趣"
-          ],
-          "why_matters": "这表明投资者对创新奥的估值和增长前景充满信心，为其上市首秀奠定了积极基础。",
-          "bull_case": "创新奥成功完成24.3亿美元IPO，强烈预示其总市值将落在230亿至260亿美元的目标区间内。",
-          "bear_case": "IPO后股价意外波动可能导致创新奥市值超出230亿至260亿美元的范围。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2386705",
-        "question": "Will the price of Ethereum be above $1,800 on June 5?",
-        "probability": 0.064,
-        "change_24h": -0.5295,
-        "volume_24h": 67171.52,
-        "score": 534.33,
-        "url": "https://polymarket.com/event/ethereum-above-1800-on-june-5-2026"
-      },
-      "news": [
-        {
-          "title": "Morning Minute: Saylor Sells Bitcoin for First Time Since 2022 - Decrypt",
-          "url": "https://decrypt.co/369709/morning-minute-saylor-sells-bitcoin-for-first-time-since-2022",
-          "snippet": "### ETH. A contract asking “Will Strategy sell Bitcoin in May 2026?” had accumulated over $50 million in bets—and is now heading toward a NO resolutio"
-        },
-        {
-          "title": "As Bitcoin Sinks, It's Time for Ethereum to Outperform: Standard Chartered - Decrypt",
-          "url": "https://decrypt.co/369803/bitcoin-sinks-time-ethereum-outperform-standard-chartered",
-          "snippet": "## Bitcoin is falling following Strategy's first BTC sale since 2022—and one analyst sees that as a good thing for Ethereum. * Standard Chartered's Ge"
-        },
-        {
-          "title": "Crypto Market News: AlphaPepe To Announce First CEX Partnership as XRP Price Prediction Hits $8.00 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-market-news-alphapepe-to-announce-first-cex-partnership-as-xrp-price-prediction-hits-8-00-1036227158",
-          "snippet": "# Crypto Market News: AlphaPepe To Announce First CEX Partnership as XRP Price Prediction Hits $8.00. MONACO, June 04, 2026 (GLOBE NEWSWIRE) -- Crypto"
-        },
-        {
-          "title": "Cardano Falls To 6-Year Low Amid Crypto Pessimism - Forbes",
-          "url": "https://www.forbes.com/sites/tylerroush/2026/06/03/cardano-once-the-third-largest-cryptocurrency-hits-6-year-low-heres-why/",
-          "snippet": "Cardano’s ADA token, once the world’s third-largest cryptocurrency, extended losses on Wednesday as it traded near a six-year low following the cancel"
-        },
-        {
-          "title": "Crypto Market News: AlphaPepe Presale Gathers Pace While Bitcoin Price Prediction Targets $50,000 Support - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-market-news-alphapepe-presale-gathers-pace-while-bitcoin-price-prediction-targets-50-000-support-1036219669",
-          "snippet": "# Crypto Market News: AlphaPepe Presale Gathers Pace While Bitcoin Price Prediction Targets $50,000 Support. MONACO, June 02, 2026 (GLOBE NEWSWIRE) --"
-        }
-      ],
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "ETH Price Plunges Below $1,800",
-          "summary": "The probability of Ethereum being above $1,800 by June 5 plummeted by 52.9% to 6% as major bearish news hit the crypto market. Michael Saylor's first Bitcoin sale since 2022 and Cardano's fall to a six-year low fueled widespread crypto pessimism.",
-          "drivers": [
-            "Michael Saylor sells Bitcoin",
-            "Cardano falls to 6-year low",
-            "Bitcoin sinks following Saylor's sale"
-          ],
-          "why_matters": "This sharp decline reflects a significant loss of confidence among major crypto holders and signals a broader market downturn, potentially impacting future investment in altcoins.",
-          "bull_case": "Standard Chartered's view that Ethereum will outperform Bitcoin could attract buyers, pushing ETH towards $1,800.",
-          "bear_case": "Michael Saylor's Bitcoin sale and broad crypto pessimism will continue to drive ETH price down."
-        },
-        "zh": {
-          "title": "以太坊跌破$1800",
-          "summary": "以太坊价格在6月5日前维持$1800以上的可能性暴跌52.9%至6%，因加密市场遭遇重大利空。Michael Saylor自2022年首次出售比特币，加之Cardano跌至六年新低，加剧了市场悲观情绪。",
-          "drivers": [
-            "Michael Saylor出售比特币",
-            "Cardano跌至六年新低",
-            "比特币因Saylor出售而下跌"
-          ],
-          "why_matters": "此次急剧下跌反映了主要加密货币持有者信心的严重丧失，预示着更广泛的市场下行，可能影响未来对山寨币的投资。",
-          "bull_case": "渣打银行认为以太坊将跑赢比特币，可能吸引买家，推动ETH接近$1800。",
-          "bear_case": "Michael Saylor出售比特币及普遍悲观情绪将持续打压ETH价格。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2388967",
-        "question": "Will NVIDIA (NVDA) finish week of June 1 above $210?",
-        "probability": 0.9245,
-        "change_24h": 0.4495,
-        "volume_24h": 606.74,
-        "score": 452.28,
-        "url": "https://polymarket.com/event/nvda-above-210-on-june-5-2026"
-      },
-      "news": [
-        {
-          "title": "Stock Market Today: Indexes Are Mixed; Broadcom, Chip Stocks Weigh on Nasdaq But Dow Jumps; Oil Pulls Back on Israel-Lebanon Ceasefire Agreement - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06042026-11990727",
-          "snippet": "Markets News, June 1, 2026: Indexes Start Month With Fresh Record Highs as Nvidia-Driven Tech Gains Outweigh Surging Oil Prices. Markets News, May 29,"
-        },
-        {
-          "title": "Broadcom Stock Gets a Double Boost From Google and Marvell - Barron's",
-          "url": "https://www.barrons.com/articles/avgo-stock-broadcom-google-marvell-cdb34f38",
-          "snippet": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyrig"
-        },
-        {
-          "title": "Nvidia's Jensen Huang Says This 'Essential' Company Is Primed to Join the $1 Trillion Club - Investopedia",
-          "url": "https://www.investopedia.com/nvidia-jensen-huang-says-this-essential-company-is-primed-to-join-the-usd1-trillion-club-11988720",
-          "snippet": "# Nvidia's Jensen Huang Says This 'Essential' Company Is Primed to Join the $1 Trillion Club. Image 3: Nvidia CEO Jensen Huang talks on stage with Mar"
-        },
-        {
-          "title": "Marvell Stock Soars 29%. Why Nvidia CEO Says It Will Join the $1 Trillion Club. - Barron's",
-          "url": "https://www.barrons.com/articles/marvell-stock-price-trillion-dollar-nvidia-ceo-huang-095217e0",
-          "snippet": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyrig"
-        },
-        {
-          "title": "Sustainable Growth Advisers LP Sells 148,028 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-sustainable-growth-advisers-lp-sells-148028-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/",
-          "snippet": "Why These Three Big Buybacks Are Sending Very Different Signals to Investors. One page of the SpaceX S-1 will move this stock overnight (Ad). Drone St"
-        }
-      ],
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "NVDA Surges on AI Confidence",
-          "summary": "The probability of NVDA finishing above $210 surged by 45% to 92%, driven by strong market performance attributed to Nvidia-led tech gains. CEO Jensen Huang's influential endorsement of Marvell further boosted confidence in the AI chip sector.",
-          "drivers": [
-            "Nvidia-driven tech gains pushing indexes to record highs.",
-            "CEO Jensen Huang's endorsement of Marvell for $1T club.",
-            "Marvell stock soaring 29% post-Huang's positive comments."
-          ],
-          "why_matters": "This movement underscores Nvidia's pivotal role in driving broader market gains and the immense investor confidence in the future of AI infrastructure. It highlights the influence of key industry leaders on sector-wide valuations.",
-          "bull_case": "Continued AI demand and Nvidia's market leadership will sustain its upward momentum and valuation.",
-          "bear_case": "Broader market correction or profit-taking could trigger a temporary pullback below $210."
-        },
-        "zh": {
-          "title": "英伟达AI信心推动股价飙升",
-          "summary": "英伟达(NVDA)收盘价高于210美元的概率飙升45%至92%，主要受英伟达驱动的科技股上涨带动大盘创新高。CEO黄仁勋对Marvell的积极评价进一步提振了AI芯片行业的信心。",
-          "drivers": [
-            "英伟达驱动科技股上涨，推动指数创新高。",
-            "CEO黄仁勋称Marvell有望加入万亿俱乐部。",
-            "黄仁勋言论后Marvell股价飙升29%。"
-          ],
-          "why_matters": "此次上涨凸显了英伟达在推动大盘上涨中的关键作用，以及投资者对AI基础设施未来的巨大信心。它也彰显了行业领袖对整个行业估值的影响力。",
-          "bull_case": "AI需求持续强劲及英伟达市场领导地位将支撑其股价上涨。",
-          "bear_case": "大盘回调或获利了结可能导致股价暂时跌破210美元。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2389118",
-        "question": "Will Opendoor (OPEN) close above $3.00 end of June?",
-        "probability": 0.9245,
-        "change_24h": 0.4035,
-        "volume_24h": 1380.97,
-        "score": 406.64,
-        "url": "https://polymarket.com/event/open-above-3-on-june-30-2026"
-      },
-      "news": [
-        {
-          "title": "Mapping the Market: After remarkable comeback, software stocks face a key test - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-03/mapping-market-after-remarkable-comeback-software-stocks-face-key-test",
-          "snippet": "After tumbling more than 37% from its September 2025 peak to its April lows on fears AI could ​wreck their business models, the group has bounced back"
-        },
-        {
-          "title": "Futures: Palo Alto Falls After Market Extends Win Streak - Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/",
-          "snippet": "IBD 50IBD Sector LeadersIBD Big Cap 20IBD Long-Term LeadersIPO LeadersMy Stock ListsStock Lists UpdateStocks On The MoveNew HighsStock SpotlightStocks"
-        },
-        {
-          "title": "Say goodbye to three Apple locations as stores to close forever on June 20 - the-sun.com",
-          "url": "https://www.the-sun.com/money/16455373/three-apple-stores-closing-malls-decline-maryland-controversy/",
-          "snippet": "# Say goodbye to three Apple locations as stores to close forever on June 20. Tech giant Apple will permanently close three retail locations later thi"
-        },
-        {
-          "title": "With a new location on the way, Hollywood Casino in downtown Aurora to close on June 10 - Chicago Tribune",
-          "url": "https://www.chicagotribune.com/2026/06/02/with-a-new-location-on-the-way-hollywood-casino-in-downtown-aurora-to-close-on-june-10/",
-          "snippet": "With a new location on the way, Hollywood…. # With a new location on the way, Hollywood Casino in downtown Aurora to close on June 10. The riverboat H"
-        },
-        {
-          "title": "Trump tells Netanyahu, 'You're f—ing crazy' and Wall Street thinks he’s losing patience with the war - Fortune",
-          "url": "https://fortune.com/2026/06/02/trump-netanyahu-youre-crazy-wall-street-iran-war/",
-          "snippet": "* The S&P 500 might help Anthropic and SpaceX but hurt investors. **Traders seem to be betting** that the U.S., Israel, and Iran are all trying to fin"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Opendoor (OPEN) close above $3.00 end of June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Opendoor (OPEN) close above $3.00 end of June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2386694",
-        "question": "Will the price of Bitcoin be less than $64,000 on June 5?",
-        "probability": 0.782,
-        "change_24h": 0.3755,
-        "volume_24h": 14122.47,
-        "score": 379.65,
-        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-less-than-64000-on-june-5-2026"
+        "id": "2410994",
+        "question": "Will Ethereum dip to $1,700 June 1-7?",
+        "probability": 1.0,
+        "change_24h": 0.5285,
+        "volume_24h": 21571.75,
+        "score": 532.83,
+        "url": "https://polymarket.com/event/will-ethereum-dip-to-1700-june-1-7-2026"
       },
       "news": [],
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Will the price of Bitcoin be less than $64,000 on June 5?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Ethereum $1700 Dip Imminent",
+          "summary": "Ethereum's price is now overwhelmingly expected to dip to $1,700 by June 7th, with the market reaching 100% certainty. This sharp increase in probability reflects strong bearish momentum and critical technical breakdowns.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Ethereum price approaching $1,700 support",
+            "Major technical support levels breaking",
+            "Increased selling pressure across crypto",
+            "Bearish macroeconomic outlook intensifying"
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "A confirmed dip to $1,700 could signal further downside for Ethereum, impacting investor confidence and broader altcoin markets.",
+          "bull_case": "Unexpected positive macro data or a strong bounce from current price levels could invalidate the dip.",
+          "bear_case": "Continued selling pressure and a breach of $1,700 could trigger further liquidations and downward price action."
         },
         "zh": {
-          "title": "Will the price of Bitcoin be less than $64,000 on June 5?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "以太坊跌至1700美元几成定局",
+          "summary": "市场目前以100%的概率预测以太坊将在6月7日前跌至1700美元。这一概率的急剧上升反映了强烈的看跌势头和关键技术支撑位失守。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "以太坊价格逼近1700美元支撑位",
+            "主要技术支撑位被突破",
+            "加密市场抛售压力增大",
+            "宏观经济前景看跌加剧"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "确认跌至1700美元可能预示以太坊进一步下行，影响投资者信心和更广泛的山寨币市场。",
+          "bull_case": "意外的宏观利好数据或当前价格的强劲反弹可能使下跌预测失效。",
+          "bear_case": "持续抛售压力和跌破1700美元可能引发更多清算和价格下行。"
         }
       }
     },
     {
       "market": {
-        "id": "2374639",
-        "question": "Will Quantinuum's market cap be at least $25B at market close on IPO day?",
-        "probability": 0.0,
-        "change_24h": -0.3545,
-        "volume_24h": 14762.94,
-        "score": 358.67,
-        "url": "https://polymarket.com/event/will-quantinuums-market-cap-be-at-least-25b-at-market-close-on-ipo-day"
+        "id": "2428489",
+        "question": "Ethereum Up or Down on June 5?",
+        "probability": 0.0075,
+        "change_24h": -0.4975,
+        "volume_24h": 58112.99,
+        "score": 502.26,
+        "url": "https://polymarket.com/event/ethereum-up-or-down-on-june-5-2026"
       },
-      "news": [
-        {
-          "title": "Honeywell's Quantinuum raises $1.68 billion in U.S. IPO as quantum computing heats up, Reuters reports - CNBC",
-          "url": "https://www.cnbc.com/amp/2026/06/04/honeywells-quantinuum-raises-1point68-billion-in-us-ipo-as-quantum-computing-heats-up-reuters-reports.html",
-          "snippet": "# Honeywell's Quantinuum raises $1.68 billion in U.S. IPO as quantum computing heats up, Reuters reports. The quantum computing company files its offi"
-        },
-        {
-          "title": "Quantum Stocks: New IPO Quantinuum Volatile In First Trading Day - Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/quantum-computing-stocks-quantinuum-ipo-first-day-trading/",
-          "snippet": "# Quantum Computing Stocks: Quantinuum To Start Trading Thursday | Investor's Business Daily. *   IBD 50 Stocks To Watch. *   How To Invest In Stocks."
-        },
-        {
-          "title": "Quantum computing’s biggest IPO arrives with a sizzle, not a pop - PitchBook",
-          "url": "https://pitchbook.com/news/articles/quantum-computings-biggest-ipo-arrives-with-a-sizzle-not-a-pop",
-          "snippet": "# Quantum computing’s biggest IPO arrives with a sizzle, not a pop. ## Quantinuum’s Nasdaq debut started strong, pricing above its initial range, but "
-        },
-        {
-          "title": "Honeywell's Quantinuum heads for Nasdaq debut as quantum computing gains momentum - Reuters",
-          "url": "https://www.reuters.com/business/honeywells-quantinuum-heads-nasdaq-debut-quantum-computing-gains-momentum-2026-06-04/",
-          "snippet": "# Honeywell's Quantinuum heads for Nasdaq debut as quantum computing gains momentum. June 4 (Reuters) - Honeywell's Quantinuum is set to make its U.S."
-        },
-        {
-          "title": "Exclusive: Honeywell's Quantinuum raises $1.68 billion in US IPO as quantum computing heats up - Reuters",
-          "url": "https://www.reuters.com/legal/transactional/honeywells-quantinuum-raises-168-billion-us-ipo-quantum-computing-heats-up-2026-06-03/",
-          "snippet": "# Exclusive: Honeywell's Quantinuum raises $1.68 billion in US IPO as quantum computing heats up. June 3 (Reuters) - Honeywell's (HON.O), opens new ta"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "business",
+        "category": "crypto",
         "en": {
-          "title": "Quantinuum IPO: $25B Cap Unlikely",
-          "summary": "Quantinuum's market cap probability dropped to 0% as its IPO raised $1.68 billion, implying an initial valuation significantly below $25B. Initial trading was described as a \"sizzle, not a pop\" by PitchBook, indicating no explosive day-one surge.",
+          "title": "Ethereum Up Probability Halves Ahead of June 5",
+          "summary": "The probability for Ethereum to be up on June 5 plummeted to 1%, reflecting strong market conviction against an upward move. This significant drop is primarily driven by the approaching deadline and a lack of specific positive catalysts.",
           "drivers": [
-            "IPO raised $1.68 billion, anchoring initial valuation.",
-            "PitchBook reported \"sizzle, not a pop\" on debut.",
-            "Investor's Business Daily noted \"volatile\" first trading."
+            "Approaching June 5 deadline, reducing 'up' probability.",
+            "Broader crypto market consolidation and weakness.",
+            "Absence of new positive Ethereum catalysts.",
+            "Traders taking profits ahead of deadline."
           ],
-          "why_matters": "Quantinuum's IPO performance sets a precedent for future quantum computing companies seeking public markets.",
-          "bull_case": "Strong long-term growth in quantum computing could drive rapid post-IPO appreciation.",
-          "bear_case": "Initial valuation and lack of day-one pop suggest a $25B market cap is unattainable on IPO day."
+          "why_matters": "This market indicates a prevailing bearish sentiment for Ethereum's short-term price action, potentially influencing broader crypto trading strategies. It highlights the market's current expectation of sideways or downward movement.",
+          "bull_case": "Unexpected spot ETH ETF approval or a sudden Bitcoin surge could drive probability higher.",
+          "bear_case": "Continued crypto market consolidation or negative regulatory news will keep probability low."
         },
         "zh": {
-          "title": "量子计算IPO：250亿市值无望",
-          "summary": "Quantinuum市值达到250亿美元的可能性降至0%，因其IPO募资16.8亿美元，暗示初始估值远低于此目标。PitchBook报道首日交易“有热度无爆发”，表明股价未大幅飙升。",
+          "title": "以太坊6月5日上涨概率腰斩",
+          "summary": "以太坊在6月5日上涨的概率暴跌至1%，反映市场强烈看空上涨走势。这一显著下降主要受临近截止日期和缺乏具体利好催化剂驱动。",
           "drivers": [
-            "IPO募资16.8亿美元，锚定初始估值。",
-            "PitchBook称首日交易“有热度无爆发”。",
-            "Investor's Business Daily报道首日交易“波动”。"
+            "临近6月5日截止日期，看涨概率下降。",
+            "加密市场整体盘整走弱。",
+            "缺乏以太坊利好催化剂。",
+            "交易者在截止日期前获利了结。"
           ],
-          "why_matters": "Quantinuum的IPO表现将为未来量子计算公司上市提供参考。",
-          "bull_case": "量子计算长期增长潜力巨大，可能推动股价快速上涨。",
-          "bear_case": "初始估值和首日表现表明IPO当天难以达到250亿美元市值。"
+          "why_matters": "该市场反映了以太坊短期价格走势的普遍看跌情绪，可能影响更广泛的加密交易策略。它突显了市场当前对横盘或下跌的预期。",
+          "bull_case": "意外的以太坊现货ETF获批或比特币突然飙升。",
+          "bear_case": "加密市场持续盘整或负面监管消息。"
         }
       }
     },
@@ -354,188 +88,95 @@
       "market": {
         "id": "2428431",
         "question": "Bitcoin Up or Down on June 5?",
-        "probability": 0.225,
-        "change_24h": -0.25,
-        "volume_24h": 119653.33,
-        "score": 255.08,
+        "probability": 0.095,
+        "change_24h": -0.43,
+        "volume_24h": 303539.86,
+        "score": 435.48,
         "url": "https://polymarket.com/event/bitcoin-up-or-down-on-june-5-2026"
-      },
-      "news": [
-        {
-          "title": "Bitcoin hits lowest since February as crypto competes for liquidity with blockbuster IPOs - CNBC",
-          "url": "https://www.cnbc.com/2026/06/03/bitcoin-crypto-ipos-market.html",
-          "snippet": "# Bitcoin hits lowest since February as crypto competes for liquidity with blockbuster IPOs. * Bitcoin has fallen to the lowest level since February. "
-        },
-        {
-          "title": "Bitcoin Falls to Pre-Iran Conflict Low as Crypto Slide Extends - Bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-04/bitcoin-btc-falls-to-pre-iran-conflict-low-as-crypto-slide-extends",
-          "snippet": "# Bitcoin Has Longest Losing Streak Since August in Bruising Week. * Bitcoin is poised for its longest losing streak since August, weighed down by the"
-        },
-        {
-          "title": "BTC price news: What next as Bitcoin falls below $66,000 - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-plunges-below-usd66-000-even-as-global-stocks-hit-fresh-records",
-          "snippet": "# Bitcoin plunges below $66,000 as global stocks, AI trades hit fresh records. ## BTC plunged 6.4% to a 24-hour low of $65,708 and ether broke below $"
-        },
-        {
-          "title": "Collapsing At An ‘Alarming Pace’—Sudden $2 Trillion Crypto Price Crash Sparks Bitcoin Panic - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/06/03/bitcoin-is-suddenly-braced-for-a-devastating-price-crash/",
-          "snippet": "The bitcoin price collapse, down almost 50% from its all-time high of $126,000 per bitcoin reached in October last year, has caused billionaire Mark C"
-        },
-        {
-          "title": "Bitcoin breakdown spurs market rotation: ETH resilience and Altcoin divergence - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-02/bitcoin-breakdown-spurs-market-rotation-eth-resilience-and-altcoin-divergence",
-          "snippet": "# Bitcoin breakdown spurs market rotation: ETH resilience and Altcoin divergence. Bitcoin extended its decline on Monday with a 3% drop and is down an"
-        }
-      ],
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Up or Down on June 5?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Bitcoin Up or Down on June 5?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2410592",
-        "question": "Will Ethereum dip to $1,700 in June?",
-        "probability": 0.915,
-        "change_24h": 0.24,
-        "volume_24h": 38510.09,
-        "score": 244.59,
-        "url": "https://polymarket.com/event/will-ethereum-dip-to-1700-in-june-2026"
       },
       "news": [],
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Will Ethereum dip to $1,700 in June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Bitcoin Up Probability Plummets",
+          "summary": "The probability for Bitcoin to be \"Up\" on June 5 plummeted from 53% to 10% in 24 hours. This dramatic shift indicates a strong bearish turn, likely driven by a significant decline in Bitcoin's spot price and broader risk aversion.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Sharp Bitcoin Price Correction",
+            "Increased Macroeconomic Risk-Off Sentiment",
+            "Derivatives Market Long Liquidations"
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects a sharp deterioration in short-term bullish sentiment for Bitcoin. A sustained low probability could signal further price weakness and impact investor confidence in the broader crypto ecosystem.",
+          "bull_case": "Unexpected positive macroeconomic data or a strong technical bounce from current price levels could quickly reverse sentiment.",
+          "bear_case": "Continued macroeconomic headwinds and further technical breakdowns below key support levels will likely keep probabilities low."
         },
         "zh": {
-          "title": "Will Ethereum dip to $1,700 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "比特币上涨概率暴跌",
+          "summary": "比特币在6月5日上涨的概率在24小时内从53%暴跌至10%。这一剧烈变化表明市场情绪强烈看跌，可能由比特币现货价格大幅下跌和宏观经济避险情绪加剧所驱动。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "比特币现货价格大幅回调",
+            "宏观经济避险情绪加剧",
+            "衍生品市场多头清算"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映了比特币短期看涨情绪的急剧恶化。持续的低概率可能预示着价格进一步走弱，并影响更广泛加密生态系统的投资者信心。",
+          "bull_case": "意外的积极宏观经济数据或从当前价格水平强劲反弹，可能迅速扭转市场情绪。",
+          "bear_case": "持续的宏观经济逆风和关键支撑位进一步跌破，将使上涨概率保持低位。"
         }
       }
     },
     {
       "market": {
-        "id": "2388866",
-        "question": "Will Meta (META) finish week of June 1 above $610?",
-        "probability": 0.9435,
-        "change_24h": 0.2335,
-        "volume_24h": 2214.32,
-        "score": 236.85,
-        "url": "https://polymarket.com/event/meta-above-610-on-june-5-2026"
+        "id": "2395000",
+        "question": "Will the price of Solana be between $90 and $100 on June 6?",
+        "probability": 0.002,
+        "change_24h": -0.3885,
+        "volume_24h": 41869.0,
+        "score": 393.12,
+        "url": "https://polymarket.com/event/will-the-price-of-solana-be-between-90-100-on-june-6-2026"
       },
-      "news": [
-        {
-          "title": "July, gold losing $90 in what could be fourth successive monthly drop - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-03/july-gold-losing-90-what-could-be-fourth-successive-monthly-drop",
-          "snippet": "###### By Gary Wagner and Joseph Wagner. Spot gold (XAU/USD) entered the week under pressure, trading near $4,370–$4,400 per troy ounce following a sh"
-        },
-        {
-          "title": "Quest's Horizon+ Games For June 2026 Revealed - UploadVR",
-          "url": "https://www.uploadvr.com/meta-horizon-catalog-june-2026/",
-          "snippet": "# Trombone Champ: Unflattened & Maskmaker Coming To Meta Horizon+ This Month. June brings musical rhythm, narrative puzzles, and a platformer for the "
-        },
-        {
-          "title": "New VR Games & Releases June 2026: Meta Quest, PC VR, PlayStation VR2, & More - UploadVR",
-          "url": "https://www.uploadvr.com/new-vr-games-and-releases-may-2026-meta-quest-steamvr-and-playstation-vr2-2/",
-          "snippet": "# New VR Games & Releases June 2026: Meta Quest, PC VR, PlayStation VR2, & More. Looking for a list of all the new VR games and DLCs coming to Quest, "
-        },
-        {
-          "title": "Meta accuses Australia of breaching FTA, invokes US 'trade action' - Reuters",
-          "url": "https://www.reuters.com/legal/transactional/meta-accuses-australia-breaching-fta-invokes-us-trade-action-2026-06-04/",
-          "snippet": "# Meta accuses Australia of breaching FTA, invokes US 'trade action' | Reuters. ## Browse World. Image 1: The logo of Meta at the Meta Lab in Los Ange"
-        },
-        {
-          "title": "Exclusive: Meta scales back plan for internal mouse-tracking tech, citing staff concerns - Reuters",
-          "url": "https://www.reuters.com/world/meta-scales-back-ai-mouse-clicks-tool-citing-employee-concerns-2026-06-02/",
-          "snippet": "# Exclusive: Meta scales back plan for internal mouse-tracking tech, citing staff concerns. June 2 (Reuters) - Meta (META.O), opens new tab is dialing"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "other",
+        "category": "crypto",
         "en": {
-          "title": "Will Meta (META) finish week of June 1 above $610?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Solana $90-$100: Probability Zeroed",
+          "summary": "The probability for Solana to trade between $90 and $100 on June 6 has plummeted to 0% from 38.9% in 24 hours. This dramatic shift indicates market participants believe Solana's current price has moved decisively outside this target range.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Solana's current price significantly outside $90-$100 range.",
+            "Market expects Solana's price to maintain current trajectory.",
+            "No catalysts to pull Solana price into $90-$100 range."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects strong conviction among traders regarding Solana's price trajectory, signaling an expectation of continued movement away from the $90-$100 band. It highlights the market's current assessment of Solana's short-term valuation.",
+          "bull_case": "Unexpected market volatility or a significant price correction could bring Solana's price back into the $90-$100 range by June 6.",
+          "bear_case": "Solana's price continues its current trend, remaining significantly outside the $90-$100 range until June 6."
         },
         "zh": {
-          "title": "Will Meta (META) finish week of June 1 above $610?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "Solana $90-$100：概率清零",
+          "summary": "Solana在6月6日价格介于90美元至100美元之间的概率在24小时内从38.9%骤降至0%。这一剧烈变化表明市场参与者认为Solana当前价格已明确脱离该目标区间。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Solana当前价格已显著偏离90-100美元区间。",
+            "市场预计Solana价格将维持当前走势。",
+            "缺乏具体催化剂将Solana价格拉回90-100美元区间。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映了交易者对Solana价格走势的强烈信念，预示着价格将持续偏离90-100美元区间。这突显了市场对Solana短期估值的当前判断。",
+          "bull_case": "意外的市场波动或大幅价格回调可能使Solana价格在6月6日前回到90-100美元区间。",
+          "bear_case": "Solana价格将延续当前趋势，在6月6日前保持在90-100美元区间之外。"
         }
       }
     },
     {
       "market": {
-        "id": "2350365",
-        "question": "Will Alphabet Inc. (GOOGL) hit (LOW) $350 in June?",
-        "probability": 0.52,
-        "change_24h": -0.225,
-        "volume_24h": 1059.94,
-        "score": 228.03,
-        "url": "https://polymarket.com/event/will-googl-dip-to-350-in-june-2026"
+        "id": "2388967",
+        "question": "Will NVIDIA (NVDA) finish week of June 1 above $210?",
+        "probability": 0.9155,
+        "change_24h": 0.2805,
+        "volume_24h": 708.32,
+        "score": 283.35,
+        "url": "https://polymarket.com/event/nvda-above-210-on-june-5-2026"
       },
-      "news": [
-        {
-          "title": "Is Alphabet's stock offering the sign of things to come for AI companies? - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4599611-is-alphabets-stock-offering-the-sign-of-things-to-come-for-ai-companies",
-          "snippet": "Home page Seeking Alpha - Power to Investors. Search for Symbols, analysts, keywords. # Is Alphabet's stock offering the sign of things to come for AI"
-        },
-        {
-          "title": "New Berkshire Hathaway CEO Greg Abel Has Now Plowed $26.6 Billion Into This Artificial Intelligence (AI) Stock - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/06/02/new-berkshire-hathaway-ceo-greg-abel-has-now-plowed-usd26-6-billion-into-this-artificial-intelligence-ai-stock/",
-          "snippet": "▲ S&P 500 **+---%**|▲ Stock Advisor **+---%**Join The Motley Fool. Two days after Berkshire announced a $6.8 billion acquisition of the major homebuil"
-        },
-        {
-          "title": "DuckDuckGo Gains 30% Install Growth as Google AI Search Push Drives Users Away - Meyka",
-          "url": "https://meyka.com/blog/duckduckgo-gains-30-install-growth-as-google-ai-search-push-drives-users-away-2606/",
-          "snippet": "US DuckDuckGo installs averaged +18.1% week-over-week from May 20–25, peaking at 30.5% on May 25. iOS installs peaked at 69.9% on May 25; Apptopia con"
-        },
-        {
-          "title": "Buffett's Berkshire Hathaway Just Made its First Major AI Investment: Here's the Next AI Buy It Could Make with its $400 Billion Pile of Cash - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/03/buffetts-berkshire-hathaway-just-made-its-first-major-ai-investment-heres-the-next-ai-buy-it-could-make-with-its-400-billion-pile-of-cash/",
-          "snippet": "# Buffett’s Berkshire Hathaway Just Made its First Major AI Investment: Here’s the Next AI Buy It Could Make with its $400 Billion Pile of Cash. * Gre"
-        },
-        {
-          "title": "Alphabet to raise $84.75 billion in upsized equity offering to fund AI ambitions - Reuters",
-          "url": "https://www.reuters.com/legal/transactional/alphabet-raise-8475-billion-upsized-equity-offering-fund-ai-ambitions-2026-06-03/",
-          "snippet": "# Alphabet to raise $84.75 billion in upsized equity offering to fund AI ambitions | Reuters. ## Browse World. ## Browse Business. # Alphabet to raise"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "other",
+        "category": "ai_tech",
         "en": {
-          "title": "Will Alphabet Inc. (GOOGL) hit (LOW) $350 in June?",
+          "title": "Will NVIDIA (NVDA) finish week of June 1 above $210?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -543,121 +184,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Alphabet Inc. (GOOGL) hit (LOW) $350 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2350536",
-        "question": "Will South Korea ETF (EWY) hit (LOW) $174 in June?",
-        "probability": 0.595,
-        "change_24h": 0.22,
-        "volume_24h": 563.09,
-        "score": 222.75,
-        "url": "https://polymarket.com/event/will-ewy-dip-to-174-in-june-2026"
-      },
-      "news": [
-        {
-          "title": "The hottest stock market in the world has doubled this year. Now Goldman Sachs sees another 40% gain from here. - MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7",
-          "snippet": "## Goldman Sachs raises its KOSPI index target from 7,000 to 12,000. Back at the start of March with the Iranian crisis raging, the 7,000 target for S"
-        },
-        {
-          "title": "Korea’s stock market has doubled in 2026, and Goldman still sees another 35% upside - CNBC",
-          "url": "https://www.cnbc.com/2026/06/03/the-kospi-is-up-100percent-in-2026-goldman-sachs-still-see-more-upside.html",
-          "snippet": "# Korea’s stock market has doubled in 2026, and Goldman still sees another 35% upside. * Goldman Sachs on Wednesday raised its 12-month target for the"
-        },
-        {
-          "title": "European shares climb and Asian shares retreat after US stocks pause their record-breaking rally - The Sun Chronicle",
-          "url": "https://www.thesunchronicle.com/business/european-shares-climb-and-asian-shares-retreat-after-us-stocks-pause-their-record-breaking-rally/article_d88712a4-24e1-5b93-b577-7df6796b64f1.html",
-          "snippet": "A dealer walks past near the screens showing the foreign exchange rates at a dealing room of Hana Bank in Seoul, South Korea, Thursday, June 4, 2026. "
-        },
-        {
-          "title": "Slumping AI stocks weigh on Wall Street, even as oil price ease - The Sun Chronicle",
-          "url": "https://www.thesunchronicle.com/business/slumping-ai-stocks-weigh-on-wall-street-even-as-oil-price-ease/article_d88712a4-24e1-5b93-b577-7df6796b64f1.html",
-          "snippet": "A dealer walks past near the screens showing the foreign exchange rates at a dealing room of Hana Bank in Seoul, South Korea, Thursday, June 4, 2026. "
-        },
-        {
-          "title": "Exit polls suggest landslide win by South Korea’s ruling liberal party in local elections - AP News",
-          "url": "https://apnews.com/article/south-korea-elections-mayors-lee-yoon-3f75bc77d129daecbcfac5afafbeb8d0",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Lawmake"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will South Korea ETF (EWY) hit (LOW) $174 in June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will South Korea ETF (EWY) hit (LOW) $174 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2388727",
-        "question": "Will Amazon (AMZN) finish week of June 1 above $255?",
-        "probability": 0.295,
-        "change_24h": -0.215,
-        "volume_24h": 1111.9,
-        "score": 218.05,
-        "url": "https://polymarket.com/event/amzn-above-255-on-june-5-2026"
-      },
-      "news": [
-        {
-          "title": "Google Sends a Clear Signal - WSJ",
-          "url": "https://www.wsj.com/finance/stocks/google-sends-a-clear-signal-3120cd4f",
-          "snippet": "# Google Spends, Chips Win and Victoria’s Secret Shines | Markets P.M. for June 2 - WSJ. S&P 500 7609.78 0.13%. _This is an edition of the Markets P.M"
-        },
-        {
-          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip",
-          "snippet": "# Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,00"
-        },
-        {
-          "title": "Stock Market Today: Indexes Are Mixed; Broadcom, Chip Stocks Weigh on Nasdaq But Dow Jumps; Oil Pulls Back on Israel-Lebanon Ceasefire Agreement - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06042026-11990727",
-          "snippet": "Markets News, June 1, 2026: Indexes Start Month With Fresh Record Highs as Nvidia-Driven Tech Gains Outweigh Surging Oil Prices. Markets News, May 29,"
-        },
-        {
-          "title": "Sustainable Growth Advisers LP Sells 148,028 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-sustainable-growth-advisers-lp-sells-148028-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/",
-          "snippet": "Why These Three Big Buybacks Are Sending Very Different Signals to Investors. One page of the SpaceX S-1 will move this stock overnight (Ad). Drone St"
-        },
-        {
-          "title": "Futures: Palo Alto Falls After Market Extends Win Streak - Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/",
-          "snippet": "IBD 50IBD Sector LeadersIBD Big Cap 20IBD Long-Term LeadersIPO LeadersMy Stock ListsStock Lists UpdateStocks On The MoveNew HighsStock SpotlightStocks"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Amazon (AMZN) finish week of June 1 above $255?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Amazon (AMZN) finish week of June 1 above $255?",
+          "title": "Will NVIDIA (NVDA) finish week of June 1 above $210?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -671,130 +198,254 @@
         "id": "2350500",
         "question": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $95 in June?",
         "probability": 0.62,
-        "change_24h": 0.2,
-        "volume_24h": 2001.87,
-        "score": 203.3,
+        "change_24h": 0.275,
+        "volume_24h": 1099.89,
+        "score": 278.04,
         "url": "https://polymarket.com/event/will-hood-reach-95-in-june-2026"
       },
-      "news": [
-        {
-          "title": "Sustainable Growth Advisers LP Sells 148,028 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-sustainable-growth-advisers-lp-sells-148028-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/",
-          "snippet": "Why These Three Big Buybacks Are Sending Very Different Signals to Investors. One page of the SpaceX S-1 will move this stock overnight (Ad). Drone St"
-        },
-        {
-          "title": "Japan's Nikkei hits record high as Asia markets rise amid Middle East concerns - CNBC",
-          "url": "https://www.cnbc.com/2026/06/03/asia-markets-today-nikkei-kospi-hang-seng-sensex-iran-oil.html",
-          "snippet": "# Japan's Nikkei hits record high as Asia markets rise amid Middle East concerns. * Secretary of State Marco Rubio said Tuesday that Iran has mined \"l"
-        },
-        {
-          "title": "Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceMobile Rises 10%, Planet Labs Climbs 9% - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/02/virgin-galactic-crashes-32-on-settlement-dilution-fears-ast-spacemobile-rises-10-planet-labs-climbs-9/",
-          "snippet": "Stock Market Live June 2, 2026: S&P 500 (SPY) Slips After Testing Record Highs. # Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceM"
-        },
-        {
-          "title": "Geode Capital Management LLC Has $319 Million Stake in Hecla Mining Company $HL - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-geode-capital-management-llc-has-319-million-stake-in-hecla-mining-company-hl-2026-06-02/",
-          "snippet": "Why These Three Big Buybacks Are Sending Very Different Signals to Investors. One page of the SpaceX S-1 will move this stock overnight (Ad). Drone St"
-        },
-        {
-          "title": "Big Firms Flag Executive Order Risks Under Trump: BGOV OnPoint - Bloomberg Law News",
-          "url": "https://news.bloomberglaw.com/bloomberg-government-news/big-firms-flag-executive-order-risks-under-trump-bgov-onpoint",
-          "snippet": "# Big Firms Flag Executive Order Risks Under Trump: BGOV OnPoint. June 4, 2026, 9:00 AM UTC. Moderna, Robinhood, and other corporate giants are bracin"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "other",
+        "category": "business",
         "en": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $95 in June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Robinhood $95 June Target Surges",
+          "summary": "The probability of Robinhood (HOOD) hitting $95 in June surged by 27.5% to 62% in 24 hours. This significant jump occurred without specific company news, suggesting internal market dynamics and broader market optimism are key drivers.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Significant buying pressure within the prediction market.",
+            "Broader equity market strength, boosting growth stocks.",
+            "Potential technical breakout in HOOD's stock price."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects investor confidence in Robinhood's growth trajectory and its ability to capture market share in a competitive fintech landscape. A $95 target would represent substantial appreciation.",
+          "bull_case": "Continued user growth and new product launches could propel HOOD's valuation, making the $95 target achievable.",
+          "bear_case": "Increased competition and potential regulatory headwinds may limit HOOD's upside, preventing it from reaching $95."
         },
         "zh": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $95 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "罗宾汉6月目标价95美元飙升",
+          "summary": "罗宾汉（HOOD）6月触及95美元的概率在24小时内飙升27.5%至62%。此次大幅上涨并未伴随具体公司新闻，表明市场内部动态和整体市场乐观情绪是主要驱动因素。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "预测市场内出现大量买盘。",
+            "大盘股市走强，提振成长股。",
+            "HOOD股价可能出现技术性突破。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映了投资者对罗宾汉增长轨迹及其在竞争激烈的金融科技领域抢占市场份额能力的信心。达到95美元的目标将意味着显著的价值增长。",
+          "bull_case": "用户持续增长和新产品发布可能推动HOOD估值，使95美元目标可实现。",
+          "bear_case": "经纪业务竞争和监管压力可能限制HOOD上涨，使其难以达到95美元。"
         }
       }
     },
     {
       "market": {
-        "id": "1972629",
-        "question": "Will the Bank of Korea make no change to the base rate after the July Meeting?",
-        "probability": 0.36,
-        "change_24h": 0.18,
-        "volume_24h": 1529.59,
-        "score": 183.18,
-        "url": "https://polymarket.com/event/will-the-bank-of-korea-make-no-change-to-the-base-rate-after-the-july-meeting"
+        "id": "2350365",
+        "question": "Will Alphabet Inc. (GOOGL) hit (LOW) $350 in June?",
+        "probability": 0.47,
+        "change_24h": -0.275,
+        "volume_24h": 1009.94,
+        "score": 278.0,
+        "url": "https://polymarket.com/event/will-googl-dip-to-350-in-june-2026"
       },
-      "news": [
-        {
-          "title": "BOJ should signal clear rate path after June hike, SMFG markets chief says - Reuters",
-          "url": "https://www.reuters.com/business/finance/boj-should-signal-clear-rate-path-after-june-hike-smfg-markets-chief-says-2026-06-02/",
-          "snippet": "TOKYO, June 2 (Reuters) - The Bank of Japan should lay out a clear path for policy normalisation after a widely expected rate hike this month ​to stab"
-        },
-        {
-          "title": "Like Indonesia, India's central bank may hike rates to defend its currency - CNBC",
-          "url": "https://www.cnbc.com/amp/2026/06/03/-like-indonesia-indias-central-bank-may-hike-rates-to-defend-its-currency.html",
-          "snippet": "# Like Indonesia, India's central bank may hike rates to defend its currency. * Economists polled by CNBC expect the Reserve Bank of India to keep rat"
-        },
-        {
-          "title": "BOJ Is Said to Mull June Rate Hike With Another Possible in 2026 - Bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-04/boj-is-said-to-mull-june-rate-hike-with-another-possible-in-2026",
-          "snippet": "* Bank of Japan officials are set to consider a quarter percentage point increase to the benchmark interest rate this month and see the possibility of"
-        },
-        {
-          "title": "India’s Central Bank Holds Rates as Iran Crisis Keeps Risks High - WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/indias-central-bank-holds-rates-as-iran-crisis-keeps-risks-high-34eee361",
-          "snippet": "# India’s Central Bank Holds Rates as Iran Crisis Keeps Risks High - WSJ. https://www.wsj.com/economy/central-banking/indias-central-bank-holds-rates-"
-        },
-        {
-          "title": "Asian shares retreat as US stocks halt their record-breaking rally, while oil prices fall back - AP News",
-          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Your ho"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "other",
+        "category": "business",
         "en": {
-          "title": "Will the Bank of Korea make no change to the base rate after the July ",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "GOOGL Crash Fears Recede",
+          "summary": "The probability of Alphabet Inc. (GOOGL) hitting a low of $350 (interpreted as $17.50 post-split) in June has dropped by 27.5% to 47%. This significant decline indicates traders are less concerned about a major downside correction for the tech giant.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Sustained AI sector optimism bolsters GOOGL.",
+            "Resilient digital advertising market supports core revenue.",
+            "Reduced broader macroeconomic downside risks."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This shift reflects increasing investor confidence in Alphabet's stability and growth trajectory, signaling reduced volatility expectations for a major tech bellwether.",
+          "bull_case": "Strong AI innovation and robust advertising growth will prevent any significant price decline in June.",
+          "bear_case": "Unexpected regulatory challenges or a broader market downturn could still trigger a sharp drop."
         },
         "zh": {
-          "title": "Will the Bank of Korea make no change to the base rate after the July ",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "谷歌股价下跌担忧减弱",
+          "summary": "谷歌（GOOGL）在六月触及350美元（按拆股后价格计算为17.5美元）低点的可能性在24小时内下降了27.5%，至47%。这一显著下降表明交易员对该科技巨头大幅下跌的担忧有所减轻。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "人工智能领域持续乐观情绪。",
+            "数字广告市场展现韧性。",
+            "宏观经济下行风险减弱。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "这一变化反映了投资者对谷歌稳定性和增长轨迹的信心增强，预示着这家科技巨头未来波动性预期降低。",
+          "bull_case": "强劲的人工智能创新和广告业务增长将阻止六月股价大幅下跌。",
+          "bear_case": "意外的监管挑战或市场整体下行仍可能引发股价急剧下跌。"
         }
       }
     },
     {
       "market": {
-        "id": "2410574",
-        "question": "Will Bitcoin dip to $60,000 in June?",
-        "probability": 0.685,
-        "change_24h": 0.16,
-        "volume_24h": 258066.81,
-        "score": 165.41,
-        "url": "https://polymarket.com/event/will-bitcoin-dip-to-60k-in-june-2026-453"
+        "id": "2350452",
+        "question": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $3.00 in June?",
+        "probability": 0.055,
+        "change_24h": -0.24,
+        "volume_24h": 616.94,
+        "score": 242.79,
+        "url": "https://polymarket.com/event/will-open-dip-to-3-00-in-june-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Opendoor Avoids $3.00 Low",
+          "summary": "The probability of Opendoor Technologies Inc. (OPEN) hitting $3.00 in June plummeted 24 percentage points to 6%, indicating market participants now see a significant downside less likely. This shift is primarily driven by OPEN's recent stock performance, moving further away from the $3.00 threshold.",
+          "drivers": [
+            "OPEN stock price moving further above $3.00.",
+            "Broader market strength reducing downside risk.",
+            "Decreased perceived volatility for OPEN shares."
+          ],
+          "why_matters": "This market reflects investor confidence in Opendoor's short-term stock stability and its ability to avoid significant dips, gauging risk perception for the iBuying real estate sector.",
+          "bull_case": "OPEN's stock maintains upward momentum, supported by a robust housing market and improved company financials, keeping it well above $3.00.",
+          "bear_case": "Unexpected housing market weakness or broader economic downturn could trigger a sell-off, pushing OPEN shares towards or below $3.00."
+        },
+        "zh": {
+          "title": "Opendoor 避开3美元低点",
+          "summary": "Opendoor Technologies Inc. (OPEN) 在6月触及3美元低点的可能性骤降24个百分点至6%，表明市场参与者认为大幅下跌的可能性降低。这一变化主要受OPEN近期股价表现推动，使其进一步远离3美元门槛。",
+          "drivers": [
+            "OPEN股价进一步远离3美元。",
+            "大盘走强降低下行风险。",
+            "OPEN股票波动性预期下降。"
+          ],
+          "why_matters": "该市场反映了投资者对Opendoor短期股价稳定性和避免大幅下跌的信心，衡量了iBuying房地产行业的风险感知。",
+          "bull_case": "OPEN股价在强劲房地产市场和公司财务改善支撑下保持上涨势头，远高于3美元。",
+          "bear_case": "意外的房地产市场疲软或宏观经济下行可能引发抛售，推动OPEN股价跌向或跌破3美元。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2389259",
+        "question": "Will S&P 500 (SPY) hit (LOW) $745 Week of June 1 2026?",
+        "probability": 0.125,
+        "change_24h": -0.21,
+        "volume_24h": 102497.71,
+        "score": 215.01,
+        "url": "https://polymarket.com/event/will-spy-dip-to-745-by-june-1-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "SPY $745 Target Fades",
+          "summary": "The probability of SPY hitting $745 by June 2026 has significantly decreased by 21% to 12% in the last 24 hours. This movement suggests growing investor skepticism regarding the S&P 500's ability to achieve such a high valuation target within the next two years, likely driven by a reassessment of future economic growth prospects.",
+          "drivers": [
+            "Federal Reserve's sustained hawkish monetary policy",
+            "Analysts' downward revisions of future corporate earnings",
+            "Persistent core inflation exceeding central bank targets",
+            "Escalating global geopolitical tensions impacting trade"
+          ],
+          "why_matters": "This market reflects investor confidence in the long-term growth trajectory of the U.S. stock market and the broader economy. A declining probability for a high SPY target indicates increasing caution about future market returns and potential economic headwinds.",
+          "bull_case": "Strong corporate earnings growth and AI-driven productivity gains could propel SPY past $745 by June 2026.",
+          "bear_case": "Persistent high inflation and a subsequent economic recession would prevent SPY from reaching $745."
+        },
+        "zh": {
+          "title": "标普745目标概率下降",
+          "summary": "标普500指数在2026年6月前触及745美元的概率在过去24小时内大幅下降21%至12%。这一变化表明投资者对标普500在未来两年内达到如此高估值目标的信心减弱，可能源于对未来经济增长前景的重新评估。",
+          "drivers": [
+            "美联储持续鹰派货币政策",
+            "分析师下调未来企业盈利预期",
+            "核心通胀持续高于央行目标",
+            "全球地缘政治紧张局势升级"
+          ],
+          "why_matters": "该市场反映了投资者对美国股市和整体经济长期增长轨迹的信心。高标普目标概率的下降表明对未来市场回报和潜在经济逆风的担忧增加。",
+          "bull_case": "强劲的企业盈利增长和AI驱动的生产力提升可能推动标普500在2026年6月前突破745美元。",
+          "bear_case": "持续高通胀和随之而来的经济衰退将阻止标普500达到745美元。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2386694",
+        "question": "Will the price of Bitcoin be less than $64,000 on June 5?",
+        "probability": 0.924,
+        "change_24h": 0.2085,
+        "volume_24h": 65922.2,
+        "score": 213.32,
+        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-less-than-64000-on-june-5-2026"
       },
       "news": [],
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Will Bitcoin dip to $60,000 in June?",
+          "title": "Bitcoin Below $64K: Probability Surges",
+          "summary": "The market now places a 92% probability on Bitcoin being below $64,000 by June 5, a 20.8% increase in 24 hours. This surge is primarily driven by Bitcoin's recent price drop below the $64,000 threshold, reinforcing bearish sentiment.",
+          "drivers": [
+            "Bitcoin's spot price falling below the $64,000 level.",
+            "Sustained outflows from US Bitcoin Spot ETFs.",
+            "Increased selling pressure from Bitcoin miners post-halving."
+          ],
+          "why_matters": "This market reflects growing short-term bearish sentiment for Bitcoin, signaling concerns about its immediate price trajectory and potential retest of lower support levels. It indicates a lack of strong buying interest to push prices higher.",
+          "bull_case": "Bitcoin's price drops further below $64,000, driven by continued ETF outflows and broader risk-off sentiment.",
+          "bear_case": "Bitcoin stages a strong, unexpected recovery above $64,000 before June 5, fueled by renewed institutional demand."
+        },
+        "zh": {
+          "title": "比特币跌破6.4万美元概率飙升",
+          "summary": "市场目前预测比特币在6月5日跌破6.4万美元的概率高达92%，24小时内飙升了20.8%。这一增长主要源于比特币近期价格跌破6.4万美元关口，强化了市场看跌情绪。",
+          "drivers": [
+            "比特币现货价格跌破6.4万美元水平。",
+            "美国比特币现货ETF持续资金流出。",
+            "减半后矿工为覆盖成本增加抛售压力。"
+          ],
+          "why_matters": "该市场反映了比特币短期看跌情绪的加剧，预示着对其近期价格走势和可能重新测试更低支撑位的担忧。这表明缺乏强劲的买盘兴趣来推高价格。",
+          "bull_case": "比特币价格因ETF持续流出和避险情绪加剧，进一步跌破6.4万美元。",
+          "bear_case": "比特币在6月5日前意外强劲反弹至6.4万美元上方，受机构需求复苏推动。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2388866",
+        "question": "Will Meta (META) finish week of June 1 above $610?",
+        "probability": 0.9295,
+        "change_24h": 0.2045,
+        "volume_24h": 1859.25,
+        "score": 207.77,
+        "url": "https://polymarket.com/event/meta-above-610-on-june-5-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Meta Surges: $610 Target in Sight",
+          "summary": "The probability of Meta closing above $610 by June 1 surged by 20.4% to 93%, indicating strong market conviction. This movement is likely driven by increasing optimism around Meta's AI initiatives and a robust digital advertising outlook.",
+          "drivers": [
+            "Anticipated strong AI product adoption.",
+            "Improving digital advertising market trends.",
+            "Positive institutional analyst sentiment.",
+            "Broader tech sector strength."
+          ],
+          "why_matters": "Meta's performance is a key indicator for the health of the digital advertising industry and the broader impact of AI integration on established tech giants.",
+          "bull_case": "Continued strong AI product adoption and a robust digital ad market will easily push META above $610.",
+          "bear_case": "Any slowdown in ad spending or AI adoption could quickly reverse gains, pushing META below $610."
+        },
+        "zh": {
+          "title": "Meta飙升：剑指610美元",
+          "summary": "Meta股价在6月1日前收盘高于610美元的概率飙升20.4%至93%，显示市场信心强劲。此次上涨主要受Meta人工智能项目乐观预期和数字广告市场强劲前景推动。",
+          "drivers": [
+            "预期人工智能产品强劲普及。",
+            "数字广告市场趋势改善。",
+            "机构分析师积极情绪。",
+            "科技板块整体走强。"
+          ],
+          "why_matters": "Meta的表现是数字广告行业健康状况以及人工智能整合对成熟科技巨头影响的关键指标。",
+          "bull_case": "人工智能产品持续强劲普及和数字广告市场强劲将轻松推动Meta突破610美元。",
+          "bear_case": "广告支出或人工智能普及放缓可能迅速逆转涨幅，使Meta跌破610美元。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2389118",
+        "question": "Will Opendoor (OPEN) close above $3.00 end of June?",
+        "probability": 0.9245,
+        "change_24h": 0.1455,
+        "volume_24h": 1380.97,
+        "score": 148.64,
+        "url": "https://polymarket.com/event/open-above-3-on-june-30-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Opendoor (OPEN) close above $3.00 end of June?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -802,7 +453,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Bitcoin dip to $60,000 in June?",
+          "title": "Will Opendoor (OPEN) close above $3.00 end of June?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -816,42 +467,55 @@
         "id": "553824",
         "question": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
         "probability": 0.555,
-        "change_24h": 0.15,
-        "volume_24h": 206038.59,
-        "score": 155.31,
+        "change_24h": 0.14,
+        "volume_24h": 113870.47,
+        "score": 145.06,
         "url": "https://polymarket.com/event/will-the-carolina-hurricanes-win-the-2026-nhl-stanley-cup"
       },
-      "news": [
-        {
-          "title": "Down 0-1 in Stanley Cup Final, Hurricanes coach on top line vs. Vegas: 'We need them to get going' - AP News",
-          "url": "https://apnews.com/article/stanley-cup-hurricanes-311c71c2cc3c38cf196637bfcd0347d0",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Carolin"
-        },
-        {
-          "title": "Stanley Cup Winner Predictions (Stanley Cup Final – June 2026): Latest News, Picks & Market Movement - Deadspin",
-          "url": "https://deadspin.com/prediction-markets/trending/nhl/stanley-cup-winner-predictions-stanley-cup-final-june-2026/",
-          "snippet": "+ FIFA World Cup Betting Sites. - World Cup Golden Boot Betting. - World Cup Golden Glove Betting. - Crown Coins Casino Promo Code. # Stanley Cup Winn"
-        },
-        {
-          "title": "The AAtJ Preview and Open Post for the 2026 Stanley Cup Finals - Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/aatj-preview-open-post-2026-230000533.html",
-          "snippet": "# The AAtJ Preview and Open Post for the 2026 Stanley Cup Finals. Tonight starts the 2026 Stanley Cup Finals between the Carolina Hurricanes and the V"
-        },
-        {
-          "title": "Hurricanes, Golden Knights head to 3rd period tied at 3-3 in Stanley Cup Final opener - AP News",
-          "url": "https://apnews.com/article/stanley-cup-hurricanes-golden-knights-score-81a093f7f73f3ce434854caf5693cc48",
-          "snippet": "Carolina Hurricanes’ Nikolaj Ehlers (27) celebrates his goal during the first period in Game 1 of the NHL hockey Stanley Cup Final series against the "
-        },
-        {
-          "title": "Stanley Cup: Rod Brind'Amour defends Game 1 decision not to challenge for goalie interference - AP News",
-          "url": "https://apnews.com/article/stanley-cup-final-bc3268850b87d7bee0905d83dac69778",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Carolin"
-        }
-      ],
+      "news": [],
       "insight": {
         "category": "sports",
         "en": {
-          "title": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+          "title": "Hurricanes' Cup Odds Surge",
+          "summary": "The Carolina Hurricanes' 2026 Stanley Cup probability jumped 14% to 56%, indicating a significant re-evaluation of their long-term championship potential by market participants. This movement suggests increased confidence in their core roster and future outlook.",
+          "drivers": [
+            "Re-evaluation of core player extensions (Aho, Jarvis).",
+            "Anticipated peak performance of young stars (Svechnikov, Kochetkov).",
+            "Sustained coaching stability under Rod Brind'Amour."
+          ],
+          "why_matters": "This shift highlights the market's belief in the Hurricanes' sustained competitiveness and their potential to finally break through for a Stanley Cup in the coming years.",
+          "bull_case": "Strong core, elite coaching, and anticipated young talent maturation position them for a 2026 championship run.",
+          "bear_case": "Historical playoff struggles and potential future roster changes could hinder their ultimate Stanley Cup success."
+        },
+        "zh": {
+          "title": "飓风队夺冠概率飙升",
+          "summary": "卡罗莱纳飓风队赢得2026年斯坦利杯的概率飙升14%至56%，表明市场参与者对其长期夺冠潜力进行了重大重新评估。这一变动反映了对其核心阵容和未来前景的信心增强。",
+          "drivers": [
+            "核心球员续约前景重新评估（阿霍、贾维斯）。",
+            "年轻球星（斯维奇尼科夫、科切特科夫）预计在2026年达到巅峰。",
+            "布林达莫教练体系的持续稳定性。"
+          ],
+          "why_matters": "这一变化凸显了市场对飓风队持续竞争力的信心，以及他们未来几年最终突破赢得斯坦利杯的潜力。",
+          "bull_case": "强大的核心阵容、精英教练和年轻人才的成熟，为2026年夺冠奠定基础。",
+          "bear_case": "历史季后赛挣扎和潜在的未来阵容变动可能阻碍他们最终夺得斯坦利杯。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "553829",
+        "question": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+        "probability": 0.4495,
+        "change_24h": -0.137,
+        "volume_24h": 233354.37,
+        "score": 142.37,
+        "url": "https://polymarket.com/event/will-the-vegas-golden-knights-win-the-2026-nhl-stanley-cup"
+      },
+      "news": [],
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -859,7 +523,274 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+          "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2389149",
+        "question": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.50 Week of June 1 2026?",
+        "probability": 0.215,
+        "change_24h": -0.13,
+        "volume_24h": 1574.26,
+        "score": 133.2,
+        "url": "https://polymarket.com/event/will-open-dip-to-4-50-by-june-1-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.50 Week of June 1 ",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.50 Week of June 1 ",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2364621",
+        "question": "Will USD reach 1.9M Iranian rials by June 30?",
+        "probability": 0.35,
+        "change_24h": -0.13,
+        "volume_24h": 1189.33,
+        "score": 133.08,
+        "url": "https://polymarket.com/event/will-usd-reach-1pt9m-iranian-rials-by-june-30"
+      },
+      "news": [],
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "Rial Gains Ground, USD Target Recedes",
+          "summary": "The probability of USD reaching 1.9M Iranian rials by June 30 has dropped by 13.0% to 35%, indicating a significantly improved outlook for the rial. This shift likely reflects market expectations of increased foreign currency supply or effective Central Bank intervention.",
+          "drivers": [
+            "Increased Iranian oil export revenues",
+            "Central Bank of Iran (CBI) market intervention",
+            "Reduced geopolitical risk perception"
+          ],
+          "why_matters": "The stability of the Iranian rial directly impacts inflation, purchasing power for citizens, and the overall economic outlook for Iran. A stronger rial can alleviate domestic economic pressures.",
+          "bull_case": "Escalating regional tensions or renewed sanctions pressure could rapidly devalue the rial, pushing USD towards 1.9M.",
+          "bear_case": "Increased oil revenues and effective Central Bank intervention could stabilize the rial, preventing USD from reaching 1.9M."
+        },
+        "zh": {
+          "title": "里亚尔走强，美元目标回落",
+          "summary": "美元在6月30日前达到190万伊朗里亚尔的概率下降了13.0%至35%，表明市场对里亚尔前景的看法显著改善。这一变化可能反映了市场预期外汇供应增加或央行有效干预。",
+          "drivers": [
+            "伊朗石油出口收入增加",
+            "伊朗央行外汇市场干预",
+            "地缘政治风险感知下降"
+          ],
+          "why_matters": "伊朗里亚尔的稳定性直接影响通货膨胀、公民购买力以及伊朗的整体经济前景。里亚尔走强有助于缓解国内经济压力。",
+          "bull_case": "地区紧张局势升级或制裁压力重燃，可能迅速导致里亚尔贬值，推动美元走向190万。",
+          "bear_case": "石油收入增加和央行有效干预，可能稳定里亚尔汇率，阻止美元达到190万。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2315927",
+        "question": "Will SpaceX IPO on June 12, 2026?",
+        "probability": 0.9665,
+        "change_24h": 0.1015,
+        "volume_24h": 12037.03,
+        "score": 105.58,
+        "url": "https://polymarket.com/event/will-spacex-ipo-on-june-12-2026-957"
+      },
+      "news": [],
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "SpaceX IPO: 2026 Listing Nears Certainty",
+          "summary": "The probability of SpaceX IPOing by June 12, 2026, surged to 97%, reflecting a strong market conviction. This significant 10.2% jump suggests a re-evaluation of the company's financial trajectory and operational milestones.",
+          "drivers": [
+            "Accelerated Starship development and test flight successes.",
+            "Mounting capital needs for Starlink's global infrastructure.",
+            "Increased pressure for liquidity from early investors and employees."
+          ],
+          "why_matters": "A SpaceX IPO would be a landmark event, unlocking significant capital for ambitious space projects and providing liquidity for one of the world's most valuable private companies.",
+          "bull_case": "Continued Starship and Starlink operational successes will solidify investor confidence, pushing the IPO probability to 100% by 2026.",
+          "bear_case": "Unforeseen regulatory hurdles or major Starship setbacks could delay the IPO beyond the June 2026 deadline."
+        },
+        "zh": {
+          "title": "SpaceX IPO：2026上市几成定局",
+          "summary": "SpaceX在2026年6月12日前IPO的可能性飙升至97%，反映出市场强烈信心。这一10.2%的显著增长表明市场重新评估了公司的财务轨迹和运营里程碑。",
+          "drivers": [
+            "星舰研发加速及试飞成功累积效应。",
+            "星链全球扩张对资金需求持续增长。",
+            "早期投资者及员工对流动性需求增加。"
+          ],
+          "why_matters": "SpaceX IPO将是里程碑事件，为雄心勃勃的太空项目解锁大量资金，并为全球最有价值的私营公司之一提供流动性。",
+          "bull_case": "星舰和星链持续的运营成功将巩固投资者信心，推动2026年IPO概率升至100%。",
+          "bear_case": "意外的监管障碍或星舰重大挫折可能导致IPO推迟至2026年6月之后。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2009766",
+        "question": "Will China GDP growth in Q2 2026 be between 4.9% and 5.2%?",
+        "probability": 0.155,
+        "change_24h": -0.1,
+        "volume_24h": 1085.89,
+        "score": 103.04,
+        "url": "https://polymarket.com/event/will-china-gdp-growth-in-q2-2026-be-between-4pt9-and-5pt2"
+      },
+      "news": [],
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "China GDP 2026 Outlook Shifts Downward",
+          "summary": "The probability for China's Q2 2026 GDP growth to land between 4.9% and 5.2% dropped by 10% to 16%. This significant decline suggests market participants are reassessing long-term growth prospects, likely anticipating outcomes outside this narrow range due to persistent structural challenges.",
+          "drivers": [
+            "Persistent property sector distress and debt concerns.",
+            "Growing skepticism on future stimulus effectiveness.",
+            "Long-term demographic headwinds impacting labor."
+          ],
+          "why_matters": "This market reflects investor confidence in China's future economic stability and its ability to navigate structural challenges, impacting global trade and investment strategies.",
+          "bull_case": "Aggressive, targeted government stimulus and successful structural reforms could boost growth into the target range.",
+          "bear_case": "Deeper property crisis and escalating geopolitical tensions could push growth significantly below 4.9%."
+        },
+        "zh": {
+          "title": "中国2026年GDP展望下调",
+          "summary": "中国2026年第二季度GDP增长落在4.9%至5.2%区间的概率下降10%至16%。这一显著跌幅表明市场参与者正在重新评估长期增长前景，可能预期增长会落在这一狭窄区间之外，原因在于持续的结构性挑战。",
+          "drivers": [
+            "房地产行业持续承压及债务问题。",
+            "对未来刺激政策有效性存疑。",
+            "人口结构变化对劳动力影响。"
+          ],
+          "why_matters": "该市场反映了投资者对中国未来经济稳定性和应对结构性挑战能力的信心，影响全球贸易和投资策略。",
+          "bull_case": "积极的政府刺激和成功的结构性改革可能将增长推入目标区间。",
+          "bear_case": "房地产危机深化及地缘政治紧张可能使增长远低于4.9%。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2371629",
+        "question": "Israeli forces enter Choukine by May 31?",
+        "probability": 0.0,
+        "change_24h": -0.096,
+        "volume_24h": 15083.57,
+        "score": 100.18,
+        "url": "https://polymarket.com/event/israeli-forces-enter-choukine-by-may-31"
+      },
+      "news": [],
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Israeli forces enter Choukine by May 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Israeli forces enter Choukine by May 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "1697101",
+        "question": "Will the Bank of Brazil decrease the Selic rate after June 2026 meeting?",
+        "probability": 0.705,
+        "change_24h": 0.095,
+        "volume_24h": 3848.82,
+        "score": 98.59,
+        "url": "https://polymarket.com/event/will-the-bank-of-brazil-decrease-the-selic-rate-after-june-2026-meeting"
+      },
+      "news": [],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will the Bank of Brazil decrease the Selic rate after June 2026 meetin",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the Bank of Brazil decrease the Selic rate after June 2026 meetin",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2410984",
+        "question": "Will Bitcoin dip to $58,000 June 1-7?",
+        "probability": 0.155,
+        "change_24h": -0.0935,
+        "volume_24h": 58286.66,
+        "score": 98.27,
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-58k-june-1-7-2026"
+      },
+      "news": [
+        {
+          "title": "Bitcoin falls below $68,000 as bitcoin ETFs hit record losing streak - Sherwood News",
+          "url": "https://sherwood.news/crypto/bitcoin-falls-below-68-000-as-bitcoin-etfs-hit-record-losing-streak/",
+          "snippet": "Strategy’s sale of 32 bitcoin may be small in number but it’s big in impact on market sentiment. Shares of Strategy, which revealed on Monday it had s"
+        },
+        {
+          "title": "Bitcoin hits lowest since February as crypto competes for liquidity with blockbuster IPOs - CNBC",
+          "url": "https://www.cnbc.com/2026/06/03/bitcoin-crypto-ipos-market.html",
+          "snippet": "# Bitcoin hits lowest since February as crypto competes for liquidity with blockbuster IPOs. * Bitcoin has fallen to the lowest level since February. "
+        },
+        {
+          "title": "Bitcoin breakdown deepens as dominance signals point toward capitulation risk - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-06-04/bitcoin-breakdown-deepens-dominance-signals-point-toward-capitulation-risk",
+          "snippet": "# Bitcoin breakdown deepens as dominance signals point toward capitulation risk. Bitcoin fell to Daily TBO Support at $63,913 on Wednesday and continu"
+        },
+        {
+          "title": "Collapsing At An ‘Alarming Pace’—Sudden $2 Trillion Crypto Price Crash Sparks Bitcoin Panic - Forbes",
+          "url": "https://www.forbes.com/sites/digital-assets/2026/06/03/bitcoin-is-suddenly-braced-for-a-devastating-price-crash/",
+          "snippet": "The bitcoin price collapse, down almost 50% from its all-time high of $126,000 per bitcoin reached in October last year, has caused billionaire Mark C"
+        },
+        {
+          "title": "Bitcoin falls 4% to over three-month low - Reuters",
+          "url": "https://www.reuters.com/business/bitcoin-falls-4-over-three-month-low-2026-06-03/",
+          "snippet": "# Bitcoin falls 4% to over three-month low. June 3 (Reuters) - Bitcoin, ​the world's ‌largest ​cryptocurrency ​by market ⁠value, ​on ​Wednesday fell ​"
+        }
+      ],
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will Bitcoin dip to $58,000 June 1-7?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Bitcoin dip to $58,000 June 1-7?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -872,10 +803,10 @@
       "market": {
         "id": "2109450",
         "question": "US x Iran diplomatic meeting by June 30, 2026?",
-        "probability": 0.365,
-        "change_24h": -0.15,
-        "volume_24h": 68404.6,
-        "score": 154.84,
+        "probability": 0.395,
+        "change_24h": -0.09,
+        "volume_24h": 80759.8,
+        "score": 94.91,
         "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-june-30-2026-983-259-948"
       },
       "news": [
@@ -906,431 +837,95 @@
         }
       ],
       "insight": {
-        "category": "geopolitics",
+        "category": "politics",
         "en": {
-          "title": "US x Iran diplomatic meeting by June 30, 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "US-Iran Meeting Hopes Plummet Amid Escalation",
+          "summary": "The probability of a US-Iran diplomatic meeting by June 2026 dropped 9.0% to 40%, driven by escalating military conflict and President Trump's explicit rejection of a high-level meeting. Recent headlines report 'fresh strikes' between the US and Iran and Trump's insistence he 'doesn't want to meet Iranian supreme leader'.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Trump rejects meeting Iran's Supreme Leader",
+            "US and Iran exchange fresh strikes",
+            "Secretary Rubio testifies on 'Iran war'"
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects the volatile state of US-Iran relations, impacting regional stability and global oil markets. A diplomatic meeting could de-escalate tensions, while its absence signals continued confrontation.",
+          "bull_case": "Despite current tensions, a future administration or de-escalation efforts could still lead to a diplomatic meeting by 2026.",
+          "bear_case": "President Trump's explicit refusal to meet Iran's leader and ongoing military exchanges make a diplomatic meeting unlikely."
         },
         "zh": {
-          "title": "US x Iran diplomatic meeting by June 30, 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "美伊会谈希望因局势升级骤降",
+          "summary": "美伊两国在2026年6月30日前举行外交会晤的概率下降9.0%至40%，主要受军事冲突升级和特朗普总统明确拒绝高级别会晤的驱动。近期头条报道美伊“互发新一轮袭击”，且特朗普坚称“不想会见伊朗最高领袖”。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "特朗普拒绝会见伊朗最高领袖",
+            "美伊互发新一轮袭击",
+            "鲁比奥国务卿就“伊朗战争”作证"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映了美伊关系的高度不确定性，影响着地区稳定和全球石油市场。外交会晤可能缓和紧张局势，而其缺失则预示着持续对抗。",
+          "bull_case": "尽管局势紧张，未来政府或缓和努力仍可能促成2026年前的外交会晤。",
+          "bear_case": "特朗普明确拒绝会见伊朗领导人，加上持续军事冲突，使外交会晤可能性降低。"
         }
       }
     },
     {
       "market": {
-        "id": "2388936",
-        "question": "Will NVIDIA (NVDA) close at $210-$215 on the final day of trading of the week of Jun 1 – Jun 5?",
-        "probability": 0.345,
-        "change_24h": -0.15,
-        "volume_24h": 1127.24,
-        "score": 153.05,
-        "url": "https://polymarket.com/event/will-nvda-close-between-210-and-215-week-june-5-2026"
-      },
-      "news": [],
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will NVIDIA (NVDA) close at $210-$215 on the final day of trading of t",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will NVIDIA (NVDA) close at $210-$215 on the final day of trading of t",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "1961522",
-        "question": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
-        "probability": 0.632,
-        "change_24h": 0.1485,
-        "volume_24h": 22794.36,
-        "score": 152.86,
-        "url": "https://polymarket.com/event/will-no-qualifying-diplomatic-us-iran-meeting-occur-by-june-30-2026-673"
+        "id": "2388727",
+        "question": "Will Amazon (AMZN) finish week of June 1 above $255?",
+        "probability": 0.23,
+        "change_24h": -0.085,
+        "volume_24h": 1111.9,
+        "score": 88.05,
+        "url": "https://polymarket.com/event/amzn-above-255-on-june-5-2026"
       },
       "news": [
         {
-          "title": "‘No reason to. It’s entombed’: Trump insists US could get Iran’s uranium without a deal - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog-june-05-2026/amp/",
-          "snippet": "It’s entombed’: Trump insists US could get Iran’s uranium without a deal. ## US president says he doesn't want to meet Iranian supreme leader but woul"
+          "title": "Google Sends a Clear Signal - WSJ",
+          "url": "https://www.wsj.com/finance/stocks/google-sends-a-clear-signal-3120cd4f",
+          "snippet": "# Google Spends, Chips Win and Victoria’s Secret Shines | Markets P.M. for June 2 - WSJ. S&P 500 7609.78 0.13%. _This is an edition of the Markets P.M"
         },
         {
-          "title": "Trump says Iran talks continuing after state media reports halt - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/02/trump-says-iran-talks-continuing-after-state-media-reports-halt.html",
-          "snippet": "# Trump says Iran talks continuing after state media reports halt. Negotiations between the U.S. and Iran are coming under question, with Iranian stat"
+          "title": "Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,000 - MarketWatch",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-ai-optimism-nvidia-new-pc-superchip",
+          "snippet": "# Stock Market Today: Dow, S&P 500 set to extend longest win streaks of the year, while Nasdaq wavers; Alphabet, Microsoft slide; Bitcoin below $68,00"
         },
         {
-          "title": "Donald Trump claims US-Iran deal could be reached within the week - The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-898319",
-          "snippet": "# US-Iran negotiations 'going well,' could reach deal by weekend, Trump claims. US President Donald Trump, joined by lawmakers and healthcare industry"
+          "title": "Cipher Mining (NASDAQ:CIFR) Upgraded at Sanford C. Bernstein - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/cipher-mining-nasdaqcifr-upgraded-at-sanford-c-bernstein-2026-06-05/",
+          "snippet": "The Great AI Server Rotation Puts Hewlett Packard Enterprise and Super Micro Computer in Focus. Today's Stock of the Day (Ad). Rocket Lab Is Down 24% "
         },
-        {
-          "title": "Iran and the US both think they are winning the war. The truth is they are both losing | Sanam Vakil - The Guardian",
-          "url": "https://www.theguardian.com/commentisfree/2026/jun/04/iran-us-winning-war-truth-losing-ceasefire",
-          "snippet": "# Iran and the US both think they are winning the war. The ceasefire has held just enough to prevent a return to all-out war, but neither side is clos"
-        },
-        {
-          "title": "The Latest: Rubio testifies before Congress for the first time since the start of the Iran war - The Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/06/02/trump-rubio-iran-war-blanche-settlement-fund/390d66de-5e7d-11f1-9c46-d6211372eede_story.html",
-          "snippet": "# The Latest: Rubio testifies before Congress for the first time since the start of the Iran war. Secretary of State Marco Rubio is facing a litany of"
-        }
-      ],
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2350452",
-        "question": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $3.00 in June?",
-        "probability": 0.055,
-        "change_24h": -0.145,
-        "volume_24h": 1214.91,
-        "score": 148.08,
-        "url": "https://polymarket.com/event/will-open-dip-to-3-00-in-june-2026"
-      },
-      "news": [
         {
           "title": "Futures: Palo Alto Falls After Market Extends Win Streak - Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/",
           "snippet": "IBD 50IBD Sector LeadersIBD Big Cap 20IBD Long-Term LeadersIPO LeadersMy Stock ListsStock Lists UpdateStocks On The MoveNew HighsStock SpotlightStocks"
         },
         {
-          "title": "Opening Bell: June 4, 2026 - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/04/opening-bell-june-4-2026.html",
-          "snippet": "# Opening Bell: June 4, 2026. Watch the opening bell for the New York Stock Exchange, the Nasdaq and Cboe from June 4, 2026. SpaceX investors will get"
-        },
-        {
-          "title": "MCAP Inc. Announces $0.10 Quarterly Dividend Per Share - Financial Times",
-          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202606031316PR_NEWS_USPRX____NY75370-1",
-          "snippet": "### MCAP Inc. Announces $0.10 Quarterly Dividend Per Share. , June 3, 2026 /PRNewswire/ -- MCAP Inc. (OTC: MCAP) announced a $0.10 dividend. MCAP's Bo"
-        },
-        {
-          "title": "Helium and carbon hub drives U.S. Energy's Big Sky rebrand - Stock Titan",
-          "url": "https://www.stocktitan.net/news/USEG/u-s-energy-corp-announces-corporate-rebrand-to-big-sky-industrial-lkq0jfdyy8n6.html",
-          "snippet": "Announces Corporate Rebrand to Big Sky Industrial Inc. (NASDAQ: USEG)** will rebrand as **Big Sky Industrial Inc. (NASDAQ: BSIN)** effective June 8, 2"
-        },
-        {
-          "title": "Amazon Prime Дай 2026 акцияси 23-26-июн кунлари бўлиб ўтади - Zamin.uz",
-          "url": "https://zamin.uz/en/technology/204804-amazon-prime-day-2026-to-take-place-from-june-23-26.html",
-          "snippet": "# Amazon Prime Day 2026 to take place from June 23-26. Amazon announced on Tuesday that its annual Prime Day shopping event will take place from June "
+          "title": "Searching for the Best Deal Events of the Summer? We Have All the Details Here - CNET",
+          "url": "https://www.cnet.com/deals/best-deal-events-june-2026/",
+          "snippet": "# Searching for the Best Deal Events of the Summer? Score massive discounts on the best tech, home goods and more from all your favorite retailers thi"
         }
       ],
       "insight": {
-        "category": "other",
+        "category": "business",
         "en": {
-          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $3.00 in June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "AMZN Probability Dips Amid Tech Weakness",
+          "summary": "The probability of Amazon (AMZN) finishing above $255 by the week of June 1 dropped to 23% after an 8.5% decline. This movement was primarily driven by major tech peers like Alphabet and Microsoft sliding, causing the Nasdaq to waver.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Alphabet, Microsoft slide",
+            "Nasdaq wavers due to tech slide",
+            "Capital rotation to AI server hardware"
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "AMZN's performance is a key indicator for the broader tech and e-commerce sectors. Its movement reflects investor sentiment towards growth stocks amidst shifting tech trends.",
+          "bull_case": "Stronger-than-expected consumer spending or positive AWS news could quickly reverse AMZN's downward trend.",
+          "bear_case": "Continued weakness in major tech stocks and ongoing capital rotation will likely keep AMZN under pressure."
         },
         "zh": {
-          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $3.00 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "亚马逊概率下降，科技股承压",
+          "summary": "亚马逊(AMZN)在6月1日周末收盘价高于255美元的概率下降8.5%至23%。这主要是受Alphabet和微软等主要科技股下跌影响，导致纳斯达克指数波动。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Alphabet和微软股价下跌",
+            "纳斯达克指数因科技股下跌波动",
+            "资金转向AI服务器硬件"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "553829",
-        "question": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
-        "probability": 0.4485,
-        "change_24h": -0.14,
-        "volume_24h": 231566.51,
-        "score": 145.36,
-        "url": "https://polymarket.com/event/will-the-vegas-golden-knights-win-the-2026-nhl-stanley-cup"
-      },
-      "news": [],
-      "insight": {
-        "category": "sports",
-        "en": {
-          "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "701726",
-        "question": "Will Hyperliquid reach $100 by December 31, 2026?",
-        "probability": 0.395,
-        "change_24h": -0.135,
-        "volume_24h": 16984.07,
-        "score": 139.23,
-        "url": "https://polymarket.com/event/will-hyperliquid-reach-100-by-december-31-2026"
-      },
-      "news": [
-        {
-          "title": "Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceMobile Rises 10%, Planet Labs Climbs 9% - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/02/virgin-galactic-crashes-32-on-settlement-dilution-fears-ast-spacemobile-rises-10-planet-labs-climbs-9/",
-          "snippet": "Stock Market Live June 2, 2026: S&P 500 (SPY) Slips After Testing Record Highs. # Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceM"
-        },
-        {
-          "title": "Hyperscale Data Bitcoin Treasury Reaches Approximately 704.3405 Bitcoin – Company Announcement - Financial Times",
-          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202606020600PR_NEWS_USPRX____SF73392-1",
-          "snippet": "(NYSE American: GPUS), an artificial intelligence (\"**AI**\") data center company anchored by Bitcoin (\"**Hyperscale Data**\" or the \"**Company**\"), tod"
-        },
-        {
-          "title": "Goldman Sachs expects SpaceX's AI revenue to surge 100-fold by 2030, FT reports - Reuters",
-          "url": "https://www.reuters.com/business/media-telecom/goldman-sachs-expects-spacexs-ai-revenue-surge-100-fold-by-2030-ft-reports-2026-06-04/",
-          "snippet": "# Goldman Sachs expects SpaceX's AI revenue to surge 100-fold by 2030, FT reports. June 4 (Reuters) - Goldman Sachs (GS.N), opens new tab expects reve"
-        },
-        {
-          "title": "Opinion: The U.S. needs to address its debt problem - The Daily Utah Chronicle",
-          "url": "https://dailyutahchronicle.com/2026/06/04/opinion-the-u-s-needs-to-address-its-debt-problem/",
-          "snippet": "# The Daily Utah Chronicle. # Opinion: The U.S. needs to address its debt problem. The government’s spending habits are out of control. (Design by Par"
-        },
-        {
-          "title": "BW Gestao de Investimentos Ltda. Purchases New Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-bw-gestao-de-investimentos-ltda-purchases-new-holdings-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-03/",
-          "snippet": "Marvell Stock Soars on NVIDIA's Trillion-Dollar Nod. The Iran War Just Broke the Gold Market (Ad). Will the SpaceX IPO Put These 5 Public Space Stocks"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Hyperliquid reach $100 by December 31, 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Hyperliquid reach $100 by December 31, 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2411007",
-        "question": "Will Solana dip to $60 June 1-7?",
-        "probability": 0.1405,
-        "change_24h": 0.105,
-        "volume_24h": 21853.04,
-        "score": 109.34,
-        "url": "https://polymarket.com/event/will-solana-dip-to-60-june-1-7-2026"
-      },
-      "news": [
-        {
-          "title": "“Sentiment for crypto is firmly in the gutter” as sector sinks, with tokens hitting multiyear lows - Sherwood News",
-          "url": "https://sherwood.news/crypto/sentiment-for-crypto-is-firmly-in-the-gutter-as-sector-sinks-with-tokens-hitting-multiyear-lows/",
-          "snippet": "# “Sentiment for crypto is firmly in the gutter” as sector sinks, with tokens hitting multiyear lows. The tokens with the biggest losses in the last 2"
-        },
-        {
-          "title": "Bitcoin hits lowest since February as crypto competes for liquidity with blockbuster IPOs - CNBC",
-          "url": "https://www.cnbc.com/2026/06/03/bitcoin-crypto-ipos-market.html",
-          "snippet": "# Bitcoin hits lowest since February as crypto competes for liquidity with blockbuster IPOs. * Bitcoin has fallen to the lowest level since February. "
-        },
-        {
-          "title": "Stock Market Today: Indexes Are Mixed; Broadcom, Chip Stocks Weigh on Nasdaq But Dow Jumps; Oil Pulls Back on Israel-Lebanon Ceasefire Agreement - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06042026-11990727",
-          "snippet": "Markets News, June 1, 2026: Indexes Start Month With Fresh Record Highs as Nvidia-Driven Tech Gains Outweigh Surging Oil Prices. Markets News, May 29,"
-        },
-        {
-          "title": "Bitcoin breakdown deepens as dominance signals point toward capitulation risk - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-04/bitcoin-breakdown-deepens-dominance-signals-point-toward-capitulation-risk",
-          "snippet": "# Bitcoin breakdown deepens as dominance signals point toward capitulation risk. Bitcoin fell to Daily TBO Support at $63,913 on Wednesday and continu"
-        },
-        {
-          "title": "Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceMobile Rises 10%, Planet Labs Climbs 9% - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/02/virgin-galactic-crashes-32-on-settlement-dilution-fears-ast-spacemobile-rises-10-planet-labs-climbs-9/",
-          "snippet": "Stock Market Live June 2, 2026: S&P 500 (SPY) Slips After Testing Record Highs. # Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceM"
-        }
-      ],
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Will Solana dip to $60 June 1-7?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Solana dip to $60 June 1-7?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "1697101",
-        "question": "Will the Bank of Brazil decrease the Selic rate after June 2026 meeting?",
-        "probability": 0.7,
-        "change_24h": 0.105,
-        "volume_24h": 3806.41,
-        "score": 108.58,
-        "url": "https://polymarket.com/event/will-the-bank-of-brazil-decrease-the-selic-rate-after-june-2026-meeting"
-      },
-      "news": [],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will the Bank of Brazil decrease the Selic rate after June 2026 meetin",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the Bank of Brazil decrease the Selic rate after June 2026 meetin",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2371629",
-        "question": "Israeli forces enter Choukine by May 31?",
-        "probability": 0.0,
-        "change_24h": -0.096,
-        "volume_24h": 15147.27,
-        "score": 100.18,
-        "url": "https://polymarket.com/event/israeli-forces-enter-choukine-by-may-31"
-      },
-      "news": [
-        {
-          "title": "Israeli army captures strategic castle in Lebanon in deepest incursion into country in 26 years - The Daily Review",
-          "url": "https://www.thedailyreview.com/ap/international/israeli-army-captures-strategic-castle-in-lebanon-in-deepest-incursion-into-country-in-26-years/article_4d5f0951-70ce-5967-849b-3c09ca8cbf53.html",
-          "snippet": "## Israeli troops have captured a strategic mountain topped with a Crusader-built castle in southern Lebanon in their deepest incursion into the count"
-        },
-        {
-          "title": "Israel is building more military posts in Gaza, satellite imagery shows - Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/3/israel-is-building-more-military-posts-in-gaza-satellite-imagery-shows",
-          "snippet": "# Israel is building more military posts in Gaza, satellite imagery shows. *An investigation by Al Jazeera’s Open Source Unit has identified 40 distin"
-        },
-        {
-          "title": "'Dynamic defense': This is why Israeli forces withdrew from a southern Lebanon village - Ynetnews",
-          "url": "https://www.ynetnews.com/article/hk7aagjzzl",
-          "snippet": "# 'Dynamic defense': This is why IDF forces withdrew from a southern Lebanon village. ## IDF withdrew from Debin in southern Lebanon’s Marjeyoun regio"
-        },
-        {
-          "title": "Hezbollah Rejects Lebanon Cease-fire as Israeli Forces Prepare for 'Next Stage' - Haaretz",
-          "url": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-06-04/ty-article/.premium/hezbollah-rejects-lebanon-cease-fire-as-israeli-forces-prepare-for-next-stage/0000019e-92c0-db6c-adff-bafe1ae70000",
-          "snippet": "Haaretz - back to home page. # Hezbollah Rejects Lebanon Cease-fire as Israeli Forces Prepare for 'Next Stage'. Another Israeli source said that Israe"
-        },
-        {
-          "title": "Lebanon's World Heritage Sites Endangered Amid Ongoing War - ArchDaily",
-          "url": "https://www.archdaily.com/1042071/israels-invasion-of-lebanon-is-erasing-world-heritage-sites",
-          "snippet": "3. Lebanon's World Heritage Sites Endangered Amid Ongoing War. # Lebanon's World Heritage Sites Endangered Amid Ongoing War. Following over two years "
-        }
-      ],
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Israeli forces enter Choukine by May 31?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Israeli forces enter Choukine by May 31?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2421094",
-        "question": "Will Anthropic IPO by October 31, 2026?",
-        "probability": 0.65,
-        "change_24h": -0.095,
-        "volume_24h": 3704.06,
-        "score": 98.57,
-        "url": "https://polymarket.com/event/will-anthropic-ipo-by-october-31-2026"
-      },
-      "news": [],
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will Anthropic IPO by October 31, 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Anthropic IPO by October 31, 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "亚马逊的表现是衡量整体科技和电商行业的关键指标。其股价波动反映了投资者对成长型股票的信心以及科技趋势的变化。",
+          "bull_case": "消费者支出强劲或AWS利好消息可能迅速扭转亚马逊跌势。",
+          "bear_case": "主要科技股持续疲软和资金持续轮动将使亚马逊承压。"
         }
       }
     },
@@ -1338,10 +933,10 @@
       "market": {
         "id": "1720878",
         "question": "Will SpaceX raise between $70B and $80B in its IPO?",
-        "probability": 0.775,
-        "change_24h": -0.09,
-        "volume_24h": 6277.26,
-        "score": 93.8,
+        "probability": 0.79,
+        "change_24h": -0.075,
+        "volume_24h": 9041.27,
+        "score": 78.96,
         "url": "https://polymarket.com/event/will-spacex-raise-between-70b-and-80b-in-its-ipo"
       },
       "news": [
@@ -1356,9 +951,9 @@
           "snippet": "3. Best money market accounts. # Exclusive-SpaceX plans to set IPO price at $135 per share, targeting record $75 billion raise, source says. NEW YORK,"
         },
         {
-          "title": "SpaceX's IPO is set to be the biggest ever and could make Elon Musk a trillionaire - Newswav",
-          "url": "https://newswav.com/article/spacex-s-ipo-is-set-to-be-the-biggest-ever-and-could-make-elon-musk-a-trill-A2606_cdTFnc",
-          "snippet": "# SpaceX's IPO is set to be the biggest ever and could make Elon Musk a trillionaire. One of the longest-running English broadsheets in the Philippine"
+          "title": "Analysts wary as SpaceX sets $75 billion IPO price - Telecoms",
+          "url": "https://www.telecoms.com/satellite/analysts-wary-as-spacex-sets-75-billion-ipo-price",
+          "snippet": "SpaceX aims to raise US$75 billion in its upcoming IPO, it revealed this week, valuing the company as a whole at $1.77 trillion. But while the satelli"
         },
         {
           "title": "Exclusive: SpaceX plans to raise $75 billion in IPO at $135 per share, source says - Reuters",
@@ -1393,45 +988,45 @@
     },
     {
       "market": {
-        "id": "2350169",
-        "question": "Will Apple (AAPL) hit (HIGH) $328 in June?",
-        "probability": 0.545,
-        "change_24h": 0.085,
-        "volume_24h": 509.0,
-        "score": 87.71,
-        "url": "https://polymarket.com/event/will-aapl-reach-328-in-june-2026"
+        "id": "1961522",
+        "question": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
+        "probability": 0.587,
+        "change_24h": 0.072,
+        "volume_24h": 15807.3,
+        "score": 76.2,
+        "url": "https://polymarket.com/event/will-no-qualifying-diplomatic-us-iran-meeting-occur-by-june-30-2026-673"
       },
       "news": [
         {
-          "title": "Apple's Biggest AI Test Arrives June 8. Here's What's Really at Stake at WWDC. - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/06/02/apple-biggest-ai-test-june-8-whats-stake-wwdc/",
-          "snippet": "On June 8, 2026, **Apple** (AAPL 1.74%) will hold its annual Worldwide Developers Conference (WWDC), the company's flagship event where it typically a"
+          "title": "‘No reason to. It’s entombed’: Trump insists US could get Iran’s uranium without a deal - The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-june-05-2026/amp/",
+          "snippet": "It’s entombed’: Trump insists US could get Iran’s uranium without a deal. ## US president says he doesn't want to meet Iranian supreme leader but woul"
         },
         {
-          "title": "Futures: Palo Alto Falls After Market Extends Win Streak - Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/",
-          "snippet": "IBD 50IBD Sector LeadersIBD Big Cap 20IBD Long-Term LeadersIPO LeadersMy Stock ListsStock Lists UpdateStocks On The MoveNew HighsStock SpotlightStocks"
+          "title": "Iran Studying Deal to Halt War With U.S. as Stalemate Persists - Haaretz",
+          "url": "https://www.haaretz.com/middle-east-news/iran/2026-06-02/ty-article/iran-studying-deal-to-halt-war-with-u-s-as-stalemate-persists/0000019e-88f8-db6c-adff-b8fed1c90000",
+          "snippet": "# Iran Studying Deal to Halt War With U.S. as Stalemate Persists. Iran has not yet responded to a final memorandum of understanding proposal, and was "
         },
         {
-          "title": "Foul-mouthed UFC champion banned from UFC Freedom 250 - MMA Mania",
-          "url": "https://www.mmamania.com/latest-news/447973/foul-mouthed-ufc-champion-sean-strickland-banned-from-ufc-freedom-250",
-          "snippet": "NEWARK, NEW JERSEY - MAY 09: Sean Strickland prepares to face Khamzat Chimaev of Russia in the UFC middleweight championship fight during the UFC 328 "
+          "title": "Donald Trump claims US-Iran deal could be reached within the week - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-898319",
+          "snippet": "# US-Iran negotiations 'going well,' could reach deal by weekend, Trump claims. US President Donald Trump, joined by lawmakers and healthcare industry"
         },
         {
-          "title": "Sustainable Growth Advisers LP Sells 148,028 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-sustainable-growth-advisers-lp-sells-148028-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-06-02/",
-          "snippet": "Why These Three Big Buybacks Are Sending Very Different Signals to Investors. One page of the SpaceX S-1 will move this stock overnight (Ad). Drone St"
+          "title": "Iran and the US both think they are winning the war. The truth is they are both losing | Sanam Vakil - The Guardian",
+          "url": "https://www.theguardian.com/commentisfree/2026/jun/04/iran-us-winning-war-truth-losing-ceasefire",
+          "snippet": "# Iran and the US both think they are winning the war. The ceasefire has held just enough to prevent a return to all-out war, but neither side is clos"
         },
         {
-          "title": "Geode Capital Management LLC Has $319 Million Stake in Hecla Mining Company $HL - MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-geode-capital-management-llc-has-319-million-stake-in-hecla-mining-company-hl-2026-06-02/",
-          "snippet": "Why These Three Big Buybacks Are Sending Very Different Signals to Investors. One page of the SpaceX S-1 will move this stock overnight (Ad). Drone St"
+          "title": "Trump news at a glance: US and Iran exchange fresh strikes - The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jun/02/trump-news-latest-updates-today",
+          "snippet": "Trump’s attempts to secure a new ceasefire agreement with Tehran remain in jeopardy – key US politics stories from Tuesday 2 June. The US and Iran hav"
         }
       ],
       "insight": {
-        "category": "other",
+        "category": "geopolitics",
         "en": {
-          "title": "Will Apple (AAPL) hit (HIGH) $328 in June?",
+          "title": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1439,7 +1034,240 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Apple (AAPL) hit (HIGH) $328 in June?",
+          "title": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2402894",
+        "question": "Will the price of Ethereum be above $1,900 on June 7?",
+        "probability": 0.02,
+        "change_24h": -0.07,
+        "volume_24h": 17922.16,
+        "score": 74.25,
+        "url": "https://polymarket.com/event/ethereum-above-1900-on-june-7-2026"
+      },
+      "news": [
+        {
+          "title": "As Bitcoin Sinks, It's Time for Ethereum to Outperform: Standard Chartered - Decrypt",
+          "url": "https://decrypt.co/369803/bitcoin-sinks-time-ethereum-outperform-standard-chartered",
+          "snippet": "## Bitcoin is falling following Strategy's first BTC sale since 2022—and one analyst sees that as a good thing for Ethereum. * Standard Chartered's Ge"
+        },
+        {
+          "title": "Crypto Market News: AlphaPepe To Announce First CEX Partnership as XRP Price Prediction Hits $8.00 - markets.businessinsider.com",
+          "url": "https://markets.businessinsider.com/news/stocks/crypto-market-news-alphapepe-to-announce-first-cex-partnership-as-xrp-price-prediction-hits-8-00-1036227158",
+          "snippet": "# Crypto Market News: AlphaPepe To Announce First CEX Partnership as XRP Price Prediction Hits $8.00. MONACO, June 04, 2026 (GLOBE NEWSWIRE) -- Crypto"
+        },
+        {
+          "title": "Cardano Falls To 6-Year Low Amid Crypto Pessimism - Forbes",
+          "url": "https://www.forbes.com/sites/tylerroush/2026/06/03/cardano-once-the-third-largest-cryptocurrency-hits-6-year-low-heres-why/",
+          "snippet": "Cardano’s ADA token, once the world’s third-largest cryptocurrency, extended losses on Wednesday as it traded near a six-year low following the cancel"
+        },
+        {
+          "title": "Crypto Market News: AlphaPepe Presale Gathers Pace While Bitcoin Price Prediction Targets $50,000 Support - markets.businessinsider.com",
+          "url": "https://markets.businessinsider.com/news/stocks/crypto-market-news-alphapepe-presale-gathers-pace-while-bitcoin-price-prediction-targets-50-000-support-1036219669",
+          "snippet": "# Crypto Market News: AlphaPepe Presale Gathers Pace While Bitcoin Price Prediction Targets $50,000 Support. MONACO, June 02, 2026 (GLOBE NEWSWIRE) --"
+        },
+        {
+          "title": "Philadelphia to celebrate Pride on Sunday, June 7 at annual march and festival - CBS News",
+          "url": "https://www.cbsnews.com/philadelphia/video/philadelphia-to-celebrate-pride-on-sunday-june-7-at-annual-march-and-festival/",
+          "snippet": "* Send Us a News Tip. # Philadelphia to celebrate Pride on Sunday, June 7 at annual march and festival. Philadelphia will put its pride on display at "
+        }
+      ],
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will the price of Ethereum be above $1,900 on June 7?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the price of Ethereum be above $1,900 on June 7?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2350269",
+        "question": "Will Microsoft Corporation (MSFT) hit (LOW) $405 in June?",
+        "probability": 0.495,
+        "change_24h": -0.07,
+        "volume_24h": 3765.32,
+        "score": 73.58,
+        "url": "https://polymarket.com/event/will-msft-dip-to-405-in-june-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Will Microsoft Corporation (MSFT) hit (LOW) $405 in June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Microsoft Corporation (MSFT) hit (LOW) $405 in June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2412370",
+        "question": "Will Qatar recognize Israel by December 31?",
+        "probability": 0.08,
+        "change_24h": -0.065,
+        "volume_24h": 1389.82,
+        "score": 68.14,
+        "url": "https://polymarket.com/event/will-qatar-recognize-israel-by-december-31"
+      },
+      "news": [
+        {
+          "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/2026-06-03/live-updates-898171",
+          "snippet": "# Live Updates: Netanyahu says he will let Trump decide on more strikes against Iran as Lebanon talks resume. ## Kuwait diverts flights following Iran"
+        },
+        {
+          "title": "British Airways extends flight cancellations to Israel through the end of October - The Jerusalem Post",
+          "url": "https://www.jpost.com/business-and-innovation/all-news/article-898198",
+          "snippet": "# British Airways extends flight cancellations to Israel through the end of October. ## British Airways extends flight cancellations to Israel through"
+        },
+        {
+          "title": "US Embassy warns Americans across Middle East as Iran ceasefire frays - Ynetnews",
+          "url": "https://www.ynetnews.com/article/bj5pob1bge",
+          "snippet": "# US Embassy warns Americans across Middle East as Iran ceasefire frays. ## Alert tells US citizens in Israel, the Gulf and other regional countries t"
+        },
+        {
+          "title": "Israel to send 2 delegations to UAE next week as ties strengthen amid Iran war - The Times of Israel",
+          "url": "https://www.timesofisrael.com/israel-to-send-2-delegations-to-uae-next-week-as-ties-strengthen-amid-iran-war/",
+          "snippet": "# Israel to send 2 delegations to UAE next week as ties strengthen amid Iran war. ## Unnamed official says delegations to include transport ministry t"
+        },
+        {
+          "title": "Huckabee says next US-Israel security pact will end direct aid - Ynetnews",
+          "url": "https://www.ynetnews.com/article/skuimhhgfg",
+          "snippet": "# Huckabee says next US-Israel security pact will end direct aid. ## US ambassador says new security memorandum after 2028 will shift from annual US g"
+        }
+      ],
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will Qatar recognize Israel by December 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Qatar recognize Israel by December 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2350497",
+        "question": "Will Coinbase Global, Inc. (COIN) hit (LOW) $150 in June?",
+        "probability": 0.75,
+        "change_24h": 0.06,
+        "volume_24h": 657.01,
+        "score": 62.82,
+        "url": "https://polymarket.com/event/will-coin-dip-to-150-in-june-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (LOW) $150 in June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (LOW) $150 in June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2388934",
+        "question": "Will Tesla (TSLA) finish week of June 1 above $470?",
+        "probability": 0.0165,
+        "change_24h": -0.059,
+        "volume_24h": 1126.2,
+        "score": 62.05,
+        "url": "https://polymarket.com/event/tsla-above-470-on-june-5-2026"
+      },
+      "news": [
+        {
+          "title": "JP Morgan upgrades Tesla to 'neutral', sees robotics driving long-term growth - Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/jp-morgan-upgrades-tesla-neutral-sees-robotics-driving-long-term-growth-2026-06-05/",
+          "snippet": "June 5 (Reuters) - J.P. Morgan upgraded Elon Musk-led Tesla (TSLA.O), opens new tab to \"neutral\" from \"underweight\" on Friday, citing that the electri"
+        },
+        {
+          "title": "Futures: Palo Alto Falls After Market Extends Win Streak - Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/",
+          "snippet": "IBD 50IBD Sector LeadersIBD Big Cap 20IBD Long-Term LeadersIPO LeadersMy Stock ListsStock Lists UpdateStocks On The MoveNew HighsStock SpotlightStocks"
+        },
+        {
+          "title": "SpaceX’s Target Valuation Lowered Again. Why That’s a Red Flag for the Stock Market. - Barron's",
+          "url": "https://www.barrons.com/articles/spacex-ipo-stock-valuation-lowered-33633e8a",
+          "snippet": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyrig"
+        },
+        {
+          "title": "SpaceX targets fixed $135 IPO roadshow price at $1.75 trillion valuation, source says - CNBC",
+          "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+          "snippet": "# SpaceX targets fixed $135 IPO roadshow price at $1.75 trillion valuation, source says. * SpaceX plans to market its IPO at a fixed price of $135 per"
+        },
+        {
+          "title": "SpaceX Has Set Terms for Its Massive IPO: Orders, Listing, What Happens Next - Barron's",
+          "url": "https://www.barrons.com/articles/spacex-ipo-space-exploration-offering-8d846645",
+          "snippet": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyrig"
+        }
+      ],
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Will Tesla (TSLA) finish week of June 1 above $470?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Tesla (TSLA) finish week of June 1 above $470?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1452,13 +1280,39 @@
       "market": {
         "id": "2298908",
         "question": "Will SpaceX's valuation hit (HIGH) $3.5T by June 30?",
-        "probability": 0.134,
-        "change_24h": 0.0795,
-        "volume_24h": 9330.09,
-        "score": 83.47,
+        "probability": 0.1085,
+        "change_24h": 0.052,
+        "volume_24h": 11133.85,
+        "score": 56.05,
         "url": "https://polymarket.com/event/will-spacexs-valuation-hit-high-3pt5t-by-june-30"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "SpaceX Targets $75 Billion For IPO—Valuing Company Above $1.75 Trillion - Forbes",
+          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/06/03/spacex-targets-75-billion-for-ipo-valuing-company-above-175-trillion/",
+          "snippet": "# SpaceX Targets $75 Billion For IPO—Valuing Company Above $1.75 Trillion. Elon Musk’s SpaceX is aiming to raise $75 billion in its highly anticipated"
+        },
+        {
+          "title": "Ark Invest owns SpaceX in its venture ETF. It says Starlink alone supports $2 trillion value at IPO - CNBC",
+          "url": "https://www.cnbc.com/2026/06/04/ark-invest-owns-spacex-in-its-venture-etf-it-says-starlink-alone-supports-2-trillion-value-at-ipo.html",
+          "snippet": "SpaceX's long-awaited public debut could rank among the most significant stock offerings in history, according to Brett Winton, chief futurist at ARK "
+        },
+        {
+          "title": "SpaceX valuation faces \"narrative premium\" controversy: PitchBook considers 1.5 trillion USD reasonable, anything higher is \"absurd\". - Bitget",
+          "url": "https://www.bitget.com/amp/news/detail/12560605441322",
+          "snippet": "SpaceX valuation faces \"narrative premium\" controversy: PitchBook considers 1.5 trillion USD reasonable, anything higher is \"absurd\". (1) SpaceX is ab"
+        },
+        {
+          "title": "Wall St Week Ahead Blockbuster SpaceX IPO set to test high-flying US stocks rally - Reuters",
+          "url": "https://www.reuters.com/business/wall-st-week-ahead-blockbuster-spacex-ipo-set-test-high-flying-us-stocks-rally-2026-06-05/",
+          "snippet": "* IPO for Elon Musk's SpaceX expected on June 12. NEW YORK, June 5 (Reuters) - The long-awaited, massive SpaceX initial public offering is expected ne"
+        },
+        {
+          "title": "SpaceX says its worth $1.75tn as it nears stock market debut - BBC",
+          "url": "https://www.bbc.com/news/articles/cvgz237n40jo",
+          "snippet": "Elon Musk's SpaceX has said it is even more valuable than anticipated as it approaches a public stock listing set for next week. In an filing with the"
+        }
+      ],
       "insight": {
         "category": "business",
         "en": {
@@ -1471,185 +1325,6 @@
         },
         "zh": {
           "title": "Will SpaceX's valuation hit (HIGH) $3.5T by June 30?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2389149",
-        "question": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.50 Week of June 1 2026?",
-        "probability": 0.455,
-        "change_24h": -0.08,
-        "volume_24h": 1574.26,
-        "score": 83.2,
-        "url": "https://polymarket.com/event/will-open-dip-to-4-50-by-june-1-2026"
-      },
-      "news": [
-        {
-          "title": "Rosen Law Firm Encourages DNOW Inc. Investors to Inquire About S - GuruFocus",
-          "url": "https://www.gurufocus.com/news/8895448/rosen-law-firm-encourages-dnow-inc-investors-to-inquire-about-securities-class-action-investigation-dnow",
-          "snippet": "# Rosen Law Firm Encourages DNOW Inc. Investors to Inquire About S. Stock IdeasAll-In-One ScreenerS&P 500 MapS&P 500 BubbleS&P 500 AggregateTop GF Sco"
-        },
-        {
-          "title": "Opening Bell: June 4, 2026 - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/04/opening-bell-june-4-2026.html",
-          "snippet": "# Opening Bell: June 4, 2026. Watch the opening bell for the New York Stock Exchange, the Nasdaq and Cboe from June 4, 2026. SpaceX investors will get"
-        },
-        {
-          "title": "Opening Bell: June 2, 2026 - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/02/opening-bell-june-2-2026.html",
-          "snippet": "# Opening Bell: June 2, 2026. Watch the opening bell for the New York Stock Exchange, the Nasdaq and Cboe from June 2, 2026. Trump picks housing chief"
-        },
-        {
-          "title": "Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceMobile Rises 10%, Planet Labs Climbs 9% - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/02/virgin-galactic-crashes-32-on-settlement-dilution-fears-ast-spacemobile-rises-10-planet-labs-climbs-9/",
-          "snippet": "Stock Market Live June 2, 2026: S&P 500 (SPY) Slips After Testing Record Highs. # Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceM"
-        },
-        {
-          "title": "Opening Bell: June 3, 2026 - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/03/opening-bell-june-3-2026.html",
-          "snippet": "# Opening Bell: June 3, 2026. Watch the opening bell for the New York Stock Exchange, the Nasdaq and Cboe from June 3, 2026. Sen. Elizabeth Warren on "
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.50 Week of June 1 ",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.50 Week of June 1 ",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2389263",
-        "question": "Will S&P 500 (SPY) hit (LOW) $725 Week of June 1 2026?",
-        "probability": 0.0055,
-        "change_24h": -0.0745,
-        "volume_24h": 43529.99,
-        "score": 79.14,
-        "url": "https://polymarket.com/event/will-spy-dip-to-725-by-june-1-2026"
-      },
-      "news": [
-        {
-          "title": "Stock Market Today: Indexes Are Mixed; Broadcom, Chip Stocks Weigh on Nasdaq But Dow Jumps; Oil Pulls Back on Israel-Lebanon Ceasefire Agreement - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06042026-11990727",
-          "snippet": "Markets News, June 1, 2026: Indexes Start Month With Fresh Record Highs as Nvidia-Driven Tech Gains Outweigh Surging Oil Prices. Markets News, May 29,"
-        },
-        {
-          "title": "Stock Market Could Crash In June (NYSEARCA:SPY) - Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4910915-stock-market-could-crash-in-june",
-          "snippet": "* The S&P 500 is approaching the highest valuation ever, led by tech, so it's a major bubble. * The Iran war is likely to cause an inflationary shock,"
-        },
-        {
-          "title": "Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceMobile Rises 10%, Planet Labs Climbs 9% - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/02/virgin-galactic-crashes-32-on-settlement-dilution-fears-ast-spacemobile-rises-10-planet-labs-climbs-9/",
-          "snippet": "Stock Market Live June 2, 2026: S&P 500 (SPY) Slips After Testing Record Highs. # Virgin Galactic Crashes 32% on Settlement Dilution Fears, AST SpaceM"
-        },
-        {
-          "title": "Futures: Palo Alto Falls After Market Extends Win Streak - Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/",
-          "snippet": "IBD 50IBD Sector LeadersIBD Big Cap 20IBD Long-Term LeadersIPO LeadersMy Stock ListsStock Lists UpdateStocks On The MoveNew HighsStock SpotlightStocks"
-        },
-        {
-          "title": "Magnificent Seven Slide as Alphabet's Stock Issuance Plan Raises AI Spending Fears - Barron's",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-060226/card/magnificent-seven-slide-as-alphabet-s-stock-issuance-plan-raises-ai-spending-fears-OlkeKDuXWCuqnT1QwI6G",
-          "snippet": "# Magnificent Seven Slide as Alphabet's Stock Issuance Plan Raises AI Spending Fears. ## Image 8: Barron's. DJIA Futures 51392.00 -0.02%. S&P 500 Futu"
-        }
-      ],
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Market Rejects Crash Fears, Hits Records",
-          "summary": "The probability of SPY hitting $725 by June 2026 significantly decreased, as the S&P 500 started June with fresh record highs, driven by strong tech performance. Geopolitical de-escalation with the Israel-Lebanon ceasefire also reduced market risk.",
-          "drivers": [
-            "S&P 500 reached fresh record highs.",
-            "Nvidia-driven tech gains boosted indexes.",
-            "Israel-Lebanon ceasefire eased oil prices."
-          ],
-          "why_matters": "This movement indicates strong underlying market resilience and investor confidence, despite some valuation concerns and sector-specific pullbacks.",
-          "bull_case": "Continued tech innovation and easing geopolitical risks will sustain market highs, making a $725 crash highly improbable.",
-          "bear_case": "Extreme valuations and potential tech sector weakness, like Alphabet's issuance, could still trigger a sharp correction."
-        },
-        "zh": {
-          "title": "市场拒绝崩盘，创历史新高",
-          "summary": "标普500指数在6月初创下历史新高，受强劲科技股表现推动，导致其在2026年6月触及725美元低点的可能性大幅下降。以色列-黎巴嫩停火协议也缓解了地缘政治风险。",
-          "drivers": [
-            "标普500指数创历史新高。",
-            "英伟达领涨科技股提振指数。",
-            "以色列-黎巴嫩停火油价回落。"
-          ],
-          "why_matters": "这一走势表明市场具有强大的韧性和投资者信心，尽管存在估值担忧和部分板块回调。",
-          "bull_case": "科技创新与地缘风险缓解，支撑市场高位，725美元崩盘极不可能。",
-          "bear_case": "极端估值和科技股疲软（如Alphabet发行）仍可能引发剧烈回调。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2009765",
-        "question": "Will China GDP growth in Q2 2026 be between 4.6% and 4.9%?",
-        "probability": 0.745,
-        "change_24h": 0.065,
-        "volume_24h": 911.83,
-        "score": 67.96,
-        "url": "https://polymarket.com/event/will-china-gdp-growth-in-q2-2026-be-between-4pt6-and-4pt9"
-      },
-      "news": [
-        {
-          "title": "Trump Moves To End Two-Year U.S. Ambassador Vacuum In Cambodia With Christopher Anderson Nomination - Cambodia Investment Review",
-          "url": "https://cambodiainvestmentreview.com/2026/06/02/trump-moves-to-end-two-year-u-s-ambassador-vacuum-in-cambodia-with-christopher-anderson-nomination/",
-          "snippet": "* Last Update June 2, 2026 5:17 pm. ## Cambodia’s Economic Growth Policy Dialogue Highlights New Techo International Airport, Rising Startup Ecosystem"
-        },
-        {
-          "title": "Trump Nominates Christopher J. Anderson (Chris Anderson) As U.S. Ambassador To Cambodia, Ending Years-Long Vacancy 2026 - Cambodia Investment Review",
-          "url": "https://cambodiainvestmentreview.com/2026/06/02/trump-nominates-christopher-j-anderson-chris-anderson-as-u-s-ambassador-to-cambodia-ending-years-long-vacancy-2026/",
-          "snippet": "* Last Update June 2, 2026 9:42 pm. ## Cambodia’s Economic Growth Policy Dialogue Highlights New Techo International Airport, Rising Startup Ecosystem"
-        },
-        {
-          "title": "OECD says protracted war could drag on global growth, push up inflation - Reuters",
-          "url": "https://www.reuters.com/business/energy/oecd-says-protracted-war-could-drag-global-growth-push-up-inflation-2026-06-03/",
-          "snippet": "* Global growth seen at 2.8% in 2026, 3.1% in 2027. * U.S. growth seen easing to 2.0% in 2026, 1.8% in 2027. In ​that baseline scenario, global growth"
-        },
-        {
-          "title": "Wildlife Alliance Founder Suwanna Gauntlett Steps Aside After 25 Years, COO John Willis Named New CEO - Cambodia Investment Review",
-          "url": "https://cambodiainvestmentreview.com/2026/06/04/wildlife-alliance-founder-suwanna-gauntlett-steps-aside-after-25-years-coo-john-willis-named-new-ceo/",
-          "snippet": "* Last Update June 4, 2026 11:33 am. ## Cambodia’s Economic Growth Policy Dialogue: Cambodia Faces ‘Perfect Storm’ of Economic Headwinds in 2026, Expe"
-        },
-        {
-          "title": "Green Season Tourism Exhibition & Business Networking Events Set For June 5-6 In Phnom Penh - Cambodia Investment Review",
-          "url": "https://cambodiainvestmentreview.com/2026/06/05/green-season-tourism-exhibition-business-networking-events-set-for-june-5-6-in-phnom-penh/",
-          "snippet": "* Last Update June 5, 2026 9:12 am. ## Cambodia’s Economic Growth Policy Dialogue Highlights New Techo International Airport, Rising Startup Ecosystem"
-        }
-      ],
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Will China GDP growth in Q2 2026 be between 4.6% and 4.9%?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will China GDP growth in Q2 2026 be between 4.6% and 4.9%?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
