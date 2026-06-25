@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T21:01:04.376236+00:00",
-  "generated_at_readable": "Jun 24, 2026 21:01 UTC",
+  "generated_at": "2026-06-25T07:01:41.416860+00:00",
+  "generated_at_readable": "Jun 25, 2026 07:01 UTC",
   "topics": [
     {
       "market": {
@@ -40,22 +40,30 @@
         }
       ],
       "insight": {
-        "category": "other",
+        "category": "economy",
         "en": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $97.50 Week of June 22 2",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "HOOD Plunges Amid Tech Sell-Off",
+          "summary": "The probability for Robinhood (HOOD) to hit a $97.50 low by June 22, 2026, surged to 100% following widespread weakness in the tech sector. Reports indicate 'Big Tech Stocks Weigh on Nasdaq' and 'SpaceX Falls To Lowest Close Ever', signaling a severe downturn.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Big Tech stocks weighing on Nasdaq",
+            "SpaceX falls to lowest close ever",
+            "Broad tech sector downturn deepens"
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This movement reflects a significant shift in investor sentiment towards tech and growth stocks, potentially indicating a broader market correction. Robinhood's vulnerability to such downturns is highlighted.",
+          "bull_case": "Continued tech sector weakness and negative investor sentiment will ensure HOOD touches the $97.50 low this week.",
+          "bear_case": "A sudden market rebound or unexpected positive news for Robinhood could prevent the stock from hitting $97.50."
         },
         "zh": {
-          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $97.50 Week of June 22 2",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "HOOD股价因科技股抛售暴跌",
+          "summary": "Robinhood (HOOD) 股价在2026年6月22日当周触及97.50美元低点的可能性飙升至100%。这主要受科技板块普遍疲软驱动，报道称“大型科技股拖累纳斯达克”且“SpaceX跌至历史最低收盘价”。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "大型科技股拖累纳斯达克指数",
+            "SpaceX股价跌至历史最低",
+            "科技板块普遍下行趋势加剧"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "此举反映了投资者对科技和成长股情绪的重大转变，可能预示着更广泛的市场调整。它也凸显了Robinhood在此类市场下行中的脆弱性。",
+          "bull_case": "科技板块持续疲软和负面情绪将确保HOOD本周触及97.50美元低点。",
+          "bear_case": "市场突然反弹或Robinhood意外利好消息可能阻止股价跌至97.50美元。"
         }
       }
     },
@@ -65,62 +73,127 @@
         "question": "Will Bitcoin dip to $60,000 June 22-28?",
         "probability": 1.0,
         "change_24h": 0.6495,
-        "volume_24h": 82133.26,
-        "score": 654.41,
+        "volume_24h": 75473.77,
+        "score": 654.38,
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-60k-june-22-28-2026"
       },
       "news": [
         {
+          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/bitcoin-falls-back-under-60000-hitting-its-lowest-level-since-october-2024.html",
+          "snippet": "# Bitcoin falls back under $60,000, hitting its lowest level since October 2024. * Bitcoin hit a low of $59,023.98 on Wednesday, its lowest level sinc"
+        },
+        {
+          "title": "5 Market Signals Reveal How AI Stocks, Oil and Bitcoin Shook Wall Street - Bitcoin News",
+          "url": "https://news.bitcoin.com/5-market-signals-reveal-how-ai-stocks-oil-and-bitcoin-shook-wall-street-37856/",
+          "snippet": "**Markets split sharply on Wednesday as lower oil prices eased inflation fears, but pressure on technology stocks, crypto assets and precious metals k"
+        },
+        {
+          "title": "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
+          "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
+        },
+        {
+          "title": "Bitcoin crashes, odds turn darker as MSTR, APLD lead crypto-stocks bloodbath - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4606902-bitcoin-crashes-but-odds-turn-darker-as-mstr-apld-lead-crypto-stocks-bloodbath",
+          "snippet": "## Stock Analysis. ## Market News. Jun 24, 2026, 3:22 PM ETBitcoin USD (BTC-USD) Crypto, BTC, MSTR Stock, MSTR:CA Stock, APLD Stock, IREN Stock, CIFR "
+        },
+        {
           "title": "Markets News, June 22, 2026: Dow Ekes Out Gain as Big Tech Stocks Weigh on Nasdaq; SpaceX Falls To Lowest Close Ever - Investopedia",
           "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06222026-12003699",
           "snippet": "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal. Markets News, June 15, 2026: Stocks Su"
-        },
-        {
-          "title": "SpaceX tests new vehicle, Swift gets a lift - Astronomy Magazine",
-          "url": "https://www.astronomy.com/whats-launching-this-week/spacex-tests-new-vehicle-swift-gets-a-lift/",
-          "snippet": "+ What’s Launching This Week. Here's what's launching June 22–28: SpaceX debuts its uncrewed Starfall cargo return demonstrator from Florida while a P"
-        },
-        {
-          "title": "Weekly Horoscope June 22-28, 2026: Mars in Gemini Is About Conflict and Passion - Teen Vogue",
-          "url": "https://www.teenvogue.com/story/weekly-horoscope-june-22-28-2026",
-          "snippet": "# Weekly Horoscope June 22-28, 2026: Mars in Gemini Is About Conflict and Passion. Here's what the stars have in store for you this week. Your weekly "
-        },
-        {
-          "title": "Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-nears-third-cex-partnership-as-ethereum-price-prediction-targets-7-000-1036267085",
-          "snippet": "# Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000. MONACO, June 22, 2026 (GLOBE NEWSWIRE) -- Cryp"
-        },
-        {
-          "title": "Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-22/crypto-swot-prediction-markets-have-experienced-surge-activity-during-fifa-world",
-          "snippet": "# Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup. * More than 200 crypto firms have urged the U.S. Sen"
         }
       ],
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Dip Confirmed",
-          "summary": "The probability for Bitcoin dipping to $60,000 by June 28 surged to 100% as broader market weakness, particularly in tech stocks, likely triggered a confirmed price drop. Nasdaq's decline and SpaceX's record low close fueled investor risk aversion.",
+          "title": "Bitcoin Dips Below $60K",
+          "summary": "Bitcoin's price has already fallen below $60,000 to $59,023.98 on Wednesday, June 24, 2026, confirming the dip within the specified period. This sharp decline unwound the 'debasement trade' amid broader market pressures.",
           "drivers": [
-            "Nasdaq tech stock decline: Big Tech stocks weighed on Nasdaq, signaling broader market weakness.",
-            "SpaceX stock hits record low: SpaceX fell to its lowest close ever, indicating significant corporate distress.",
-            "Bitcoin price confirmed $60k dip: The 100% probability indicates Bitcoin likely already touched $60,000 on June 22."
+            "Bitcoin hit $59,023.98 on June 24, falling below $60,000.",
+            "Broader crypto-stocks bloodbath led by MSTR and APLD.",
+            "Unwinding of 'debasement trade' as markets price in Fed rate hikes."
           ],
-          "why_matters": "A confirmed Bitcoin dip to $60,000 could signal a broader bearish trend for cryptocurrencies, impacting investor confidence and market stability.",
-          "bull_case": "Despite the current dip, strong underlying crypto fundamentals and Ethereum's target of $7,000 could quickly reverse Bitcoin's price.",
-          "bear_case": "Persistent weakness in tech stocks and broader economic concerns will continue to exert downward pressure on Bitcoin, keeping it below $60,000."
+          "why_matters": "This significant drop signals a major shift in crypto market dynamics, impacting investor confidence and broader financial stability. It reflects a broader unwinding of risk assets.",
+          "bull_case": "Bitcoin already fell to $59,023.98 on June 24, confirming the dip within the specified timeframe.",
+          "bear_case": "A rapid, sustained recovery above $60,000 before June 28 could technically negate the 'dip' condition."
         },
         "zh": {
-          "title": "比特币确认跌破6万",
-          "summary": "比特币在6月22日至28日期间跌破6万美元的概率飙升至100%，主要受科技股普遍疲软引发的市场避险情绪影响。纳斯达克指数下跌和SpaceX股价创历史新低加剧了投资者担忧。",
+          "title": "比特币跌破6万美元",
+          "summary": "比特币价格已于2026年6月24日星期三跌至59,023.98美元，确认在指定时期内跌破6万美元。此次急剧下跌是由于市场对美联储加息的预期，导致“贬值交易”平仓。",
           "drivers": [
-            "纳斯达克科技股下跌：大型科技股拖累纳斯达克，预示市场普遍疲软。",
-            "SpaceX股价创历史新低：SpaceX股价跌至历史最低点，表明公司面临重大困境。",
-            "比特币价格确认跌破6万：100%的概率表明比特币在6月22日已触及6万美元。"
+            "比特币6月24日跌至59,023.98美元，低于6万美元。",
+            "MSTR和APLD领跌，加密股票市场普跌。",
+            "美联储加息预期导致“贬值交易”平仓。"
           ],
-          "why_matters": "比特币确认跌破6万美元可能预示着加密货币的普遍看跌趋势，影响投资者信心和市场稳定。",
-          "bull_case": "尽管当前下跌，但加密货币的强劲基本面和以太坊7000美元的目标可能迅速逆转比特币价格。",
-          "bear_case": "科技股持续疲软和更广泛的经济担忧将继续对比特币施加下行压力，使其保持在6万美元以下。"
+          "why_matters": "此次大幅下跌预示着加密市场动态的重大转变，影响投资者信心和更广泛的金融稳定。它反映了风险资产的普遍平仓。",
+          "bull_case": "比特币已于6月24日跌至59,023.98美元，确认在规定时间内触底。",
+          "bear_case": "若在6月28日前迅速且持续回升至6万美元以上，可能在技术上否定“跌破”条件。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2611353",
+        "question": "Will Airbnb, Inc. (ABNB) hit (LOW) $136 Week of June 22 2026?",
+        "probability": 0.047,
+        "change_24h": -0.643,
+        "volume_24h": 1341.98,
+        "score": 646.13,
+        "url": "https://polymarket.com/event/will-abnb-dip-to-136-by-june-22-2026"
+      },
+      "news": [
+        {
+          "title": "Cincinnati Reds vs. Milwaukee Brewers - June 22, 2026 - Bleacher Report",
+          "url": "https://bleacherreport.com/game/milwaukee-brewers-vs-cincinnati-reds-2026-6-22-18-10",
+          "snippet": "nflnbanhlwnbaworld footballgolftenniscollege footballwwecollege basketballwomens college basketballnascarmmaunrivaledboxingolympicsall elite wrestling"
+        },
+        {
+          "title": "Nimmo's 3 hits, Osuna's go-ahead double lift Rangers to 4-3 win over Marlins - Bozeman Daily Chronicle",
+          "url": "https://www.bozemandailychronicle.com/ap_news/sports/nimmos-3-hits-osunas-go-ahead-double-lift-rangers-to-4-3-win-over-marlins/article_d823903c-b5eb-5700-a18f-deab3b57879f.html",
+          "snippet": "Texas Rangers' Jake Burger scores on a sacrifice fly hit by Elias Díaz during the eighth inning of a baseball game against the Miami Marlins, Monday, "
+        },
+        {
+          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
+          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
+        },
+        {
+          "title": "Why Hertz Stock Is Having Its Worst Day Ever - Barron's",
+          "url": "https://www.barrons.com/articles/hertz-stock-worst-day-ever-97de10bc",
+          "snippet": "## Image 1: Barron's. This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Ag"
+        },
+        {
+          "title": "Grains in the Red This Morning | Monday, June 22, 2026 - Successful Farming",
+          "url": "https://www.agriculture.com/grains-in-the-red-this-morning-or-monday-june-22-2026-12003720",
+          "snippet": "# Grains in the Red This Morning | Monday, June 22, 2026. Shortly after 8:30 a.m. CT, December corn was down 2½¢ at $4.41½ per bushel. November soybea"
+        }
+      ],
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Tech Earnings Boost ABNB Outlook",
+          "summary": "The probability of Airbnb hitting a low of $136 by June 22, 2026, dropped significantly by 64.3% to 5%, primarily driven by strong Q1 earnings from Alphabet. Alphabet's reported EPS of $5 crushed the $2.63 consensus, signaling robust tech sector performance.",
+          "drivers": [
+            "Alphabet's Q1 EPS of $5 significantly beat consensus.",
+            "Overall market stability with S&P 500 little changed.",
+            "Strong tech sector performance signals broader economic health."
+          ],
+          "why_matters": "Robust earnings from major tech companies like Alphabet often indicate a healthy economic environment and strong consumer spending, positively impacting growth stocks like Airbnb.",
+          "bull_case": "A severe global economic downturn or unforeseen travel industry collapse could drive ABNB shares down significantly.",
+          "bear_case": "Sustained strong tech sector growth and resilient global travel demand will keep ABNB well above $136."
+        },
+        "zh": {
+          "title": "科技财报提振爱彼迎前景",
+          "summary": "爱彼迎股价在2026年6月22日前触及136美元低点的可能性大幅下降64.3%至5%，主要受Alphabet强劲的第一季度财报驱动。Alphabet报告的每股收益为5美元，远超市场预期的2.63美元。",
+          "drivers": [
+            "Alphabet第一季度每股收益5美元远超预期。",
+            "标普500指数保持稳定，市场整体情绪良好。",
+            "科技板块强劲表现预示经济健康。"
+          ],
+          "why_matters": "像Alphabet这样的大型科技公司业绩强劲，通常预示着健康的经济环境和强劲的消费者支出，这对爱彼迎等成长型股票是利好。",
+          "bull_case": "严重的全球经济衰退或不可预见的旅游业崩溃，可能导致爱彼迎股价大幅下跌。",
+          "bear_case": "科技板块持续强劲增长和全球旅游需求韧性，将使爱彼迎股价远高于136美元。"
         }
       }
     },
@@ -130,8 +203,8 @@
         "question": "Will Gold (XAUUSD) hit (LOW) $4,000 in June?",
         "probability": 1.0,
         "change_24h": 0.6235,
-        "volume_24h": 53440.75,
-        "score": 628.23,
+        "volume_24h": 44354.48,
+        "score": 628.15,
         "url": "https://polymarket.com/event/will-xauusd-dip-to-4000-in-june-2026"
       },
       "news": [
@@ -151,14 +224,14 @@
           "snippet": "# Gold ETFs could see fresh outflows on rising bets on Fed monetary tightening. * Spot gold down 29% from record peak hit in January. June 24 (Reuters"
         },
         {
+          "title": "Gold And Silver Prices Fall To Seven-Month Lows - Forbes",
+          "url": "https://www.forbes.com/sites/conormurray/2026/06/24/gold-and-silver-prices-fall-to-seven-month-lows/",
+          "snippet": "Gold and silver prices fell to seven-month lows Wednesday morning, with gold dipping below the $4,000 mark for the first time since November as analys"
+        },
+        {
           "title": "Gold breaks $4,000 as dollar rally pressures metals - KITCO",
           "url": "https://www.kitco.com/news/article/2026-06-24/gold-breaks-4000-dollar-rally-pressures-metals",
           "snippet": "Articles by **Kitco News****Wire** were generated by Kitco's AI-assisted reporting workflow and reviewed by Kitco News editorial staff, with every cla"
-        },
-        {
-          "title": "Gold price slumps as tech selloff reverberates through global markets - Mining.com",
-          "url": "https://www.mining.com/web/gold-price-slumps-as-tech-selloff-reverberates-through-global-markets/",
-          "snippet": "Brent Crude Oil $ 104.4 / bbl  -4.21%. Crude Oil $ 101.85 / bbl  -3.06%. Silver Futures $ 75.495 / ozt  7.47%. Micro Gold Futures $ 4713.1 / ozt  3.80"
         }
       ],
       "insight": {
@@ -183,68 +256,11 @@
     },
     {
       "market": {
-        "id": "2611370",
-        "question": "Will Coinbase Global, Inc. (COIN) hit (LOW) $147.50 Week of June 22 2026?",
-        "probability": 0.88,
-        "change_24h": 0.605,
-        "volume_24h": 1153.29,
-        "score": 608.06,
-        "url": "https://polymarket.com/event/will-coin-dip-to-147-50-by-june-22-2026"
-      },
-      "news": [
-        {
-          "title": "Nimmo's 3 hits, Osuna's go-ahead double lift Rangers to 4-3 win over Marlins - Bozeman Daily Chronicle",
-          "url": "https://www.bozemandailychronicle.com/ap_news/sports/nimmos-3-hits-osunas-go-ahead-double-lift-rangers-to-4-3-win-over-marlins/article_d823903c-b5eb-5700-a18f-deab3b57879f.html",
-          "snippet": "Texas Rangers' Jake Burger scores on a sacrifice fly hit by Elias Díaz during the eighth inning of a baseball game against the Miami Marlins, Monday, "
-        },
-        {
-          "title": "Archaeologists find huge Viking textile production site in Denmark - The Sun Chronicle",
-          "url": "https://www.thesunchronicle.com/news/nation_world/archaeologists-find-huge-viking-textile-production-site-in-denmark/article_e043261d-193b-5d0d-a364-fe60fc2b485c.html",
-          "snippet": "Moesgaard Museum archaeologist Liv Stidsing Reher-Langberg holds a Viking Age weight loom unearthed in Aarhus, Denmark, on June 22, 2026. Moesgaard Mu"
-        },
-        {
-          "title": "Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-22/crypto-swot-prediction-markets-have-experienced-surge-activity-during-fifa-world",
-          "snippet": "# Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup. * More than 200 crypto firms have urged the U.S. Sen"
-        },
-        {
-          "title": "Ukraine says it struck Russian missile electronics plant - Reuters",
-          "url": "https://www.reuters.com/world/europe/ukraine-says-it-struck-russian-missile-electronics-plant-2026-06-22/",
-          "snippet": "Smoke billows from a production plant following a Ukrainian attack, according the local governor, in the course of Russia-Ukraine conflict, in Voronze"
-        },
-        {
-          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
-          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
-        }
-      ],
-      "insight": {
-        "category": "sports",
-        "en": {
-          "title": "Will Coinbase Global, Inc. (COIN) hit (LOW) $147.50 Week of June 22 20",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Coinbase Global, Inc. (COIN) hit (LOW) $147.50 Week of June 22 20",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
         "id": "2611299",
         "question": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $114 Week of June 22 2026?",
         "probability": 1.0,
         "change_24h": 0.5795,
-        "volume_24h": 1385.61,
+        "volume_24h": 1368.03,
         "score": 582.64,
         "url": "https://polymarket.com/event/will-pltr-dip-to-114-by-june-22-2026"
       },
@@ -301,8 +317,8 @@
         "question": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $114 in June?",
         "probability": 1.0,
         "change_24h": 0.5245,
-        "volume_24h": 3799.71,
-        "score": 528.08,
+        "volume_24h": 3072.38,
+        "score": 527.99,
         "url": "https://polymarket.com/event/will-pltr-dip-to-114-in-june-2026"
       },
       "news": [
@@ -333,30 +349,22 @@
         }
       ],
       "insight": {
-        "category": "ai_tech",
+        "category": "other",
         "en": {
-          "title": "PLTR $114 Low Probability Soars",
-          "summary": "The probability of Palantir (PLTR) hitting a $114 low in June surged to 100%, driven by its new foundational role in the U.S. Army’s NGC2 Data Layer.",
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $114 in June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Palantir secures foundational role in U.S. Army’s NGC2 Data Layer",
-            "Increased investor confidence in PLTR's AI platform demand",
-            "Strong market belief in Palantir's government contract growth"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This indicates strong market belief in Palantir's pivotal role in national defense AI infrastructure, potentially signaling significant future revenue growth and validating its technology.",
-          "bull_case": "Palantir's critical U.S. Army contract validates its AI leadership, fueling investor optimism for an unprecedented stock price surge to $114.",
-          "bear_case": "The $114 target represents an extreme surge from current levels, making the 100% probability highly speculative and potentially unsustainable."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "PLTR六月低点114美元概率飙升",
-          "summary": "Palantir (PLTR) 六月触及114美元低点的概率飙升至100%，主要受其在美国陆军NGC2数据层中获得基础性角色的推动。",
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $114 in June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "Palantir获美国陆军NGC2数据层基础角色",
-            "投资者对PLTR人工智能平台需求信心增强",
-            "市场强烈看好Palantir政府合同增长"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这表明市场强烈相信Palantir在国家国防AI基础设施中的关键作用，可能预示着未来显著的收入增长并验证其技术。",
-          "bull_case": "Palantir与美国陆军的关键合同验证了其AI领导地位，推动投资者乐观情绪，股价有望飙升至114美元。",
-          "bear_case": "114美元的目标价较当前水平涨幅巨大，100%的概率可能过度投机且难以持续。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       }
     },
@@ -366,11 +374,16 @@
         "question": "Will WTI Crude Oil (WTI) hit (LOW) $70 in June?",
         "probability": 1.0,
         "change_24h": 0.5145,
-        "volume_24h": 79436.25,
-        "score": 519.4,
+        "volume_24h": 65795.07,
+        "score": 519.32,
         "url": "https://polymarket.com/event/will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926"
       },
       "news": [
+        {
+          "title": "Oil prices drop near $70 a barrel — lowest level since before Iran war — on hopes for Strait of Hormuz plan - New York Post",
+          "url": "https://nypost.com/2026/06/24/business/oil-prices-drop-near-70-a-barrel-lowest-level-since-before-iran-war-on-hopes-for-strait-of-hormuz-plan/",
+          "snippet": "# Oil prices drop near $70 a barrel — lowest level since before Iran war — on hopes for Strait of Hormuz plan. Oil prices fell near $70 a barrel as tr"
+        },
         {
           "title": "Oil extends losses, WTI crude falls below $70 for first time since early March - Oil & Gas 360",
           "url": "https://www.oilandgas360.com/oil-extends-losses-wti-crude-falls-below-70-for-first-time-since-early-march/",
@@ -390,11 +403,6 @@
           "title": "Trump Orders Gas Price Gouging Probe - Crude Oil Prices Today | OilPrice.com",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html",
           "snippet": "| WTI Crude •11 mins | 72.36 | -0.85 | -1.16% |. | Brent Crude •11 mins | 76.18 | -0.90 | -1.17% |. | Murban Crude •16 mins | 69.63 | -1.16 | -1.64% |"
-        },
-        {
-          "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Crisis-Sparks-a-Middle-East-Pipeline-Boom.html",
-          "snippet": "| WTI Crude •2 days | 76.54 | +0.69 | +0.91% |. | Brent Crude •2 days | 80.57 | +0.72 | +0.90% |. | Murban Crude •16 mins | 73.63 | -0.30 | -0.41% |. "
         }
       ],
       "insight": {
@@ -419,78 +427,44 @@
     },
     {
       "market": {
-        "id": "2651391",
-        "question": "S&P 500 (SPX) Opens Up or Down on June 24?",
-        "probability": 0.9995,
-        "change_24h": 0.4995,
-        "volume_24h": 33345.58,
-        "score": 504.02,
-        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-june-24-2026"
+        "id": "2661519",
+        "question": "No change in Bank of England’s interest rates after September 2026 meeting?",
+        "probability": 0.905,
+        "change_24h": 0.505,
+        "volume_24h": 3451.5,
+        "score": 508.54,
+        "url": "https://polymarket.com/event/no-change-in-bank-of-englands-interest-rates-after-september-2026-meeting-20260623013424711"
       },
-      "news": [
-        {
-          "title": "S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed - Reuters",
-          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/",
-          "snippet": "# S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed. * Futures: Dow down 0.1%, S&P 500 up 0.21%, Nasdaq up 0.55%. June 24 (Reuter"
-        },
-        {
-          "title": "Tesla stock has a SpaceX problem, veteran analyst says - thestreet.com",
-          "url": "https://www.thestreet.com/investing/stocks/tesla-stock-has-a-spacex-problem-veteran-analyst-says",
-          "snippet": "Read More  View post: SoFi makes major AI investing moveImage 6: SoFi makes major AI investing moveSoFi makes major AI investing move. *   Investing I"
-        },
-        {
-          "title": "Asia shares slip as markets reprice Fed expectations, oil gains - Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-06-23/",
-          "snippet": "SINGAPORE, June 23 (Reuters) - Asian stocks mostly eased and ​oil prices regained strength early on Tuesday after the U.S. waived sanctions on Iran, w"
-        },
-        {
-          "title": "Barclays, Stifel lift S&P 500 target to 7,800 on strong earnings outlook - Reuters",
-          "url": "https://www.reuters.com/business/barclays-stifel-lift-sp-500-target-7800-strong-earnings-outlook-2026-06-23/",
-          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. ## Browse Legal"
-        },
-        {
-          "title": "Stock index futures plunge amid broader tech selloff (SPX:) - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4605892-stock-index-futures-plunge-amid-broader-tech-selloff",
-          "snippet": "Jun 23, 2026, 4:16 AM ETS&P 500 Futures (SPX), INDU, US100:INDPNW, IBM, BBY, GRMN, SMCI, DD, US10Y, US2Y, US30YBy: Sinchita Mitra, SA News Editor. Sto"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "business",
+        "category": "economy",
         "en": {
-          "title": "S&P 500 Set to Open Higher",
-          "summary": "The S&P 500 is now 100% predicted to open higher on June 24, driven by positive S&P 500 futures ticking up 0.21% and a steady tech sector. This shift from 50% reflects strong pre-market indicators and analyst optimism.",
+          "title": "No change in Bank of England’s interest rates after September 2026 mee",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "S&P 500 futures up 0.21% for June 24",
-            "Nasdaq futures rise as tech sector steadies",
-            "Barclays, Stifel lift S&P 500 target to 7,800"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This indicates strong investor confidence in the tech sector and broader market performance, setting the tone for the trading day. A positive open can influence subsequent market momentum.",
-          "bull_case": "S&P 500 futures are currently up 0.21%, indicating a strong positive open for the index.",
-          "bear_case": "A broader tech selloff or re-evaluation of Fed expectations could reverse early gains."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "标普500指数有望高开",
-          "summary": "标普500指数目前预计6月24日高开，概率达100%，主要受当日股指期货上涨0.21%及科技股企稳驱动。这一从50%的跃升反映了强劲的盘前指标和分析师的乐观情绪。",
+          "title": "No change in Bank of England’s interest rates after September 2026 mee",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "标普500期货上涨0.21%",
-            "科技股企稳提振纳指期货",
-            "巴克莱、施蒂费尔上调标普500目标价"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这表明投资者对科技股和整体市场表现充满信心，为当日交易定下基调。积极开盘可能影响后续市场走势。",
-          "bull_case": "标普500期货上涨0.21%，预示指数将强劲高开。",
-          "bear_case": "更广泛的科技股抛售或美联储预期重估可能逆转早盘涨幅。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       }
     },
     {
       "market": {
-        "id": "2641110",
-        "question": "Bitcoin Up or Down - June 24, 1PM ET",
-        "probability": 0.0065,
-        "change_24h": -0.4935,
-        "volume_24h": 66607.71,
-        "score": 498.32,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-june-24-2026-1pm-et"
+        "id": "2646965",
+        "question": "Bitcoin Up or Down - June 24, 11PM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4945,
+        "volume_24h": 39753.86,
+        "score": 499.1,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-june-24-2026-11pm-et"
       },
       "news": [
         {
@@ -499,30 +473,30 @@
           "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
         },
         {
+          "title": "Bitcoin crashes, odds turn darker as MSTR, APLD lead crypto-stocks bloodbath - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4606902-bitcoin-crashes-but-odds-turn-darker-as-mstr-apld-lead-crypto-stocks-bloodbath",
+          "snippet": "## Stock Analysis. ## Market News. Jun 24, 2026, 3:22 PM ETBitcoin USD (BTC-USD) Crypto, BTC, MSTR Stock, MSTR:CA Stock, APLD Stock, IREN Stock, CIFR "
+        },
+        {
+          "title": "5 Market Signals Reveal How AI Stocks, Oil and Bitcoin Shook Wall Street - Bitcoin News",
+          "url": "https://news.bitcoin.com/5-market-signals-reveal-how-ai-stocks-oil-and-bitcoin-shook-wall-street-37856/",
+          "snippet": "**Markets split sharply on Wednesday as lower oil prices eased inflation fears, but pressure on technology stocks, crypto assets and precious metals k"
+        },
+        {
           "title": "S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed - Reuters",
           "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/",
           "snippet": "# S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed. * Futures: Dow down 0.1%, S&P 500 up 0.21%, Nasdaq up 0.55%. June 24 (Reuter"
         },
         {
-          "title": "MLB games today: Schedule, times, how to watch for June 24 - USA Today",
-          "url": "https://www.usatoday.com/story/sports/mlb/2026/06/24/mlb-games-today-schedule-times-tv-06242026/90673045007/",
-          "snippet": "# MLB games today: Schedule, times, how to watch for June 24. June 24, 2026, 5:08 a.m. ET. Here is the full Major League Baseball schedule for June 24"
-        },
-        {
-          "title": "Webinar Today: Modern Exposure Validation in the AI Era - SecurityWeek",
-          "url": "https://www.securityweek.com/webinar-today-modern-exposure-validation-in-the-ai-era/",
-          "snippet": "# Webinar Today: Modern Exposure Validation in the AI Era. Make sure your validation didn’t. That’s how fast AI now turns a new vulnerability into a w"
-        },
-        {
-          "title": "FIFA World Cup 2026: Canada vs. Switzerland — How to watch for free - New York Post",
-          "url": "https://nypost.com/2026/06/24/sports/fifa-world-cup-2026-canada-vs-switzerland-how-to-watch-for-free/",
-          "snippet": "# FIFA World Cup 2026: Canada vs. Switzerland — How to watch for free. Now, the co-hosts have a chance to finish the job in Group B. Canada takes on S"
+          "title": "Gold breaks $4,000, silver sinks 6.5% as stronger dollar deepens post-Fed selloff - Kitco PM Report - KITCO",
+          "url": "https://www.kitco.com/news/article/2026-06-24/gold-breaks-4000-silver-sinks-65-stronger-dollar-deepens-post-fed-selloff",
+          "snippet": "# Gold breaks $4,000, silver sinks 6.5% as stronger dollar deepens post-Fed selloff - Kitco PM Report. Articles by **Kitco News****Wire** were generat"
         }
       ],
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Up or Down - June 24, 1PM ET",
+          "title": "Bitcoin Up or Down - June 24, 11PM ET",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -530,7 +504,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Bitcoin Up or Down - June 24, 1PM ET",
+          "title": "Bitcoin Up or Down - June 24, 11PM ET",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -544,38 +518,12 @@
         "id": "1032345",
         "question": "Will Silver (SI) hit (LOW) $60 by end of June?",
         "probability": 0.9995,
-        "change_24h": 0.4895,
-        "volume_24h": 21822.91,
-        "score": 493.84,
+        "change_24h": 0.4745,
+        "volume_24h": 22257.54,
+        "score": 478.85,
         "url": "https://polymarket.com/event/will-silver-si-hit-low-60-by-end-of-june-167-538"
       },
-      "news": [
-        {
-          "title": "Gold Price Drops to Retest Critical Support Near Four Thousand Dollars - sekbernews.id",
-          "url": "https://www.sekbernews.id/en/gold-price-drops-retests-support",
-          "snippet": "Dr. Raka Pradipta, M.I.Kom. Gold prices plunged by 73.15 dollars or 1.75 percent to hit a daily low of 4,090.93 dollars on June 23, 2026, pushing the "
-        },
-        {
-          "title": "Gold And Silver Prices Fall To Seven-Month Lows - Forbes",
-          "url": "https://www.forbes.com/sites/conormurray/2026/06/24/gold-and-silver-prices-fall-to-seven-month-lows/",
-          "snippet": "Gold and silver prices fell to seven-month lows Wednesday morning, with gold dipping below the $4,000 mark for the first time since November as analys"
-        },
-        {
-          "title": "Gold tests $4,100, silver breaks under $62 as dollar pressure dominates - Kitco PM Report - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-06-23/gold-tests-4100-silver-breaks-under-62-dollar-pressure-dominates-kitco-pm",
-          "snippet": "Articles by **Kitco News****Wire** were generated by Kitco's AI-assisted reporting workflow and reviewed by Kitco News editorial staff, with every cla"
-        },
-        {
-          "title": "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
-          "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
-        },
-        {
-          "title": "Dollar climbs after US-Iran talks, pound choppy following Starmer exit - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-22/dollar-climbs-after-us-iran-talks-pound-choppy-following-starmer-exit",
-          "snippet": "NEW YORK, June 22 (Reuters) - The dollar climbed on Monday as the initial round of U.S.-Iran talks ​buoyed optimism for a peace deal while the pound w"
-        }
-      ],
+      "news": [],
       "insight": {
         "category": "other",
         "en": {
@@ -588,405 +536,6 @@
         },
         "zh": {
           "title": "Will Silver (SI) hit (LOW) $60 by end of June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2651518",
-        "question": "WTI Crude Oil (WTI) Up or Down on June 24?",
-        "probability": 0.013,
-        "change_24h": -0.487,
-        "volume_24h": 30627.96,
-        "score": 491.49,
-        "url": "https://polymarket.com/event/wti-up-or-down-on-june-24-2026"
-      },
-      "news": [
-        {
-          "title": "Energy & Utilities Roundup: Market Talk - WSJ",
-          "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-b9a03780",
-          "snippet": "S&P 500 7387.12 0.29%. Dollar Index 97.70 0.15%. 1219 ET – Oil futures are falling as euphoria over the return of ships through the Strait of Hormuz o"
-        },
-        {
-          "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Crisis-Sparks-a-Middle-East-Pipeline-Boom.html",
-          "snippet": "| WTI Crude •2 days | 76.54 | +0.69 | +0.91% |. | Brent Crude •2 days | 80.57 | +0.72 | +0.90% |. | Murban Crude •16 mins | 73.63 | -0.30 | -0.41% |. "
-        },
-        {
-          "title": "Analysts Warn China's Oil Demand May Never Fully Recover - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Warn-Chinas-Oil-Demand-May-Never-Fully-Recover.html",
-          "snippet": "| WTI Crude •11 mins | 73.60 | -2.25 | -2.97% |. | Brent Crude •11 mins | 77.69 | -2.88 | -3.57% |. | Murban Crude •16 mins | 71.46 | -2.17 | -2.95% |"
-        },
-        {
-          "title": "WTI crude falls below $74 as Treasury waives Iran oil sanctions - Yahoo Finance",
-          "url": "https://finance.yahoo.com/energy/articles/wti-crude-falls-below-74-152121114.html",
-          "snippet": "2. Best 0% APR cards. 3. Best balance transfer cards. 2. Best high-yield savings accounts. 3. Best money market accounts. West Texas Intermediate crud"
-        },
-        {
-          "title": "Tanker Owners Are Having the Best Week of the Hormuz Crisis - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Tanker-Owners-Are-Having-the-Best-Week-of-the-Hormuz-Crisis.html",
-          "snippet": "| WTI Crude •11 mins | 73.32 | -0.54 | -0.73% |. | Brent Crude •11 mins | 77.08 | -0.82 | -1.05% |. | Murban Crude •16 mins | 69.44 | -1.35 | -1.91% |"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "WTI Crude Oil (WTI) Up or Down on June 24?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "WTI Crude Oil (WTI) Up or Down on June 24?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2651502",
-        "question": "Palantir (PLTR) Up or Down on June 24?",
-        "probability": 0.0195,
-        "change_24h": -0.4805,
-        "volume_24h": 2630.34,
-        "score": 483.92,
-        "url": "https://polymarket.com/event/pltr-up-or-down-on-june-24-2026"
-      },
-      "news": [
-        {
-          "title": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-futures-dip-020902746.html",
-          "snippet": "2. Best 0% APR cards. 2. Best high-yield savings accounts. 3. Best money market accounts. # Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Wh"
-        },
-        {
-          "title": "Palantir Secures Foundational Role in NGC2 Data Layer - Business Wire",
-          "url": "https://www.businesswire.com/news/home/20260622171213/en/Palantir-Secures-Foundational-Role-in-NGC2-Data-Layer",
-          "snippet": "(NASDAQ: PLTR), a global leader in artificial intelligence and data platforms, today welcomed the U.S. Army’s announcement that it has established the"
-        },
-        {
-          "title": "S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed - Reuters",
-          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/",
-          "snippet": "# S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed. * Futures: Dow down 0.1%, S&P 500 up 0.21%, Nasdaq up 0.55%. June 24 (Reuter"
-        },
-        {
-          "title": "A rare and massive ranch near Aspen was sold to the CEO of Palantir for $120 million. Take a look. - Business Insider",
-          "url": "https://www.businessinsider.com/rare-aspen-compound-sold-to-palantir-ceo-for-120m-2026-6",
-          "snippet": "# A rare and massive ranch near Aspen was sold to the CEO of Palantir for $120 million. The Palantir Technologies cofounder and CEO spent $120 million"
-        },
-        {
-          "title": "MLB games today: Schedule, times, how to watch for June 24 - USA Today",
-          "url": "https://www.usatoday.com/story/sports/mlb/2026/06/24/mlb-games-today-schedule-times-tv-06242026/90673045007/",
-          "snippet": "# MLB games today: Schedule, times, how to watch for June 24. June 24, 2026, 5:08 a.m. ET. Here is the full Major League Baseball schedule for June 24"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Palantir (PLTR) Up or Down on June 24?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Palantir (PLTR) Up or Down on June 24?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2651422",
-        "question": "Amazon (AMZN) Up or Down on June 24?",
-        "probability": 0.965,
-        "change_24h": 0.465,
-        "volume_24h": 2216.37,
-        "score": 468.35,
-        "url": "https://polymarket.com/event/amzn-up-or-down-on-june-24-2026"
-      },
-      "news": [
-        {
-          "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
-          "url": "https://www.cnbc.com/2026/06/22/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "snippet": "# Tuesday's big stock stories: What’s likely to move the market in the next trading session. Here's what CNBC TV's producers were watching as the S & "
-        },
-        {
-          "title": "US online spending hits $8.3 billion as Amazon Prime Day kicks off, Adobe says - Reuters",
-          "url": "https://www.reuters.com/business/retail-consumer/us-online-spending-hits-83-billion-amazon-prime-day-kicks-off-adobe-says-2026-06-24/",
-          "snippet": "Item 1 of 2 An Amazon box moves along a conveyor belt at Amazon's fulfillment center in Robbinsville, New Jersey, U.S., December 1, 2025. **[1/2]**An "
-        },
-        {
-          "title": "Amazon Has Discounted Some of Brooks’ Most Supportive Running Shoes by Up to 38% Off - Men's Health",
-          "url": "https://www.menshealth.com/fitness/a71680574/brooks-running-shoe-deals-prime-day-2026/",
-          "snippet": "3. Save Up to 38% Off of Editor Favorite Brooks Running Shoes Prime Day. # Save Up to 38% Off of Editor Favorite Brooks Running Shoes Prime Day. We’re"
-        },
-        {
-          "title": "Walmart's Flipkart, Amazon step up India 'quick commerce' bet as competition heats up - Reuters",
-          "url": "https://www.reuters.com/world/india/walmarts-flipkart-plans-india-quick-commerce-expansion-ahead-ipo-2026-06-24/",
-          "snippet": "Item 1 of 5 A picker picks up groceries for an order at a Flipkart Minutes micro-fulfillment centre in Bengaluru, India, June 19, 2026. A picker picks"
-        },
-        {
-          "title": "Amazon Prime Day kicks off with declining order size, spend - Chain Store Age",
-          "url": "https://chainstoreage.com/amazon-prime-day-kicks-declining-order-size-spend",
-          "snippet": "First-day results of Amazon Prime Day 2026 came in behind first-day performance from 2025. Data from the Numerator Amazon Prime Day Tracker shows that"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Amazon (AMZN) Up or Down on June 24?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Amazon (AMZN) Up or Down on June 24?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2636439",
-        "question": "Will Ethereum dip to $1,600 June 22-28?",
-        "probability": 1.0,
-        "change_24h": 0.4595,
-        "volume_24h": 17750.61,
-        "score": 463.75,
-        "url": "https://polymarket.com/event/will-ethereum-dip-to-1600-june-22-28-2026"
-      },
-      "news": [
-        {
-          "title": "Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-nears-third-cex-partnership-as-ethereum-price-prediction-targets-7-000-1036267085",
-          "snippet": "# Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000. MONACO, June 22, 2026 (GLOBE NEWSWIRE) -- Cryp"
-        },
-        {
-          "title": "Ethereum Foundation Slashes Workforce by 20% and Budget by 40% — Impact on ETH Price - Blockonomi",
-          "url": "https://blockonomi.com/ethereum-foundation-slashes-workforce-by-20-and-budget-by-40-impact-on-eth-price/",
-          "snippet": "Facebook   X (Twitter)   LinkedIn   Telegram. # Ethereum Foundation Slashes Workforce by 20% and Budget by 40% — Impact on ETH Price. Telegram   Twitt"
-        },
-        {
-          "title": "SpaceX tests new vehicle, Swift gets a lift - Astronomy Magazine",
-          "url": "https://www.astronomy.com/whats-launching-this-week/spacex-tests-new-vehicle-swift-gets-a-lift/",
-          "snippet": "+ What’s Launching This Week. Here's what's launching June 22–28: SpaceX debuts its uncrewed Starfall cargo return demonstrator from Florida while a P"
-        },
-        {
-          "title": "Weekly Horoscope June 22-28, 2026: Mars in Gemini Is About Conflict and Passion - Teen Vogue",
-          "url": "https://www.teenvogue.com/story/weekly-horoscope-june-22-28-2026",
-          "snippet": "# Weekly Horoscope June 22-28, 2026: Mars in Gemini Is About Conflict and Passion. Here's what the stars have in store for you this week. Your weekly "
-        },
-        {
-          "title": "Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-22/crypto-swot-prediction-markets-have-experienced-surge-activity-during-fifa-world",
-          "snippet": "# Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup. * More than 200 crypto firms have urged the U.S. Sen"
-        }
-      ],
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Will Ethereum dip to $1,600 June 22-28?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Ethereum dip to $1,600 June 22-28?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2611353",
-        "question": "Will Airbnb, Inc. (ABNB) hit (LOW) $136 Week of June 22 2026?",
-        "probability": 0.05,
-        "change_24h": -0.45,
-        "volume_24h": 1672.85,
-        "score": 453.22,
-        "url": "https://polymarket.com/event/will-abnb-dip-to-136-by-june-22-2026"
-      },
-      "news": [
-        {
-          "title": "Cincinnati Reds vs. Milwaukee Brewers - June 22, 2026 - Bleacher Report",
-          "url": "https://bleacherreport.com/game/milwaukee-brewers-vs-cincinnati-reds-2026-6-22-18-10",
-          "snippet": "nflnbanhlwnbaworld footballgolftenniscollege footballwwecollege basketballwomens college basketballnascarmmaunrivaledboxingolympicsall elite wrestling"
-        },
-        {
-          "title": "Nimmo's 3 hits, Osuna's go-ahead double lift Rangers to 4-3 win over Marlins - Bozeman Daily Chronicle",
-          "url": "https://www.bozemandailychronicle.com/ap_news/sports/nimmos-3-hits-osunas-go-ahead-double-lift-rangers-to-4-3-win-over-marlins/article_d823903c-b5eb-5700-a18f-deab3b57879f.html",
-          "snippet": "Texas Rangers' Jake Burger scores on a sacrifice fly hit by Elias Díaz during the eighth inning of a baseball game against the Miami Marlins, Monday, "
-        },
-        {
-          "title": "See Mars Among The ‘Seven Sisters Stars’ For The Last Time Until 2034 - Forbes",
-          "url": "https://www.forbes.com/sites/jamiecartereurope/2026/06/22/see-mars-among-the-seven-sisters-stars-for-the-last-time-until-2034/",
-          "snippet": "# See Mars Among The ‘Seven Sisters Stars’ For The Last Time Until 2034. This week, the moon is brightening every week as it waxes towards June’s full"
-        },
-        {
-          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
-          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
-        },
-        {
-          "title": "Why Hertz Stock Is Having Its Worst Day Ever - Barron's",
-          "url": "https://www.barrons.com/articles/hertz-stock-worst-day-ever-97de10bc",
-          "snippet": "## Image 1: Barron's. This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Ag"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Airbnb, Inc. (ABNB) hit (LOW) $136 Week of June 22 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Airbnb, Inc. (ABNB) hit (LOW) $136 Week of June 22 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2410575",
-        "question": "Will Bitcoin dip to $57,500 in June?",
-        "probability": 0.6365,
-        "change_24h": 0.442,
-        "volume_24h": 318315.19,
-        "score": 447.5,
-        "url": "https://polymarket.com/event/will-bitcoin-dip-to-57pt5k-in-june-2026-623"
-      },
-      "news": [
-        {
-          "title": "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
-          "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
-        },
-        {
-          "title": "Markets News, June 22, 2026: Dow Ekes Out Gain as Big Tech Stocks Weigh on Nasdaq; SpaceX Falls To Lowest Close Ever - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06222026-12003699",
-          "snippet": "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal. Markets News, June 15, 2026: Stocks Su"
-        },
-        {
-          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
-          "url": "https://www.cnbc.com/2026/06/24/bitcoin-falls-back-under-60000-hitting-its-lowest-level-since-october-2024.html",
-          "snippet": "# Bitcoin falls back under $60,000, hitting its lowest level since October 2024. * Bitcoin hit a low of $59,023.98 on Wednesday, its lowest level sinc"
-        },
-        {
-          "title": "Hyperscale Data Bitcoin Treasury Reaches Approximately 727 Bitcoin – Company Announcement - Financial Times",
-          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202606230600PR_NEWS_USPRX____SF89732-1",
-          "snippet": "(NYSE American: GPUS), an artificial intelligence (\"**AI**\") data center company anchored by Bitcoin (\"**Hyperscale Data**\" or the \"**Company**\"), tod"
-        },
-        {
-          "title": "Cardone has increased his holdings by 282 BTC, while Bitdeer insists on a \"zero holding\" fiat operation - WEEX",
-          "url": "https://www.weex.com/news/detail/cardone-has-increased-his-holdings-by-282-btc-while-bitdeer-insists-on-a-zero-holding-fiat-operation-fikvzepb7osv7mntzay450lr",
-          "snippet": "According to BBX data, over the weekend, global publicly listed entities and major financial institutions in the U.S. disclosed the latest real accoun"
-        }
-      ],
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Will Bitcoin dip to $57,500 in June?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Bitcoin dip to $57,500 in June?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2651411",
-        "question": "Microsoft (MSFT) Up or Down on June 24?",
-        "probability": 0.075,
-        "change_24h": -0.425,
-        "volume_24h": 2251.94,
-        "score": 428.35,
-        "url": "https://polymarket.com/event/msft-up-or-down-on-june-24-2026"
-      },
-      "news": [
-        {
-          "title": "The ‘Magnificent Seven’ correction may actually be a sign of a healthy stock market - MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-magnificent-seven-correction-may-actually-be-a-sign-of-a-healthy-stock-market-ab344c0a",
-          "snippet": "## Tech Stocks. # The ‘Magnificent Seven’ correction may actually be a sign of a healthy stock market. ## The Big Tech grouping officially fell into c"
-        },
-        {
-          "title": "S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed - Reuters",
-          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/",
-          "snippet": "# S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed. * Futures: Dow down 0.1%, S&P 500 up 0.21%, Nasdaq up 0.55%. June 24 (Reuter"
-        },
-        {
-          "title": "How major US stock indexes fared Tuesday 6/23/2026 - The Washington Post",
-          "url": "https://www.washingtonpost.com/business/2026/06/23/wall-street-stocks-dow-nasdaq/f9b76c76-6f40-11f1-8730-e7fd0e2a6404_story.html",
-          "snippet": "# How major US stock indexes fared Tuesday 6/23/2026. Pullbacks in big technology companies sent indexes lower on Wall Street. The S&P 500 fell 1.4% T"
-        },
-        {
-          "title": "Chevron is Building a Massive Power Plant to Support a Microsoft AI Data Center. Here's What it Means for the Energy Stock. - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/06/22/chevron-is-building-a-massive-power-plant-to-support-a-microsoft-data-center-heres-what-it-means-for-the-energy-stock/",
-          "snippet": "**Chevron** (CVX +0.82%) has signed a 20-year power agreement with **Microsoft** (MSFT 3.20%) to support a massive AI data center project in Texas. Th"
-        },
-        {
-          "title": "SpaceX stock tumbles 16.4%, shaving off most IPO gains since debut - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-tumbles-164-shaving-off-most-ipo-gains-since-debut-141725657.html",
-          "snippet": "SpaceX (SPCX) stock tumbled again on Monday, giving it three straight down days after a massive run-up following its IPO earlier this month. SpaceX sh"
-        }
-      ],
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Microsoft (MSFT) Up or Down on June 24?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Microsoft (MSFT) Up or Down on June 24?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1001,8 +550,8 @@
         "question": "Will Silver (XAGUSD) hit (LOW) $60 Week of June 22 2026?",
         "probability": 1.0,
         "change_24h": 0.3945,
-        "volume_24h": 8218.74,
-        "score": 398.41,
+        "volume_24h": 7622.29,
+        "score": 398.38,
         "url": "https://polymarket.com/event/will-xagusd-dip-to-60-by-june-22-2026"
       },
       "news": [
@@ -1054,24 +603,117 @@
     },
     {
       "market": {
-        "id": "2629887",
-        "question": "Will the price of Ethereum be above $1,600 on June 28?",
-        "probability": 0.355,
-        "change_24h": -0.39,
-        "volume_24h": 10405.93,
-        "score": 394.02,
-        "url": "https://polymarket.com/event/ethereum-above-1600-on-june-28-2026"
+        "id": "2350473",
+        "question": "Will Airbnb, Inc. (ABNB) hit (HIGH) $148 in June?",
+        "probability": 0.59,
+        "change_24h": 0.385,
+        "volume_24h": 1144.29,
+        "score": 388.06,
+        "url": "https://polymarket.com/event/will-abnb-reach-148-in-june-2026"
       },
       "news": [
         {
-          "title": "Ethereum Foundation Slashes Workforce by 20% and Budget by 40% — Impact on ETH Price - Blockonomi",
-          "url": "https://blockonomi.com/ethereum-foundation-slashes-workforce-by-20-and-budget-by-40-impact-on-eth-price/",
-          "snippet": "Facebook   X (Twitter)   LinkedIn   Telegram. # Ethereum Foundation Slashes Workforce by 20% and Budget by 40% — Impact on ETH Price. Telegram   Twitt"
+          "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
+          "url": "https://www.cnbc.com/2026/06/22/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "snippet": "# Tuesday's big stock stories: What’s likely to move the market in the next trading session. Here's what CNBC TV's producers were watching as the S & "
         },
         {
-          "title": "Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-nears-third-cex-partnership-as-ethereum-price-prediction-targets-7-000-1036267085",
-          "snippet": "# Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000. MONACO, June 22, 2026 (GLOBE NEWSWIRE) -- Cryp"
+          "title": "Airbnb Has Been Trying to Expand Beyond Rentals for 10 Years. Here’s How - Skift",
+          "url": "https://skift.com/2026/06/23/how-airbnb-went-from-short-term-rentals-to-hotels-car-rentals-and-beyond-a-timeline/",
+          "snippet": "## Get unlimited access with Skift Pro. Subscribe now for complete access to Skift.com's trusted coverage of the travel industry. # Airbnb Has Been Tr"
+        },
+        {
+          "title": "US stocks drift near their records in mixed trading after oil prices fall - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/06/22/stocks-markets-us-iran-war-oil/c5f0f656-6dfa-11f1-8730-e7fd0e2a6404_story.html",
+          "snippet": "# US stocks drift after oil prices ease and Big Tech stocks fall. U.S. stocks drifted through a mixed day of trading after oil prices eased and fallin"
+        },
+        {
+          "title": "Venezuela Found Liable For $148M In Botched Charter Deal - Law360",
+          "url": "https://www.law360.com/energy/articles/2492300/venezuela-found-liable-for-148m-in-botched-charter-deal?about=energy",
+          "snippet": "# Law360 Authority. ## The Practice of Law. # Law360 Pulse | The Business of Law. ## Business of Law. # Law360 Authority | Deep News & Analysis. ## Em"
+        },
+        {
+          "title": "Bitcoin crashes, odds turn darker as MSTR, APLD lead crypto-stocks bloodbath - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4606902-bitcoin-crashes-but-odds-turn-darker-as-mstr-apld-lead-crypto-stocks-bloodbath",
+          "snippet": "## Stock Analysis. ## Market News. Jun 24, 2026, 3:22 PM ETBitcoin USD (BTC-USD) Crypto, BTC, MSTR Stock, MSTR:CA Stock, APLD Stock, IREN Stock, CIFR "
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Airbnb, Inc. (ABNB) hit (HIGH) $148 in June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Airbnb, Inc. (ABNB) hit (HIGH) $148 in June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2610871",
+        "question": "Will Microsoft Corporation (MSFT) hit (LOW) $360 Week of June 22 2026?",
+        "probability": 0.63,
+        "change_24h": 0.35,
+        "volume_24h": 1359.84,
+        "score": 353.13,
+        "url": "https://polymarket.com/event/will-msft-dip-to-360-by-june-22-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Will Microsoft Corporation (MSFT) hit (LOW) $360 Week of June 22 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Microsoft Corporation (MSFT) hit (LOW) $360 Week of June 22 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2611370",
+        "question": "Will Coinbase Global, Inc. (COIN) hit (LOW) $147.50 Week of June 22 2026?",
+        "probability": 0.585,
+        "change_24h": 0.305,
+        "volume_24h": 1316.26,
+        "score": 308.12,
+        "url": "https://polymarket.com/event/will-coin-dip-to-147-50-by-june-22-2026"
+      },
+      "news": [
+        {
+          "title": "Bitcoin crashes, odds turn darker as MSTR, APLD lead crypto-stocks bloodbath - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4606902-bitcoin-crashes-but-odds-turn-darker-as-mstr-apld-lead-crypto-stocks-bloodbath",
+          "snippet": "## Stock Analysis. ## Market News. Jun 24, 2026, 3:22 PM ETBitcoin USD (BTC-USD) Crypto, BTC, MSTR Stock, MSTR:CA Stock, APLD Stock, IREN Stock, CIFR "
+        },
+        {
+          "title": "Nimmo's 3 hits, Osuna's go-ahead double lift Rangers to 4-3 win over Marlins - Bozeman Daily Chronicle",
+          "url": "https://www.bozemandailychronicle.com/ap_news/sports/nimmos-3-hits-osunas-go-ahead-double-lift-rangers-to-4-3-win-over-marlins/article_d823903c-b5eb-5700-a18f-deab3b57879f.html",
+          "snippet": "Texas Rangers' Jake Burger scores on a sacrifice fly hit by Elias Díaz during the eighth inning of a baseball game against the Miami Marlins, Monday, "
+        },
+        {
+          "title": "Archaeologists find huge Viking textile production site in Denmark - The Sun Chronicle",
+          "url": "https://www.thesunchronicle.com/news/nation_world/archaeologists-find-huge-viking-textile-production-site-in-denmark/article_e043261d-193b-5d0d-a364-fe60fc2b485c.html",
+          "snippet": "Moesgaard Museum archaeologist Liv Stidsing Reher-Langberg holds a Viking Age weight loom unearthed in Aarhus, Denmark, on June 22, 2026. Moesgaard Mu"
         },
         {
           "title": "Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup - KITCO",
@@ -1079,20 +721,15 @@
           "snippet": "# Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup. * More than 200 crypto firms have urged the U.S. Sen"
         },
         {
-          "title": "Gold price will struggle to reach $5,200/oz in 2026 without strong ETF inflows – Morgan Stanley - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-06-22/gold-price-will-struggle-reach-5200oz-2026-without-strong-etf-inflows",
-          "snippet": "Kitco NEWS has a diverse team of journalists reporting on the economy, stock markets, commodities, cryptocurrencies, mining and metals with accuracy a"
-        },
-        {
-          "title": "Predators 2026 Development Camp Set for June 28 - July 3 in Nashville - NHL.com",
-          "url": "https://www.nhl.com/predators/news/predators-2026-development-camp-set-for-june-28-july-3-in-nashville-2026-06-24",
-          "snippet": "# Predators 2026 Development Camp Set for June 28 - July 3 in Nashville. Annual Camp Culminates With Future Stars Game, Presented by Ticketmaster, on "
+          "title": "Ukraine says it struck Russian missile electronics plant - Reuters",
+          "url": "https://www.reuters.com/world/europe/ukraine-says-it-struck-russian-missile-electronics-plant-2026-06-22/",
+          "snippet": "Smoke billows from a production plant following a Ukrainian attack, according the local governor, in the course of Russia-Ukraine conflict, in Voronze"
         }
       ],
       "insight": {
-        "category": "crypto",
+        "category": "sports",
         "en": {
-          "title": "Will the price of Ethereum be above $1,600 on June 28?",
+          "title": "Will Coinbase Global, Inc. (COIN) hit (LOW) $147.50 Week of June 22 20",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1100,7 +737,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will the price of Ethereum be above $1,600 on June 28?",
+          "title": "Will Coinbase Global, Inc. (COIN) hit (LOW) $147.50 Week of June 22 20",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1111,115 +748,40 @@
     },
     {
       "market": {
-        "id": "2651514",
-        "question": "SPY (SPY) Up or Down on June 24?",
-        "probability": 0.305,
-        "change_24h": -0.36,
-        "volume_24h": 49781.33,
-        "score": 364.7,
-        "url": "https://polymarket.com/event/spy-up-or-down-on-june-24-2026"
+        "id": "2611102",
+        "question": "Will Tesla (TSLA) finish week of June 22 above $385?",
+        "probability": 0.22,
+        "change_24h": -0.285,
+        "volume_24h": 1055.3,
+        "score": 288.02,
+        "url": "https://polymarket.com/event/tsla-above-385-on-june-26-2026"
       },
-      "news": [
-        {
-          "title": "Stock index futures plunge amid broader tech selloff (SPX:) - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4605892-stock-index-futures-plunge-amid-broader-tech-selloff",
-          "snippet": "Jun 23, 2026, 4:16 AM ETS&P 500 Futures (SPX), INDU, US100:INDPNW, IBM, BBY, GRMN, SMCI, DD, US10Y, US2Y, US30YBy: Sinchita Mitra, SA News Editor. Sto"
-        },
-        {
-          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
-          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
-        },
-        {
-          "title": "How major US stock indexes fared Tuesday 6/23/2026 - The Washington Post",
-          "url": "https://www.washingtonpost.com/business/2026/06/23/wall-street-stocks-dow-nasdaq/f9b76c76-6f40-11f1-8730-e7fd0e2a6404_story.html",
-          "snippet": "# How major US stock indexes fared Tuesday 6/23/2026. Pullbacks in big technology companies sent indexes lower on Wall Street. The S&P 500 fell 1.4% T"
-        },
-        {
-          "title": "Stock Market Today: Dow wavers, S&P 500 and Nasdaq tumble as global tech selloff intensifies; Micron results loom - MarketWatch",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-tech-sell-off-oil-prices-us-waiving-oil-sanctions-iran",
-          "snippet": "June 23, 2026 at 4:34pm ET. # Stock Market News, June 23, 2026: The Nasdaq and S&P 500 end sharply lower as tech selloff stretches into a second day; "
-        },
-        {
-          "title": "Barclays, Stifel lift S&P 500 target to 7,800 on strong earnings outlook - Reuters",
-          "url": "https://www.reuters.com/business/barclays-stifel-lift-sp-500-target-7800-strong-earnings-outlook-2026-06-23/",
-          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. ## Browse Legal"
-        }
-      ],
+      "news": [],
       "insight": {
-        "category": "other",
+        "category": "business",
         "en": {
-          "title": "SPY (SPY) Up or Down on June 24?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "TSLA $385 Target Probability Plunges",
+          "summary": "The probability of Tesla (TSLA) finishing above $385 by June 22 plummeted 28.5% to 22%, reflecting a sharp decline in the stock's price. This movement suggests investors are increasingly skeptical of a near-term recovery to that price level.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "TSLA's significant intraday price drop.",
+            "Broader tech sector sell-off.",
+            "Persistent EV demand slowdown fears."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects investor confidence in Tesla's short-term growth trajectory and its ability to overcome current market headwinds. A sustained low probability indicates deep skepticism.",
+          "bull_case": "Strong Q2 delivery figures or a major FSD breakthrough could rapidly reverse the negative trend.",
+          "bear_case": "Continued price competition and a general market downturn will keep TSLA well below $385."
         },
         "zh": {
-          "title": "SPY (SPY) Up or Down on June 24?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "特斯拉385美元目标概率暴跌",
+          "summary": "特斯拉(TSLA)在6月22日前收盘高于385美元的概率暴跌28.5%至22%，反映出该股价格大幅下跌。这一走势表明投资者对特斯拉短期内反弹至该价位持越来越怀疑的态度。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "特斯拉股价盘中显著下跌。",
+            "科技板块整体抛售压力。",
+            "电动汽车需求放缓担忧持续。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2651397",
-        "question": "Apple (AAPL) Up or Down on June 24?",
-        "probability": 0.8245,
-        "change_24h": 0.3245,
-        "volume_24h": 5381.9,
-        "score": 328.23,
-        "url": "https://polymarket.com/event/aapl-up-or-down-on-june-24-2026"
-      },
-      "news": [
-        {
-          "title": "S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed - Reuters",
-          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/",
-          "snippet": "# S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed. * Futures: Dow down 0.1%, S&P 500 up 0.21%, Nasdaq up 0.55%. June 24 (Reuter"
-        },
-        {
-          "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
-          "url": "https://www.cnbc.com/2026/06/22/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "snippet": "# Tuesday's big stock stories: What’s likely to move the market in the next trading session. Here's what CNBC TV's producers were watching as the S & "
-        },
-        {
-          "title": "The ‘Magnificent Seven’ correction may actually be a sign of a healthy stock market - MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-magnificent-seven-correction-may-actually-be-a-sign-of-a-healthy-stock-market-ab344c0a",
-          "snippet": "## Tech Stocks. # The ‘Magnificent Seven’ correction may actually be a sign of a healthy stock market. ## The Big Tech grouping officially fell into c"
-        },
-        {
-          "title": "Stock Market Today: Dow wavers, S&P 500 and Nasdaq tumble as global tech selloff intensifies; Micron results loom - MarketWatch",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-tech-sell-off-oil-prices-us-waiving-oil-sanctions-iran",
-          "snippet": "June 23, 2026 at 4:34pm ET. # Stock Market News, June 23, 2026: The Nasdaq and S&P 500 end sharply lower as tech selloff stretches into a second day; "
-        },
-        {
-          "title": "Three key AI stocks to watch this week with traders expecting giant moves - CNBC",
-          "url": "https://www.cnbc.com/2026/06/22/three-key-ai-stocks-to-watch-this-week-with-traders-expecting-giant-moves.html",
-          "snippet": "After an up-and-down week for stocks around SpaceX and Federal Reserve chairman Kevin Warsh's debut, investors will get a fresh read on the pulse of t"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Apple (AAPL) Up or Down on June 24?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Apple (AAPL) Up or Down on June 24?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映了投资者对特斯拉短期增长轨迹及其克服当前市场逆风能力的信心。持续低概率表明市场深度怀疑。",
+          "bull_case": "强劲的第二季度交付数据或FSD重大突破可能迅速扭转负面趋势。",
+          "bear_case": "持续的价格竞争和整体市场低迷将使特斯拉远低于385美元。"
         }
       }
     },
@@ -1227,10 +789,10 @@
       "market": {
         "id": "2412402",
         "question": "Will 40 ships transit the Strait of Hormuz on any day by June 30, 2026?",
-        "probability": 0.78,
-        "change_24h": 0.31,
-        "volume_24h": 214465.84,
-        "score": 315.33,
+        "probability": 0.815,
+        "change_24h": 0.28,
+        "volume_24h": 131914.01,
+        "score": 285.12,
         "url": "https://polymarket.com/event/will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026"
       },
       "news": [
@@ -1245,19 +807,19 @@
           "snippet": "US efforts to open shipping channels in the Strait of Hormuz will allow a gradual increase in vessel transit, though security remains volatile, Chubb "
         },
         {
+          "title": "Strait of Hormuz Traffic is Rising, and Oil Prices are Plummeting - The Maritime Executive",
+          "url": "https://maritime-executive.com/article/strait-of-hormuz-traffic-is-rising-and-oil-prices-are-plummeting",
+          "snippet": "# Strait of Hormuz Traffic is Rising, and Oil Prices are Plummeting. Traffic levels in the Strait of Hormuz are showing signs of improvement as a form"
+        },
+        {
           "title": "Iran, Oman will start large-scale evacuation of ships through Strait of Hormuz, says IMO - New York Post",
           "url": "https://nypost.com/2026/06/24/business/iran-oman-will-start-large-scale-evacuation-of-ships-through-strait-of-hormuz-says-imo/",
           "snippet": "# Iran, Oman will start large-scale evacuation of ships through Strait of Hormuz, says IMO. Iran and Oman will start coordinating a large-scale evacua"
         },
         {
-          "title": "The Strait of Hormuz’s future is unsettled even as more ships venture through - AP News",
-          "url": "https://apnews.com/article/strait-hormuz-ships-crossing-iran-us-e6039e5f3962ba001ed6b7abb74219b0",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. NEW YOR"
-        },
-        {
-          "title": "Iran and Oman Say They’ll Work on Pact for Hormuz Transit Costs - Insurance Journal",
-          "url": "https://www.insurancejournal.com/news/international/2026/06/23/874955.htm",
-          "snippet": "By Omar Tamo and Julian Lee | June 23, 2026. Iran and Oman said they’ll begin work on finding an agreement over the future administration of the Strai"
+          "title": "Iran declares new Hormuz route 'unacceptable and dangerous,' warns against ships transiting without approval - CNBC",
+          "url": "https://www.cnbc.com/2026/06/25/iran-navy-shipping-recovery-strait-of-hormuz-unauthorized-routes-us-fragile-mou-.html",
+          "snippet": "# Iran declares new Hormuz route 'unacceptable and dangerous,' warns against ships transiting without approval. * Iran's IRGC warns that any new Hormu"
         }
       ],
       "insight": {
@@ -1282,12 +844,100 @@
     },
     {
       "market": {
+        "id": "2656990",
+        "question": "Over $10M committed to the Laso Finance public sale?",
+        "probability": 0.335,
+        "change_24h": -0.27,
+        "volume_24h": 23940.17,
+        "score": 274.38,
+        "url": "https://polymarket.com/event/over-10m-committed-to-the-laso-finance-public-sale"
+      },
+      "news": [],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Over $10M committed to the Laso Finance public sale?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Over $10M committed to the Laso Finance public sale?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2611398",
+        "question": "Will Micron Technology, Inc. (MU) hit (LOW) $960 Week of June 22 2026?",
+        "probability": 0.0695,
+        "change_24h": -0.2605,
+        "volume_24h": 1810.87,
+        "score": 263.76,
+        "url": "https://polymarket.com/event/will-mu-dip-to-960-by-june-22-2026"
+      },
+      "news": [
+        {
+          "title": "Micron Just Dropped 13%. Why One Analyst Says This Selloff Changes Nothing - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/24/micron-just-dropped-13-why-one-analyst-says-this-selloff-changes-nothing/",
+          "snippet": "* MU dropped 13% ahead of earnings but remains up 269% year-to-date, with Cassidy blaming Korean rival weakness, not broken fundamentals. * Cassidy ex"
+        },
+        {
+          "title": "Micron Price Prediction: The Forecast Flags a Big Pullback - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-price-prediction-forecast-flags-181408594.html",
+          "snippet": "* Micron (MU) trades near $1,052 but our model flags a SELL at 90% confidence, targeting $731 and implying 30% downside. * CEO Mehrotra sold shares at"
+        },
+        {
+          "title": "Micron Earnings: Why a Tenfold Profit Surge May Not Save the Stock From a Crash - Barron's",
+          "url": "https://www.barrons.com/articles/micron-earnings-stock-price-50dff0cf",
+          "snippet": "Distribution and use of this material are governed by our Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies,"
+        },
+        {
+          "title": "Micron Stock Soars as Results Blow Past Wall Street Expectations Amid Booming AI Demand - Investopedia",
+          "url": "https://www.investopedia.com/micron-earnings-q3-fy2026-memory-stock-soars-ai-demand-12006096",
+          "snippet": "* The stock has been one of the top performers in the S&P 500 this year, as booming AI demand drove up sales. Shares of Micron Technology (MU) were up"
+        },
+        {
+          "title": "Micron to report third quarter earnings amid sky-high demand from data centers - Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/micron-to-report-third-quarter-earnings-amid-sky-high-demand-from-data-centers-113000152.html",
+          "snippet": "2. Best 0% APR cards. 3. Best balance transfer cards. 2. Best high-yield savings accounts. 3. Best money market accounts. # Micron to report third qua"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Micron Technology, Inc. (MU) hit (LOW) $960 Week of June 22 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Micron Technology, Inc. (MU) hit (LOW) $960 Week of June 22 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
         "id": "2611416",
         "question": "Will S&P 500 (SPY) hit (LOW) $730 Week of June 22 2026?",
-        "probability": 0.83,
-        "change_24h": 0.24,
-        "volume_24h": 3323.06,
-        "score": 243.52,
+        "probability": 0.45,
+        "change_24h": -0.24,
+        "volume_24h": 3078.34,
+        "score": 243.49,
         "url": "https://polymarket.com/event/will-spy-dip-to-730-by-june-22-2026"
       },
       "news": [
@@ -1339,297 +989,12 @@
     },
     {
       "market": {
-        "id": "2610775",
-        "question": "Will Apple (AAPL) hit (LOW) $292 Week of June 22 2026?",
-        "probability": 0.595,
-        "change_24h": 0.23,
-        "volume_24h": 1985.28,
-        "score": 233.3,
-        "url": "https://polymarket.com/event/will-aapl-dip-to-292-by-june-22-2026"
-      },
-      "news": [
-        {
-          "title": "Markets News, June 22, 2026: Dow Ekes Out Gain as Big Tech Stocks Weigh on Nasdaq; SpaceX Falls To Lowest Close Ever - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06222026-12003699",
-          "snippet": "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal. Markets News, June 15, 2026: Stocks Su"
-        },
-        {
-          "title": "iPhone 17 Prices Could Go Up as Soon as This Month - MacRumors",
-          "url": "https://www.macrumors.com/2026/06/22/iphone-17-prices-could-go-up-this-month/",
-          "snippet": "# iPhone 17 Prices Could Go Up as Soon as This Month. There is growing speculation that Apple may hike the prices of its iPhone 17 lineup as soon as t"
-        },
-        {
-          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
-          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
-        },
-        {
-          "title": "Barclays, Stifel lift S&P 500 target to 7,800 on strong earnings outlook - Reuters",
-          "url": "https://www.reuters.com/business/barclays-stifel-lift-sp-500-target-7800-strong-earnings-outlook-2026-06-23/",
-          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. ## Browse Legal"
-        },
-        {
-          "title": "The Best Prime Day Deals on AirPods, Apple Watch, AirTag, and More - MacRumors",
-          "url": "https://www.macrumors.com/2026/06/22/prime-day-2026-best-apple-deals/",
-          "snippet": "# The Best Prime Day Deals on AirPods, Apple Watch, AirTag, and More. **Amazon Prime Day 2026** is here, and it will last for four days, ending this F"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Apple (AAPL) hit (LOW) $292 Week of June 22 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Apple (AAPL) hit (LOW) $292 Week of June 22 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2651389",
-        "question": "S&P 500 (SPX) Up or Down on June 24?",
-        "probability": 0.28,
-        "change_24h": -0.22,
-        "volume_24h": 120847.46,
-        "score": 225.08,
-        "url": "https://polymarket.com/event/spx-up-or-down-on-june-24-2026"
-      },
-      "news": [
-        {
-          "title": "S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed - Reuters",
-          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/",
-          "snippet": "# S&P 500, Nasdaq futures tick up as tech steadies, Micron earnings eyed. * Futures: Dow down 0.1%, S&P 500 up 0.21%, Nasdaq up 0.55%. June 24 (Reuter"
-        },
-        {
-          "title": "Tesla stock has a SpaceX problem, veteran analyst says - thestreet.com",
-          "url": "https://www.thestreet.com/investing/stocks/tesla-stock-has-a-spacex-problem-veteran-analyst-says",
-          "snippet": "Read More  View post: SoFi makes major AI investing moveImage 6: SoFi makes major AI investing moveSoFi makes major AI investing move. *   Investing I"
-        },
-        {
-          "title": "Nvidia pours cold water on AI fears - thestreet.com",
-          "url": "https://www.thestreet.com/technology/nvidia-pours-cold-water-on-ai-fears",
-          "snippet": "*   Investing InvestingAll InvestingETFsStocksEarningsMutual Funds View post: Microsoft's CEO sends the AI industry a strong warningImage 7: Microsoft"
-        },
-        {
-          "title": "Stock Market Today: Dow Rises, S&P 500 and Nasdaq Down; Alphabet, Micron, SpaceX, More Movers - Barron's",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062226",
-          "snippet": "## The S&P 500 is also lower, while the Dow is up. #### Dow, Nasdaq Futures Rise as U.S.-Iran Agree to New Deal After Trump Threats. The S&P 500 was d"
-        },
-        {
-          "title": "Asia shares slip as markets reprice Fed expectations, oil gains - Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-06-23/",
-          "snippet": "SINGAPORE, June 23 (Reuters) - Asian stocks mostly eased and ​oil prices regained strength early on Tuesday after the U.S. waived sanctions on Iran, w"
-        }
-      ],
-      "insight": {
-        "category": "stocks",
-        "en": {
-          "title": "S&P 500 (SPX) Up or Down on June 24?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "S&P 500 (SPX) Up or Down on June 24?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2652518",
-        "question": "Will the price of Bitcoin be above $58,000 on June 30?",
-        "probability": 0.675,
-        "change_24h": -0.22,
-        "volume_24h": 17883.03,
-        "score": 224.25,
-        "url": "https://polymarket.com/event/bitcoin-above-58k-on-june-30-2026"
-      },
-      "news": [
-        {
-          "title": "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
-          "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
-        },
-        {
-          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
-          "url": "https://www.cnbc.com/2026/06/24/bitcoin-falls-back-under-60000-hitting-its-lowest-level-since-october-2024.html",
-          "snippet": "# Bitcoin falls back under $60,000, hitting its lowest level since October 2024. * Bitcoin hit a low of $59,023.98 on Wednesday, its lowest level sinc"
-        },
-        {
-          "title": "Hyperscale Data Bitcoin Treasury Reaches Approximately 727 Bitcoin – Company Announcement - Financial Times",
-          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202606230600PR_NEWS_USPRX____SF89732-1",
-          "snippet": "(NYSE American: GPUS), an artificial intelligence (\"**AI**\") data center company anchored by Bitcoin (\"**Hyperscale Data**\" or the \"**Company**\"), tod"
-        },
-        {
-          "title": "Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000 - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-nears-third-cex-partnership-as-ethereum-price-prediction-targets-7-000-1036267085",
-          "snippet": "# Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000. MONACO, June 22, 2026 (GLOBE NEWSWIRE) -- Cryp"
-        },
-        {
-          "title": "The Internet Has Some Thoughts On The Steam Machine’s $1,000+ Price - GameSpot",
-          "url": "https://www.gamespot.com/articles/the-internet-has-some-thoughts-on-the-steam-machines-1000-price/",
-          "snippet": "Image 1: Gamespot LogoImage 2: Gamespot Logo. *   Best Xbox Game Pass Games. *   Steam Machine Price, Release Date. *   New Game Pass Games For June. "
-        }
-      ],
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Will the price of Bitcoin be above $58,000 on June 30?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the price of Bitcoin be above $58,000 on June 30?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2652448",
-        "question": "Bitcoin Up or Down on June 25?",
-        "probability": 0.305,
-        "change_24h": -0.21,
-        "volume_24h": 31827.59,
-        "score": 214.5,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-june-25-2026"
-      },
-      "news": [
-        {
-          "title": "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
-          "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
-        },
-        {
-          "title": "5 Market Signals Reveal How AI Stocks, Oil and Bitcoin Shook Wall Street - Bitcoin News",
-          "url": "https://news.bitcoin.com/5-market-signals-reveal-how-ai-stocks-oil-and-bitcoin-shook-wall-street-37856/",
-          "snippet": "**Markets split sharply on Wednesday as lower oil prices eased inflation fears, but pressure on technology stocks, crypto assets and precious metals k"
-        },
-        {
-          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
-          "url": "https://www.cnbc.com/2026/06/24/bitcoin-falls-back-under-60000-hitting-its-lowest-level-since-october-2024.html",
-          "snippet": "# Bitcoin falls back under $60,000, hitting its lowest level since October 2024. * Bitcoin hit a low of $59,023.98 on Wednesday, its lowest level sinc"
-        },
-        {
-          "title": "Bitcoin bear flag rejection keeps crypto market under pressure - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-23/bitcoin-bear-flag-rejection-keeps-crypto-market-under-pressure",
-          "snippet": "# Bitcoin bear flag rejection keeps crypto market under pressure. Bitcoin’s Monday upper-wick pump gave traders a clean retest of the broken bear-flag"
-        },
-        {
-          "title": "Markets News, June 22, 2026: Dow Ekes Out Gain as Big Tech Stocks Weigh on Nasdaq; SpaceX Falls To Lowest Close Ever - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06222026-12003699",
-          "snippet": "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal. Markets News, June 15, 2026: Stocks Su"
-        }
-      ],
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Up or Down on June 25?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Bitcoin Up or Down on June 25?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "2610860",
-        "question": "Will Microsoft Corporation (MSFT) hit (HIGH) $382.50 Week of June 22 2026?",
-        "probability": 0.285,
-        "change_24h": -0.21,
-        "volume_24h": 869.69,
-        "score": 212.94,
-        "url": "https://polymarket.com/event/will-msft-reach-382-50-by-june-22-2026"
-      },
-      "news": [
-        {
-          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
-          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
-        },
-        {
-          "title": "Nimmo's 3 hits, Osuna's go-ahead double lift Rangers to 4-3 win over Marlins - Bozeman Daily Chronicle",
-          "url": "https://www.bozemandailychronicle.com/ap_news/sports/nimmos-3-hits-osunas-go-ahead-double-lift-rangers-to-4-3-win-over-marlins/article_d823903c-b5eb-5700-a18f-deab3b57879f.html",
-          "snippet": "Texas Rangers' Jake Burger scores on a sacrifice fly hit by Elias Díaz during the eighth inning of a baseball game against the Miami Marlins, Monday, "
-        },
-        {
-          "title": "Timeline: The Oyu Tolgoi saga - The Northern Miner",
-          "url": "https://www.northernminer.com/news/timeline-the-oyu-tolgoi-saga/1003892350/",
-          "snippet": "* June 22, 2026 | Newmont’s Red Chris underground expansion gets regulatory green light in BC. * June 22, 2026 | Alamos logs multiple high-grade hits "
-        },
-        {
-          "title": "Stocks To Buy or Sell Today, June 23, 2026: TCS, Bharat Electronics and Hindustan Zinc Among Shares That - LatestLY",
-          "url": "https://www.latestly.com/business/stocks-to-buy-or-sell-today-june-23-2026-tcs-bharat-electronics-and-hindustan-zinc-among-shares-that-may-remain-in-spotlight-on-tuesday-7485316.html/amp",
-          "snippet": "# Stocks To Buy or Sell Today, June 23, 2026: TCS, Bharat Electronics and Hindustan Zinc Among Shares That May Remain in Spotlight on Tuesday. Shares "
-        },
-        {
-          "title": "Ukraine says it struck Russian missile electronics plant - Reuters",
-          "url": "https://www.reuters.com/world/europe/ukraine-says-it-struck-russian-missile-electronics-plant-2026-06-22/",
-          "snippet": "Smoke billows from a production plant following a Ukrainian attack, according the local governor, in the course of Russia-Ukraine conflict, in Voronze"
-        }
-      ],
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will Microsoft Corporation (MSFT) hit (HIGH) $382.50 Week of June 22 2",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Microsoft Corporation (MSFT) hit (HIGH) $382.50 Week of June 22 2",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
         "id": "2596404",
         "question": "Will the price of Ethereum be above $1,700 on June 25?",
-        "probability": 0.0225,
-        "change_24h": -0.2025,
-        "volume_24h": 28983.38,
-        "score": 206.96,
+        "probability": 0.0195,
+        "change_24h": -0.2355,
+        "volume_24h": 35838.65,
+        "score": 240.05,
         "url": "https://polymarket.com/event/ethereum-above-1700-on-june-25-2026"
       },
       "news": [
@@ -1649,14 +1014,14 @@
           "snippet": "# Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup. * More than 200 crypto firms have urged the U.S. Sen"
         },
         {
+          "title": "‘Avatar: The Last Airbender’ Season 2 – Release Date, Schedule, How to Watch - Newsweek",
+          "url": "https://www.newsweek.com/entertainment/tv/avatar-the-last-airbender-season-2-release-date-schedule-how-to-watch-12113663",
+          "snippet": "# ‘Avatar: The Last Airbender’ Season 2 – Release Date, Schedule, How to Watch. \"Avatar: The Last Airbender\" returns to Netflix on June 25 with Season"
+        },
+        {
           "title": "GTA 6’s “Leaked” Prices Are Probably Bogus, Reliable Insider Says - GameSpot",
           "url": "https://www.gamespot.com/articles/gta-6s-leaked-prices-are-probably-bogus-reliable-insider-says/",
           "snippet": "GTA 6 preorders go live on June 25, and ahead of that, one retailer posted listings for the game showing higher-than-expected price points. The retail"
-        },
-        {
-          "title": "Gold price will struggle to reach $5,200/oz in 2026 without strong ETF inflows – Morgan Stanley - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-06-22/gold-price-will-struggle-reach-5200oz-2026-without-strong-etf-inflows",
-          "snippet": "Kitco NEWS has a diverse team of journalists reporting on the economy, stock markets, commodities, cryptocurrencies, mining and metals with accuracy a"
         }
       ],
       "insight": {
@@ -1681,12 +1046,398 @@
     },
     {
       "market": {
+        "id": "2611043",
+        "question": "Will Alphabet Inc. (GOOGL) hit (LOW) $335 Week of June 22 2026?",
+        "probability": 0.517,
+        "change_24h": 0.2255,
+        "volume_24h": 1983.0,
+        "score": 228.8,
+        "url": "https://polymarket.com/event/will-googl-dip-to-335-by-june-22-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "GOOGL $335 Low Target Probability Rises",
+          "summary": "The probability of Alphabet Inc. (GOOGL) hitting a low of $335 by June 2026 jumped 22.6% to 52%. This surge reflects heightened investor confidence in GOOGL's long-term AI monetization and Google Cloud growth prospects.",
+          "drivers": [
+            "Accelerated AI monetization across Google's ecosystem.",
+            "Stronger Google Cloud Platform (GCP) market expansion.",
+            "Improved long-term macroeconomic growth outlook."
+          ],
+          "why_matters": "This market reflects investor expectations for Alphabet's future valuation and its ability to capitalize on AI advancements. A sustained move towards $335 would signify a major re-rating of the company's growth potential.",
+          "bull_case": "Alphabet's AI leadership and Google Cloud expansion will drive substantial revenue and profit growth, pushing valuation significantly higher.",
+          "bear_case": "Intense competition, regulatory pressures, or slower AI monetization could hinder growth, preventing GOOGL from reaching $335."
+        },
+        "zh": {
+          "title": "谷歌335美元低点概率飙升",
+          "summary": "Alphabet (GOOGL) 在2026年6月22日当周触及335美元低点的概率飙升22.6%至52%。这反映出投资者对谷歌长期AI变现能力和谷歌云增长前景的信心增强。",
+          "drivers": [
+            "谷歌生态系统AI变现加速。",
+            "谷歌云平台(GCP)市场扩张强劲。",
+            "长期宏观经济增长前景改善。"
+          ],
+          "why_matters": "该市场反映了投资者对Alphabet未来估值及其利用AI技术能力的预期。股价持续迈向335美元将标志着该公司增长潜力的重大重估。",
+          "bull_case": "Alphabet的AI领先地位和谷歌云扩张将推动营收和利润大幅增长，显著提升估值。",
+          "bear_case": "激烈的竞争、监管压力或AI变现缓慢可能阻碍增长，使GOOGL难以达到335美元。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2607922",
+        "question": "Will the price of Ethereum be above $1,700 on June 26?",
+        "probability": 0.0875,
+        "change_24h": -0.2125,
+        "volume_24h": 27472.06,
+        "score": 216.94,
+        "url": "https://polymarket.com/event/ethereum-above-1700-on-june-26-2026"
+      },
+      "news": [
+        {
+          "title": "Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000 - markets.businessinsider.com",
+          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-nears-third-cex-partnership-as-ethereum-price-prediction-targets-7-000-1036267085",
+          "snippet": "# Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000. MONACO, June 22, 2026 (GLOBE NEWSWIRE) -- Cryp"
+        },
+        {
+          "title": "Ethereum Foundation Slashes Workforce by 20% and Budget by 40% — Impact on ETH Price - Blockonomi",
+          "url": "https://blockonomi.com/ethereum-foundation-slashes-workforce-by-20-and-budget-by-40-impact-on-eth-price/",
+          "snippet": "Facebook   X (Twitter)   LinkedIn   Telegram. # Ethereum Foundation Slashes Workforce by 20% and Budget by 40% — Impact on ETH Price. Telegram   Twitt"
+        },
+        {
+          "title": "Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-06-22/crypto-swot-prediction-markets-have-experienced-surge-activity-during-fifa-world",
+          "snippet": "# Crypto SWOT: Prediction markets have experienced a surge in activity during the FIFA World Cup. * More than 200 crypto firms have urged the U.S. Sen"
+        },
+        {
+          "title": "Gold price will struggle to reach $5,200/oz in 2026 without strong ETF inflows – Morgan Stanley - KITCO",
+          "url": "https://www.kitco.com/news/article/2026-06-22/gold-price-will-struggle-reach-5200oz-2026-without-strong-etf-inflows",
+          "snippet": "Kitco NEWS has a diverse team of journalists reporting on the economy, stock markets, commodities, cryptocurrencies, mining and metals with accuracy a"
+        },
+        {
+          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
+          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
+        }
+      ],
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will the price of Ethereum be above $1,700 on June 26?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the price of Ethereum be above $1,700 on June 26?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2388659",
+        "question": "Will Microsoft (MSFT) close above $375 end of June?",
+        "probability": 0.335,
+        "change_24h": -0.208,
+        "volume_24h": 2024.06,
+        "score": 211.31,
+        "url": "https://polymarket.com/event/msft-above-375-on-june-30-2026"
+      },
+      "news": [
+        {
+          "title": "Stock Market Today: Nasdaq, S&P 500 Sink As Oil, Gold Drop; Sandisk Falls But These Telecoms Gain (Live Coverage) - Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-tech-sell-off-fedex-stock/",
+          "snippet": "**MARKET OUTLOOK: See The Forecast For The Next Six Months**. Start HereIBD Digital: 2 Months for $20. IBD Stock CheckupStock Of The DayScreen Of The "
+        },
+        {
+          "title": "SpaceX stock dips below $150 debut before rebounding - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-dips-below-150-debut-before-rebounding-140331911.html",
+          "snippet": "2. Best 0% APR cards. 3. Best balance transfer cards. 2. Best high-yield savings accounts. 3. Best money market accounts. The SpaceX (SPCX) stock rebo"
+        },
+        {
+          "title": "SpaceX stock dips below $150 before rebounding - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-dips-below-150-before-rebounding-140331911.html",
+          "snippet": "2. Best 0% APR cards. 3. Best balance transfer cards. 2. Best high-yield savings accounts. 3. Best money market accounts. The SpaceX (SPCX) stock sell"
+        },
+        {
+          "title": "Barclays, Stifel lift S&P 500 target to 7,800 on strong earnings outlook - Reuters",
+          "url": "https://www.reuters.com/business/barclays-stifel-lift-sp-500-target-7800-strong-earnings-outlook-2026-06-23/",
+          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. ## Browse Legal"
+        },
+        {
+          "title": "Chevron is Building a Massive Power Plant to Support a Microsoft AI Data Center. Here's What it Means for the Energy Stock. - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/06/22/chevron-is-building-a-massive-power-plant-to-support-a-microsoft-data-center-heres-what-it-means-for-the-energy-stock/",
+          "snippet": "**Chevron** (CVX +0.82%) has signed a 20-year power agreement with **Microsoft** (MSFT 3.20%) to support a massive AI data center project in Texas. Th"
+        }
+      ],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Will Microsoft (MSFT) close above $375 end of June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Microsoft (MSFT) close above $375 end of June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "1032328",
+        "question": "Will Silver (SI) settle at $60-$70 in June?",
+        "probability": 0.331,
+        "change_24h": -0.207,
+        "volume_24h": 4625.88,
+        "score": 210.67,
+        "url": "https://polymarket.com/event/si-settle-60-70-jun-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Silver (SI) settle at $60-$70 in June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Silver (SI) settle at $60-$70 in June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2640121",
+        "question": "Will the price of Bitcoin be above $60,000 on June 29?",
+        "probability": 0.645,
+        "change_24h": -0.2,
+        "volume_24h": 11498.76,
+        "score": 204.06,
+        "url": "https://polymarket.com/event/bitcoin-above-60k-on-june-29-2026"
+      },
+      "news": [
+        {
+          "title": "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
+          "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
+        },
+        {
+          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/bitcoin-falls-back-under-60000-hitting-its-lowest-level-since-october-2024.html",
+          "snippet": "# Bitcoin falls back under $60,000, hitting its lowest level since October 2024. * Bitcoin hit a low of $59,023.98 on Wednesday, its lowest level sinc"
+        },
+        {
+          "title": "Markets News, June 22, 2026: Dow Ekes Out Gain as Big Tech Stocks Weigh on Nasdaq; SpaceX Falls To Lowest Close Ever - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06222026-12003699",
+          "snippet": "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal. Markets News, June 15, 2026: Stocks Su"
+        },
+        {
+          "title": "5 Market Signals Reveal How AI Stocks, Oil and Bitcoin Shook Wall Street - Bitcoin News",
+          "url": "https://news.bitcoin.com/5-market-signals-reveal-how-ai-stocks-oil-and-bitcoin-shook-wall-street-37856/",
+          "snippet": "**Markets split sharply on Wednesday as lower oil prices eased inflation fears, but pressure on technology stocks, crypto assets and precious metals k"
+        },
+        {
+          "title": "Bitcoin crashes, odds turn darker as MSTR, APLD lead crypto-stocks bloodbath - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4606902-bitcoin-crashes-but-odds-turn-darker-as-mstr-apld-lead-crypto-stocks-bloodbath",
+          "snippet": "## Stock Analysis. ## Market News. Jun 24, 2026, 3:22 PM ETBitcoin USD (BTC-USD) Crypto, BTC, MSTR Stock, MSTR:CA Stock, APLD Stock, IREN Stock, CIFR "
+        }
+      ],
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will the price of Bitcoin be above $60,000 on June 29?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the price of Bitcoin be above $60,000 on June 29?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2611319",
+        "question": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $4.50 Week of June 22 2026?",
+        "probability": 0.655,
+        "change_24h": 0.2,
+        "volume_24h": 1370.59,
+        "score": 203.14,
+        "url": "https://polymarket.com/event/will-open-reach-4-50-by-june-22-2026"
+      },
+      "news": [
+        {
+          "title": "Nimmo's 3 hits, Osuna's go-ahead double lift Rangers to 4-3 win over Marlins - Bozeman Daily Chronicle",
+          "url": "https://www.bozemandailychronicle.com/ap_news/sports/nimmos-3-hits-osunas-go-ahead-double-lift-rangers-to-4-3-win-over-marlins/article_d823903c-b5eb-5700-a18f-deab3b57879f.html",
+          "snippet": "Texas Rangers' Jake Burger scores on a sacrifice fly hit by Elias Díaz during the eighth inning of a baseball game against the Miami Marlins, Monday, "
+        },
+        {
+          "title": "Waymo Just Recalled 3,800 Robotaxis. Is Google’s Self-Driving Dream Hitting a Wall? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/22/waymo-just-recalled-3800-robotaxis-is-googles-self-driving-dream-hitting-a-wall/",
+          "snippet": "Stock Market Live June 22, 2026: S&P 500 (SPY) Little Changed as Markets Wait on Iran Progress. * Alphabet's Q1 EPS of $5 crushed the $2.63 consensus,"
+        },
+        {
+          "title": "GPK Investors Have Opportunity to Lead Graphic Packaging Holding Company Securities Fraud Lawsuit with the Schall Law Firm - PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/gpk-investors-have-opportunity-to-lead-graphic-packaging-holding-company-securities-fraud-lawsuit-with-the-schall-law-firm-302806016.html",
+          "snippet": "# GPK Investors Have Opportunity to Lead Graphic Packaging Holding Company Securities Fraud Lawsuit with the Schall Law Firm. LOS ANGELES, June 22, 20"
+        },
+        {
+          "title": "Timeline: The Oyu Tolgoi saga - The Northern Miner",
+          "url": "https://www.northernminer.com/news/timeline-the-oyu-tolgoi-saga/1003892350/",
+          "snippet": "* June 22, 2026 | Newmont’s Red Chris underground expansion gets regulatory green light in BC. * June 22, 2026 | Alamos logs multiple high-grade hits "
+        },
+        {
+          "title": "The Week In Technology, June 22-26, 2026 - Aviation Week",
+          "url": "https://aviationweek.com/aerospace/emerging-technologies/week-technology-june-22-26-2026",
+          "snippet": "* Aviation Week & Space Technology - Inside MRO. * Engine Leasing Trading & Finance Europe. * Engine Leasing, Trading & Finance Americas. * CAPA Airli"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $4.50 Week of June 2",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $4.50 Week of June 2",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2652448",
+        "question": "Bitcoin Up or Down on June 25?",
+        "probability": 0.705,
+        "change_24h": 0.19,
+        "volume_24h": 136524.58,
+        "score": 195.14,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-june-25-2026"
+      },
+      "news": [
+        {
+          "title": "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
+          "snippet": "## Precious metals have fallen sharply from their 2025 highs as markets price in Fed rate hikes. * Gold has dropped 28% from its January 2025 peak of "
+        },
+        {
+          "title": "Bitcoin crashes, odds turn darker as MSTR, APLD lead crypto-stocks bloodbath - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4606902-bitcoin-crashes-but-odds-turn-darker-as-mstr-apld-lead-crypto-stocks-bloodbath",
+          "snippet": "## Stock Analysis. ## Market News. Jun 24, 2026, 3:22 PM ETBitcoin USD (BTC-USD) Crypto, BTC, MSTR Stock, MSTR:CA Stock, APLD Stock, IREN Stock, CIFR "
+        },
+        {
+          "title": "5 Market Signals Reveal How AI Stocks, Oil and Bitcoin Shook Wall Street - Bitcoin News",
+          "url": "https://news.bitcoin.com/5-market-signals-reveal-how-ai-stocks-oil-and-bitcoin-shook-wall-street-37856/",
+          "snippet": "**Markets split sharply on Wednesday as lower oil prices eased inflation fears, but pressure on technology stocks, crypto assets and precious metals k"
+        },
+        {
+          "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/bitcoin-falls-back-under-60000-hitting-its-lowest-level-since-october-2024.html",
+          "snippet": "# Bitcoin falls back under $60,000, hitting its lowest level since October 2024. * Bitcoin hit a low of $59,023.98 on Wednesday, its lowest level sinc"
+        },
+        {
+          "title": "Bitcoin bear flag rejection keeps crypto market under pressure - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-06-23/bitcoin-bear-flag-rejection-keeps-crypto-market-under-pressure",
+          "snippet": "# Bitcoin bear flag rejection keeps crypto market under pressure. Bitcoin’s Monday upper-wick pump gave traders a clean retest of the broken bear-flag"
+        }
+      ],
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down on June 25?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Bitcoin Up or Down on June 25?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2632928",
+        "question": "Will Wes Streeting be the next Chancellor of the Exchequer of the UK in 2026?",
+        "probability": 0.405,
+        "change_24h": -0.19,
+        "volume_24h": 18882.23,
+        "score": 194.28,
+        "url": "https://polymarket.com/event/will-wes-streeting-be-the-next-chancellor-of-the-exchequer-of-the-uk-in-2026-20260621005429784"
+      },
+      "news": [],
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Will Wes Streeting be the next Chancellor of the Exchequer of the UK i",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Wes Streeting be the next Chancellor of the Exchequer of the UK i",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
         "id": "2632074",
         "question": "Will 100 or more ships transit the Strait of Hormuz between June 22-June 28?",
-        "probability": 0.95,
-        "change_24h": 0.2,
-        "volume_24h": 13297.22,
-        "score": 204.12,
+        "probability": 0.955,
+        "change_24h": 0.19,
+        "volume_24h": 11922.76,
+        "score": 194.08,
         "url": "https://polymarket.com/event/will-100-or-more-ships-transit-the-strait-of-hormuz-between-june-22-june-28-20260619213821004"
       },
       "news": [
@@ -1694,6 +1445,16 @@
           "title": "Hormuz Traffic Picks Up as More Tankers Broadcast Crossings - Insurance Journal",
           "url": "https://www.insurancejournal.com/news/international/2026/06/23/874880.htm",
           "snippet": "More ships are openly signaling their intention to traverse the Strait of Hormuz, pointing to growing confidence among shipowners and traders about se"
+        },
+        {
+          "title": "Hormuz Transit Security Is ‘Hour to Hour’ Play, Chubb CEO Says - Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/international/2026/06/22/874754.htm",
+          "snippet": "US efforts to open shipping channels in the Strait of Hormuz will allow a gradual increase in vessel transit, though security remains volatile, Chubb "
+        },
+        {
+          "title": "Strait of Hormuz Traffic is Rising, and Oil Prices are Plummeting - The Maritime Executive",
+          "url": "https://maritime-executive.com/article/strait-of-hormuz-traffic-is-rising-and-oil-prices-are-plummeting",
+          "snippet": "# Strait of Hormuz Traffic is Rising, and Oil Prices are Plummeting. Traffic levels in the Strait of Hormuz are showing signs of improvement as a form"
         },
         {
           "title": "Oil tanker traffic picks up through Hormuz - Reuters",
@@ -1704,16 +1465,6 @@
           "title": "Dozens of ships head through Strait of Hormuz after US-Iran deal - BBC",
           "url": "https://www.bbc.com/news/articles/cx23rnzdgl8o",
           "snippet": "At least 172 vessels have crossed through the Strait of Hormuz since the US and Iran signed a deal aimed at ending the war, including 42 ships on Satu"
-        },
-        {
-          "title": "Iran and Oman Say They’ll Work on Pact for Hormuz Transit Costs - Insurance Journal",
-          "url": "https://www.insurancejournal.com/news/international/2026/06/23/874955.htm",
-          "snippet": "By Omar Tamo and Julian Lee | June 23, 2026. Iran and Oman said they’ll begin work on finding an agreement over the future administration of the Strai"
-        },
-        {
-          "title": "Shipping slows after Iran says it has again shut the Strait of Hormuz - Reuters",
-          "url": "https://www.reuters.com/world/middle-east/shipping-slows-after-iran-says-it-has-again-shut-strait-hormuz-2026-06-21/",
-          "snippet": "# Shipping slows after Iran says it has again shut the Strait of Hormuz. SINGAPORE, June 22 (Reuters) - The number of ships that passed through the St"
         }
       ],
       "insight": {
@@ -1738,45 +1489,76 @@
     },
     {
       "market": {
-        "id": "2646848",
-        "question": "US x Iran diplomatic meeting by July 3, 2026?",
-        "probability": 0.34,
-        "change_24h": 0.185,
-        "volume_24h": 68859.5,
-        "score": 189.84,
-        "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359"
+        "id": "2350450",
+        "question": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.00 in June?",
+        "probability": 0.495,
+        "change_24h": -0.185,
+        "volume_24h": 1859.02,
+        "score": 188.27,
+        "url": "https://polymarket.com/event/will-open-dip-to-4-00-in-june-2026"
+      },
+      "news": [],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.00 in June?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $4.00 in June?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "2365056",
+        "question": "Will USD be less than 1.5M Iranian rials on June 30?",
+        "probability": 0.0155,
+        "change_24h": -0.1195,
+        "volume_24h": 2873.51,
+        "score": 122.96,
+        "url": "https://polymarket.com/event/will-usd-be-less-than-1pt5m-iranian-rials-on-june-30"
       },
       "news": [
         {
-          "title": "US-Iran talks focused on elements of nuclear deal, enforcement of Lebanon ceasefire - report - The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-900087",
-          "snippet": "# US-Iran talks focused on elements of nuclear deal, enforcement of Lebanon ceasefire - report. ## A US diplomat told Axios that \"all four parties see"
+          "title": "'Cold cost-benefit calculation': Washington greenlights Tehran’s oil transactions under MoU - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-900267",
+          "snippet": "## Washington has issued a 60-day license allowing Iran to resume oil transactions, a step linked to diplomatic talks and already impacting global cru"
         },
         {
-          "title": "What are the key outcomes of the Iran-US talks in Switzerland, what next? - Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/22/what-are-the-key-outcomes-of-the-iran-us-talks-in-switzerland-what-next",
-          "snippet": "News|US-Israel war on Iran. # Key outcomes of Iran-US talks in Switzerland; what next? Mediators Qatar and Pakistan have said the United States and Ir"
+          "title": "Oil prices rise as investors continue to watch U.S.-Iran moves, Citi sees `overhang' disappearing - CNBC",
+          "url": "https://www.cnbc.com/2026/06/23/oil-prices-rise-as-investors-mull-middle-east-developments-.html",
+          "snippet": "* The U.S. Treasury issued a 60-day license that authorizes the production, delivery and sale of oil from Iran. * Vice President JD Vance assured that"
         },
         {
-          "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/2026-06-23/live-updates-900205",
-          "snippet": "# Live Updates: Majority see MoU as Iran win, Israel security loss; Lebanon ceasefire prompts IDF doctrine rethink. ## Ghalibaf, Araghchi leave for Om"
+          "title": "Dollar rides high on Fed rate-hike bets - CNBC",
+          "url": "https://www.cnbc.com/amp/2026/06/25/dollar-rides-high-on-fed-rate-hike-bets.html",
+          "snippet": "A surging dollar has swept past chart resistance and is heading toward its sharpest monthly gain in almost a year on Thursday, as traders bet on a str"
         },
         {
-          "title": "Vance says Iran agrees to let nuclear inspectors back into country - Politico",
-          "url": "https://www.politico.com/news/2026/06/22/vance-iran-nuclear-inspectors-00969737",
-          "snippet": "Vice President JD Vance said Tehran has agreed to allow the IAEA back into the country for the first time this year. Vice President JD Vance speaks to"
+          "title": "Waiving sanctions on Iranian oil is a huge concession by America - The Economist",
+          "url": "https://www.economist.com/finance-and-economics/2026/06/23/waiving-sanctions-on-iranian-oil-is-a-huge-concession-by-america",
+          "snippet": "# Waiving sanctions on Iranian oil is a huge concession by America. ## It will enrich an adversary. IRAN’S FOOTBALL team is having an unexpectedly goo"
         },
         {
-          "title": "Is Iran Resuming Nuclear Inspections? Trump And Iran Offer Different Answers - Forbes",
-          "url": "https://www.forbes.com/sites/saradorn/2026/06/22/trump-says-iran-will-allow-nuclear-inspections-but-iran-denies-new-commitments/",
-          "snippet": "Vice President JD Vance, who represented the U.S. in Switzerland during talks with Iran over the weekend, announced the agreement to reporters earlier"
+          "title": "US gasoline prices tumble for sixth straight week - Reuters",
+          "url": "https://www.reuters.com/business/energy/us-gasoline-prices-tumble-sixth-straight-week-2026-06-22/",
+          "snippet": "Item 1 of 2 A person pumps their gasoline at a gas station in Atlanta, Georgia, U.S., March 20, 2026. **[1/2]**A person pumps their gasoline at a gas "
         }
       ],
       "insight": {
         "category": "geopolitics",
         "en": {
-          "title": "US x Iran diplomatic meeting by July 3, 2026?",
+          "title": "Will USD be less than 1.5M Iranian rials on June 30?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1784,7 +1566,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "US x Iran diplomatic meeting by July 3, 2026?",
+          "title": "Will USD be less than 1.5M Iranian rials on June 30?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1795,115 +1577,68 @@
     },
     {
       "market": {
-        "id": "666818",
-        "question": "U.S. agrees to a new trade deal with \"India\" before 2027?",
-        "probability": 0.28,
-        "change_24h": 0.025,
-        "volume_24h": 506.43,
-        "score": 27.7,
-        "url": "https://polymarket.com/event/us-agrees-to-a-new-trade-deal-with-india-before-2027"
+        "id": "2298908",
+        "question": "Will SpaceX's valuation hit (HIGH) $3.5T by June 30?",
+        "probability": 0.0025,
+        "change_24h": -0.003,
+        "volume_24h": 39361.14,
+        "score": 7.6,
+        "url": "https://polymarket.com/event/will-spacexs-valuation-hit-high-3pt5t-by-june-30"
       },
       "news": [
         {
-          "title": "Trump’s Hormuz headache - Politico",
-          "url": "https://www.politico.com/newsletters/weekly-trade/2026/06/22/trumps-hormuz-headache-00969446",
-          "snippet": "Delivered every Monday by 10 a.m., Weekly Trade examines the latest news in global trade politics and policy. **—** The status of the Strait of Hormuz"
+          "title": "Elon Musk loses trillionaire status as global tech rout hits SpaceX - BBC",
+          "url": "https://www.bbc.com/news/articles/c8j2m2p8dgmo",
+          "snippet": "Tech entrepreneur Elon Musk lost his trillionaire status on Tuesday, less than two weeks after becoming the first person to achieve it following Space"
         },
         {
-          "title": "Supply for memory is going to be even tighter in 2027, says Cantor Fitzgerald's CJ Muse - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/24/supply-for-memory-is-going-to-be-even-tighter-in-2027-says-cantor-fitzgeralds-cj-muse.html",
-          "snippet": "# Supply for memory is going to be even tighter in 2027, says Cantor Fitzgerald's CJ Muse. CJ Muse, Cantor Fitzgerald semiconductor analyst, joins 'Sq"
+          "title": "Predators 2026 Development Camp Set for June 28 - July 3 in Nashville - NHL.com",
+          "url": "https://www.nhl.com/predators/news/predators-2026-development-camp-set-for-june-28-july-3-in-nashville-2026-06-24",
+          "snippet": "# Predators 2026 Development Camp Set for June 28 - July 3 in Nashville. Annual Camp Culminates With Future Stars Game, Presented by Ticketmaster, on "
         },
         {
-          "title": "Trump's New US Tariff Wall Shakes Up Winners, Losers Lineup - Yahoo Finance",
-          "url": "https://finance.yahoo.com/economy/policy/articles/trumps-new-us-tariff-wall-shakes-up-winners-losers-lineup-061710632.html",
-          "snippet": "But not all is as it was on April 2, 2025 — or Liberation Day, as the president called it. To make tariffs more legally sound, many countries are subj"
+          "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "snippet": "# Thursday's big stock stories: What’s likely to move the market in the next trading session. Here's what CNBC TV's producers were watching as chip st"
         },
         {
-          "title": "The long tail of Trump’s trade agenda - Food Business News",
-          "url": "https://www.foodbusinessnews.net/articles/30547-the-long-tail-of-trumps-trade-agenda",
-          "snippet": "Home » The long tail of Trump’s trade agenda. # The long tail of Trump’s trade agenda. Latest developments include proposed 10% to 12.5% tariffs on im"
+          "title": "SpaceX launching its 1st 'Starfall' reentry capsule early on June 23: Watch it live - Space",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launching-its-1st-starfall-reentry-capsule-early-on-june-23-watch-it-live",
+          "snippet": "SpaceX's newest spaceflight tech is about to launch to the final frontier for the first time. The company's Starfall capsule is set for its debut miss"
         },
         {
-          "title": "Will Mother Nature let out the wheat bulls? - Farm Progress",
-          "url": "https://www.farmprogress.com/marketing/will-mother-nature-let-out-the-wheat-bulls-",
-          "snippet": "Ag Marketing IQ: El Nino weather patterns can have dire consequences for Europe, India and Australia, major wheat producers on the global scene. The r"
+          "title": "SpaceX stock slips as it announces $25 billion bond offering - Yahoo Finance UK",
+          "url": "https://uk.finance.yahoo.com/news/spacex-stock-wavers-as-it-announces-25-billion-bond-offering-135726178.html",
+          "snippet": "# SpaceX stock slips as it announces $25 billion bond offering. SpaceX (SPCX) stock is in focus on Wednesday after the company completed a successful "
         }
       ],
       "insight": {
         "category": "business",
         "en": {
-          "title": "U.S. agrees to a new trade deal with \"India\" before 2027?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "SpaceX $3.5T Valuation: Improbable",
+          "summary": "The probability remains at 0% due to the extremely ambitious $3.5T valuation target and the imminent June 30 deadline. Recent headlines like \"Elon Musk loses trillionaire status\" and \"SpaceX stock slips\" indicate market headwinds, not a surge.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Unrealistic $3.5T valuation target by June 30.",
+            "Negative market reaction to $25B bond offering.",
+            "Global tech rout impacting SpaceX valuation.",
+            "No major positive catalysts expected imminently."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "SpaceX's valuation reflects confidence in its ambitious space and internet projects, influencing investment in the entire commercial space sector and future technological frontiers.",
+          "bull_case": "An unforeseen, massive contract or a surprise IPO announcement before June 30 could theoretically re-rate valuation significantly.",
+          "bear_case": "Continued tech sector downturn and negative market sentiment following the $25 billion bond offering will keep valuation suppressed."
         },
         "zh": {
-          "title": "U.S. agrees to a new trade deal with \"India\" before 2027?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "SpaceX估值3.5万亿：极不可能",
+          "summary": "鉴于3.5万亿美元的估值目标过于宏大且截止日期临近（6月30日），市场概率维持在0%。近期“埃隆·马斯克失去万亿富翁地位”和“SpaceX股价下跌”等消息表明市场面临逆风。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "6月30日前达到3.5万亿美元估值不切实际。",
+            "市场对250亿美元债券发行反应负面。",
+            "全球科技股下跌影响SpaceX估值。",
+            "短期内缺乏重大积极催化剂。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "1654959",
-        "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "probability": 0.2315,
-        "change_24h": -0.0135,
-        "volume_24h": 292467.02,
-        "score": 18.97,
-        "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting"
-      },
-      "news": [
-        {
-          "title": "BofA forecasts 75 bps of rate hikes in 2026 on labour market resilience, new Fed chair - Reuters",
-          "url": "https://www.reuters.com/business/bofa-forecasts-75-bps-rate-hikes-2026-labour-market-resilience-new-fed-chair-2026-06-22/",
-          "snippet": "# BofA forecasts 75 bps of rate hikes in 2026 on labour market resilience, new Fed chair. June 22 (Reuters) - BofA Global Research expects the Federal"
-        },
-        {
-          "title": "Bank of America expects three Fed hikes this year, says inflation is getting 'unambiguously worse' - CNBC",
-          "url": "https://www.cnbc.com/2026/06/22/bank-of-america-sees-3-fed-hikes-in-2026-inflation-unambiguously-worse.html",
-          "snippet": "# Bank of America expects three Fed hikes this year, says inflation is getting 'unambiguously worse'. Stubbornly high inflation and an aggressive tone"
-        },
-        {
-          "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
-          "url": "https://apnews.com/article/warsh-federal-reserve-greenspan-inflation-economy-448828f7cc01932cc234ff47dd80be27",
-          "snippet": "Test Your News I.Q. 2026 Elections Election Results Election calendar White House Congress Supreme Court The latest AP-NORC polls Ground Game. Federal"
-        },
-        {
-          "title": "Stocks slip in Asia, oil up on peace doubts - Yahoo Finance",
-          "url": "https://finance.yahoo.com/news/stocks-slip-asia-oil-peace-005720689.html",
-          "snippet": "2. Best 0% APR cards. 3. Best balance transfer cards. 2. Best high-yield savings accounts. 3. Best money market accounts. SYDNEY, June 22 (Reuters) - "
-        },
-        {
-          "title": "Treasury yields rise ahead of key inflation data; markets resume trading after public holiday - CNBC",
-          "url": "https://www.cnbc.com/2026/06/22/treasury-yields-investors-look-ahead-to-key-inflation-data.html",
-          "snippet": "U.S. Treasury yields were higher on Tuesday as investors look ahead to key inflation data released on Thursday. The yield on the 10-year U.S. Treasury"
-        }
-      ],
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Will the Fed increase interest rates by 25 bps after the July 2026 mee",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the Fed increase interest rates by 25 bps after the July 2026 mee",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "SpaceX的估值反映了对其宏伟太空和互联网项目的信心，影响着整个商业航天领域的投资和未来科技前沿。",
+          "bull_case": "若在6月30日前宣布意外巨额合同或IPO，理论上可能大幅重估其价值。",
+          "bear_case": "科技行业持续低迷，加上250亿美元债券发行后的负面市场情绪将抑制估值。"
         }
       }
     }
