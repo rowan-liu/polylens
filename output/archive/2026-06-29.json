@@ -1,44 +1,356 @@
 {
-  "generated_at": "2026-06-29T07:08:03.013558+00:00",
-  "generated_at_readable": "Jun 29, 2026 07:08 UTC",
+  "generated_at": "2026-06-29T13:54:44.271553+00:00",
+  "generated_at_readable": "Jun 29, 2026 13:54 UTC",
   "topics": [
     {
       "market": {
-        "id": "2701764",
-        "question": "Bitcoin Up or Down - June 29, 12AM ET",
-        "probability": 0.0185,
-        "change_24h": -0.4865,
-        "volume_24h": 11469.8,
-        "score": 490.56,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-june-29-2026-12am-et"
+        "id": "2420600",
+        "question": "Will the median home value in New York City be greater than $620,000 on June 30?",
+        "probability": 0.85,
+        "change_24h": 0.6,
+        "volume_24h": 1312.11,
+        "score": 603.12,
+        "url": "https://polymarket.com/event/will-the-median-home-value-in-new-york-city-be-greater-than-620000-on-june-30-20260602003359167"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "NYC Home Values Surge on Rent Freeze",
+          "summary": "The probability of NYC median home values exceeding $620,000 by June 30 surged by 60% to 85% following Mayor Zohran Mamdani's official approval of a rent freeze. This policy is seen as stabilizing the city's housing market, indirectly boosting demand for homeownership.",
+          "drivers": [
+            "Mayor Mamdani's official rent freeze approval",
+            "Perception of increased NYC housing market stability",
+            "Potential shift from renting to homeownership demand"
+          ],
+          "why_matters": "This movement reflects market expectations on how political housing policies impact broader property values and the long-term economic health of major urban centers. It highlights the complex interplay between rental and ownership markets.",
+          "bull_case": "Mayor Mamdani's rent freeze makes NYC more attractive, retaining residents and boosting long-term demand for homeownership, pushing values above $620,000.",
+          "bear_case": "The rent freeze could deter real estate investors, potentially depressing prices for investment properties and creating market uncertainty."
+        },
+        "zh": {
+          "title": "纽约房产价值因租金冻结上涨",
+          "summary": "纽约市中位数房价在6月30日超过62万美元的概率飙升60%至85%，此前市长佐兰·马姆达尼正式批准了租金冻结政策。该政策被视为稳定城市住房市场，间接提振了购房需求。",
+          "drivers": [
+            "市长马姆达尼正式批准租金冻结",
+            "市场认为纽约住房市场更稳定",
+            "潜在租房需求转向购房市场"
+          ],
+          "why_matters": "这一变化反映了市场对政治住房政策如何影响更广泛房产价值及主要城市长期经济健康的预期。它突显了租赁和自有住房市场之间复杂的相互作用。",
+          "bull_case": "市长马姆达尼的租金冻结使纽约更具吸引力，留住居民并提振长期购房需求，推动房价超过62万美元。",
+          "bear_case": "租金冻结可能阻碍房地产投资者，潜在压低投资性房产价格并造成市场不确定性。"
+        }
+      },
+      "news": [
+        {
+          "title": "Mamdani Wins Rent Freeze Battle. Can It Fix NYC Housing Crisis? - Newsweek",
+          "url": "https://www.newsweek.com/mamdani-wins-rent-freeze-battle-can-fix-nyc-housing-crisis-12124839"
+        },
+        {
+          "title": "Mamdani's Rent Freeze Is Official. Here's Who Benefits Most. - Business Insider",
+          "url": "https://www.businessinsider.com/mamdani-rent-freeze-new-york-city-apartments-official-income-chart-2026-6"
+        },
+        {
+          "title": "Mamdani's rent freeze is official. One chart shows who stands to benefit. - Business Insider Africa",
+          "url": "https://africa.businessinsider.com/news/mamdanis-rent-freeze-is-official-one-chart-shows-who-stands-to-benefit/k3kf2sx"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2646918",
+        "question": "Will the next diplomatic US-Iran meeting be in Qatar by September 30, 2026?",
+        "probability": 0.72,
+        "change_24h": 0.565,
+        "volume_24h": 147312.74,
+        "score": 570.17,
+        "url": "https://polymarket.com/event/will-the-next-diplomatic-us-iran-meeting-be-in-qatar-by-september-30-2026-20260622185050767"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "US-Iran Talks Imminent in Qatar",
+          "summary": "The probability surged to 72% after multiple credible reports confirmed Qatar will host the next round of US-Iran diplomatic talks. News outlets like The Jerusalem Post and The Times of Israel specifically cited agreements for talks on frozen funds and Hormuz Strait issues.",
+          "drivers": [
+            "Reports confirm Doha to host US-Iran talks.",
+            "US-Iran agree to halt Hormuz attacks.",
+            "Talks scheduled for Tuesday in Qatar.",
+            "Agenda includes frozen funds and Hormuz Strait."
+          ],
+          "why_matters": "These talks are crucial for de-escalating regional tensions and potentially establishing a more stable diplomatic channel between the US and Iran. A successful meeting could pave the way for broader agreements.",
+          "bull_case": "Multiple credible reports confirm US-Iran talks are agreed and scheduled in Qatar, making a meeting highly probable.",
+          "bear_case": "Geopolitical tensions or last-minute disagreements could still derail the planned meeting in Qatar."
+        },
+        "zh": {
+          "title": "美伊卡塔尔会谈在即",
+          "summary": "多个可靠报道证实卡塔尔将主办下一轮美伊外交会谈后，市场概率飙升至72%。《耶路撒冷邮报》和《以色列时报》等媒体明确指出，双方已同意就冻结资金和霍尔木兹海峡问题进行会谈。",
+          "drivers": [
+            "报道证实多哈将主办美伊会谈。",
+            "美伊同意停止霍尔木兹袭击。",
+            "会谈定于周二在卡塔尔举行。",
+            "议程包括冻结资金和海峡问题。"
+          ],
+          "why_matters": "这些会谈对于缓解地区紧张局势、建立美伊之间更稳定的外交渠道至关重要。一次成功的会议可能为更广泛的协议铺平道路。",
+          "bull_case": "多方可靠报道证实美伊已同意并在卡塔尔安排会谈，使得会议极有可能发生。",
+          "bear_case": "地缘政治紧张局势或最后一刻的分歧仍可能导致卡塔尔计划会议流产。"
+        }
+      },
+      "news": [
+        {
+          "title": "New US-Iran clashes revealed fragility of truce — and why it may work - CNN",
+          "url": "https://www.cnn.com/2026/06/29/politics/trump-iran-war-strait-of-hormuz-missile-strikes-analysis"
+        },
+        {
+          "title": "Mediators worked through threats and strikes to broker the US-Iran deal, and challenges remain - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/06/26/us-iran-war-mediation-peace-deal-pakistan-qatar/b972401a-715b-11f1-8730-e7fd0e2a6404_story.html"
+        },
+        {
+          "title": "Hormuz halt report points to Qatar talks as Polymarket holds Doha at 48% - blockchain.news",
+          "url": "https://blockchain.news/news/hormuz-halt-report-points-to-qatar-talks-as-polymarket-holds-doha-at-48-0hnmlcc27cmk0"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2691532",
+        "question": "S&P 500 (SPX) Opens Up or Down on June 29?",
+        "probability": 0.9755,
+        "change_24h": 0.5005,
+        "volume_24h": 26002.49,
+        "score": 504.92,
+        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-june-29-2026"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "S&P 500 Futures Soar on Geopolitical Calm",
+          "summary": "The probability of the S&P 500 opening up on June 29 surged to 98% due to strong gains in US stock index futures. This rise was primarily driven by reports of easing Middle East tensions, with the US and Iran reportedly halting attacks.",
+          "drivers": [
+            "US stock index futures rose significantly on June 29.",
+            "US and Iran reportedly halted attacks, easing Mideast tensions.",
+            "Tech sector sell-off showed signs of easing."
+          ],
+          "why_matters": "Easing geopolitical tensions often reduces market uncertainty, encouraging investor confidence and capital allocation. This could signal a broader risk-on sentiment in global markets.",
+          "bull_case": "Easing US-Iran tensions and strong futures indicate a positive market open.",
+          "bear_case": "Underlying economic concerns, as noted by Reuters, could cap gains."
+        },
+        "zh": {
+          "title": "标普500期货因地缘政治缓和飙升",
+          "summary": "标普500指数6月29日开盘上涨的概率飙升至98%，主要受美国股指期货强劲上涨推动。这主要归因于中东紧张局势缓解，有报道称美国和伊朗停止了袭击。",
+          "drivers": [
+            "美国股指期货6月29日显著上涨。",
+            "美伊据报停止袭击，缓解中东紧张局势。",
+            "科技股抛售压力有所缓解。"
+          ],
+          "why_matters": "地缘政治紧张局势的缓解通常会降低市场不确定性，提振投资者信心和资本配置。这可能预示着全球市场更广泛的风险偏好情绪。",
+          "bull_case": "美伊局势缓和及期货强劲预示市场积极开盘。",
+          "bear_case": "路透社指出，潜在经济担忧可能限制涨幅。"
+        }
+      },
+      "news": [
+        {
+          "title": "What's good for the US economy now may not be good for stocks - Reuters",
+          "url": "https://www.reuters.com/business/whats-good-us-economy-now-may-not-be-good-stocks-2026-06-29/"
+        },
+        {
+          "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as US and Iran reportedly call a halt to attacks - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-29-224230573.html"
+        },
+        {
+          "title": "Nasdaq futures lead Wall St higher as Middle East tensions ease - Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-lead-wall-st-higher-middle-east-tensions-ease-2026-06-29/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2691594",
+        "question": "WTI Crude Oil (WTI) closes above $72 on June 29?",
+        "probability": 0.06,
+        "change_24h": -0.46,
+        "volume_24h": 3135.57,
+        "score": 463.5,
+        "url": "https://polymarket.com/event/wti-closes-above-72-on-june-29-2026"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Oil Premium Fades, WTI Dips Below $72",
+          "summary": "The probability of WTI closing above $72 on June 29 plummeted to 6% as crude prices fell significantly. This drop was primarily driven by the Brent crude market erasing its Iran war premium and signs of recovery in Strait of Hormuz oil flows.",
+          "drivers": [
+            "Brent crude erasing Iran war premium",
+            "Strait of Hormuz oil flows showing recovery",
+            "WTI crude prices falling below $70"
+          ],
+          "why_matters": "Lower oil prices impact global energy costs and inflation, potentially easing pressure on consumers and central banks. Geopolitical stability in the Middle East remains crucial for global supply.",
+          "bull_case": "Renewed geopolitical tensions or unexpected supply disruptions could quickly push WTI back above $72.",
+          "bear_case": "Continued recovery of Middle East oil flows and easing tensions will keep WTI below $72."
+        },
+        "zh": {
+          "title": "油价溢价消退，WTI跌破72美元",
+          "summary": "WTI原油在6月29日收盘高于72美元的可能性骤降至6%。这主要是由于布伦特原油市场消除了伊朗战争溢价，以及霍尔木兹海峡石油流量出现复苏迹象。",
+          "drivers": [
+            "布伦特原油伊朗战争溢价消退",
+            "霍尔木兹海峡石油流量恢复",
+            "WTI原油价格跌破70美元"
+          ],
+          "why_matters": "油价下跌影响全球能源成本和通胀，可能减轻消费者和央行压力。中东地缘政治稳定对全球供应至关重要。",
+          "bull_case": "地缘政治紧张局势再起或意外供应中断，可能迅速将WTI推升至72美元以上。",
+          "bear_case": "中东石油流量持续恢复和紧张局势缓解，将使WTI保持在72美元以下。"
+        }
+      },
+      "news": [
+        {
+          "title": "The $7 Trillion AI Boom Is Turning Into The Energy Trade of the Century - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Energy/Energy-General/The-7-Trillion-AI-Boom-Is-Turning-Into-The-Energy-Trade-of-the-Century.html"
+        },
+        {
+          "title": "Brent Erases Iran War Premium as Hormuz Flows Show Signs of Recovery - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Energy/Energy-General/Brent-Erases-Iran-War-Premium-as-Hormuz-Flows-Show-Signs-of-Recovery.html"
+        },
+        {
+          "title": "Oil to hover around $70-75 as Strait of Hormuz remains key variable: Strategist - CNBC",
+          "url": "https://www.cnbc.com/video/2026/06/29/shuaa-capital-oil-prices.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2710369",
+        "question": "Solana Up or Down on June 29?",
+        "probability": 0.94,
+        "change_24h": 0.445,
+        "volume_24h": 21289.64,
+        "score": 449.33,
+        "url": "https://polymarket.com/event/solana-up-or-down-on-june-29-2026"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Probability Plummets Amid Sell-Off",
-          "summary": "The probability of Bitcoin being up by June 29th, 12 AM ET, plummeted to 2% from 50.6% in 24 hours. This sharp decline was primarily driven by Grayscale's reported plan to sell $3 billion in Bitcoin to meet cash obligations.",
+          "title": "Solana's June 29 Bullish Outlook",
+          "summary": "The probability of Solana being up on June 29 surged to 94% with a +44.5% change, indicating strong market confidence. This movement is likely influenced by a generally positive broader market sentiment, as evidenced by rising Nasdaq futures, rather than direct crypto-specific news from the provided headlines.",
           "drivers": [
-            "Grayscale's reported $3B Bitcoin sell-off",
-            "Bitcoin falling below $60,000 and $59,000",
-            "Bitdeer selling all 253.9 BTC mined",
-            "Stablecoin dominance signals risk-off pressure"
+            "Rising Nasdaq futures on June 29.",
+            "Easing Middle East tensions boosting risk appetite.",
+            "General positive market environment for June 29."
           ],
-          "why_matters": "This significant institutional selling and miner capitulation could signal a deeper market correction. It tests Bitcoin's resilience and broader crypto market stability.",
-          "bull_case": "A strong technical bounce from oversold levels or unexpected institutional buying could reverse the current trend.",
-          "bear_case": "Continued Grayscale sales and miner capitulation will likely drive Bitcoin prices further down."
+          "why_matters": "This high probability reflects strong investor belief in Solana's short-term performance, potentially signaling broader optimism for the crypto market despite a lack of specific catalysts in general news.",
+          "bull_case": "Positive broader market trends, fueled by rising Nasdaq futures and easing geopolitical tensions, create a favorable environment for Solana's price growth.",
+          "bear_case": "The absence of direct Solana-specific positive news in the provided headlines suggests the current high probability might be speculative or based on external, unconfirmed information."
         },
         "zh": {
-          "title": "比特币上涨概率暴跌，抛售加剧",
-          "summary": "比特币在6月29日凌晨12点（ET）前上涨的概率在24小时内从50.6%骤降至2%。这一下跌主要受灰度公司计划出售30亿美元比特币以履行现金义务的报道驱动。",
+          "title": "Solana 6月29日看涨展望",
+          "summary": "Solana在6月29日上涨的概率飙升至94%，24小时内变化达+44.5%，显示出市场强烈信心。这一走势可能受整体积极大盘情绪影响，而非现有新闻中直接的加密货币利好消息，纳斯达克期货上涨即是例证。",
           "drivers": [
-            "灰度计划出售30亿美元比特币",
-            "比特币跌破6万及5.9万美元",
-            "Bitdeer出售全部253.9枚BTC",
-            "稳定币主导地位预示避险"
+            "6月29日纳斯达克期货上涨。",
+            "中东局势缓和提振风险偏好。",
+            "6月29日整体市场环境积极。"
           ],
-          "why_matters": "机构大规模抛售和矿工投降可能预示市场深度回调。这考验着比特币的韧性及整体加密市场的稳定性。",
-          "bull_case": "超卖反弹或意外的机构买入可能逆转当前跌势。",
-          "bear_case": "灰度持续抛售和矿工投降将进一步压低比特币价格。"
+          "why_matters": "如此高的概率反映了投资者对Solana短期表现的强烈信心，可能预示着尽管缺乏具体催化剂，加密市场仍普遍乐观。",
+          "bull_case": "纳斯达克期货上涨和地缘政治紧张局势缓解带来的积极大盘趋势，为Solana价格上涨创造了有利环境。",
+          "bear_case": "现有新闻中缺乏直接的Solana利好消息，表明当前高概率可能基于投机或未证实信息。"
+        }
+      },
+      "news": [
+        {
+          "title": "Northern Lights Forecast: Aurora Possible In 19 States On Monday Night - Forbes",
+          "url": "https://www.forbes.com/sites/jamiecartereurope/2026/06/28/northern-lights-forecast-aurora-possible-in-19-states-on-monday-night/"
+        },
+        {
+          "title": "What Makes June 2026’s Strawberry Moon So Special (Hint: It’s Not Because It’s Pink) - TODAY.com",
+          "url": "https://www.today.com/news/strawberry-moon-full-june-2026-date-when-how-see-rcna351926"
+        },
+        {
+          "title": "Nasdaq futures lead Wall St higher as Middle East tensions ease - Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-lead-wall-st-higher-middle-east-tensions-ease-2026-06-29/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2646848",
+        "question": "US x Iran diplomatic meeting by July 3, 2026?",
+        "probability": 0.605,
+        "change_24h": 0.425,
+        "volume_24h": 350442.89,
+        "score": 430.54,
+        "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359"
+      },
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "US-Iran Meeting Probability Surges",
+          "summary": "The probability of a US-Iran diplomatic meeting by July 2026 jumped to 60% following reports of an \"interim peace agreement\" brokered by mediators. This breakthrough signals a significant shift towards de-escalation despite ongoing regional challenges.",
+          "drivers": [
+            "\"Interim peace agreement\" brokered between US and Iran",
+            "Mediators navigated \"threats and strikes\" to secure the deal",
+            "Agreement signals renewed commitment to diplomatic solutions"
+          ],
+          "why_matters": "A diplomatic meeting could significantly de-escalate Middle East tensions, potentially leading to broader regional stability and reducing conflict risks.",
+          "bull_case": "The \"interim peace agreement\" provides a crucial foundation for further high-level diplomatic engagement by July 2026.",
+          "bear_case": "Persistent regional conflicts and strong internal political opposition could still derail future US-Iran diplomatic meetings."
+        },
+        "zh": {
+          "title": "美伊会谈概率飙升",
+          "summary": "鉴于有报道称调解员促成了一项“临时和平协议”，美伊在2026年7月前举行外交会谈的概率跃升至60%。尽管区域挑战持续，这一突破预示着局势正显著转向缓和。",
+          "drivers": [
+            "美伊间达成“临时和平协议”",
+            "调解员克服“威胁与罢工”促成协议",
+            "协议表明双方重新致力于外交解决"
+          ],
+          "why_matters": "外交会谈能显著缓和中东紧张局势，可能带来更广泛的区域稳定并降低冲突风险。",
+          "bull_case": "“临时和平协议”为2026年7月前进一步的高级别外交接触奠定了关键基础。",
+          "bear_case": "持续的区域冲突和两国国内的强烈政治反对仍可能阻碍未来的美伊外交会谈。"
+        }
+      },
+      "news": [
+        {
+          "title": "Mediators worked through threats and strikes to broker the US-Iran deal, and challenges remain - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/06/26/us-iran-war-mediation-peace-deal-pakistan-qatar/b972401a-715b-11f1-8730-e7fd0e2a6404_story.html"
+        },
+        {
+          "title": "JD Vance tells Bill Maher how ‘America wins’ with or without Iran deal - New York Post",
+          "url": "https://nypost.com/2026/06/27/us-news/jd-vance-tells-bill-maher-how-america-wins-with-or-without-iran-deal/?utm_campaign=nypost&utm_medium=referral"
+        },
+        {
+          "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks - Chicago Tribune",
+          "url": "https://www.chicagotribune.com/2026/06/28/iran-attacks-bahrain-kuwait/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2708903",
+        "question": "Bitcoin Up or Down - June 29, 8AM ET",
+        "probability": 0.9195,
+        "change_24h": 0.4145,
+        "volume_24h": 38135.37,
+        "score": 419.08,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-june-29-2026-8am-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Rebound Bets Surge",
+          "summary": "Despite recent bearish headlines showing Bitcoin falling below $60,000 and testing $59,000, the prediction market for Bitcoin being 'Up' by June 29, 8 AM ET, surged by 41.4% to 92%, indicating strong anticipation of a significant rebound.",
+          "drivers": [
+            "Bitcoin testing strong support at $59,000-$60,000, signaling potential rebound",
+            "Market anticipates absorption of Grayscale's $3B Bitcoin selling pressure",
+            "Extreme bearish headlines interpreted as contrarian 'buy the dip' opportunity"
+          ],
+          "why_matters": "This significant shift suggests prediction market participants are looking past immediate negative news, betting on a strong recovery or capitulation bounce for Bitcoin in the short term.",
+          "bull_case": "Bitcoin's current dip to $59,000 is a capitulation bottom, leading to a strong technical rebound before June 29.",
+          "bear_case": "Grayscale's $3B sell-off and persistent risk-off pressure will continue to drive Bitcoin price lower."
+        },
+        "zh": {
+          "title": "比特币反弹押注飙升",
+          "summary": "尽管近期头条显示比特币跌破6万美元并测试5.9万美元，但预测市场对比特币在6月29日上午8点前“上涨”的概率飙升41.4%至92%，表明市场强烈预期将出现显著反弹。",
+          "drivers": [
+            "比特币测试5.9万-6万美元强支撑位，预示潜在反弹",
+            "市场预期灰度30亿美元比特币抛售压力将被吸收",
+            "极度看跌头条被解读为逆向“逢低买入”机会"
+          ],
+          "why_matters": "这一显著转变表明，预测市场参与者正超越眼前的负面消息，押注比特币短期内将出现强劲复苏或触底反弹。",
+          "bull_case": "比特币当前跌至5.9万美元是触底投降，将在6月29日前强劲技术性反弹。",
+          "bear_case": "灰度30亿美元抛售及持续避险情绪将继续推动比特币价格走低。"
         }
       },
       "news": [
@@ -51,60 +363,112 @@
           "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss"
         },
         {
-          "title": "Bitcoin tests $59,000 as stablecoin dominance confirms risk-off pressure - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-06-26/bitcoin-tests-59000-stablecoin-dominance-confirms-risk-pressure"
+          "title": "LINK Price Prediction: Bears Still Own the Chart, But the $6.92 Line Could Trigger the Real Move - blockchain.news",
+          "url": "https://blockchain.news/news/20260627-price-prediction-link-bears-still-own-the-chart-but"
         }
       ]
     },
     {
       "market": {
-        "id": "693485",
-        "question": "Will Lebanon recognize Israel by June 30?",
-        "probability": 0.1475,
-        "change_24h": -0.4295,
-        "volume_24h": 367770.0,
-        "score": 435.07,
-        "url": "https://polymarket.com/event/will-lebanon-recognize-israel-by-june-30"
+        "id": "2350200",
+        "question": "Will Apple (AAPL) hit (LOW) $272 in June?",
+        "probability": 0.53,
+        "change_24h": 0.395,
+        "volume_24h": 992.65,
+        "score": 398.0,
+        "url": "https://polymarket.com/event/will-aapl-dip-to-272-in-june-2026"
       },
       "insight": {
-        "category": "politics",
+        "category": "business",
         "en": {
-          "title": "Lebanon-Israel Recognition Hopes Dim",
-          "summary": "The probability of Lebanon recognizing Israel by June 30 plummeted following the signing of a limited framework agreement. This deal primarily addresses minor IDF withdrawal and border issues, not diplomatic recognition.",
+          "title": "AAPL Low $272 Probability Surges",
+          "summary": "The probability of Apple (AAPL) hitting a low of $272 in June surged by 39.5% to 53% as broader tech sector weakness emerged. This was primarily driven by 'AI jitters' and a report of an OpenAI IPO delay rattling chip stocks.",
           "drivers": [
-            "Framework agreement limited to minor IDF withdrawal and border issues.",
-            "Deal reportedly requires Hezbollah disarmament, a major political hurdle.",
-            "Recent talks and agreement did not include diplomatic recognition."
+            "Nasdaq snapped 2-week win streak, pressuring tech stocks",
+            "AI jitters caused broad tech sector weakness",
+            "OpenAI IPO delay report rattled chip stocks"
           ],
-          "why_matters": "This limited agreement highlights the enduring political complexities and deep-seated obstacles to full normalization between Lebanon and Israel, impacting regional stability.",
-          "bull_case": "The framework agreement could unexpectedly accelerate future diplomatic talks, laying groundwork for recognition.",
-          "bear_case": "The agreement's limited scope and Hezbollah disarmament requirement make recognition by June 30 highly improbable."
+          "why_matters": "This movement highlights investor sensitivity to tech sector news, particularly around AI, impacting major players like Apple. It indicates increasing concern about potential downside for leading technology stocks.",
+          "bull_case": "Continued tech sector weakness and broader market correction could push AAPL towards the $272 low.",
+          "bear_case": "Strong Apple product news (M5/M7 chips) or a tech sector rebound could prevent AAPL from hitting $272."
         },
         "zh": {
-          "title": "黎以承认希望渺茫",
-          "summary": "黎巴嫩在6月30日前承认以色列的概率大幅下降，因双方签署了一项有限的框架协议。该协议主要涉及以色列国防军小幅撤军和边境问题，而非外交承认。",
+          "title": "苹果触及272美元低点概率飙升",
+          "summary": "苹果（AAPL）在6月触及272美元低点的概率飙升39.5%至53%，主要受科技板块普遍走弱影响。这主要由“AI担忧”和OpenAI首次公开募股（IPO）推迟报道震动芯片股所驱动。",
           "drivers": [
-            "框架协议仅限于以色列国防军小幅撤军及边境问题。",
-            "协议据报要求真主党解除武装，这是重大政治障碍。",
-            "近期会谈和协议未涉及外交承认。"
+            "纳斯达克指数结束两周连涨，科技股承压",
+            "AI担忧情绪导致科技板块普遍疲软",
+            "OpenAI IPO推迟报道震动芯片股"
           ],
-          "why_matters": "这项有限协议凸显了黎巴嫩与以色列之间全面正常化所面临的持续政治复杂性和根深蒂固的障碍，影响地区稳定。",
-          "bull_case": "框架协议可能意外加速未来外交谈判，为承认奠定基础。",
-          "bear_case": "协议范围有限且真主党解除武装要求，使6月30日前承认极不可能。"
+          "why_matters": "此次波动凸显了投资者对科技板块新闻的敏感性，尤其是围绕AI的动态，这影响着苹果等主要参与者。它表明市场对领先科技股潜在下行风险的担忧正在增加。",
+          "bull_case": "科技板块持续疲软和更广泛的市场回调可能推动苹果股价跌至272美元低点。",
+          "bear_case": "强劲的苹果产品新闻（M5/M7芯片）或科技板块反弹可能阻止苹果触及272美元。"
         }
       },
       "news": [
         {
-          "title": "Trump congratulates Lebanon’s Aoun on US-brokered framework agreement - Crypto Briefing",
-          "url": "https://cryptobriefing.com/trump-congratulates-lebanons-aoun-on-us-brokered-framework-agreement/"
+          "title": "S&P 500, Dow Futures Climb As Markets Look Past Big Tech Declines, Hotter-Than-Expected Inflation: AAPL, MSFT, BABA, MSTR, SNDK, FIG In Focus - Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-climb-as-markets-look-past-big-tech-declines-hotter-than-expected-inflation/cZ1cIjUR7Xv"
         },
         {
-          "title": "Israel and Lebanon expected to sign framework agreement - Axios",
-          "url": "https://www.axios.com/2026/06/26/israel-lebanon-framework-agreement-hezbollah"
+          "title": "Assenagon Asset Management S.A. Grows Position in Kinross Gold Corporation $KGC - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-assenagon-asset-management-sa-grows-position-in-kinross-gold-corporation-kgc-2026-06-27/"
         },
         {
-          "title": "Israel and Lebanon ink framework deal for minor IDF withdrawal, after 4 days of DC talks - The Times of Israel",
-          "url": "https://www.timesofisrael.com/israel-and-lebanon-ink-framework-deal-for-minor-idf-withdrawal-after-4-days-of-dc-talks/amp/"
+          "title": "Apple’s Touch MacBook to Use M5 Pro and Max Chips, With M7 Models to Follow - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-26/apple-s-touchscreen-macbook-to-use-m5-pro-max-chips-m7-pro-max-models-in-2027"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2699046",
+        "question": "Will Microsoft Corporation (MSFT) hit (HIGH) $382.50 Week of June 29 2026?",
+        "probability": 0.9,
+        "change_24h": 0.39,
+        "volume_24h": 3441.43,
+        "score": 393.54,
+        "url": "https://polymarket.com/event/will-msft-reach-382-50-by-june-29-2026"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "MSFT Outlook Surges on Tech Rebound",
+          "summary": "Microsoft's probability of hitting $382.50 by June 2026 surged 39% to 90%, driven by a broader market rebound for big tech. Investors are \"looking past\" recent declines and AI spending concerns for companies like MSFT, as indicated by climbing S&P 500 and Dow futures.",
+          "drivers": [
+            "Markets Look Past Big Tech Declines",
+            "S&P 500, Dow Futures Climb",
+            "Renewed investor confidence in tech"
+          ],
+          "why_matters": "This movement suggests investors believe Microsoft's long-term growth, particularly in AI, will overcome current spending concerns and legal challenges. It reflects a broader shift in confidence towards the tech sector's future performance.",
+          "bull_case": "Strong market rebound for big tech and confidence in Microsoft's AI investments will propel stock past $382.50 by 2026.",
+          "bear_case": "Persistent AI spending concerns and ongoing securities class action could cap growth, preventing MSFT from reaching $382.50."
+        },
+        "zh": {
+          "title": "微软前景因科技反弹飙升",
+          "summary": "微软在2026年6月29日前达到382.50美元的概率飙升39%至90%，主要受大盘科技股反弹推动。投资者正“忽略”近期下跌和对微软等公司AI支出的担忧，标普500和道指期货上涨表明了这一点。",
+          "drivers": [
+            "市场忽略大型科技股下跌",
+            "标普500、道指期货上涨",
+            "投资者对科技股信心重燃"
+          ],
+          "why_matters": "这一走势表明投资者相信微软的长期增长，尤其是在AI领域，将克服当前的支出担忧和法律挑战。它反映了对科技行业未来表现的更广泛信心转变。",
+          "bull_case": "科技巨头市场强劲反弹及对微软AI投资的信心，将推动股价在2026年前突破382.50美元。",
+          "bear_case": "持续的AI支出担忧和证券集体诉讼可能限制增长，阻止微软达到382.50美元。"
+        }
+      },
+      "news": [
+        {
+          "title": "It's Official: SpaceX To Join Nasdaq 100. Here's When It'll Join - Investor's Business Daily",
+          "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/"
+        },
+        {
+          "title": "S&P 500, Dow Futures Climb As Markets Look Past Big Tech Declines, Hotter-Than-Expected Inflation: AAPL, MSFT, BABA, MSTR, SNDK, FIG In Focus - Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-climb-as-markets-look-past-big-tech-declines-hotter-than-expected-inflation/cZ1cIjUR7Xv"
+        },
+        {
+          "title": "Microsoft stock hits one-year low amid AI spending concerns - qz.com",
+          "url": "https://qz.com/microsoft-stock-one-year-low-ai-spending-capex-062626"
         }
       ]
     },
@@ -112,29 +476,37 @@
       "market": {
         "id": "2691659",
         "question": "WTI Crude Oil (WTI) Up or Down on June 29?",
-        "probability": 0.425,
-        "change_24h": -0.365,
-        "volume_24h": 12081.81,
-        "score": 369.08,
+        "probability": 0.415,
+        "change_24h": -0.385,
+        "volume_24h": 34125.21,
+        "score": 389.53,
         "url": "https://polymarket.com/event/wti-up-or-down-on-june-29-2026"
       },
       "insight": {
-        "category": "other",
+        "category": "politics",
         "en": {
-          "title": "WTI Crude Oil (WTI) Up or Down on June 29?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Oil Probability Plunges on Eased Iran Tensions",
+          "summary": "The probability of WTI Crude Oil rising on June 29 plummeted by 38.5% to 42%, primarily driven by easing US-Iran tensions. Reports confirm Brent crude erased its Iran war premium as Hormuz flows show signs of recovery, leading to a surge in Middle East oil exports.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "US-Iran talks ease escalation fears",
+            "Brent crude erases Iran war premium",
+            "Hormuz oil flows recover, boosting exports"
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This shift indicates a significant reduction in geopolitical risk premium for oil, potentially leading to lower energy costs globally. It reflects a rebalancing of supply expectations following recent Middle East tensions.",
+          "bull_case": "The long-term \"AI boom\" could significantly increase energy demand, potentially driving WTI prices higher despite current geopolitical calm.",
+          "bear_case": "Continued easing of Middle East tensions and a surge in oil exports from the region will likely keep WTI prices under downward pressure."
         },
         "zh": {
-          "title": "WTI Crude Oil (WTI) Up or Down on June 29?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "伊朗局势缓和，油价上涨概率骤降",
+          "summary": "WTI原油在6月29日上涨的概率骤降38.5%至42%，主要原因是美伊紧张局势的缓和。报道证实布伦特原油已抹去伊朗战争溢价，霍尔木兹海峡的石油流量显示出恢复迹象，导致中东石油出口激增。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "美伊会谈缓解局势升级担忧",
+            "布伦特原油抹去伊朗战争溢价",
+            "霍尔木兹海峡石油流量恢复，出口增加"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "这一转变表明石油的地缘政治风险溢价显著降低，可能导致全球能源成本下降。它反映了中东近期紧张局势后供应预期的重新平衡。",
+          "bull_case": "长期来看，“AI热潮”可能显著增加能源需求，尽管当前地缘政治平静，仍可能推高WTI油价。",
+          "bear_case": "中东紧张局势持续缓和以及该地区石油出口激增，可能继续对WTI油价构成下行压力。"
         }
       },
       "news": [
@@ -154,89 +526,263 @@
     },
     {
       "market": {
-        "id": "2636979",
-        "question": "Will Microstrategy announce a Bitcoin purchase June 23-29?",
-        "probability": 0.055,
-        "change_24h": -0.265,
-        "volume_24h": 183382.98,
-        "score": 270.26,
-        "url": "https://polymarket.com/event/will-microstrategy-announce-a-bitcoin-purchase-june-23-29"
+        "id": "693485",
+        "question": "Will Lebanon recognize Israel by June 30?",
+        "probability": 0.1885,
+        "change_24h": -0.381,
+        "volume_24h": 349342.69,
+        "score": 386.54,
+        "url": "https://polymarket.com/event/will-lebanon-recognize-israel-by-june-30"
       },
       "insight": {
-        "category": "crypto",
+        "category": "politics",
         "en": {
-          "title": "Will Microstrategy announce a Bitcoin purchase June 23-29?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Lebanon-Israel Recognition Hopes Dim",
+          "summary": "The probability of Lebanon recognizing Israel by June 30 dropped significantly to 19%. This decline was driven by the revelation that the recent US-brokered framework agreement is a limited border deal, not a full peace treaty.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "Framework agreement limited, not full recognition.",
+            "Hezbollah disarmament requirement poses major hurdle.",
+            "Deal involves minor IDF withdrawal, not peace."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "This market reflects the complex geopolitical challenges in the Middle East, where even limited agreements face significant internal and external obstacles. It highlights the difficulty of achieving full normalization between long-standing adversaries.",
+          "bull_case": "The framework agreement could unexpectedly pave the way for rapid, deeper diplomatic engagement leading to full recognition.",
+          "bear_case": "The current framework is a limited border deal, and Hezbollah's disarmament remains an insurmountable obstacle by June 30."
         },
         "zh": {
-          "title": "Will Microstrategy announce a Bitcoin purchase June 23-29?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "黎以承认希望渺茫",
+          "summary": "黎巴嫩在6月30日前承认以色列的概率显著下降至19%。这一下降是由于美国斡旋的框架协议被披露为有限的边境协议，而非全面和平条约。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+            "框架协议有限，非全面承认。",
+            "真主党解除武装要求是主要障碍。",
+            "协议仅涉及以军小幅撤离。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "该市场反映了中东地区复杂的地缘政治挑战，即使是有限协议也面临重大内外阻碍。它凸显了长期对手之间实现全面正常化的难度。",
+          "bull_case": "框架协议可能意外加速外交突破，促成全面承认。",
+          "bear_case": "当前框架仅为有限边境协议，真主党解除武装是6月30日前无法逾越的障碍。"
         }
       },
       "news": [
         {
-          "title": "MSTR's BTC premium has vanished as enterprise mNAV falls below 1 - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings"
+          "title": "Trump congratulates Lebanon’s Aoun on US-brokered framework agreement - Crypto Briefing",
+          "url": "https://cryptobriefing.com/trump-congratulates-lebanons-aoun-on-us-brokered-framework-agreement/"
         },
-        {
-          "title": "Strategy Just Fell Below $100 for the First Time Since Early 2024. Is MSTR a Buy, Sell, or Hold Right Now? - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/06/28/strategy-just-fell-below-100-for-the-first-time-si/"
-        },
-        {
-          "title": "CryptoQuant Flags Risk as Cboe Moves Toward Perpetual Futures - MEXC Exchange",
-          "url": "https://www.mexc.co/en-IN/news/1177731"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2412362",
-        "question": "Will Lebanon recognize Israel by December 31?",
-        "probability": 0.395,
-        "change_24h": -0.265,
-        "volume_24h": 12465.6,
-        "score": 269.1,
-        "url": "https://polymarket.com/event/will-lebanon-recognize-israel-by-december-31"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Will Lebanon recognize Israel by December 31?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Lebanon recognize Israel by December 31?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
         {
           "title": "Israel and Lebanon expected to sign framework agreement - Axios",
           "url": "https://www.axios.com/2026/06/26/israel-lebanon-framework-agreement-hezbollah"
         },
         {
-          "title": "Katz warns force vs Iran as Polymarket puts Dec 2026 US-Iran deal at 43.5% - blockchain.news",
-          "url": "https://blockchain.news/news/katz-warns-force-vs-iran-as-polymarket-puts-dec-2026-us-iran-deal-at-435-0hnmkh39o4rg0"
+          "title": "Will Israel-Lebanon relations be different going forward? - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/article-900731"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2691531",
+        "question": "S&P 500 (SPX) Up or Down on June 29?",
+        "probability": 0.835,
+        "change_24h": 0.36,
+        "volume_24h": 23315.83,
+        "score": 364.37,
+        "url": "https://polymarket.com/event/spx-up-or-down-on-june-29-2026"
+      },
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "SPX Up: Tensions Ease, Tech Rebounds",
+          "summary": "The S&P 500's 'Up' probability surged to 84% as easing Middle East tensions and a rebound in tech stocks boosted investor confidence. Futures climbed, with markets looking past previous concerns about big tech declines and hotter-than-expected inflation.",
+          "drivers": [
+            "Middle East geopolitical tensions eased",
+            "Tech sell-off softened, stocks turned higher",
+            "Futures climbed despite inflation concerns",
+            "Healthcare stocks reached record highs"
+          ],
+          "why_matters": "This market reflects investor optimism regarding geopolitical stability and the resilience of key economic sectors. A positive close for SPX signals broader economic confidence.",
+          "bull_case": "Easing geopolitical risks and strong tech/healthcare sector performance will likely sustain the S&P 500's upward momentum.",
+          "bear_case": "Persistent inflation or a disconnect between the economy and stock performance could still trigger a late-day reversal."
+        },
+        "zh": {
+          "title": "标普上涨：紧张局势缓解，科技股反弹",
+          "summary": "随着中东紧张局势缓解和科技股反弹提振投资者信心，标普500指数“上涨”概率飙升至84%。期货上涨，市场已消化大科技股下跌和超预期通胀的担忧。",
+          "drivers": [
+            "中东地缘政治紧张局势缓解",
+            "科技股抛售缓解，股市走高",
+            "市场消化通胀担忧，期货上涨",
+            "医疗保健股创历史新高"
+          ],
+          "why_matters": "该市场反映了投资者对地缘政治稳定和关键经济部门韧性的乐观情绪。标普500指数收涨预示着更广泛的经济信心。",
+          "bull_case": "地缘政治风险缓解及科技、医疗板块强劲表现，有望支撑标普500指数继续上涨。",
+          "bear_case": "持续通胀或经济与股市脱节，仍可能导致尾盘逆转。"
+        }
+      },
+      "news": [
+        {
+          "title": "What's good for the US economy now may not be good for stocks - Reuters",
+          "url": "https://www.reuters.com/business/whats-good-us-economy-now-may-not-be-good-stocks-2026-06-29/"
         },
         {
-          "title": "Israel and Lebanon expected to sign framework agreement in Washington, Israeli officials say - The Jerusalem Post",
-          "url": "https://www.jpost.com/international/article-900621"
+          "title": "Nasdaq futures lead Wall St higher as Middle East tensions ease - Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-lead-wall-st-higher-middle-east-tensions-ease-2026-06-29/"
+        },
+        {
+          "title": "Stock Market Today: Stocks Turn Higher as Tech Sell-Off Eases; S&P 500, Nasdaq on Track For Weekly Losses - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2699258",
+        "question": "Will Meta Platforms, Inc. (META) hit (HIGH) $560 Week of June 29 2026?",
+        "probability": 0.96,
+        "change_24h": 0.345,
+        "volume_24h": 1376.35,
+        "score": 348.14,
+        "url": "https://polymarket.com/event/will-meta-reach-560-by-june-29-2026"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Meta's AI Surge Propels Target",
+          "summary": "The probability for Meta hitting $560 by June 29, 2026, surged to 96% following a broad rally in AI chip stocks. This movement indicates strong market confidence in Meta's AI strategy and future growth potential.",
+          "drivers": [
+            "AI chip stocks (NVDA, AMD, INTC) rising on June 25, 2026.",
+            "Market's increased confidence in Meta's AI investments.",
+            "Focus on Meta's potential dividend signaling financial strength."
+          ],
+          "why_matters": "This probability movement highlights Meta's critical role in the accelerating AI economy and its ability to capitalize on technological advancements for significant shareholder value.",
+          "bull_case": "Robust growth in the AI sector, evidenced by rising chip stocks, strongly underpins Meta's extensive AI investments and future revenue streams.",
+          "bear_case": "Intense competition, as seen with Micron briefly surpassing Meta's valuation, or potential overvaluation could hinder sustained growth."
+        },
+        "zh": {
+          "title": "Meta AI浪潮推高目标价",
+          "summary": "Meta股价在2026年6月29日前达到560美元的概率飙升至96%，主要受AI芯片股普遍上涨的推动。此举表明市场对Meta的AI战略和未来增长潜力充满信心。",
+          "drivers": [
+            "2026年6月25日AI芯片股普涨。",
+            "市场对Meta AI投资信心增强。",
+            "Meta潜在股息受关注，示财务稳健。"
+          ],
+          "why_matters": "这一概率变化凸显了Meta在加速发展的AI经济中的关键作用，及其利用技术进步创造显著股东价值的能力。",
+          "bull_case": "AI行业强劲增长，支撑Meta AI投资及未来收入。",
+          "bear_case": "竞争激烈（如美光超Meta）或估值过高阻碍增长。"
+        }
+      },
+      "news": [
+        {
+          "title": "Meta Platforms dividend moves into focus, shares trade below last year’s peak - Ad-hoc-news.de",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/meta-platforms-dividend-moves-into-focus-shares-trade-below-last-year-s/69647038"
+        },
+        {
+          "title": "Micron (MU) Surpasses Market Valuation of ​Meta and Briefly Tesla, Reuters Reports - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-surpasses-market-valuation-183653872.html"
+        },
+        {
+          "title": "Where Will Nvidia Stock Be in 2030? - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/06/27/where-will-nvidia-stock-be-in-2030/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2691655",
+        "question": "SPY (SPY) Up or Down on June 29?",
+        "probability": 0.84,
+        "change_24h": 0.335,
+        "volume_24h": 22896.02,
+        "score": 339.36,
+        "url": "https://polymarket.com/event/spy-up-or-down-on-june-29-2026"
+      },
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "Tensions Ease, Tech Rebounds, SPY Up",
+          "summary": "SPY's 'Up' probability surged to 84% as global geopolitical risks diminished. Easing Middle East tensions and a recovery in the tech sector fueled the positive shift.",
+          "drivers": [
+            "Easing Middle East geopolitical tensions",
+            "Tech sector sell-off eases, futures rise",
+            "US-Iran talks reduce escalation fears"
+          ],
+          "why_matters": "Reduced geopolitical risk typically boosts investor confidence, encouraging capital flow into equities. A tech rebound is crucial for broad market indices like SPY.",
+          "bull_case": "Geopolitical de-escalation and a strong tech rebound are driving SPY higher, overcoming recent market jitters.",
+          "bear_case": "Lingering AI jitters and upcoming jobs report uncertainty could still trigger a market pullback."
+        },
+        "zh": {
+          "title": "地缘缓和，科技反弹，SPY看涨",
+          "summary": "SPY上涨概率飙升至84%，主要受全球地缘政治风险减弱推动。中东紧张局势缓解及科技股反弹是关键驱动因素。",
+          "drivers": [
+            "中东地缘政治紧张局势缓解",
+            "科技股抛售压力减轻，期货上涨",
+            "美伊谈判降低冲突升级担忧"
+          ],
+          "why_matters": "地缘政治风险降低通常能提振投资者信心，吸引资金流入股市。科技股反弹对SPY等大盘指数至关重要。",
+          "bull_case": "地缘政治降温和科技股强劲反弹推动SPY走高，克服近期市场担忧。",
+          "bear_case": "AI担忧持续及即将发布的就业报告不确定性仍可能引发市场回调。"
+        }
+      },
+      "news": [
+        {
+          "title": "Nasdaq futures lead Wall St higher as Middle East tensions ease - Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-lead-wall-st-higher-middle-east-tensions-ease-2026-06-29/"
+        },
+        {
+          "title": "Indian shares likely to open steady as US-Iran talks ease escalation fears - Reuters",
+          "url": "https://www.reuters.com/world/india/indian-shares-likely-open-steady-us-iran-talks-ease-escalation-fears-2026-06-29/"
+        },
+        {
+          "title": "Stock Market Today: Stocks Turn Higher as Tech Sell-Off Eases; S&P 500, Nasdaq on Track For Weekly Losses - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2699595",
+        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $88 Week of June 29 2026?",
+        "probability": 0.93,
+        "change_24h": 0.33,
+        "volume_24h": 6035.36,
+        "score": 333.78,
+        "url": "https://polymarket.com/event/will-rklb-reach-88-by-june-29-2026"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "RKLB Surges: SpaceX, NASA Drive $88 Target",
+          "summary": "The probability of Rocket Lab (RKLB) hitting $88 by June 29, 2026, surged by 33% to 93%. This significant increase was primarily driven by positive developments in the broader space sector and a specific win for Rocket Lab, notably SpaceX's Nasdaq 100 inclusion and news of a 'Rocket Lab's NASA Win'.",
+          "drivers": [
+            "SpaceX's Nasdaq 100 inclusion validates space sector",
+            "Rocket Lab secures a new NASA contract win",
+            "Increased investor confidence in commercial space industry"
+          ],
+          "why_matters": "This movement indicates strong market belief in Rocket Lab's future growth and the increasing maturity of the commercial space industry, potentially attracting more investment into the sector.",
+          "bull_case": "Continued successful launches, new government contracts like the NASA win, and the broader space sector's growth will propel RKLB towards $88.",
+          "bear_case": "Intense competition, potential launch failures, and the 'excessive valuation' cited by Seeking Alpha could hinder RKLB's path to $88."
+        },
+        "zh": {
+          "title": "RKLB飙升：SpaceX与NASA助推88美元目标",
+          "summary": "Rocket Lab (RKLB) 在2026年6月29日前达到88美元的可能性飙升33%至93%。这一显著增长主要由更广泛的航天领域的积极发展和Rocket Lab的具体胜利所驱动，特别是SpaceX纳入纳斯达克100指数以及“Rocket Lab赢得NASA合同”的消息。",
+          "drivers": [
+            "SpaceX纳入纳斯达克100指数提振航天业信心",
+            "Rocket Lab获得新的NASA合同",
+            "商业航天产业投资者信心增强"
+          ],
+          "why_matters": "这一走势表明市场对Rocket Lab未来增长和商业航天产业日益成熟的强烈信心，可能吸引更多投资进入该领域。",
+          "bull_case": "持续成功的发射、新的政府合同（如NASA订单）以及更广泛的航天领域增长将推动RKLB股价达到88美元。",
+          "bear_case": "激烈的竞争、潜在的发射失败以及Seeking Alpha提及的“估值过高”可能阻碍RKLB达到88美元。"
+        }
+      },
+      "news": [
+        {
+          "title": "It's Official: SpaceX To Join Nasdaq 100. Here's When It'll Join - Investor's Business Daily",
+          "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/"
+        },
+        {
+          "title": "Rocket Lab: The Bear Case Has Never Been Stronger (NASDAQ:RKLB) - Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4918266-rocket-lab-bear-case-never-been-stronger"
+        },
+        {
+          "title": "Assenagon Asset Management S.A. Grows Position in Kinross Gold Corporation $KGC - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-assenagon-asset-management-sa-grows-position-in-kinross-gold-corporation-kgc-2026-06-27/"
         }
       ]
     },
@@ -244,10 +790,10 @@
       "market": {
         "id": "2699685",
         "question": "Will S&P 500 (SPY) hit (HIGH) $735 Week of June 29 2026?",
-        "probability": 0.9,
-        "change_24h": 0.265,
-        "volume_24h": 1930.24,
-        "score": 268.29,
+        "probability": 0.945,
+        "change_24h": 0.33,
+        "volume_24h": 2405.57,
+        "score": 333.38,
         "url": "https://polymarket.com/event/will-spy-reach-735-by-june-29-2026"
       },
       "insight": {
@@ -271,8 +817,8 @@
       },
       "news": [
         {
-          "title": "Wall St Week Ahead Jobs data, rate bets in focus as US stocks close solid first half - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-26/wall-st-week-ahead-jobs-data-rate-bets-focus-us-stocks-close-solid"
+          "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as US and Iran reportedly call a halt to attacks - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-29-224230573.html"
         },
         {
           "title": "Healthcare stocks have caught fire, sending all 3 of our names to record highs - CNBC",
@@ -286,160 +832,12 @@
     },
     {
       "market": {
-        "id": "2691655",
-        "question": "SPY (SPY) Up or Down on June 29?",
-        "probability": 0.715,
-        "change_24h": 0.24,
-        "volume_24h": 16474.48,
-        "score": 244.22,
-        "url": "https://polymarket.com/event/spy-up-or-down-on-june-29-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "SPY (SPY) Up or Down on June 29?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "SPY (SPY) Up or Down on June 29?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Indian shares likely to open steady as US-Iran talks ease escalation fears - Reuters",
-          "url": "https://www.reuters.com/world/india/indian-shares-likely-open-steady-us-iran-talks-ease-escalation-fears-2026-06-29/"
-        },
-        {
-          "title": "Gold prices this morning, June 29, 2026: Turning downwards. - Vietnam.vn",
-          "url": "https://www.vietnam.vn/en/gia-vang-sang-nay-29-6-2026-quay-dau-giam"
-        },
-        {
-          "title": "Wall St Week Ahead Jobs data, rate bets in focus as US stocks close solid first half - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-26/wall-st-week-ahead-jobs-data-rate-bets-focus-us-stocks-close-solid"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2365058",
-        "question": "Will USD be between 1.6M and 1.7M Iranian rials on June 30?",
-        "probability": 0.4,
-        "change_24h": -0.24,
-        "volume_24h": 3255.11,
-        "score": 243.51,
-        "url": "https://polymarket.com/event/will-usd-be-between-1pt6m-and-1pt7m-iranian-rials-on-june-30"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Iran-US De-escalation Shifts Rial Outlook",
-          "summary": "The probability of USD being between 1.6M and 1.7M Iranian rials by June 30 has fallen to 40% from 64%. This significant drop is primarily driven by recent reports of a halt in US-Iran attacks and a decrease in Polymarket's regime-fall odds, suggesting a potential de-escalation and less severe rial depreciation than previously anticipated.",
-          "drivers": [
-            "US-Iran halt renewed attacks (Reuters)",
-            "Polymarket regime-fall odds down to 5%",
-            "Reduced immediate geopolitical risk for Iran"
-          ],
-          "why_matters": "The Iranian rial's stability is crucial for Iran's economy and its citizens, directly impacting purchasing power and inflation. Fluctuations reflect the volatile geopolitical landscape and the effectiveness of international sanctions.",
-          "bull_case": "Renewed US-Iran tensions or economic pressures could cause the rial to depreciate into the 1.6M-1.7M range.",
-          "bear_case": "Sustained de-escalation strengthens the rial below 1.6M, or severe escalation weakens it beyond 1.7M."
-        },
-        "zh": {
-          "title": "美伊缓和，里亚尔展望转变",
-          "summary": "美元兑伊朗里亚尔在6月30日介于160万至170万之间的可能性已从64%降至40%。这一显著下降主要受美国与伊朗暂停袭击的报道以及Polymarket上政权垮台几率降至5%的影响，表明局势可能缓和，里亚尔贬值幅度或小于预期。",
-          "drivers": [
-            "美伊暂停袭击",
-            "Polymarket政权垮台几率降至5%",
-            "伊朗地缘政治风险降低"
-          ],
-          "why_matters": "伊朗里亚尔的稳定对伊朗经济及其公民至关重要，直接影响购买力和通货膨胀。汇率波动反映了动荡的地缘政治格局和国际制裁的有效性。",
-          "bull_case": "美伊紧张局势重燃或经济压力可能使里亚尔贬值至160万-170万区间。",
-          "bear_case": "持续的局势缓和可能使里亚尔走强至160万以下，或严重升级使其贬值超过170万。"
-        }
-      },
-      "news": [
-        {
-          "title": "US strikes in Iran push Polymarket regime-fall odds down to 5% - blockchain.news",
-          "url": "https://blockchain.news/news/us-strikes-in-iran-push-polymarket-regime-fall-odds-down-to-5-0hnmkcsbjgno0"
-        },
-        {
-          "title": "Stocks adrift, oil up as US-Iran halt renewed attacks - Reuters",
-          "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-pix-2026-06-29/"
-        },
-        {
-          "title": "Gold slips as fresh US-Iran strikes boost oil, Fed rate-hike bets weigh - Reuters",
-          "url": "https://www.reuters.com/world/india/gold-slips-fresh-us-iran-strikes-boost-oil-fed-rate-hike-bets-weigh-2026-06-29/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2691531",
-        "question": "S&P 500 (SPX) Up or Down on June 29?",
-        "probability": 0.705,
-        "change_24h": 0.23,
-        "volume_24h": 16825.4,
-        "score": 234.23,
-        "url": "https://polymarket.com/event/spx-up-or-down-on-june-29-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "SPX Up Probability Surges",
-          "summary": "The probability for the S&P 500 to close higher on June 29 surged by 23% to 70%, driven by an easing tech sell-off and market resilience looking past inflation concerns. Investors are also anticipating upcoming jobs data and Federal Reserve rate bets.",
-          "drivers": [
-            "Easing tech sector sell-off",
-            "Market looking past inflation concerns",
-            "Anticipation of strong jobs data"
-          ],
-          "why_matters": "This shift reflects increasing investor confidence in the broader market's ability to absorb recent tech volatility and economic data. It indicates a potential rotation or broader rally beyond mega-cap tech.",
-          "bull_case": "Easing tech sell-off and market resilience against inflation fears suggest broader strength for SPX.",
-          "bear_case": "Disappointing jobs data or renewed inflation concerns could quickly reverse positive market sentiment."
-        },
-        "zh": {
-          "title": "标普500上涨概率飙升",
-          "summary": "标普500指数在6月29日上涨的概率飙升23%至70%，主要受科技股抛售缓解和市场对通胀担忧的韧性所驱动。投资者正密切关注即将公布的就业数据和美联储利率前景。",
-          "drivers": [
-            "科技股抛售压力缓解",
-            "市场消化通胀担忧",
-            "预期就业数据强劲"
-          ],
-          "why_matters": "这一转变反映出投资者对市场吸收近期科技股波动和经济数据的信心增强。这预示着可能出现板块轮动或更广泛的市场反弹。",
-          "bull_case": "科技股抛售缓解及市场对通胀的韧性预示标普500将走强。",
-          "bear_case": "若就业数据不及预期或通胀担忧重燃，市场情绪恐迅速逆转。"
-        }
-      },
-      "news": [
-        {
-          "title": "Stock Market Today: Stocks Turn Higher as Tech Sell-Off Eases; S&P 500, Nasdaq on Track For Weekly Losses - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
-        },
-        {
-          "title": "Wall St Week Ahead Jobs data, rate bets in focus as US stocks close solid first half - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-26/wall-st-week-ahead-jobs-data-rate-bets-focus-us-stocks-close-solid"
-        },
-        {
-          "title": "Wall St Week Ahead Jobs data, rate bets in focus as US stocks close solid first half - Reuters",
-          "url": "https://www.reuters.com/business/wall-st-week-ahead-jobs-data-rate-bets-focus-us-stocks-close-solid-first-half-2026-06-26/"
-        }
-      ]
-    },
-    {
-      "market": {
         "id": "2699498",
         "question": "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $117 Week of June 29 2026?",
-        "probability": 0.735,
-        "change_24h": 0.215,
-        "volume_24h": 1429.64,
-        "score": 218.16,
+        "probability": 0.845,
+        "change_24h": 0.305,
+        "volume_24h": 1913.47,
+        "score": 308.28,
         "url": "https://polymarket.com/event/will-pltr-reach-117-by-june-29-2026"
       },
       "insight": {
@@ -478,106 +876,18 @@
     },
     {
       "market": {
-        "id": "2682551",
-        "question": "Will Bending Spoons' market cap be less than $16B at market close on IPO day?",
-        "probability": 0.195,
-        "change_24h": -0.2,
-        "volume_24h": 5527.47,
-        "score": 203.74,
-        "url": "https://polymarket.com/event/will-bending-spoons-market-cap-be-less-than-16b-at-market-close-on-ipo-day-20260625032230859"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Bending Spoons' market cap be less than $16B at market close on I",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Bending Spoons' market cap be less than $16B at market close on I",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "SpaceX completes largest IPO ever, raises $86B, boosts Robinhood activity - Crypto Briefing",
-          "url": "https://cryptobriefing.com/spacex-completes-largest-ipo-ever-raises-86b-boosts-robinhood-activity/"
-        },
-        {
-          "title": "The AI IPO Wave Is Here And It Is Only Just Getting Started - Beehiiv",
-          "url": "https://joeychoy.beehiiv.com/p/the-ai-ipo-wave-is-here-and-it-is-only-just-getting-started"
-        },
-        {
-          "title": "It's Official: SpaceX To Join Nasdaq 100. Here's When It'll Join - Investor's Business Daily",
-          "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2691560",
-        "question": "Microsoft (MSFT) Up or Down on June 29?",
-        "probability": 0.805,
-        "change_24h": 0.175,
-        "volume_24h": 840.16,
-        "score": 177.92,
-        "url": "https://polymarket.com/event/msft-up-or-down-on-june-29-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Microsoft (MSFT) Up or Down on June 29?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Microsoft (MSFT) Up or Down on June 29?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "S&P 500, Dow Futures Climb As Markets Look Past Big Tech Declines, Hotter-Than-Expected Inflation: AAPL, MSFT, BABA, MSTR, SNDK, FIG In Focus - Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-climb-as-markets-look-past-big-tech-declines-hotter-than-expected-inflation/cZ1cIjUR7Xv"
-        },
-        {
-          "title": "Wall St futures fall as chip stocks resume slide after Micron-led rally - Reuters",
-          "url": "https://www.reuters.com/business/wall-st-futures-fall-chip-stocks-resume-slide-after-micron-led-rally-2026-06-26/"
-        },
-        {
-          "title": "Microsoft stock hits one-year low amid AI spending concerns - qz.com",
-          "url": "https://qz.com/microsoft-stock-one-year-low-ai-spending-capex-062626"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2646918",
-        "question": "Will the next diplomatic US-Iran meeting be in Qatar by September 30, 2026?",
+        "id": "2412362",
+        "question": "Will Lebanon recognize Israel by December 31?",
         "probability": 0.415,
-        "change_24h": 0.15,
-        "volume_24h": 72974.71,
-        "score": 154.86,
-        "url": "https://polymarket.com/event/will-the-next-diplomatic-us-iran-meeting-be-in-qatar-by-september-30-2026-20260622185050767"
+        "change_24h": -0.29,
+        "volume_24h": 13185.76,
+        "score": 294.12,
+        "url": "https://polymarket.com/event/will-lebanon-recognize-israel-by-december-31"
       },
       "insight": {
         "category": "geopolitics",
         "en": {
-          "title": "Will the next diplomatic US-Iran meeting be in Qatar by September 30, ",
+          "title": "Will Lebanon recognize Israel by December 31?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -585,7 +895,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will the next diplomatic US-Iran meeting be in Qatar by September 30, ",
+          "title": "Will Lebanon recognize Israel by December 31?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -595,412 +905,16 @@
       },
       "news": [
         {
-          "title": "Mediators worked through threats and strikes to broker the US-Iran deal, and challenges remain - The Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/06/26/us-iran-war-mediation-peace-deal-pakistan-qatar/b972401a-715b-11f1-8730-e7fd0e2a6404_story.html"
+          "title": "Katz warns force vs Iran as Polymarket puts Dec 2026 US-Iran deal at 43.5% - blockchain.news",
+          "url": "https://blockchain.news/news/katz-warns-force-vs-iran-as-polymarket-puts-dec-2026-us-iran-deal-at-435-0hnmkh39o4rg0"
         },
         {
-          "title": "Mediators worked through threats and strikes to broker the US-Iran deal, and challenges remain - AP News",
-          "url": "https://apnews.com/article/us-iran-war-mediation-peace-deal-pakistan-qatar-33e3fd72a890ff28e1b8401b51a25aa3"
+          "title": "Hezbollah's Qassem rejects Israel-Lebanon deal as 'null' - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/article-900642"
         },
         {
-          "title": "One week in, what exactly are America and Iran getting from their agreement? - CNN",
-          "url": "https://www.cnn.com/2026/06/26/business/america-iran-agreement-one-week-later"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2677862",
-        "question": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in July?",
-        "probability": 0.055,
-        "change_24h": -0.15,
-        "volume_24h": 5975.31,
-        "score": 153.78,
-        "url": "https://polymarket.com/event/will-wti-reach-100-in-july-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in July?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in July?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Alrosa unit suspends mining, transport operations for 3 months - Mining.com",
-          "url": "https://www.mining.com/web/alrosa-unit-suspends-mining-transport-operations-for-3-months/"
-        },
-        {
-          "title": "The $7 Trillion AI Boom Is Turning Into The Energy Trade of the Century - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://oilprice.com/Energy/Energy-General/The-7-Trillion-AI-Boom-Is-Turning-Into-The-Energy-Trade-of-the-Century.html"
-        },
-        {
-          "title": "Brent Erases Iran War Premium as Hormuz Flows Show Signs of Recovery - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://oilprice.com/Energy/Energy-General/Brent-Erases-Iran-War-Premium-as-Hormuz-Flows-Show-Signs-of-Recovery.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2682656",
-        "question": "Will ITG's market cap be between $2.7B and $3.3B at market close on IPO day?",
-        "probability": 0.445,
-        "change_24h": 0.15,
-        "volume_24h": 2394.96,
-        "score": 153.38,
-        "url": "https://polymarket.com/event/will-itgs-market-cap-be-between-2pt7b-and-3pt3b-at-market-close-on-ipo-day-20260625034204479"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will ITG's market cap be between $2.7B and $3.3B at market close on IP",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will ITG's market cap be between $2.7B and $3.3B at market close on IP",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "SpaceX completes largest IPO ever, raises $86B, boosts Robinhood activity - Crypto Briefing",
-          "url": "https://cryptobriefing.com/spacex-completes-largest-ipo-ever-raises-86b-boosts-robinhood-activity/"
-        },
-        {
-          "title": "The AI IPO Wave Is Here And It Is Only Just Getting Started - Beehiiv",
-          "url": "https://joeychoy.beehiiv.com/p/the-ai-ipo-wave-is-here-and-it-is-only-just-getting-started"
-        },
-        {
-          "title": "It's Official: SpaceX To Join Nasdaq 100. Here's When It'll Join - Investor's Business Daily",
-          "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2686768",
-        "question": "Iran full airspace closure by June 30?",
-        "probability": 0.0205,
-        "change_24h": -0.141,
-        "volume_24h": 28895.15,
-        "score": 145.46,
-        "url": "https://polymarket.com/event/iran-full-airspace-closure-by-june-30-20260625195254148"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Iran full airspace closure by June 30?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Iran full airspace closure by June 30?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Explosive drone targets Iranian Kurdish opposition camp north of Iraq's Erbil, security sources say - Reuters",
-          "url": "https://www.reuters.com/world/middle-east/explosive-drone-targets-iranian-kurdish-opposition-camp-north-iraqs-erbil-2026-06-27/"
-        },
-        {
-          "title": "US strikes in Iran push Polymarket regime-fall odds down to 5% - blockchain.news",
-          "url": "https://blockchain.news/news/us-strikes-in-iran-push-polymarket-regime-fall-odds-down-to-5-0hnmkcsbjgno0"
-        },
-        {
-          "title": "IRGC claims missile, drone strikes on US positions, threatens to end deal - Crypto Briefing",
-          "url": "https://cryptobriefing.com/irgc-claims-missile-drone-strikes-on-us-positions-threatens-to-end-deal/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2364623",
-        "question": "Will USD reach 1.8M Iranian rials by June 30?",
-        "probability": 0.173,
-        "change_24h": 0.126,
-        "volume_24h": 2532.79,
-        "score": 129.4,
-        "url": "https://polymarket.com/event/will-usd-reach-1pt8m-iranian-rials-by-june-30"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Will USD reach 1.8M Iranian rials by June 30?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will USD reach 1.8M Iranian rials by June 30?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "US strikes in Iran push Polymarket regime-fall odds down to 5% - blockchain.news",
-          "url": "https://blockchain.news/news/us-strikes-in-iran-push-polymarket-regime-fall-odds-down-to-5-0hnmkcsbjgno0"
-        },
-        {
-          "title": "Stocks adrift, oil up as US-Iran halt renewed attacks - Reuters",
-          "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-pix-2026-06-29/"
-        },
-        {
-          "title": "IRGC claims missile, drone strikes on US positions, threatens to end deal - Crypto Briefing",
-          "url": "https://cryptobriefing.com/irgc-claims-missile-drone-strikes-on-us-positions-threatens-to-end-deal/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2118270",
-        "question": "Will the Bank of Brazil make no change to the target for the Selic rate at the August meeting?",
-        "probability": 0.373,
-        "change_24h": 0.1115,
-        "volume_24h": 3767.16,
-        "score": 115.08,
-        "url": "https://polymarket.com/event/will-the-bank-of-brazil-make-no-change-to-the-target-for-the-selic-rate-at-the-august-meeting"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will the Bank of Brazil make no change to the target for the Selic rat",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the Bank of Brazil make no change to the target for the Selic rat",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "IMF chief economist says Fed reduction in rate guidance is 'entirely appropriate' - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-26/imf-chief-economist-says-fed-reduction-rate-guidance-entirely"
-        },
-        {
-          "title": "Fed to hold rates this year, economists say, defying market bets for hikes: Reuters poll - Reuters",
-          "url": "https://www.reuters.com/business/fed-hold-rates-this-year-economists-say-defying-market-bets-hikes-2026-06-26/"
-        },
-        {
-          "title": "Fed will not raise rates this year, says EY-Parthenon's Greg Daco - CNBC",
-          "url": "https://www.cnbc.com/video/2026/06/26/fed-will-not-raise-rates-this-year-says-ey-parthenons-greg-daco.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2656990",
-        "question": "Over $10M committed to the Laso Finance public sale?",
-        "probability": 0.31,
-        "change_24h": -0.105,
-        "volume_24h": 25954.52,
-        "score": 109.41,
-        "url": "https://polymarket.com/event/over-10m-committed-to-the-laso-finance-public-sale"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Over $10M committed to the Laso Finance public sale?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Over $10M committed to the Laso Finance public sale?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "This week in fintech: Kalshi, Airwallex, Clearwater Analytics - Axios",
-          "url": "https://www.axios.com/pro/all-deals/2026/06/27/fintech-deals-of-the-week"
-        },
-        {
-          "title": "Texas continues monster June with eighth blue-chip commitment - Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/texas-continues-monster-june-eighth-203717696.html"
-        },
-        {
-          "title": "More Than 2,700 Acres of Iowa Farmland Head to Auction in July 2026 - Successful Farming",
-          "url": "https://www.agriculture.com/more-than-2-700-acres-of-iowa-farmland-head-to-auction-in-july-2026-12007744"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2354063",
-        "question": "Israeli parliament dissolved by July 31?",
-        "probability": 0.52,
-        "change_24h": -0.105,
-        "volume_24h": 7538.6,
-        "score": 108.88,
-        "url": "https://polymarket.com/event/israeli-parliament-dissolved-by-july-31-832"
-      },
-      "insight": {
-        "category": "politics",
-        "en": {
-          "title": "Israeli parliament dissolved by July 31?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Israeli parliament dissolved by July 31?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Analysis • In peddling 'unity' after next election, prime minister is admitting defeat - Haaretz",
-          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-06-29/ty-article/.premium/in-peddling-unity-after-next-election-prime-minister-is-admitting-defeat/0000019f-0fea-db19-a19f-bffb922e0000"
-        },
-        {
-          "title": "Amid Likud manipulation claims • Top court hears petition on state watchdog after Knesset's refusal to revote - Haaretz",
-          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-06-28/ty-article/.premium/top-court-hears-petition-on-state-watchdog-after-knessets-refusal-to-revote/0000019f-0cbd-d589-a3bf-5cff60950000"
-        },
-        {
-          "title": "In latest poll, Netanyahu's Likud gains seat as Bennett's decline continues - Haaretz",
-          "url": "https://www.haaretz.com/israel-news/elections/2026-06-26/ty-article/in-latest-poll-netanyahus-likud-gains-seat-as-bennetts-decline-continues/0000019f-0282-d76e-adbf-beb2cae70000"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2646848",
-        "question": "US x Iran diplomatic meeting by July 3, 2026?",
-        "probability": 0.2,
-        "change_24h": 0.095,
-        "volume_24h": 119723.18,
-        "score": 100.08,
-        "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "US x Iran diplomatic meeting by July 3, 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "US x Iran diplomatic meeting by July 3, 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "One week in, what exactly are America and Iran getting from their agreement? - CNN",
-          "url": "https://www.cnn.com/2026/06/26/business/america-iran-agreement-one-week-later"
-        },
-        {
-          "title": "Mediators worked through threats and strikes to broker the US-Iran deal, and challenges remain - The Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/06/26/us-iran-war-mediation-peace-deal-pakistan-qatar/b972401a-715b-11f1-8730-e7fd0e2a6404_story.html"
-        },
-        {
-          "title": "Mediators worked through threats and strikes to broker the US-Iran deal, and challenges remain - AP News",
-          "url": "https://apnews.com/article/us-iran-war-mediation-peace-deal-pakistan-qatar-33e3fd72a890ff28e1b8401b51a25aa3"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2477200",
-        "question": "SpaceX IPO: Closing Price Up/Down End of First Month?",
-        "probability": 0.395,
-        "change_24h": 0.095,
-        "volume_24h": 8820.19,
-        "score": 98.95,
-        "url": "https://polymarket.com/event/spacex-ipo-closing-price-updown-end-of-first-month-20260608182738233"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "SpaceX IPO: Closing Price Up/Down End of First Month?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "SpaceX IPO: Closing Price Up/Down End of First Month?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "SpaceX completes largest IPO ever, raises $86B, boosts Robinhood activity - Crypto Briefing",
-          "url": "https://cryptobriefing.com/spacex-completes-largest-ipo-ever-raises-86b-boosts-robinhood-activity/"
-        },
-        {
-          "title": "SpaceX IPO: Valuation, Timeline and Investment Options - SmartAsset.com",
-          "url": "https://smartasset.com/investing/spacex-ipo"
-        },
-        {
-          "title": "The AI IPO Wave Is Here And It Is Only Just Getting Started - Beehiiv",
-          "url": "https://joeychoy.beehiiv.com/p/the-ai-ipo-wave-is-here-and-it-is-only-just-getting-started"
+          "title": "Lebanon's Deal with Israel Requires Hezbollah to Disarm. That Might be Difficult - Military.com",
+          "url": "https://www.military.com/lebanons-deal-with-israel-requires-hezbollah-to-disarm-that-might-be-difficult"
         }
       ]
     },
@@ -1008,10 +922,10 @@
       "market": {
         "id": "2699125",
         "question": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $236 Week of June 29 2026?",
-        "probability": 0.81,
-        "change_24h": 0.095,
-        "volume_24h": 2520.38,
-        "score": 98.4,
+        "probability": 0.825,
+        "change_24h": 0.245,
+        "volume_24h": 2718.38,
+        "score": 248.43,
         "url": "https://polymarket.com/event/will-amzn-reach-236-by-june-29-2026"
       },
       "insight": {
@@ -1050,106 +964,18 @@
     },
     {
       "market": {
-        "id": "2698969",
-        "question": "Will Apple (AAPL) hit (LOW) $280 Week of June 29 2026?",
-        "probability": 0.72,
-        "change_24h": -0.09,
-        "volume_24h": 1392.03,
-        "score": 93.14,
-        "url": "https://polymarket.com/event/will-aapl-dip-to-280-by-june-29-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Apple (AAPL) hit (LOW) $280 Week of June 29 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Apple (AAPL) hit (LOW) $280 Week of June 29 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "June’s ‘Strawberry Moon’ to Reach Peak Illumination on June 29 - Azat TV",
-          "url": "https://azat.tv/en/strawberry-moon-june-2026/"
-        },
-        {
-          "title": "Weekly Love Horoscopes For June 29 - July 5 — Mercury Retrograde Is Here - YourTango",
-          "url": "https://www.yourtango.com/2026398664/weekly-love-horoscopes-are-here-june-29-july-5-2026"
-        },
-        {
-          "title": "Pokémon GO Events This Week: June 29 – July 5, 2026 - Pokémon GO Hub",
-          "url": "https://pokemongohub.net/post/news/pokemon-go-events-this-week-june-29-july-5-2026/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2406026",
-        "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz on June 30?",
-        "probability": 0.0415,
-        "change_24h": -0.0865,
-        "volume_24h": 26931.23,
-        "score": 90.93,
-        "url": "https://polymarket.com/event/will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-june-30"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will there be between 10 and 20 average daily transits of the Strait o",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will there be between 10 and 20 average daily transits of the Strait o",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Ships took advantage of an opening in the Strait of Hormuz. But it may be closing - CNN",
-          "url": "https://www.cnn.com/2026/06/26/business/strait-hormuz-ship-traffic"
-        },
-        {
-          "title": "Top maritime news stories for week ended 28 June - Seatrade Maritime News",
-          "url": "https://www.seatrade-maritime.com/security/top-maritime-news-stories-for-week-ended-28-june"
-        },
-        {
-          "title": "Surge in Asia-US container rates continues, tanker rates fall as Strait of Hormuz transits rise - ICIS",
-          "url": "https://www.icis.com/explore/resources/news/2026/06/26/11220119/surge-in-asia-us-container-rates-continues-tanker-rates-fall-as-strait-of-hormuz-transits-rise"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2699331",
-        "question": "Will NVIDIA (NVDA) close above $150 end of July?",
-        "probability": 0.9635,
-        "change_24h": 0.0835,
-        "volume_24h": 641.25,
-        "score": 86.31,
-        "url": "https://polymarket.com/event/nvda-above-150-on-july-31-2026"
+        "id": "2691560",
+        "question": "Microsoft (MSFT) Up or Down on June 29?",
+        "probability": 0.8,
+        "change_24h": 0.225,
+        "volume_24h": 827.55,
+        "score": 227.92,
+        "url": "https://polymarket.com/event/msft-up-or-down-on-june-29-2026"
       },
       "insight": {
         "category": "ai_tech",
         "en": {
-          "title": "Will NVIDIA (NVDA) close above $150 end of July?",
+          "title": "Microsoft (MSFT) Up or Down on June 29?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1157,7 +983,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will NVIDIA (NVDA) close above $150 end of July?",
+          "title": "Microsoft (MSFT) Up or Down on June 29?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1167,16 +993,16 @@
       },
       "news": [
         {
-          "title": "SA Asks: What's the most attractive chip stock right now? (NVDA:NASDAQ) - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4607881-sa-asks-whats-the-most-attractive-chip-stock-right-now"
+          "title": "Microsoft’s $570 Billion Rout Sets Up Its Worst Month Since 2000 - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-29/microsoft-s-570-billion-rout-sets-up-its-worst-month-since-2000"
         },
         {
-          "title": "Nvidia Stock: The Next Dividend Aristocrat? (NASDAQ:NVDA) - Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917842-nvidia-the-next-dividend-aristocrat"
+          "title": "Nasdaq futures lead Wall St higher as Middle East tensions ease - Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-lead-wall-st-higher-middle-east-tensions-ease-2026-06-29/"
         },
         {
-          "title": "Stock Market Today: Nasdaq Futures Slide Amid Global Tech Sell-Off; Micron, Nvidia, Sandisk Fall (Live Coverage) - Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-tech-sell-off-micron-nvidia-sandisk/"
+          "title": "Microsoft stock hits one-year low amid AI spending concerns - qz.com",
+          "url": "https://qz.com/microsoft-stock-one-year-low-ai-spending-capex-062626"
         }
       ]
     },
@@ -1184,35 +1010,37 @@
       "market": {
         "id": "2699155",
         "question": "Will Google (GOOGL) close above $290 end of July?",
-        "probability": 0.935,
-        "change_24h": 0.08,
-        "volume_24h": 636.2,
-        "score": 82.8,
+        "probability": 0.94,
+        "change_24h": 0.225,
+        "volume_24h": 670.6,
+        "score": 227.83,
         "url": "https://polymarket.com/event/googl-above-290-on-july-31-2026"
       },
       "insight": {
         "category": "business",
         "en": {
-          "title": "Google $290 Target Surges",
-          "summary": "The probability of GOOGL closing above $290 by end of July jumped 8% to 94%, driven by a positive outlook for Wall Street's first half and potential easing of AI competition. Investors are increasingly confident in Google's near-term performance.",
+          "title": "GOOGL Probability Soars on Rosy Market Outlook",
+          "summary": "The probability for Google (GOOGL) to close above $290 by end of July surged by 22.5% to 94%. This movement is primarily attributed to a strong, optimistic outlook for the broader Wall Street market, as highlighted by CNBC's report on a \"memorable first half\" and \"more rosy\" expectations.",
           "drivers": [
-            "Wall Street's \"memorable first half\" signals broad market strength.",
-            "OpenAI IPO delay potentially reduces immediate AI competitive pressure."
+            "CNBC's 'memorable first half' Wall Street report.",
+            "CNBC's 'more rosy' market expectations.",
+            "Increased investor confidence in tech."
           ],
-          "why_matters": "This indicates strong investor confidence in Google's ability to maintain upward momentum, reflecting broader optimism in the tech sector and its AI investments.",
-          "bull_case": "Continued robust performance in the tech sector and Google's core businesses will likely push GOOGL above $290.",
-          "bear_case": "A sudden market correction or unexpected negative news for Google's AI initiatives could prevent it from reaching $290."
+          "why_matters": "This indicates strong investor confidence in the broader market's resilience and growth, particularly benefiting large-cap technology companies like Google. It suggests a bullish sentiment prevailing as the year's first half concludes.",
+          "bull_case": "Continued strong market performance and investor confidence in tech growth, as highlighted by CNBC's \"rosy\" outlook, will propel GOOGL above $290.",
+          "bear_case": "Unexpected negative market shifts or specific GOOGL news could quickly reverse the current optimistic sentiment, pulling the stock down."
         },
         "zh": {
-          "title": "谷歌股价突破290美元信心大增",
-          "summary": "谷歌(GOOGL)在7月底收盘价高于290美元的概率飙升8%至94%，主要受华尔街上半年积极展望及AI竞争可能缓解的推动。投资者对谷歌短期表现信心倍增。",
+          "title": "谷歌概率飙升，市场前景乐观",
+          "summary": "谷歌（GOOGL）股价在7月底收盘高于290美元的概率飙升22.5%至94%。这一变化主要归因于华尔街整体市场的乐观前景，CNBC报道称上半年表现“令人难忘”，并对下半年抱有“更加乐观”的预期。",
           "drivers": [
-            "华尔街“难忘上半年”预示市场普遍走强。",
-            "OpenAI IPO推迟或减轻谷歌AI业务的即时竞争压力。"
+            "CNBC报道华尔街上半年表现“令人难忘”。",
+            "CNBC对市场下半年“更加乐观”的预期。",
+            "投资者对科技股信心增强。"
           ],
-          "why_matters": "这表明投资者对谷歌保持上涨势头的强烈信心，反映出对科技行业及其AI投资的普遍乐观情绪。",
-          "bull_case": "科技板块和谷歌核心业务的持续强劲表现，很可能推动GOOGL股价突破290美元。",
-          "bear_case": "市场突然回调或谷歌AI业务出现意外负面消息，可能使其无法达到290美元。"
+          "why_matters": "这表明投资者对整体市场韧性和增长充满信心，尤其利好谷歌等大型科技公司。它预示着上半年结束时普遍存在的看涨情绪。",
+          "bull_case": "CNBC提及的“乐观”市场前景和对科技增长的持续信心将推动谷歌股价突破290美元。",
+          "bear_case": "意外的市场负面变化或谷歌特定新闻可能迅速逆转乐观情绪，导致股价下跌。"
         }
       },
       "news": [
@@ -1221,29 +1049,81 @@
           "url": "https://www.barrons.com/articles/moderna-stock-cell-therapy-361f4ad3"
         },
         {
-          "title": "Potential OpenAI IPO Delay Hits Oracle Stock - Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/oracle-stock-openai-ipo-delay/"
-        },
-        {
           "title": "Magnitude 5.4 earthquake strikes Pakistan, EMSC says - TradingView",
           "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42Y13L:0-magnitude-5-4-earthquake-strikes-pakistan-emsc-says/"
+        },
+        {
+          "title": "Norway oil service lockout takes effect, disrupts offshore drilling - TradingView",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N42Z03L:0-norway-oil-service-lockout-takes-effect-disrupts-offshore-drilling/"
         }
       ]
     },
     {
       "market": {
-        "id": "1808548",
-        "question": "Fed Rate Hike by October 2026 Meeting?",
-        "probability": 0.45,
-        "change_24h": 0.075,
-        "volume_24h": 42936.72,
-        "score": 79.63,
-        "url": "https://polymarket.com/event/fed-rate-hike-by-october-2026-meeting"
+        "id": "2640032",
+        "question": "Will the price of Bitcoin be between $60,000 and $62,000 on June 29?",
+        "probability": 0.615,
+        "change_24h": 0.2,
+        "volume_24h": 12291.59,
+        "score": 204.09,
+        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-60000-62000-on-june-29-2026"
       },
       "insight": {
-        "category": "other",
+        "category": "crypto",
         "en": {
-          "title": "Fed Rate Hike by October 2026 Meeting?",
+          "title": "Bitcoin Nears $60K-$62K Range",
+          "summary": "The probability of Bitcoin being between $60,000 and $62,000 by June 29 surged by 20% as its price recently fell below $60,000, making the range a more plausible target for stabilization. This movement is largely driven by recent bearish news pushing the price downwards.",
+          "drivers": [
+            "Bitcoin price falling below $60,000 (CoinDesk).",
+            "Grayscale's reported $3B Bitcoin sell-off plan.",
+            "Broader 'dollar debasement trade dead' sentiment."
+          ],
+          "why_matters": "This market reflects short-term investor expectations for Bitcoin's price stability amidst significant institutional selling pressure and a generally bearish outlook.",
+          "bull_case": "Bitcoin's recent sharp decline below $60,000 could lead to a quick rebound or stabilization within the $60,000-$62,000 range by June 29.",
+          "bear_case": "Continued selling pressure from Grayscale and broader market weakness will likely push Bitcoin significantly below $60,000 by June 29."
+        },
+        "zh": {
+          "title": "比特币逼近6万-6.2万美元区间",
+          "summary": "比特币在6月29日介于6万至6.2万美元区间的可能性上升了20%，因其价格近期跌破6万美元，使得该区间成为更合理的稳定目标。这一变化主要受近期看跌消息推动价格下行。",
+          "drivers": [
+            "比特币价格跌破6万美元（CoinDesk报道）。",
+            "灰度计划出售30亿美元比特币。",
+            "“美元贬值交易已死”的普遍情绪。"
+          ],
+          "why_matters": "该市场反映了投资者在机构抛售压力和普遍看跌情绪下，对短期比特币价格稳定性的预期。",
+          "bull_case": "比特币近期跌破6万美元后，可能在6月29日前迅速反弹或稳定在6万至6.2万美元区间。",
+          "bear_case": "灰度持续抛售及市场普遍疲软，可能在6月29日前将比特币价格推至远低于6万美元。"
+        }
+      },
+      "news": [
+        {
+          "title": "Is the U.S. dollar debasement trade dead? - Investing.com",
+          "url": "https://www.investing.com/news/economy-news/is-the-us-dollar-debasement-trade-dead-4764062"
+        },
+        {
+          "title": "Grayscale strategy team to sell $3B in Bitcoin to meet cash obligations - Crypto Briefing",
+          "url": "https://cryptobriefing.com/grayscale-strategy-team-to-sell-3b-in-bitcoin-to-meet-cash-obligations/"
+        },
+        {
+          "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2710314",
+        "question": "Bitcoin Up or Down on June 29?",
+        "probability": 0.675,
+        "change_24h": 0.19,
+        "volume_24h": 174525.05,
+        "score": 195.24,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-june-29-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down on June 29?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1251,7 +1131,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Fed Rate Hike by October 2026 Meeting?",
+          "title": "Bitcoin Up or Down on June 29?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1261,68 +1141,244 @@
       },
       "news": [
         {
-          "title": "Fed to hold rates this year, economists say, defying market bets for hikes: Reuters poll - Reuters",
-          "url": "https://www.reuters.com/business/fed-hold-rates-this-year-economists-say-defying-market-bets-hikes-2026-06-26/"
+          "title": "Grayscale strategy team to sell $3B in Bitcoin to meet cash obligations - Crypto Briefing",
+          "url": "https://cryptobriefing.com/grayscale-strategy-team-to-sell-3b-in-bitcoin-to-meet-cash-obligations/"
         },
         {
-          "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year - CNBC",
-          "url": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+          "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss - CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss"
         },
         {
-          "title": "Wall St Week Ahead Jobs data, rate bets in focus as US stocks close solid first half - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-06-26/wall-st-week-ahead-jobs-data-rate-bets-focus-us-stocks-close-solid"
+          "title": "Gold prices this morning, June 29, 2026: Turning downwards. - Vietnam.vn",
+          "url": "https://www.vietnam.vn/en/gia-vang-sang-nay-29-6-2026-quay-dau-giam"
         }
       ]
     },
     {
       "market": {
-        "id": "2365175",
-        "question": "Will the Ornn H200 Index be between $5.00 and $6.00 on June 30, 2026?",
-        "probability": 0.04,
-        "change_24h": -0.071,
-        "volume_24h": 8082.11,
-        "score": 74.91,
-        "url": "https://polymarket.com/event/will-the-ornn-h200-index-be-between-5pt00-and-6pt00-on-june-30-2026"
+        "id": "2699663",
+        "question": "Will Micron Technology, Inc. (MU) hit (LOW) $960 Week of June 29 2026?",
+        "probability": 0.145,
+        "change_24h": -0.185,
+        "volume_24h": 554.33,
+        "score": 187.74,
+        "url": "https://polymarket.com/event/will-mu-dip-to-960-by-june-29-2026"
       },
       "insight": {
-        "category": "economy",
+        "category": "other",
         "en": {
-          "title": "Global Market Downturn Hits Ornn Index",
-          "summary": "The probability for the Ornn H200 Index to be between $5.00 and $6.00 on June 30, 2026, plummeted by 7.1% to 4%. This sharp decline was driven by widespread global market weakness and profit-taking in AI-related stocks, as reported by The Sun Chronicle and AP News.",
+          "title": "Will Micron Technology, Inc. (MU) hit (LOW) $960 Week of June 29 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Global market sell-off after AI rallies",
-            "Tech stock declines in Asia and US",
-            "OpenAI IPO delay hitting Oracle stock"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This movement reflects growing investor caution, indicating concerns over the sustainability of recent tech-driven gains and broader economic stability. It suggests investors are bracing for a potential market correction.",
-          "bull_case": "Strong corporate earnings or a rebound in AI sector growth could push the Ornn H200 Index back into the target range.",
-          "bear_case": "Continued profit-taking and broader economic slowdown could drive the Ornn H200 Index significantly below $5.00."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "全球市场下跌，奥恩指数承压",
-          "summary": "截至2026年6月30日，奥恩H200指数介于5.00美元至6.00美元之间的可能性下降了7.1%至4%。这一急剧下降主要受全球市场普遍走弱和人工智能相关股票获利回吐的驱动，如《太阳纪事报》和美联社报道。",
+          "title": "Will Micron Technology, Inc. (MU) hit (LOW) $960 Week of June 29 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "全球市场在AI反弹后抛售",
-            "亚洲和美国科技股下跌",
-            "OpenAI IPO延迟影响甲骨文"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这一变化反映了投资者日益增长的谨慎情绪，表明对近期科技驱动涨势可持续性和更广泛经济稳定性的担忧。投资者正为潜在的市场回调做准备。",
-          "bull_case": "强劲的企业盈利或人工智能板块增长反弹可能将奥恩H200指数推回目标区间。",
-          "bear_case": "持续的获利回吐和更广泛的经济放缓可能使奥恩H200指数显著跌破5.00美元。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "Grains Start Day in the Red | Friday, June 26, 2026 - Successful Farming",
-          "url": "https://www.agriculture.com/market-update-or-friday-june-26-2026-12007332"
+          "title": "Micron (MU) Surpasses Market Valuation of ​Meta and Briefly Tesla, Reuters Reports - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-surpasses-market-valuation-183653872.html"
         },
         {
-          "title": "Wall Street follows global markets lower as traders sell to lock in profits after recent AI rallies - The Sun Chronicle",
-          "url": "https://www.thesunchronicle.com/zz/1/wall-street-follows-global-markets-lower-as-traders-sell-to-lock-in-profits-after-recent/article_40cd1c97-cf3d-5db0-be9c-1006ca8870ac.html"
+          "title": "SK Hynix Just Sent a Huge Warning to Micron Investors - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/06/29/sk-hynix-just-sent-a-huge-warning-to-micron-invest/"
         },
         {
-          "title": "World shares skid as traders sell to lock in profits after recent rallies driven by AI - The Sun Chronicle",
-          "url": "https://www.thesunchronicle.com/business/world-shares-skid-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by/article_40cd1c97-cf3d-5db0-be9c-1006ca8870ac.html"
+          "title": "Sandisk Is Crushing Every S&P 500 Stock in 2026. Can Anything Stop It? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/28/sandisk-is-crushing-every-sp-500-stock-in-2026-can-anything-stop-it/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2699695",
+        "question": "Will South Korea ETF (EWY) hit (HIGH) $202 Week of June 29 2026?",
+        "probability": 0.795,
+        "change_24h": 0.165,
+        "volume_24h": 583.37,
+        "score": 167.77,
+        "url": "https://polymarket.com/event/will-ewy-reach-202-by-june-29-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will South Korea ETF (EWY) hit (HIGH) $202 Week of June 29 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will South Korea ETF (EWY) hit (HIGH) $202 Week of June 29 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "World shares are mixed as tech stocks in Japan and South Korea extend losses - The Sun Chronicle",
+          "url": "https://www.thesunchronicle.com/business/world-shares-are-mixed-as-tech-stocks-in-japan-and-south-korea-extend-losses/article_955856da-17f0-58d5-998c-cbc159807787.html"
+        },
+        {
+          "title": "Asian shares are mixed as tech stocks fall in Japan and South Korea - AP News",
+          "url": "https://apnews.com/article/stocks-markets-ai-chips-oil-iran-war-8e1287dac3ff8f27ff280beb9a9c06b0"
+        },
+        {
+          "title": "World shares are mixed as tech stocks in Japan and South Korea extend losses - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/06/29/stocks-markets-ai-chips-oil-iran-war/1507dc72-7379-11f1-b665-5f8be87f3787_story.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2587796",
+        "question": "Will the ECB announce no change at the September 2026 meeting?",
+        "probability": 0.57,
+        "change_24h": 0.145,
+        "volume_24h": 1227.86,
+        "score": 148.09,
+        "url": "https://polymarket.com/event/will-the-ecb-announce-no-change-at-the-september-2026-meeting-20260616222656565"
+      },
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "ECB Hold Odds Jump on Inflation Fears",
+          "summary": "The probability of the ECB announcing no change at its September 2026 meeting surged by 14.5% to 57%, primarily driven by Executive Board member Isabel Schnabel's warning of higher inflation risks. This suggests market expectations for a 'higher for longer' rate environment.",
+          "drivers": [
+            "ECB's Schnabel warns of higher inflation risks.",
+            "BIS flags debt and AI risks, lifting Fed hold odds.",
+            "Minneapolis Fed's Kashkari expects a rate hike this year."
+          ],
+          "why_matters": "This movement reflects evolving expectations for Eurozone monetary policy, impacting borrowing costs, investment decisions, and economic growth prospects for years to come.",
+          "bull_case": "Persistent inflation or resilient Eurozone growth will compel the ECB to maintain current rates through September 2026.",
+          "bear_case": "A significant economic downturn or recession in the Eurozone would force the ECB to cut rates before September 2026."
+        },
+        "zh": {
+          "title": "欧央行按兵不动概率飙升",
+          "summary": "欧洲央行在2026年9月会议上维持利率不变的概率跃升14.5%至57%，主要受执行委员会成员施纳贝尔对通胀风险上升的警告推动。这表明市场预期利率将“更高更久”。",
+          "drivers": [
+            "欧央行施纳贝尔警告通胀风险上升。",
+            "国际清算银行警示债务和AI风险。",
+            "明尼阿波利斯联储行长预计今年加息。"
+          ],
+          "why_matters": "这一变化反映了欧元区货币政策预期的演变，将影响未来几年的借贷成本、投资决策和经济增长前景。",
+          "bull_case": "持续的通胀压力或欧元区经济韧性将促使欧洲央行在2026年9月前维持现有利率不变。",
+          "bear_case": "欧元区经济出现显著衰退或下行，将迫使欧洲央行在2026年9月前降息。"
+        }
+      },
+      "news": [
+        {
+          "title": "BIS flags debt and AI risks as Polymarket lifts July Fed hold odds to 81.5% - blockchain.news",
+          "url": "https://blockchain.news/news/bis-flags-debt-and-ai-risks-as-polymarket-lifts-july-fed-hold-odds-to-815-0hnmkvoojtg80"
+        },
+        {
+          "title": "Fed will not raise rates this year, says EY-Parthenon's Greg Daco - CNBC",
+          "url": "https://www.cnbc.com/video/2026/06/26/fed-will-not-raise-rates-this-year-says-ey-parthenons-greg-daco.html"
+        },
+        {
+          "title": "ECB's Schnabel warns of higher inflation risks - Forex Factory",
+          "url": "https://www.forexfactory.com/news/1406052-ecbs-schnabel-warns-of-higher-inflation-risks"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2668005",
+        "question": "Will Iran Reconstruction Funding be in a US-Iran deal in 2026?",
+        "probability": 0.355,
+        "change_24h": -0.14,
+        "volume_24h": 24416.58,
+        "score": 144.39,
+        "url": "https://polymarket.com/event/will-iran-reconstruction-funding-be-in-a-us-iran-deal-in-2026-20260623023201638"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will Iran Reconstruction Funding be in a US-Iran deal in 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Iran Reconstruction Funding be in a US-Iran deal in 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Katz warns force vs Iran as Polymarket puts Dec 2026 US-Iran deal at 43.5% - blockchain.news",
+          "url": "https://blockchain.news/news/katz-warns-force-vs-iran-as-polymarket-puts-dec-2026-us-iran-deal-at-435-0hnmkh39o4rg0"
+        },
+        {
+          "title": "JD Vance tells Bill Maher how ‘America wins’ with or without Iran deal - New York Post",
+          "url": "https://nypost.com/2026/06/27/us-news/jd-vance-tells-bill-maher-how-america-wins-with-or-without-iran-deal/?utm_campaign=nypost&utm_medium=referral"
+        },
+        {
+          "title": "Deal with Trump hands Iran economic lifeline as leaders eye postwar gains - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/06/27/deal-with-trump-hands-iran-economic-lifeline-leaders-eye-postwar-gains/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2682656",
+        "question": "Will ITG's market cap be between $2.7B and $3.3B at market close on IPO day?",
+        "probability": 0.435,
+        "change_24h": 0.14,
+        "volume_24h": 2394.96,
+        "score": 143.38,
+        "url": "https://polymarket.com/event/will-itgs-market-cap-be-between-2pt7b-and-3pt3b-at-market-close-on-ipo-day-20260625034204479"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will ITG's market cap be between $2.7B and $3.3B at market close on IP",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will ITG's market cap be between $2.7B and $3.3B at market close on IP",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "SpaceX completes largest IPO ever, raises $86B, boosts Robinhood activity - Crypto Briefing",
+          "url": "https://cryptobriefing.com/spacex-completes-largest-ipo-ever-raises-86b-boosts-robinhood-activity/"
+        },
+        {
+          "title": "Market Open: June 26, 2026 - CNBC",
+          "url": "https://www.cnbc.com/video/2026/06/26/market-open-june-26-2026.html"
+        },
+        {
+          "title": "The AI IPO Wave Is Here And It Is Only Just Getting Started - Beehiiv",
+          "url": "https://joeychoy.beehiiv.com/p/the-ai-ipo-wave-is-here-and-it-is-only-just-getting-started"
         }
       ]
     },
@@ -1330,37 +1386,37 @@
       "market": {
         "id": "2668341",
         "question": "United Airlines (UAL) Q2 total revenue per available seat mile 19¢-19.5¢?",
-        "probability": 0.415,
-        "change_24h": -0.07,
-        "volume_24h": 4544.32,
-        "score": 73.66,
+        "probability": 0.495,
+        "change_24h": 0.125,
+        "volume_24h": 4229.9,
+        "score": 128.63,
         "url": "https://polymarket.com/event/united-airlines-ual-q2-total-revenue-per-available-seat-mile-19-19pt5-20260618190912701"
       },
       "insight": {
         "category": "business",
         "en": {
-          "title": "UAL Q2 TRASM Range Probability Drops",
-          "summary": "The probability for United Airlines' Q2 TRASM to be between 19¢-19.5¢ decreased by 7% to 42%. This shift indicates the market now anticipates UAL's TRASM will likely exceed 19.5¢, driven by robust international travel demand and confidence in its premium strategy.",
+          "title": "UAL RASM Outlook Boosted",
+          "summary": "The probability for United Airlines' Q2 RASM to hit 19¢-19.5¢ increased by 12.5% to 50%, driven by expectations of strong pricing power. Airlines are cutting capacity while demand remains high, leading to higher fares, as reported by Skift.",
           "drivers": [
-            "Surging international travel demand (e.g., Japan Airlines).",
-            "UAL's luxury seat investment signals premium strategy.",
-            "Positive UAL stock reaction (+1.12%) to news."
+            "Airlines cutting capacity to maintain pricing.",
+            "Strong travel demand leading to higher fares.",
+            "Anticipated busy July 4 season implies Q2 strength."
           ],
-          "why_matters": "UAL's TRASM is a key metric for airline revenue efficiency and profitability. A higher-than-expected TRASM indicates strong pricing power and demand, positively impacting investor sentiment.",
-          "bull_case": "Strong international travel demand and UAL's premium offerings are expected to drive Q2 TRASM above 19.5¢.",
-          "bear_case": "Delays in fully monetizing new luxury seats or unexpected operational challenges could prevent TRASM from exceeding 19.5¢."
+          "why_matters": "This indicates airlines' ability to manage capacity and pricing effectively, crucial for profitability in a high-demand, potentially high-cost environment.",
+          "bull_case": "Industry-wide capacity cuts and robust travel demand will enable UAL to achieve higher fares and maximize revenue per available seat mile.",
+          "bear_case": "Unexpected operational disruptions or a sudden drop in demand could undermine pricing power and lead to lower RASM."
         },
         "zh": {
-          "title": "联航Q2 TRASM区间概率下降",
-          "summary": "联合航空Q2每可用座位英里总收入(TRASM)落在19美分-19.5美分区间的概率下降7%至42%。这一变动表明市场现在预计联航的TRASM可能超过19.5美分，主要受强劲的国际旅行需求和对其高端战略的信心驱动。",
+          "title": "联航RASM前景看好",
+          "summary": "联合航空Q2每可用座位英里收入达到19-19.5美分的可能性上升12.5%至50%，主要受强劲定价能力预期的推动。据Skift报道，航空公司在需求旺盛时削减运力，从而推高票价。",
           "drivers": [
-            "国际旅行需求激增（如日本航空）。",
-            "联航豪华座椅投资预示高端策略。",
-            "联航股价对新闻积极反应（+1.12%）。"
+            "航空公司削减运力以维持定价。",
+            "强劲旅行需求推高票价。",
+            "预计7月4日旺季预示Q2强劲表现。"
           ],
-          "why_matters": "联航的TRASM是衡量航空公司收入效率和盈利能力的关键指标。高于预期的TRASM表明强劲的定价能力和需求，对投资者情绪产生积极影响。",
-          "bull_case": "强劲的国际旅行需求和联航的高端产品预计将推动Q2 TRASM超过19.5美分。",
-          "bear_case": "新豪华座椅变现延迟或意外运营挑战可能阻止TRASM超过19.5美分。"
+          "why_matters": "这表明航空公司在需求旺盛、成本可能较高的情况下，有效管理运力和定价的能力至关重要。",
+          "bull_case": "行业运力削减和强劲需求将助联航提高票价，最大化RASM。",
+          "bear_case": "意外运营中断或需求骤降可能削弱定价能力，导致RASM降低。"
         }
       },
       "news": [
@@ -1369,12 +1425,56 @@
           "url": "https://www.moomoo.com/hant/news/post/72141019/airlines-are-installing-new-luxury-seats-but-no-one-is"
         },
         {
-          "title": "Magnitude 5.4 earthquake strikes Pakistan, EMSC says - TradingView",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42Y13L:0-magnitude-5-4-earthquake-strikes-pakistan-emsc-says/"
-        },
-        {
           "title": "Major airline announces daily flights from California to Japan amid surging demand - New York Post",
           "url": "https://nypost.com/2026/06/27/us-news/major-airline-announces-daily-flights-from-california-to-japan-amid-surging-demand/"
+        },
+        {
+          "title": "Hear it: Newark-bound United pilot declares, “We almost hit a drone” - NBC New York",
+          "url": "https://www.nbcnewyork.com/news/local/hear-it-newark-bound-united-pilot-declares-we-almost-hit-a-drone/6518786/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2270168",
+        "question": "Will Alphabet be the second-largest company in the world by market cap on June 30?",
+        "probability": 0.41,
+        "change_24h": 0.12,
+        "volume_24h": 5654.41,
+        "score": 123.75,
+        "url": "https://polymarket.com/event/will-alphabet-be-the-second-largest-company-in-the-world-by-market-cap-on-june-30-883"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Alphabet be the second-largest company in the world by market cap",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Alphabet be the second-largest company in the world by market cap",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Alphabet stock is finally joining the Dow. What took so long? - Business Insider",
+          "url": "https://www.businessinsider.com/alphabet-stock-joining-dow-jones-industrial-average-what-it-means-2026-6"
+        },
+        {
+          "title": "Comcast, Alphabet, Palantir, SpaceX, Microsoft, and More Stocks That Explain Today’s Market - Barron's",
+          "url": "https://www.barrons.com/articles/stock-movers-bb996027"
+        },
+        {
+          "title": "AI stock slump raises the question if investors are just taking profits or getting very nervous - Los Angeles Times",
+          "url": "https://www.latimes.com/business/story/2026-06-26/ai-stock-slump-raises-question-if-investors-are-just-taking-profits-or-getting-very-nervous"
         }
       ]
     },
@@ -1384,35 +1484,35 @@
         "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the July decision?",
         "probability": 0.92,
         "change_24h": 0.015,
-        "volume_24h": 2155.22,
-        "score": 18.33,
+        "volume_24h": 2080.64,
+        "score": 18.32,
         "url": "https://polymarket.com/event/will-the-bank-of-israel-decrease-the-bank-of-israel-interest-rate-after-the-july-decision"
       },
       "insight": {
         "category": "economy",
         "en": {
-          "title": "BOI Rate Cut Odds Rise on Global Dovish Shift",
-          "summary": "The probability of the Bank of Israel decreasing its interest rate in July surged to 92%, driven by growing global sentiment that the high-rate cycle is peaking. This shift is influenced by signals from the IMF and a Reuters poll suggesting the US Fed will hold rates.",
+          "title": "Israel Rate Cut Odds Soar",
+          "summary": "The probability of the Bank of Israel decreasing its interest rate in July surged to 92%, driven by global signals of easing monetary policy and reduced inflationary pressures. Comments from the IMF chief economist supporting Fed rate guidance reduction and the cooling of oil shock due to Hormuz reopening fueled this movement.",
           "drivers": [
-            "Perception of global high-rate cycle peaking (KITCO)",
-            "IMF chief economist's dovish Fed guidance comments",
-            "US Fed expected to hold rates, not hike (Reuters poll)"
+            "IMF chief economist's dovish Fed guidance remarks.",
+            "Hormuz reopening cools global oil prices.",
+            "Arguments for Fed cuts citing weakening payrolls."
           ],
-          "why_matters": "This reflects central banks' increasing autonomy to address domestic economic conditions as global monetary tightening pressures ease. It signals potential relief for borrowers and businesses in Israel.",
-          "bull_case": "Global easing trends and reduced Fed pressure allow BOI to prioritize domestic economic support via a rate cut.",
-          "bear_case": "Persistent domestic inflation or geopolitical risks could force BOI to maintain current rates despite global trends."
+          "why_matters": "A Bank of Israel rate cut would impact borrowing costs, inflation, and the shekel's value, influencing Israel's economic stability and growth prospects amidst global shifts.",
+          "bull_case": "Strong global disinflationary signals and expert support for easing policies increase the likelihood of the Bank of Israel cutting rates.",
+          "bear_case": "If the Federal Reserve holds rates in July and global economic data strengthens unexpectedly, the Bank of Israel might delay its rate cut."
         },
         "zh": {
-          "title": "以色列央行降息预期升温",
-          "summary": "以色列央行7月降息概率升至92%，主要受全球高利率周期见顶的普遍预期推动。国际货币基金组织和路透社民调显示美联储将维持利率不变，进一步强化了这一趋势。",
+          "title": "以色列降息概率飙升",
+          "summary": "以色列央行7月降息的概率升至92%，主要受全球货币政策宽松信号和通胀压力减缓的推动。国际货币基金组织首席经济学家支持美联储降低利率指引的言论以及霍尔木兹海峡重开缓解油价冲击，共同促成了这一走势。",
           "drivers": [
-            "全球高利率周期见顶预期增强 (KITCO)",
-            "IMF首席经济学家暗示美联储鸽派指引",
-            "美联储预计将维持利率不变 (路透社民调)"
+            "IMF首席经济学家支持美联储降息指引。",
+            "霍尔木兹海峡重开缓解全球油价冲击。",
+            "美联储降息理由提及就业疲软。"
           ],
-          "why_matters": "这表明随着全球货币紧缩压力减缓，各国央行在应对国内经济状况方面拥有更大自主权。对以色列的借款人和企业来说，这预示着潜在的缓解。",
-          "bull_case": "全球宽松趋势和美联储压力减小，使以色列央行能优先通过降息支持国内经济。",
-          "bear_case": "以色列国内通胀持续或地缘政治风险可能迫使央行维持现有利率。"
+          "why_matters": "以色列央行降息将影响借贷成本、通胀和谢克尔汇率，在全球经济变动中影响以色列的经济稳定和增长前景。",
+          "bull_case": "强劲的全球通胀下行信号和专家对宽松政策的支持，增加了以色列央行降息的可能性。",
+          "bear_case": "若美联储7月维持利率不变且全球经济数据意外走强，以色列央行可能会推迟降息。"
         }
       },
       "news": [
@@ -1425,12 +1525,12 @@
           "url": "https://www.forexfactory.com/news/1405991-imf-chief-economist-says-fed-reduction-in-rate"
         },
         {
-          "title": "Fed to hold rates this year, economists say, defying market bets for hikes: Reuters poll - Reuters",
-          "url": "https://www.reuters.com/business/fed-hold-rates-this-year-economists-say-defying-market-bets-hikes-2026-06-26/"
+          "title": "IMF chief economist says Fed reduction in rate guidance is 'entirely appropriate' - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-06-26/imf-chief-economist-says-fed-reduction-rate-guidance-entirely"
         }
       ]
     }
   ],
-  "twitter_thread": "🔮 PolyLens Battle Cards — Jun 29, 2026 07:08 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 ₿ Bitcoin Up or Down - June 29, 12AM ET\n\n✅ YES — 2%  ▼-48.6%\n\"A strong technical bounce from oversold levels or unexpected institutional buying could re…\"\n\n❌ NO — 98%\n\"Continued Grayscale sales and miner capitulation will likely drive Bitcoin prices further …\"\n\n🤖 Strong NO conv\n\n---\n\n🥊 🗳️ Will Lebanon recognize Israel by June 30?\n\n✅ YES — 15%  ▼-43.0%\n\"The framework agreement could unexpectedly accelerate future diplomatic talks, laying grou…\"\n\n❌ NO — 85%\n\"The agreement's limited scope and Hezbollah disarmament requirement make recognition by Ju…\"\n\n🤖 Strong N\n\n---\n\n🥊 🔥 WTI Crude Oil (WTI) Up or Down on June 29?\n\n✅ YES — 42%  ▼-36.5%\n\n❌ NO — 58%\n\n🤖 NO momentum: Strong 📉\n📊 hika.fyi  [4/6]\n\n---\n\n🥊 ₿ Will Microstrategy announce a Bitcoin purchase June 23-29?\n\n✅ YES — 6%  ▼-26.5%\n\n❌ NO — 94%\n\n🤖 Strong NO conviction 🔴\n📊 hika.fyi  [5/6]\n\n---\n\n🥊 🌍 Will Lebanon recognize Israel by December 31?\n\n✅ YES — 40%  ▼-26.5%\n\n❌ NO — 60%\n\n🤖 NO momentum: Strong 📉\n📊 hika.fyi  [6/6]\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
-  "reddit_post": "**PolyLens Daily Digest — Jun 29, 2026 07:08 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. ₿ Bitcoin Probability Plummets Amid Sell-Off\n\n**2% YES** | **-48.6%** (24h) | Vol: $11,470\n\nThe probability of Bitcoin being up by June 29th, 12 AM ET, plummeted to 2% from 50.6% in 24 hours. This sharp decline was primarily driven by Grayscale's reported plan to sell $3 billion in Bitcoin to meet cash obligations.\n\n**Key Drivers:**\n- Grayscale's reported $3B Bitcoin sell-off\n- Bitcoin falling below $60,000 and $59,000\n- Bitdeer selling all 253.9 BTC mined\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-june-29-2026-12am-et)*\n\n---\n\n## 2. 🌍 Lebanon-Israel Recognition Hopes Dim\n\n**15% YES** | **-43.0%** (24h) | Vol: $367,770\n\nThe probability of Lebanon recognizing Israel by June 30 plummeted following the signing of a limited framework agreement. This deal primarily addresses minor IDF withdrawal and border issues, not diplomatic recognition.\n\n**Key Drivers:**\n- Framework agreement limited to minor IDF withdrawal and border issues.\n- Deal reportedly requires Hezbollah disarmament, a major political hurdle.\n- Recent talks and agreement did not include diplomatic recognition.\n\n*[View on Polymarket](https://polymarket.com/event/will-lebanon-recognize-israel-by-june-30)*\n\n---\n\n## 3. 🔥 WTI Crude Oil (WTI) Up or Down on June 29?\n\n**42% YES** | **-36.5%** (24h) | Vol: $12,082\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/wti-up-or-down-on-june-29-2026)*\n\n---\n\n## 4. ₿ Will Microstrategy announce a Bitcoin purchase June 23-29?\n\n**6% YES** | **-26.5%** (24h) | Vol: $183,383\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-microstrategy-announce-a-bitcoin-purchase-june-23-29)*\n\n---\n\n## 5. 🌍 Will Lebanon recognize Israel by December 31?\n\n**40% YES** | **-26.5%** (24h) | Vol: $12,466\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-lebanon-recognize-israel-by-december-31)*\n\n---\n\n## 6. 📊 Will S&P 500 (SPY) hit (HIGH) $735 Week of June 29 2026?\n\n**90% YES** | **+26.5%** (24h) | Vol: $1,930\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-spy-reach-735-by-june-29-2026)*\n\n---\n\n## 7. 🔥 SPY (SPY) Up or Down on June 29?\n\n**72% YES** | **+24.0%** (24h) | Vol: $16,474\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/spy-up-or-down-on-june-29-2026)*\n\n---\n\n## 8. 🌍 Iran-US De-escalation Shifts Rial Outlook\n\n**40% YES** | **-24.0%** (24h) | Vol: $3,255\n\nThe probability of USD being between 1.6M and 1.7M Iranian rials by June 30 has fallen to 40% from 64%. This significant drop is primarily driven by recent reports of a halt in US-Iran attacks and a decrease in Polymarket's regime-fall odds, suggesting a potential de-escalation and less severe rial depreciation than previously anticipated.\n\n**Key Drivers:**\n- US-Iran halt renewed attacks (Reuters)\n- Polymarket regime-fall odds down to 5%\n- Reduced immediate geopolitical risk for Iran\n\n*[View on Polymarket](https://polymarket.com/event/will-usd-be-between-1pt6m-and-1pt7m-iranian-rials-on-june-30)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+  "twitter_thread": "🔮 PolyLens Battle Cards — Jun 29, 2026 13:54 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 🗳️ Will the median home value in New York City be greater than $620,000 on …\n\n✅ YES — 85%  ▲+60.0%\n\"Mayor Mamdani's rent freeze makes NYC more attractive, retaining residents and boosting lo…\"\n\n❌ NO — 15%\n\"The rent freeze could deter real estate investors, potentially depressin\n\n---\n\n🥊 🗳️ Will the next diplomatic US-Iran meeting be in Qatar by September 30, 20…\n\n✅ YES — 72%  ▲+56.5%\n\"Multiple credible reports confirm US-Iran talks are agreed and scheduled in Qatar, making …\"\n\n❌ NO — 28%\n\"Geopolitical tensions or last-minute disagreements could still derail th\n\n---\n\n🥊 🗳️ S&P 500 (SPX) Opens Up or Down on June 29?\n\n✅ YES — 98%  ▲+50.0%\n\"Easing US-Iran tensions and strong futures indicate a positive market open.\"\n\n❌ NO — 2%\n\"Underlying economic concerns, as noted by Reuters, could cap gains.\"\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [4/6]\n\n---\n\n🥊 🗳️ WTI Crude Oil (WTI) closes above $72 on June 29?\n\n✅ YES — 6%  ▼-46.0%\n\"Renewed geopolitical tensions or unexpected supply disruptions could quickly push WTI back…\"\n\n❌ NO — 94%\n\"Continued recovery of Middle East oil flows and easing tensions will keep WTI below $72.\"\n\n🤖 Stron\n\n---\n\n🥊 ₿ Solana Up or Down on June 29?\n\n✅ YES — 94%  ▲+44.5%\n\"Positive broader market trends, fueled by rising Nasdaq futures and easing geopolitical te…\"\n\n❌ NO — 6%\n\"The absence of direct Solana-specific positive news in the provided headlines suggests the…\"\n\n🤖 YES conviction: Strong\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
+  "reddit_post": "**PolyLens Daily Digest — Jun 29, 2026 13:54 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🔥 NYC Home Values Surge on Rent Freeze\n\n**85% YES** | **+60.0%** (24h) | Vol: $1,312\n\nThe probability of NYC median home values exceeding $620,000 by June 30 surged by 60% to 85% following Mayor Zohran Mamdani's official approval of a rent freeze. This policy is seen as stabilizing the city's housing market, indirectly boosting demand for homeownership.\n\n**Key Drivers:**\n- Mayor Mamdani's official rent freeze approval\n- Perception of increased NYC housing market stability\n- Potential shift from renting to homeownership demand\n\n*[View on Polymarket](https://polymarket.com/event/will-the-median-home-value-in-new-york-city-be-greater-than-620000-on-june-30-20260602003359167)*\n\n---\n\n## 2. 🌍 US-Iran Talks Imminent in Qatar\n\n**72% YES** | **+56.5%** (24h) | Vol: $147,313\n\nThe probability surged to 72% after multiple credible reports confirmed Qatar will host the next round of US-Iran diplomatic talks. News outlets like The Jerusalem Post and The Times of Israel specifically cited agreements for talks on frozen funds and Hormuz Strait issues.\n\n**Key Drivers:**\n- Reports confirm Doha to host US-Iran talks.\n- US-Iran agree to halt Hormuz attacks.\n- Talks scheduled for Tuesday in Qatar.\n\n*[View on Polymarket](https://polymarket.com/event/will-the-next-diplomatic-us-iran-meeting-be-in-qatar-by-september-30-2026-20260622185050767)*\n\n---\n\n## 3. 📊 S&P 500 Futures Soar on Geopolitical Calm\n\n**98% YES** | **+50.0%** (24h) | Vol: $26,002\n\nThe probability of the S&P 500 opening up on June 29 surged to 98% due to strong gains in US stock index futures. This rise was primarily driven by reports of easing Middle East tensions, with the US and Iran reportedly halting attacks.\n\n**Key Drivers:**\n- US stock index futures rose significantly on June 29.\n- US and Iran reportedly halted attacks, easing Mideast tensions.\n- Tech sector sell-off showed signs of easing.\n\n*[View on Polymarket](https://polymarket.com/event/spx-opens-up-or-down-on-june-29-2026)*\n\n---\n\n## 4. 🔥 Oil Premium Fades, WTI Dips Below $72\n\n**6% YES** | **-46.0%** (24h) | Vol: $3,136\n\nThe probability of WTI closing above $72 on June 29 plummeted to 6% as crude prices fell significantly. This drop was primarily driven by the Brent crude market erasing its Iran war premium and signs of recovery in Strait of Hormuz oil flows.\n\n**Key Drivers:**\n- Brent crude erasing Iran war premium\n- Strait of Hormuz oil flows showing recovery\n- WTI crude prices falling below $70\n\n*[View on Polymarket](https://polymarket.com/event/wti-closes-above-72-on-june-29-2026)*\n\n---\n\n## 5. ₿ Solana's June 29 Bullish Outlook\n\n**94% YES** | **+44.5%** (24h) | Vol: $21,290\n\nThe probability of Solana being up on June 29 surged to 94% with a +44.5% change, indicating strong market confidence. This movement is likely influenced by a generally positive broader market sentiment, as evidenced by rising Nasdaq futures, rather than direct crypto-specific news from the provided headlines.\n\n**Key Drivers:**\n- Rising Nasdaq futures on June 29.\n- Easing Middle East tensions boosting risk appetite.\n- General positive market environment for June 29.\n\n*[View on Polymarket](https://polymarket.com/event/solana-up-or-down-on-june-29-2026)*\n\n---\n\n## 6. 🌍 US-Iran Meeting Probability Surges\n\n**60% YES** | **+42.5%** (24h) | Vol: $350,443\n\nThe probability of a US-Iran diplomatic meeting by July 2026 jumped to 60% following reports of an \"interim peace agreement\" brokered by mediators. This breakthrough signals a significant shift towards de-escalation despite ongoing regional challenges.\n\n**Key Drivers:**\n- \"Interim peace agreement\" brokered between US and Iran\n- Mediators navigated \"threats and strikes\" to secure the deal\n- Agreement signals renewed commitment to diplomatic solutions\n\n*[View on Polymarket](https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359)*\n\n---\n\n## 7. ₿ Bitcoin Rebound Bets Surge\n\n**92% YES** | **+41.4%** (24h) | Vol: $38,135\n\nDespite recent bearish headlines showing Bitcoin falling below $60,000 and testing $59,000, the prediction market for Bitcoin being 'Up' by June 29, 8 AM ET, surged by 41.4% to 92%, indicating strong anticipation of a significant rebound.\n\n**Key Drivers:**\n- Bitcoin testing strong support at $59,000-$60,000, signaling potential rebound\n- Market anticipates absorption of Grayscale's $3B Bitcoin selling pressure\n- Extreme bearish headlines interpreted as contrarian 'buy the dip' opportunity\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-june-29-2026-8am-et)*\n\n---\n\n## 8. 🔥 AAPL Low $272 Probability Surges\n\n**53% YES** | **+39.5%** (24h) | Vol: $993\n\nThe probability of Apple (AAPL) hitting a low of $272 in June surged by 39.5% to 53% as broader tech sector weakness emerged. This was primarily driven by 'AI jitters' and a report of an OpenAI IPO delay rattling chip stocks.\n\n**Key Drivers:**\n- Nasdaq snapped 2-week win streak, pressuring tech stocks\n- AI jitters caused broad tech sector weakness\n- OpenAI IPO delay report rattled chip stocks\n\n*[View on Polymarket](https://polymarket.com/event/will-aapl-dip-to-272-in-june-2026)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
 }
