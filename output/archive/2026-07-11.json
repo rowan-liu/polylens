@@ -1,198 +1,94 @@
 {
-  "generated_at": "2026-07-11T10:27:08.589872+00:00",
-  "generated_at_readable": "Jul 11, 2026 10:27 UTC",
+  "generated_at": "2026-07-11T19:35:03.496764+00:00",
+  "generated_at_readable": "Jul 11, 2026 19:35 UTC",
   "topics": [
     {
       "market": {
-        "id": "2674205",
-        "question": "Trump signs housing bill by end of July?",
-        "probability": 0.0185,
-        "change_24h": -0.4415,
-        "volume_24h": 37251.62,
-        "score": 446.07,
-        "url": "https://polymarket.com/event/trump-signs-housing-bill-by-end-of-july-20260624145217694"
-      },
-      "insight": {
-        "category": "politics",
-        "en": {
-          "title": "Trump Refuses Housing Bill Signature",
-          "summary": "The probability of Trump signing the housing bill by end of July plummeted to 2% after he explicitly stated he would not sign it. Multiple reports confirm the bill will become law automatically without his signature.",
-          "drivers": [
-            "Trump explicitly stated he won't sign the bill.",
-            "Housing bill automatically becomes law without signature.",
-            "No presidential veto was mentioned, ensuring automatic passage."
-          ],
-          "why_matters": "This event highlights the legislative process where bills can become law without presidential approval. It also reflects potential political posturing ahead of elections.",
-          "bull_case": "Trump could still symbolically sign the bill if political calculus shifts, despite earlier refusal.",
-          "bear_case": "Trump has explicitly refused, and the bill will become law automatically, negating any need for his signature."
-        },
-        "zh": {
-          "title": "特朗普拒签住房法案",
-          "summary": "特朗普明确表示不会签署住房法案后，他将在7月底前签署该法案的可能性暴跌至2%。多方报道证实，该法案将自动生效，无需总统签署。",
-          "drivers": [
-            "特朗普明确表示拒绝签署法案。",
-            "住房法案将自动生效无需总统签署。",
-            "未提及否决，确保法案自动通过。"
-          ],
-          "why_matters": "此事件凸显了法案无需总统批准即可生效的立法程序。也反映了选举前的潜在政治姿态。",
-          "bull_case": "若政治考量改变，特朗普仍可能象征性签署法案。",
-          "bear_case": "特朗普已明确拒绝，且法案将自动生效，无需其签署。"
-        }
-      },
-      "news": [
-        {
-          "title": "Trump says he won’t sign housing bill that’s set to become law at midnight - CNN",
-          "url": "https://www.cnn.com/2026/07/10/politics/trump-housing-bill"
-        },
-        {
-          "title": "The Bipartisan Housing Bill Is Set to Become Law, Despite Trump’s Refusal to Sign It - Time Magazine",
-          "url": "https://time.com/article/2026/07/10/housing-bill-trump/"
-        },
-        {
-          "title": "Trump says he won't sign housing bill — but doesn't mention veto - Axios",
-          "url": "https://www.axios.com/2026/07/10/trump-housing-bill-affordability"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2668334",
-        "question": "United Airlines (UAL) Q2 consolidated passenger load factor 83%-84%?",
-        "probability": 0.055,
-        "change_24h": -0.435,
-        "volume_24h": 6604.73,
-        "score": 438.82,
-        "url": "https://polymarket.com/event/united-airlines-ual-q2-consolidated-passenger-load-factor-83-84-20260618193153260"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "UAL Load Factor Range Probability Plunges",
-          "summary": "The probability for United Airlines' Q2 load factor to be 83-84% dropped sharply by 43.5% to 6%, driven by strong demand signals from competitor Delta Air Lines. Delta's Q2 earnings topped estimates, with management citing sustainable revenue momentum and holding fare increases.",
-          "drivers": [
-            "Delta's strong Q2 earnings and sustainable revenue momentum.",
-            "Jet2's 'strong summer bookings' indicating robust travel demand.",
-            "Market expects UAL's load factor to exceed 84% due to strong demand."
-          ],
-          "why_matters": "UAL's load factor is a key metric for operational efficiency and revenue generation, reflecting demand and capacity management in a competitive environment.",
-          "bull_case": "New data indicating moderate demand or specific UAL capacity adjustments could push the load factor into the 83-84% range.",
-          "bear_case": "Continued strong industry demand will likely drive UAL's load factor above 84%, making the target range less probable."
-        },
-        "zh": {
-          "title": "联航客座率区间概率暴跌",
-          "summary": "联合航空Q2客座率在83-84%区间的概率暴跌43.5%至6%，主要受竞争对手达美航空强劲需求信号驱动。达美航空Q2盈利超预期，管理层称营收势头可持续且票价上涨得以维持。",
-          "drivers": [
-            "达美航空Q2强劲盈利及可持续营收势头。",
-            "Jet2“夏季预订强劲”显示旅游需求旺盛。",
-            "市场预期联航客座率因需求强劲将超84%。"
-          ],
-          "why_matters": "联航客座率是衡量运营效率和营收的关键指标，反映竞争环境下的需求和运力管理。",
-          "bull_case": "新数据显示需求温和或联航运力调整，可能使客座率落入83-84%区间。",
-          "bear_case": "行业需求持续强劲可能推动联航客座率超过84%，使目标区间概率降低。"
-        }
-      },
-      "news": [
-        {
-          "title": "Jet2 points to ‘strong’ summer bookings as full-year operating profit dips 2% - FlightGlobal",
-          "url": "https://www.flightglobal.com/archive/2026/07/jet2-points-to-strong-summer-bookings-as-full-year-operating-profit-dips-2/"
-        },
-        {
-          "title": "Most valuable state brands include United Airlines in Idaho - Idaho Business Review",
-          "url": "https://idahobusinessreview.com/2026/07/10/united-airlines-most-valuable-brand-idaho/"
-        },
-        {
-          "title": "Delta Q2 earnings top estimates, reinstates full-year guidance as fuel prices bite - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/delta-q2-earnings-top-estimates-reinstates-full-year-guidance-as-fuel-prices-bite-175815467.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2677637",
-        "question": "Will NVIDIA (NVDA) hit (HIGH) $208 in July?",
-        "probability": 1.0,
-        "change_24h": 0.3245,
-        "volume_24h": 19352.45,
-        "score": 328.79,
-        "url": "https://polymarket.com/event/will-nvda-reach-208-in-july-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "NVDA $208 July: Market Certainty",
-          "summary": "The probability of NVIDIA hitting $208 in July surged to 100% following headlines highlighting its cheapest valuation since the pre-AI boom. This suggests investors anticipate a strong rebound after a recent \"trillion-dollar wipeout.\"",
-          "drivers": [
-            "Nvidia's cheapest valuation since pre-AI boom.",
-            "Anticipation of bullish action post-$1T wipeout.",
-            "Market confidence in quick rebound to $208."
-          ],
-          "why_matters": "NVIDIA's performance is a key indicator for the broader AI and tech sectors, influencing investor confidence and market trends.",
-          "bull_case": "Post-rout undervaluation and strong underlying AI demand make a rebound to $208 highly probable within July.",
-          "bear_case": "The recent \"trillion-dollar rout\" could extend, or broader market headwinds might prevent a quick recovery to $208."
-        },
-        "zh": {
-          "title": "英伟达七月触及208美元：市场确定",
-          "summary": "英伟达七月触及208美元的概率飙升至100%，此前有报道称其估值已跌至AI繁荣前最低。这表明投资者预计在近期“万亿美元市值蒸发”后股价将强劲反弹。",
-          "drivers": [
-            "英伟达估值跌至AI繁荣前最低。",
-            "预期万亿美元市值蒸发后将反弹。",
-            "市场对股价迅速回升至208美元有信心。"
-          ],
-          "why_matters": "英伟达的股价表现是AI和科技行业的关键指标，影响投资者信心和市场趋势。",
-          "bull_case": "暴跌后的低估值和强劲的AI需求，使股价在七月反弹至208美元的可能性极高。",
-          "bear_case": "近期“万亿美元市值蒸发”可能持续，或大盘逆风阻碍股价迅速回升至208美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Nvidia trades at its cheapest valuation since pre‑AI boom (NVDA:NASDAQ) - Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4612200-nvidia-trades-at-its-cheapest-valuation-since-preai-boom"
-        },
-        {
-          "title": "Nvidia's nearly $1 trillion wipeout could prompt this bullish action - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/nvidias-nearly-1-trillion-wipeout-could-prompt-this-bullish-action-122707475.html"
-        },
-        {
-          "title": "A Duke Professor Says China Could Disable Self-Driving Cars Across America. Nvidia Is Using the Sensors Anyway. - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/10/a-duke-professor-says-china-could-disable-self-driving-cars-across-america-nvidia-is-using-the-sensors-anyway/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2860447",
-        "question": "Ethereum Up or Down on July 11?",
-        "probability": 0.815,
-        "change_24h": 0.32,
-        "volume_24h": 28861.83,
-        "score": 324.46,
-        "url": "https://polymarket.com/event/ethereum-up-or-down-on-july-11-2026"
+        "id": "2860474",
+        "question": "Solana Up or Down - July 11, 12PM ET",
+        "probability": 0.0005,
+        "change_24h": -0.5045,
+        "volume_24h": 5850.06,
+        "score": 508.27,
+        "url": "https://polymarket.com/event/solana-up-or-down-july-11-2026-12pm-et"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Ethereum's Bullish Momentum Surges",
-          "summary": "The probability for Ethereum to be up on July 11 surged to 82% (a +32.0% 24H change) following reports of its strong performance relative to Bitcoin. KITCO highlighted \"Ethereum and Altcoin rotation strengthen\" and its \"relative strength\" even as Bitcoin experienced volatility.",
+          "title": "Solana Probability Zeroed",
+          "summary": "The probability of Solana being up by July 11, 12 PM ET dropped to 0% from 50.4%, reflecting a complete market consensus against an upward movement. This significant shift occurred despite the provided headlines being entirely unrelated to cryptocurrency.",
           "drivers": [
-            "Ethereum shows relative strength vs. Bitcoin.",
-            "Altcoin rotation strengthens, favoring ETH.",
-            "Bitcoin reclaims daily TBO Cloud."
+            "Absence of any crypto-relevant news in headlines.",
+            "Dominance of unrelated sports and lottery news.",
+            "Strong market conviction of Solana price drop."
           ],
-          "why_matters": "Ethereum's ability to show resilience and attract capital even amidst Bitcoin's fluctuations indicates a maturing market and potential for independent price action.",
-          "bull_case": "Continued altcoin rotation and Ethereum's technical strength, as noted by KITCO, will likely drive prices higher.",
-          "bear_case": "A deeper Bitcoin correction could still drag Ethereum down, despite its current relative strength."
+          "why_matters": "A 0% probability indicates extreme certainty among market participants regarding Solana's price direction, suggesting a significant underlying issue or widely anticipated negative price action not reflected in the given news.",
+          "bull_case": "No specific events in the provided headlines support a bull case for Solana.",
+          "bear_case": "Market participants are certain Solana's price will decline by July 11, 12 PM ET."
         },
         "zh": {
-          "title": "以太坊看涨势头强劲",
-          "summary": "市场预测以太坊在7月11日上涨的概率飙升至82%（24小时内上涨32.0%），主要受其相对于比特币的强劲表现报告驱动。KITCO指出，即使比特币波动，以太坊和山寨币的轮动也在加强，显示出相对强势。",
+          "title": "Solana上涨概率归零",
+          "summary": "截至美东时间7月11日中午12点，Solana上涨的概率从50.4%骤降至0%，反映市场完全不看好其上涨。尽管提供的近期新闻均与加密货币无关，但这一显著变化仍旧发生。",
           "drivers": [
-            "以太坊相对于比特币表现强劲。",
-            "山寨币资金轮动增强，利好以太坊。",
-            "比特币重回日线TBO云图上方。"
+            "头条新闻中缺乏加密货币相关信息。",
+            "新闻焦点集中在体育和彩票上。",
+            "市场强烈预期Solana价格将下跌。"
           ],
-          "why_matters": "以太坊在比特币波动中展现出的韧性和吸金能力，预示着市场日趋成熟，并可能出现独立行情。",
-          "bull_case": "山寨币资金持续轮动及以太坊技术面走强，将推动其价格进一步上涨。",
-          "bear_case": "比特币若出现深度回调，仍可能拖累以太坊，尽管其目前表现相对强势。"
+          "why_matters": "0%的概率表明市场参与者对Solana的价格走向极度确定，这可能预示着一个未在新闻中反映的重大潜在问题或普遍预期的负面价格走势。",
+          "bull_case": "现有新闻中没有支持Solana看涨的具体事件。",
+          "bear_case": "市场参与者确信Solana价格将在美东时间7月11日中午12点前下跌。"
+        }
+      },
+      "news": [
+        {
+          "title": "Follow Day 1 of the Draft right here, starting at 1 p.m. ET - MLB.com",
+          "url": "https://www.mlb.com/news/2026-mlb-draft-day-1-complete-coverage"
+        },
+        {
+          "title": "Georgia Lottery Mega Millions, Cash 3 results for July 10, 2026 - The Augusta Chronicle",
+          "url": "https://www.augustachronicle.com/story/news/local/2026/07/11/georgia-lottery-results-friday-july-10-2026/90884830007/"
+        },
+        {
+          "title": "UNC baseball stars poised for 2026 MLB draft - Tar Heels Wire",
+          "url": "https://tarheelswire.usatoday.com/story/sports/college/tarheels/baseball/2026/07/10/unc-baseball-tar-heels-poised-for-big-weekend-in-2026-mlb-draft/90883330007/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2860446",
+        "question": "Ethereum Up or Down - July 11, 12PM ET",
+        "probability": 0.9995,
+        "change_24h": 0.4945,
+        "volume_24h": 12569.64,
+        "score": 498.6,
+        "url": "https://polymarket.com/event/ethereum-up-or-down-july-11-2026-12pm-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Ethereum Up: 100% Probability Confirmed",
+          "summary": "The probability for Ethereum to be up by July 11, 12 PM ET, surged to 100% from 50.5%, driven by strong technical indicators and altcoin rotation. KITCO reports highlighted Ethereum's strengthening even as Bitcoin experienced volatility.",
+          "drivers": [
+            "KITCO: Ethereum and Altcoin rotation strengthen.",
+            "KITCO: Ethereum shows relative strength vs. Bitcoin.",
+            "Bitcoin reclaims daily TBO Cloud (positive for crypto)."
+          ],
+          "why_matters": "This indicates a strong market conviction in Ethereum's short-term price appreciation, potentially signaling a broader altcoin rally. It highlights Ethereum's decoupling from Bitcoin's immediate price movements.",
+          "bull_case": "Sustained altcoin rotation and positive technicals, as reported by KITCO, will maintain Ethereum's upward momentum.",
+          "bear_case": "A broader crypto market correction or unexpected negative news could quickly reverse Ethereum's current strength."
+        },
+        "zh": {
+          "title": "以太坊上涨：100%概率确认",
+          "summary": "截至美东时间7月11日中午12点，以太坊上涨的概率从50.5%飙升至100%，主要受强劲的技术指标和山寨币轮动驱动。KITCO报告强调，即使比特币波动，以太坊也表现出强势。",
+          "drivers": [
+            "KITCO：以太坊和山寨币轮动加强。",
+            "KITCO：以太坊对比特币显示相对强势。",
+            "比特币重回日线TBO云（利好加密市场）。"
+          ],
+          "why_matters": "这表明市场对以太坊短期价格上涨有强烈信心，可能预示着更广泛的山寨币反弹。它突显了以太坊与比特币即时价格走势的脱钩。",
+          "bull_case": "山寨币持续轮动和KITCO报告的积极技术面将维持以太坊上涨势头。",
+          "bear_case": "突发的加密市场整体回调或负面消息可能迅速逆转以太坊当前强势。"
         }
       },
       "news": [
@@ -205,853 +101,77 @@
           "url": "https://www.kitco.com/opinion/2026-07-09/bitcoin-slips-below-cloud-ethereum-and-altcoins-show-relative-strength"
         },
         {
-          "title": "Bitcoin pullback keeps July rally alive as altcoin breadth weakens - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-07-08/bitcoin-pullback-keeps-july-rally-alive-altcoin-breadth-weakens"
+          "title": "News by ACCESS Newswire on TradingView, 2026-07-11 - TradingView",
+          "url": "https://www.tradingview.com/news/reuters.com,2026-07-10:newsml_ACS3zTHGa:0/"
         }
       ]
     },
     {
       "market": {
-        "id": "1321653",
-        "question": "SHEIN IPO before 2027?",
-        "probability": 0.605,
-        "change_24h": 0.3035,
-        "volume_24h": 2081.13,
-        "score": 306.82,
-        "url": "https://polymarket.com/event/shein-ipo-before-2027"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Shein IPO Hopes Surge After China Approval",
-          "summary": "The probability of Shein IPOing before 2027 surged to 60% after reports confirmed China's market watchdog approved its Hong Kong listing application. This pivotal approval follows previous unsuccessful attempts to list in London and New York, removing a major regulatory hurdle.",
-          "drivers": [
-            "China's market watchdog approves Shein's HK IPO",
-            "Reuters, FT confirm Beijing's go-ahead",
-            "Removes significant regulatory uncertainty"
-          ],
-          "why_matters": "This approval is crucial for Shein to access public capital markets, potentially valuing the company at over $60 billion. It also signals Beijing's willingness to allow major tech firms to list, albeit domestically.",
-          "bull_case": "With Chinese regulatory approval secured, Shein's path to a Hong Kong IPO is significantly clearer, making a 2027 listing highly probable.",
-          "bear_case": "Despite approval, market conditions, valuation disputes, or new regulatory hurdles could still delay or derail Shein's IPO plans."
-        },
-        "zh": {
-          "title": "希音获中国批准，上市希望大增",
-          "summary": "希音在2027年前上市的概率飙升至60%，此前有报道证实中国证监会已批准其香港上市申请。此次关键性批准消除了一个主要的监管障碍，此前希音曾尝试在伦敦和纽约上市但未成功。",
-          "drivers": [
-            "中国证监会批准希音香港上市",
-            "路透社、金融时报证实北京放行",
-            "扫清重大监管障碍"
-          ],
-          "why_matters": "此次批准对希音进入公开资本市场至关重要，估值可能超过600亿美元。这也表明北京愿意允许大型科技公司上市，尽管是在国内市场。",
-          "bull_case": "获得中国监管批准后，希音在香港上市的道路已显著清晰，2027年前上市可能性极高。",
-          "bear_case": "尽管获得批准，市场状况、估值争议或新的监管障碍仍可能推迟或阻止希音上市。"
-        }
-      },
-      "news": [
-        {
-          "title": "Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public - Reuters",
-          "url": "https://www.reuters.com/world/shein-wins-china-approval-ipo-hong-kong-2026-07-10/"
-        },
-        {
-          "title": "Shein Gains Beijing Approval For Hong Kong IPO - WWD",
-          "url": "https://wwd.com/business-news/financial/shein-beijing-approval-hong-kong-ipo-1239062779/"
-        },
-        {
-          "title": "Shein wins Chinese approval for long-awaited IPO - Financial Times",
-          "url": "https://www.ft.com/content/ccf814fb-d8fe-46f0-b6e4-de8cbe06e028?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2860420",
-        "question": "Bitcoin Up or Down on July 11?",
-        "probability": 0.765,
-        "change_24h": 0.27,
-        "volume_24h": 104426.21,
-        "score": 275.02,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-july-11-2026"
+        "id": "2860421",
+        "question": "Bitcoin Up or Down - July 11, 12PM ET",
+        "probability": 0.995,
+        "change_24h": 0.49,
+        "volume_24h": 29415.18,
+        "score": 494.47,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-july-11-2026-12pm-et"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Surges, July Rally Continues",
-          "summary": "The probability of Bitcoin being up on July 11 surged to 76% following a significant rally towards $65,000. Technical indicators like \"reclaiming the cloud\" and a healthy pullback reinforced bullish sentiment.",
+          "title": "Bitcoin Price Surge Certainty",
+          "summary": "The prediction market for Bitcoin's price movement by July 11, 12PM ET, has reached 100% probability, reflecting strong conviction in an upward trend. This surge was primarily driven by Bitcoin's technical recovery, as it \"reclaims the cloud\" on Thursday, according to KITCO.",
           "drivers": [
-            "Bitcoin rallied significantly towards $65,000.",
-            "Technical analysis shows Bitcoin \"reclaims the cloud.\"",
-            "Recent pullback confirms ongoing July rally."
+            "Bitcoin \"reclaims the cloud\" (KITCO)",
+            "Ethereum and Altcoin rotation strengthen",
+            "Strong technical recovery signals"
           ],
-          "why_matters": "This strong upward movement indicates renewed investor confidence in Bitcoin's short-term trajectory, potentially signaling a broader market recovery.",
-          "bull_case": "Bitcoin's strong rally towards $65,000 and bullish technicals suggest continued upward momentum for July 11.",
-          "bear_case": "Mining company Bitdeer's sale of 227.5 BTC this week could signal selling pressure, potentially reversing gains."
+          "why_matters": "This high conviction suggests a potential short-term bullish momentum for Bitcoin, influencing trader sentiment and investment decisions across the crypto market.",
+          "bull_case": "Bitcoin's technical recovery, \"reclaiming the cloud,\" signals strong upward momentum, attracting further buying interest.",
+          "bear_case": "Despite current certainty, Bitdeer's continued BTC sales could introduce selling pressure, challenging the upward trend."
         },
         "zh": {
-          "title": "比特币飙升，七月涨势持续",
-          "summary": "比特币在强劲反弹至65,000美元后，其在7月11日上涨的概率飙升至76%。技术指标如“重回云图”和健康的盘整进一步巩固了看涨情绪。",
+          "title": "比特币价格上涨确定",
+          "summary": "比特币价格在7月11日中午12点前上涨的预测市场概率已达100%，显示市场对上涨趋势的强烈信心。这一飙升主要受周四比特币技术性复苏，即“重回云层”的驱动，据KITCO报道。",
           "drivers": [
-            "比特币强劲反弹至65,000美元。",
-            "技术分析显示比特币看涨趋势。",
-            "近期回调被视为健康上涨信号。"
+            "比特币“重回云层”(KITCO)",
+            "以太坊和山寨币轮动走强",
+            "技术面强劲复苏信号"
           ],
-          "why_matters": "这一强劲上涨表明投资者对短期比特币走势信心重燃，可能预示着更广泛的市场复苏。",
-          "bull_case": "比特币强劲反弹至65,000美元及看涨技术指标预示7月11日将继续上涨。",
-          "bear_case": "矿企Bitdeer本周出售227.5枚比特币可能带来抛售压力，或逆转当前涨幅。"
+          "why_matters": "这种高度确信表明比特币短期内可能存在看涨势头，影响加密市场的交易者情绪和投资决策。",
+          "bull_case": "比特币技术性复苏，“重回云层”，预示强劲上涨动能，吸引更多买盘。",
+          "bear_case": "尽管目前市场确定性高，Bitdeer持续出售比特币可能带来抛售压力，挑战上涨趋势。"
         }
       },
       "news": [
         {
           "title": "Bitdeer maintains zero bitcoin holdings, sells 227.5 BTC this week - Bitget",
           "url": "https://www.bitget.com/amp/news/detail/12560605500396"
-        },
-        {
-          "title": "Bitcoin Rallies Toward $65,000 Level As Multiple Factors Drive Gains - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/07/10/bitcoin-rallies-toward-65000-level-as-multiple-factors-drive-gains/"
         },
         {
           "title": "Canadian Dollar: Firmer against US Dollar – Societe Generale - Bitget",
           "url": "https://www.bitget.com/amp/news/detail/12560605499366"
+        },
+        {
+          "title": "Bitcoin slips below the cloud as Ethereum and Altcoins show relative strength - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-07-09/bitcoin-slips-below-cloud-ethereum-and-altcoins-show-relative-strength"
         }
       ]
     },
     {
       "market": {
-        "id": "2812306",
-        "question": "Will Bitcoin reach $66,000 July 6-12?",
-        "probability": 0.065,
-        "change_24h": -0.205,
-        "volume_24h": 62033.68,
-        "score": 209.79,
-        "url": "https://polymarket.com/event/will-bitcoin-reach-66k-july-6-12-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin $66K Target Fades",
-          "summary": "Bitcoin's probability of reaching $66,000 by July 12 plunged to 6%, as its rally towards $65,000 likely stalled, failing to convince the market of sustained momentum. This suggests the market views the remaining time as insufficient for the target.",
-          "drivers": [
-            "Bitcoin's rally stalled below $65,000 resistance.",
-            "Market deems July 6-12 window too short for $66K.",
-            "LM Funding's June 30 Bitcoin valuation implied ~$58.4K."
-          ],
-          "why_matters": "Reflects market skepticism about Bitcoin's immediate bullish continuation and its ability to break key resistance levels.",
-          "bull_case": "Strong technical indicators and renewed altcoin interest could fuel a rapid surge past $66,000.",
-          "bear_case": "Bitcoin's rally stalled near $65,000, indicating strong resistance and insufficient momentum for $66,000 by July 12."
-        },
-        "zh": {
-          "title": "比特币6.6万美元目标渺茫",
-          "summary": "比特币在7月12日前达到6.6万美元的概率骤降至6%，因其向6.5万美元的反弹可能已停滞，未能说服市场其能持续上涨。市场认为剩余时间不足以达到目标。",
-          "drivers": [
-            "比特币反弹在6.5万美元下方受阻。",
-            "市场认为7月6-12日窗口期不足以达6.6万美元。",
-            "LM Funding六月比特币估值暗示约5.84万美元。"
-          ],
-          "why_matters": "这反映了市场对比特币短期内持续看涨及其突破关键阻力位能力的怀疑。",
-          "bull_case": "强劲的技术指标和山寨币轮动可能推动比特币迅速突破6.6万美元。",
-          "bear_case": "比特币反弹在6.5万美元附近停滞，阻力强劲，7月12日前难达6.6万美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin Rallies Toward $65,000 Level As Multiple Factors Drive Gains - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/07/10/bitcoin-rallies-toward-65000-level-as-multiple-factors-drive-gains/"
-        },
-        {
-          "title": "Bitcoin reclaims the cloud as Ethereum and Altcoin rotation strengthen - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-07-10/bitcoin-reclaims-cloud-ethereum-and-altcoin-rotation-strengthen"
-        },
-        {
-          "title": "LM Funding America Announces June 2026 Production and Operational Update - GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/07/08/3324012/0/en/LM-Funding-America-Announces-June-2026-Production-and-Operational-Update.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2698897",
-        "question": "Will the Ornn B200 Index be between $6.00 and $7.00 on July 31, 2026?",
-        "probability": 0.27,
-        "change_24h": 0.19,
-        "volume_24h": 1939.27,
-        "score": 193.29,
-        "url": "https://polymarket.com/event/will-the-ornn-b200-index-be-between-6pt00-and-7pt00-on-july-31-2026-20260626214212587"
+        "id": "2810506",
+        "question": "Will Core CPI MoM be 0.2% in July?",
+        "probability": 0.715,
+        "change_24h": 0.41,
+        "volume_24h": 4824.29,
+        "score": 413.68,
+        "url": "https://polymarket.com/event/will-core-cpi-mom-be-0pt2-in-july-20260705181349576"
       },
       "insight": {
         "category": "economy",
         "en": {
-          "title": "Global Calm Boosts Ornn Index Range Bet",
-          "summary": "The probability for the Ornn B200 Index to close between $6.00 and $7.00 by July 31, 2026, surged 19% to 27%. This increase was driven by financial markets worldwide holding steadier after initial geopolitical concerns regarding fresh Iran and US attacks subsided.",
-          "drivers": [
-            "Calm returns to financial markets worldwide",
-            "Oil prices and stocks hold steadier",
-            "Initial Iran/US attacks fears subside"
-          ],
-          "why_matters": "Market stability is crucial for investor confidence, influencing asset valuations and the predictability of broad market indices like the Ornn B200.",
-          "bull_case": "Continued global market stability and contained geopolitical risks will keep the Ornn B200 Index within the $6.00-$7.00 range.",
-          "bear_case": "Renewed geopolitical tensions or unexpected economic shocks could easily push the Ornn B200 Index outside the target range."
-        },
-        "zh": {
-          "title": "全球市场趋稳，Ornn指数区间预测升温",
-          "summary": "Ornn B200指数在2026年7月31日收于6.00美元至7.00美元之间的可能性上升19%至27%。这一增长主要得益于全球金融市场在伊朗和美国新一轮袭击引发的初步地缘政治担忧消退后，市场趋于稳定。",
-          "drivers": [
-            "全球金融市场恢复平静",
-            "油价和股市趋于稳定",
-            "伊朗与美国冲突担忧减弱"
-          ],
-          "why_matters": "市场稳定对投资者信心至关重要，影响资产估值和Ornn B200等广泛市场指数的可预测性。",
-          "bull_case": "全球市场持续稳定且地缘政治风险受控，将使Ornn B200指数维持在6.00-7.00美元区间。",
-          "bear_case": "地缘政治紧张局势重燃或意外经济冲击，可能轻易将Ornn B200指数推离目标区间。"
-        }
-      },
-      "news": [
-        {
-          "title": "Asian stocks slip and oil prices jump as Iran and US launch fresh attacks - AP News",
-          "url": "https://apnews.com/article/stock-markets-oil-iran-ai-ebb040b1377034108cfd55adfa94ecd1"
-        },
-        {
-          "title": "World shares are mixed and oil prices slip after Iran and US launch fresh attacks - The Sun Chronicle",
-          "url": "https://www.thesunchronicle.com/business/world-shares-are-mixed-and-oil-prices-slip-after-iran-and-us-launch-fresh-attacks/article_5e8aefc0-977f-5f16-8cd5-4c63b8d111ae.html"
-        },
-        {
-          "title": "Asian stocks are mixed and oil prices slip after Iran and US launch fresh attacks - The Sun Chronicle",
-          "url": "https://www.thesunchronicle.com/business/asian-stocks-are-mixed-and-oil-prices-slip-after-iran-and-us-launch-fresh-attacks/article_5e8aefc0-977f-5f16-8cd5-4c63b8d111ae.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2600273",
-        "question": "Progressive (PGR) Q2 combined ratio <86%?",
-        "probability": 0.315,
-        "change_24h": 0.185,
-        "volume_24h": 2096.61,
-        "score": 188.32,
-        "url": "https://polymarket.com/event/progressive-pgr-q2-combined-ratio-86-20260618154842185"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Progressive Q2 Ratio Hopes Rise",
-          "summary": "The probability of Progressive's Q2 combined ratio being below 86% jumped 18.5% to 32%, largely due to a positive analyst report on The Hartford Insurance Group. Keefe, Bruyette & Woods' bullish outlook on HIG suggested broader favorable trends for property & casualty insurers.",
-          "drivers": [
-            "Keefe, Bruyette & Woods' bullish report on The Hartford",
-            "Market inferred improving P&C insurance sector conditions",
-            "Anticipation of favorable underwriting environment for insurers"
-          ],
-          "why_matters": "Achieving a sub-86% combined ratio would signify exceptional underwriting profitability for Progressive, significantly boosting investor confidence.",
-          "bull_case": "KBW's positive outlook for The Hartford implies broader industry tailwinds benefiting Progressive's Q2 underwriting performance.",
-          "bear_case": "The 86% combined ratio is an aggressive target, and specific factors affecting Progressive may differ from The Hartford."
-        },
-        "zh": {
-          "title": "渐进保险Q2赔付率预期上升",
-          "summary": "渐进保险（PGR）第二季度综合赔付率低于86%的概率飙升18.5%至32%，主要受对更广泛保险行业的积极分析师展望驱动。Keefe, Bruyette & Woods对哈特福德保险集团的看涨立场暗示行业基本面正在改善。",
-          "drivers": [
-            "Keefe, Bruyette & Woods对哈特福德保险的看涨报告",
-            "市场推断产险行业状况正在改善",
-            "预期保险公司承保环境有利"
-          ],
-          "why_matters": "综合赔付率低于86%将标志着渐进保险卓越的承保盈利能力，显著提振投资者信心。",
-          "bull_case": "KBW对哈特福德的乐观展望预示行业顺风，利好渐进保险Q2承保业绩。",
-          "bear_case": "86%的综合赔付率目标激进，渐进保险的具体情况可能与哈特福德不同。"
-        }
-      },
-      "news": [
-        {
-          "title": "The Hartford Insurance Group (NYSE:HIG) Stock Price Expected to Rise, Keefe, Bruyette & Woods Analyst Says - InsuranceNewsNet",
-          "url": "https://insurancenewsnet.com/oarticle/the-hartford-insurance-group-nysehig-stock-price-expected-to-rise-keefe-bruyette-woods-analyst-says"
-        },
-        {
-          "title": "Cango sets 10-for-1 reverse stock split effective July 20 - Investing.com",
-          "url": "https://www.investing.com/news/company-news/cango-sets-10for1-reverse-stock-split-effective-july-20-93CH-4785715"
-        },
-        {
-          "title": "Audi’s New Models Are Carrying It Through 2026 - Motor1.com",
-          "url": "https://www.motor1.com/news/801326/audi-sales-results-down-2026/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2677741",
-        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $80 in July?",
-        "probability": 1.0,
-        "change_24h": 0.1845,
-        "volume_24h": 554.39,
-        "score": 187.24,
-        "url": "https://polymarket.com/event/will-rklb-dip-to-80-in-july-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "RKLB $80 July: Analyst Bullish, SpaceX Tanks",
-          "summary": "RKLB's probability of hitting $80 in July surged to 100% (+18.4%) driven by a Morgan Stanley analyst predicting a 250% stock surge. This coincides with multiple reports of competitor SpaceX's stock hitting all-time lows.",
-          "drivers": [
-            "Morgan Stanley analyst predicts RKLB 250% surge.",
-            "SpaceX stock hits all-time low, dips below IPO price.",
-            "Famed investor Jeremy Grantham criticizes SpaceX IPO."
-          ],
-          "why_matters": "This movement highlights shifting investor confidence in the private space sector, with RKLB potentially benefiting from competitor struggles and strong analyst backing.",
-          "bull_case": "Morgan Stanley's 250% surge prediction and SpaceX's recent struggles make RKLB a compelling alternative investment.",
-          "bear_case": "RKLB may fail to meet aggressive growth expectations, or broader market conditions could impact its trajectory."
-        },
-        "zh": {
-          "title": "RKLB七月80美元：分析师看涨，SpaceX下跌",
-          "summary": "RKLB七月触及80美元的概率飙升至100%（+18.4%），主要受摩根士丹利分析师预测其股价将飙升250%的推动。与此同时，竞争对手SpaceX的股价屡创新低。",
-          "drivers": [
-            "摩根士丹利分析师预测RKLB股价飙升250%。",
-            "SpaceX股价跌至历史新低，低于IPO价。",
-            "知名投资者Jeremy Grantham批评SpaceX IPO。"
-          ],
-          "why_matters": "这一变化凸显了投资者对私人航天领域信心的转移，RKLB可能从竞争对手的困境和强劲的分析师支持中受益。",
-          "bull_case": "摩根士丹利250%的涨幅预测及SpaceX近期困境，使RKLB成为具吸引力的替代投资。",
-          "bear_case": "RKLB可能无法达到激进的增长预期，或整体市场状况可能影响其走势。"
-        }
-      },
-      "news": [
-        {
-          "title": "Rocket Lab’s stock could surge 250% as the company takes a page out of SpaceX’s book, analyst says - MarketWatch",
-          "url": "https://www.marketwatch.com/story/rocket-labs-stock-could-surge-250-as-the-company-takes-a-page-out-of-spacexs-book-analyst-says-3b4f8a4f"
-        },
-        {
-          "title": "Famed investor Jeremy Grantham says history will end up laughing at SpaceX, the 'craziest IPO in the history of man' that just joined the Nasdaq 100 - Fortune",
-          "url": "https://fortune.com/2026/07/08/jeremy-grantham-spacex-collapse-wall-street-price/"
-        },
-        {
-          "title": "SpaceX hits all-time low, dips below IPO opening price as rival Blue Origin seeks new funding - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/spacex-hits-all-time-low-dips-below-ipo-opening-price-as-rival-blue-origin-seeks-new-funding-155049263.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2845814",
-        "question": "Over $40M committed to the Credible public sale?",
-        "probability": 0.21,
-        "change_24h": -0.17,
-        "volume_24h": 11800.34,
-        "score": 174.07,
-        "url": "https://polymarket.com/event/over-40m-committed-to-the-credible-public-sale-20260708134325654"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Credible $40M Sale Target Drops",
-          "summary": "The probability of Credible's public sale exceeding $40M dropped 17% to 21%, primarily driven by broader investor caution towards public offerings. Famed investor Jeremy Grantham's recent bearish comments on SpaceX's IPO likely dampened enthusiasm for high-target sales.",
-          "drivers": [
-            "Jeremy Grantham's critique of SpaceX's IPO, calling it 'craziest'.",
-            "Absence of positive news or commitments for Credible's public sale."
-          ],
-          "why_matters": "This market reflects investor confidence in a specific company's ability to secure significant public funding, indicating broader market appetite for new offerings.",
-          "bull_case": "Strong investor demand or a major anchor investor commitment could quickly push Credible's public sale past $40M.",
-          "bear_case": "Continued investor skepticism and lack of specific positive updates will prevent Credible's public sale from reaching $40M."
-        },
-        "zh": {
-          "title": "Credible公募4千万美元目标下降",
-          "summary": "Credible公募超4千万美元的概率下降17%至21%，主要受投资者对公募的普遍谨慎情绪影响。知名投资者杰里米·格兰瑟姆对SpaceX IPO的悲观看法可能抑制了对高目标融资的热情。",
-          "drivers": [
-            "杰里米·格兰瑟姆看空SpaceX IPO，称其为“最疯狂”。",
-            "Credible公募缺乏积极消息或承诺。"
-          ],
-          "why_matters": "该市场反映了投资者对特定公司获得大量公开融资能力的信心，预示着市场对新发行的整体兴趣。",
-          "bull_case": "强劲的投资者需求或主要基石投资者承诺，可能迅速推动Credible公募突破4千万美元。",
-          "bear_case": "持续的投资者疑虑和缺乏具体利好消息将阻碍Credible公募达到4千万美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "[Korean Startup Weekly News #126] Physical AI Takes Center Stage - Wowtale",
-          "url": "https://en.wowtale.net/2026/07/11/234441/"
-        },
-        {
-          "title": "Pulse Space Lands $40M Space Force Contract to Develop Laser Tech - Payload Space",
-          "url": "https://payloadspace.com/pulse-space-lands-40m-space-force-contract-to-develop-laser-tech/"
-        },
-        {
-          "title": "Cryptocurrency Titan Chris Larsen’s Grantmaking Is on the Rise. Where’s It Going? - Inside Philanthropy",
-          "url": "https://www.insidephilanthropy.com/home/cryptocurrency-titan-chris-larsens-grantmaking-is-on-the-rise-wheres-it-going"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2760545",
-        "question": "Will the median home value in the US be between $419,000 and $426,000 on September 30?",
-        "probability": 0.3395,
-        "change_24h": 0.154,
-        "volume_24h": 3553.24,
-        "score": 157.55,
-        "url": "https://polymarket.com/event/will-the-median-home-value-in-the-us-be-between-419000-and-426000-on-september-30-20260630175543147"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Home Values Target Range More Likely",
-          "summary": "The probability for US median home value to hit the $419,000-$426,000 range by September 30 surged by 15.4%. This was driven by June 2026 reports showing US home prices reaching new all-time highs, while sales slowed and mortgage rates rose.",
-          "drivers": [
-            "US median home prices hit all-time high in June 2026.",
-            "Existing home sales unexpectedly fell in June.",
-            "Rising mortgage rates temper price growth pace."
-          ],
-          "why_matters": "This market reflects the ongoing tension between high demand/low supply pushing prices up and affordability challenges from rising rates. It indicates market expectations for housing stability or continued growth.",
-          "bull_case": "Continued price appreciation, tempered by rising rates and slowing sales, will stabilize the median within the target range.",
-          "bear_case": "Unabated price surge, despite slowing sales, will push the median home value significantly above $426,000."
-        },
-        "zh": {
-          "title": "房价目标区间可能性增加",
-          "summary": "美国中位数房价在9月30日达到41.9万至42.6万美元区间的可能性上升15.4%。这主要受2026年6月美国房价创历史新高，同时销售放缓和抵押贷款利率上升的报告驱动。",
-          "drivers": [
-            "2026年6月美国中位数房价创新高。",
-            "6月二手房销售意外下降。",
-            "抵押贷款利率上升抑制房价增速。"
-          ],
-          "why_matters": "该市场反映了高需求/低供应与利率上升导致的可负担性挑战之间的持续紧张。它预示着市场对住房稳定或持续增长的预期。",
-          "bull_case": "房价持续上涨，但受利率上升和销售放缓影响，将稳定在中位数目标区间内。",
-          "bear_case": "尽管销售放缓，房价仍持续飙升，将使中位数房价远超42.6万美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Top 10 Real Estate News: America's Most Interesting Real Estate & Home News - PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/top-10-real-estate-news-americas-most-interesting-real-estate--home-news-302821325.html"
-        },
-        {
-          "title": "Home prices across the U.S. surge to all-time high - CBS News",
-          "url": "https://www.cbsnews.com/news/us-home-prices-all-time-high/"
-        },
-        {
-          "title": "Home prices set a new - and scary - record: ‘Major challenge’ - OregonLive.com",
-          "url": "https://www.oregonlive.com/news/2026/07/home-prices-set-a-new-and-scary-record-major-challenge.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2677679",
-        "question": "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $150 in July?",
-        "probability": 0.115,
-        "change_24h": -0.15,
-        "volume_24h": 695.04,
-        "score": 152.84,
-        "url": "https://polymarket.com/event/will-pltr-reach-150-in-july-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "PLTR $150 July Probability Plunges",
-          "summary": "The probability of Palantir (PLTR) hitting $150 in July dropped by 15% to 12%, primarily driven by market interpretation of Wall Street analyst sentiment. The Motley Fool article, while discussing upside, likely underscored analyst consensus targets significantly below the ambitious $150 mark, dampening expectations.",
-          "drivers": [
-            "Wall Street analysts' price targets for PLTR are likely far below $150.",
-            "The $150 target for July is an exceptionally high valuation for PLTR.",
-            "Broader market caution towards high-growth tech valuations."
-          ],
-          "why_matters": "Palantir's stock performance is a key indicator for investor confidence in the AI sector and its ability to monetize complex data platforms.",
-          "bull_case": "Strong AI adoption, new major government/enterprise contracts, or a broad tech rally could rapidly drive PLTR's valuation towards $150.",
-          "bear_case": "Current analyst price targets remain far below $150, and a lack of significant new catalysts makes such a rapid surge unlikely."
-        },
-        "zh": {
-          "title": "PLTR七月触及150美元概率骤降",
-          "summary": "Palantir (PLTR) 七月触及150美元的概率骤降15%至12%，主要受市场对华尔街分析师情绪解读的影响。尽管《The Motley Fool》文章讨论了上涨潜力，但可能强调分析师共识目标远低于150美元这一雄心勃勃的水平，从而抑制了市场预期。",
-          "drivers": [
-            "华尔街分析师对PLTR的目标价可能远低于150美元。",
-            "PLTR七月达到150美元的目标估值极高。",
-            "市场对高增长科技股的普遍谨慎情绪。"
-          ],
-          "why_matters": "Palantir的股价表现是衡量投资者对AI领域信心及其复杂数据平台变现能力的关键指标。",
-          "bull_case": "强劲的AI应用、新的大型政府/企业合同或广泛的科技股反弹可能迅速推动PLTR估值升至150美元。",
-          "bear_case": "当前分析师目标价远低于150美元，且缺乏重大新催化剂，使得快速飙升不太可能。"
-        }
-      },
-      "news": [
-        {
-          "title": "Here's How Much More Upside Is Left in Palantir Stock, According to Wall Street Analysts - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/09/how-much-more-upside-palantir-stock-analyst/"
-        },
-        {
-          "title": "SK Hynix, Micron, Meta, Delta, Circle Internet, and More Stocks That Explain Today’s Market - Barron's",
-          "url": "https://www.barrons.com/articles/stock-movers-7c9adc92"
-        },
-        {
-          "title": "How SpaceX Stock Can Hit $900 - Barron's",
-          "url": "https://www.barrons.com/articles/spacex-stock-price-analyst-target-7a020bc8"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2760538",
-        "question": "Will the median home value in Los Angeles Metro be between $1,137,000 and $1,153,000 on September 30?",
-        "probability": 0.175,
-        "change_24h": -0.115,
-        "volume_24h": 1584.01,
-        "score": 118.2,
-        "url": "https://polymarket.com/event/will-the-median-home-value-in-los-angeles-be-between-1137000-and-1153000-20260630173101993"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "LA Home Value Range Probability Drops",
-          "summary": "The probability for LA Metro median home value to hit its target range by September 30 fell significantly. This was driven by forecasters trimming future home price growth predictions.",
-          "drivers": [
-            "Realtor.com trimmed 2026 home price growth forecast to 1.2%.",
-            "High inflation continues to bite, impacting affordability and growth.",
-            "National median home prices hit an all-time high in June 2026."
-          ],
-          "why_matters": "This reflects growing uncertainty in the housing market, with inflation and slower growth potentially impacting affordability and investment decisions.",
-          "bull_case": "Strong local demand and limited LA housing supply could still push values into the target range.",
-          "bear_case": "Slower growth forecasts and persistent inflation make hitting the specific LA median home value range unlikely."
-        },
-        "zh": {
-          "title": "洛杉矶房价区间概率下降",
-          "summary": "洛杉矶都会区中位数房价在9月30日达到目标区间的概率显著下降。主要原因是预测机构下调了未来房价增长预期。",
-          "drivers": [
-            "Realtor.com下调2026年房价增长预测至1.2%。",
-            "高通胀持续侵蚀购买力，影响增长。",
-            "全美中位数房价6月创历史新高。"
-          ],
-          "why_matters": "这反映了房地产市场日益增长的不确定性，通胀和增长放缓可能影响购房负担能力和投资决策。",
-          "bull_case": "洛杉矶本地强劲需求和有限供应仍可能将房价推入目标区间。",
-          "bear_case": "增长预测下调和持续通胀使得洛杉矶房价难以达到特定区间。"
-        }
-      },
-      "news": [
-        {
-          "title": "Forecasters trim home price growth predictions as inflation bites - National Mortgage News",
-          "url": "https://www.nationalmortgagenews.com/news/forecasters-trim-home-price-growth-predictions-as-inflation-bites"
-        },
-        {
-          "title": "Top 10 Real Estate News: America's Most Interesting Real Estate & Home News - PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/top-10-real-estate-news-americas-most-interesting-real-estate--home-news-302821325.html"
-        },
-        {
-          "title": "You can buy a sprawling mansion for less than $1M in these 5 US cities - New York Post",
-          "url": "https://nypost.com/2026/07/08/real-estate/5-metros-where-you-can-still-get-a-luxury-home-for-under-1m/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2300156",
-        "question": "Will Anduril's valuation hit (HIGH) $200B by December 31?",
-        "probability": 0.105,
-        "change_24h": -0.11,
-        "volume_24h": 3099.66,
-        "score": 113.49,
-        "url": "https://polymarket.com/event/will-andurils-valuation-hit-high-200b-by-december-31"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Anduril Valuation Outlook Dips on AI Risk",
-          "summary": "The probability of Anduril hitting a $200B valuation by December 31 dropped by 11.0% to 10%, primarily driven by increased security concerns surrounding AI. China's warning on Anthropic's AI tool specifically impacted market confidence for AI valuations.",
-          "drivers": [
-            "China warns of security risks in Anthropic's AI tool.",
-            "Market confidence in AI valuations impacted by security warnings.",
-            "Anduril's defense AI focus makes it sensitive to geopolitical AI risks."
-          ],
-          "why_matters": "This movement highlights the growing influence of geopolitical and regulatory risks on AI company valuations, especially for those in sensitive sectors like defense. It suggests that security concerns can outweigh positive venture funding trends.",
-          "bull_case": "Robust US venture funding for AI, hitting $412.7B in H1 2026, could propel Anduril's valuation.",
-          "bear_case": "China's security warnings on AI tools increase regulatory scrutiny, dampening investor appetite for high valuations."
-        },
-        "zh": {
-          "title": "安杜里尔估值前景因AI风险下降",
-          "summary": "安杜里尔在12月31日前达到2000亿美元估值的可能性下降11.0%至10%，主要受AI安全担忧加剧影响。中国对Anthropic AI工具的警告尤其打击了市场对AI估值的信心。",
-          "drivers": [
-            "中国警告Anthropic AI工具存在安全风险。",
-            "AI估值市场信心受安全警告影响。",
-            "安杜里尔专注于国防AI，易受地缘政治AI风险影响。"
-          ],
-          "why_matters": "此次波动凸显了地缘政治和监管风险对AI公司估值的日益增长的影响，特别是对国防等敏感领域的公司。这表明安全担忧可能盖过积极的风险投资趋势。",
-          "bull_case": "美国上半年AI风险投资强劲，达4127亿美元，可能推动安杜里尔估值。",
-          "bear_case": "中国对AI工具的安全警告增加了监管审查，抑制了投资者对高估值的兴趣。"
-        }
-      },
-      "news": [
-        {
-          "title": "China warns of security risks in Anthropic’s AI tool, impacting market confidence - Crypto Briefing",
-          "url": "https://cryptobriefing.com/china-warns-of-security-risks-in-anthropics-ai-tool-impacting-market-confidence/"
-        },
-        {
-          "title": "Lovable reportedly in talks to double its valuation to $13.2B - TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
-        },
-        {
-          "title": "Opening Bell: July 8, 2026 - CNBC",
-          "url": "https://www.cnbc.com/video/2026/07/08/opening-bell-july-8-2026.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "704240",
-        "question": "2k+ container ship transits of Suez Canal in H1 2026?",
-        "probability": 0.06,
-        "change_24h": -0.105,
-        "volume_24h": 973.54,
-        "score": 107.99,
-        "url": "https://polymarket.com/event/2k-container-ship-transits-of-suez-canal-in-h1-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Suez Transit Outlook Dips",
-          "summary": "The probability for 2k+ container ship transits of the Suez Canal in H1 2026 dropped by 10.5% to 6%, reflecting increased market pessimism. This decline was driven by the interpretation that recent cautious route resumptions by carriers like Maersk and Hapag-Lloyd are insufficient to overcome persistent Red Sea security risks, making a full recovery by H1 2026 unlikely.",
-          "drivers": [
-            "Limited scope of Maersk and Hapag-Lloyd's cautious route resumptions.",
-            "Persistent Red Sea security risks despite gradual carrier returns.",
-            "Market discounting slow normalization for H1 2026 transit target."
-          ],
-          "why_matters": "The Suez Canal is a vital global trade artery; its prolonged disruption significantly increases shipping costs and supply chain lead times, impacting global inflation and economic stability.",
-          "bull_case": "A decisive international military operation fully secures the Red Sea, leading to a rapid and complete return of all major shipping lines.",
-          "bear_case": "Escalating Houthi attacks or prolonged instability force permanent rerouting via the Cape of Good Hope for most container traffic."
-        },
-        "zh": {
-          "title": "苏伊士运河前景看跌",
-          "summary": "2026年上半年苏伊士运河集装箱船通过量达到2000艘以上的可能性下降10.5%至6%，反映出市场悲观情绪加剧。此下降是由于市场认为马士基和赫伯罗特等船司近期谨慎的复航行动，不足以克服红海持续的安全风险，使得2026年上半年实现全面恢复的可能性降低。",
-          "drivers": [
-            "马士基和赫伯罗特等船司复航规模有限。",
-            "红海安全威胁持续，谨慎复航未能消除市场担忧。",
-            "市场预计2026年上半年难以实现全面正常化。"
-          ],
-          "why_matters": "苏伊士运河是全球重要的贸易动脉；其长期中断将显著增加航运成本和供应链交货时间，影响全球通胀和经济稳定。",
-          "bull_case": "果断的国际军事行动彻底确保红海安全，促使所有主要航运公司迅速全面恢复航线。",
-          "bear_case": "胡塞武装袭击升级或长期不稳定，迫使多数集装箱船永久改道好望角。"
-        }
-      },
-      "news": [
-        {
-          "title": "Gemini Suez return signals cautious step towards liner normalisation - Seatrade Maritime News",
-          "url": "https://www.seatrade-maritime.com/containers/gemini-suez-return-signals-cautious-step-towards-liner-normalisation"
-        },
-        {
-          "title": "Maersk and Hapag-Lloyd resume One Suez canal service - Logistics Management",
-          "url": "https://www.logisticsmgmt.com/article/maersk_and_hapag_lloyd_resume_one_suez_canal_service"
-        },
-        {
-          "title": "Tanker Vessel Contracting Hits Record High - Marine News Magazine",
-          "url": "https://www.marinelink.com/news/tanker-vessel-contracting-hits-record-541093"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2789984",
-        "question": "Will fewer than 150 ships transit the Strait of Hormuz between July 6-July 12?",
-        "probability": 0.4965,
-        "change_24h": 0.094,
-        "volume_24h": 12463.69,
-        "score": 98.1,
-        "url": "https://polymarket.com/event/will-fewer-than-150-ships-transit-the-strait-of-hormuz-between-july-6-july-12-20260703173313934"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Hormuz Traffic Halts Amid US-Iran Strikes",
-          "summary": "The probability of fewer than 150 ships transiting Hormuz increased by 9.4% as reports indicate traffic has ground to a near halt. Renewed US-Iran strikes are cited as the primary cause for the significant reduction in shipping activity.",
-          "drivers": [
-            "Renewed US-Iran military strikes",
-            "Reports of traffic grinding to halt",
-            "Vessels avoiding Omani corridor"
-          ],
-          "why_matters": "Reduced Strait of Hormuz traffic impacts global oil and gas supplies, potentially leading to price volatility and supply chain disruptions. It highlights escalating geopolitical risks in the Middle East.",
-          "bull_case": "Renewed US-Iran military actions and heightened tensions will continue to deter commercial shipping, keeping transit numbers low.",
-          "bear_case": "LNG tankers and other vessels are resuming crossings, indicating a quick adaptation to tensions and a return to normal traffic levels."
-        },
-        "zh": {
-          "title": "霍尔木兹海峡航运因美伊冲突停滞",
-          "summary": "霍尔木兹海峡过境船只少于150艘的概率上升9.4%，因报道称航运几乎停滞。美伊冲突升级被认为是航运活动显著减少的主要原因。",
-          "drivers": [
-            "美伊军事打击升级",
-            "航运几乎停滞的报道",
-            "船只避开阿曼航线"
-          ],
-          "why_matters": "霍尔木兹海峡交通减少将影响全球油气供应，可能导致价格波动和供应链中断。这凸显了中东地缘政治风险升级。",
-          "bull_case": "美伊军事行动和紧张局势将继续威慑商业航运，使过境船只数量保持低位。",
-          "bear_case": "液化天然气油轮及其他船只已恢复通行，表明市场适应迅速，交通将恢复正常。"
-        }
-      },
-      "news": [
-        {
-          "title": "Hormuz Ship Traffic Grinds to Near Halt After US, Iran Strikes - Insurance Journal",
-          "url": "https://www.insurancejournal.com/news/international/2026/07/09/876793.htm"
-        },
-        {
-          "title": "LNG Tankers Resume Hormuz Crossings Amid Tensions - Marine News Magazine",
-          "url": "https://www.marinelink.com/news/lng-tankers-resume-hormuz-crossings-amid-541108"
-        },
-        {
-          "title": "More LNG and Japan-linked vessels are transiting Hormuz in spite of renewed Mideast tensions - Marine News Magazine",
-          "url": "https://www.marinelink.com/blogs/blog/more-lng-and-japanlinked-vessels-are-transiting-hormuz-in-spite-105042"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2677806",
-        "question": "Will S&P 500 (SPY) hit (HIGH) $770 in July?",
-        "probability": 0.425,
-        "change_24h": 0.09,
-        "volume_24h": 6885.84,
-        "score": 93.84,
-        "url": "https://polymarket.com/event/will-spy-reach-770-in-july-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "SPY Rises on Strong Earnings Outlook",
-          "summary": "The probability of SPY hitting $770 in July increased by 9.0% to 42% following positive market movements and robust earnings forecasts. Recent S&P 500 gains to 7539.98 and FactSet's projection of Q2 earnings growth above 29% were key drivers.",
-          "drivers": [
-            "S&P 500 index rose to 7539.98.",
-            "FactSet projects Q2 earnings growth above 29%.",
-            "Chip stocks (Nvidia, Micron) showed strong gains."
-          ],
-          "why_matters": "Strong corporate earnings and sector-specific strength signal underlying economic health, potentially driving broader market indices higher despite geopolitical tensions.",
-          "bull_case": "Robust Q2 earnings growth exceeding 29% and continued tech sector strength will propel SPY towards $770.",
-          "bear_case": "Geopolitical tensions with Iran and upcoming CPI data could introduce volatility, hindering SPY's ascent to $770."
-        },
-        "zh": {
-          "title": "SPY因强劲财报展望上涨",
-          "summary": "SPY在7月触及770美元的概率上升9.0%至42%，受市场积极走势和强劲盈利预测推动。标普500指数近期升至7539.98点，以及FactSet预测第二季度盈利增长超过29%是主要驱动因素。",
-          "drivers": [
-            "标普500指数升至7539.98点。",
-            "FactSet预测二季度盈利增长超29%。",
-            "芯片股（英伟达、美光）表现强劲。"
-          ],
-          "why_matters": "强劲的企业盈利和特定行业的强势表现预示着潜在的经济健康，尽管存在地缘政治紧张局势，仍可能推动更广泛的市场指数走高。",
-          "bull_case": "第二季度盈利增长超过29%以及科技板块持续强势，将推动SPY达到770美元。",
-          "bear_case": "伊朗地缘政治紧张局势和即将公布的CPI数据可能带来波动，阻碍SPY升至770美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-07-10/wall-st-week-ahead-investors-grapple-packed-week-earnings-cpi-iran"
-        },
-        {
-          "title": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Micron, Nvidia, SpaceX, Marvell, Broadcom, More Movers - Barron's",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-070926"
-        },
-        {
-          "title": "S&P 500, Nasdaq futures edge up as chip stocks gain; US-Iran tensions in focus - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-07-09/sp-500-nasdaq-futures-edge-chip-stocks-gain-us-iran-tensions-focus"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2674078",
-        "question": "Will Apple be the second-largest company in the world by market cap on July 31?",
-        "probability": 0.685,
-        "change_24h": 0.09,
-        "volume_24h": 4890.92,
-        "score": 93.69,
-        "url": "https://polymarket.com/event/will-apple-be-the-second-largest-company-in-the-world-by-market-cap-on-july-31-20260624192749112"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Apple's #2 Spot Surges on AI, Cook's Deal",
-          "summary": "Apple's probability to become the world's second-largest company by market cap on July 31 rose to 68% following news of its AI-driven stock reaching record highs. This surge was further bolstered by reports of Tim Cook's final major manufacturing deal.",
-          "drivers": [
-            "Apple stock hit record highs via AI.",
-            "Tim Cook's final major manufacturing deal.",
-            "Outperformance among \"Magnificent Seven\"."
-          ],
-          "why_matters": "Apple's ascent reflects the ongoing tech sector's valuation shifts, particularly the impact of AI integration and strategic long-term investments on corporate giants. Its position as #2 would signify a major reshuffling among the world's most valuable companies.",
-          "bull_case": "Apple's AI-fueled record stock highs and Tim Cook's massive manufacturing deal provide strong momentum for its market cap to secure the #2 position.",
-          "bear_case": "Intense competition or a market correction could quickly erode Apple's gains, preventing it from reaching the #2 spot."
-        },
-        "zh": {
-          "title": "苹果市值冲刺第二，AI与大交易助推",
-          "summary": "苹果公司在7月31日成为全球市值第二大公司的可能性升至68%，主要受其AI驱动的股价创历史新高消息的推动。蒂姆·库克卸任前的重大制造交易进一步巩固了这一上涨势头。",
-          "drivers": [
-            "苹果股价因AI创历史新高。",
-            "库克敲定公司史上最大制造交易。",
-            "“七巨头”中表现突出。"
-          ],
-          "why_matters": "苹果的崛起反映了科技行业估值的持续变化，特别是AI整合和长期战略投资对巨头企业的影响。其位居第二将标志着全球最有价值公司之间的一次重大洗牌。",
-          "bull_case": "苹果AI驱动的股价创新高以及库克的大型制造交易，为其市值冲刺全球第二提供了强劲动力。",
-          "bear_case": "来自激烈竞争或市场回调可能迅速侵蚀苹果涨幅，使其无法达到第二位。"
-        }
-      },
-      "news": [
-        {
-          "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets - CNBC",
-          "url": "https://www.cnbc.com/2026/07/09/meet-sk-hynix-the-trillion-dollar-chipmaker-debuting-on-us-markets-.html"
-        },
-        {
-          "title": "How Apple stock rode the AI rollercoaster to record highs in 1 chart - CNBC",
-          "url": "https://www.cnbc.com/2026/07/10/how-apple-stock-rode-the-ai-rollercoaster-to-record-highs-in-1-chart.html"
-        },
-        {
-          "title": "Apple shares approach record high - CNBC",
-          "url": "https://www.cnbc.com/video/2026/07/09/apple-shares-approach-record-high.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2734708",
-        "question": "Will Jio Platforms IPO by December 31, 2026?",
-        "probability": 0.575,
-        "change_24h": 0.09,
-        "volume_24h": 1586.44,
-        "score": 93.2,
-        "url": "https://polymarket.com/event/will-jio-platforms-ipo-by-december-31-2026-20260629175908109"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Jio IPO Hopes Rise on India's $50B Pipeline",
-          "summary": "The probability of Jio Platforms IPOing by December 31, 2026, rose to 57% following reports of a robust Indian IPO pipeline and a strong Q2 venture capital rebound. CNBC's \"Inside India newsletter\" highlighted $50 billion worth of IPOs ready to hit, while PitchBook and Business Journals noted rebounding VC and dominant megadeals.",
-          "drivers": [
-            "India's $50B IPO pipeline signals strong market readiness.",
-            "Q2 VC rebound and megadeals boost overall IPO environment."
-          ],
-          "why_matters": "Jio Platforms' IPO would be a significant event for India's tech and telecom sectors, potentially unlocking substantial value and attracting further foreign investment. Its success could set a precedent for other large Indian tech companies.",
-          "bull_case": "India's massive IPO pipeline and a strong global VC rebound create an opportune window for Jio's large-scale listing.",
-          "bear_case": "Geopolitical risks, such as those highlighted by the \"Trump ends Iran ceasefire\" event, could deter investors and delay large Indian IPOs."
-        },
-        "zh": {
-          "title": "Jio IPO希望升温：印度500亿储备",
-          "summary": "Jio Platforms在2026年12月31日前IPO的概率升至57%，此前有报道称印度IPO储备强劲且二季度风险投资大幅反弹。CNBC的“Inside India”通讯指出有价值500亿美元的IPO准备上市，而PitchBook和Business Journals则提及风投反弹和大型交易主导。",
-          "drivers": [
-            "印度500亿美元IPO储备，市场准备充分。",
-            "二季度风投反弹，大型交易提振IPO环境。"
-          ],
-          "why_matters": "Jio Platforms的IPO将是印度科技和电信领域的重大事件，可能释放巨大价值并吸引更多外国投资。其成功或为其他大型印度科技公司树立先例。",
-          "bull_case": "印度庞大的IPO储备和全球风投强劲反弹，为Jio的大规模上市创造了有利时机。",
-          "bear_case": "地缘政治风险（如“特朗普结束伊朗停火”）可能阻碍投资者，推迟印度大型IPO。"
-        }
-      },
-      "news": [
-        {
-          "title": "Inside India newsletter: India's $50 billion worth of IPOs at risk as Trump ends Iran ceasefire - CNBC",
-          "url": "https://www.cnbc.com/2026/07/09/india-ipo-50-billion-jio-phonepe-nse.html"
-        },
-        {
-          "title": "JPMorgan sees SpaceX-Tesla merger as strategically coherent despite hurdles - Crypto Briefing",
-          "url": "https://cryptobriefing.com/jpmorgan-sees-spacex-tesla-merger-as-strategically-coherent-despite-hurdles/"
-        },
-        {
-          "title": "SpaceX Stock Is Down 26% From Its Post-IPO High. History Says a $20,000 Investment Will Be Worth This Much by Mid-2027. - The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/09/spacex-stock-down-20000-worth-this-much-mid-2027/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2737350",
-        "question": "Will Neuralink's valuation hit (HIGH) $60B by July 31?",
-        "probability": 0.1195,
-        "change_24h": 0.0885,
-        "volume_24h": 1651.51,
-        "score": 91.72,
-        "url": "https://polymarket.com/event/will-neuralinks-valuation-hit-high-60-by-july-31-20260629184735354"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Will Neuralink's valuation hit (HIGH) $60B by July 31?",
+          "title": "Will Core CPI MoM be 0.2% in July?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1059,339 +179,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Neuralink's valuation hit (HIGH) $60B by July 31?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "PitchBook: US venture funding hits $412.7B in first half as AI deals dominate - SiliconANGLE",
-          "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"
-        },
-        {
-          "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
-          "url": "https://www.cnbc.com/2026/07/08/thursdays-stock-stories-whats-likely-to-move-the-market.html"
-        },
-        {
-          "title": "Lovable reportedly in talks to double its valuation to $13.2B - TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1697038",
-        "question": "Will the Fed decide differently in the next three decisions (Apr–Jun–Jul)?",
-        "probability": 0.2295,
-        "change_24h": 0.081,
-        "volume_24h": 29361.6,
-        "score": 85.47,
-        "url": "https://polymarket.com/event/will-the-fed-decide-differently-in-the-next-three-decisions-aprjunjul"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Fed Division Fuels Policy Change Bets",
-          "summary": "The probability of the Fed deciding differently in the next three meetings (Apr–Jun–Jul) rose to 23% (+8.1%), driven by recently released Fed meeting minutes revealing deep divisions among officials on future interest rate paths. This internal 'family fight' over rates increases uncertainty about maintaining the status quo.",
-          "drivers": [
-            "Fed minutes show deep official division on future rates.",
-            "Some officials indicated a potential rate hike this year.",
-            "Increased uncertainty regarding Fed's monetary policy consensus."
-          ],
-          "why_matters": "Fed policy dictates borrowing costs and economic growth, impacting global markets, businesses, and consumer spending.",
-          "bull_case": "Persistent inflation or a significant economic shock will force the divided Fed to either hike or cut rates.",
-          "bear_case": "Fed officials will ultimately maintain current interest rates due to continued policy uncertainty and lack of clear consensus."
-        },
-        "zh": {
-          "title": "美联储分歧推高政策变动预期",
-          "summary": "美联储未来三次会议（4-7月）采取不同决策的概率升至23%（+8.1%），主要受最新公布的美联储会议纪要驱动，纪要显示官员们对未来利率路径存在严重分歧。这种内部“家庭争吵”增加了维持现状的不确定性。",
-          "drivers": [
-            "美联储纪要揭示官员对利率路径严重分歧。",
-            "部分官员暗示今年可能加息以应对通胀。",
-            "美联储货币政策共识的不确定性增加。"
-          ],
-          "why_matters": "美联储政策决定直接影响借贷成本、经济增长和通货膨胀，从而影响全球企业和消费者。",
-          "bull_case": "持续通胀或重大经济冲击将迫使分歧的美联储加息或降息。",
-          "bear_case": "美联储官员最终将因持续的政策不确定性而维持当前利率水平。"
-        }
-      },
-      "news": [
-        {
-          "title": "Fed meeting minutes to show 'family fight' over rates. The squabble could drag on for a while - CNBC",
-          "url": "https://www.cnbc.com/2026/07/08/with-minutes-due-feds-family-fight-over-interest-rates-could-drag-on.html"
-        },
-        {
-          "title": "Fed officials were split on direction of interest rates at last meeting, minutes show - CNBC",
-          "url": "https://www.cnbc.com/2026/07/08/fed-minutes-june-2026-.html"
-        },
-        {
-          "title": "Federal Reserve: No near-term hikes signalled – Commerzbank - Bitget",
-          "url": "https://www.bitget.com/amp/news/detail/12560605499354"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "1654958",
-        "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "probability": 0.775,
-        "change_24h": -0.08,
-        "volume_24h": 289740.72,
-        "score": 85.46,
-        "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Fed Rate Hike Fears Mount",
-          "summary": "The probability of no Fed rate change by July 2026 dropped 8% to 78%, driven by recent Fed meeting minutes revealing deep divisions and officials fretting over persistent inflation risks. CNBC reported officials indicated one hike to address inflation.",
-          "drivers": [
-            "Fed officials fret over inflation risk (KITCO/Reuters).",
-            "Meeting minutes show deep division on inflation path (AP News).",
-            "CNBC reports Fed eyes one rate hike for inflation."
-          ],
-          "why_matters": "Increased rate hike expectations signal ongoing economic uncertainty and potential for tighter financial conditions impacting businesses and consumers.",
-          "bull_case": "Softer US inflation and forecasts for stable Fed funds through early 2027 could lead to no rate changes.",
-          "bear_case": "Persistent inflation concerns and Fed officials weighing rate hikes will likely force a July 2026 increase."
-        },
-        "zh": {
-          "title": "美联储加息担忧加剧",
-          "summary": "市场对美联储在2026年7月会议后不改变利率的预测概率下降8%至78%，主要受最新会议纪要显示官员对通胀风险深感担忧并存在严重分歧驱动。CNBC报道称，官员们暗示将进行一次加息以应对通胀。",
-          "drivers": [
-            "美联储官员担忧通胀风险（KITCO/路透）。",
-            "会议纪要显示通胀路径分歧大（美联社）。",
-            "CNBC称美联储考虑为通胀加息。"
-          ],
-          "why_matters": "市场对加息预期的上升表明经济持续存在不确定性，并可能导致金融环境收紧，影响企业和消费者。",
-          "bull_case": "美国通胀放缓及2027年初前联邦基金利率稳定的预测，可能导致利率保持不变。",
-          "bear_case": "持续的通胀担忧和美联储官员权衡加息，很可能迫使2026年7月加息。"
-        }
-      },
-      "news": [
-        {
-          "title": "Federal Reserve: No near-term hikes signalled – Commerzbank - Bitget",
-          "url": "https://www.bitget.com/amp/news/detail/12560605499354"
-        },
-        {
-          "title": "Fed officials fret over inflation risk, weigh rate hikes - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-07-10/fed-officials-fret-over-inflation-risk-weigh-rate-hikes"
-        },
-        {
-          "title": "Fed minutes: Officials deeply divided over future path of US inflation - AP News",
-          "url": "https://apnews.com/article/federal-reserve-warsh-inflation-3ec0b0c2fe05e3833e324fa522a1882a"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2857365",
-        "question": "Bitcoin Up or Down - July 11, 5AM ET",
-        "probability": 0.585,
-        "change_24h": 0.08,
-        "volume_24h": 10429.9,
-        "score": 84.02,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-july-11-2026-5am-et"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Up or Down - July 11, 5AM ET",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Bitcoin Up or Down - July 11, 5AM ET",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitdeer maintains zero bitcoin holdings, sells 227.5 BTC this week - Bitget",
-          "url": "https://www.bitget.com/amp/news/detail/12560605500396"
-        },
-        {
-          "title": "Bitcoin pullback keeps July rally alive as altcoin breadth weakens - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-07-08/bitcoin-pullback-keeps-july-rally-alive-altcoin-breadth-weakens"
-        },
-        {
-          "title": "Bitcoin reclaims the cloud as Ethereum and Altcoin rotation strengthen - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-07-10/bitcoin-reclaims-cloud-ethereum-and-altcoin-rotation-strengthen"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2300174",
-        "question": "Will Neuralink's valuation hit (HIGH) $100B by December 31?",
-        "probability": 0.135,
-        "change_24h": -0.08,
-        "volume_24h": 3458.09,
-        "score": 83.54,
-        "url": "https://polymarket.com/event/will-neuralinks-valuation-hit-high-100b-by-december-31"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Will Neuralink's valuation hit (HIGH) $100B by December 31?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Neuralink's valuation hit (HIGH) $100B by December 31?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "China warns of security risks in Anthropic’s AI tool, impacting market confidence - Crypto Briefing",
-          "url": "https://cryptobriefing.com/china-warns-of-security-risks-in-anthropics-ai-tool-impacting-market-confidence/"
-        },
-        {
-          "title": "PitchBook: US venture funding hits $412.7B in first half as AI deals dominate - SiliconANGLE",
-          "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"
-        },
-        {
-          "title": "Lovable reportedly in talks to double its valuation to $13.2B - TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2300261",
-        "question": "Will Kraken's valuation hit (HIGH) $15B by December 31?",
-        "probability": 0.455,
-        "change_24h": 0.08,
-        "volume_24h": 1924.68,
-        "score": 83.28,
-        "url": "https://polymarket.com/event/will-krakens-valuation-hit-high-15b-by-december-31"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Kraken Valuation Rises Amidst Broader Private Market Optimism",
-          "summary": "Kraken's probability to hit a $15B valuation by December 31 increased by 8% to 46%. This movement appears driven by a general positive sentiment in private market valuations, despite no direct news for Kraken crypto.",
-          "drivers": [
-            "Lovable's reported talks for $13.2B valuation.",
-            "Blue Origin's plan to raise $10B from VCs.",
-            "Sustained VC appetite for high-growth private companies."
-          ],
-          "why_matters": "The upward trend suggests investors are extrapolating strong private market activity to Kraken, indicating potential for significant growth in the crypto exchange sector.",
-          "bull_case": "Strong VC appetite for high valuations in private tech, exemplified by Lovable and Blue Origin, could extend to leading crypto platforms like Kraken.",
-          "bear_case": "Lack of direct positive news for Kraken crypto and unrelated negative AI news (Anthropic) could temper sustained valuation growth."
-        },
-        "zh": {
-          "title": "Kraken估值上升，受私募市场乐观情绪提振",
-          "summary": "Kraken在12月31日前达到150亿美元估值的可能性上升8%至46%。此次上涨似乎受到私募市场估值普遍乐观情绪的推动，尽管没有关于Kraken加密业务的直接利好消息。",
-          "drivers": [
-            "Lovable据报洽谈132亿美元估值。",
-            "蓝色起源计划向风投募资100亿美元。",
-            "风投对高增长私营企业持续看好。"
-          ],
-          "why_matters": "市场上涨表明投资者将私募市场的强劲活动推断至Kraken，预示着加密交易领域可能实现显著增长。",
-          "bull_case": "风投对Lovable和蓝色起源等私营科技公司的高估值热情，可能蔓延至Kraken等领先加密平台。",
-          "bear_case": "缺乏Kraken加密业务的直接利好消息，以及不相关的AI负面新闻（Anthropic），可能抑制估值持续增长。"
-        }
-      },
-      "news": [
-        {
-          "title": "China warns of security risks in Anthropic’s AI tool, impacting market confidence - Crypto Briefing",
-          "url": "https://cryptobriefing.com/china-warns-of-security-risks-in-anthropics-ai-tool-impacting-market-confidence/"
-        },
-        {
-          "title": "Lovable reportedly in talks to double its valuation to $13.2B - TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
-        },
-        {
-          "title": "VC’s space appetite outlives SpaceX’s IPO as Blue Origin eyes $10B raise - PitchBook",
-          "url": "https://pitchbook.com/news/articles/vcs-space-appetite-outlives-spacexs-ipo-as-blue-origin-eyes-10b-raise"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2299995",
-        "question": "Will OpenAI's valuation hit (LOW) $600B by December 31?",
-        "probability": 0.085,
-        "change_24h": -0.07,
-        "volume_24h": 5089.43,
-        "score": 73.71,
-        "url": "https://polymarket.com/event/will-openais-valuation-hit-low-600b-by-december-31-187-246"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will OpenAI's valuation hit (LOW) $600B by December 31?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will OpenAI's valuation hit (LOW) $600B by December 31?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "BofA extends first $520 million loan to OpenAI ahead of IPO, source says - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-07-08/bofa-extends-first-520-million-loan-openai-ahead-ipo-source-says"
-        },
-        {
-          "title": "PitchBook: US venture funding hits $412.7B in first half as AI deals dominate - SiliconANGLE",
-          "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"
-        },
-        {
-          "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits - TechCrunch",
-          "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2810505",
-        "question": "Will Core CPI MoM be 0.1% in July?",
-        "probability": 0.245,
-        "change_24h": -0.07,
-        "volume_24h": 2554.2,
-        "score": 73.41,
-        "url": "https://polymarket.com/event/will-core-cpi-mom-be-0pt1-in-july-20260705181349575"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Will Core CPI MoM be 0.1% in July?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Core CPI MoM be 0.1% in July?",
+          "title": "Will Core CPI MoM be 0.2% in July?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1416,109 +204,1171 @@
     },
     {
       "market": {
-        "id": "2846148",
-        "question": "Will Russia capture Oleksiievo-Druzhkivka by September 30, 2026?",
-        "probability": 0.065,
-        "change_24h": -0.065,
-        "volume_24h": 55661.45,
-        "score": 69.75,
-        "url": "https://polymarket.com/event/will-russia-capture-oleksiievo-druzhkivka-by-september-30-2026-20260706174556070"
+        "id": "2607737",
+        "question": "Netflix (NFLX) Q2 operating margin 32%-34%?",
+        "probability": 0.805,
+        "change_24h": 0.345,
+        "volume_24h": 3014.38,
+        "score": 348.48,
+        "url": "https://polymarket.com/event/netflix-nflx-q2-operating-margin-32-34-20260618153359824"
       },
       "insight": {
-        "category": "geopolitics",
+        "category": "sports",
         "en": {
-          "title": "Russia's Capture Odds Plummet",
-          "summary": "The probability of Russia capturing Oleksiievo-Druzhkivka by September 2026 dropped to 6% following reports of inflated Russian battlefield successes and strengthened Ukrainian defenses. Key drivers include a Russian general's admission of Kremlin propaganda and Trump granting Patriot licenses to Kyiv.",
+          "title": "Netflix (NFLX) Q2 operating margin 32%-34%?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Russian general admits Kremlin inflates battlefield successes.",
-            "Trump grants Kyiv licenses for domestic Patriot production.",
-            "Ukrainian drone strikes target Russian refineries and Azov port."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This significant drop reflects growing skepticism about Russia's offensive capabilities and highlights Ukraine's strengthening defensive posture, potentially signaling a prolonged stalemate or shift in war dynamics.",
-          "bull_case": "A major Russian breakthrough or collapse of Ukrainian defenses could rapidly increase capture odds.",
-          "bear_case": "Continued Ukrainian military aid and Russia's internal struggles make significant territorial gains highly improbable."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "俄军占领可能性骤降",
-          "summary": "俄罗斯占领奥列克西耶沃-德鲁日基夫卡的概率降至6%，主要受俄军战报夸大和乌克兰防御加强影响。关键驱动因素包括俄将军承认克里姆林宫虚报战果，以及特朗普批准向基辅提供爱国者系统生产许可。",
+          "title": "Netflix (NFLX) Q2 operating margin 32%-34%?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "俄将军承认克宫夸大战场战果。",
-            "特朗普批准基辅国内生产爱国者系统。",
-            "乌克兰无人机袭击俄炼油厂及港口。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这一显著下降反映出对俄罗斯进攻能力的日益怀疑，并凸显乌克兰防御态势的加强，可能预示着战争的长期僵持或动态转变。",
-          "bull_case": "俄军若取得重大突破或乌克兰防线崩溃，将迅速推高占领概率。",
-          "bear_case": "乌克兰持续获得军事援助及俄罗斯内部困境，使得俄军取得重大领土进展的可能性极低。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "Russian Offensive Campaign Assessment, July 9, 2026 - Institute for the Study of War",
-          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-9-2026/"
+          "title": "Should You Buy Netflix Stock Before July 16? Here's My Honest Answer - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/10/should-you-buy-netflix-stock-before-july-16-heres/"
         },
         {
-          "title": "Ukrainian drone strikes hit southern Russian refineries and Azov port, officials say - Euronews.com",
-          "url": "https://www.euronews.com/my-europe/2026/07/10/ukrainian-drone-strikes-hit-southern-russian-refineries-and-azov-port-officials-say"
+          "title": "TV Tune-In Realities Hit Netflix In The Face 07/09/2026 - MediaPost",
+          "url": "https://www.mediapost.com/publications/article/416424/tv-tune-in-realities-hit-netflix-in-the-face.html"
         },
         {
-          "title": "Pantoja and Van's UFC Title Rematch Scheduled for September 2026 - Telecom Asia Sport",
-          "url": "https://www.telecomasia.net/news/mma/pantoja-and-van-s-ufc-title-rematch-scheduled-for-september-2026/"
+          "title": "Delta Air Lines CEO Ed Bastian on Q2 earnings beat: 'It was a challenging quarter' - CNBC",
+          "url": "https://www.cnbc.com/video/2026/07/10/delta-air-lines-ceo-ed-bastian-on-q2-earnings-beat-it-was-a-challenging-quarter.html"
         }
       ]
     },
     {
       "market": {
-        "id": "567688",
-        "question": "Netanyahu out by end of 2026?",
-        "probability": 0.375,
-        "change_24h": 0.065,
-        "volume_24h": 10003.58,
-        "score": 69.0,
-        "url": "https://polymarket.com/event/netanyahu-out-before-2027-684-719-226-657"
+        "id": "2871319",
+        "question": "Will the price of Bitcoin be above $62,000 on July 17?",
+        "probability": 0.795,
+        "change_24h": 0.315,
+        "volume_24h": 19310.33,
+        "score": 319.29,
+        "url": "https://polymarket.com/event/bitcoin-above-62k-on-july-17-2026"
       },
       "insight": {
-        "category": "politics",
+        "category": "crypto",
         "en": {
-          "title": "Netanyahu's Exit Odds Rise",
-          "summary": "The probability of Netanyahu being out by end of 2026 increased by 6.5% to 38%, primarily driven by a new Channel 13 poll showing former IDF chief Gadi Eisenkot's party ahead of Likud for the first time. This reflects growing political vulnerability and eroding support for the Prime Minister.",
+          "title": "Will the price of Bitcoin be above $62,000 on July 17?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "New poll shows Gadi Eisenkot ahead of Netanyahu's Likud.",
-            "Analysis article discusses Netanyahu potentially losing an election.",
-            "Rahm Emanuel criticizes Netanyahu's leadership as a 'dead end'."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "Netanyahu's political future significantly impacts Israel's domestic policy, regional conflicts, and international relations, particularly with the US.",
-          "bull_case": "Recent polls indicate a tangible path for opposition leader Gadi Eisenkot to defeat Netanyahu in an election.",
-          "bear_case": "Netanyahu has a long history of political comebacks and could leverage security events to consolidate support."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "内塔尼亚胡下台概率上升",
-          "summary": "内塔尼亚胡在2026年底前下台的概率上升了6.5%至38%，主要原因是最新Channel 13民调显示前国防军总参谋长加迪·艾森科特的政党首次领先利库德集团。这反映了总理日益增长的政治脆弱性和支持率的下降。",
+          "title": "Will the price of Bitcoin be above $62,000 on July 17?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "新民调显示艾森科特领先内塔尼亚胡的利库德集团。",
-            "分析文章探讨内塔尼亚胡可能输掉选举。",
-            "拉姆·伊曼纽尔批评内塔尼亚胡的领导是“死胡同”。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "内塔尼亚胡的政治未来将深刻影响以色列的国内政策、地区冲突以及与美国等国的国际关系。",
-          "bull_case": "最新民调显示反对党领袖艾森科特在选举中击败内塔尼亚胡的可能性增加。",
-          "bear_case": "内塔尼亚胡在政治上韧性十足，并可能利用安全事件巩固其支持。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "Trump and Netanyahu speak about Erdogan, US strikes on Iran - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/trump-and-netanyahu-speak-about-erdogan-us-strikes-on-iran/"
+          "title": "Bitcoin Rallies Toward $65,000 Level As Multiple Factors Drive Gains - Forbes",
+          "url": "https://www.forbes.com/sites/digital-assets/2026/07/10/bitcoin-rallies-toward-65000-level-as-multiple-factors-drive-gains/"
         },
         {
-          "title": "Netanyahu: IDF will remain in Lebanon as long as needed, we'll maintain regional air superiority - The Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-idf-will-remain-in-lebanon-as-long-as-needed-well-maintain-regional-air-superiority/"
+          "title": "Bitcoin reclaims the cloud as Ethereum and Altcoin rotation strengthen - KITCO",
+          "url": "https://www.kitco.com/opinion/2026-07-10/bitcoin-reclaims-cloud-ethereum-and-altcoin-rotation-strengthen"
         },
         {
-          "title": "Analysis | If Netanyahu Loses the Election, Will He Go Full Trump? - Haaretz",
-          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-07-09/ty-article-magazine/.premium/analysis-if-netanyahu-loses-the-election-will-he-go-full-trump/0000019f-473f-d4a4-afff-e7bfdcf60000"
+          "title": "Is this Bitcoin's worst bear market ever? The numbers tell a surprising story - Yahoo Finance Singapore",
+          "url": "https://sg.finance.yahoo.com/news/bitcoins-worst-bear-market-ever-103000717.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2807539",
+        "question": "Will the price of Ethereum be between $1,700 and $1,800 on July 12?",
+        "probability": 0.21,
+        "change_24h": -0.305,
+        "volume_24h": 3076.7,
+        "score": 308.49,
+        "url": "https://polymarket.com/event/will-the-price-of-ethereum-be-between-1700-1800-on-july-12-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will the price of Ethereum be between $1,700 and $1,800 on July 12?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the price of Ethereum be between $1,700 and $1,800 on July 12?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bitcoin mining company Cango to consolidate shares at a 10:1 ratio on July 20 - Bitget",
+          "url": "https://www.bitget.com/amp/news/detail/12560605499406"
+        },
+        {
+          "title": "Your next Forever stamp purchase will soon cost more. See the new price - USA Today",
+          "url": "https://www.usatoday.com/story/news/nation/2026/07/11/usps-stamp-price-increase-2026-forever-stamps/90849462007/"
+        },
+        {
+          "title": "Canadian Dollar: Firmer against US Dollar – Societe Generale - Bitget",
+          "url": "https://www.bitget.com/amp/news/detail/12560605499366"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2677575",
+        "question": "Will Meta Platforms, Inc. (META) hit (HIGH) $680 in July?",
+        "probability": 0.5255,
+        "change_24h": -0.2575,
+        "volume_24h": 755.03,
+        "score": 260.38,
+        "url": "https://polymarket.com/event/will-meta-reach-680-in-july-2026"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $680 in July?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $680 in July?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Traders fall back in love with Meta. Here's where bulls see it going - CNBC",
+          "url": "https://www.cnbc.com/2026/07/10/traders-fall-back-in-love-with-meta-heres-where-bulls-see-it-going.html"
+        },
+        {
+          "title": "Meta overtakes Tesla in market value. Here’s why both stocks are still tanking - Forbes Australia",
+          "url": "https://www.forbes.com.au/news/investing/meta-overtakes-tesla-in-market-value/"
+        },
+        {
+          "title": "Meta Stock Surges as Hidden AI Cost Breakthrough Stuns Wall Street - Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-stock-surges-hidden-ai-131256019.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1215429",
+        "question": "Will UK annual GDP growth in 2026 be between 0% and 1%?",
+        "probability": 0.26,
+        "change_24h": -0.235,
+        "volume_24h": 2429.21,
+        "score": 238.39,
+        "url": "https://polymarket.com/event/will-uk-annual-gdp-growth-in-2026-be-between-0-and-1"
+      },
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "Will UK annual GDP growth in 2026 be between 0% and 1%?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will UK annual GDP growth in 2026 be between 0% and 1%?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Hawkish Fed minutes indicate some support for rate increases - Financial Times",
+          "url": "https://www.ft.com/content/c95a844a-1a3d-4743-b564-0fb1315f22e8"
+        },
+        {
+          "title": "America In Focus: Fed officials divided on US inflation views; US home prices hit all-time high - AP News",
+          "url": "https://apnews.com/article/inflation-economy-iran-trump-unemployment-6e3bec84857235030c5aa6859869f33f"
+        },
+        {
+          "title": "IMF Cuts 2026 Global Growth to 3% Amid Geopolitical Tension - Whalesbook",
+          "url": "https://www.whalesbook.com/news/English/economy/IMF-Cuts-2026-Global-Growth-to-3percent-Amid-Geopolitical-Tension/6a51ca00bfbc3f404223dfb0"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2760545",
+        "question": "Will the median home value in the US be between $419,000 and $426,000 on September 30?",
+        "probability": 0.3915,
+        "change_24h": 0.2085,
+        "volume_24h": 3765.39,
+        "score": 212.08,
+        "url": "https://polymarket.com/event/will-the-median-home-value-in-the-us-be-between-419000-and-426000-on-september-30-20260630175543147"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will the median home value in the US be between $419,000 and $426,000 ",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the median home value in the US be between $419,000 and $426,000 ",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Top 10 Real Estate News: America's Most Interesting Real Estate & Home News - PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/top-10-real-estate-news-americas-most-interesting-real-estate--home-news-302821325.html"
+        },
+        {
+          "title": "Home prices across the U.S. surge to all-time high - CBS News",
+          "url": "https://www.cbsnews.com/news/us-home-prices-all-time-high/"
+        },
+        {
+          "title": "Home prices set a new - and scary - record: ‘Major challenge’ - OregonLive.com",
+          "url": "https://www.oregonlive.com/news/2026/07/home-prices-set-a-new-and-scary-record-major-challenge.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2830883",
+        "question": "Will Revolut's valuation hit (HIGH) $110B by December 31?",
+        "probability": 0.585,
+        "change_24h": 0.185,
+        "volume_24h": 1008.03,
+        "score": 188.0,
+        "url": "https://polymarket.com/event/will-revoluts-valuation-hit-high-110b-by-december-31-20260701011444453"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Will Revolut's valuation hit (HIGH) $110B by December 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Revolut's valuation hit (HIGH) $110B by December 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Revolut hires Kuba Fast as CEO of Revolut Bank UAB - FinTech Futures",
+          "url": "https://www.fintechfutures.com/job-cuts-new-hires/revolut-bank-uab-ceo-kuba-fast-appointment"
+        },
+        {
+          "title": "Lovable reportedly in talks to double its valuation to $13.2B - TechCrunch",
+          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
+        },
+        {
+          "title": "Maine Democrat Platner suspends Senate bid, denies allegations - Reuters",
+          "url": "https://www.reuters.com/video/watch/idRW645709072026RP1/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2734708",
+        "question": "Will Jio Platforms IPO by December 31, 2026?",
+        "probability": 0.325,
+        "change_24h": -0.16,
+        "volume_24h": 2394.56,
+        "score": 163.38,
+        "url": "https://polymarket.com/event/will-jio-platforms-ipo-by-december-31-2026-20260629175908109"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Jio Platforms IPO by December 31, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Jio Platforms IPO by December 31, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Inside India newsletter: India's $50 billion worth of IPOs at risk as Trump ends Iran ceasefire - CNBC",
+          "url": "https://www.cnbc.com/2026/07/09/india-ipo-50-billion-jio-phonepe-nse.html"
+        },
+        {
+          "title": "JPMorgan sees SpaceX-Tesla merger as strategically coherent despite hurdles - Crypto Briefing",
+          "url": "https://cryptobriefing.com/jpmorgan-sees-spacex-tesla-merger-as-strategically-coherent-despite-hurdles/"
+        },
+        {
+          "title": "SpaceX Stock Is Down 26% From Its Post-IPO High. History Says a $20,000 Investment Will Be Worth This Much by Mid-2027. - The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/09/spacex-stock-down-20000-worth-this-much-mid-2027/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2600273",
+        "question": "Progressive (PGR) Q2 combined ratio <86%?",
+        "probability": 0.27,
+        "change_24h": 0.145,
+        "volume_24h": 2824.95,
+        "score": 148.45,
+        "url": "https://polymarket.com/event/progressive-pgr-q2-combined-ratio-86-20260618154842185"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Progressive Profit Outlook Rises",
+          "summary": "Probability for Progressive's Q2 combined ratio <86% surged to 27% (+14.5%), driven by a positive analyst outlook for the insurance sector. Keefe, Bruyette & Woods' bullish forecast for The Hartford (HIG) suggests improving industry-wide underwriting conditions.",
+          "drivers": [
+            "Keefe, Bruyette & Woods analyst's bullish forecast for The Hartford (HIG).",
+            "Implied positive sentiment for the broader insurance industry's underwriting profitability."
+          ],
+          "why_matters": "A combined ratio below 86% indicates strong underwriting performance, directly impacting Progressive's profitability and investor confidence.",
+          "bull_case": "Strong premium rate increases and lower-than-expected claims severity will drive Progressive's Q2 combined ratio below 86%.",
+          "bear_case": "Unexpected increases in claims frequency or severity, or competitive pricing pressures, will push the combined ratio above 86%."
+        },
+        "zh": {
+          "title": "Progressive盈利前景看涨",
+          "summary": "Progressive二季度综合成本率低于86%的概率升至27%（+14.5%），主要受保险行业分析师乐观预期推动。Keefe, Bruyette & Woods对哈特福德保险（HIG）的看涨预测，暗示行业承保状况正在改善。",
+          "drivers": [
+            "Keefe, Bruyette & Woods分析师看好哈特福德保险（HIG）。",
+            "暗示保险行业整体承保盈利能力改善。"
+          ],
+          "why_matters": "综合成本率低于86%表明承保业绩强劲，直接影响Progressive的盈利能力和投资者信心。",
+          "bull_case": "强劲保费增长和低理赔将使Progressive二季度综合成本率低于86%。",
+          "bear_case": "理赔意外增加或激烈竞争将使综合成本率高于86%。"
+        }
+      },
+      "news": [
+        {
+          "title": "The Hartford Insurance Group (NYSE:HIG) Stock Price Expected to Rise, Keefe, Bruyette & Woods Analyst Says - InsuranceNewsNet",
+          "url": "https://insurancenewsnet.com/oarticle/the-hartford-insurance-group-nysehig-stock-price-expected-to-rise-keefe-bruyette-woods-analyst-says"
+        },
+        {
+          "title": "Cango sets 10-for-1 reverse stock split effective July 20 - Investing.com",
+          "url": "https://www.investing.com/news/company-news/cango-sets-10for1-reverse-stock-split-effective-july-20-93CH-4785715"
+        },
+        {
+          "title": "Gold price loses its grip: Q2 mining capex and project signals for engineers - Geomechanics.io",
+          "url": "https://www.geomechanics.io/news/article/gold-price-loses-its-grip-q2-mining-capex-and-project-signals-for-engineers"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2300174",
+        "question": "Will Neuralink's valuation hit (HIGH) $100B by December 31?",
+        "probability": 0.075,
+        "change_24h": -0.14,
+        "volume_24h": 4572.12,
+        "score": 143.66,
+        "url": "https://polymarket.com/event/will-neuralinks-valuation-hit-high-100b-by-december-31"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Will Neuralink's valuation hit (HIGH) $100B by December 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Neuralink's valuation hit (HIGH) $100B by December 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "PitchBook: US venture funding hits $412.7B in first half as AI deals dominate - SiliconANGLE",
+          "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"
+        },
+        {
+          "title": "Lovable reportedly in talks to double its valuation to $13.2B - TechCrunch",
+          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
+        },
+        {
+          "title": "VC’s space appetite outlives SpaceX’s IPO as Blue Origin eyes $10B raise - PitchBook",
+          "url": "https://pitchbook.com/news/articles/vcs-space-appetite-outlives-spacexs-ipo-as-blue-origin-eyes-10b-raise"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2698549",
+        "question": "Will 60 ships transit the Strait of Hormuz on any day by July 31, 2026?",
+        "probability": 0.215,
+        "change_24h": 0.095,
+        "volume_24h": 21250.08,
+        "score": 99.33,
+        "url": "https://polymarket.com/event/will-60-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-2026-20260626152655082-171-832"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will 60 ships transit the Strait of Hormuz on any day by July 31, 2026",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will 60 ships transit the Strait of Hormuz on any day by July 31, 2026",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Tanker traffic slows in Strait of Hormuz after US and Iran clashes - Reuters",
+          "url": "https://www.reuters.com/business/energy/tanker-traffic-slows-strait-hormuz-after-us-iran-clashes-2026-07-10/"
+        },
+        {
+          "title": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials - Reuters",
+          "url": "https://www.reuters.com/world/middle-east/us-insists-iran-commit-stopping-attacks-hormuz-strait-say-us-officials-2026-07-10/"
+        },
+        {
+          "title": "Strait of Hormuz: What has happened since the US-Iran MoU on June 17? - Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/9/strait-of-hormuz-what-has-happened-since-the-us-iran-mou-on-june-17"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2677457",
+        "question": "Will Microsoft Corporation (MSFT) hit (HIGH) $465 in July?",
+        "probability": 0.0115,
+        "change_24h": -0.095,
+        "volume_24h": 1185.0,
+        "score": 98.07,
+        "url": "https://polymarket.com/event/will-msft-reach-465-in-july-2026"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Will Microsoft Corporation (MSFT) hit (HIGH) $465 in July?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Microsoft Corporation (MSFT) hit (HIGH) $465 in July?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "How SpaceX Stock Can Hit $900 - Barron's",
+          "url": "https://www.barrons.com/articles/spacex-stock-price-analyst-target-7a020bc8"
+        },
+        {
+          "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
+          "url": "https://www.cnbc.com/2026/07/08/thursdays-stock-stories-whats-likely-to-move-the-market.html"
+        },
+        {
+          "title": "BTU UPCOMING DEADLINE : The Gross Law Firm Alerts Peabody - GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/07/10/3325508/0/en/btu-upcoming-deadline-the-gross-law-firm-alerts-peabody-energy-corporation-stockholders-of-securities-class-action-contact-the-firm.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2643405",
+        "question": "Will the US announce a blockade on Iran by July 31?",
+        "probability": 0.145,
+        "change_24h": -0.09,
+        "volume_24h": 140088.39,
+        "score": 95.15,
+        "url": "https://polymarket.com/event/will-the-us-announce-a-blockade-on-iran-by-july-31-20260622191116912"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will the US announce a blockade on Iran by July 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the US announce a blockade on Iran by July 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Trump threatens to reimpose Strait of Hormuz blockade - Sky News Australia",
+          "url": "https://www.skynews.com.au/world-news/global-affairs/trump-threatens-to-reimpose-strait-of-hormuz-blockade/video/4dd8d61e066afe6051a254f334ae1645"
+        },
+        {
+          "title": "Iran and US to continue talks, but ceasefire is ‘OVER,’ Trump says - Politico",
+          "url": "https://www.politico.com/news/2026/07/10/donald-trump-iran-ceasefire-over-00993123"
+        },
+        {
+          "title": "Trump hints at further Iran negotiations after exchange of fire over Hormuz - Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/10/trump-says-us-has-agreed-to-continue-iran-talks-but-ceasefire-over"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2674078",
+        "question": "Will Apple be the second-largest company in the world by market cap on July 31?",
+        "probability": 0.675,
+        "change_24h": 0.085,
+        "volume_24h": 7327.25,
+        "score": 88.86,
+        "url": "https://polymarket.com/event/will-apple-be-the-second-largest-company-in-the-world-by-market-cap-on-july-31-20260624192749112"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Apple be the second-largest company in the world by market cap on",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Apple be the second-largest company in the world by market cap on",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets - CNBC",
+          "url": "https://www.cnbc.com/2026/07/09/meet-sk-hynix-the-trillion-dollar-chipmaker-debuting-on-us-markets-.html"
+        },
+        {
+          "title": "How Apple stock rode the AI rollercoaster to record highs in 1 chart - CNBC",
+          "url": "https://www.cnbc.com/2026/07/10/how-apple-stock-rode-the-ai-rollercoaster-to-record-highs-in-1-chart.html"
+        },
+        {
+          "title": "Apple shares approach record high - CNBC",
+          "url": "https://www.cnbc.com/video/2026/07/09/apple-shares-approach-record-high.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2845811",
+        "question": "Over $25M committed to the Credible public sale?",
+        "probability": 0.58,
+        "change_24h": -0.085,
+        "volume_24h": 6967.97,
+        "score": 88.84,
+        "url": "https://polymarket.com/event/over-25m-committed-to-the-credible-public-sale-20260708134325651"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Over $25M committed to the Credible public sale?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Over $25M committed to the Credible public sale?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Jazz Patent Suit Over Xyrem Survives Dismissal In NJ - Law360",
+          "url": "https://www.law360.com/healthcare-authority/deals-corporate-governance/articles/2498764/jazz-patent-suit-over-xyrem-survives-dismissal-in-nj"
+        },
+        {
+          "title": "Today’s Papers – Inter welcome Khalaili, big Fiorentina deal - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/today-papers-inter-welcome-khalaili-074000755.html"
+        },
+        {
+          "title": "SK Hynix Gains Some 13% in U.S. Trading After $26.5 Billion Stock Sale - Bitget",
+          "url": "https://www.bitget.com/amp/news/detail/12560605500271"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2686769",
+        "question": "Iran full airspace closure by July 15?",
+        "probability": 0.0505,
+        "change_24h": -0.0795,
+        "volume_24h": 216115.02,
+        "score": 84.83,
+        "url": "https://polymarket.com/event/iran-full-airspace-closure-by-july-15-20260625195254149"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Iran full airspace closure by July 15?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Iran full airspace closure by July 15?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Masses gather in Iraq’s holy Shiite cities as Khamenei funeral frenzy crosses border - The Times of Israel",
+          "url": "https://www.timesofisrael.com/masses-gather-in-iraqs-holy-shiite-cities-as-khamenei-funeral-frenzy-crosses-border/amp/"
+        },
+        {
+          "title": "Iran to close Strait of Hormuz as it vows mass retaliation against US attacks: report - New York Post",
+          "url": "https://nypost.com/2026/07/08/world-news/iran-to-close-strait-of-hormuz-as-it-vows-mass-retaliation-against-us-report/"
+        },
+        {
+          "title": "Trump demands ‘public statement’ from Iran in ongoing negotiations - Politico",
+          "url": "https://www.politico.com/news/2026/07/10/trump-demands-public-statement-from-iran-in-ongoing-negotiations-00993749"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2300261",
+        "question": "Will Kraken's valuation hit (HIGH) $15B by December 31?",
+        "probability": 0.455,
+        "change_24h": 0.08,
+        "volume_24h": 1925.44,
+        "score": 83.28,
+        "url": "https://polymarket.com/event/will-krakens-valuation-hit-high-15b-by-december-31"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Tech Valuations Soar, Lifting Kraken Hopes",
+          "summary": "Kraken's $15B valuation probability rose 8% to 46%, driven by reports of other tech startups achieving high valuations. Lovable, an AI startup, is reportedly in talks to double its valuation to $13.2B, signaling a robust private funding market.",
+          "drivers": [
+            "Lovable AI startup eyes $13.2B valuation",
+            "Strong VC appetite for high-growth tech",
+            "Broader positive private market sentiment"
+          ],
+          "why_matters": "This movement reflects investor confidence in high valuations for private tech companies, potentially indicating a favorable environment for Kraken to achieve its target. The news about the Seattle Kraken hockey team is irrelevant to this market.",
+          "bull_case": "Robust private tech funding, exemplified by Lovable's $13.2B valuation, suggests Kraken could attract similar high investment.",
+          "bear_case": "Lack of direct positive news for Kraken itself and potential crypto market volatility could hinder its valuation growth."
+        },
+        "zh": {
+          "title": "科技估值飙升，提振Kraken预期",
+          "summary": "Kraken估值达150亿美元的概率上升8%至46%，主要受其他科技初创公司获得高估值的报道驱动。瑞典AI初创公司Lovable据报正洽谈将其估值翻倍至132亿美元，预示着强劲的私募融资市场。",
+          "drivers": [
+            "Lovable AI初创公司估值目标132亿美元",
+            "风投对高增长科技公司兴趣浓厚",
+            "私募市场整体积极情绪"
+          ],
+          "why_matters": "这一变化反映了投资者对私营科技公司高估值的信心，可能预示着Kraken达到其目标估值的有利环境。关于西雅图海怪冰球队的新闻与此市场无关。",
+          "bull_case": "强劲的私募科技融资市场，如Lovable的132亿美元估值，表明Kraken可能吸引类似高额投资。",
+          "bear_case": "缺乏Kraken自身的直接利好消息，加上加密市场潜在波动，可能阻碍其估值增长。"
+        }
+      },
+      "news": [
+        {
+          "title": "Lovable reportedly in talks to double its valuation to $13.2B - TechCrunch",
+          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
+        },
+        {
+          "title": "VC’s space appetite outlives SpaceX’s IPO as Blue Origin eyes $10B raise - PitchBook",
+          "url": "https://pitchbook.com/news/articles/vcs-space-appetite-outlives-spacexs-ipo-as-blue-origin-eyes-10b-raise"
+        },
+        {
+          "title": "Kraken's Ville Ottavainen: Inks one-year deal - CBS Sports",
+          "url": "https://www.cbssports.com/fantasy/hockey/news/krakens-ville-ottavainen-inks-one-year-deal/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2774056",
+        "question": "Strait of Hormuz traffic returns to normal by August 31?",
+        "probability": 0.245,
+        "change_24h": 0.07,
+        "volume_24h": 143225.21,
+        "score": 75.16,
+        "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Strait of Hormuz traffic returns to normal by August 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Strait of Hormuz traffic returns to normal by August 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Strait of Hormuz traffic is constrained again, but analysts say 'the world has adapted' - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/strait-of-hormuz-traffic-is-constrained-again-but-analysts-say-the-world-has-adapted-164641420.html"
+        },
+        {
+          "title": "Hormuz Ship Traffic Grinds to Near Halt After US, Iran Strikes - Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/international/2026/07/09/876793.htm"
+        },
+        {
+          "title": "Strait of Hormuz traffic is near a standstill again, but analysts say 'the world has adapted' - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/strait-of-hormuz-traffic-is-near-a-standstill-again-but-analysts-say-the-world-has-adapted-164641420.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "904737",
+        "question": "Extended FDV above $300M one day after launch?",
+        "probability": 0.405,
+        "change_24h": -0.065,
+        "volume_24h": 39041.73,
+        "score": 69.59,
+        "url": "https://polymarket.com/event/extended-fdv-above-300m-one-day-after-launch-351-333"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Extended FDV above $300M one day after launch?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Extended FDV above $300M one day after launch?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Japan's space agency conducts first test flight for experimental reusable rocket - Greenwich Time",
+          "url": "https://www.greenwichtime.com/news/world/article/japan-s-space-agency-conducts-first-test-flight-22341192.php"
+        },
+        {
+          "title": "SK Hynix hits Nasdaq July 10. SKUU and SKDD are expected to launch on July 13. - markets.businessinsider.com",
+          "url": "https://markets.businessinsider.com/news/stocks/sk-hynix-hits-nasdaq-july-10-skuu-and-skdd-are-expected-to-launch-on-july-13-1036309069"
+        },
+        {
+          "title": "SpaceX Fires All 33 Raptor Engines as Starship Moves One Step Closer to Its Next Launch - The Daily Galaxy",
+          "url": "https://dailygalaxy.com/2026/07/spacex-fires-all-33-raptor-engines/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2677812",
+        "question": "Will S&P 500 (SPY) hit (LOW) $710 in July?",
+        "probability": 0.095,
+        "change_24h": -0.06,
+        "volume_24h": 6323.6,
+        "score": 63.8,
+        "url": "https://polymarket.com/event/will-spy-dip-to-710-in-july-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Will S&P 500 (SPY) hit (LOW) $710 in July?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will S&P 500 (SPY) hit (LOW) $710 in July?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Sumitomo Mitsui Trust Group Inc. Decreases Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-sumitomo-mitsui-trust-group-inc-decreases-stake-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-07-11/"
+        },
+        {
+          "title": "S&P 500, Nasdaq futures edge up as chip stocks gain; US-Iran tensions in focus - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-07-09/sp-500-nasdaq-futures-edge-chip-stocks-gain-us-iran-tensions-focus"
+        },
+        {
+          "title": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-07-10/wall-st-week-ahead-investors-grapple-packed-week-earnings-cpi-iran"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "1972629",
+        "question": "Will the Bank of Korea make no change to the base rate after the July Meeting?",
+        "probability": 0.065,
+        "change_24h": -0.06,
+        "volume_24h": 5302.08,
+        "score": 63.72,
+        "url": "https://polymarket.com/event/will-the-bank-of-korea-make-no-change-to-the-base-rate-after-the-july-meeting"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will the Bank of Korea make no change to the base rate after the July ",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the Bank of Korea make no change to the base rate after the July ",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bank of Canada to hold rates steady in 2026 as inflation risks appear contained: Reuters poll - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-07-10/bank-canada-hold-rates-steady-2026-inflation-risks-appear-contained"
+        },
+        {
+          "title": "The market's looking for one rate hike this year, says John Hancock's Emily Roland - CNBC",
+          "url": "https://www.cnbc.com/video/2026/07/09/the-markets-looking-for-one-rate-hike-john-hancocks-emily-roland.html"
+        },
+        {
+          "title": "Oil prices and stocks hold steadier as calm returns to financial markets worldwide - The Sun Chronicle",
+          "url": "https://www.thesunchronicle.com/business/oil-prices-and-stocks-hold-steadier-as-calm-returns-to-financial-markets-worldwide/article_5e8aefc0-977f-5f16-8cd5-4c63b8d111ae.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2668335",
+        "question": "United Airlines (UAL) Q2 consolidated passenger load factor 84%-85%?",
+        "probability": 0.195,
+        "change_24h": -0.06,
+        "volume_24h": 1648.67,
+        "score": 63.22,
+        "url": "https://polymarket.com/event/united-airlines-ual-q2-consolidated-passenger-load-factor-84-85-20260618193153261"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "United Airlines (UAL) Q2 consolidated passenger load factor 84%-85%?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "United Airlines (UAL) Q2 consolidated passenger load factor 84%-85%?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Delta Q2 earnings top estimates, reinstates full-year guidance as fuel prices bite - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/delta-q2-earnings-top-estimates-reinstates-full-year-guidance-as-fuel-prices-bite-175815467.html"
+        },
+        {
+          "title": "Delta sees fare increases holding even as fuel prices normalise - FlightGlobal",
+          "url": "https://www.flightglobal.com/strategy/2026/07/delta-sees-fare-increases-holding-even-as-fuel-prices-normalise/"
+        },
+        {
+          "title": "Delta expects higher airfare to last, bringing 2026 profit goal in reach, CEO says - CNBC",
+          "url": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2737353",
+        "question": "Will Neuralink's valuation hit (HIGH) $50B by July 31?",
+        "probability": 0.385,
+        "change_24h": 0.06,
+        "volume_24h": 1126.84,
+        "score": 63.05,
+        "url": "https://polymarket.com/event/will-neuralinks-valuation-hit-high-50-by-july-31-20260629184735357"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Neuralink $50B Valuation Probability Jumps",
+          "summary": "Neuralink's probability to hit a $50B valuation by July 31 increased to 38%, driven by a robust US venture funding landscape, with AI deals dominating. This indicates strong investor confidence in advanced tech.",
+          "drivers": [
+            "US venture funding hit $412.7B, AI deals dominate.",
+            "Other tech startups seeing significant valuation increases.",
+            "Positive investor sentiment around Elon Musk's companies."
+          ],
+          "why_matters": "This movement reflects investor confidence in advanced neurotech and the broader high-growth tech sector's funding environment.",
+          "bull_case": "Continued strong venture capital investment in AI/neurotech and positive clinical trial milestones could propel valuation.",
+          "bear_case": "Regulatory delays, slower product development, or a cooling tech investment climate could hinder growth."
+        },
+        "zh": {
+          "title": "Neuralink估值500亿概率飙升",
+          "summary": "Neuralink在7月31日前达到500亿美元估值的概率升至38%，主要受美国风险投资强劲增长，尤其是AI交易主导的推动。这表明投资者对先进科技充满信心。",
+          "drivers": [
+            "美国风投上半年达4127亿美元，AI交易主导。",
+            "其他科技初创公司估值显著增长。",
+            "投资者对埃隆·马斯克旗下公司信心增强。"
+          ],
+          "why_matters": "这一变化反映了投资者对先进神经技术以及高增长科技领域融资环境的信心。",
+          "bull_case": "持续强劲的AI/神经技术风投和积极的临床试验进展将推高估值。",
+          "bear_case": "监管障碍、产品开发缓慢或科技投资降温可能阻碍估值增长。"
+        }
+      },
+      "news": [
+        {
+          "title": "PitchBook: US venture funding hits $412.7B in first half as AI deals dominate - SiliconANGLE",
+          "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"
+        },
+        {
+          "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
+          "url": "https://www.cnbc.com/2026/07/08/thursdays-stock-stories-whats-likely-to-move-the-market.html"
+        },
+        {
+          "title": "Army's $50B MAPS contract hit with wave of protests over evaluation criteria - Washington Technology",
+          "url": "https://www.washingtontechnology.com/contracts/2026/07/armys-50b-maps-contract-hit-wave-protests-over-evaluation-criteria/414655/?oref=wt-homepage-river"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2677762",
+        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $180 in July?",
+        "probability": 0.43,
+        "change_24h": -0.06,
+        "volume_24h": 560.0,
+        "score": 62.75,
+        "url": "https://polymarket.com/event/will-coin-reach-180-in-july-2026"
+      },
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $180 in July?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $180 in July?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Coinbase restores prediction markets trading after technical issue - Reuters",
+          "url": "https://www.reuters.com/business/coinbase-restores-prediction-markets-trading-after-technical-issue-2026-07-09/"
+        },
+        {
+          "title": "Zacks Research Downgrades Sibanye Gold (NYSE:SBSW) to Strong Sell - MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/zacks-research-downgrades-sibanye-gold-nysesbsw-to-strong-sell-2026-07-11/"
+        },
+        {
+          "title": "How SpaceX Stock Can Hit $900 - Barron's",
+          "url": "https://www.barrons.com/articles/spacex-stock-price-analyst-target-7a020bc8"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2846148",
+        "question": "Will Russia capture Oleksiievo-Druzhkivka by September 30, 2026?",
+        "probability": 0.075,
+        "change_24h": -0.055,
+        "volume_24h": 55812.97,
+        "score": 59.75,
+        "url": "https://polymarket.com/event/will-russia-capture-oleksiievo-druzhkivka-by-september-30-2026-20260706174556070"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will Russia capture Oleksiievo-Druzhkivka by September 30, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Russia capture Oleksiievo-Druzhkivka by September 30, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Russian attacks kill 6 and wound 29 as Ukrainian forces target oil tankers - The Sun Chronicle",
+          "url": "https://www.thesunchronicle.com/news/nation_world/russian-attacks-kill-6-and-wound-29-as-ukrainian-forces-target-oil-tankers/article_3a22b3df-3e05-5827-b000-eabf1d096e9b.html"
+        },
+        {
+          "title": "Russian Offensive Campaign Assessment, July 9, 2026 - Institute for the Study of War",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-9-2026/"
+        },
+        {
+          "title": "10 injured in overnight Russian missile and drone strikes on Kyiv - AP News",
+          "url": "https://apnews.com/article/russia-ukraine-war-missiles-drones-kyiv-578044d589f94cc985b699ffcf301297"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2774057",
+        "question": "Strait of Hormuz traffic returns to normal by September 30?",
+        "probability": 0.37,
+        "change_24h": 0.055,
+        "volume_24h": 41879.76,
+        "score": 59.62,
+        "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-september-30-20260702154339440"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Strait of Hormuz traffic returns to normal by September 30?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Strait of Hormuz traffic returns to normal by September 30?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Strait of Hormuz traffic is near a standstill again, but analysts say 'the world has adapted' - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/strait-of-hormuz-traffic-is-near-a-standstill-again-but-analysts-say-the-world-has-adapted-164641420.html"
+        },
+        {
+          "title": "Hormuz Ship Traffic Grinds to Near Halt After US, Iran Strikes - Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/international/2026/07/09/876793.htm"
+        },
+        {
+          "title": "Strait of Hormuz in limbo as tankers seize every opening: Lloyd's List - CNBC",
+          "url": "https://www.cnbc.com/video/2026/07/10/shipping-back-in-state-of-limbo-just-taking-any-opening-it-can--lloyds-list.html"
         }
       ]
     }
   ],
-  "twitter_thread": "🔮 PolyLens Battle Cards — Jul 11, 2026 10:27 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 🗳️ Trump signs housing bill by end of July?\n\n✅ YES — 2%  ▼-44.1%\n\"Trump could still symbolically sign the bill if political calculus shifts, despite earlier…\"\n\n❌ NO — 98%\n\"Trump has explicitly refused, and the bill will become law automatically, negating any nee…\"\n\n🤖 Strong NO \n\n---\n\n🥊 💼 United Airlines (UAL) Q2 consolidated passenger load factor 83%-84%?\n\n✅ YES — 6%  ▼-43.5%\n\"New data indicating moderate demand or specific UAL capacity adjustments could push the lo…\"\n\n❌ NO — 94%\n\"Continued strong industry demand will likely drive UAL's load factor above 84%,\n\n---\n\n🥊 🤖 Will NVIDIA (NVDA) hit (HIGH) $208 in July?\n\n✅ YES — 100%  ▲+32.5%\n\"Post-rout undervaluation and strong underlying AI demand make a rebound to $208 highly pro…\"\n\n❌ NO — 0%\n\"The recent \"trillion-dollar rout\" could extend, or broader market headwinds might prevent …\"\n\n🤖 YES con\n\n---\n\n🥊 ₿ Ethereum Up or Down on July 11?\n\n✅ YES — 82%  ▲+32.0%\n\"Continued altcoin rotation and Ethereum's technical strength, as noted by KITCO, will like…\"\n\n❌ NO — 18%\n\"A deeper Bitcoin correction could still drag Ethereum down, despite its current relative s…\"\n\n🤖 YES conviction: Str\n\n---\n\n🥊 💼 SHEIN IPO before 2027?\n\n✅ YES — 60%  ▲+30.3%\n\"With Chinese regulatory approval secured, Shein's path to a Hong Kong IPO is significantly…\"\n\n❌ NO — 40%\n\"Despite approval, market conditions, valuation disputes, or new regulatory hurdles could s…\"\n\n🤖 YES momentum building 📈\n📊 hi\n\n---\n\n🔗 Full analysis + 30 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
-  "reddit_post": "**PolyLens Daily Digest — Jul 11, 2026 10:27 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🗳️ Trump Refuses Housing Bill Signature\n\n**2% YES** | **-44.1%** (24h) | Vol: $37,252\n\nThe probability of Trump signing the housing bill by end of July plummeted to 2% after he explicitly stated he would not sign it. Multiple reports confirm the bill will become law automatically without his signature.\n\n**Key Drivers:**\n- Trump explicitly stated he won't sign the bill.\n- Housing bill automatically becomes law without signature.\n- No presidential veto was mentioned, ensuring automatic passage.\n\n*[View on Polymarket](https://polymarket.com/event/trump-signs-housing-bill-by-end-of-july-20260624145217694)*\n\n---\n\n## 2. 🔥 UAL Load Factor Range Probability Plunges\n\n**6% YES** | **-43.5%** (24h) | Vol: $6,605\n\nThe probability for United Airlines' Q2 load factor to be 83-84% dropped sharply by 43.5% to 6%, driven by strong demand signals from competitor Delta Air Lines. Delta's Q2 earnings topped estimates, with management citing sustainable revenue momentum and holding fare increases.\n\n**Key Drivers:**\n- Delta's strong Q2 earnings and sustainable revenue momentum.\n- Jet2's 'strong summer bookings' indicating robust travel demand.\n- Market expects UAL's load factor to exceed 84% due to strong demand.\n\n*[View on Polymarket](https://polymarket.com/event/united-airlines-ual-q2-consolidated-passenger-load-factor-83-84-20260618193153260)*\n\n---\n\n## 3. 🤖 NVDA $208 July: Market Certainty\n\n**100% YES** | **+32.5%** (24h) | Vol: $19,352\n\nThe probability of NVIDIA hitting $208 in July surged to 100% following headlines highlighting its cheapest valuation since the pre-AI boom. This suggests investors anticipate a strong rebound after a recent \"trillion-dollar wipeout.\"\n\n**Key Drivers:**\n- Nvidia's cheapest valuation since pre-AI boom.\n- Anticipation of bullish action post-$1T wipeout.\n- Market confidence in quick rebound to $208.\n\n*[View on Polymarket](https://polymarket.com/event/will-nvda-reach-208-in-july-2026)*\n\n---\n\n## 4. ₿ Ethereum's Bullish Momentum Surges\n\n**82% YES** | **+32.0%** (24h) | Vol: $28,862\n\nThe probability for Ethereum to be up on July 11 surged to 82% (a +32.0% 24H change) following reports of its strong performance relative to Bitcoin. KITCO highlighted \"Ethereum and Altcoin rotation strengthen\" and its \"relative strength\" even as Bitcoin experienced volatility.\n\n**Key Drivers:**\n- Ethereum shows relative strength vs. Bitcoin.\n- Altcoin rotation strengthens, favoring ETH.\n- Bitcoin reclaims daily TBO Cloud.\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-on-july-11-2026)*\n\n---\n\n## 5. 🔥 Shein IPO Hopes Surge After China Approval\n\n**60% YES** | **+30.3%** (24h) | Vol: $2,081\n\nThe probability of Shein IPOing before 2027 surged to 60% after reports confirmed China's market watchdog approved its Hong Kong listing application. This pivotal approval follows previous unsuccessful attempts to list in London and New York, removing a major regulatory hurdle.\n\n**Key Drivers:**\n- China's market watchdog approves Shein's HK IPO\n- Reuters, FT confirm Beijing's go-ahead\n- Removes significant regulatory uncertainty\n\n*[View on Polymarket](https://polymarket.com/event/shein-ipo-before-2027)*\n\n---\n\n## 6. ₿ Bitcoin Surges, July Rally Continues\n\n**76% YES** | **+27.0%** (24h) | Vol: $104,426\n\nThe probability of Bitcoin being up on July 11 surged to 76% following a significant rally towards $65,000. Technical indicators like \"reclaiming the cloud\" and a healthy pullback reinforced bullish sentiment.\n\n**Key Drivers:**\n- Bitcoin rallied significantly towards $65,000.\n- Technical analysis shows Bitcoin \"reclaims the cloud.\"\n- Recent pullback confirms ongoing July rally.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-on-july-11-2026)*\n\n---\n\n## 7. ₿ Bitcoin $66K Target Fades\n\n**6% YES** | **-20.5%** (24h) | Vol: $62,034\n\nBitcoin's probability of reaching $66,000 by July 12 plunged to 6%, as its rally towards $65,000 likely stalled, failing to convince the market of sustained momentum. This suggests the market views the remaining time as insufficient for the target.\n\n**Key Drivers:**\n- Bitcoin's rally stalled below $65,000 resistance.\n- Market deems July 6-12 window too short for $66K.\n- LM Funding's June 30 Bitcoin valuation implied ~$58.4K.\n\n*[View on Polymarket](https://polymarket.com/event/will-bitcoin-reach-66k-july-6-12-2026)*\n\n---\n\n## 8. 🔥 Global Calm Boosts Ornn Index Range Bet\n\n**27% YES** | **+19.0%** (24h) | Vol: $1,939\n\nThe probability for the Ornn B200 Index to close between $6.00 and $7.00 by July 31, 2026, surged 19% to 27%. This increase was driven by financial markets worldwide holding steadier after initial geopolitical concerns regarding fresh Iran and US attacks subsided.\n\n**Key Drivers:**\n- Calm returns to financial markets worldwide\n- Oil prices and stocks hold steadier\n- Initial Iran/US attacks fears subside\n\n*[View on Polymarket](https://polymarket.com/event/will-the-ornn-b200-index-be-between-6pt00-and-7pt00-on-july-31-2026-20260626214212587)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+  "twitter_thread": "🔮 PolyLens Battle Cards — Jul 11, 2026 19:35 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 ₿ Solana Up or Down - July 11, 12PM ET\n\n✅ YES — 0%  ▼-50.4%\n\"No specific events in the provided headlines support a bull case for Solana.\"\n\n❌ NO — 100%\n\"Market participants are certain Solana's price will decline by July 11, 12 PM ET.\"\n\n🤖 Strong NO conviction 🔴\n📊 hika.fyi  [2/6\n\n---\n\n🥊 ₿ Ethereum Up or Down - July 11, 12PM ET\n\n✅ YES — 100%  ▲+49.5%\n\"Sustained altcoin rotation and positive technicals, as reported by KITCO, will maintain Et…\"\n\n❌ NO — 0%\n\"A broader crypto market correction or unexpected negative news could quickly reverse Ether…\"\n\n🤖 YES convicti\n\n---\n\n🥊 ₿ Bitcoin Up or Down - July 11, 12PM ET\n\n✅ YES — 100%  ▲+49.0%\n\"Bitcoin's technical recovery, \"reclaiming the cloud,\" signals strong upward momentum, attr…\"\n\n❌ NO — 0%\n\"Despite current certainty, Bitdeer's continued BTC sales could introduce selling pressure,…\"\n\n🤖 YES convictio\n\n---\n\n🥊 📈 Will Core CPI MoM be 0.2% in July?\n\n✅ YES — 72%  ▲+41.0%\n\n❌ NO — 28%\n\n🤖 YES momentum building 📈\n📊 hika.fyi  [5/6]\n\n---\n\n🥊 ⚽ Netflix (NFLX) Q2 operating margin 32%-34%?\n\n✅ YES — 80%  ▲+34.5%\n\n❌ NO — 20%\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [6/6]\n\n---\n\n🔗 Full analysis + 30 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
+  "reddit_post": "**PolyLens Daily Digest — Jul 11, 2026 19:35 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. ₿ Solana Probability Zeroed\n\n**0% YES** | **-50.4%** (24h) | Vol: $5,850\n\nThe probability of Solana being up by July 11, 12 PM ET dropped to 0% from 50.4%, reflecting a complete market consensus against an upward movement. This significant shift occurred despite the provided headlines being entirely unrelated to cryptocurrency.\n\n**Key Drivers:**\n- Absence of any crypto-relevant news in headlines.\n- Dominance of unrelated sports and lottery news.\n- Strong market conviction of Solana price drop.\n\n*[View on Polymarket](https://polymarket.com/event/solana-up-or-down-july-11-2026-12pm-et)*\n\n---\n\n## 2. ₿ Ethereum Up: 100% Probability Confirmed\n\n**100% YES** | **+49.5%** (24h) | Vol: $12,570\n\nThe probability for Ethereum to be up by July 11, 12 PM ET, surged to 100% from 50.5%, driven by strong technical indicators and altcoin rotation. KITCO reports highlighted Ethereum's strengthening even as Bitcoin experienced volatility.\n\n**Key Drivers:**\n- KITCO: Ethereum and Altcoin rotation strengthen.\n- KITCO: Ethereum shows relative strength vs. Bitcoin.\n- Bitcoin reclaims daily TBO Cloud (positive for crypto).\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-july-11-2026-12pm-et)*\n\n---\n\n## 3. ₿ Bitcoin Price Surge Certainty\n\n**100% YES** | **+49.0%** (24h) | Vol: $29,415\n\nThe prediction market for Bitcoin's price movement by July 11, 12PM ET, has reached 100% probability, reflecting strong conviction in an upward trend. This surge was primarily driven by Bitcoin's technical recovery, as it \"reclaims the cloud\" on Thursday, according to KITCO.\n\n**Key Drivers:**\n- Bitcoin \"reclaims the cloud\" (KITCO)\n- Ethereum and Altcoin rotation strengthen\n- Strong technical recovery signals\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-july-11-2026-12pm-et)*\n\n---\n\n## 4. 📈 Will Core CPI MoM be 0.2% in July?\n\n**72% YES** | **+41.0%** (24h) | Vol: $4,824\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-core-cpi-mom-be-0pt2-in-july-20260705181349576)*\n\n---\n\n## 5. ⚽ Netflix (NFLX) Q2 operating margin 32%-34%?\n\n**80% YES** | **+34.5%** (24h) | Vol: $3,014\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/netflix-nflx-q2-operating-margin-32-34-20260618153359824)*\n\n---\n\n## 6. ₿ Will the price of Bitcoin be above $62,000 on July 17?\n\n**80% YES** | **+31.5%** (24h) | Vol: $19,310\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-above-62k-on-july-17-2026)*\n\n---\n\n## 7. ₿ Will the price of Ethereum be between $1,700 and $1,800 on July 12?\n\n**21% YES** | **-30.5%** (24h) | Vol: $3,077\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-the-price-of-ethereum-be-between-1700-1800-on-july-12-2026)*\n\n---\n\n## 8. 🤖 Will Meta Platforms, Inc. (META) hit (HIGH) $680 in July?\n\n**53% YES** | **-25.8%** (24h) | Vol: $755\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-meta-reach-680-in-july-2026)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
 }
