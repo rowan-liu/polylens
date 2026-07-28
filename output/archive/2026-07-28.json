@@ -1,250 +1,86 @@
 {
-  "generated_at": "2026-07-28T11:54:04.009909+00:00",
-  "generated_at_readable": "Jul 28, 2026 11:54 UTC",
+  "generated_at": "2026-07-28T20:31:03.651360+00:00",
+  "generated_at_readable": "Jul 28, 2026 20:31 UTC",
   "topics": [
-    {
-      "market": {
-        "id": "3091418",
-        "question": "Will NVIDIA (NVDA) hit (LOW) $196 Week of July 27 2026?",
-        "probability": 1.0,
-        "change_24h": 0.7595,
-        "volume_24h": 1890.6,
-        "score": 762.78,
-        "url": "https://polymarket.com/event/will-nvda-dip-to-196-by-july-27-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "NVDA Selloff Deepens",
-          "summary": "NVIDIA shares, recently trading near $205-$210, saw a 100% probability of hitting $196 due to Eddie Ghabour's recent statement confirming an ongoing tech selloff impacting NVDA. This rapid shift reflects heightened market concerns.",
-          "drivers": [
-            "Eddie Ghabour confirms ongoing tech selloff.",
-            "NVIDIA shares trading near $205-$210.",
-            "Unspecified 'heightened' concerns offsetting demand."
-          ],
-          "why_matters": "This reflects immediate investor sentiment on a leading AI stock amidst broader tech sector volatility, impacting portfolio strategies.",
-          "bull_case": "Eddie Ghabour's recent confirmation of a tech selloff including NVDA strongly suggests the stock will drop from $205-$210 to hit $196.",
-          "bear_case": "Keybanc's recent Overweight rating and raised price target of $330 for NVDA suggest strong underlying value, making a drop to $196 unlikely."
-        },
-        "zh": {
-          "title": "英伟达抛售加剧",
-          "summary": "英伟达股价近期在205-210美元区间交易，因Eddie Ghabour最新确认科技股抛售潮影响英伟达，导致其触及196美元的概率升至100%。这一快速转变反映了市场担忧加剧。",
-          "drivers": [
-            "Eddie Ghabour确认科技股抛售。",
-            "英伟达股价目前在205-210美元。",
-            "未指明“加剧”因素抵消数据中心需求。"
-          ],
-          "why_matters": "这反映了在更广泛的科技行业波动中，投资者对领先AI股的即时情绪，影响投资组合策略。",
-          "bull_case": "Eddie Ghabour近期确认包括英伟达在内的科技股抛售潮，强烈预示股价将从205-210美元跌至196美元。",
-          "bear_case": "Keybanc近期维持英伟达“增持”评级并将目标价上调至330美元，表明其潜在价值强劲，不太可能跌至196美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "What will NVIDIA (NVDA) hit Week of July 27 2026?",
-          "url": "https://polymarket.com/event/will-nvda-hit-week-of-july-27-2026"
-        },
-        {
-          "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & ...",
-          "url": "https://finance.yahoo.com/quote/NVDA"
-        },
-        {
-          "title": "Eddie Ghabour expects the tech selloff to bottom out in ...",
-          "url": "https://www.facebook.com/schwabnetwork/posts/eddie-ghabour-expects-the-tech-selloff-to-bottom-out-in-sometime-august-or-maybe/1631657932294896"
-        }
-      ]
-    },
     {
       "market": {
         "id": "3017857",
         "question": "Will the price of Bitcoin be between $62,000 and $64,000 on July 28?",
-        "probability": 0.815,
-        "change_24h": 0.685,
-        "volume_24h": 29177.84,
-        "score": 689.47,
+        "probability": 0.9995,
+        "change_24h": 0.8445,
+        "volume_24h": 81265.49,
+        "score": 849.41,
         "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-62000-64000-on-july-28-2026"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Range-Bound Confidence Soars",
-          "summary": "The probability of Bitcoin staying between $62,000 and $64,000 by July 28 surged to 82%, primarily driven by CoinEx's Jeff Ko predicting Bitcoin will remain range-bound near $65,000. This outlook is reinforced by broader crypto market stability and potential peak Fed hawkishness.",
+          "title": "Bitcoin Price Stabilizes in Target Range",
+          "summary": "Bitcoin's price surged to 100% probability of being between $62,000 and $64,000 on July 28 after falling below $64,000. This movement was primarily driven by intensified \"Fed Rate-Hike Fears\" and expectations of tighter U.S. monetary policy.",
           "drivers": [
-            "CoinEx's Jeff Ko predicts Bitcoin range-bound near $65,000.",
-            "Ether leading broader crypto market higher, indicating stability.",
-            "State Street's Doshi suggests Fed hawkishness peaks, aiding risk assets."
+            "Bitcoin fell below $64,000 on July 28.",
+            "Intensified Fed rate-hike fears.",
+            "Bitcoin's main support identified at $63,800-$64,000."
           ],
-          "why_matters": "This market reflects growing confidence in Bitcoin's short-term price stability amidst evolving macroeconomic conditions and broader crypto trends. It indicates a potential consolidation phase for BTC.",
-          "bull_case": "Jeff Ko's prediction of Bitcoin staying range-bound near $65,000 strongly supports its price settling within the $62,000-$64,000 range.",
-          "bear_case": "Unexpected negative macroeconomic data or a sharp downturn in broader crypto markets could push Bitcoin outside the target range."
+          "why_matters": "This reflects how macroeconomic policy expectations significantly influence crypto asset valuations, pushing Bitcoin into a consolidation phase.",
+          "bull_case": "Bitcoin's established support between $63,800 and $64,000 will prevent further significant drops, keeping it in range.",
+          "bear_case": "Unexpected positive economic news or a dovish Fed shift could push Bitcoin above $64,000."
         },
         "zh": {
-          "title": "比特币区间震荡信心大增",
-          "summary": "比特币在7月28日价格维持在62,000至64,000美元之间的可能性飙升至82%，主要受CoinEx的Jeff Ko预测比特币将在65,000美元附近区间震荡的推动。更广泛的加密市场稳定性和美联储鹰派立场可能见顶的预期也强化了这一前景。",
+          "title": "比特币价格稳定在目标区间",
+          "summary": "比特币价格在7月28日跌破64,000美元后，其在62,000至64,000美元区间的概率飙升至100%。这一走势主要受美联储加息担忧加剧及美国货币政策收紧预期的推动。",
           "drivers": [
-            "CoinEx的Jeff Ko预测比特币将在65,000美元附近区间震荡。",
-            "以太坊引领加密市场走高，显示出市场稳定性。",
-            "道富银行Doshi称美联储鹰派立场见顶，利好风险资产。"
+            "比特币7月28日跌破64,000美元。",
+            "美联储加息担忧情绪加剧。",
+            "比特币主要支撑位63,800-64,000美元。"
           ],
-          "why_matters": "该市场反映了在宏观经济变化和加密货币趋势下，市场对短期比特币价格稳定性的信心增强，预示比特币可能进入盘整阶段。",
-          "bull_case": "Jeff Ko预测比特币将在65,000美元附近区间震荡，有力支撑其价格稳定在62,000-64,000美元区间。",
-          "bear_case": "意外的负面宏观经济数据或加密市场急剧下跌可能将比特币推离目标区间。"
+          "why_matters": "这反映了宏观经济政策预期如何显著影响加密资产估值，推动比特币进入盘整阶段。",
+          "bull_case": "比特币63,800-64,000美元支撑强劲，将使其保持在该区间内。",
+          "bear_case": "利好消息或美联储鸽派转向，可能推高比特币突破64,000美元。"
         }
       },
       "news": [
         {
-          "title": "Live updates: Ether leads crypto higher. China's gold imports surge - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/07/27/live-updates-ether-leads-crypto-higher-as-bitcoin-trades-around-usd65-500"
+          "title": "Bitcoin Price Prediction: BTC Falls Below $64K as Fed Rate-Hike Fears Intensify",
+          "url": "https://bravenewcoin.com/insights/bitcoin-price-prediction-btc-falls-below-64k-as-fed-rate-hike-fears-intensify"
         },
         {
-          "title": "Gold slips as firm dollar weighs; focus turns to Fed meeting - CNBC",
-          "url": "https://www.cnbc.com/2026/07/28/gold-slips-as-firm-dollar-weighs-focus-turns-to-fed-meeting.html"
+          "title": "Bitcoin price falls below $64K ahead of Fed decision",
+          "url": "https://crypto.news/bitcoin-price-falls-below-64k-ahead-of-fed-decision"
         },
         {
-          "title": "Gold prices today (July 28): Rising sharply - Vietnam.vn",
-          "url": "https://www.vietnam.vn/en/gia-vang-hom-nay-28-7-tang-manh"
+          "title": "U.S.-Iran Ceasefire Triggers $90M Ether Short Squeeze, Bitcoin Hovers Near $65,000",
+          "url": "https://finance.biggo.com/news/6e542495-cc6c-4dff-80b6-596e0b7d8fe9"
         }
       ]
     },
     {
       "market": {
-        "id": "2967837",
-        "question": "US announces halt in Iran offensive operations by July 31?",
-        "probability": 0.9995,
-        "change_24h": 0.6245,
-        "volume_24h": 2746986.32,
-        "score": 630.94,
-        "url": "https://polymarket.com/event/will-the-us-announce-an-iran-ceasefire-by-july-31-20260718000915875"
+        "id": "3091507",
+        "question": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $120 Week of July 27 2026?",
+        "probability": 1.0,
+        "change_24h": 0.7395,
+        "volume_24h": 3180.9,
+        "score": 743.0,
+        "url": "https://polymarket.com/event/will-pltr-dip-to-120-by-july-27-2026"
       },
       "insight": {
-        "category": "politics",
+        "category": "other",
         "en": {
-          "title": "US-Iran Halt Confirmed",
-          "summary": "The probability for the US announcing a halt in Iran offensive operations surged to 100% after the US ceased overnight strikes for the first time in 13 days. This de-escalation is reciprocal, with Iran committing to halt its own attacks as long as the US pause holds.",
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $120 Week of July 27 ",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "US ceased overnight strikes in Iran for the first time in 13 days.",
-            "US and Iran paused military actions for a third consecutive night.",
-            "Iran committed to halt its strikes if the US bombing pause holds."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "A sustained halt in US-Iran offensive operations significantly de-escalates regional tensions, potentially opening avenues for diplomatic resolution and preventing broader conflict. This impacts global oil markets and regional stability.",
-          "bull_case": "The US has already ceased strikes for multiple nights, and Iran has reciprocated, making an official announcement or continued de-escalation by July 31 highly probable.",
-          "bear_case": "Despite the current pause, a new incident or breakdown in diplomatic efforts could trigger renewed US offensive operations before July 31."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "美伊停火已确认",
-          "summary": "美国暂停对伊朗的空袭，这是13天来的首次，推动美国宣布停止对伊朗进攻行动的概率飙升至100%。伊朗也承诺只要美国暂停轰炸，其将停止袭击，显示出双方的相互克制。",
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $120 Week of July 27 ",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "美国13天来首次停止对伊朗的夜间空袭。",
-            "美伊双方连续第三晚暂停军事行动。",
-            "伊朗承诺，只要美国暂停轰炸，其将停止袭击。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "美伊进攻行动的持续停止将显著缓解地区紧张局势，可能为外交解决开辟道路并避免更广泛的冲突。这将影响全球石油市场和地区稳定。",
-          "bull_case": "美国已连续多晚停止空袭，伊朗也已采取对等行动，官方宣布或持续降级在7月31日前极有可能。",
-          "bear_case": "尽管目前暂停，但新的事件或外交努力的破裂可能在7月31日前引发美国重新发动进攻。"
-        }
-      },
-      "news": [
-        {
-          "title": "US and Iran pause military actions for third night amid diplomatic efforts - Crypto Briefing",
-          "url": "https://cryptobriefing.com/us-and-iran-pause-military-actions-for-third-night-amid-diplomatic-efforts/"
-        },
-        {
-          "title": "Iran says it will halt strikes as long as US bombing pause holds - Red Lake Nation News",
-          "url": "https://www.redlakenationnews.com/story/2026/07/27/news/iran-says-it-will-halt-strikes-as-long-as-us-bombing-pause-holds/141786.html"
-        },
-        {
-          "title": "Iran asserts control over peace and war timing amid US tensions - Crypto Briefing",
-          "url": "https://cryptobriefing.com/iran-asserts-control-over-peace-and-war-timing-amid-us-tensions/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2673621",
-        "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
-        "probability": 0.215,
-        "change_24h": -0.56,
-        "volume_24h": 147438.55,
-        "score": 565.17,
-        "url": "https://polymarket.com/event/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329841"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "NVIDIA Top Spot Doubt Grows",
-          "summary": "NVIDIA's probability of being the world's largest company by market cap on July 31 plummeted by 56% to 22%. This sharp decline was primarily driven by Apple briefly surpassing NVIDIA in market capitalization earlier this month.",
-          "drivers": [
-            "Apple briefly overtook NVIDIA in market cap.",
-            "Increased competition for the top market cap spot.",
-            "NVIDIA's year-to-date stock growth slowing to 11%."
-          ],
-          "why_matters": "This market reflects the intense competition among tech giants for market dominance and investor confidence in the AI sector's long-term leaders.",
-          "bull_case": "NVIDIA's strong position in AI chips and upcoming earnings could propel its market cap back to the top.",
-          "bear_case": "Apple's strong ecosystem and potential for AI integration pose a significant, ongoing threat to NVIDIA's market cap lead."
-        },
-        "zh": {
-          "title": "英伟达市值榜首地位存疑",
-          "summary": "英伟达在7月31日成为全球市值最大公司的可能性骤降56%至22%。此次大幅下跌主要受苹果本月早些时候短暂超越英伟达市值事件驱动。",
-          "drivers": [
-            "苹果市值短暂超越英伟达。",
-            "全球市值榜首竞争加剧。",
-            "英伟达今年迄今股价增长放缓至11%。"
-          ],
-          "why_matters": "该市场反映了科技巨头之间争夺市场主导地位的激烈竞争，以及投资者对AI领域长期领导者的信心。",
-          "bull_case": "英伟达在AI芯片领域的强大地位及即将到来的财报有望助其市值重回榜首。",
-          "bear_case": "苹果强大的生态系统和AI整合潜力对英伟达的市值领先地位构成重大持续威胁。"
-        }
-      },
-      "news": [
-        {
-          "title": "Nvidia Is Up Just 11% This Year. Here Is What History Says Happens Next. | The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/24/nvidia-is-up-just-11-this-year-here-is-what-histor"
-        },
-        {
-          "title": "Should Apple Be Worth More Than Nvidia? Yes - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/27/should-apple-be-worth-more-than-nvidia-yes"
-        },
-        {
-          "title": "Google Goes Cash Flow Negative for First Time Since 2004, Is Apple the Anti-CapEx AI Trade?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/google-goes-cash-flow-negative-144754882.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3091504",
-        "question": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $123 Week of July 27 2026?",
-        "probability": 0.375,
-        "change_24h": -0.46,
-        "volume_24h": 1649.34,
-        "score": 463.22,
-        "url": "https://polymarket.com/event/will-pltr-dip-to-123-by-july-27-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Palantir AI Outlook Improves, Low Price Less Likely",
-          "summary": "The probability of Palantir hitting $123 by July 2026 significantly decreased by 46%, primarily driven by a Motley Fool article comparing Palantir favorably against ServiceNow. This suggests renewed confidence in Palantir's AI software capabilities.",
-          "drivers": [
-            "Motley Fool article \"Better AI Software Stock\" implicitly favoring Palantir.",
-            "ServiceNow's 51% stock decline, highlighting Palantir's potential resilience.",
-            "Increased investor confidence in Palantir's long-term AI growth trajectory."
-          ],
-          "why_matters": "Palantir's performance is a key indicator for the competitive and rapidly evolving AI software market.",
-          "bull_case": "Intense AI competition or a broader tech downturn could significantly depress Palantir's valuation.",
-          "bear_case": "Palantir secures major government and commercial AI contracts, driving robust revenue growth."
-        },
-        "zh": {
-          "title": "Palantir AI前景改善，低价可能性降低",
-          "summary": "Palantir在2026年7月前触及123美元低点的可能性大幅下降46%，主要受Motley Fool一篇将Palantir与ServiceNow进行有利比较的文章驱动。这表明市场对Palantir的AI软件能力重拾信心。",
-          "drivers": [
-            "Motley Fool文章“更好的AI软件股票”暗示Palantir更具优势。",
-            "ServiceNow股价下跌51%，凸显Palantir潜在的韧性。",
-            "投资者对Palantir长期AI增长轨迹的信心增强。"
-          ],
-          "why_matters": "Palantir的表现是竞争激烈且快速发展的AI软件市场的关键指标。",
-          "bull_case": "激烈的AI竞争或更广泛的科技衰退可能大幅压低Palantir估值。",
-          "bear_case": "Palantir获得重大政府和商业AI合同，推动强劲营收增长。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
@@ -253,172 +89,160 @@
           "url": "https://www.fool.com/investing/2026/07/26/better-ai-software-stock-palantir-vs-servicenow/"
         },
         {
+          "title": "Three Prices Where SpaceX Stock Is a Buy - Barron's",
+          "url": "https://www.barrons.com/articles/spacex-stock-price-buy-dfe4aa70"
+        },
+        {
           "title": "image - Mining.com",
           "url": "https://www.mining.com/web/gold-price-climbs-as-pause-in-mideast-fighting-curbs-inflation-risk/image-500/"
-        },
-        {
-          "title": "SpaceX Stock Still Struggles After ‘Near Perfect’ 13th Starship Test. Flight 14 Will Be Wild. - Barron's",
-          "url": "https://www.barrons.com/articles/spacex-stock-starship-test-flight-8d7765c4"
         }
       ]
     },
     {
       "market": {
-        "id": "3114676",
-        "question": "Ethereum Up or Down on July 28?",
-        "probability": 0.045,
-        "change_24h": -0.45,
-        "volume_24h": 32170.83,
-        "score": 454.51,
-        "url": "https://polymarket.com/event/ethereum-up-or-down-on-july-28-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "ETH Down: Fed Decision Looms",
-          "summary": "The probability of Ethereum being up on July 28th plummeted as ETH is currently down 3.35% today. This decline is largely driven by institutional investors recalibrating portfolios ahead of the Federal Reserve's July 28-29 policy decision.",
-          "drivers": [
-            "Ethereum (ETHUSD) down 3.35% on July 28.",
-            "Anticipation of Federal Reserve's July 28-29 meeting.",
-            "Weakening Ethereum ETF inflows and outflows.",
-            "Broader crypto market slide; Bitcoin failed $67,000."
-          ],
-          "why_matters": "Ethereum's performance is a key indicator for the broader altcoin market and reflects institutional appetite for risk assets. The Fed's stance will dictate market direction.",
-          "bull_case": "A positive surprise from the Federal Reserve's policy decision or a sudden surge in ETF inflows could reverse the trend.",
-          "bear_case": "Continued institutional recalibration and uncertainty surrounding the Fed meeting will likely maintain downward pressure on ETH."
-        },
-        "zh": {
-          "title": "以太坊下跌：美联储决议临近",
-          "summary": "以太坊在7月28日下跌3.35%，导致其当日上涨的概率大幅下降。此次下跌主要受机构投资者在美联储7月28-29日政策会议前调整投资组合的影响。",
-          "drivers": [
-            "以太坊（ETHUSD）7月28日下跌3.35%。",
-            "市场对美联储7月28-29日会议的预期。",
-            "以太坊ETF资金流入减弱并出现流出。",
-            "加密市场普遍下滑，比特币未能守住67,000美元。"
-          ],
-          "why_matters": "以太坊的表现是山寨币市场的关键指标，反映机构对风险资产的偏好。美联储的立场将决定市场走向。",
-          "bull_case": "美联储政策决议若有积极惊喜，或ETF资金突然流入，可能扭转当前跌势。",
-          "bear_case": "机构持续调整投资组合及美联储会议的不确定性，可能继续对以太坊施加下行压力。"
-        }
-      },
-      "news": [
-        {
-          "title": "Ethereum (ETHUSD) Is down 3.35% on Jul 28: Here Is Why",
-          "url": "https://www.tradingkey.com/news/market-movers/262057752-market-movers-ethusd-20260728"
-        },
-        {
-          "title": "Crypto Prices Today: Bitcoin Holds Near $65,260, Ethereum Jumps Over 3.6% as Traders Brace for Fed Decision",
-          "url": "https://www.analyticsinsight.net/amp/story/price-analysis/crypto-prices-today-bitcoin-holds-near-65260-ethereum-jumps-over-36-as-traders-brace-for-fed-decision"
-        },
-        {
-          "title": "Ethereum News Today | ETH Price, Analysis & Updates",
-          "url": "https://blockchainreporter.net/ethereum-news-today"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3091666",
-        "question": "Will Micron Technology, Inc. (MU) hit (LOW) $840 Week of July 27 2026?",
-        "probability": 0.785,
-        "change_24h": 0.45,
-        "volume_24h": 3138.28,
-        "score": 453.5,
-        "url": "https://polymarket.com/event/will-mu-dip-to-840-by-july-27-2026"
+        "id": "3127187",
+        "question": "S&P 500 (SPX) Opens Up or Down on July 28?",
+        "probability": 0.0005,
+        "change_24h": -0.6545,
+        "volume_24h": 33069.74,
+        "score": 659.02,
+        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-july-28-2026"
       },
       "insight": {
         "category": "business",
         "en": {
-          "title": "Micron $840 Target Probability Surges",
-          "summary": "The probability for Micron Technology (MU) to hit $840 by July 27, 2026, surged by 45 percentage points to 78% following highly bullish long-term price forecasts. A key driver was a specific forecast predicting MU to reach $912.36 by July 31, 2026.",
+          "title": "SPX Up Open Probability Plunges",
+          "summary": "The probability of the S&P 500 opening up on July 28 has plummeted to 0% from 65.5%, driven by a persistent sell-off in semiconductor stocks. Major indexes like the Nasdaq and S&P 500 have slipped as chipmakers extended losses for a third day.",
           "drivers": [
-            "2026 target price forecast of $912.36 for MU.",
-            "Predictions of MU returning to all-time highs soon.",
-            "Positive dynamics and low volatility forecast for MU shares."
+            "Persistent semiconductor stock sell-off",
+            "S&P 500 and Nasdaq indexes slipping",
+            "Muted S&P 500 futures performance"
           ],
-          "why_matters": "Micron's stock performance reflects the health of the global semiconductor memory market, vital for AI and computing infrastructure.",
-          "bull_case": "A specific 2026 forecast of $912.36 makes the $840 target highly achievable, driven by strong demand for memory.",
-          "bear_case": "Short-term negative signals and potential market volatility could impede consistent growth, preventing MU from reaching $840."
+          "why_matters": "This market reflects investor concerns over tech sector weakness potentially dragging down broader market performance, despite some positive economic indicators.",
+          "bull_case": "Broad market gains in other sectors and falling oil prices could provide a counter-balance, leading to an unexpected positive open.",
+          "bear_case": "The ongoing, multi-day sell-off in key semiconductor stocks will likely continue to weigh on the S&P 500, ensuring a flat or down open."
         },
         "zh": {
-          "title": "美光840美元目标概率飙升",
-          "summary": "美光科技(MU)在2026年7月27日前达到840美元的概率飙升45个百分点至78%，主要受高度看涨的长期价格预测推动。其中一个关键驱动因素是预测MU在2026年7月31日将达到912.36美元。",
+          "title": "标普500开盘上涨概率暴跌",
+          "summary": "标普500指数7月28日开盘上涨的概率已从65.5%暴跌至0%，主要受半导体股票持续抛售的影响。随着芯片制造商连续第三天录得亏损，纳斯达克和标普500等主要指数均出现下滑。",
           "drivers": [
-            "MU 2026年目标价预测为912.36美元。",
-            "预测MU股价将很快重回历史高点。",
-            "MU股价积极走势及低波动预测。"
+            "半导体股票持续抛售",
+            "标普500和纳斯达克指数下滑",
+            "标普500期货表现平淡"
           ],
-          "why_matters": "美光股价表现反映全球半导体存储市场健康状况，对人工智能和计算基础设施至关重要。",
-          "bull_case": "2026年912.36美元的具体预测使840美元目标极有可能实现，受内存强劲需求驱动。",
-          "bear_case": "短期负面信号和潜在市场波动可能阻碍持续增长，导致MU未能达到840美元。"
+          "why_matters": "该市场反映了投资者对科技板块疲软可能拖累大盘表现的担忧，尽管存在一些积极的经济指标。",
+          "bull_case": "其他板块的普遍上涨和油价下跌可能提供对冲，导致意外的积极开盘。",
+          "bear_case": "关键半导体股票持续多日的抛售很可能继续拖累标普500，确保平盘或下跌开盘。"
         }
       },
       "news": [
         {
-          "title": "What will Micron Technology, Inc. (MU) hit Week of July 27 ...",
-          "url": "https://polymarket.com/event/will-mu-hit-week-of-july-27-2026"
+          "title": "S&P 500 Futures Muted as Semiconductors Drop, Earnings Roll In - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-28/s-p-500-futures-muted-as-semiconductors-drop-earnings-roll-in"
         },
         {
-          "title": "Micron (MU) Stock Forecast for 2026, 2027, 2028. Sell or ...",
-          "url": "https://pandaforecast.com/stock_forecasts/forecast_mu"
+          "title": "US Stocks Catch a Bid as Oil Tumbles With Iran Conflict Pause - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-27/us-stocks-catch-a-bid-as-oil-tumbles-with-iran-conflict-pause"
         },
         {
-          "title": "Micron Stock Price Forecast. Should You Buy MU?",
-          "url": "https://stockinvest.us/stock/MU"
+          "title": "Stock market today: Nasdaq pares losses as chip stocks sell off, S&P 500 and Dow rise - Yahoo! Finance Canada",
+          "url": "https://ca.finance.yahoo.com/news/stock-market-today-tuesday-july-28-dow-sp-500-nasdaq-082832371.html"
         }
       ]
     },
     {
       "market": {
-        "id": "3114661",
-        "question": "Bitcoin Up or Down on July 28?",
-        "probability": 0.055,
-        "change_24h": -0.43,
-        "volume_24h": 113602.77,
-        "score": 435.06,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-july-28-2026"
+        "id": "2966347",
+        "question": "Will fewer than 50 ships transit the Strait of Hormuz between July 20-July 26?",
+        "probability": 0.0365,
+        "change_24h": -0.6385,
+        "volume_24h": 54495.52,
+        "score": 643.24,
+        "url": "https://polymarket.com/event/will-fewer-than-50-ships-transit-the-strait-of-hormuz-between-july-20-july-26-20260717154058216"
       },
       "insight": {
-        "category": "crypto",
+        "category": "other",
         "en": {
-          "title": "Fed Fears Drive Bitcoin Down",
-          "summary": "Bitcoin's \"Up\" probability for July 28 plummeted to 6% as the market anticipates the Federal Reserve's July 28-29 meeting. Concerns over potential rate hikes and tightening global liquidity are driving institutional risk aversion, with Bitcoin already down 2.49% today.",
+          "title": "Hormuz Transit Fears Ease",
+          "summary": "The probability of fewer than 50 ships transiting the Strait of Hormuz between July 20-26 dropped to 4%, indicating market confidence in higher traffic. This shift was primarily driven by the US and Iran pausing attacks for a second straight day, reducing immediate conflict risks.",
           "drivers": [
-            "Federal Reserve July 28-29 meeting anticipation.",
-            "Rising odds of a Fed rate hike.",
-            "Tightening global liquidity, institutional risk aversion.",
-            "Bitcoin already down 2.49% on July 28."
+            "US-Iran paused attacks (AP News, HuffPost).",
+            "No direct attacks on Hormuz shipping reported.",
+            "Bab el-Mandeb plunge not mirrored in Hormuz."
           ],
-          "why_matters": "The Fed's stance on interest rates significantly impacts risk asset valuations, including cryptocurrencies. This market reflects immediate investor sentiment towards monetary policy.",
-          "bull_case": "Easing geopolitical risks and a dovish surprise from the Federal Reserve could spark a rapid rebound.",
-          "bear_case": "A hawkish Fed stance or further tightening of liquidity will continue to depress Bitcoin prices."
+          "why_matters": "The Strait of Hormuz is vital for global oil supply, and stable transit is crucial for energy prices and the global economy.",
+          "bull_case": "Renewed US-Iran hostilities or direct Iranian action in Hormuz could severely disrupt shipping.",
+          "bear_case": "Sustained US-Iran de-escalation and no direct threats to Hormuz ensure continued traffic."
         },
         "zh": {
-          "title": "联储担忧致比特币下跌",
-          "summary": "比特币7月28日上涨概率暴跌至6%，市场正密切关注美联储7月28-29日的会议。对潜在加息和全球流动性收紧的担忧，正导致机构规避风险，比特币今日已下跌2.49%。",
+          "title": "霍尔木兹海峡航运担忧缓解",
+          "summary": "霍尔木兹海峡在7月20日至26日期间船只通过量少于50艘的概率降至4%，表明市场对更高通航量有信心。这一变化主要受美国和伊朗连续第二天暂停袭击驱动，降低了直接冲突风险。",
           "drivers": [
-            "美联储7月28-29日会议预期。",
-            "美联储加息预期升温。",
-            "全球流动性收紧及机构风险规避。",
-            "比特币今日已下跌2.49%。"
+            "美伊暂停相互袭击（美联社，赫芬顿邮报）。",
+            "霍尔木兹海峡未报告直接袭击事件。",
+            "曼德海峡船运骤降未在霍尔木兹重演。"
           ],
-          "why_matters": "美联储的利率立场显著影响包括加密货币在内的风险资产估值。该市场反映了投资者对货币政策的即时情绪。",
-          "bull_case": "地缘政治风险缓解或美联储鸽派意外可能引发快速反弹。",
-          "bear_case": "美联储鹰派立场或流动性进一步收紧将继续压低比特币价格。"
+          "why_matters": "霍尔木兹海峡对全球石油供应至关重要，稳定通航对能源价格和全球经济至关重要。",
+          "bull_case": "美伊敌对行动升级或伊朗直接干预霍尔木兹海峡可能严重扰乱航运。",
+          "bear_case": "美伊持续降级且霍尔木兹无直接威胁，确保通航量维持。"
         }
       },
       "news": [
         {
-          "title": "Bitcoin (BTCUSD) Is down 2.49% on Jul 28: Why It Happened",
-          "url": "https://www.tradingkey.com/news/market-movers/262057778-market-movers-btcusd-20260728"
+          "title": "Ship traffic plunges through Bab el-Mandeb after Houthi strikes on Saudi oil sites - Ynetnews",
+          "url": "https://www.ynetnews.com/article/bjfre4vbfx"
         },
         {
-          "title": "Crypto Daily Market Report – July 28, 2026",
-          "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-july-28-2026"
+          "title": "US pauses attacks on Iran for a second straight day and Tehran does too - AP News",
+          "url": "https://apnews.com/article/iran-war-united-states-ceasefire-ad9fa27d5b1b5fd51e30d923ee738238"
         },
         {
-          "title": "Bitcoin News Today | BTC Price, Analysis & Updates",
-          "url": "https://blockchainreporter.net/bitcoin-news-today"
+          "title": "U.S. Pauses Attacks On Iran For A Second Straight Day And Tehran Does Too - HuffPost",
+          "url": "https://www.huffpost.com/entry/iran-war-us-pauses-attacks-second-straight-day_n_6a6634d4e4b04785304393e9/amp"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127118",
+        "question": "SPY (SPY) Up or Down on July 28?",
+        "probability": 0.9,
+        "change_24h": 0.495,
+        "volume_24h": 45431.0,
+        "score": 499.66,
+        "url": "https://polymarket.com/event/spy-up-or-down-on-july-28-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "SPY (SPY) Up or Down on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "SPY (SPY) Up or Down on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Three Prices Where SpaceX Stock Is a Buy - Barron's",
+          "url": "https://www.barrons.com/articles/spacex-stock-price-buy-dfe4aa70"
+        },
+        {
+          "title": "European shares climb as US-Iran peace optimism lifts risk sentiment - Reuters",
+          "url": "https://www.reuters.com/world/china/european-shares-climb-as-us-iran-peace-optimism-lifts-risk-sentiment-2026-07-27/"
+        },
+        {
+          "title": "Stock Market Today, July 27: Dow Rises on Oil Retreat, and Sandisk Plunges 11% on Memory Weakness - The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/07/27/stock-market-today-july-27-dow-rises-on-oil-retreat-and-sandisk-plunges-11-on-memory-weakness/"
         }
       ]
     },
@@ -426,37 +250,29 @@
       "market": {
         "id": "3091766",
         "question": "Will WTI Crude Oil (WTI) hit (LOW) $80 Week of July 27 2026?",
-        "probability": 0.9995,
-        "change_24h": 0.4045,
-        "volume_24h": 7160.88,
-        "score": 408.35,
+        "probability": 1.0,
+        "change_24h": 0.4945,
+        "volume_24h": 6504.76,
+        "score": 498.31,
         "url": "https://polymarket.com/event/will-wti-dip-to-80-by-july-27-2026"
       },
       "insight": {
-        "category": "economy",
+        "category": "other",
         "en": {
-          "title": "WTI Plunges Below $80 Target",
-          "summary": "WTI crude oil's probability of hitting a low of $80 during the week of July 27, 2026, surged to 100% after reports confirmed prices dropped significantly under $84. This sharp decline was primarily driven by the US pausing strikes on Iran, easing geopolitical tensions and reducing oil's risk premium.",
+          "title": "Will WTI Crude Oil (WTI) hit (LOW) $80 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "US pauses strikes on Iran, easing geopolitical risk.",
-            "WTI crude reported down 7% to under $84.",
-            "Oil prices drop over 5% due to de-escalation hopes."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "A sustained drop in WTI below $80 could signal global economic slowdown concerns, impact energy sector profitability, and influence inflation trends.",
-          "bull_case": "Continued geopolitical de-escalation and weak global demand outlook will keep WTI firmly below $80 this week.",
-          "bear_case": "Renewed Middle East tensions or unexpected OPEC+ supply cuts could swiftly push WTI back above $80."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "WTI油价跌破80美元目标",
-          "summary": "2026年7月27日当周，WTI原油触及80美元低点的可能性飙升至100%，此前有报道称油价已大幅跌至84美元以下。此次急剧下跌主要受美国暂停对伊朗的打击行动驱动，缓解了地缘政治紧张局势，降低了原油风险溢价。",
+          "title": "Will WTI Crude Oil (WTI) hit (LOW) $80 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "美国暂停打击伊朗，地缘政治风险缓解。",
-            "WTI原油下跌7%，跌至84美元以下。",
-            "地缘政治缓和预期致油价下跌超5%。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "WTI油价持续跌破80美元可能预示全球经济放缓，影响能源行业盈利能力及通胀趋势。",
-          "bull_case": "地缘政治持续缓和及全球需求疲软将使WTI本周稳定在80美元以下。",
-          "bear_case": "中东局势再趋紧张或OPEC+意外减产可能迅速推高WTI至80美元以上。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
@@ -476,53 +292,751 @@
     },
     {
       "market": {
+        "id": "3117035",
+        "question": "Bitcoin Up or Down - July 28, 1PM ET",
+        "probability": 0.0165,
+        "change_24h": -0.4885,
+        "volume_24h": 15520.34,
+        "score": 492.69,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-july-28-2026-1pm-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down - July 28, 1PM ET",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Bitcoin Up or Down - July 28, 1PM ET",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Watch Sacramento River Cats and Tacoma Rainiers - MLB.com",
+          "url": "https://www.mlb.com/video/watch-sacramento-river-cats-and-tacoma-rainiers?t=mlb-pipeline"
+        },
+        {
+          "title": "Where to watch Storm vs. Fever today: Channel, time, TV schedule, live stream for Caitlin Clark WNBA game - sportingnews.com",
+          "url": "https://www.sportingnews.com/us/wnba/news/watch-storm-fever-channel-time-schedule-stream-caitlin-clark/a798dfd4269ada3bc3d0f50e"
+        },
+        {
+          "title": "Thurman Thomas, NFL Hall of Fame running back, Buffalo Bills legend - Democrat and Chronicle",
+          "url": "https://www.democratandchronicle.com/picture-gallery/sports/football/nfl/bills/2026/07/28/thurman-thomas-nfl-hall-of-fame-running-back-buffalo-bills-legend/91022620007/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127140",
+        "question": "WTI Crude Oil (WTI) Up or Down on July 28?",
+        "probability": 0.0155,
+        "change_24h": -0.4845,
+        "volume_24h": 42717.41,
+        "score": 489.13,
+        "url": "https://polymarket.com/event/wti-up-or-down-on-july-28-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "WTI Crude Oil (WTI) Up or Down on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "WTI Crude Oil (WTI) Up or Down on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Jim Cramer's top 10 things to watch in the stock market Monday - CNBC",
+          "url": "https://www.cnbc.com/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html"
+        },
+        {
+          "title": "Oil Market's Glut Narrative Just Blew Up - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Glut-Narrative-Just-Blew-Up.html"
+        },
+        {
+          "title": "Oil Prices Drop Over 5% as US Pauses Iran Strikes - Market Update - Global Banking & Finance Review",
+          "url": "https://www.globalbankingandfinance.com/oil-slips-5-us-pauses-strikes-iran/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127195",
+        "question": "S&P 500 (SPY) closes above $745 on July 28?",
+        "probability": 0.0355,
+        "change_24h": -0.4645,
+        "volume_24h": 22463.81,
+        "score": 468.85,
+        "url": "https://polymarket.com/event/spy-closes-above-745-on-july-28-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "S&P 500 (SPY) closes above $745 on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "S&P 500 (SPY) closes above $745 on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Stock Market Today: Major Indexes Mixed; Nasdaq, S&P 500 Slip as Chip Stocks Fall, Dow Rises; Oil Prices Plunge on Pause in US-Iran Hostilities - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07272026-12027190"
+        },
+        {
+          "title": "European shares climb as US-Iran peace optimism lifts risk sentiment - Reuters",
+          "url": "https://www.reuters.com/world/china/european-shares-climb-as-us-iran-peace-optimism-lifts-risk-sentiment-2026-07-27/"
+        },
+        {
+          "title": "Stock Market Today, July 27: Dow Rises on Oil Retreat, and Sandisk Plunges 11% on Memory Weakness - The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/07/27/stock-market-today-july-27-dow-rises-on-oil-retreat-and-sandisk-plunges-11-on-memory-weakness/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127208",
+        "question": "WTI Crude Oil (WTI) closes above $83 on July 28?",
+        "probability": 0.0055,
+        "change_24h": -0.4545,
+        "volume_24h": 7175.5,
+        "score": 458.36,
+        "url": "https://polymarket.com/event/wti-closes-above-83-on-july-28-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "WTI Crude Oil (WTI) closes above $83 on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "WTI Crude Oil (WTI) closes above $83 on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Oil Price Forecast — WTI ($83.50) Gaps to $83.10 and Brent Breaks $90 as the Iran Strike Pause Drains a $10 Premium",
+          "url": "https://www.tradingnews.com/news/wti-crashes-6-percent-to-83-usd-and-brent-haps-below-90-usd"
+        },
+        {
+          "title": "Economy Prediction Markets: Live Odds and Predictions",
+          "url": "https://defirate.com/prediction-markets/economics"
+        },
+        {
+          "title": "Dow Surges Over 600 Points as Risk Appetite Roars Back on Halted Iran Strikes — BigGo Finance",
+          "url": "https://finance.biggo.com/news/779bd4c3-c269-437e-aa1d-7fa2bd497027"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127105",
+        "question": "Google (GOOGL) Up or Down on July 28?",
+        "probability": 0.951,
+        "change_24h": 0.451,
+        "volume_24h": 2992.28,
+        "score": 454.48,
+        "url": "https://polymarket.com/event/googl-up-or-down-on-july-28-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Google (GOOGL) Up or Down on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Google (GOOGL) Up or Down on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Focus: Google rivals line up seeking damages after record $1 billion fine - Reuters",
+          "url": "https://www.reuters.com/legal/litigation/google-rivals-line-up-seeking-damages-after-record-1-billion-fine-2026-07-28/"
+        },
+        {
+          "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off - CNBC",
+          "url": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html"
+        },
+        {
+          "title": "4 Zodiac Signs Attract Major Abundance & Luck On Tuesday, July 28 - YourTango",
+          "url": "https://www.yourtango.com/zodiac/zodiac-signs-abundance-luck-july-28-2026"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3091271",
+        "question": "Will Alphabet Inc. (GOOGL) hit (HIGH) $340 Week of July 27 2026?",
+        "probability": 0.745,
+        "change_24h": 0.44,
+        "volume_24h": 1672.73,
+        "score": 443.22,
+        "url": "https://polymarket.com/event/will-googl-reach-340-by-july-27-2026"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "GOOGL Surges, $340 Target Closer",
+          "summary": "The probability of GOOGL hitting $340 by July 27, 2026, surged by 44.0% to 74% as the stock gained 2.13% on Monday, July 27, 2026, reaching $326.56. This significant daily increase brought the price substantially closer to the target within the specified week.",
+          "drivers": [
+            "GOOGL stock surged 2.13% on July 27, 2026.",
+            "Price reached $326.56, nearing the $340 target."
+          ],
+          "why_matters": "This reflects strong investor confidence in Alphabet's near-term performance, potentially signaling broader tech sector strength.",
+          "bull_case": "GOOGL's 2.13% daily gain to $326.56 shows strong momentum, making the $340 target highly achievable this week.",
+          "bear_case": "Despite the recent surge, GOOGL still requires a 4.11% increase to hit $340, facing potential market resistance."
+        },
+        "zh": {
+          "title": "GOOGL飙升，340美元目标临近",
+          "summary": "谷歌（GOOGL）股价在2026年7月27日周一上涨2.13%至326.56美元，使其在2026年7月27日当周触及340美元的概率飙升44.0%至74%。此次显著的日涨幅使股价大幅接近目标。",
+          "drivers": [
+            "GOOGL股价在7月27日飙升2.13%。",
+            "股价达326.56美元，逼近340美元目标。"
+          ],
+          "why_matters": "这反映了投资者对Alphabet近期业绩的强烈信心，可能预示着更广泛的科技板块走强。",
+          "bull_case": "GOOGL日涨2.13%至326.56美元，显示强劲势头，本周内有望轻松达到340美元目标。",
+          "bear_case": "尽管近期飙升，GOOGL仍需再涨4.11%才能触及340美元，可能面临市场阻力。"
+        }
+      },
+      "news": [
+        {
+          "title": "Google Stock Price Forecast. Should You Buy GOOGL?",
+          "url": "https://stockinvest.us/stock/GOOGL"
+        },
+        {
+          "title": "AI Tomorrow's Prediction [\"Forecast\"] Alphabet Inc (GOOG) share price targets [\"tomorrow,weekly,monthly\"]  - MunafaSutra.com",
+          "url": "https://munafasutra.com/nasdaq/tomorrow/GOOG"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127177",
+        "question": "S&P 500 (SPX) Up or Down on July 28?",
+        "probability": 0.88,
+        "change_24h": 0.375,
+        "volume_24h": 54059.55,
+        "score": 379.73,
+        "url": "https://polymarket.com/event/spx-up-or-down-on-july-28-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "S&P 500 (SPX) Up or Down on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "S&P 500 (SPX) Up or Down on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "The S&P 500 Seeks Support on 7,410 as Tech Surges at Pre-Mar... - moomoo Community",
+          "url": "https://www.moomoo.com/community/feed/the-s-p-500-seeks-support-on-7-410-as-116991175885206"
+        },
+        {
+          "title": "Weak Chip Stocks Put Downward Pressure on Broader Market",
+          "url": "https://www.barchart.com/story/news/3450320/weak-chip-stocks-put-downward-pressure-on-broader-market"
+        },
+        {
+          "title": "Nasdaq falls as AI worries mount ahead of pivotal earnings",
+          "url": "https://www.detroitnews.com/story/business/2026/07/28/stocks-wall-street/91075926007"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3054990",
+        "question": "Will Houthis successfully target shipping on July 28, 2026?",
+        "probability": 0.47,
+        "change_24h": 0.35,
+        "volume_24h": 1361.58,
+        "score": 353.13,
+        "url": "https://polymarket.com/event/will-houthis-successfully-target-shipping-on-july-28-2026-20260722225036921"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Houthis successfully target shipping on July 28, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Houthis successfully target shipping on July 28, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Houthis want to copy Iran’s Hormuz control in the Red Sea: Yemeni FM - Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/28/houthis-want-to-copy-irans-hormuz-control-in-the-red-sea-yemeni-fm"
+        },
+        {
+          "title": "Houthis say they targeted Saudi east-west oil transport - Reuters",
+          "url": "https://www.reuters.com/world/middle-east/houthis-say-they-targeted-saudi-east-west-oil-transport-2026-07-27/"
+        },
+        {
+          "title": "Yemeni FM: Houthis want to emulate Iran's Hormuz Control in Red Sea - Marine News Magazine",
+          "url": "https://www.marinelink.com/blogs/blog/yemeni-fm-houthis-want-to-emulate-irans-hormuz-control-in-red-105167"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3091666",
+        "question": "Will Micron Technology, Inc. (MU) hit (LOW) $840 Week of July 27 2026?",
+        "probability": 1.0,
+        "change_24h": 0.3095,
+        "volume_24h": 4166.91,
+        "score": 313.12,
+        "url": "https://polymarket.com/event/will-mu-dip-to-840-by-july-27-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Micron Technology, Inc. (MU) hit (LOW) $840 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Micron Technology, Inc. (MU) hit (LOW) $840 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "What will Micron Technology, Inc. (MU) hit Week of July 27 2026? Trading Odds & Predictions (Jul. 24, 2026) | Polymarket",
+          "url": "https://polymarket.com/event/will-mu-hit-week-of-july-27-2026"
+        },
+        {
+          "title": "Micron Stock Price Forecast. Should You Buy MU?",
+          "url": "https://stockinvest.us/stock/MU"
+        },
+        {
+          "title": "Buy or Sell the Memory Plunge? SanDisk Sinks 9%, Micron Drops 7%, Western Digital Falls 8%",
+          "url": "https://247wallst.com/investing/2026/07/28/buy-or-sell-the-memory-plunge-sandisk-sinks-9-micron-drops-7-western-digital-falls-8"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3091587",
+        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $62 Week of July 27 2026?",
+        "probability": 1.0,
+        "change_24h": 0.3045,
+        "volume_24h": 1489.45,
+        "score": 307.67,
+        "url": "https://polymarket.com/event/will-rklb-dip-to-62-by-july-27-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $62 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $62 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Rocket Lab Stock: Can a $266 Million Defense Deal Help It Escape SpaceX’s Shadow? - Barron's",
+          "url": "https://www.barrons.com/articles/rocket-lab-stock-price-defense-deal-spacex-1feaaac9"
+        },
+        {
+          "title": "SpaceX Stock Still Struggles After ‘Near Perfect’ 13th Starship Test. Flight 14 Will Be Wild. - Barron's",
+          "url": "https://www.barrons.com/articles/spacex-stock-starship-test-flight-8d7765c4"
+        },
+        {
+          "title": "Rocket Lab Stock Jumps After Securing Largest Launch Contract With Pentagon - Investor's Business Daily",
+          "url": "https://www.investors.com/news/space-x-rocket-lab-pentagon-space-force-satellites/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3102463",
+        "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in August?",
+        "probability": 0.965,
+        "change_24h": 0.3,
+        "volume_24h": 4613.36,
+        "score": 303.66,
+        "url": "https://polymarket.com/event/will-wti-dip-to-85-in-august-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will WTI Crude Oil (WTI) hit (LOW) $85 in August?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will WTI Crude Oil (WTI) hit (LOW) $85 in August?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Crude oil futures plunge nearly 8% as easing West Asia tensions trigger global selloff",
+          "url": "https://www.deccanherald.com/amp/story/business%2Fcrude-oil-futures-plunge-nearly-8-as-easing-west-asia-tensions-trigger-global-selloff-4088867"
+        },
+        {
+          "title": "US-Iran Conflict Chokes Middle East Oil Routes; Brent Crude Surges Past $95, Experts Warn of Potential $125 Spike",
+          "url": "https://finance.biggo.com/news/c3a84443-dbc6-4a76-972b-53a1abea4c66"
+        },
+        {
+          "title": "First Night Without Iran Strikes — Jobs Hit a 60-Year Low as Bitcoin Holds $64K Into FOMC Week",
+          "url": "https://www.binance.com/en-BH/square/post/348490156269489"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3091601",
+        "question": "Will Airbnb, Inc. (ABNB) hit (HIGH) $148 Week of July 27 2026?",
+        "probability": 1.0,
+        "change_24h": 0.2845,
+        "volume_24h": 1090.32,
+        "score": 287.54,
+        "url": "https://polymarket.com/event/will-abnb-reach-148-by-july-27-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Airbnb, Inc. (ABNB) hit (HIGH) $148 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Airbnb, Inc. (ABNB) hit (HIGH) $148 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "forelytic — Prediction Markets",
+          "url": "https://forelytic.com/event/will-abnb-hit-week-of-july-27-2026"
+        },
+        {
+          "title": "Airbnb (ABNB) Stock Forecast & Price Prediction 2026–2030 | CoinCodex",
+          "url": "https://coincodex.com/stock/ABNB/price-prediction"
+        },
+        {
+          "title": "ABNB Airbnb, Inc.",
+          "url": "https://finance.yahoo.com/quote/ABNB"
+        }
+      ]
+    },
+    {
+      "market": {
         "id": "3055697",
         "question": "Will the price of Bitcoin be above $64,000 on July 30?",
-        "probability": 0.37,
-        "change_24h": -0.375,
-        "volume_24h": 12107.89,
-        "score": 379.08,
+        "probability": 0.425,
+        "change_24h": -0.27,
+        "volume_24h": 12743.04,
+        "score": 274.11,
         "url": "https://polymarket.com/event/bitcoin-above-64k-on-july-30-2026"
       },
       "insight": {
         "category": "crypto",
         "en": {
-          "title": "Bitcoin Probability Dips on Stagnant Investor Interest",
-          "summary": "The probability of Bitcoin exceeding $64,000 by July 30 plummeted by 37.5% as investors showed little response to Trump's pro-crypto stance and analysts predicted range-bound trading.",
+          "title": "Will the price of Bitcoin be above $64,000 on July 30?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Investors ignore Trump's Bitcoin advocacy.",
-            "CoinEx's Jeff Ko predicts Bitcoin range-bound near $65,000.",
-            "High 4.7% 10-year yield reduces risk asset appeal."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This movement highlights Bitcoin's struggle to find immediate bullish catalysts despite political endorsements and long-term optimistic outlooks, signaling a period of consolidation.",
-          "bull_case": "Bitcoin could sustain its position above $64,000 if it holds the $65,000 range predicted by CoinEx's Jeff Ko.",
-          "bear_case": "Investor apathy to political pushes and persistent high yields could keep Bitcoin below $64,000."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "比特币突破6.4万概率骤降",
-          "summary": "投资者对特朗普的加密货币支持反应平淡，加之分析师预测比特币将区间震荡，导致其在7月30日前突破6.4万美元的概率骤降37.5%。",
+          "title": "Will the price of Bitcoin be above $64,000 on July 30?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "投资者未响应特朗普的比特币倡议。",
-            "CoinEx的Jeff Ko预测比特币将在6.5万美元附近区间震荡。",
-            "4.7%的10年期国债收益率降低风险资产吸引力。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "此次波动表明，尽管有政治背书和长期乐观前景，比特币仍难以找到即时看涨催化剂，预示着一段盘整期。",
-          "bull_case": "若比特币能维持CoinEx的Jeff Ko预测的6.5万美元区间，则有望保持在6.4万美元以上。",
-          "bear_case": "投资者对政治推动的冷淡反应和持续高企的收益率可能使比特币维持在6.4万美元以下。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "Live updates: Ether leads crypto higher. China's gold imports surge - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/07/27/live-updates-ether-leads-crypto-higher-as-bitcoin-trades-around-usd65-500"
+          "title": "Bitcoin price holds above $64,000 as traders brace for upcoming Fed decision",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-64000-as-traders-brace-for-upcoming-fed-decision-4812846"
         },
         {
-          "title": "Trump made a big Bitcoin push. Investors aren't biting - USA Today",
-          "url": "https://www.usatoday.com/story/money/personalfinance/2026/07/26/bitcoin-crypto-investors-crash-trump-etf/91029282007/"
+          "title": "Bitcoin is clinging to $64000 as $312 million in liquidations and ETF ...",
+          "url": "https://startupfortune.com/bitcoin-is-clinging-to-64000-as-312-million-in-liquidations-and-etf-outflows-signal-a-market-under-real-pressure"
         },
         {
-          "title": "SpaceX and Tesla CEO Elon Musk Issues Stark 2036 Prediction That Could Be About To Blow Up The Bitcoin Price - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/07/26/elon-musks-stark-2036-prediction-could-be-about-to-change-everything/"
+          "title": "Bitcoin price falls below $64K ahead of Fed decision",
+          "url": "https://crypto.news/bitcoin-price-falls-below-64k-ahead-of-fed-decision"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2760565",
+        "question": "Will the median home value in San Francisco Metro be less than $1,176,000 on September 30?",
+        "probability": 0.685,
+        "change_24h": 0.27,
+        "volume_24h": 3157.85,
+        "score": 273.5,
+        "url": "https://polymarket.com/event/will-the-median-home-value-in-san-francisco-metro-be-less-than-1176000-on-september-30-20260630181308440"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will the median home value in San Francisco Metro be less than $1,176,",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the median home value in San Francisco Metro be less than $1,176,",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "From Bust to Boom: San Francisco Home Prices Are Now $1 Million Higher Than Housing-Crash Bottom",
+          "url": "https://finance.yahoo.com/real-estate/articles/bust-boom-san-francisco-home-123000171.html"
+        },
+        {
+          "title": "San Francisco Housing Market Trends",
+          "url": "https://www.redfin.com/city/17151/CA/San-Francisco/housing-market"
+        },
+        {
+          "title": "San Francisco Housing Market Report - Homes.com",
+          "url": "https://www.homes.com/reports/san-francisco-housing-market"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2677783",
+        "question": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $90 in July?",
+        "probability": 1.0,
+        "change_24h": 0.2695,
+        "volume_24h": 1262.67,
+        "score": 272.6,
+        "url": "https://polymarket.com/event/will-hood-dip-to-90-in-july-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $90 in July?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $90 in July?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Crypto.com, Robinhood Reportedly in Prediction Market Talks - Casino.org",
+          "url": "https://www.casino.org/news/crypto-com-robinhood-reportedly-in-prediction-market-talks/"
+        },
+        {
+          "title": "Ford and General Motors get upgraded by Jefferies, which sees sharp gains ahead - CNBC",
+          "url": "https://www.cnbc.com/2026/07/27/ford-and-general-motors-get-upgraded-by-jefferies-which-sees-sharp-gains-ahead.html"
+        },
+        {
+          "title": "Robinhood Pengs NFT Latest Floor Price, Charts, and Market Cap Data - Forbes",
+          "url": "https://www.forbes.com/digital-assets/nfts/robinhood-pengs-robinhoodpengs/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127108",
+        "question": "NVIDIA (NVDA) Up or Down on July 28?",
+        "probability": 0.745,
+        "change_24h": 0.25,
+        "volume_24h": 2431.57,
+        "score": 253.39,
+        "url": "https://polymarket.com/event/nvda-up-or-down-on-july-28-2026"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "NVIDIA (NVDA) Up or Down on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "NVIDIA (NVDA) Up or Down on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Stock market today: Nasdaq pares losses as chip stocks sell off, S&P 500 and Dow rise - Yahoo! Finance Canada",
+          "url": "https://ca.finance.yahoo.com/news/stock-market-today-tuesday-july-28-dow-sp-500-nasdaq-082832371.html"
+        },
+        {
+          "title": "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock. - Barron's",
+          "url": "https://www.barrons.com/articles/nvidia-stock-price-openai-finance-deal-b9c8993b"
+        },
+        {
+          "title": "Nvidia Slides as AI Spending Fears Hit Chip Stocks - Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-slides-ai-spending-fears-122828811.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3127107",
+        "question": "Tesla (TSLA) Up or Down on July 28?",
+        "probability": 0.25,
+        "change_24h": -0.245,
+        "volume_24h": 3078.27,
+        "score": 248.49,
+        "url": "https://polymarket.com/event/tsla-up-or-down-on-july-28-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Tesla (TSLA) Up or Down on July 28?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Tesla (TSLA) Up or Down on July 28?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Stock Market News for July 28, 2026 - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/ASML/pressreleases/3502853/stock-market-news-for-july-28-2026"
+        },
+        {
+          "title": "After a Rough Post-Earnings Week, Where Does Tesla Go ...",
+          "url": "https://247wallst.com/investing/2026/07/28/after-a-rough-post-earnings-week-where-does-tesla-go-from-here"
+        },
+        {
+          "title": "Tesla Stock After Q2 Earnings: Why TSLA Fell - Quasa.io",
+          "url": "https://quasa.io/media/tesla-stock-after-q2-earnings-why-tsla-fell-and-what-matters-next"
         }
       ]
     },
@@ -530,458 +1044,212 @@
       "market": {
         "id": "3091734",
         "question": "Will Gold (XAUUSD) hit (HIGH) $4,150 Week of July 27 2026?",
-        "probability": 0.265,
-        "change_24h": -0.375,
-        "volume_24h": 2118.86,
-        "score": 378.33,
+        "probability": 0.25,
+        "change_24h": -0.23,
+        "volume_24h": 2018.92,
+        "score": 233.31,
         "url": "https://polymarket.com/event/will-xauusd-reach-4150-by-july-27-2026"
       },
       "insight": {
-        "category": "economy",
+        "category": "other",
         "en": {
-          "title": "Gold $4,150 High Probability Plunges",
-          "summary": "The probability for Gold (XAUUSD) hitting $4,150 this week dropped sharply to 26%, despite reports of spot prices regaining $4,100 and rising. This decline suggests market skepticism about the rally's sustainability and the direct relevance of high futures prices to the immediate spot high.",
+          "title": "Will Gold (XAUUSD) hit (HIGH) $4,150 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Skepticism on XAUUSD spot rally reaching $4,150.",
-            "Market discounting $4,713.3 gold futures price.",
-            "Anticipation of immediate price reversal below target."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "Gold's price trajectory impacts inflation expectations, safe-haven demand, and broader commodity market sentiment, influencing investor asset allocation decisions.",
-          "bull_case": "Gold's sharp rise to $4,100 and State Street's Doshi's bullish outlook suggest strong upward momentum could easily push it past $4,150.",
-          "bear_case": "Despite current gains, market skepticism and potential for quick reversals indicate XAUUSD may struggle to establish $4,150 as the week's high."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "黄金触及4150美元概率骤降",
-          "summary": "尽管有报道称现货黄金价格已重回4100美元并大幅上涨，但黄金（XAUUSD）本周触及4150美元高点的概率却骤降至26%。这表明市场对当前涨势的持续性以及高期货价格与即期现货高点关联性持怀疑态度。",
+          "title": "Will Gold (XAUUSD) hit (HIGH) $4,150 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "市场怀疑XAUUSD现货涨势能否触及4150美元。",
-            "市场不看重4713.3美元黄金期货价格。",
-            "预期金价在上涨后可能迅速反转。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "黄金价格走势影响通胀预期、避险需求及大宗商品市场情绪，进而影响投资者资产配置。",
-          "bull_case": "黄金飙升至4100美元及道富银行Doshi的看涨观点，预示强劲上涨动能可轻松突破4150美元。",
-          "bear_case": "尽管当前上涨，市场疑虑和快速反转的可能性表明XAUUSD难以将4150美元确立为本周高点。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "Gold's next $1,000 move is likely higher as Fed hawkishness peaks, says State Street's Doshi - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-07-27/golds-next-1000-move-likely-higher-fed-hawkishness-peaks-says-state-streets"
+          "title": "Gold rallies to over two-week high, eyes $4,150 as traders track US-Iran diplomacy efforts",
+          "url": "https://www.google.com/goto?url=CAEShQEB7keqTaR7PW8h61COfA63p8Na8UQwHCqYREQZncdPc95t0mGVwF1aeOBV_kVV5kb4lKEUrW_AmyNf5jQ5pr5V832S2nojq3H4X3Cdjc9J0cJ9YrgXwGjWgcC45pnjY3ughxkJnnaIoJ-EUlUMpVKI8nYMoFcHrzh5iWK387EyUqrREpXi"
         },
         {
-          "title": "image - Mining.com",
-          "url": "https://www.mining.com/web/gold-price-climbs-as-pause-in-mideast-fighting-curbs-inflation-risk/image-500/"
+          "title": "Gold Price Forecast — XAU/USD ($4,053) Brent Tops $100.05 and September Fed Hike Odds Hit 78%",
+          "url": "https://www.google.com/goto?url=CAESsgEB7keqTbjecQ4YwfZ6B0NGqsTGFHS50vuonFwHxzEKtqcomD83yHLL3fxbye2m04LE0qEVO_AgNRDTjVFLszif7KXmNi7HfdqxMy_rAhC9dhdCBMnNzcGAmJTOezeT_iW2lGcaoHJ8AXCsPL-Llq27jWmNBZ6fQmxL6Ny6janl03HLPfS_OcoyMKvU_0TwOt8AkVGGAVd-t8FLeTfjiJohxTdj32p5vNgHU-jg4_zU0R7I"
         },
         {
-          "title": "World gold prices regained the $4,100 mark on the morning of July 27th. - Vietnam.vn",
-          "url": "https://www.vietnam.vn/en/gia-vang-the-gioi-lay-lai-moc-4-100-usd-sang-27-7"
+          "title": "The Dollar at a One-Month High Is Doing Most of the Damage",
+          "url": "https://www.google.com/goto?url=CAESoQEB7keqTefAP4nKvejygEyCWmvQMLhwhA2-LJibC7hXoPieVVcVEetXKQSG83sHYiJOI4h58gUG-C8TBQGN0J4EJ2CFOSh9EGS6jrZgFB6ReGod9AxvPCKIy7YM1ybKsejdCqsqwtQMTMzW65m7NR_l88tyaPuS8CPHhDpmzR4KjTmWyYYBxqaiyK5BwRVuGmjxvdziCRJtH5jiMWg6jdOpkQ%3D%3D"
         }
       ]
     },
     {
       "market": {
-        "id": "3091382",
-        "question": "Will Tesla, Inc. (TSLA) hit (LOW) $300 Week of July 27 2026?",
-        "probability": 0.74,
-        "change_24h": 0.37,
-        "volume_24h": 2692.47,
-        "score": 373.43,
-        "url": "https://polymarket.com/event/will-tsla-dip-to-300-by-july-27-2026"
+        "id": "3091450",
+        "question": "Will Netflix, Inc. (NFLX) hit (HIGH) $75 Week of July 27 2026?",
+        "probability": 0.41,
+        "change_24h": 0.23,
+        "volume_24h": 1109.95,
+        "score": 233.05,
+        "url": "https://polymarket.com/event/will-nflx-reach-75-by-july-27-2026"
       },
       "insight": {
-        "category": "business",
+        "category": "sports",
         "en": {
-          "title": "Tesla's 2026 Outlook Drives Price Confidence",
-          "summary": "The probability of TSLA hitting $300 by July 2026 surged 37% as forward-looking news suggests a strong future, notably Elon Musk's projected \"trillionaire\" status by that date. This positive outlook overshadows recent negative reports like Q2 earnings misses and Cybertruck struggles.",
+          "title": "Will Netflix, Inc. (NFLX) hit (HIGH) $75 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Elon Musk projected \"trillionaire\" status by July 2026.",
-            "Tesla stock gains on positive 2026 production reset.",
-            "Market's focus shifted to Tesla's strong future potential."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This movement indicates investors are pricing in a significant future turnaround for Tesla, potentially driven by new products or market dominance, despite current challenges.",
-          "bull_case": "Elon Musk's projected \"trillionaire\" status by July 2026 implies a much higher TSLA valuation, making $300 highly achievable.",
-          "bear_case": "Current struggles like Q2 earnings miss and Cybertruck flop could persist, hindering future growth and price recovery."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "特斯拉2026年前景提振股价信心",
-          "summary": "特斯拉股价在2026年7月前达到300美元的可能性飙升37%，主要受前瞻性利好消息驱动，尤其是埃隆·马斯克届时有望成为“万亿富翁”。这积极前景盖过了近期负面消息，如第二季度财报不及预期和Cybertruck表现不佳。",
+          "title": "Will Netflix, Inc. (NFLX) hit (HIGH) $75 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "埃隆·马斯克预计在2026年7月成为“万亿富翁”。",
-            "特斯拉股价因2026年生产计划重置而上涨。",
-            "市场焦点转向特斯拉强劲的未来潜力。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这一变化表明投资者正在消化特斯拉未来可能出现的重大转机，即便当前面临挑战，也可能由新产品或市场主导地位推动。",
-          "bull_case": "埃隆·马斯克在2026年7月成为“万亿富翁”的预测，暗示特斯拉估值将大幅提升，300美元目标极易实现。",
-          "bear_case": "第二季度财报不及预期和Cybertruck表现不佳等当前困境可能持续，阻碍未来增长和股价复苏。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "Elon Musk's Billion-Dollar Philanthropy: Will He Donate His Weal - GuruFocus",
-          "url": "https://www.gurufocus.com/news/8981752/elon-musks-billiondollar-philanthropy-will-he-donate-his-wealth"
+          "title": "Netflix woes setting up for a Hollywood ending, says trader Mike Khouw - CNBC",
+          "url": "https://www.cnbc.com/2026/07/27/netflix-woes-setting-up-for-a-hollywood-ending-says-trader-mike-khouw.html"
         },
         {
-          "title": "After Losing 40% Of His Net Worth In A Month, Elon Musk Attempts To Raise $4 Billion For Another Company - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/27/after-losing-40-of-his-net-worth-in-a-month-elon-musk-attempts-to-raise-4-billion-for-his-lowest-profile-company/"
+          "title": "Monday, July 27, 2026: The Club bought shares of this tech giant and could buy more if the sell-off continues - CNBC",
+          "url": "https://www.cnbc.com/video/2026/07/27/monday-july-27-2026-the-club-bought-shares-of-this-tech-giant-and-could-buy-more-if-the-sell-off-continues.html"
         },
         {
-          "title": "Tesla Stock Just Erased a Year of Gains. Why It’s Suffering Under Expectations. - Barron's",
-          "url": "https://www.barrons.com/articles/tesla-stock-price-loses-year-gains-6acf48c3"
+          "title": "SA Asks: Netflix hit a 52-week low this week. Is now the time to buy? (NFLX:NASDAQ) - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4618451-sa-asks-netflix-hit-a-52-week-low-this-week-is-now-the-time-to-buy"
         }
       ]
     },
     {
       "market": {
-        "id": "3091628",
-        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $160 Week of July 27 2026?",
-        "probability": 1.0,
-        "change_24h": 0.3495,
-        "volume_24h": 2185.0,
-        "score": 352.84,
-        "url": "https://polymarket.com/event/will-coin-reach-160-by-july-27-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ether Rally Propels COIN to $160 Target",
-          "summary": "The probability of COIN hitting $160 by July 27, 2026, surged to 100% following news that Ether is leading a broader crypto market rally. This strong performance on the target date significantly boosted confidence in Coinbase's revenue prospects.",
-          "drivers": [
-            "Ether leads crypto market higher on July 27, 2026.",
-            "Strong broader crypto market performance indicated by Ether.",
-            "Bitcoin's stability near $65,000 provides market floor."
-          ],
-          "why_matters": "A robust crypto market directly translates to increased trading volumes and transaction fees for Coinbase, underpinning its financial performance and stock valuation. This indicates strong investor confidence in the long-term viability of digital assets.",
-          "bull_case": "Sustained crypto market growth, particularly Ether's rally, will drive Coinbase's trading volumes and revenue past expectations.",
-          "bear_case": "A sudden crypto market downturn or increased regulatory scrutiny could quickly reverse Coinbase's positive momentum."
-        },
-        "zh": {
-          "title": "以太坊上涨推高COIN至160美元目标",
-          "summary": "随着以太坊引领加密货币市场全面上涨，COIN在2026年7月27日达到160美元的概率飙升至100%。目标日期当天强劲的市场表现极大地提振了对Coinbase收入前景的信心。",
-          "drivers": [
-            "2026年7月27日以太坊领涨加密市场。",
-            "以太坊表现预示加密市场整体强劲。",
-            "比特币稳定在65,000美元附近提供市场支撑。"
-          ],
-          "why_matters": "强劲的加密货币市场直接转化为Coinbase交易量和手续费的增加，支撑其财务表现和股票估值。这表明投资者对数字资产的长期可行性充满信心。",
-          "bull_case": "加密市场持续增长，尤其以太坊的上涨，将推动Coinbase交易量和收入超预期。",
-          "bear_case": "加密市场突然下跌或监管审查加强，可能迅速逆转Coinbase的积极势头。"
-        }
-      },
-      "news": [
-        {
-          "title": "Live updates: Ether leads crypto higher. China's gold imports surge - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/07/27/live-updates-ether-leads-crypto-higher-as-bitcoin-trades-around-usd65-500"
-        },
-        {
-          "title": "McCray’s 2-run homer leads the Giants to a 3-0 win over the Brewers - AP News",
-          "url": "https://apnews.com/article/brewers-giants-score-414c13a6d1df475346dd2dbbcf316cc0"
-        },
-        {
-          "title": "Gold prices this morning, July 27, 2026: Continue to rise sharply. - Vietnam.vn",
-          "url": "https://www.vietnam.vn/en/gia-vang-sang-nay-27-7-2026-tiep-tuc-tang-manh"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3091329",
-        "question": "Will Meta Platforms, Inc. (META) hit (HIGH) $600 Week of July 27 2026?",
-        "probability": 1.0,
-        "change_24h": 0.3445,
-        "volume_24h": 2842.0,
-        "score": 347.95,
-        "url": "https://polymarket.com/event/will-meta-reach-600-by-july-27-2026"
+        "id": "3091421",
+        "question": "Will NVIDIA (NVDA) hit (LOW) $192 Week of July 27 2026?",
+        "probability": 0.435,
+        "change_24h": -0.225,
+        "volume_24h": 933.49,
+        "score": 227.97,
+        "url": "https://polymarket.com/event/will-nvda-dip-to-192-by-july-27-2026"
       },
       "insight": {
         "category": "ai_tech",
         "en": {
-          "title": "Meta $600 Target Imminent on AI Strength",
-          "summary": "The probability for Meta hitting $600 by July 2026 surged to 100% as its stock price reached $593.87, just shy of the target. This movement was primarily driven by strong investor confidence in Meta's AI investments and a bullish endorsement from analyst Louis Navellier.",
+          "title": "Will NVIDIA (NVDA) hit (LOW) $192 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Meta stock price at $593.87, near $600 target.",
-            "Positive outlook on Meta's AI investments/capex.",
-            "Louis Navellier names Meta #1 AI stock for 2026."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This indicates strong market conviction in Meta's long-term growth trajectory, particularly its leadership in AI, which could redefine its valuation.",
-          "bull_case": "Meta's current price near $600, coupled with robust AI investment and analyst endorsement, makes hitting the target by 2026 highly probable.",
-          "bear_case": "Unforeseen regulatory challenges or a significant slowdown in AI monetization could hinder Meta's growth trajectory."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Meta股价逼近600美元，AI前景看好",
-          "summary": "预测Meta在2026年7月前达到600美元的概率飙升至100%，因其股价已达593.87美元，非常接近目标。此举主要受投资者对Meta人工智能投资的强烈信心以及分析师Louis Navellier的看好推动。",
+          "title": "Will NVIDIA (NVDA) hit (LOW) $192 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "Meta股价已达593.87美元，逼近600美元目标。",
-            "市场对Meta人工智能投资前景持乐观态度。",
-            "Louis Navellier将Meta列为2026年首选AI股。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这表明市场对Meta的长期增长轨迹，特别是其在人工智能领域的领导地位，抱有强烈信心，可能重塑其估值。",
-          "bull_case": "Meta股价已接近600美元，加上强劲的AI投资和分析师支持，2026年实现目标可能性极高。",
-          "bear_case": "未预见的监管挑战或AI变现大幅放缓可能阻碍Meta的增长轨迹。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "AI & capex in focus for Meta this week: Here's what to expect - CNBC",
-          "url": "https://www.cnbc.com/video/2026/07/27/ai-capex-in-focus-for-meta-this-week-heres-what-to-expect.html"
+          "title": "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock. - Barron's",
+          "url": "https://www.barrons.com/articles/nvidia-stock-price-openai-finance-deal-b9c8993b"
         },
         {
-          "title": "Morning Bid: Markets dare to hope as US, Iran put war on hold - Reuters",
-          "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-07-27/"
+          "title": "Sellers Hit Nvidia Amid OpenAI Data Center News; Is Nvidia A Sell Now? - Investor's Business Daily",
+          "url": "https://www.investors.com/research/nvidia-nvda-stock-buy-now-july-2026/"
         },
         {
-          "title": "Wall St futures rise as US, Iran pause hostilities - Reuters",
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-us-iran-pause-hostilities-2026-07-27/"
+          "title": "Cybertruck Called the Biggest Flop in Automotive History, as Tesla Shares Plummet - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/27/cybertruck-called-the-biggest-flop-in-automotive-history-as-tesla-shares-plummet/"
         }
       ]
     },
     {
       "market": {
-        "id": "3081998",
-        "question": "Will the price of Ethereum be above $1,900 on July 31?",
-        "probability": 0.44,
-        "change_24h": -0.325,
-        "volume_24h": 26219.31,
-        "score": 329.42,
-        "url": "https://polymarket.com/event/ethereum-above-1900-on-july-31-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "AI Investment Shifts Crypto Focus",
-          "summary": "The probability of Ethereum exceeding $1,900 by July 31 plummeted by 32.5% to 44%, largely driven by Amazon's substantial $13 billion investment in AI firm Anthropic. This significant capital allocation into a competing tech sector likely diverted investor capital away from the crypto market.",
-          "drivers": [
-            "Amazon's $13B Anthropic investment",
-            "Increased competition for speculative capital",
-            "Absence of direct positive Ethereum catalysts"
-          ],
-          "why_matters": "This movement highlights how major investments in other high-growth tech sectors, like AI, can significantly influence capital allocation decisions in the crypto market. It underscores the competitive landscape for speculative capital.",
-          "bull_case": "Peaking Fed hawkishness could improve risk asset appetite, potentially boosting Ethereum's price above $1,900.",
-          "bear_case": "Significant capital outflow to AI and lack of direct positive Ethereum catalysts will keep price below $1,900."
-        },
-        "zh": {
-          "title": "AI投资转移加密市场焦点",
-          "summary": "以太坊在7月31日突破1900美元的概率暴跌32.5%至44%，主要受亚马逊向AI公司Anthropic投资130亿美元的事件驱动。这笔对竞争性科技领域的巨额资本投入，可能转移了投资者的资金，从而影响了加密市场。",
-          "drivers": [
-            "亚马逊投资Anthropic 130亿美元",
-            "AI领域对投机资本的竞争加剧",
-            "缺乏以太坊直接利好消息"
-          ],
-          "why_matters": "这一波动凸显了其他高增长科技领域（如AI）的重大投资如何显著影响加密市场的资金配置决策。它强调了投机资本的竞争格局。",
-          "bull_case": "美联储鹰派立场见顶可能提振风险资产偏好，从而推高以太坊价格突破1900美元。",
-          "bear_case": "大量资金流向AI领域且缺乏以太坊利好催化剂，将使价格保持在1900美元以下。"
-        }
-      },
-      "news": [
-        {
-          "title": "Vitalik Buterin - Forbes",
-          "url": "https://www.forbes.com/profile/vitalik-buterin/"
-        },
-        {
-          "title": "Gold's next $1,000 move is likely higher as Fed hawkishness peaks, says State Street's Doshi - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-07-27/golds-next-1000-move-likely-higher-fed-hawkishness-peaks-says-state-streets"
-        },
-        {
-          "title": "Amazon invests $13B in Anthropic to boost open-weight AI models - Crypto Briefing",
-          "url": "https://cryptobriefing.com/amazon-invests-13b-in-anthropic-to-boost-open-weight-ai-models/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3091708",
-        "question": "Will S&P 500 (SPY) hit (LOW) $735 Week of July 27 2026?",
-        "probability": 0.775,
-        "change_24h": 0.32,
-        "volume_24h": 1491.48,
-        "score": 323.17,
-        "url": "https://polymarket.com/event/will-spy-dip-to-735-by-july-27-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "SPY $735 Target Probability Surges",
-          "summary": "The probability of SPY hitting at least $735 during the week of July 27, 2026, surged by 32% to 78%. This increase was driven by a strong 94% 'Up' forecast for the S&P 500's opening on July 27 and Polymarket's bullish predictions for targets well above $735.",
-          "drivers": [
-            "94% S&P 500 'Up' open forecast",
-            "Polymarket odds favor targets above $735",
-            "High implied volatility (22.55%)"
-          ],
-          "why_matters": "This indicates strong market confidence in continued S&P 500 growth, reflecting broader economic optimism for mid-2026.",
-          "bull_case": "Overwhelming bullish sentiment and high Polymarket odds for higher targets make $735 a very likely low for the week.",
-          "bear_case": "Despite optimism, high volatility could trigger unexpected drops, preventing SPY from reaching or sustaining $735."
-        },
-        "zh": {
-          "title": "SPY触及735美元概率飙升",
-          "summary": "SPY在2026年7月27日当周触及至少735美元的概率飙升32%至78%。这一增长主要受标普500在7月27日开盘94%看涨预报和Polymarket对远高于735美元目标的看涨预测驱动。",
-          "drivers": [
-            "标普500开盘94%看涨预报",
-            "Polymarket预测高于735美元",
-            "高隐含波动率(22.55%)"
-          ],
-          "why_matters": "这表明市场对标普500持续增长充满信心，反映了2026年中期更广泛的经济乐观情绪。",
-          "bull_case": "压倒性看涨情绪和Polymarket对更高目标的预测使735美元成为该周的极可能低点。",
-          "bear_case": "尽管乐观，高波动性可能引发意外下跌，阻止SPY达到或维持735美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "State Street SPDR S&P 500 ETF Trust (SPY)",
-          "url": "https://finance.yahoo.com/quote/SPY/options"
-        },
-        {
-          "title": "What will S&P 500 (SPY) hit Week of July 27 2026? Trading Odds & Predictions (Jul. 24, 2026) | Polymarket",
-          "url": "https://polymarket.com/event/will-spy-hit-week-of-july-27-2026"
-        },
-        {
-          "title": "S&P 500 Predictions & Real-Time Odds",
-          "url": "https://polymarket.com/predictions/sp-500"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3091230",
-        "question": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $232 Week of July 27 2026?",
+        "id": "3091645",
+        "question": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $90 Week of July 27 2026?",
         "probability": 1.0,
-        "change_24h": 0.3195,
-        "volume_24h": 2613.43,
-        "score": 322.92,
-        "url": "https://polymarket.com/event/will-amzn-reach-232-by-july-27-2026"
+        "change_24h": 0.2245,
+        "volume_24h": 1098.28,
+        "score": 227.54,
+        "url": "https://polymarket.com/event/will-hood-dip-to-90-by-july-27-2026"
       },
       "insight": {
-        "category": "business",
+        "category": "other",
         "en": {
-          "title": "AMZN Confirmed $232 High",
-          "summary": "The probability for AMZN hitting $232 this week surged to 100% after the stock price reached $232.11 on Monday, July 27, 2026. This confirmed high, reported by financial news, directly fulfilled the market condition.",
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $90 Week of July 27 2026",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "AMZN's daily high of $232.11 on July 27, 2026",
-            "Direct confirmation of market condition met",
-            "Financial news reporting the price action"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This outcome demonstrates the immediate impact of confirmed price data on prediction market probabilities, highlighting the importance of real-time financial reporting for market resolution.",
-          "bull_case": "AMZN's confirmed high of $232.11 on July 27, 2026, definitively fulfills the market condition, justifying the 100% probability.",
-          "bear_case": "Only a retraction or correction of AMZN's reported daily high for July 27, 2026, could lower the probability from 100%."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "亚马逊确认触及232美元高点",
-          "summary": "亚马逊股价在本周（2026年7月27日当周）触及232美元的概率飙升至100%，因其在2026年7月27日周一达到232.11美元的高点。这一经金融新闻报道的确认，直接满足了市场条件。",
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $90 Week of July 27 2026",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "亚马逊2026年7月27日盘中高点232.11美元",
-            "市场条件已明确达成",
-            "金融新闻确认股价走势"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这一结果表明已确认的价格数据对预测市场概率的即时影响，突显了实时财务报告对市场结算的重要性。",
-          "bull_case": "亚马逊2026年7月27日确认触及232.11美元高点，明确满足市场条件，支撑100%概率。",
-          "bear_case": "除非2026年7月27日亚马逊报告的日高点数据被撤回或修正，否则概率不会低于100%。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
         {
-          "title": "Amazon Stock Price Forecast. Should You Buy AMZN?",
-          "url": "https://stockinvest.us/stock/AMZN"
+          "title": "Robinhood Stock Price Forecast. Should You Buy HOOD?",
+          "url": "https://stockinvest.us/stock/HOOD"
         },
         {
-          "title": "Instagram",
-          "url": "https://www.instagram.com/p/DbTjOy2ld_J"
+          "title": "Robinhood Q2 Results: Chain TVL hits record $333M",
+          "url": "https://scanx.trade/stock-market-news/companies/robinhood-q2-results-chain-tvl-hits-record-333m/46680347"
         },
         {
-          "title": "Amazon.com (NasdaqGS:AMZN) Stock Forecast & Analyst Predictions",
-          "url": "https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom/future"
+          "title": "Robinhood Markets (NasdaqGS:HOOD) Stock Forecast & Analyst ...",
+          "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-hood/robinhood-markets/future"
         }
       ]
     },
     {
       "market": {
-        "id": "2928823",
-        "question": "Will US crude oil reserves fall to 285M by August 31?",
-        "probability": 0.535,
-        "change_24h": -0.31,
-        "volume_24h": 3652.93,
-        "score": 313.56,
-        "url": "https://polymarket.com/event/will-us-crude-oil-reserves-fall-to-350m-by-may-1-20260714141931929"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Iran-US De-escalation Eases Oil Reserve Concerns",
-          "summary": "The probability of US crude oil reserves falling to 285M by August 31 decreased by 31% to 54%. This significant drop was driven by the de-escalation of tensions between Iran and the US over the Strait of Hormuz, as reported by the Financial Times.",
-          "drivers": [
-            "Iran-US tensions pause over Strait of Hormuz",
-            "Reduced risk of global oil supply disruptions",
-            "Falling oil prices due to de-escalation"
-          ],
-          "why_matters": "Stable oil reserves are crucial for energy security and economic stability, as significant drawdowns can signal supply crises or geopolitical instability.",
-          "bull_case": "Renewed geopolitical tensions or unexpected demand surges could rapidly deplete US crude oil reserves.",
-          "bear_case": "Continued de-escalation and stable global supply will prevent US crude oil reserves from falling."
-        },
-        "zh": {
-          "title": "伊朗美国局势缓和，油储担忧减轻",
-          "summary": "美国原油储备在8月31日前降至2.85亿桶的概率下降了31%至54%。这一显著下降的主要驱动因素是《金融时报》报道的伊朗与美国在霍尔木兹海峡紧张局势的缓和。",
-          "drivers": [
-            "伊朗与美国暂停霍尔木兹海峡冲突",
-            "全球石油供应中断风险降低",
-            "局势缓和导致油价下跌"
-          ],
-          "why_matters": "稳定的石油储备对能源安全和经济稳定至关重要，大幅下降可能预示供应危机或地缘政治不稳定。",
-          "bull_case": "地缘政治紧张局势重燃或需求意外激增可能迅速耗尽美国原油储备。",
-          "bear_case": "持续的局势缓和及稳定的全球供应将阻止美国原油储备大幅下降。"
-        }
-      },
-      "news": [
-        {
-          "title": "Stock markets snap five-day fall; Sensex jumps 776 points ...",
-          "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-27-july-2026/article71269037.ece"
-        },
-        {
-          "title": "Edward Jones - Renewed U.S.–Iran tensions are driving oil...",
-          "url": "https://www.facebook.com/edwardjones/posts/renewed-usiran-tensions-are-driving-oil-prices-higher-bringing-inflation-concern/1088586993497607"
-        },
-        {
-          "title": "Financial Times",
-          "url": "https://www.facebook.com/financialtimes/posts/oil-prices-fall-as-iran-and-us-pause-strikes-over-strait-of-hormuz-tensions/1450587527114620"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3091718",
-        "question": "Will South Korea ETF (EWY) hit (HIGH) $166 Week of July 27 2026?",
+        "id": "3091728",
+        "question": "Will South Korea ETF (EWY) hit (LOW) $156 Week of July 27 2026?",
         "probability": 1.0,
-        "change_24h": 0.2895,
-        "volume_24h": 2574.47,
-        "score": 292.91,
-        "url": "https://polymarket.com/event/will-ewy-reach-166-by-july-27-2026"
+        "change_24h": 0.1995,
+        "volume_24h": 4433.11,
+        "score": 203.15,
+        "url": "https://polymarket.com/event/will-ewy-dip-to-156-by-july-27-2026"
       },
       "insight": {
-        "category": "ai_tech",
+        "category": "other",
         "en": {
-          "title": "EWY $166 Target Imminent",
-          "summary": "EWY's probability to hit $166 by July 27, 2026, surged to 100%, driven by overwhelming confidence in South Korea's robust semiconductor sector despite a recent daily price dip to $162.96. The market anticipates a rapid rebound fueled by strong chip demand.",
+          "title": "Will South Korea ETF (EWY) hit (LOW) $156 Week of July 27 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
-            "Surging demand for South Korean memory chips from Samsung.",
-            "Record chip exports driving a semiconductor-led rally.",
-            "EWY's robust 76% YTD gains as of July 23, 2026.",
-            "Market belief in quick rebound from $162.96 to $166 target."
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "This reflects the critical role of South Korea's tech industry in the global economy and the significant impact of AI-driven chip demand on national growth.",
-          "bull_case": "Sustained global demand for AI-related memory chips will quickly propel EWY past $166.",
-          "bear_case": "A broader market correction or unexpected chip supply glut could prevent EWY from reaching $166."
+          "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "EWY将达166美元目标",
-          "summary": "尽管EWY近期日跌至162.96美元，但其在2026年7月27日当周触及166美元的概率飙升至100%，主要受韩国半导体行业强劲需求驱动。市场预期芯片需求将推动其迅速反弹。",
+          "title": "Will South Korea ETF (EWY) hit (LOW) $156 Week of July 27 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
-            "三星内存芯片需求激增。",
-            "芯片出口创纪录，推动半导体反弹。",
-            "截至2026年7月23日，EWY年内回报率达76%。",
-            "市场相信EWY将从162.96美元迅速反弹至166美元。"
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
           ],
-          "why_matters": "这反映了韩国科技产业在全球经济中的关键作用，以及AI驱动的芯片需求对国家增长的重大影响。",
-          "bull_case": "全球对AI相关内存芯片的持续需求将迅速推动EWY突破166美元。",
-          "bear_case": "市场大范围回调或芯片供应意外过剩可能阻止EWY达到166美元。"
+          "why_matters": "请检查 API 密钥后重试。"
         }
       },
       "news": [
+        {
+          "title": "Predicciones y cuotas para What will South Korea ETF (EWY) hit Week of July 27 2026? en vivo | Bitget Wallet",
+          "url": "https://web3.bitget.com/es-AR/predictions/event/will-ewy-hit-week-of-july-27-2026"
+        },
         {
           "title": "What will South Korea ETF (EWY) hit Week of July 27 2026? Trading Odds & Predictions (Jul. 24, 2026) | Polymarket",
           "url": "https://polymarket.com/event/will-ewy-hit-week-of-july-27-2026"
@@ -989,79 +1257,23 @@
         {
           "title": "What will South Korea ETF (EWY) hit in August 2026? Trading Odds & Predictions (Jul. 25, 2026) | Polymarket",
           "url": "https://polymarket.com/event/what-price-will-ewy-hit-in-august-2026"
-        },
-        {
-          "title": "iShares MSCI South Korea ETF (EWY) Stock Forecast: 1-Year Price Prediction & Outlook – Financhill",
-          "url": "https://financhill.com/stock-forecast/ewy-stock-prediction"
         }
       ]
     },
     {
       "market": {
-        "id": "3091174",
-        "question": "Will Microsoft Corporation (MSFT) hit (HIGH) $382.50 Week of July 27 2026?",
-        "probability": 1.0,
-        "change_24h": 0.2795,
-        "volume_24h": 2418.38,
-        "score": 282.88,
-        "url": "https://polymarket.com/event/will-msft-reach-382-50-by-july-27-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "MSFT Hits 100% Probability for $382.50",
-          "summary": "Microsoft's (MSFT) probability to hit $382.50 by the week of July 27, 2026, surged to 100% due to strong historical performance and recent bullish forecasts. The stock previously reached $392.20 on March 7, 2026, already surpassing the target price.",
-          "drivers": [
-            "MSFT hit $392.20 on March 7, 2026, exceeding the target.",
-            "'Stock Advisor' predicts MSFT will go parabolic after July 29.",
-            "AI analyst from TipRanks recommends MSFT for best ETFs."
-          ],
-          "why_matters": "This indicates strong investor confidence in Microsoft's continued growth and market leadership in the tech sector. The target being already met historically reinforces its stability.",
-          "bull_case": "Historical data shows MSFT already surpassed $382.50, combined with strong analyst predictions for parabolic growth.",
-          "bear_case": "Unforeseen market downturns or company-specific negative news could prevent the stock from maintaining its high."
-        },
-        "zh": {
-          "title": "微软股价达382.50美元概率100%",
-          "summary": "微软(MSFT)在2026年7月27日当周触及382.50美元的概率飙升至100%，主要受历史表现强劲和近期看涨预测推动。该股在2026年3月7日已达到392.20美元，超过了目标价。",
-          "drivers": [
-            "微软2026年3月7日已达392.20美元，超越目标。",
-            "“股票顾问”预测微软股价在7月29日后将抛物线上涨。",
-            "TipRanks的AI分析师推荐微软为最佳ETF投资。"
-          ],
-          "why_matters": "这表明投资者对微软在科技领域的持续增长和市场领导地位充满信心。历史数据已达目标价进一步巩固了其稳定性。",
-          "bull_case": "历史数据显示微软已超越382.50美元，加上分析师预测股价将抛物线上涨。",
-          "bear_case": "突发市场下行或公司负面消息可能导致股价无法维持高位。"
-        }
-      },
-      "news": [
-        {
-          "title": "MSFT Stock Quote Price and Forecast",
-          "url": "https://www.cnn.com/markets/stocks/MSFT"
-        },
-        {
-          "title": "Prediction: Microsoft Stock Will Go Parabolic After July 29. ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-microsoft-stock-parabolic-july-232000773.html"
-        },
-        {
-          "title": "IBM just had its worst day in stock market history, down 25% in ...",
-          "url": "https://www.instagram.com/reel/DbDjSnDprtX"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3091607",
-        "question": "Will Airbnb, Inc. (ABNB) hit (HIGH) $142 Week of July 27 2026?",
-        "probability": 1.0,
-        "change_24h": 0.2695,
-        "volume_24h": 2180.04,
-        "score": 272.84,
-        "url": "https://polymarket.com/event/will-abnb-reach-142-by-july-27-2026"
+        "id": "2677882",
+        "question": "Will Natural Gas (NG) hit (LOW) $2.60 in July?",
+        "probability": 0.304,
+        "change_24h": 0.1945,
+        "volume_24h": 2584.77,
+        "score": 197.91,
+        "url": "https://polymarket.com/event/will-ng-dip-to-2-60-in-july-2026"
       },
       "insight": {
         "category": "other",
         "en": {
-          "title": "Will Airbnb, Inc. (ABNB) hit (HIGH) $142 Week of July 27 2026?",
+          "title": "Will Natural Gas (NG) hit (LOW) $2.60 in July?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1069,7 +1281,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Airbnb, Inc. (ABNB) hit (HIGH) $142 Week of July 27 2026?",
+          "title": "Will Natural Gas (NG) hit (LOW) $2.60 in July?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1079,183 +1291,33 @@
       },
       "news": [
         {
-          "title": "Athletics vs. Boston Red Sox - July 27, 2026 - Bleacher Report",
-          "url": "https://bleacherreport.com/game/boston-red-sox-vs-oakland-athletics-2026-7-27-20-40"
+          "title": "Italian PSV Natural Gas Daily Financial Futures (ICIS) (25 Oct 2026) Trade Ideas — ICEENDEX:PSL25V2026 - TradingView",
+          "url": "https://www.tradingview.com/symbols/ICEENDEX-PSL1!/ideas/?contract=PSL25V2026"
         },
         {
-          "title": "Washington Nationals vs. Toronto Blue Jays - July 27, 2026 - Bleacher Report",
-          "url": "https://bleacherreport.com/game/toronto-blue-jays-vs-washington-nationals-2026-7-27-14-45"
+          "title": "French PEG Natural Gas Daily Financial Futures (ICIS) (26 Oct 2026) Trade Ideas — ICEENDEX:DFV26V2026 - TradingView",
+          "url": "https://www.tradingview.com/symbols/ICEENDEX-DFV1!/ideas/?contract=DFV26V2026"
         },
         {
-          "title": "McCray’s 2-run homer leads the Giants to a 3-0 win over the Brewers - AP News",
-          "url": "https://apnews.com/article/brewers-giants-score-414c13a6d1df475346dd2dbbcf316cc0"
+          "title": "German THE Natural Gas Daily Financial Futures (ICIS) (27 Oct 2026) Trade Ideas — ICEENDEX:TGN27V2026 - TradingView",
+          "url": "https://www.tradingview.com/symbols/ICEENDEX-TGN1!/ideas/?contract=TGN27V2026"
         }
       ]
     },
     {
       "market": {
-        "id": "3091453",
-        "question": "Will Netflix, Inc. (NFLX) hit (LOW) $70 Week of July 27 2026?",
+        "id": "3091166",
+        "question": "Will Microsoft Corporation (MSFT) hit (HIGH) $397.50 Week of July 27 2026?",
         "probability": 1.0,
-        "change_24h": 0.2395,
-        "volume_24h": 775.75,
-        "score": 242.39,
-        "url": "https://polymarket.com/event/will-nflx-dip-to-70-by-july-27-2026"
-      },
-      "insight": {
-        "category": "sports",
-        "en": {
-          "title": "Will Netflix, Inc. (NFLX) hit (LOW) $70 Week of July 27 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Netflix, Inc. (NFLX) hit (LOW) $70 Week of July 27 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": []
-    },
-    {
-      "market": {
-        "id": "2677618",
-        "question": "Will Tesla, Inc. (TSLA) hit (LOW) $300 in July?",
-        "probability": 0.5895,
-        "change_24h": 0.2385,
-        "volume_24h": 2251.89,
-        "score": 241.85,
-        "url": "https://polymarket.com/event/will-tsla-dip-to-300-in-july-2026"
-      },
-      "insight": {
-        "category": "stocks",
-        "en": {
-          "title": "Will Tesla, Inc. (TSLA) hit (LOW) $300 in July?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Tesla, Inc. (TSLA) hit (LOW) $300 in July?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Elon Musk's Billion-Dollar Philanthropy: Will He Donate His Weal - GuruFocus",
-          "url": "https://www.gurufocus.com/news/8981752/elon-musks-billiondollar-philanthropy-will-he-donate-his-wealth"
-        },
-        {
-          "title": "Tesla Stock Just Erased a Year of Gains. Why It’s Suffering Under Expectations. - Barron's",
-          "url": "https://www.barrons.com/articles/tesla-stock-price-loses-year-gains-6acf48c3"
-        },
-        {
-          "title": "After Losing 40% Of His Net Worth In A Month, Elon Musk Attempts To Raise $4 Billion For Another Company - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/27/after-losing-40-of-his-net-worth-in-a-month-elon-musk-attempts-to-raise-4-billion-for-his-lowest-profile-company/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2677418",
-        "question": "Will Apple (AAPL) hit (HIGH) $344 in July?",
-        "probability": 0.6535,
-        "change_24h": 0.222,
-        "volume_24h": 2219.97,
-        "score": 225.35,
-        "url": "https://polymarket.com/event/will-aapl-reach-344-in-july-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Apple (AAPL) hit (HIGH) $344 in July?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Apple (AAPL) hit (HIGH) $344 in July?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": []
-    },
-    {
-      "market": {
-        "id": "3096410",
-        "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in August?",
-        "probability": 0.05,
-        "change_24h": -0.205,
-        "volume_24h": 2434.2,
-        "score": 208.39,
-        "url": "https://polymarket.com/event/will-wti-reach-120-in-august-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in August?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in August?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Goldman Sachs Warns: If Hormuz Strait Disruption Persists, Brent Crude Could Surge Past $120 in Q4 — BigGo Finance",
-          "url": "https://finance.biggo.com/news/4ca43bbb-f14e-45a4-a7c5-7d5964b394b4"
-        },
-        {
-          "title": "Oil Price Today (July 22): Crude oil crosses $90, hits 2-month high as US strikes enter 11th day. $120 possible, say experts - The Economic Times",
-          "url": "https://m.economictimes.com/markets/commodities/news/oil-price-today-july-22-crude-oil-crosses-90-hits-2-month-high-as-us-strikes-enter-11th-day-120-possible-say-experts/articleshow/132532829.cms"
-        },
-        {
-          "title": "Oil Soars to Six-Week High Near $95 as Iran Rejects Talks and Supply Threats Mount — BigGo Finance",
-          "url": "https://finance.biggo.com/news/a47a0efa-eb3a-43a9-8a50-0d338e2cf1c6"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2677640",
-        "question": "Will NVIDIA (NVDA) hit (LOW) $184 in July?",
-        "probability": 0.265,
-        "change_24h": 0.195,
-        "volume_24h": 2113.55,
-        "score": 198.33,
-        "url": "https://polymarket.com/event/will-nvda-dip-to-184-in-july-2026"
+        "change_24h": 0.1945,
+        "volume_24h": 1121.01,
+        "score": 197.55,
+        "url": "https://polymarket.com/event/will-msft-reach-397-50-by-july-27-2026"
       },
       "insight": {
         "category": "ai_tech",
         "en": {
-          "title": "Will NVIDIA (NVDA) hit (LOW) $184 in July?",
+          "title": "Will Microsoft Corporation (MSFT) hit (HIGH) $397.50 Week of July 27 2",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1263,7 +1325,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will NVIDIA (NVDA) hit (LOW) $184 in July?",
+          "title": "Will Microsoft Corporation (MSFT) hit (HIGH) $397.50 Week of July 27 2",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1273,204 +1335,29 @@
       },
       "news": [
         {
-          "title": "Sellers Hit Nvidia Amid OpenAI Data Center News; Is Nvidia A Sell Now? - Investor's Business Daily",
-          "url": "https://www.investors.com/research/nvidia-nvda-stock-buy-now-july-2026/"
+          "title": "PolyXchange — Prediction Markets",
+          "url": "https://polyxchange.net/event/what-price-will-msft-hit-in-july-2026?marketId=564640&side=yes"
         },
         {
-          "title": "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock. - Barron's",
-          "url": "https://www.barrons.com/articles/nvidia-stock-price-openai-finance-deal-b9c8993b"
-        },
-        {
-          "title": "Nvidia drops nearly 5%, leading chip stocks lower amid renewed worries of circular financing - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-drops-nearly-5-leading-chip-stocks-lower-amid-renewed-worries-of-circular-financing-193309793.html"
+          "title": "S&P 500 and Nasdaq set to decline amid tech sell-off; Dow ...",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-earnings-federal-reserve-interest-rate-consumer-confidence"
         }
       ]
     },
     {
       "market": {
-        "id": "2760583",
-        "question": "Will the median home value in the Chicago Metro be between $330,000 and $335,000 on September 30?",
-        "probability": 0.023,
-        "change_24h": -0.1805,
-        "volume_24h": 2102.95,
-        "score": 183.82,
-        "url": "https://polymarket.com/event/will-the-median-home-value-in-the-chicago-metro-be-between-330000-and-335000-on-september-30-20260630182304847"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will the median home value in the Chicago Metro be between $330,000 an",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the median home value in the Chicago Metro be between $330,000 an",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "🔑 Buyers in the Chicagoland area continue to face a tight ...",
-          "url": "https://www.facebook.com/ChicagoAgentMagazine/posts/-buyers-in-the-chicagoland-area-continue-to-face-a-tight-housing-market-with-act/1885432282804478"
-        },
-        {
-          "title": "Chicago Real Estate Forecast, Housing Market Prediction: up to 330,009 USD! - Chicago Real Estate Market Forecast 2026-2033 - WalletInvestor.com",
-          "url": "https://walletinvestor.com/real-estate-forecast/il/cook/chicago-housing-market"
-        },
-        {
-          "title": "2026 Houston Housing Market: House Prices & Trends as of June | Redfin",
-          "url": "https://www.redfin.com/city/8903/TX/Houston/housing-market"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2941288",
-        "question": "Will Apple be the second-largest company in the world by market cap on August 31?",
-        "probability": 0.5,
-        "change_24h": -0.155,
-        "volume_24h": 11182.81,
-        "score": 159.05,
-        "url": "https://polymarket.com/event/will-apple-be-the-second-largest-company-in-the-world-by-market-cap-on-august-31-20260715202602574"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Apple be the second-largest company in the world by market cap on",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Apple be the second-largest company in the world by market cap on",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": []
-    },
-    {
-      "market": {
-        "id": "2118805",
-        "question": "Will the Fed decide differently in the next three decisions (Jun–Jul–Sep)?",
-        "probability": 0.695,
-        "change_24h": 0.15,
-        "volume_24h": 15980.61,
-        "score": 154.2,
-        "url": "https://polymarket.com/event/will-the-fed-decide-differently-in-the-next-three-decisions-junjulsep"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will the Fed decide differently in the next three decisions (Jun–Jul–S",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1141)"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will the Fed decide differently in the next three decisions (Jun–Jul–S",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Expecting property name enclosed in double quotes: line 14 column 3 (char 1141)"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Federal Reserve is likely to hold interest rates steady. Here's what that means for consumers - CNBC",
-          "url": "https://www.cnbc.com/2026/07/27/fed-interest-rates-july.html"
-        },
-        {
-          "title": "Fed Faces Growing Pressure to Hike Rates as Price Risks Rebound - Yahoo Finance",
-          "url": "https://finance.yahoo.com/economy/policy/articles/fed-faces-growing-pressure-to-hike-rates-as-price-risks-rebound-190000450.html"
-        },
-        {
-          "title": "Fed expected to hold rates steady — but an interest rate hike isn't off the table - Yahoo Finance",
-          "url": "https://finance.yahoo.com/economy/article/fed-expected-to-hold-rates-steady--but-an-interest-rate-hike-isnt-off-the-table-090000519.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3101544",
-        "question": "Will the price of Bitcoin be above $62,000 on August 1?",
-        "probability": 0.735,
-        "change_24h": -0.15,
-        "volume_24h": 6873.14,
-        "score": 153.84,
-        "url": "https://polymarket.com/event/bitcoin-above-62k-on-august-1-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Probability Dips on Miner Exodus",
-          "summary": "Bitcoin's probability of staying above $62,000 by August 1 dropped 15% to 74%, primarily driven by reports of miners diverting capital to $19 billion in AI deals. Macroeconomic concerns, including a 4.7% 10-year yield, also contributed to the decline.",
-          "drivers": [
-            "Miners diverting capital to $19 billion AI deals.",
-            "Macroeconomic concerns from 4.7% 10-year yield.",
-            "Expert view of Bitcoin staying range-bound near $65,000."
-          ],
-          "why_matters": "A shift in miner capital to AI could impact Bitcoin network security and long-term investment sentiment, signaling alternative opportunities.",
-          "bull_case": "Potential 16% mining difficulty reduction and long-term bullish outlook from Elon Musk could drive prices higher.",
-          "bear_case": "Miners shifting to AI deals and broader macro headwinds like high bond yields could push Bitcoin below $62,000."
-        },
-        "zh": {
-          "title": "比特币概率下降：矿工转向",
-          "summary": "比特币在8月1日前维持62,000美元以上的概率下降15%至74%，主要受矿工将资金转向190亿美元AI交易的报道影响。4.7%的10年期国债收益率等宏观经济担忧也加剧了跌幅。",
-          "drivers": [
-            "矿工将资金转向190亿美元AI交易。",
-            "4.7%的10年期国债收益率引发宏观担忧。",
-            "专家认为比特币将在65,000美元附近盘整。"
-          ],
-          "why_matters": "矿工资本转向AI可能影响比特币网络安全和长期投资情绪，预示着新的投资机会。",
-          "bull_case": "潜在的16%挖矿难度下调和埃隆·马斯克的长期看好言论可能推高价格。",
-          "bear_case": "矿工转向AI交易以及高债券收益率等宏观逆风可能将比特币推至62,000美元以下。"
-        }
-      },
-      "news": [
-        {
-          "title": "Live updates: Ether leads crypto higher. China's gold imports surge - CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/07/27/live-updates-ether-leads-crypto-higher-as-bitcoin-trades-around-usd65-500"
-        },
-        {
-          "title": "SpaceX and Tesla CEO Elon Musk Issues Stark 2036 Prediction That Could Be About To Blow Up The Bitcoin Price - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/07/26/elon-musks-stark-2036-prediction-could-be-about-to-change-everything/"
-        },
-        {
-          "title": "‘This Is Money’—Elon Musk Is Quietly Leading A Financial Revolution - Forbes",
-          "url": "https://www.forbes.com/sites/digital-assets/2026/07/28/elon-musks-stark-2036-prediction-could-be-about-to-change-everything/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "2252244",
-        "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "probability": 0.345,
-        "change_24h": -0.085,
-        "volume_24h": 39073.74,
-        "score": 89.59,
-        "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
+        "id": "3072102",
+        "question": "Will the total US effective tariff rate for Q2 be at least 7%?",
+        "probability": 0.83,
+        "change_24h": 0.14,
+        "volume_24h": 2316.45,
+        "score": 143.36,
+        "url": "https://polymarket.com/event/will-the-total-us-effective-tariff-rate-for-q2-be-at-least-7-20260722202131838"
       },
       "insight": {
         "category": "economy",
         "en": {
-          "title": "Will there be no change in Fed interest rates after the September 2026",
+          "title": "Will the total US effective tariff rate for Q2 be at least 7%?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1478,7 +1365,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will there be no change in Fed interest rates after the September 2026",
+          "title": "Will the total US effective tariff rate for Q2 be at least 7%?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
@@ -1488,20 +1375,116 @@
       },
       "news": [
         {
-          "title": "Will mortgage rates improve after this week's Fed meeting?",
-          "url": "https://www.cbsnews.com/news/will-mortgage-rates-improve-after-july-2026-fed-meeting"
+          "title": "3 US Manufacturing Stocks Worth Watching as Tariffs Reshape Supply Chains - simplywall.st",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-alg/alamo-group/news/3-us-manufacturing-stocks-worth-watching-as-tariffs-reshape"
         },
         {
-          "title": "Fed predictions for 2026: Is a rate cut still a possibility this ...",
-          "url": "https://finance.yahoo.com/personal-finance/banking/article/fed-rate-predictions-2026-154647304.html"
+          "title": "USTR's Greer says Trump's latest tariffs won't have an economic impact - Reuters",
+          "url": "https://www.reuters.com/business/ustrs-greer-says-trumps-latest-tariffs-wont-have-an-economic-impact-2026-07-27/"
         },
         {
-          "title": "Kevin Warsh's Fed signals surprise interest rate hike",
-          "url": "https://www.axios.com/2026/07/27/warsh-fed-rate-hike-bernanke"
+          "title": "A forced-labor crackdown or an end-run around Congress? Dissecting Trump's new tariffs - NBC4 Washington",
+          "url": "https://www.nbcwashington.com/news/national-international/trump-administration-double-digit-tariff-breakdown/4134537/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2851428",
+        "question": "Iran military action against a Gulf State on July 23?",
+        "probability": 0.0095,
+        "change_24h": -0.0655,
+        "volume_24h": 24545.48,
+        "score": 69.89,
+        "url": "https://polymarket.com/event/iran-military-action-against-a-gulf-state-on-july-23-20260708212322948"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Iran Military Action Risk Plummets",
+          "summary": "The probability of Iran military action against a Gulf State by July 23 dropped to 1% after reports of US de-escalation. Trump reportedly held off a major bombing campaign following Pentagon warnings about interceptor shortages.",
+          "drivers": [
+            "Trump delays Iran bombing campaign (Ynetnews)",
+            "Pentagon warns of interceptor shortage",
+            "US, Iran put war 'on hold' (Reuters)"
+          ],
+          "why_matters": "Reduced immediate conflict risk in the Gulf impacts global oil prices, shipping, and regional stability, affecting international economic and political landscapes.",
+          "bull_case": "Escalating regional tensions or a direct provocation could quickly reignite the conflict, pushing probabilities higher.",
+          "bear_case": "US de-escalation and diplomatic efforts will continue to reduce the likelihood of immediate military action by Iran."
+        },
+        "zh": {
+          "title": "伊朗军事行动风险骤降",
+          "summary": "针对海湾国家的伊朗军事行动在7月23日前发生的可能性降至1%，此前有报道称美国已暂停升级行动。据报道，特朗普在五角大楼发出拦截器短缺警告后，推迟了大规模轰炸计划。",
+          "drivers": [
+            "特朗普推迟对伊轰炸计划（Ynetnews）",
+            "五角大楼警告拦截器短缺",
+            "美伊战争“暂停”（路透社）"
+          ],
+          "why_matters": "海湾地区冲突风险的降低将影响全球油价、航运及地区稳定，对国际经济和政治格局产生重要影响。",
+          "bull_case": "地区紧张局势升级或直接挑衅可能迅速重新点燃冲突，推高概率。",
+          "bear_case": "美国的降级行动和外交努力将继续降低伊朗立即采取军事行动的可能性。"
+        }
+      },
+      "news": [
+        {
+          "title": "Trump holds off major Iran escalation after Pentagon warns of interceptor shortage - Ynetnews",
+          "url": "https://www.ynetnews.com/article/r111brtghmg"
+        },
+        {
+          "title": "Ukraine moves to aid US in Iran war after striking Tehran-Moscow supply link - ایران اینترنشنال",
+          "url": "https://www.iranintl.com/en/202607251446"
+        },
+        {
+          "title": "Katy Perry 'appalled' after White House uses 'Fireworks' for military ad - USA Today",
+          "url": "https://www.usatoday.com/story/entertainment/music/2026/07/25/katy-perry-white-house-iran-war-fireworks-video/91049865007/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2940998",
+        "question": "Will Qualcomm (QCOM) beat quarterly earnings?",
+        "probability": 0.8695,
+        "change_24h": -0.0355,
+        "volume_24h": 8319.54,
+        "score": 39.42,
+        "url": "https://polymarket.com/event/qcom-quarterly-earnings-nongaap-eps-07-29-2026-2pt23"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Will Qualcomm (QCOM) beat quarterly earnings?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Qualcomm (QCOM) beat quarterly earnings?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Qualcomm (NASDAQ: QCOM) Stock Price Trades At 15x Forward Earnings Ahead Of July 29 Q3 Results",
+          "url": "https://www.foreignpolicyjournal.com/2026/07/27/qualcomm-nasdaq-qcom-stock-price-trades-at-15x-forward-earnings-ahead-of-july-29-q3-results"
+        },
+        {
+          "title": "Is Qualcomm Stock a Buy Ahead of July 29 Q3 Earnings?",
+          "url": "https://247wallst.com/investing/2026/07/27/is-qualcomm-stock-a-buy-ahead-of-july-29-q3-earnings"
+        },
+        {
+          "title": "Is Qualcomm Stock a Buy Ahead of July 29 Q3 Earnings? - AOL",
+          "url": "https://www.aol.com/articles/qualcomm-stock-buy-ahead-july-180303000.html"
         }
       ]
     }
   ],
-  "twitter_thread": "🔮 PolyLens Battle Cards — Jul 28, 2026 11:54 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 🤖 Will NVIDIA (NVDA) hit (LOW) $196 Week of July 27 2026?\n\n✅ YES — 100%  ▲+75.9%\n\"Eddie Ghabour's recent confirmation of a tech selloff including NVDA strongly suggests the…\"\n\n❌ NO — 0%\n\"Keybanc's recent Overweight rating and raised price target of $330 for NVDA suggest strong…\n\n---\n\n🥊 ₿ Will the price of Bitcoin be between $62,000 and $64,000 on July 28?\n\n✅ YES — 82%  ▲+68.5%\n\"Jeff Ko's prediction of Bitcoin staying range-bound near $65,000 strongly supports its pri…\"\n\n❌ NO — 18%\n\"Unexpected negative macroeconomic data or a sharp downturn in broader crypto m\n\n---\n\n🥊 🗳️ US announces halt in Iran offensive operations by July 31?\n\n✅ YES — 100%  ▲+62.5%\n\"The US has already ceased strikes for multiple nights, and Iran has reciprocated, making a…\"\n\n❌ NO — 0%\n\"Despite the current pause, a new incident or breakdown in diplomatic efforts could trig\n\n---\n\n🥊 💼 Will NVIDIA be the largest company in the world by market cap on July 31…\n\n✅ YES — 22%  ▼-56.0%\n\"NVIDIA's strong position in AI chips and upcoming earnings could propel its market cap bac…\"\n\n❌ NO — 78%\n\"Apple's strong ecosystem and potential for AI integration pose a signific\n\n---\n\n🥊 🤖 Will Palantir Technologies Inc. (PLTR) hit (LOW) $123 Week of July 27 20…\n\n✅ YES — 38%  ▼-46.0%\n\"Intense AI competition or a broader tech downturn could significantly depress Palantir's v…\"\n\n❌ NO — 62%\n\"Palantir secures major government and commercial AI contracts, driving ro\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
-  "reddit_post": "**PolyLens Daily Digest — Jul 28, 2026 11:54 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🤖 NVDA Selloff Deepens\n\n**100% YES** | **+75.9%** (24h) | Vol: $1,891\n\nNVIDIA shares, recently trading near $205-$210, saw a 100% probability of hitting $196 due to Eddie Ghabour's recent statement confirming an ongoing tech selloff impacting NVDA. This rapid shift reflects heightened market concerns.\n\n**Key Drivers:**\n- Eddie Ghabour confirms ongoing tech selloff.\n- NVIDIA shares trading near $205-$210.\n- Unspecified 'heightened' concerns offsetting demand.\n\n*[View on Polymarket](https://polymarket.com/event/will-nvda-dip-to-196-by-july-27-2026)*\n\n---\n\n## 2. ₿ Bitcoin Range-Bound Confidence Soars\n\n**82% YES** | **+68.5%** (24h) | Vol: $29,178\n\nThe probability of Bitcoin staying between $62,000 and $64,000 by July 28 surged to 82%, primarily driven by CoinEx's Jeff Ko predicting Bitcoin will remain range-bound near $65,000. This outlook is reinforced by broader crypto market stability and potential peak Fed hawkishness.\n\n**Key Drivers:**\n- CoinEx's Jeff Ko predicts Bitcoin range-bound near $65,000.\n- Ether leading broader crypto market higher, indicating stability.\n- State Street's Doshi suggests Fed hawkishness peaks, aiding risk assets.\n\n*[View on Polymarket](https://polymarket.com/event/will-the-price-of-bitcoin-be-between-62000-64000-on-july-28-2026)*\n\n---\n\n## 3. 🌍 US-Iran Halt Confirmed\n\n**100% YES** | **+62.5%** (24h) | Vol: $2,746,986\n\nThe probability for the US announcing a halt in Iran offensive operations surged to 100% after the US ceased overnight strikes for the first time in 13 days. This de-escalation is reciprocal, with Iran committing to halt its own attacks as long as the US pause holds.\n\n**Key Drivers:**\n- US ceased overnight strikes in Iran for the first time in 13 days.\n- US and Iran paused military actions for a third consecutive night.\n- Iran committed to halt its strikes if the US bombing pause holds.\n\n*[View on Polymarket](https://polymarket.com/event/will-the-us-announce-an-iran-ceasefire-by-july-31-20260718000915875)*\n\n---\n\n## 4. 🤖 NVIDIA Top Spot Doubt Grows\n\n**22% YES** | **-56.0%** (24h) | Vol: $147,439\n\nNVIDIA's probability of being the world's largest company by market cap on July 31 plummeted by 56% to 22%. This sharp decline was primarily driven by Apple briefly surpassing NVIDIA in market capitalization earlier this month.\n\n**Key Drivers:**\n- Apple briefly overtook NVIDIA in market cap.\n- Increased competition for the top market cap spot.\n- NVIDIA's year-to-date stock growth slowing to 11%.\n\n*[View on Polymarket](https://polymarket.com/event/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329841)*\n\n---\n\n## 5. 🔥 Palantir AI Outlook Improves, Low Price Less Likely\n\n**38% YES** | **-46.0%** (24h) | Vol: $1,649\n\nThe probability of Palantir hitting $123 by July 2026 significantly decreased by 46%, primarily driven by a Motley Fool article comparing Palantir favorably against ServiceNow. This suggests renewed confidence in Palantir's AI software capabilities.\n\n**Key Drivers:**\n- Motley Fool article \"Better AI Software Stock\" implicitly favoring Palantir.\n- ServiceNow's 51% stock decline, highlighting Palantir's potential resilience.\n- Increased investor confidence in Palantir's long-term AI growth trajectory.\n\n*[View on Polymarket](https://polymarket.com/event/will-pltr-dip-to-123-by-july-27-2026)*\n\n---\n\n## 6. ₿ ETH Down: Fed Decision Looms\n\n**4% YES** | **-45.0%** (24h) | Vol: $32,171\n\nThe probability of Ethereum being up on July 28th plummeted as ETH is currently down 3.35% today. This decline is largely driven by institutional investors recalibrating portfolios ahead of the Federal Reserve's July 28-29 policy decision.\n\n**Key Drivers:**\n- Ethereum (ETHUSD) down 3.35% on July 28.\n- Anticipation of Federal Reserve's July 28-29 meeting.\n- Weakening Ethereum ETF inflows and outflows.\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-on-july-28-2026)*\n\n---\n\n## 7. 🔥 Micron $840 Target Probability Surges\n\n**78% YES** | **+45.0%** (24h) | Vol: $3,138\n\nThe probability for Micron Technology (MU) to hit $840 by July 27, 2026, surged by 45 percentage points to 78% following highly bullish long-term price forecasts. A key driver was a specific forecast predicting MU to reach $912.36 by July 31, 2026.\n\n**Key Drivers:**\n- 2026 target price forecast of $912.36 for MU.\n- Predictions of MU returning to all-time highs soon.\n- Positive dynamics and low volatility forecast for MU shares.\n\n*[View on Polymarket](https://polymarket.com/event/will-mu-dip-to-840-by-july-27-2026)*\n\n---\n\n## 8. ₿ Fed Fears Drive Bitcoin Down\n\n**6% YES** | **-43.0%** (24h) | Vol: $113,603\n\nBitcoin's \"Up\" probability for July 28 plummeted to 6% as the market anticipates the Federal Reserve's July 28-29 meeting. Concerns over potential rate hikes and tightening global liquidity are driving institutional risk aversion, with Bitcoin already down 2.49% today.\n\n**Key Drivers:**\n- Federal Reserve July 28-29 meeting anticipation.\n- Rising odds of a Fed rate hike.\n- Tightening global liquidity, institutional risk aversion.\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-on-july-28-2026)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+  "twitter_thread": "🔮 PolyLens Battle Cards — Jul 28, 2026 20:31 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 ₿ Will the price of Bitcoin be between $62,000 and $64,000 on July 28?\n\n✅ YES — 100%  ▲+84.5%\n\"Bitcoin's established support between $63,800 and $64,000 will prevent further significant…\"\n\n❌ NO — 0%\n\"Unexpected positive economic news or a dovish Fed shift could push Bitcoin abo\n\n---\n\n🥊 🔥 Will Palantir Technologies Inc. (PLTR) hit (LOW) $120 Week of July 27 20…\n\n✅ YES — 100%  ▲+74.0%\n\n❌ NO — 0%\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [3/6]\n\n---\n\n🥊 💼 S&P 500 (SPX) Opens Up or Down on July 28?\n\n✅ YES — 0%  ▼-65.5%\n\"Broad market gains in other sectors and falling oil prices could provide a counter-balance…\"\n\n❌ NO — 100%\n\"The ongoing, multi-day sell-off in key semiconductor stocks will likely continue to weigh …\"\n\n🤖 Strong N\n\n---\n\n🥊 🔥 Will fewer than 50 ships transit the Strait of Hormuz between July 20-Ju…\n\n✅ YES — 4%  ▼-63.8%\n\"Renewed US-Iran hostilities or direct Iranian action in Hormuz could severely disrupt ship…\"\n\n❌ NO — 96%\n\"Sustained US-Iran de-escalation and no direct threats to Hormuz ensure con\n\n---\n\n🥊 🔥 SPY (SPY) Up or Down on July 28?\n\n✅ YES — 90%  ▲+49.5%\n\n❌ NO — 10%\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [6/6]\n\n---\n\n🔗 Full analysis + 33 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
+  "reddit_post": "**PolyLens Daily Digest — Jul 28, 2026 20:31 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. ₿ Bitcoin Price Stabilizes in Target Range\n\n**100% YES** | **+84.5%** (24h) | Vol: $81,265\n\nBitcoin's price surged to 100% probability of being between $62,000 and $64,000 on July 28 after falling below $64,000. This movement was primarily driven by intensified \"Fed Rate-Hike Fears\" and expectations of tighter U.S. monetary policy.\n\n**Key Drivers:**\n- Bitcoin fell below $64,000 on July 28.\n- Intensified Fed rate-hike fears.\n- Bitcoin's main support identified at $63,800-$64,000.\n\n*[View on Polymarket](https://polymarket.com/event/will-the-price-of-bitcoin-be-between-62000-64000-on-july-28-2026)*\n\n---\n\n## 2. 🔥 Will Palantir Technologies Inc. (PLTR) hit (LOW) $120 Week of July 27 \n\n**100% YES** | **+74.0%** (24h) | Vol: $3,181\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-pltr-dip-to-120-by-july-27-2026)*\n\n---\n\n## 3. 📊 SPX Up Open Probability Plunges\n\n**0% YES** | **-65.5%** (24h) | Vol: $33,070\n\nThe probability of the S&P 500 opening up on July 28 has plummeted to 0% from 65.5%, driven by a persistent sell-off in semiconductor stocks. Major indexes like the Nasdaq and S&P 500 have slipped as chipmakers extended losses for a third day.\n\n**Key Drivers:**\n- Persistent semiconductor stock sell-off\n- S&P 500 and Nasdaq indexes slipping\n- Muted S&P 500 futures performance\n\n*[View on Polymarket](https://polymarket.com/event/spx-opens-up-or-down-on-july-28-2026)*\n\n---\n\n## 4. 🔥 Hormuz Transit Fears Ease\n\n**4% YES** | **-63.8%** (24h) | Vol: $54,496\n\nThe probability of fewer than 50 ships transiting the Strait of Hormuz between July 20-26 dropped to 4%, indicating market confidence in higher traffic. This shift was primarily driven by the US and Iran pausing attacks for a second straight day, reducing immediate conflict risks.\n\n**Key Drivers:**\n- US-Iran paused attacks (AP News, HuffPost).\n- No direct attacks on Hormuz shipping reported.\n- Bab el-Mandeb plunge not mirrored in Hormuz.\n\n*[View on Polymarket](https://polymarket.com/event/will-fewer-than-50-ships-transit-the-strait-of-hormuz-between-july-20-july-26-20260717154058216)*\n\n---\n\n## 5. 🔥 SPY (SPY) Up or Down on July 28?\n\n**90% YES** | **+49.5%** (24h) | Vol: $45,431\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/spy-up-or-down-on-july-28-2026)*\n\n---\n\n## 6. 🔥 Will WTI Crude Oil (WTI) hit (LOW) $80 Week of July 27 2026?\n\n**100% YES** | **+49.5%** (24h) | Vol: $6,505\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/will-wti-dip-to-80-by-july-27-2026)*\n\n---\n\n## 7. ₿ Bitcoin Up or Down - July 28, 1PM ET\n\n**2% YES** | **-48.9%** (24h) | Vol: $15,520\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/bitcoin-up-or-down-july-28-2026-1pm-et)*\n\n---\n\n## 8. 🔥 WTI Crude Oil (WTI) Up or Down on July 28?\n\n**2% YES** | **-48.4%** (24h) | Vol: $42,717\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo\n\n*[View on Polymarket](https://polymarket.com/event/wti-up-or-down-on-july-28-2026)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
 }
