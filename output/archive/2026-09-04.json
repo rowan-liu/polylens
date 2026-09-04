@@ -1,1450 +1,94 @@
 {
-  "generated_at": "2026-09-04T13:07:04.139001+00:00",
-  "generated_at_readable": "Sep 04, 2026 13:07 UTC",
+  "generated_at": "2026-09-04T19:53:04.124450+00:00",
+  "generated_at_readable": "Sep 04, 2026 19:53 UTC",
   "topics": [
     {
       "market": {
-        "id": "3961506",
-        "question": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $120 Week of August 31 2026?",
-        "probability": 1.0,
-        "change_24h": 0.963,
-        "volume_24h": 2224.57,
-        "score": 966.35,
-        "url": "https://polymarket.com/event/will-hood-reach-120-by-august-31-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "HOOD $120 Target Certain After Earnings",
-          "summary": "Robinhood's probability to hit $120 by August 2026 surged to 100% following an exceptional Q2 2026 earnings report and robust crypto platform growth. The company reported $0.62 EPS, significantly beating the $0 estimate, alongside Robinhood Chain reaching 100 million transactions.",
-          "drivers": [
-            "Exceptional Q2 2026 EPS of $0.62 vs $0 estimate.",
-            "Robinhood Chain reached 100 million transactions rapidly.",
-            "Introduction of new stock tokens."
-          ],
-          "why_matters": "This indicates a significant re-evaluation of Robinhood's long-term growth potential and profitability, driven by successful product diversification and execution.",
-          "bull_case": "Exceptional Q2 2026 EPS and rapid Robinhood Chain adoption confirm strong fundamentals and growth trajectory, making $120 highly achievable.",
-          "bear_case": "Future regulatory changes or intensified competition in crypto and brokerage markets could still impede sustained growth towards $120."
-        },
-        "zh": {
-          "title": "HOOD 财报后 $120 目标确定",
-          "summary": "罗宾汉（HOOD）在2026年8月前达到120美元的概率飙升至100%，原因是2026年第二季度财报异常出色，且加密平台增长强劲。公司公布每股收益0.62美元，远超预期的0美元，同时罗宾汉链迅速达到1亿笔交易。",
-          "drivers": [
-            "2026年第二季度每股收益0.62美元，远超预期。",
-            "罗宾汉链迅速达到1亿笔交易。",
-            "推出新的股票代币。"
-          ],
-          "why_matters": "这表明市场对罗宾汉的长期增长潜力和盈利能力进行了重大重新评估，得益于成功的产品多元化和执行力。",
-          "bull_case": "2026年第二季度优异的每股收益和罗宾汉链的快速普及，证实了强劲的基本面和增长轨迹，使120美元目标极具实现性。",
-          "bear_case": "未来监管变化或加密与经纪市场竞争加剧，仍可能阻碍其持续增长至120美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "HOOD Price Prediction: Wall Street's Darling Hits a Speed Bump — $120 Still in Play, But First This Dip Must Hold - Blockchain.News",
-          "url": "https://blockchain.news/news/20260829-price-prediction-hood-wall-streets-darling-hits-a-speed"
-        },
-        {
-          "title": "Robinhood Stock Up 32% In Last 6 Months, Does Robinhood Still Have Room to Run Through 2030?",
-          "url": "https://www.tikr.com/blog/hood-stock-robinhood-valuation-2030"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4016621",
-        "question": "Will Bitcoin reach $82,000 August 31-September 6?",
-        "probability": 1.0,
-        "change_24h": 0.9245,
-        "volume_24h": 71035.88,
-        "score": 929.35,
-        "url": "https://polymarket.com/event/will-bitcoin-reach-82k-august-31-september-6-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Surges Towards $82K",
-          "summary": "Bitcoin's probability of reaching $82,000 by September 6th soared to 100% following a significant price pump above $80,000. This surge was primarily driven by the U.S. Federal Reserve signaling a potential pause in rate hikes and a massive $415 million short squeeze.",
-          "drivers": [
-            "Fed signals interest rate pause",
-            "Bitcoin price reclaims $80,000",
-            "$415 million Bitcoin shorts liquidated",
-            "BTC holds key technical Fib support"
-          ],
-          "why_matters": "This rapid price movement highlights Bitcoin's sensitivity to macroeconomic policy shifts and the impact of leveraged positions on market volatility.",
-          "bull_case": "Bitcoin's current momentum, fueled by Fed signals and short liquidations, makes the remaining $2,000 target highly probable.",
-          "bear_case": "After a dramatic 30% rise, Bitcoin faces technical resistance and potential profit-taking, which could stall its final ascent to $82,000."
-        },
-        "zh": {
-          "title": "比特币逼近8.2万美元",
-          "summary": "比特币在9月6日前达到8.2万美元的概率飙升至100%，此前价格大幅突破8万美元。这一上涨主要受美联储暗示暂停加息以及4.15亿美元空头清算推动。",
-          "drivers": [
-            "美联储暗示暂停加息",
-            "比特币价格重回8万美元",
-            "4.15亿美元比特币空头爆仓",
-            "比特币守住关键斐波那契支撑"
-          ],
-          "why_matters": "此次价格快速波动凸显了比特币对宏观经济政策变化的敏感性，以及杠杆头寸对市场波动的影响。",
-          "bull_case": "受美联储信号和空头清算推动，比特币当前动能强劲，剩余2000美元目标极有可能实现。",
-          "bear_case": "经历大幅上涨后，比特币面临技术阻力及获利回吐，可能阻碍其最终冲向8.2万美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "BTC nears its support test as ALT bounce setups build - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-09-03/btc-nears-its-support-test-alt-bounce-setups-build"
-        },
-        {
-          "title": "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt - Decrypt",
-          "url": "https://decrypt.co/377314/bitcoin-pump-fed-rate-pause-shorts-get-rekt"
-        },
-        {
-          "title": "BTC holds its Fib While Lower-Cap Breadth Improves - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-09-02/btc-holds-its-fib-while-lower-cap-breadth-improves"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3961168",
-        "question": "Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of August 31 2026?",
-        "probability": 1.0,
-        "change_24h": 0.9045,
-        "volume_24h": 10741.81,
-        "score": 908.53,
-        "url": "https://polymarket.com/event/will-tsla-reach-382-50-by-august-31-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Tesla Cybercab Launch Drives Price Certainty",
-          "summary": "Tesla's probability to hit $382.50 by August 2026 soared to 100% following overwhelming positive news surrounding its Cybercab program. A successful Cybercab launch event and Elon Musk's announcement of a 'Storm Of Cybercabs' coming significantly boosted investor confidence.",
-          "drivers": [
-            "Successful Cybercab launch event",
-            "Musk announced 'Storm of Cybercabs'",
-            "TSLA stock surged 7% pre-launch"
-          ],
-          "why_matters": "This signifies a potential paradigm shift in urban mobility and Tesla's revenue streams, validating its autonomous driving strategy.",
-          "bull_case": "Massive Cybercab deployment and adoption will significantly boost Tesla's revenue and market valuation, easily surpassing $382.50.",
-          "bear_case": "Unforeseen regulatory obstacles or slower-than-anticipated Cybercab deployment could challenge the current 100% probability."
-        },
-        "zh": {
-          "title": "特斯拉Cybercab发布推高股价确定性",
-          "summary": "特斯拉在2026年8月前达到382.50美元的概率飙升至100%，源于其Cybercab项目压倒性的利好消息。成功的Cybercab发布会以及埃隆·马斯克宣布“Cybercab风暴即将来临”，极大地提振了投资者信心。",
-          "drivers": [
-            "Cybercab发布活动成功",
-            "马斯克宣布“Cybercab风暴”",
-            "TSLA股价活动前上涨7%"
-          ],
-          "why_matters": "这预示着城市出行和特斯拉收入流的潜在范式转变，验证了其自动驾驶战略。",
-          "bull_case": "大规模Cybercab部署和采用将显著提升特斯拉营收和市值，轻松超越382.50美元。",
-          "bear_case": "意外的监管障碍或Cybercab部署慢于预期，可能挑战当前100%的概率。"
-        }
-      },
-      "news": [
-        {
-          "title": "Tesla's 45 Cybercabs Face a $1.3 Trillion Reality Check - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/teslas-45-cybercabs-face-1-213407966.html"
-        },
-        {
-          "title": "TSLA Stock Up 7% Ahead Of Cybercab Launch Event — Fund Manager Sees Selloff Ahead, Citing Past Patterns - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-7-ahead-cybercab-190013889.html"
-        },
-        {
-          "title": "TSLA Stock Revs Up Slowly As Elon Musk Tells A ‘Storm Of Cybercabs’ Are Coming — Analyst Says ‘Never Short A Great Company’ - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-revs-slowly-elon-071416674.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3207829",
-        "question": "Iran successfully targets shipping on August 31, 2026?",
-        "probability": 0.9695,
-        "change_24h": 0.5345,
-        "volume_24h": 15406.39,
-        "score": 538.69,
-        "url": "https://polymarket.com/event/iran-successfully-targets-shipping-on-august-31-2026-20260729163314551"
-      },
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Iran Targets Shipping: Probability Soars",
-          "summary": "The probability surged to 97% following reports of new Iranian shipping attacks in the Hormuz Strait. This escalation prompted US retaliatory strikes and a \"tanker for tanker policy.\"",
-          "drivers": [
-            "Iran's new Hormuz Strait shipping attacks",
-            "US implements 'tanker for tanker policy'",
-            "US military conducts retaliatory strikes on Iran",
-            "IRGC threatens Arab nations over US forces"
-          ],
-          "why_matters": "This escalating conflict in a critical shipping lane threatens global oil supply and could trigger broader regional instability, impacting international trade and energy prices.",
-          "bull_case": "Iran's documented history of shipping attacks and the ongoing US \"tanker for tanker policy\" make future targeting highly probable.",
-          "bear_case": "Diplomatic intervention or a significant de-escalation by either side could reduce the likelihood of Iran successfully targeting shipping."
-        },
-        "zh": {
-          "title": "伊朗袭击航运：概率飙升",
-          "summary": "在伊朗对霍尔木兹海峡航运发动新袭击的报道后，该事件的概率飙升至97%。此次升级促使美国进行报复性打击并实施“油轮换油轮政策”。",
-          "drivers": [
-            "伊朗对霍尔木兹海峡的新袭击",
-            "美国实施“油轮换油轮政策”",
-            "美军对伊朗目标进行报复性打击",
-            "伊朗伊斯兰革命卫队威胁阿拉伯国家"
-          ],
-          "why_matters": "这一关键航运线路的冲突升级威胁全球石油供应，可能引发更广泛的地区不稳定，影响国际贸易和能源价格。",
-          "bull_case": "伊朗有记录的航运袭击历史和美国持续的“油轮换油轮政策”使得未来袭击可能性极高。",
-          "bear_case": "外交干预或双方的重大降级可能降低伊朗成功袭击航运的可能性。"
-        }
-      },
-      "news": [
-        {
-          "title": "Blockade succeeds where sanctions failed as Iran oil exports stall - Reuters",
-          "url": "https://www.reuters.com/business/energy/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-2026-09-01/"
-        },
-        {
-          "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/2026-09-02/live-updates-907287"
-        },
-        {
-          "title": "U.S. strikes Iran after new Hormuz Strait shipping attacks: Centcom - CNBC",
-          "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4096520",
-        "question": "Over $5M committed to the Ethos public sale?",
-        "probability": 0.9955,
-        "change_24h": 0.5005,
-        "volume_24h": 12267.35,
-        "score": 504.59,
-        "url": "https://polymarket.com/event/over-5m-committed-to-the-ethos-public-sale"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ethos Public Sale Hits $5M Target",
-          "summary": "The probability for Ethos's public sale exceeding $5M committed surged to 100%, confirming the target has been met. This success is bolstered by strong market demand for crypto-related offerings, exemplified by Multipli’s $MULT Community Sale being oversubscribed and its protocol crossing $500M+ in TVL.",
-          "drivers": [
-            "Ethos public sale confirmed over $5M committed.",
-            "Multipli’s $MULT Community Sale oversubscribed.",
-            "Multipli protocol crossed $500M+ in TVL."
-          ],
-          "why_matters": "Successful public sales like Ethos's demonstrate robust investor confidence in emerging crypto projects and real-world asset (RWA) protocols, potentially attracting further capital to the sector.",
-          "bull_case": "Confirmed oversubscription of Ethos's sale ensures the $5M target is firmly met, reflecting strong investor confidence.",
-          "bear_case": "Future unforeseen circumstances could lead to committed funds not materializing, potentially invalidating the 'over $5M committed' status."
-        },
-        "zh": {
-          "title": "Ethos公募超500万美元",
-          "summary": "Ethos公募承诺资金超过500万美元的概率升至100%，确认目标已达成。这一成功得益于对加密相关产品的强劲市场需求，Multipli的$MULT社区销售超额认购及其协议TVL突破5亿美元即是例证。",
-          "drivers": [
-            "Ethos公募确认获超500万美元承诺。",
-            "Multipli的$MULT社区销售超额认购。",
-            "Multipli协议TVL突破5亿美元。"
-          ],
-          "why_matters": "像Ethos这样成功的公募表明投资者对新兴加密项目和RWA协议充满信心，可能吸引更多资金进入该领域。",
-          "bull_case": "Ethos销售确认超额认购，确保500万美元目标达成，反映投资者信心强劲。",
-          "bear_case": "未来不可预见的情况可能导致承诺资金无法兑现，从而影响“超500万美元承诺”的有效性。"
-        }
-      },
-      "news": [
-        {
-          "title": "Wella Company’s IPO Plan: Wipe Out Debt, Win New Customers - The Business of Fashion",
-          "url": "https://www.businessoffashion.com/articles/beauty/wella-ipo-prospectus/"
-        },
-        {
-          "title": "Chris Mason: Reform face headwinds as they gather for conference - BBC",
-          "url": "https://www.bbc.com/news/articles/cgk5m42z1vpo"
-        },
-        {
-          "title": "Self-driving truck firm PlusAI takes third run at listing, this time at $800M - SiliconANGLE",
-          "url": "https://siliconangle.com/2026/09/03/self-driving-truck-firm-plusai-takes-third-run-at-listing-this-time-at-800m/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4062493",
-        "question": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $260 Week of August 31 2026?",
-        "probability": 0.9,
-        "change_24h": 0.5,
-        "volume_24h": 2104.55,
-        "score": 503.32,
-        "url": "https://polymarket.com/event/will-amzn-reach-260-by-august-31-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Amazon Surges on Growth Outlook",
-          "summary": "Amazon's probability of hitting $260 by August 2026 surged 50% to 90%, driven by strong projections for its spending growth and broader optimism in the AI-driven tech sector. This positive momentum appears to have overshadowed recent concerns like the FTC lawsuit over ad practices.",
-          "drivers": [
-            "Projected strong spending growth for Amazon (Micron article).",
-            "Broader tech sector optimism fueled by AI innovation (Microsoft news).",
-            "Market overlooking FTC lawsuit's long-term impact."
-          ],
-          "why_matters": "This significant probability shift indicates strong market confidence in Amazon's long-term growth trajectory and its ability to capitalize on evolving tech trends.",
-          "bull_case": "Robust spending growth projections for Amazon, especially in cloud and AI, will propel its stock past $260 by August 2026.",
-          "bear_case": "Ongoing regulatory challenges like the FTC lawsuit and increased competition could hinder Amazon's growth, preventing it from reaching $260."
-        },
-        "zh": {
-          "title": "亚马逊股价因增长前景飙升",
-          "summary": "亚马逊股价在2026年8月前达到260美元的概率飙升50%至90%，主要受其支出增长的强劲预测以及人工智能驱动的科技行业普遍乐观情绪推动。这一积极势头似乎盖过了近期如联邦贸易委员会诉讼等担忧。",
-          "drivers": [
-            "亚马逊支出增长前景乐观（源自美光文章）。",
-            "人工智能创新提振科技板块信心（微软新闻）。",
-            "市场淡化FTC诉讼的长期影响。"
-          ],
-          "why_matters": "这一显著的概率变化表明市场对亚马逊的长期增长轨迹及其利用科技趋势的能力充满信心。",
-          "bull_case": "亚马逊在云服务和人工智能领域的强劲支出增长预测，将推动其股价在2026年8月前突破260美元。",
-          "bear_case": "联邦贸易委员会诉讼等持续的监管挑战和日益激烈的竞争可能阻碍亚马逊增长，使其无法达到260美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Microsoft drops $101.9 billion surprise as AI reshapes company - thestreet.com",
-          "url": "https://www.thestreet.com/investing/microsoft-drops-101-9-billion-surprise-as-ai-reshapes-company"
-        },
-        {
-          "title": "Is Now a Good Time to Buy Amazon Stock? - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/now-good-time-buy-amazon-081500794.html"
-        },
-        {
-          "title": "Amazon Stock Extends Losses After FTC Lawsuit Over Ad Practices - Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/amazon-stock-ftc-lawsuit-advertising-auctions-amzn/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4144824",
-        "question": "Ethereum Up or Down on September 4?",
-        "probability": 0.06,
-        "change_24h": -0.465,
-        "volume_24h": 17615.57,
-        "score": 469.25,
-        "url": "https://polymarket.com/event/ethereum-up-or-down-on-september-4-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Ethereum Up Probability Plunges",
-          "summary": "The probability of Ethereum being up on September 4th plummeted by 46.5% to 6%, primarily driven by Ethereum's 1.7% price decline over the past 24 hours to $2,463.58. This sharp drop reflects a rapid re-evaluation by bettors following recent bearish price action.",
-          "drivers": [
-            "Ethereum down 1.7% to $2,463.58 in past 24 hours",
-            "Bitcoin down 0.5% to $78,652.35 in past 24 hours",
-            "Polymarket bettors show increased caution in crypto markets"
-          ],
-          "why_matters": "This significant shift indicates a strong bearish sentiment for Ethereum's short-term price action, potentially signaling broader crypto market weakness. It highlights how quickly prediction markets react to immediate price movements and overall market sentiment.",
-          "bull_case": "Institutional dialogue and accumulation expectations could still bolster spot market sentiment, driving a rebound.",
-          "bear_case": "Ethereum's recent 1.7% price decline and broader market caution suggest continued downward pressure.",
-          "source": "Provided Headlines"
-        },
-        "zh": {
-          "title": "以太坊上涨概率暴跌",
-          "summary": "以太坊在9月4日上涨的概率暴跌46.5%至6%，主要原因是过去24小时以太坊价格下跌1.7%至2,463.58美元。这一急剧下降反映出投注者对近期看跌价格走势的快速重新评估。",
-          "drivers": [
-            "以太坊过去24小时下跌1.7%至2,463.58美元",
-            "比特币过去24小时下跌0.5%至78,652.35美元",
-            "Polymarket投注者对加密市场持更谨慎态度"
-          ],
-          "why_matters": "这一显著转变表明市场对以太坊短期价格走势持强烈看跌情绪，可能预示着更广泛的加密市场疲软。它突显了预测市场对即时价格变动和整体市场情绪的快速反应。",
-          "bull_case": "机构对话和积累预期仍可能提振现货市场情绪，推动价格反弹。",
-          "bear_case": "以太坊近期1.7%的价格下跌和更广泛的市场谨慎情绪预示着持续的下行压力。",
-          "source": "提供的新闻标题"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin and ethereum prices today, Thursday, September 3 ...",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-3-2026-crypto-prices-lift-this-morning-despite-oil-costs-gaining-steam-113526770.html"
-        },
-        {
-          "title": "Ethereum (ETHUSD) Is up 1.05% on Sep 3: Why It Happened",
-          "url": "https://www.tradingkey.com/news/market-movers/262148257-market-movers-ethusd-20260903"
-        },
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61621049/stock-market-will-sp-500-open-up-or-down-today-31"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3866259",
-        "question": "Will Tesla, Inc. (TSLA) hit (HIGH) $375 in September?",
-        "probability": 1.0,
-        "change_24h": 0.4645,
-        "volume_24h": 2234.21,
-        "score": 467.85,
-        "url": "https://polymarket.com/event/will-tsla-reach-375-in-september-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Cybercab Hype Fuels TSLA $375 Target",
-          "summary": "TSLA's probability of hitting $375 in September surged to 100%. This was driven by intense market anticipation for the upcoming Cybercab launch event.",
-          "drivers": [
-            "Anticipation for Cybercab launch event",
-            "Elon Musk's 'Storm of Cybercabs' comments",
-            "TSLA stock's 7% pre-event surge"
-          ],
-          "why_matters": "This reflects high market confidence in Tesla's future autonomous mobility strategy and could set a new valuation benchmark for the company.",
-          "bull_case": "Successful Cybercab launch and positive reception will validate Tesla's autonomous future, pushing the stock past $375.",
-          "bear_case": "Cybercab launch disappointment or 'sell-the-news' event could trigger a significant correction, failing to reach $375."
-        },
-        "zh": {
-          "title": "Cybercab预期助推TSLA冲375",
-          "summary": "TSLA九月触及375美元的概率飙升至100%。这主要受市场对即将到来的Cybercab发布会的强烈预期推动。",
-          "drivers": [
-            "Cybercab发布会强烈预期",
-            "马斯克预告‘Cybercab风暴’",
-            "TSLA股价活动前上涨7%"
-          ],
-          "why_matters": "这反映了市场对特斯拉未来自动驾驶出行战略的高度信心，可能为公司设定新的估值基准。",
-          "bull_case": "Cybercab成功发布及积极市场反响将验证特斯拉自动驾驶未来，推动股价突破375美元。",
-          "bear_case": "Cybercab发布不及预期或“利好出尽”可能引发大幅回调，未能达到375美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "TSLA Stock Up 7% Ahead Of Cybercab Launch Event — Fund Manager Sees Selloff Ahead, Citing Past Patterns - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-7-ahead-cybercab-190013889.html"
-        },
-        {
-          "title": "TSLA Stock Revs Up Slowly As Elon Musk Tells A ‘Storm Of Cybercabs’ Are Coming — Analyst Says ‘Never Short A Great Company’ - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-revs-slowly-elon-071416674.html"
-        },
-        {
-          "title": "Tesla's 45 Cybercabs Face a $1.3 Trillion Reality Check - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/teslas-45-cybercabs-face-1-213407966.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4187311",
-        "question": "WTI Crude Oil (WTI) closes above $93 on September 4?",
-        "probability": 0.055,
-        "change_24h": -0.445,
-        "volume_24h": 5739.63,
-        "score": 448.76,
-        "url": "https://polymarket.com/event/wti-closes-above-93-on-september-4-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "WTI Crude Stalls Below $93",
-          "summary": "The probability of WTI crude closing above $93 by September 4 significantly dropped by 44.5% to 6%, primarily due to WTI failing to sustain its upward momentum and settling mixed despite earlier geopolitical tensions. This indicates a lack of conviction for WTI to hold above the target price.",
-          "drivers": [
-            "WTI crude settled mixed, failing to hold gains.",
-            "Bullish momentum stalled near $92.46.",
-            "Lack of sustained close above $93."
-          ],
-          "why_matters": "Oil prices are a critical economic indicator, influencing inflation, consumer costs, and central bank monetary policy decisions globally.",
-          "bull_case": "Escalating US-Iran tensions could reignite strong upward momentum, pushing WTI crude decisively above $93.",
-          "bear_case": "WTI crude's inability to sustain $93 after reaching $92.46 indicates strong resistance, likely keeping it below the target."
-        },
-        "zh": {
-          "title": "WTI原油受阻于93美元下方",
-          "summary": "WTI原油在9月4日前收盘高于93美元的概率大幅下降44.5%至6%，主要原因是尽管地缘政治紧张局势加剧，WTI未能维持上涨势头并以涨跌互现收盘。这表明市场对WTI维持在目标价格上方缺乏信心。",
-          "drivers": [
-            "WTI原油收盘涨跌互现，未能守住涨幅。",
-            "看涨势头在92.46美元附近受阻。",
-            "未能持续收盘在93美元上方。"
-          ],
-          "why_matters": "油价是关键的经济指标，影响全球通货膨胀、消费者成本以及央行的货币政策决策。",
-          "bull_case": "美伊紧张局势升级可能重新点燃强劲上涨势头，推动WTI原油果断突破93美元。",
-          "bear_case": "WTI原油在触及92.46美元后未能维持在93美元上方，表明存在强劲阻力，可能使其保持在目标以下。"
-        }
-      },
-      "news": [
-        {
-          "title": "Oil prices rise for fourth straight day on Middle East tensions... S-Oil surges 10% — BigGo Finance",
-          "url": "https://finance.biggo.com/news/bc1fb45c-7082-41ab-85cc-743bb22185b4"
-        },
-        {
-          "title": "investingLive European markets wrap: Japanese yen surges higher for second straight day",
-          "url": "https://investinglive.com/news/investinglive-european-markets-wrap-japanese-yen-surges-higher-for-second-straight-day"
-        },
-        {
-          "title": "Morning Wrap: ASX 200 to fall, S&P 500 extends decline as yields and oil spike on US-Iran strikes",
-          "url": "https://www.marketindex.com.au/news/morning-wrap-asx-200-to-fall-s-and-p-500-extends-decline-as-yields-and"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4144823",
-        "question": "Bitcoin Up or Down on September 4?",
-        "probability": 0.06,
-        "change_24h": -0.44,
-        "volume_24h": 65818.19,
-        "score": 444.82,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-september-4-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Down: Sep 4 Up Probability Plunges",
-          "summary": "The probability of Bitcoin being up on September 4 plummeted by 44% to 6%, primarily driven by an observed 1.00% price drop on the day. This decline was further fueled by profit-taking near the $82,000 resistance level, derivative liquidations, and increased September Fed rate hike odds.",
-          "drivers": [
-            "Bitcoin fell 1.00% on Sep 4.",
-            "Profit-taking near $82,000 resistance.",
-            "September Fed rate hike odds jumped.",
-            "Derivative liquidations."
-          ],
-          "why_matters": "This movement reflects immediate market reactions to macroeconomic signals and technical resistance, influencing short-term crypto investor sentiment and trading strategies.",
-          "bull_case": "Bitcoin could rebound if September Fed hike odds decrease or if it finds strong support above $77,000.",
-          "bear_case": "Continued profit-taking, further Fed hawkishness, or breaking key support levels could drive prices lower."
-        },
-        "zh": {
-          "title": "比特币9月4日上涨概率骤降",
-          "summary": "比特币9月4日上涨的概率骤降44%至6%，主要受当日价格下跌1.00%的直接影响。82,000美元阻力位附近的获利了结、衍生品清算以及9月美联储加息预期上升也进一步加剧了跌势。",
-          "drivers": [
-            "比特币9月4日下跌1.00%。",
-            "82,000美元阻力位附近获利了结。",
-            "9月美联储加息概率上升。",
-            "衍生品市场出现清算。"
-          ],
-          "why_matters": "这一波动反映了市场对宏观经济信号和技术阻力的即时反应，影响短期加密货币投资者情绪和交易策略。",
-          "bull_case": "若9月美联储加息预期下降或比特币在77,000美元上方找到强支撑，价格可能反弹。",
-          "bear_case": "持续获利了结、美联储鹰派言论或跌破关键支撑位将导致价格继续走低。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin (BTCUSD) Suddenly Goes down 1.00% on Sep 4: What You Need to Watch",
-          "url": "https://www.tradingkey.com/news/market-movers/262150873-market-movers-btcusd-20260904"
-        },
-        {
-          "title": "Bitcoin Is Down 7% This Year and XRP Is Down 21%. Which Recovers First?",
-          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/04/bitcoin-is-down-7-this-year-and-xrp-is-down-21-which-recovers-first"
-        },
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61621049/stock-market-will-sp-500-open-up-or-down-today-31"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4187298",
-        "question": "S&P 500 (SPY) closes above $765 on September 4?",
-        "probability": 0.945,
-        "change_24h": 0.4,
-        "volume_24h": 1446.27,
-        "score": 403.16,
-        "url": "https://polymarket.com/event/spy-closes-above-765-on-september-4-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "SPY Surges Past $765 Threshold",
-          "summary": "The probability of SPY closing above $765 on September 4, 2026, surged to 94% after the ETF closed at $773.38 on September 3. This significant move above the target price, coupled with bullish Polymarket predictions, drove the 40% increase in confidence.",
-          "drivers": [
-            "SPY closed at $773.38 on Sep 3, well above $765.",
-            "Polymarket odds show targets up to $800 for Sep 4.",
-            "Pre-market indications for Sep 4 show slight gains."
-          ],
-          "why_matters": "This market reflects investor confidence in the S&P 500's short-term upward momentum, impacting broader market sentiment and investment strategies.",
-          "bull_case": "SPY's current price of $773.38 is already above the $765 target, making a significant drop unlikely by Sep 4 close.",
-          "bear_case": "Unexpected negative economic news or a sudden market correction could still pull SPY below $765 before the Sep 4 close."
-        },
-        "zh": {
-          "title": "SPY突破765美元关口",
-          "summary": "标普500 ETF (SPY) 于9月3日收盘价达到773.38美元，远超765美元的目标价，推动该市场在9月4日收盘高于765美元的概率飙升至94%。这一显著的价格上涨，加上Polymarket的看涨预测，促使概率在24小时内增长了40%。",
-          "drivers": [
-            "SPY 9月3日收盘价773.38美元，远高于765美元。",
-            "Polymarket预测9月4日SPY目标价高达800美元。",
-            "9月4日盘前交易显示SPY价格小幅上涨。"
-          ],
-          "why_matters": "该市场反映了投资者对标普500短期上涨动力的信心，影响着更广泛的市场情绪和投资策略。",
-          "bull_case": "SPY当前773.38美元的价格已高于目标，9月4日收盘前大幅下跌可能性小。",
-          "bear_case": "突发负面经济消息或市场回调，仍可能使SPY在9月4日收盘跌破765美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "What Will SPY Hit the Week of August 31, 2026? Odds | Lines.com",
-          "url": "https://www.lines.com/prediction-markets/finance/will-spy-hit-week-of-august-31-2026"
-        },
-        {
-          "title": "What will S&P 500 (SPY) hit Week of August 31 2026? Trading Odds & Predictions (Aug. 28, 2026) | Polymarket",
-          "url": "https://polymarket.com/event/will-spy-hit-week-of-august-31-2026"
-        },
-        {
-          "title": "SPY: SPDR S&P 500 ETF Trust Option Chain | OptionCharts",
-          "url": "https://optioncharts.io/options/SPY/option-chain"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "701840",
-        "question": "Will Zcash reach $1000 by December 31, 2026?",
-        "probability": 1.0,
-        "change_24h": 0.3945,
-        "volume_24h": 120640.61,
-        "score": 399.58,
-        "url": "https://polymarket.com/event/will-zcash-reach-1000-by-december-31-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Zcash $1000 Target Imminent",
-          "summary": "Zcash's probability of reaching $1000 by Dec 31, 2026, surged to 100% after a bullish technical analysis report. A TradingView analysis on Binance's ZEC/TetherUS 1-hour chart indicated a critical trendline held, signaling '$1000 Next'.",
-          "drivers": [
-            "Bullish TradingView technical analysis report",
-            "ZEC/TetherUS 1-hour chart trendline confirmation",
-            "Explicit '$1000 Next' price target validation"
-          ],
-          "why_matters": "This extreme probability reflects high market confidence in Zcash's short-to-medium term price trajectory. It could signal broader bullish sentiment for privacy coins.",
-          "bull_case": "Strong technical analysis from TradingView confirming a key trendline hold points directly to the $1000 target.",
-          "bear_case": "Technical analysis signals can quickly reverse, and broader crypto market downturns could invalidate the $1000 target."
-        },
-        "zh": {
-          "title": "Zcash千元目标迫近",
-          "summary": "Zcash在2026年12月31日前达到1000美元的概率飙升至100%，此前一份看涨技术分析报告发布。TradingView在币安ZEC/TetherUS 1小时图上的分析显示关键趋势线守住，预示着“下一个目标1000美元”。",
-          "drivers": [
-            "TradingView看涨技术分析报告",
-            "ZEC/TetherUS 1小时图趋势线确认",
-            "明确的“下一个目标1000美元”价格验证"
-          ],
-          "why_matters": "这一极高概率反映了市场对Zcash中短期价格走势的高度信心。这可能预示着隐私币的整体看涨情绪。",
-          "bull_case": "TradingView强劲技术分析确认关键趋势线守住，直接指向1000美元目标。",
-          "bear_case": "技术分析信号可能迅速逆转，且更广泛的加密市场低迷可能使1000美元目标失效。"
-        }
-      },
-      "news": [
-        {
-          "title": "ZCash Price Prediction: Trendline Holds, $1000 Next?",
-          "url": "https://www.coingabbar.com/en/price-prediction/zcash-price-prediction-zakura-upgrade"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4063372",
-        "question": "Will Gold (XAUUSD) hit (HIGH) $4,500 in September?",
-        "probability": 1.0,
-        "change_24h": 0.3845,
-        "volume_24h": 7622.56,
-        "score": 388.38,
-        "url": "https://polymarket.com/event/will-xauusd-reach-4500-in-september-2026"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "Gold Hits $4500, Fed Tone Drives Certainty",
-          "summary": "Gold's probability of hitting $4,500 in September surged to 100% after Fed Governor Waller's dovish comments on interest rates. This stance weakened the US Dollar and lowered yields, propelling XAU/USD to reclaim the $4,500 level.",
-          "drivers": [
-            "Fed Governor Waller's dovish comments",
-            "Weakening US Dollar",
-            "Falling bond yields",
-            "Gold reclaiming $4,500 price level"
-          ],
-          "why_matters": "This movement highlights gold's sensitivity to monetary policy expectations and its role as a safe haven against a weakening dollar. It signals shifting investor confidence in the Fed's rate hike cycle.",
-          "bull_case": "Continued Fed dovishness or economic slowdown could further weaken the dollar, pushing gold prices higher.",
-          "bear_case": "Stronger-than-expected NFP or ISM Services PMI could revive rate hike fears, strengthening the dollar and hurting gold."
-        },
-        "zh": {
-          "title": "黄金触及4500美元，美联储言论定局",
-          "summary": "黄金在9月份触及4500美元的概率飙升至100%，此前美联储理事沃勒发表鸽派言论。此番言论削弱了美元并压低了收益率，推动XAU/USD重新站上4500美元。",
-          "drivers": [
-            "美联储沃勒理事鸽派言论",
-            "美元走弱",
-            "债券收益率下降",
-            "黄金价格重回4500美元"
-          ],
-          "why_matters": "此次波动凸显黄金对货币政策预期的敏感性，及其作为美元走弱时避险资产的作用。这预示着投资者对美联储加息周期的信心正在转变。",
-          "bull_case": "美联储持续鸽派或经济放缓可能进一步削弱美元，推高金价。",
-          "bear_case": "强劲的非农就业或ISM服务业PMI可能重燃加息担忧，提振美元并打压黄金。"
-        }
-      },
-      "news": [
-        {
-          "title": "Gold soars as Waller's dovish tone hurts Fed hike bets ahead of NFP",
-          "url": "https://www.mitrade.com/au/insights/news/live-news/article-2-2057611-20260904"
-        },
-        {
-          "title": "Gold rebounds towards $4,500 as softer dollar and falling yields offset rate-hike fears - VT Markets",
-          "url": "https://www.vtmarkets.com/en-ca/live-updates/gold-rebounds-towards-4500-as-softer-dollar-and-falling-yields-offset-rate-hike-fears"
-        },
-        {
-          "title": "Gold Price Forecast: Dollar Near Key Support as Gold Reclaims $4500",
-          "url": "https://www.mitrade.com/au/insights/commodity/gold/gold-price-forecast-dollar-near-key-support"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4062534",
-        "question": "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $186 Week of August 31 2026?",
-        "probability": 0.403,
-        "change_24h": 0.3415,
-        "volume_24h": 2377.34,
-        "score": 344.88,
-        "url": "https://polymarket.com/event/will-pltr-reach-186-by-august-31-2026-from-september-1"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "PLTR Surges on Crypto Market Strength",
-          "summary": "Palantir's target probability jumped 34.2% to 40% as a robust Bitcoin market and positive crypto sentiment fueled investor optimism. Bitcoin holding near $78K and Michaël van de Poppe's bullish outlook on BTC momentum likely spurred the increase.",
-          "drivers": [
-            "Bitcoin (BTC) holding near $78K, signaling market strength.",
-            "Michaël van de Poppe's positive outlook on BTC momentum.",
-            "TRON DAO's USDT TRC20 improving payment efficiency.",
-            "Perceived indirect exposure of PLTR to crypto ecosystem growth."
-          ],
-          "why_matters": "This movement highlights how broader tech and data analytics firms like Palantir can be influenced by the health and sentiment of the cryptocurrency market, indicating a potential diversification of revenue streams or investor perception.",
-          "bull_case": "Continued crypto market expansion and PLTR's deepening involvement in blockchain analytics could drive the stock higher.",
-          "bear_case": "A significant crypto market downturn or lack of direct PLTR crypto revenue could reverse this probability gain."
-        },
-        "zh": {
-          "title": "PLTR受加密市场提振",
-          "summary": "随着比特币市场强劲和加密货币情绪积极，Palantir股价达到目标价的概率飙升34.2%至40%。比特币维持在7.8万美元附近以及Michaël van de Poppe看好BTC势头，是此次上涨的主要推动力。",
-          "drivers": [
-            "比特币（BTC）维持在7.8万美元附近。",
-            "Michaël van de Poppe看好BTC市场势头。",
-            "波场（TRON DAO）USDT TRC20提升支付效率。",
-            "市场认为PLTR间接受益于加密生态增长。"
-          ],
-          "why_matters": "此次波动表明，像Palantir这样的科技和数据分析公司可能受到加密货币市场健康状况和情绪的影响，预示着潜在的收入来源多元化或投资者认知转变。",
-          "bull_case": "加密市场持续扩张及PLTR深化区块链分析业务，将推高股价。",
-          "bear_case": "加密市场大幅回调或PLTR缺乏直接加密收入，可能逆转此概率。"
-        }
-      },
-      "news": [
-        {
-          "title": "Bitcoin (BTC) Holds Near $78K Amid August Volatility - Blockchain.News",
-          "url": "https://blockchain.news/news/bitcoin-holds-near-78k-august-2026-update"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3953599",
-        "question": "Will the price of Bitcoin be above $80,000 on September 4?",
-        "probability": 0.475,
-        "change_24h": 0.33,
-        "volume_24h": 194801.39,
-        "score": 335.29,
-        "url": "https://polymarket.com/event/bitcoin-above-80k-on-september-4-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Surges Past $80K, Odds Rise",
-          "summary": "The probability for Bitcoin to be above $80,000 on September 4 jumped 33% to 48% after BTC reclaimed $80,000 on September 3, closing at $81,491. This surge was driven by geopolitical tensions and reduced expectations for a September Fed rate hike.",
-          "drivers": [
-            "Bitcoin price closed at $81,491 on Sep 3",
-            "U.S. and Iranian hostilities cited for BTC rise",
-            "Traders cut September Fed hike odds",
-            "Bitcoin's 24% gain in August"
-          ],
-          "why_matters": "Bitcoin's ability to hold key psychological levels like $80,000, especially amidst global events and monetary policy shifts, indicates its evolving role as a potential safe-haven asset and its sensitivity to macroeconomic factors.",
-          "bull_case": "Bitcoin has already closed above $80,000, supported by geopolitical tensions and decreasing Fed hike probabilities, suggesting sustained momentum.",
-          "bear_case": "Significant supply resistance and the August jobs report on September 4 could push Bitcoin back below the $80,000 threshold."
-        },
-        "zh": {
-          "title": "比特币突破8万美元，概率飙升",
-          "summary": "比特币在9月3日重回8万美元并收于81,491美元后，其在9月4日高于8万美元的概率跃升33%至48%。此次上涨主要受地缘政治紧张局势和市场对美联储9月加息预期下降的推动。",
-          "drivers": [
-            "比特币9月3日收盘价81,491美元",
-            "美伊冲突引发比特币上涨",
-            "交易员下调美联储9月加息预期",
-            "比特币8月上涨24%带来动能"
-          ],
-          "why_matters": "比特币能否守住8万美元等关键心理关口，尤其是在全球事件和货币政策变化中，表明其作为潜在避险资产的角色正在演变，以及其对宏观经济因素的敏感性。",
-          "bull_case": "比特币已收于8万美元上方，受地缘政治紧张和美联储加息预期下降支撑，预示可能保持上涨势头。",
-          "bear_case": "巨大的供应阻力以及9月4日公布的8月就业报告，可能将比特币推回8万美元以下。"
-        }
-      },
-      "news": [
-        {
-          "title": "BTC price on Sep 4, 2026 at 5pm EDT - Crypto",
-          "url": "https://robinhood.com/us/en/prediction-markets/crypto/events/btc-price-on-sep-4-2026-at-5pm-edt-aug-28-2026"
-        },
-        {
-          "title": "Bitcoin Reclaimed $80,000 After Falling Below $78,000. Can It Hold?",
-          "url": "https://www.aol.com/articles/bitcoin-reclaimed-80-000-falling-214841000.html"
-        },
-        {
-          "title": "Bitcoin faces $47 billion supply test before $80,000 breakout",
-          "url": "https://cryptoslate.com/bitcoins-next-80000-breakout-has-47-billion-more-profitable-supply-to-absorb"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3953574",
-        "question": "Will the price of Bitcoin be between $80,000 and $82,000 on September 4?",
-        "probability": 0.4475,
-        "change_24h": 0.3305,
-        "volume_24h": 11004.8,
-        "score": 334.54,
-        "url": "https://polymarket.com/event/will-the-price-of-bitcoin-be-between-80000-82000-on-september-4-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Bitcoin Bulls Target $82K, Probability Surges",
-          "summary": "The probability for Bitcoin to be between $80,000 and $82,000 on September 4 surged by 33.1% to 45%. This was driven by Bitcoin's sustained defense of the $80,000 level and Kalshi traders actively targeting $82,000.",
-          "drivers": [
-            "Bitcoin defends $80,000, bulls prepare run at $82,000.",
-            "Kalshi traders actively bet on $82,000 in September.",
-            "Crypto markets show strong bullish action post-consolidation.",
-            "AI Sentiment registers a high 78/100 bullish outlook."
-          ],
-          "why_matters": "This market reflects growing confidence in Bitcoin's near-term upward trajectory, signaling a potential end to consolidation and a renewed bull phase.",
-          "bull_case": "Bitcoin's strong defense of $80,000 and active targeting of $82,000 by traders indicate sustained upward momentum.",
-          "bear_case": "Technical trader Doctor Profit's forecast of volatility and a potential drop to $72,000 could push Bitcoin out of range."
-        },
-        "zh": {
-          "title": "比特币多头瞄准8.2万美元，概率飙升",
-          "summary": "比特币在9月4日介于8万至8.2万美元区间的概率飙升33.1%至45%。这主要受比特币持续守稳8万美元关口以及Kalshi交易员积极瞄准8.2万美元的推动。",
-          "drivers": [
-            "比特币守稳8万美元，多头准备冲击8.2万美元。",
-            "Kalshi交易员积极押注9月触及8.2万美元。",
-            "加密市场在盘整后展现强劲牛市行动。",
-            "AI情绪指数高达78/100，显示强烈看涨。"
-          ],
-          "why_matters": "该市场反映出市场对比特币近期上涨轨迹的信心增强，预示着盘整可能结束，牛市阶段有望重启。",
-          "bull_case": "比特币强劲守稳8万美元，且交易员积极瞄准8.2万美元，表明上涨势头持续。",
-          "bear_case": "技术交易员Doctor Profit预测波动性，并可能跌至7.2万美元，或使比特币脱离目标区间。"
-        }
-      },
-      "news": [
-        {
-          "title": "Kalshi Traders Bet Bitcoin Could Reach $82,000 in September",
-          "url": "https://cryptonews.net/news/bitcoin/33390169"
-        },
-        {
-          "title": "Bitcoin price defends $80,000 as bulls prepare another run at $82,000",
-          "url": "https://invezz.com/news/2026/09/04/bitcoin-price-defends-80000-as-bulls-prepare-another-run-at-82000"
-        },
-        {
-          "title": "Is the Crypto Bull Market Back in September? Top Signals to Watch",
-          "url": "https://cryptorank.io/news/feed/1660b-is-the-crypto-bull-market-back-in-september-top-signals-to-watch"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4062947",
-        "question": "Will South Korea ETF (EWY) hit (HIGH) $181 Week of August 31 2026?",
-        "probability": 0.9,
-        "change_24h": 0.33,
-        "volume_24h": 2438.8,
-        "score": 333.39,
-        "url": "https://polymarket.com/event/will-ewy-reach-181-by-august-31-2026-from-september-1"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Korean Chip Boom Drives EWY Surge",
-          "summary": "The probability of EWY hitting $181 by August 31, 2026, surged to 90% following strong performance in South Korea's semiconductor sector. This rapid increase is driven by positive momentum for major constituents like Samsung Electronics and SK hynix, as highlighted in recent Polymarket trading odds.",
-          "drivers": [
-            "Strong global semiconductor demand growth",
-            "Positive outlook for Samsung Electronics",
-            "SK hynix stock price rally"
-          ],
-          "why_matters": "This movement reflects investor confidence in the long-term growth of South Korea's tech exports and its critical role in the global semiconductor supply chain. It signals robust demand for advanced chips, impacting global technology trends.",
-          "bull_case": "Robust global demand for advanced semiconductors, particularly from AI and data centers, will continue to boost Samsung and SK hynix.",
-          "bear_case": "Potential oversupply in the semiconductor market or geopolitical tensions could halt the growth of key Korean chipmakers."
-        },
-        "zh": {
-          "title": "韩国芯片热潮推高EWY",
-          "summary": "EWY在2026年8月31日当周触及181美元高点的可能性飙升至90%，主要受韩国半导体行业强劲表现驱动。这一快速增长反映了三星电子和SK海力士等主要成分股的积极势头，正如近期Polymarket交易赔率所强调。",
-          "drivers": [
-            "全球半导体需求强劲增长",
-            "三星电子业绩前景乐观",
-            "SK海力士股价大幅上涨"
-          ],
-          "why_matters": "这一走势反映了投资者对韩国科技出口长期增长及其在全球半导体供应链中关键作用的信心。它预示着对先进芯片的强劲需求，将影响全球技术趋势。",
-          "bull_case": "全球对AI和数据中心先进半导体的强劲需求将持续提振三星和SK海力士。",
-          "bear_case": "半导体市场潜在的供过于求或地缘政治紧张局势可能阻碍韩国主要芯片制造商的增长。"
-        }
-      },
-      "news": [
-        {
-          "title": "What will South Korea ETF (EWY) hit Week of August 31 2026? Trading Odds & Predictions (Aug. 28, 2026) | Polymarket",
-          "url": "https://polymarket.com/event/will-ewy-hit-week-of-august-31-2026"
-        },
-        {
-          "title": "What will Robinhood Markets, Inc. (HOOD) hit Week of August 31 2026? Trading Odds & Predictions (Aug. 28, 2026) | Polymarket",
-          "url": "https://polymarket.com/event/will-hood-hit-week-of-august-31-2026?marketSlug=will-hood-reach-110-by-august-31-2026&outcomeIndex=0"
-        },
-        {
-          "title": "Stock Prices Predictions & Real-Time Odds | Polymarket",
-          "url": "https://polymarket.com/predictions/stock-prices"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3402367",
-        "question": "Will the August 2026 unemployment rate be 4.2%?",
-        "probability": 0.0005,
-        "change_24h": -0.3295,
-        "volume_24h": 3843.32,
-        "score": 333.08,
-        "url": "https://polymarket.com/event/will-the-august-2026-unemployment-rate-be-4pt2-1786116586128"
-      },
-      "insight": {
-        "category": "economy",
-        "en": {
-          "title": "August 2026 Jobless Rate Unlikely 4.2%",
-          "summary": "The market now sees a 0% chance for the August 2026 unemployment rate to be 4.2%, driven by the reported 4.3% rate in Q2 2026. Forecasts for August nonfarm payrolls at a modest 65,000 suggest insufficient job creation to reach 4.2%.",
-          "drivers": [
-            "Q2 2026 unemployment rate reported at 4.3%.",
-            "August 2026 nonfarm payrolls forecast at 65,000.",
-            "\"Slow hiring market\" and \"softer payrolls\" trend."
-          ],
-          "why_matters": "A stable or slightly higher unemployment rate could influence Federal Reserve policy decisions, potentially impacting interest rate outlooks and broader economic stability.",
-          "bull_case": "Stronger-than-expected job growth or significant labor force exits could unexpectedly push the rate to 4.2%.",
-          "bear_case": "Continued modest job growth and a steady 4.3% rate make an exact 4.2% outcome highly improbable."
-        },
-        "zh": {
-          "title": "2026年8月失业率难达4.2%",
-          "summary": "市场目前认为2026年8月失业率为4.2%的可能性为0%，主要受2026年第二季度失业率已达4.3%的影响。对8月非农就业人数仅增加6.5万的预测，表明就业增长不足以达到4.2%。",
-          "drivers": [
-            "2026年第二季度失业率报4.3%。",
-            "2026年8月非农就业预测6.5万。",
-            "“招聘市场放缓”及“就业增长疲软”。"
-          ],
-          "why_matters": "稳定或略高的失业率可能影响美联储政策，进而影响利率前景和整体经济稳定。",
-          "bull_case": "远超预期的就业增长或劳动力大幅退出，可能意外地将失业率推至4.2%。",
-          "bear_case": "持续温和的就业增长和4.3%的稳定失业率，使精确达到4.2%的可能性极低。"
-        }
-      },
-      "news": [
-        {
-          "title": "Total Nonfarm Payrolls for August 2026 Are Projected to ...",
-          "url": "https://insight.factset.com/total-nonfarm-payrolls-for-august-2026-are-projected-to-rise-by-65000"
-        },
-        {
-          "title": "August Jobs Report Preview: Key Expert Forecasts and What The Data Could Mean for the Fed and Investors",
-          "url": "https://www.kiplinger.com/investing/economy/jobs-report-august-2026-what-to-expect"
-        },
-        {
-          "title": "August Jobs Report Seen Showing Modest Bounce in a Slow Hiring Market",
-          "url": "https://www.morningstar.com/economy/august-jobs-report-seen-showing-modest-bounce-slow-hiring-market"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3961532",
-        "question": "Will Micron Technology, Inc. (MU) hit (LOW) $900 Week of August 31 2026?",
-        "probability": 0.439,
-        "change_24h": 0.289,
-        "volume_24h": 1076.36,
-        "score": 292.03,
-        "url": "https://polymarket.com/event/will-mu-dip-to-900-by-august-31-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "Micron Low $900 Probability Surges",
-          "summary": "The probability of Micron (MU) hitting a low of $900 by August 2026 surged by 28.9% to 44%, primarily driven by recent stock price declines. This movement reflects investor concern following an 11% drop and a further 2% slide in Tuesday's premarket trading.",
-          "drivers": [
-            "Micron's recent 11% stock price decline.",
-            "Further 2% premarket stock slide on Tuesday.",
-            "Increased focus on short-term price volatility."
-          ],
-          "why_matters": "This market indicates investor perception of Micron's short-term downside risk, even amidst strong long-term growth predictions tied to AI memory demand. It highlights the tension between immediate market corrections and future potential.",
-          "bull_case": "Strong demand for HBM4 and Nvidia's memory commitments suggest Micron's long-term growth above $2,000 by 2027.",
-          "bear_case": "Recent stock drops (11% and 2% premarket) indicate short-term volatility and potential for Micron to hit $900."
-        },
-        "zh": {
-          "title": "镁光触及900美元低点概率飙升",
-          "summary": "镁光科技(MU)在2026年8月31日前触及900美元低点的概率飙升28.9%至44%，主要受近期股价下跌驱动。此举反映了投资者在股价下跌11%及周二盘前再跌2%后的担忧。",
-          "drivers": [
-            "镁光近期股价下跌11%。",
-            "周二盘前股价进一步下跌2%。",
-            "投资者对短期波动性关注增加。"
-          ],
-          "why_matters": "该市场反映了投资者对镁光短期下行风险的看法，即使其长期增长前景与AI内存需求强劲。这突显了即时市场调整与未来潜力之间的张力。",
-          "bull_case": "HBM4强劲需求及英伟达内存承诺，预示镁光2027年股价有望超2000美元。",
-          "bear_case": "近期股价下跌（11%及盘前2%）表明短期波动，镁光可能触及900美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Micron's 11% Drop Hasn't Shaken Wall Street's Bull Case - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microns-11-drop-hasnt-shaken-154145101.html"
-        },
-        {
-          "title": "Micron Is No Longer What It Was So I Keep Loading Up - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-no-longer-keep-loading-135237386.html"
-        },
-        {
-          "title": "Prediction: This Could Be Micron's Stock Price by the End of 2027 (Hint: It's Above $2,000) - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-could-microns-stock-price-202300375.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3975500",
-        "question": "Will the price of Ethereum be above $2,400 on September 5?",
-        "probability": 0.856,
-        "change_24h": 0.286,
-        "volume_24h": 6216.64,
-        "score": 289.79,
-        "url": "https://polymarket.com/event/ethereum-above-2400-on-september-5-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "ETH Surges: Fed Pause & BTC Rally",
-          "summary": "The probability of Ethereum staying above $2,400 by September 5 surged to 86% due to a broader crypto market rally. This was primarily driven by the Federal Reserve signaling a potential rate pause and Bitcoin reclaiming $80,000.",
-          "drivers": [
-            "Federal Reserve signals potential interest rate pause",
-            "Bitcoin pumps past $80,000, up 3% in 24 hours",
-            "XRP ETF inflows reach $1.66B, boosting crypto sentiment",
-            "$415 million in Bitcoin shorts liquidated"
-          ],
-          "why_matters": "A sustained rally in major cryptocurrencies like Ethereum, driven by macro-economic factors, could signal a broader recovery and increased institutional confidence in the digital asset space.",
-          "bull_case": "Continued macro tailwinds from the Fed and strong Bitcoin momentum could push ETH higher.",
-          "bear_case": "A sudden Bitcoin correction or renewed hawkish Fed stance could reverse ETH's gains."
-        },
-        "zh": {
-          "title": "以太坊飙升：美联储暂停加息与比特币上涨",
-          "summary": "以太坊在9月5日前保持在2,400美元以上的可能性飙升至86%，主要受加密货币市场整体上涨推动。这主要归因于美联储暗示可能暂停加息以及比特币重回80,000美元。",
-          "drivers": [
-            "美联储暗示可能暂停加息",
-            "比特币突破80,000美元，24小时上涨3%",
-            "XRP ETF流入达16.6亿美元，提振市场情绪",
-            "4.15亿美元比特币空头头寸被清算"
-          ],
-          "why_matters": "由宏观经济因素驱动的以太坊等主要加密货币的持续上涨，可能预示着数字资产领域的广泛复苏和机构信心的增强。",
-          "bull_case": "美联储持续的宏观利好和比特币强劲势头可能推动以太坊走高。",
-          "bear_case": "比特币突然回调或美联储重拾鹰派立场可能逆转以太坊涨幅。"
-        }
-      },
-      "news": [
-        {
-          "title": "XRP News Today: ETF Inflows Reach $1.66B, While Apeing Moves Toward Its September 8 Crypto Presale Opening - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/xrp-news-today-etf-inflows-reach-1-66b-while-apeing-moves-toward-its-september-8-crypto-presale-opening-1036514331"
-        },
-        {
-          "title": "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt - Decrypt",
-          "url": "https://decrypt.co/377314/bitcoin-pump-fed-rate-pause-shorts-get-rekt"
-        },
-        {
-          "title": "Crypto Price Today - Bitcoin Pulls Back Near $79K While Apeing Locks In September 8 for Its Upcoming Crypto Presale - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-price-today---bitcoin-pulls-back-near-79k-while-apeing-locks-in-september-8-for-its-upcoming-crypto-presale-1036514343"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3960893",
-        "question": "Will Apple (AAPL) hit (HIGH) $332 Week of August 31 2026?",
-        "probability": 0.495,
-        "change_24h": 0.28,
-        "volume_24h": 1492.11,
-        "score": 283.17,
-        "url": "https://polymarket.com/event/will-aapl-reach-332-by-august-31-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Apple (AAPL) hit (HIGH) $332 Week of August 31 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Apple (AAPL) hit (HIGH) $332 Week of August 31 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Friday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
-          "url": "https://www.cnbc.com/2026/09/03/fridays-big-stock-stories-whats-likely-to-move-the-market.html"
-        },
-        {
-          "title": "You can't stop the dawn of AI by blocking some data centers, says Jim Cramer - cnbc.com",
-          "url": "https://www.cnbc.com/video/2026/09/02/you-cant-stop-the-dawn-of-ai-by-blocking-some-data-centers-says-jim-cramer.html"
-        },
-        {
-          "title": "When will libturds just relax and get with the raw milk – road kill – ivermectin agenda? - tonyortega.org",
-          "url": "https://tonyortega.org/2026/09/01/when-will-libturds-just-relax-and-get-with-the-raw-milk-road-kill-ivermectin-agenda/"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4148918",
-        "question": "Will NVIDIA (NVDA) hit (LOW) $220 Week of August 31 2026?",
-        "probability": 0.0475,
-        "change_24h": -0.2625,
-        "volume_24h": 1016.93,
-        "score": 265.51,
-        "url": "https://polymarket.com/event/will-nvda-dip-to-220-by-august-31-2026"
-      },
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will NVIDIA (NVDA) hit (LOW) $220 Week of August 31 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will NVIDIA (NVDA) hit (LOW) $220 Week of August 31 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Amazon Shares Rise 4% as AWS Expansion Aligns With $220 Billion in AI Investments",
-          "url": "https://ts2.tech/en/amazon-stock-jumps-4-as-aws-growth-meets-220-billion-ai-spending"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3866357",
-        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $185 in September?",
-        "probability": 1.0,
-        "change_24h": 0.1935,
-        "volume_24h": 996.76,
-        "score": 196.5,
-        "url": "https://polymarket.com/event/will-coin-reach-185-in-september-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "COIN Surges on Bitcoin Rally, Fed Pause",
-          "summary": "The probability for Coinbase (COIN) to hit $185 in September reached 100% due to a significant rally in Bitcoin to $80,000. This surge was primarily driven by signals that the Federal Reserve will pause interest rate hikes, boosting risk assets.",
-          "drivers": [
-            "Bitcoin reclaimed $80,000, signaling strong crypto market bullishness.",
-            "Federal Reserve signaled a pause in interest rate hikes, favoring risk assets.",
-            "$415 million in Bitcoin shorts were liquidated, fueling the rally."
-          ],
-          "why_matters": "A sustained crypto bull run, supported by favorable macroeconomic conditions, significantly enhances Coinbase's revenue and profitability outlook, impacting its valuation.",
-          "bull_case": "Bitcoin's strong rally above $80,000 and the Fed's dovish stance provide substantial tailwinds for COIN to easily surpass $185.",
-          "bear_case": "Unexpected Fed hawkishness or a sudden Bitcoin correction could quickly reverse gains, making $185 difficult to sustain."
-        },
-        "zh": {
-          "title": "COIN因比特币大涨和美联储暂停加息而飙升",
-          "summary": "Coinbase (COIN) 在9月份达到185美元的概率升至100%，主要原因是比特币飙升至80,000美元。此次上涨的关键驱动因素是美联储发出暂停加息的信号，提振了风险资产。",
-          "drivers": [
-            "比特币重回8万美元，预示加密市场牛市。",
-            "美联储暗示暂停加息，利好风险资产。",
-            "4.15亿美元比特币空头被清算，助推涨势。"
-          ],
-          "why_matters": "持续的加密牛市，加上有利的宏观经济条件，显著提升了Coinbase的收入和盈利前景，影响其估值。",
-          "bull_case": "比特币破8万，美联储鸽派，COIN轻松上185美元。",
-          "bear_case": "美联储突变或比特币急跌，涨幅恐逆转，185美元难守。"
-        }
-      },
-      "news": [
-        {
-          "title": "Crypto Price Today - Bitcoin Pulls Back Near $79K While Apeing Locks In September 8 for Its Upcoming Crypto Presale - markets.businessinsider.com",
-          "url": "https://markets.businessinsider.com/news/stocks/crypto-price-today---bitcoin-pulls-back-near-79k-while-apeing-locks-in-september-8-for-its-upcoming-crypto-presale-1036514343"
-        },
-        {
-          "title": "Will the Fed raise rates in September? - investingLive",
-          "url": "https://investinglive.com/education/will-the-fed-raise-rates-in-september/"
-        },
-        {
-          "title": "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt - Decrypt",
-          "url": "https://decrypt.co/377314/bitcoin-pump-fed-rate-pause-shorts-get-rekt"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4052420",
-        "question": "Will Bitcoin reach $82,500 in September?",
-        "probability": 0.735,
-        "change_24h": 0.19,
-        "volume_24h": 157986.57,
-        "score": 195.2,
-        "url": "https://polymarket.com/event/will-bitcoin-reach-82pt5k-in-september-2026"
-      },
-      "insight": {
-        "category": "crypto",
-        "en": {
-          "title": "Will Bitcoin reach $82,500 in September?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Bitcoin reach $82,500 in September?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "Fed Rate Hike Odds Hit 70% as Traders Back September Increase",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/fed-rate-hike-odds-hit-092724315.html"
-        },
-        {
-          "title": "What price will Bitcoin hit in September?",
-          "url": "https://cryptoslate.com/predictions/market/what-price-will-bitcoin-hit-in-september-2026"
-        },
-        {
-          "title": "Bitcoin Slides to $77,000, but Prediction Market Gives 78% Odds of Reaching $84,000 First",
-          "url": "https://en.bloomingbit.io/feed/news/119340"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4062549",
-        "question": "Israel Election: Yashar & Together Run on Same List?",
-        "probability": 0.094,
-        "change_24h": -0.185,
-        "volume_24h": 676.27,
-        "score": 187.83,
-        "url": "https://polymarket.com/event/israel-election-yashar-together-run-on-same-list"
+        "id": "3961742",
+        "question": "Israel Election: Unity Party & Blue and White Run on Same List?",
+        "probability": 0.0165,
+        "change_24h": -0.8285,
+        "volume_24h": 797.95,
+        "score": 831.4,
+        "url": "https://polymarket.com/event/israel-election-unity-party-blue-and-white-run-on-same-list"
       },
       "insight": {
         "category": "politics",
         "en": {
-          "title": "Infighting Sinks Yashar-Together Joint List Hopes",
-          "summary": "The probability of Yashar and Together running on the same list plummeted by 18.5% to 9% as internal conflicts and leadership battles intensified. Headlines indicate 'desperate merger talks collide with infighting' and that Bennett and Eisenkot are 'drawing battle lines' for coalition leadership.",
+          "title": "Unity-Blue and White Merger Prospects Plummet",
+          "summary": "The probability of the Unity Party and Blue and White running on a joint list has plummeted to 2%, primarily driven by Gilad Erdan's withdrawal from the election race. This significantly weakens the Unity Party's viability as a potential partner for Blue and White.",
           "drivers": [
-            "Infighting in anti-Netanyahu bloc hinders merger talks.",
-            "Bennett and Eisenkot 'draw battle lines' for leadership.",
-            "Bennett-Lapid Together party sinks in polls."
+            "Gilad Erdan announces withdrawal from election race",
+            "Unity Party's viability severely weakened",
+            "Approaching party list submission deadline"
           ],
-          "why_matters": "A unified anti-Netanyahu bloc is crucial for challenging the current government's dominance. Failure to merge could fragment the vote, potentially strengthening the Likud and its allies.",
-          "bull_case": "Strategic necessity to consolidate anti-Netanyahu votes and avoid electoral fragmentation could still force a joint list.",
-          "bear_case": "Persistent leadership disputes and inability to agree on list composition will prevent Yashar and Together from merging."
+          "why_matters": "This market reflects the ongoing fragmentation and consolidation efforts within Israel's political center ahead of the election. The failure of such a merger could impact the broader electoral landscape.",
+          "bull_case": "Blue and White could still absorb Unity Party's remaining elements for strategic electoral advantage before the deadline.",
+          "bear_case": "Unity Party's effective dissolution post-Erdan's exit makes a joint list with Blue and White highly unlikely."
         },
         "zh": {
-          "title": "亚沙与团结党合并希望破灭",
-          "summary": "亚沙党与团结党联合参选的可能性骤降18.5%至9%，因内部冲突和领导权之争加剧。《国土报》指出“绝望的合并谈判与内讧冲突”，且本内特和艾森科特正在“划定战线”。",
+          "title": "统一党与蓝白党合并可能性骤降",
+          "summary": "统一党和蓝白党联合参选的可能性已跌至2%，主要原因是吉拉德·埃尔丹宣布退出选举。这严重削弱了统一党作为蓝白党潜在伙伴的实力。",
           "drivers": [
-            "反内塔尼亚胡阵营内讧阻碍合并谈判。",
-            "本内特与艾森科特为领导权“划定战线”。",
-            "本内特-拉皮德团结党民调下滑。"
+            "吉拉德·埃尔丹退出选举",
+            "统一党实力严重受损",
+            "政党名单提交截止日期临近"
           ],
-          "why_matters": "统一的反内塔尼亚胡阵营对挑战现政府至关重要。合并失败可能分散选票，从而巩固利库德集团及其盟友的地位。",
-          "bull_case": "为整合反内塔尼亚胡选票、避免碎片化，战略必要性仍可能促成联合名单。",
-          "bear_case": "持续的领导权争议和名单组成分歧将阻止亚沙党与团结党合并。"
+          "why_matters": "该市场反映了以色列政治中心在选举前持续的分裂与整合努力。此类合并的失败可能影响更广泛的选举格局。",
+          "bull_case": "蓝白党仍可能在截止日期前吸收统一党剩余力量以获取战略优势。",
+          "bear_case": "埃尔丹退出后统一党基本解体，与蓝白党联合参选可能性极低。"
         }
       },
       "news": [
         {
-          "title": "Analysis • Desperate merger talks collide with infighting in Israel's anti-Netanyahu bloc - Haaretz",
-          "url": "https://www.haaretz.com/israel-news/elections/2026-09-04/ty-article/.premium/desperate-merger-talks-collide-with-infighting-in-israels-anti-netanyahu-bloc/000001a0-6883-d60b-a1f2-eccf74d60000"
+          "title": "Poll: Smotrich-Feiglin alliance wins 5 seats",
+          "url": "https://www.israelnationalnews.com/news/432511"
         },
         {
-          "title": "Poll: Smotrich-Feiglin alliance pays off - and Ofer Winter takes the hit | Israel National News",
-          "url": "https://www.israelnationalnews.com/news/432617"
+          "title": "Israel election 2026: the 8 battles still shaping party lists before deadline",
+          "url": "https://www.ynetnews.com/article/hksvgyz00mg"
         },
         {
-          "title": "Political alliance: Feiglin and Smotrich agree to run together in elections | Israel National News",
-          "url": "https://www.israelnationalnews.com/news/432559"
+          "title": "Who is running in Israel’s 2026 election? A guide to the major parties",
+          "url": "https://www.jpost.com/jerusalem-report/article-907099"
         }
       ]
     },
     {
       "market": {
-        "id": "4063352",
-        "question": "Will Airbnb, Inc. (ABNB) hit (HIGH) $184 in September?",
+        "id": "3961598",
+        "question": "Will South Korea ETF (EWY) hit (HIGH) $185 Week of August 31 2026?",
         "probability": 1.0,
-        "change_24h": 0.1845,
-        "volume_24h": 856.95,
-        "score": 187.43,
-        "url": "https://polymarket.com/event/will-abnb-reach-184-in-september-2026"
-      },
-      "insight": {
-        "category": "business",
-        "en": {
-          "title": "ABNB Surges: New CBO Boosts $184 Outlook",
-          "summary": "The probability of Airbnb (ABNB) hitting $184 in September has surged to 100%, marking an 18.4% increase in 24 hours. This significant rise is primarily driven by Airbnb's announcement of naming an ex-Booking.com and Viator executive as its new Chief Business Officer.",
-          "drivers": [
-            "New Chief Business Officer appointment",
-            "Executive's experience from Booking.com",
-            "Enhanced leadership for future growth"
-          ],
-          "why_matters": "This strategic hire signals Airbnb's intent to strengthen its core business and potentially expand into new travel segments. It could lead to improved operational efficiency and market share gains against competitors.",
-          "bull_case": "The new Chief Business Officer's expertise from Booking.com and Viator is expected to drive significant business growth and operational improvements.",
-          "bear_case": "Despite the positive news, broader market downturns or unforeseen operational challenges could still prevent ABNB from reaching $184."
-        },
-        "zh": {
-          "title": "爱彼迎任命新CBO，股价信心大增",
-          "summary": "爱彼迎(ABNB)九月触及184美元高点的可能性已飙升至100%，24小时内上涨18.4%。这一显著增长主要受爱彼迎宣布任命前Booking.com和Viator高管为首席商务官的推动。",
-          "drivers": [
-            "任命新首席商务官",
-            "高管曾任职Booking.com",
-            "强化领导层，助力未来增长"
-          ],
-          "why_matters": "此次战略性招聘表明爱彼迎旨在巩固核心业务并可能拓展新旅行领域。这有望提高运营效率并扩大市场份额。",
-          "bull_case": "新任首席商务官在Booking.com和Viator的经验预计将推动爱彼迎业务显著增长和运营改善。",
-          "bear_case": "尽管有积极消息，但大盘回调或意外运营挑战仍可能阻止爱彼迎达到184美元。"
-        }
-      },
-      "news": [
-        {
-          "title": "Kansas City Royals vs. Miami Marlins - September 02, 2026 - Bleacher Report",
-          "url": "https://bleacherreport.com/game/miami-marlins-vs-kansas-city-royals-2026-9-2-17-40"
-        },
-        {
-          "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session - cnbc.com",
-          "url": "https://www.cnbc.com/2026/09/01/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html"
-        },
-        {
-          "title": "Friday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
-          "url": "https://www.cnbc.com/2026/09/03/fridays-big-stock-stories-whats-likely-to-move-the-market.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3866446",
-        "question": "Will S&P 500 (SPY) hit (LOW) $750 in September?",
-        "probability": 0.315,
-        "change_24h": -0.18,
-        "volume_24h": 2195.22,
-        "score": 183.34,
-        "url": "https://polymarket.com/event/will-spy-dip-to-750-in-september-2026"
-      },
-      "insight": {
-        "category": "stocks",
-        "en": {
-          "title": "Will S&P 500 (SPY) hit (LOW) $750 in September?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will S&P 500 (SPY) hit (LOW) $750 in September?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      },
-      "news": [
-        {
-          "title": "CNH Upgraded by Evercore ISI Group -- Price Target Raised to $18 - gurufocus.com",
-          "url": "https://www.gurufocus.com/news/9066917/cnh-upgraded-by-evercore-isi-group-price-target-raised-to-1800"
-        },
-        {
-          "title": "Stock Market Today: Major Indexes Decline to Begin New Trading Month as Tech Stocks Pull Back; Oil Prices, Treasury Yields Rise - Investopedia",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09012026-12075046"
-        },
-        {
-          "title": "Stock Market Today: Dow, S&P 500, Nasdaq Down as Bond Yields Spike; Dell, Micron, Marvell, Strategy, More Movers - Barron's",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-090126"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "4187267",
-        "question": "S&P 500 (SPX) Up or Down on September 4?",
-        "probability": 0.35,
-        "change_24h": -0.165,
-        "volume_24h": 25327.41,
-        "score": 169.4,
-        "url": "https://polymarket.com/event/spx-up-or-down-on-september-4-2026"
+        "change_24h": 0.7995,
+        "volume_24h": 3194.38,
+        "score": 803.0,
+        "url": "https://polymarket.com/event/will-ewy-reach-185-by-august-31-2026"
       },
       "insight": {
         "category": "economy",
         "en": {
-          "title": "SPX Up Probability Plummets",
-          "summary": "The probability of S&P 500 closing up on September 4 plummeted by 16.5% to 35%, driven by firmly lower stock futures and strong historical September bearishness.",
+          "title": "SK Secures Hormuz, Boosts EWY",
+          "summary": "The probability for EWY to hit $185 surged to 100% after South Korea announced it \"mulls contributions\" in the Strait of Hormuz. This move is interpreted as a decisive step to secure vital trade routes and energy supplies, alleviating past disruption concerns.",
           "drivers": [
-            "S&P 500 futures fell 0.07% to 7,637.50",
-            "September's historical bearish trend (55% lower since 1928)",
-            "Increased demand for SPX bear put spreads into NFP"
+            "South Korea's proactive Strait of Hormuz strategy.",
+            "Anticipated stabilization of global energy trade.",
+            "Stronger global risk appetite boosting exports."
           ],
-          "why_matters": "This shift reflects growing investor caution and bearish sentiment as the market enters a historically weak month, potentially signaling broader economic concerns.",
-          "bull_case": "Major indexes still logged monthly gains in August, suggesting underlying market resilience despite recent dips.",
-          "bear_case": "Firmly lower stock futures and increased downside hedging demand indicate strong bearish pressure for September 4.",
-          "disclaimer": "The Benzinga headline stating the Polymarket crowd is 'leaning bullish' appears contradictory to the observed probability drop and other headlines, suggesting it might reflect an earlier sentiment or focus on the market open rather than the close."
+          "why_matters": "Securing critical trade routes like the Strait of Hormuz is paramount for South Korea's export-driven economy, directly impacting corporate earnings and investor confidence.",
+          "bull_case": "South Korea's successful efforts to secure the Strait of Hormuz will guarantee stable energy supplies and trade, driving robust economic growth.",
+          "bear_case": "Geopolitical tensions escalate despite South Korea's efforts, or global demand weakens, preventing EWY from reaching the target."
         },
         "zh": {
-          "title": "标普500上涨概率骤降",
-          "summary": "标普500指数9月4日收涨的概率骤降16.5%至35%，主要受股指期货普遍走低和9月历史性看跌趋势影响。",
+          "title": "韩国确保霍尔木兹海峡，EWY飙升",
+          "summary": "EWY触及185美元的概率飙升至100%，此前韩国宣布“考虑在霍尔木兹海峡做出贡献”。市场将此举解读为确保重要贸易路线和能源供应的决定性一步，缓解了对过去中断的担忧。",
           "drivers": [
-            "标普500股指期货下跌0.07%至7,637.50",
-            "9月历史性疲软（55%年份收跌）",
-            "NFP前SPX看跌期权价差需求增加"
+            "韩国对霍尔木兹海峡的积极战略。",
+            "预期全球能源贸易将趋于稳定。",
+            "全球风险偏好增强提振出口。"
           ],
-          "why_matters": "这一转变反映出投资者谨慎情绪和看跌倾向日益增强，市场进入历史性疲软月份，可能预示更广泛的经济担忧。",
-          "bull_case": "尽管近期下跌，主要股指8月份仍录得月度上涨，显示市场具有潜在韧性。",
-          "bear_case": "股指期货普遍走低和对冲需求增加，预示9月4日面临强劲看跌压力。",
-          "disclaimer": "Benzinga报道Polymarket人群“倾向看涨”的标题与观察到的概率下降及其他新闻标题相悖，可能反映了早期情绪或侧重于开盘而非收盘。"
-        }
-      },
-      "news": [
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61621049/stock-market-will-sp-500-open-up-or-down-today-31"
-        },
-        {
-          "title": "Stock Futures Look to Start September on a Low Note",
-          "url": "https://www.schaeffersresearch.com/content/ezines/2026/09/01/stock-futures-look-to-start-september-on-a-low-note"
-        },
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-062216077.html"
-        }
-      ]
-    },
-    {
-      "market": {
-        "id": "3866460",
-        "question": "Will South Korea ETF (EWY) hit (LOW) $172 in September?",
-        "probability": 0.56,
-        "change_24h": -0.16,
-        "volume_24h": 739.2,
-        "score": 162.87,
-        "url": "https://polymarket.com/event/will-ewy-dip-to-172-in-september-2026"
-      },
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will South Korea ETF (EWY) hit (LOW) $172 in September?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will South Korea ETF (EWY) hit (LOW) $172 in September?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "确保霍尔木兹海峡等关键贸易路线对韩国出口导向型经济至关重要，直接影响企业盈利和投资者信心。",
+          "bull_case": "韩国成功确保霍尔木兹海峡将保障能源供应和贸易稳定，推动经济强劲增长。",
+          "bear_case": "尽管韩国努力，地缘政治紧张局势仍升级，或全球需求疲软，阻碍EWY达标。"
         }
       },
       "news": [
@@ -1453,12 +97,496 @@
           "url": "https://www.thesunchronicle.com/business/us-stocks-open-higher-while-oil-prices-continue-to-climb/article_96bbb53f-0599-5120-89c5-8b6a65c715c2.html"
         },
         {
-          "title": "European Union joins U.S.-led 'Operation Economic Outcast' as Iran cries foul - CNBC",
-          "url": "https://www.cnbc.com/2026/09/04/us-iran-war-trump-hormuz-operation-economic-outcast-sanctions-campaign.html"
+          "title": "When will libturds just relax and get with the raw milk – road kill – ivermectin agenda? - tonyortega.org",
+          "url": "https://tonyortega.org/2026/09/01/when-will-libturds-just-relax-and-get-with-the-raw-milk-road-kill-ivermectin-agenda/"
         },
         {
-          "title": "World’s 5th most powerful military set to join US, UK and France in Strait of Hormuz after attacks on Liberia-flagged ships carrying Saudi crude - Business Insider Africa",
-          "url": "https://africa.businessinsider.com/local/markets/worlds-5th-most-powerful-military-set-to-join-us-uk-and-france-in-strait-of-hormuz/9v5pfmy"
+          "title": "Bitcoin heads for third winning week in a row as macro pressures mount - CNBC",
+          "url": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3961192",
+        "question": "Will Tesla (TSLA) finish week of August 31 above $370?",
+        "probability": 0.041,
+        "change_24h": -0.749,
+        "volume_24h": 1041.2,
+        "score": 752.02,
+        "url": "https://polymarket.com/event/tsla-above-370-on-september-4-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Will Tesla (TSLA) finish week of August 31 above $370?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Tesla (TSLA) finish week of August 31 above $370?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "TSLA Price Prediction: Cybercab Day Is Here — $370 Break or Sell-the-News Flush? - Blockchain.News",
+          "url": "https://blockchain.news/news/20260903-price-prediction-tsla-cybercab-day-is-here-370-break"
+        },
+        {
+          "title": "US Stocks Fall as Dow Drops 370 Points; CSPs Lead Losses as Cloud Memory Stocks Surge Late; SanDisk and Tesla Rise Over 5%",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262142466-us-stock-close-dow-drop-nasdaq-memory-sandisk-micron-tesla-rise-tradingkey"
+        },
+        {
+          "title": "TSLA Price Prediction: Crowded Longs, Fading Momentum — The $344 Floor Is the Only Thing Standing Between Bulls and a Fast Drop to $335 - Blockchain.News",
+          "url": "https://blockchain.news/news/20260831-price-prediction-tsla-crowded-longs-fading-momentum-the-344"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4096522",
+        "question": "Over $7.5M committed to the Ethos public sale?",
+        "probability": 1.0,
+        "change_24h": 0.7195,
+        "volume_24h": 17774.99,
+        "score": 723.75,
+        "url": "https://polymarket.com/event/over-7pt5m-committed-to-the-ethos-public-sale"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Over $7.5M committed to the Ethos public sale?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Over $7.5M committed to the Ethos public sale?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Arlington defense firm execs may see life-changing windfall",
+          "url": "https://www.facebook.com/wbjonline/posts/the-founders-of-an-arlington-based-defense-consulting-firm-could-soon-see-a-life/1747128260749754"
+        },
+        {
+          "title": "As we head into September, the... - MLB on ClutchPoints",
+          "url": "https://www.facebook.com/ClutchPointsMLB/posts/as-we-head-into-september-the-american-league-cy-young-race-is-proving-to-be-jus/1709502181177019"
+        },
+        {
+          "title": "The Denver Post - Cale Makar’s new contract with the...",
+          "url": "https://www.facebook.com/denverpost/posts/cale-makars-new-contract-with-the-colorado-avalanche-was-the-latest-and-largest-/1541618114679339"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4148944",
+        "question": "Will Airbnb, Inc. (ABNB) hit (LOW) $182 Week of August 31 2026?",
+        "probability": 1.0,
+        "change_24h": 0.7145,
+        "volume_24h": 1520.59,
+        "score": 717.68,
+        "url": "https://polymarket.com/event/will-abnb-dip-to-182-by-august-31-2026-from-september-2"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Airbnb, Inc. (ABNB) hit (LOW) $182 Week of August 31 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Airbnb, Inc. (ABNB) hit (LOW) $182 Week of August 31 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "What Will Airbnb (ABNB) Hit Week of Aug 31, 2026? Odds | Lines.com",
+          "url": "https://www.lines.com/prediction-markets/finance/will-abnb-hit-week-of-august-31-2026"
+        },
+        {
+          "title": "What will Airbnb, Inc. (ABNB) hit Week of August 31 2026? Trading Odds & Predictions (Aug. 28, 2026) | Polymarket",
+          "url": "https://polymarket.com/event/will-abnb-hit-week-of-august-31-2026"
+        },
+        {
+          "title": "Airbnb stock rises after a 25% August run",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/airbnb-stock-rises-after-a-25-percent-august-run/70028879"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4187267",
+        "question": "S&P 500 (SPX) Up or Down on September 4?",
+        "probability": 0.006,
+        "change_24h": -0.694,
+        "volume_24h": 84701.51,
+        "score": 698.93,
+        "url": "https://polymarket.com/event/spx-up-or-down-on-september-4-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "S&P 500 (SPX) Up or Down on September 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "S&P 500 (SPX) Up or Down on September 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Wall St slides after strong jobs report bolsters hawkish Fed bets - Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-sp-500-futures-climb-ahead-key-jobs-report-2026-09-04/"
+        },
+        {
+          "title": "S&P 500: September Is Usually Ugly For Stocks — Why This Year Is Different - Investor's Business Daily",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-september-is-usually-ugly-for-stocks-why-this-year-is-different/"
+        },
+        {
+          "title": "Stock Market Today: Major Indexes Tick Higher After Falling for 3rd Straight Session; 10-Year Treasury Yield Hits Highest Level Since 2023 - Investopedia",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09022026-12076478"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4190995",
+        "question": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $174 Week of August 31 2026?",
+        "probability": 0.645,
+        "change_24h": 0.585,
+        "volume_24h": 4735.84,
+        "score": 588.68,
+        "url": "https://polymarket.com/event/will-pltr-dip-to-174-by-august-31-2026-from-september-3"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $174 Week of August 3",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $174 Week of August 3",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "What will Palantir Technologies Inc. (PLTR) hit Week of August 31 2026? Trading Odds & Predictions (Aug. 28, 2026) | Polymarket",
+          "url": "https://polymarket.com/event/will-pltr-hit-week-of-august-31-2026?marketSlug=will-pltr-reach-189-by-august-31-2026&outcomeIndex=0"
+        },
+        {
+          "title": "Will Palantir (PLTR) Hit $186 Week of August 31, 2026? Odds | Lines.com",
+          "url": "https://www.lines.com/prediction-markets/finance/will-pltr-hit-week-of-august-31-2026"
+        },
+        {
+          "title": "What Will PLTR Hit in September 2026? Prediction Market Odds | Lines.com",
+          "url": "https://www.lines.com/prediction-markets/finance/what-price-will-pltr-hit-in-september-2026"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3207829",
+        "question": "Iran successfully targets shipping on August 31, 2026?",
+        "probability": 1.0,
+        "change_24h": 0.5545,
+        "volume_24h": 33537.25,
+        "score": 559.03,
+        "url": "https://polymarket.com/event/iran-successfully-targets-shipping-on-august-31-2026-20260729163314551"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Iran successfully targets shipping on August 31, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Iran successfully targets shipping on August 31, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Iran Update, August 31, 2026",
+          "url": "https://www.criticalthreats.org/analysis/iran-update-august-31-20266-6a9622f2e0757"
+        },
+        {
+          "title": "U.S. military says it's hitting new targets in Iran as hostilities flare again - MyNorthwest.com",
+          "url": "https://mynorthwest.com/national/u-s-military-says-its-hitting-new-targets-in-iran-as-hostilities-flare-again/4271407"
+        },
+        {
+          "title": "Iran launches retaliatory strikes against US bases in Middle ...",
+          "url": "https://www.jpost.com/middle-east/article-907279"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4191003",
+        "question": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $125 Week of August 31 2026?",
+        "probability": 0.08,
+        "change_24h": -0.555,
+        "volume_24h": 4424.78,
+        "score": 558.65,
+        "url": "https://polymarket.com/event/will-hood-reach-125-by-august-31-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $125 Week of August 31 ",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $125 Week of August 31 ",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Options bulls double down on Robinhood - CNBC",
+          "url": "https://www.cnbc.com/video/2026/09/03/options-bulls-double-down-on-robinhood.html"
+        },
+        {
+          "title": "Options volume erupts in retail trading favorites as Robinhood, Tesla surge - CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/options-volume-erupts-in-retail-trading-favorites-as-robinhood-tesla-surge.html"
+        },
+        {
+          "title": "Piper Sandler expects Robinhood to kickstart football season with a win - cnbc.com",
+          "url": "https://www.cnbc.com/2026/09/03/piper-sandler-expects-robinhood-to-start-football-season-with-a-win.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4189925",
+        "question": "Will Iran target an Arab country by September 15, 2026?",
+        "probability": 0.885,
+        "change_24h": 0.52,
+        "volume_24h": 4626.55,
+        "score": 523.67,
+        "url": "https://polymarket.com/event/will-iran-target-an-arab-country-by-september-15-2026-20260903"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will Iran target an Arab country by September 15, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Iran target an Arab country by September 15, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Iran Update, September 3, 2026 | ISW",
+          "url": "https://understandingwar.org/research/middle-east/iran-update-september-3-2026"
+        },
+        {
+          "title": "Israel says prepared to ‘respond with great force’ if Iran attacks｜Arab News Japan",
+          "url": "https://www.arabnews.jp/en/middle-east/article_177134"
+        },
+        {
+          "title": "Live Updates: Iran war ramps back up as Tehran accuses ...",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-dismisses-diplomacy-tehran-says-wedding-hit-in-strike"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4187284",
+        "question": "S&P 500 (SPX) Opens Up or Down on September 4?",
+        "probability": 0.9995,
+        "change_24h": 0.4995,
+        "volume_24h": 40849.21,
+        "score": 504.11,
+        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-september-4-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "S&P 500 (SPX) Opens Up or Down on September 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "S&P 500 (SPX) Opens Up or Down on September 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61621049/stock-market-will-sp-500-open-up-or-down-today-31"
+        },
+        {
+          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61594262/stock-market-will-sp-500-open-up-or-down-today-30"
+        },
+        {
+          "title": "S&P 500 Forecast: SPX rises ahead of NFP report",
+          "url": "https://www.forex.com/en-us/news-and-analysis/sandp-500-forecast-spx-rises-ahead-of-nfp-report?amp=true"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4187235",
+        "question": "Tesla (TSLA) Up or Down on September 4?",
+        "probability": 0.005,
+        "change_24h": -0.495,
+        "volume_24h": 8181.35,
+        "score": 498.91,
+        "url": "https://polymarket.com/event/tsla-up-or-down-on-september-4-2026"
+      },
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Tesla (TSLA) Up or Down on September 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Tesla (TSLA) Up or Down on September 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Tesla Inc Stock (TSLA) Opened Down by 5.01% on Sep 4: A Full Analysis",
+          "url": "https://www.tradingkey.com/news/market-movers/262151515-market-movers-tsla-20260904"
+        },
+        {
+          "title": "Tesla Stock: Cybercab and the TSLA Valuation in 2026 - INDmoney",
+          "url": "https://www.indmoney.com/blog/us-stocks/tesla-stock-cybercab-valuation"
+        },
+        {
+          "title": "Tesla Is Now Up 18% in a Month: Take Profits, or Buy More?",
+          "url": "https://247wallst.com/investing/2026/09/03/tesla-is-now-up-18-in-a-month-take-profits-or-buy-more"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4187229",
+        "question": "Apple (AAPL) Up or Down on September 4?",
+        "probability": 0.0055,
+        "change_24h": -0.4945,
+        "volume_24h": 3635.15,
+        "score": 498.06,
+        "url": "https://polymarket.com/event/aapl-up-or-down-on-september-4-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Apple (AAPL) Up or Down on September 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Apple (AAPL) Up or Down on September 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Friday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/fridays-big-stock-stories-whats-likely-to-move-the-market.html"
+        },
+        {
+          "title": "Stock Market Today: Dow Sinks As Inflation Report Looms; Oracle Up On OpenAI Buzz (Live Coverage) - Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-august-jobs-report-lululemon-lulu/"
+        },
+        {
+          "title": "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening - CNBC",
+          "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html"
         }
       ]
     },
@@ -1466,10 +594,10 @@
       "market": {
         "id": "4187285",
         "question": "SPY (SPY) Up or Down on September 4?",
-        "probability": 0.355,
-        "change_24h": -0.155,
-        "volume_24h": 4433.55,
-        "score": 158.65,
+        "probability": 0.011,
+        "change_24h": -0.489,
+        "volume_24h": 19199.34,
+        "score": 493.28,
         "url": "https://polymarket.com/event/spy-up-or-down-on-september-4-2026"
       },
       "insight": {
@@ -1493,7 +621,7 @@
       },
       "news": [
         {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
+          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61621049/stock-market-will-sp-500-open-up-or-down-today-31"
         },
         {
@@ -1501,12 +629,768 @@
           "url": "https://www.tradingview.com/news/benzinga:cab4fa34c094b:0-stock-market-today-dow-jones-futures-fall-s-p-500-nasdaq-100-rise-ahead-of-august-s-jobs-report-lulu-path-docu-in-focus"
         },
         {
-          "title": "Analyst Says the Worst Month for Stocks Since 1950 Is Setting Up Wrong This Year - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/29/analyst-says-the-worst-month-for-stocks-since-1950-is-setting-up-wrong-this-year"
+          "title": "Netflix Falls 4% as Rate Repricing Pressures Long-Duration Growth; Disney Dips, Warner Bros. Discovery Sits Tight",
+          "url": "https://247wallst.com/investing/2026/09/04/netflix-falls-4-as-rate-repricing-pressures-long-duration-growth-disney-dips-warner-bros-discovery-sits-tight"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4155239",
+        "question": "Bitcoin Up or Down - September 4, 2PM ET",
+        "probability": 0.9875,
+        "change_24h": 0.4825,
+        "volume_24h": 15670.59,
+        "score": 486.7,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-september-4-2026-2pm-et"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down - September 4, 2PM ET",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Bitcoin Up or Down - September 4, 2PM ET",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "US jobs report (NFP) - Friday, September 4. Here's how BTC, gold ...",
+          "url": "https://www.bybit.com/en/learn/market-pulse/forecasts-US-jobs-report-NFP-september-4-BTC-gold-SP500-react"
+        },
+        {
+          "title": "Bitcoin (BTCUSD) Suddenly Goes down 1.00% on Sep 4: What You Need to Watch",
+          "url": "https://www.tradingkey.com/news/market-movers/262150873-market-movers-btcusd-20260904"
+        },
+        {
+          "title": "Current price of Bitcoin for September 4, 2026",
+          "url": "https://fortune.com/article/price-of-bitcoin-09-04-2026"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4189935",
+        "question": "Will Iran target Jordan by September 15, 2026?",
+        "probability": 0.77,
+        "change_24h": 0.48,
+        "volume_24h": 20657.5,
+        "score": 484.32,
+        "url": "https://polymarket.com/event/will-iran-target-jordan-by-september-15-2026-20260903"
+      },
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will Iran target Jordan by September 15, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Iran target Jordan by September 15, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Iran Update, September 3, 2026 | ISW",
+          "url": "https://understandingwar.org/research/middle-east/iran-update-september-3-2026"
+        },
+        {
+          "title": "IRGC says it struck US Marine camp in Jordan with ballistic missiles",
+          "url": "https://www.iranintl.com/en/202609012609"
+        },
+        {
+          "title": "Live Updates: Iran war ramps back up as Tehran accuses ...",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-dismisses-diplomacy-tehran-says-wedding-hit-in-strike"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4187240",
+        "question": "NVIDIA (NVDA) Up or Down on September 4?",
+        "probability": 0.954,
+        "change_24h": 0.454,
+        "volume_24h": 8725.18,
+        "score": 457.94,
+        "url": "https://polymarket.com/event/nvda-up-or-down-on-september-4-2026"
+      },
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "NVIDIA (NVDA) Up or Down on September 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "NVIDIA (NVDA) Up or Down on September 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "5/30 Daily Nvidia position - moomoo Community",
+          "url": "https://www.moomoo.com/community/feed/5-30-daily-nvidia-position-117210742915078"
+        },
+        {
+          "title": "History Says This Is What Happens to Nvidia Stock in ...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/history-says-happens-nvidia-stock-102500057.html"
+        },
+        {
+          "title": "The 3 Best Artificial Intelligence (AI) Stocks for September",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-best-artificial-intelligence-ai-012700498.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4035642",
+        "question": "Will Alphabet Inc. (GOOGL) hit (HIGH) $345 Week of August 31 2026?",
+        "probability": 0.045,
+        "change_24h": -0.43,
+        "volume_24h": 1357.51,
+        "score": 433.13,
+        "url": "https://polymarket.com/event/will-googl-reach-345-by-august-31-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Alphabet Inc. (GOOGL) hit (HIGH) $345 Week of August 31 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Alphabet Inc. (GOOGL) hit (HIGH) $345 Week of August 31 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Google Stock Price Forecast. Should You Buy GOOGL?",
+          "url": "https://stockinvest.us/stock/GOOGL"
+        },
+        {
+          "title": "August Monthly Roundup: Maintaining Our Lead Through the Ups ...",
+          "url": "https://pro.thestreet.com/portfolio/august-monthly-roundup-maintaining-our-lead-through-the-ups-and-downs"
+        },
+        {
+          "title": "15 reactions · 7 comments | Welcome to Benzinga's PreMarket Playbook!\nStart Your Trading Day Right – Every Weekday at 8AM ET \n\n📊 What to Expect:\n• Stock Market News Today 🔍\n• Live Day Trading 🖥️\n• Actionable Trading Ideas 💡\n• Expert Analysis & Insights 📈\n• A Huge Community Of Traders & Investors 📊\n\n-----------------------------------------------------------------------------------\n\n📚Check out our Substack!\nhttps://substack.com/@benzinga\n\n🌐 Find more market-moving insights at https://www.benzinga.com — your one-stop destination for the latest financial news, data, and expert analysis to stay ahead of the markets.\n\n🖥️ Want the same tools the pros use—without the $10K Bloomberg terminal? Benzinga Edge gives you real-time portfolio alerts, weekly stock picks, and pro-grade research in one command center.\n👉 https://bit.ly/4unSKiB\n\n------------------------------------------------------------------------------------\n\n🔔 Subscribe To The Channel: https://www.youtube.com/@Benzinga\n\n📲 Follow us on socials: @Benzinga\n\n------------------------------------------------------------------------------------\n\n⚠️ Disclaimer:\nInvesting in financial markets carries risk, and there are no guaranteed returns. All information is for educational purposes only and should not be taken as financial advice. Always do your own research and speak with a qualified financial advisor before making investment decisions. Only invest what you can afford to lose. Past performance does not guarantee future outcomes.\n\n#PreMarket #LiveTrading #StockMarketToday | Benzinga",
+          "url": "https://www.facebook.com/Benzinga/videos/spy-qqq-slide-as-us-iran-tensions-flare-premarket-playbook-august-31-2026/1647116970266703"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4148905",
+        "question": "Will Apple (AAPL) hit (LOW) $324 Week of August 31 2026?",
+        "probability": 1.0,
+        "change_24h": 0.4145,
+        "volume_24h": 2076.38,
+        "score": 417.82,
+        "url": "https://polymarket.com/event/will-aapl-dip-to-324-by-august-31-2026-from-september-2"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Apple (AAPL) hit (LOW) $324 Week of August 31 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Apple (AAPL) hit (LOW) $324 Week of August 31 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "You can't stop the dawn of AI by blocking some data centers, says Jim Cramer - cnbc.com",
+          "url": "https://www.cnbc.com/video/2026/09/02/you-cant-stop-the-dawn-of-ai-by-blocking-some-data-centers-says-jim-cramer.html"
+        },
+        {
+          "title": "Apple rallies as John Ternus takes the helm — how to protect the stock for almost nothing: Alpha Options Playbook - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/options/article/apple-rallies-as-john-ternus-takes-the-helm--how-to-protect-the-stock-for-almost-nothing-alpha-options-playbook-100000403.html"
+        },
+        {
+          "title": "Jim Cramer digs into Cardinal Health and if it's worth buying into at this point - CNBC",
+          "url": "https://www.cnbc.com/video/2026/09/02/jim-cramer-digs-into-cardinal-health-and-if-its-worth-buying-into-at-this-point.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "701840",
+        "question": "Will Zcash reach $1000 by December 31, 2026?",
+        "probability": 1.0,
+        "change_24h": 0.3945,
+        "volume_24h": 120506.95,
+        "score": 399.58,
+        "url": "https://polymarket.com/event/will-zcash-reach-1000-by-december-31-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Zcash reach $1000 by December 31, 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Zcash reach $1000 by December 31, 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Zcash (ZEC) Breaks $1,000 Barrier: ETF Launch and Miner Revenue Drive Historic Rally",
+          "url": "https://blockonomi.com/zcash-zec-breaks-1000-barrier-etf-launch-and-miner-revenue-drive-historic-rally"
+        },
+        {
+          "title": "ZCash Price Prediction: Trendline Holds, $1000 Next?",
+          "url": "https://www.coingabbar.com/en/price-prediction/zcash-price-prediction-zakura-upgrade"
+        },
+        {
+          "title": "12 Best Crypto to Buy Now in September 2026",
+          "url": "https://coincodex.com/article/22477/best-crypto-to-buy"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4191001",
+        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $200 Week of August 31 2026?",
+        "probability": 0.0055,
+        "change_24h": -0.3545,
+        "volume_24h": 1616.49,
+        "score": 357.71,
+        "url": "https://polymarket.com/event/will-coin-reach-200-by-august-31-2026"
+      },
+      "insight": {
+        "category": "sports",
+        "en": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $200 Week of August 31 20",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $200 Week of August 31 20",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Coinbase Stock Rallies As Wall Street Hikes Price Targets - StocksToTrade",
+          "url": "https://stockstotrade.com/news/coinbase-global-inc-coin-news-2026_08_31-2"
+        },
+        {
+          "title": "Coinbase Stock Forecast: COIN Breakout Could Target $239.60 | FXEmpire",
+          "url": "https://www.fxempire.com/forecasts/article/coinbase-stock-forecast-coin-breakout-could-target-239-60-1620796"
+        },
+        {
+          "title": "Coinbase Stock Rallies As Wall Street Hikes Price Targets",
+          "url": "https://timothysykes.com/news/coinbase-global-inc-coin-news-2026_08_31"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4190724",
+        "question": "Bitcoin Up or Down - September 4, 12:00PM-4:00PM ET",
+        "probability": 0.83,
+        "change_24h": 0.33,
+        "volume_24h": 10753.11,
+        "score": 334.03,
+        "url": "https://polymarket.com/event/btc-updown-4h-1788537600"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down - September 4, 12:00PM-4:00PM ET",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Bitcoin Up or Down - September 4, 12:00PM-4:00PM ET",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bitcoin Back Above $80,000 as Traders Cut September Fed Hike Odds to a Coin Flip",
+          "url": "https://unchainedcrypto.com/bitcoin-back-above-80000-as-traders-cut-september-fed-hike-odds-to-a-coin-flip"
+        },
+        {
+          "title": "Weekly Market Kickoff",
+          "url": "https://www.topstep.com/blog/weekly-market-kickoff"
+        },
+        {
+          "title": "Hang Seng opens flat as Shanghai slips 0.35% on August 31 | 24/7 Wall St.",
+          "url": "https://247wallst.com/cards/hong-kong-opens-flat-while-shanghai-starts-down-0-35-a-spl-hsi-market-bell-01m1arx8brbe86xdgrm3fgwsmw"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4190991",
+        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $62 Week of August 31 2026?",
+        "probability": 0.065,
+        "change_24h": -0.32,
+        "volume_24h": 3150.44,
+        "score": 323.5,
+        "url": "https://polymarket.com/event/will-rklb-dip-to-62-by-august-31-2026-from-september-3"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $62 Week of August 31 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $62 Week of August 31 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "RKLB Stock Slips After $700M NASA Snub: Cathie Wood Buys The Dip As Retail Blames Neutron Delays - finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-slips-700m-nasa-011632463.html"
+        },
+        {
+          "title": "Cramer's lightning round: Buy Howmet Aerospace - cnbc.com",
+          "url": "https://www.cnbc.com/2026/09/02/cramers-lightning-round-buy-howmet-aerospace.html"
+        },
+        {
+          "title": "If You'd Put $500 Into SpaceX the Day It Went Public, Here's What You'd Have Today - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/youd-put-500-spacex-day-093700456.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4003954",
+        "question": "Will the price of Bitcoin be above $82,000 on September 6?",
+        "probability": 0.034,
+        "change_24h": -0.2935,
+        "volume_24h": 13640.74,
+        "score": 297.63,
+        "url": "https://polymarket.com/event/bitcoin-above-82k-on-september-6-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will the price of Bitcoin be above $82,000 on September 6?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the price of Bitcoin be above $82,000 on September 6?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Bitcoin Surges to $82,000 Range as Fed Dovish Comments Cool Rate Hike Expectations — BigGo Finance",
+          "url": "https://finance.biggo.com/news/ee091421-fae8-44ec-a939-4ccb2981b44f"
+        },
+        {
+          "title": "Bitcoin Reclaims $81,000 as Fed Hike Bets Fade, Zcash Explodes 16%",
+          "url": "https://bitcoinfoundation.org/news/uncategorised/bitcoin-reclaims-81000-as-fed-hike-bets-fade-zcash-explodes-16"
+        },
+        {
+          "title": "Bitcoin Tests A Crucial $78,000 Support After Sharp Drop",
+          "url": "https://www.cointribune.com/en/bitcoin-tests-a-crucial-78000-support-after-sharp-drop"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3961394",
+        "question": "Will Opendoor Technologies Inc. (OPEN) hit (LOW) $3.00 Week of August 31 2026?",
+        "probability": 0.0055,
+        "change_24h": -0.2815,
+        "volume_24h": 1066.36,
+        "score": 284.53,
+        "url": "https://polymarket.com/event/will-open-dip-to-3-00-by-august-31-2026"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Opendoor $3.00 Low Probability Drops",
+          "summary": "The probability of Opendoor (OPEN) hitting a $3.00 low by August 2026 decreased by 28.1% to 1%, signaling increased market confidence. This movement occurred despite the stock recently dropping to a 52-week low, suggesting investors see the current level as a potential floor.",
+          "drivers": [
+            "OPEN's recent drop to 52-week low may have triggered value buying.",
+            "Analysts or investors re-assessed long-term floor above $3.00.",
+            "Belief in Opendoor's operational resilience post-downturn."
+          ],
+          "why_matters": "This reflects investor outlook on Opendoor's resilience and the broader iBuying market's long-term viability, impacting future investment decisions.",
+          "bull_case": "Opendoor's strong balance sheet and potential for market share gains will prevent a $3.00 low.",
+          "bear_case": "Continued real estate market downturns and operational losses could still push OPEN to $3.00."
+        },
+        "zh": {
+          "title": "Opendoor跌至3美元低点概率下降",
+          "summary": "Opendoor (OPEN) 在2026年8月31日前触及3美元低点的概率下降了28.1%至1%，表明市场信心增强。尽管该股近期跌至52周低点，但投资者可能认为当前水平是一个潜在底部。",
+          "drivers": [
+            "OPEN股价触及52周低点后，可能吸引了价值投资者。",
+            "分析师或投资者重新评估了高于3美元的长期底部。",
+            "市场对Opendoor在低迷期后的运营韧性有信心。"
+          ],
+          "why_matters": "这反映了投资者对Opendoor韧性及iBuying市场长期可行性的看法，影响未来的投资决策。",
+          "bull_case": "Opendoor强劲的资产负债表和潜在的市场份额增长将阻止股价跌至3美元。",
+          "bear_case": "房地产市场持续低迷和运营亏损可能仍会将OPEN推向3美元。"
+        }
+      },
+      "news": [
+        {
+          "title": "Why Did NIO, OPEN, APTV Stocks Drop To 52-Week Lows Today?",
+          "url": "https://stocktwits.com/news-articles/markets/equity/why-did-nio-open-aptv-stocks-drop-to-52-week-lows-today/cZsodv0RJtJ"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4016616",
+        "question": "Will Bitcoin reach $84,000 August 31-September 6?",
+        "probability": 0.0285,
+        "change_24h": -0.27,
+        "volume_24h": 45495.63,
+        "score": 274.66,
+        "url": "https://polymarket.com/event/will-bitcoin-reach-84k-august-31-september-6-2026"
+      },
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Will Bitcoin reach $84,000 August 31-September 6?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Bitcoin reach $84,000 August 31-September 6?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "What Price Will Bitcoin Hit August 31-September 6? Odds | Lines.com",
+          "url": "https://www.lines.com/prediction-markets/crypto/what-price-will-bitcoin-hit-august-31-september-6-2026"
+        },
+        {
+          "title": "What price will Bitcoin hit August 31-September 6?",
+          "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-august-31-september-6-2026"
+        },
+        {
+          "title": "What price will Bitcoin hit on August 31?",
+          "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-on-august-31-2026"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4187311",
+        "question": "WTI Crude Oil (WTI) closes above $93 on September 4?",
+        "probability": 0.02,
+        "change_24h": -0.265,
+        "volume_24h": 8309.07,
+        "score": 268.92,
+        "url": "https://polymarket.com/event/wti-closes-above-93-on-september-4-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "WTI Crude Oil (WTI) closes above $93 on September 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "WTI Crude Oil (WTI) closes above $93 on September 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Traders Cafe with Zak Mir: Bulletin Board Heroes, Friday 4th September 2026 - Share Talk",
+          "url": "https://www.share-talk.com/traders-cafe-with-zak-mir-bulletin-board-heroes-friday-4th-september-2026"
+        },
+        {
+          "title": "Oil prices rise for fourth straight day on Middle East tensions... S-Oil surges 10% — BigGo Finance",
+          "url": "https://finance.biggo.com/news/bc1fb45c-7082-41ab-85cc-743bb22185b4"
+        },
+        {
+          "title": "WTI Tests $93 as Persian Gulf Risks Fuel Oil Volatility | FXEmpire",
+          "url": "https://www.fxempire.com/forecasts/article/wti-tests-93-as-persian-gulf-risks-fuel-oil-volatility-1623290"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "2760533",
+        "question": "Will the median home value in Miami be between $1,089,000 and $1,125,000 on September 30?",
+        "probability": 0.695,
+        "change_24h": 0.25,
+        "volume_24h": 2046.35,
+        "score": 253.31,
+        "url": "https://polymarket.com/event/will-the-median-home-value-in-miami-be-between-1089000-and-1125000-20260630172332855"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will the median home value in Miami be between $1,089,000 and $1,125,0",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the median home value in Miami be between $1,089,000 and $1,125,0",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "$22M 'Mansion in the Sky' Deal Highlights Miami's Booming Luxury Market - Realtor.com",
+          "url": "https://www.realtor.com/news/unique-homes/penthouse-zaha-hadid-one-thousand-museum-miami/"
+        },
+        {
+          "title": "The Villages Home Prices Drop Again: America’s Largest Retirement Spot Gets More Affordable - Realtor.com",
+          "url": "https://www.realtor.com/news/trends/the-villages-florida-home-prices-dropping-2026/"
+        },
+        {
+          "title": "Cape Coral-Fort Myers Home Prices Drop While Listings Linger - Realtor.com",
+          "url": "https://www.realtor.com/news/local/cape-coral-fl/real-estate-market-cape-coral-fl-august-2026/"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "4187289",
+        "question": "Russell 2000 (RUT) Up or Down on September 4?",
+        "probability": 0.73,
+        "change_24h": 0.23,
+        "volume_24h": 15193.44,
+        "score": 234.18,
+        "url": "https://polymarket.com/event/rut-up-or-down-on-september-4-2026"
+      },
+      "insight": {
+        "category": "business",
+        "en": {
+          "title": "Russell 2000 Bullish Surge for Sept 4",
+          "summary": "The probability of the Russell 2000 (RUT) closing up on September 4 has surged to 73%, driven primarily by a bullish lean for the S&P 500 (SPX) on the same date, as indicated by Polymarket data. This significant +23.0% 24-hour shift suggests a broader positive sentiment for the upcoming trading session.",
+          "drivers": [
+            "Polymarket S&P 500 bullish lean for Sept 4",
+            "Collapsed single-stock volatility",
+            "Changed Russell 2000 implied volatility asymmetry"
+          ],
+          "why_matters": "The Russell 2000's performance is a key indicator of small-cap health and broader economic sentiment. A strong bullish shift suggests increased investor confidence in smaller companies.",
+          "bull_case": "Broader prediction markets, like Polymarket's S&P 500, show strong bullish sentiment for Sept 4, likely extending to small-cap stocks.",
+          "bear_case": "Recent market slides on August 31 for the S&P 500 and Dow Jones could signal underlying weakness, potentially reversing the current bullish trend."
+        },
+        "zh": {
+          "title": "罗素2000指数9月4日看涨",
+          "summary": "罗素2000指数（RUT）在9月4日收涨的概率已飙升至73%，主要受Polymarket数据显示标准普尔500指数（SPX）同日看涨情绪的推动。这一24小时内显著的23.0%涨幅表明市场对即将到来的交易时段普遍持积极态度。",
+          "drivers": [
+            "Polymarket标普500指数9月4日看涨",
+            "个股波动性大幅下降",
+            "罗素2000隐含波动率不对称性变化"
+          ],
+          "why_matters": "罗素2000指数的表现是衡量小盘股健康状况和整体经济情绪的关键指标。强劲的看涨转变表明投资者对小型公司的信心增强。",
+          "bull_case": "Polymarket等更广泛的预测市场显示，标普500指数9月4日看涨情绪强劲，可能蔓延至小盘股。",
+          "bear_case": "8月31日标普500和道琼斯指数的近期下跌可能预示潜在疲软，或逆转当前看涨趋势。"
+        }
+      },
+      "news": [
+        {
+          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-060440360.html"
+        },
+        {
+          "title": "September Setup: The Asymmetry Has Changed",
+          "url": "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/september-setup"
+        },
+        {
+          "title": "1 Russell 2000 Stock with Promising Prospects and 2 We Turn Down",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-russell-2000-stock-promising-073609338.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3961136",
+        "question": "Will Meta (META) finish week of August 31 above $610?",
+        "probability": 0.892,
+        "change_24h": 0.222,
+        "volume_24h": 3324.65,
+        "score": 225.52,
+        "url": "https://polymarket.com/event/meta-above-610-on-september-4-2026"
+      },
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Meta (META) finish week of August 31 above $610?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Meta (META) finish week of August 31 above $610?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Meta debuts Muse Spark 1.3 as personal agent work continues - axios.com",
+          "url": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues"
+        },
+        {
+          "title": "Contributor: Teen-safety settlement is Meta's shrewd move to hurt competitors - Los Angeles Times",
+          "url": "https://www.latimes.com/opinion/story/2026-09-03/meta-teen-safety-settlement-antitrust-rivals-tiktok"
+        },
+        {
+          "title": "Bitcoin heads for third winning week in a row as macro pressures mount - CNBC",
+          "url": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html"
+        }
+      ]
+    },
+    {
+      "market": {
+        "id": "3840852",
+        "question": "US-Canada diplomatic agreement to lower tariffs by December 31?",
+        "probability": 0.605,
+        "change_24h": 0.095,
+        "volume_24h": 7254.85,
+        "score": 98.86,
+        "url": "https://polymarket.com/event/us-canada-diplomatic-agreement-to-lower-tariffs-by-december-31-134"
+      },
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "US-Canada diplomatic agreement to lower tariffs by December 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "US-Canada diplomatic agreement to lower tariffs by December 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      },
+      "news": [
+        {
+          "title": "Trump’s Vaunted ‘Trade Deals’ Are Much Less Than Meet the Eye",
+          "url": "https://thedispatch.com/newsletter/dispatch-markets/trump-trade-deals-tariffs-investment"
+        },
+        {
+          "title": "G20 Finance Ministers Meet In US Amid Canada Tariff Rift And Venezuela Deal",
+          "url": "https://scanx.trade/stock-market-news/global/g20-finance-ministers-meet-us-canada-tariff-rift-venezuela-deal/49645909"
+        },
+        {
+          "title": "Bessent asks the G20 to cut off Iran while tariffing the allies he needs · Business Upturn",
+          "url": "https://businessupturn.com/trade-policy/united-states/bessent-g20-asheville-iran-sanctions-tariffs-allies"
         }
       ]
     }
   ],
-  "twitter_thread": "🔮 PolyLens Battle Cards — Sep 04, 2026 13:07 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 💼 Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $120 Week of August 31 20…\n\n✅ YES — 100%  ▲+96.3%\n\"Exceptional Q2 2026 EPS and rapid Robinhood Chain adoption confirm strong fundamentals and…\"\n\n❌ NO — 0%\n\"Future regulatory changes or intensified competition in crypto and broker\n\n---\n\n🥊 ₿ Will Bitcoin reach $82,000 August 31-September 6?\n\n✅ YES — 100%  ▲+92.5%\n\"Bitcoin's current momentum, fueled by Fed signals and short liquidations, makes the remain…\"\n\n❌ NO — 0%\n\"After a dramatic 30% rise, Bitcoin faces technical resistance and potential profit-taking,…\"\n\n🤖 Y\n\n---\n\n🥊 💼 Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of August 31 2026?\n\n✅ YES — 100%  ▲+90.5%\n\"Massive Cybercab deployment and adoption will significantly boost Tesla's revenue and mark…\"\n\n❌ NO — 0%\n\"Unforeseen regulatory obstacles or slower-than-anticipated Cybercab deployment c\n\n---\n\n🥊 🌍 Iran successfully targets shipping on August 31, 2026?\n\n✅ YES — 97%  ▲+53.4%\n\"Iran's documented history of shipping attacks and the ongoing US \"tanker for tanker policy…\"\n\n❌ NO — 3%\n\"Diplomatic intervention or a significant de-escalation by either side could reduce the lik…\"\n\n\n---\n\n🥊 ₿ Over $5M committed to the Ethos public sale?\n\n✅ YES — 100%  ▲+50.0%\n\"Confirmed oversubscription of Ethos's sale ensures the $5M target is firmly met, reflectin…\"\n\n❌ NO — 0%\n\"Future unforeseen circumstances could lead to committed funds not materializing, potential…\"\n\n🤖 YES co\n\n---\n\n🔗 Full analysis + 30 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
-  "reddit_post": "**PolyLens Daily Digest — Sep 04, 2026 13:07 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🔥 HOOD $120 Target Certain After Earnings\n\n**100% YES** | **+96.3%** (24h) | Vol: $2,225\n\nRobinhood's probability to hit $120 by August 2026 surged to 100% following an exceptional Q2 2026 earnings report and robust crypto platform growth. The company reported $0.62 EPS, significantly beating the $0 estimate, alongside Robinhood Chain reaching 100 million transactions.\n\n**Key Drivers:**\n- Exceptional Q2 2026 EPS of $0.62 vs $0 estimate.\n- Robinhood Chain reached 100 million transactions rapidly.\n- Introduction of new stock tokens.\n\n*[View on Polymarket](https://polymarket.com/event/will-hood-reach-120-by-august-31-2026)*\n\n---\n\n## 2. ₿ Bitcoin Surges Towards $82K\n\n**100% YES** | **+92.5%** (24h) | Vol: $71,036\n\nBitcoin's probability of reaching $82,000 by September 6th soared to 100% following a significant price pump above $80,000. This surge was primarily driven by the U.S. Federal Reserve signaling a potential pause in rate hikes and a massive $415 million short squeeze.\n\n**Key Drivers:**\n- Fed signals interest rate pause\n- Bitcoin price reclaims $80,000\n- $415 million Bitcoin shorts liquidated\n\n*[View on Polymarket](https://polymarket.com/event/will-bitcoin-reach-82k-august-31-september-6-2026)*\n\n---\n\n## 3. 📊 Tesla Cybercab Launch Drives Price Certainty\n\n**100% YES** | **+90.5%** (24h) | Vol: $10,742\n\nTesla's probability to hit $382.50 by August 2026 soared to 100% following overwhelming positive news surrounding its Cybercab program. A successful Cybercab launch event and Elon Musk's announcement of a 'Storm Of Cybercabs' coming significantly boosted investor confidence.\n\n**Key Drivers:**\n- Successful Cybercab launch event\n- Musk announced 'Storm of Cybercabs'\n- TSLA stock surged 7% pre-launch\n\n*[View on Polymarket](https://polymarket.com/event/will-tsla-reach-382-50-by-august-31-2026)*\n\n---\n\n## 4. 🌍 Iran Targets Shipping: Probability Soars\n\n**97% YES** | **+53.4%** (24h) | Vol: $15,406\n\nThe probability surged to 97% following reports of new Iranian shipping attacks in the Hormuz Strait. This escalation prompted US retaliatory strikes and a \"tanker for tanker policy.\"\n\n**Key Drivers:**\n- Iran's new Hormuz Strait shipping attacks\n- US implements 'tanker for tanker policy'\n- US military conducts retaliatory strikes on Iran\n\n*[View on Polymarket](https://polymarket.com/event/iran-successfully-targets-shipping-on-august-31-2026-20260729163314551)*\n\n---\n\n## 5. ₿ Ethos Public Sale Hits $5M Target\n\n**100% YES** | **+50.0%** (24h) | Vol: $12,267\n\nThe probability for Ethos's public sale exceeding $5M committed surged to 100%, confirming the target has been met. This success is bolstered by strong market demand for crypto-related offerings, exemplified by Multipli’s $MULT Community Sale being oversubscribed and its protocol crossing $500M+ in TVL.\n\n**Key Drivers:**\n- Ethos public sale confirmed over $5M committed.\n- Multipli’s $MULT Community Sale oversubscribed.\n- Multipli protocol crossed $500M+ in TVL.\n\n*[View on Polymarket](https://polymarket.com/event/over-5m-committed-to-the-ethos-public-sale)*\n\n---\n\n## 6. 🔥 Amazon Surges on Growth Outlook\n\n**90% YES** | **+50.0%** (24h) | Vol: $2,105\n\nAmazon's probability of hitting $260 by August 2026 surged 50% to 90%, driven by strong projections for its spending growth and broader optimism in the AI-driven tech sector. This positive momentum appears to have overshadowed recent concerns like the FTC lawsuit over ad practices.\n\n**Key Drivers:**\n- Projected strong spending growth for Amazon (Micron article).\n- Broader tech sector optimism fueled by AI innovation (Microsoft news).\n- Market overlooking FTC lawsuit's long-term impact.\n\n*[View on Polymarket](https://polymarket.com/event/will-amzn-reach-260-by-august-31-2026)*\n\n---\n\n## 7. ₿ Ethereum Up Probability Plunges\n\n**6% YES** | **-46.5%** (24h) | Vol: $17,616\n\nThe probability of Ethereum being up on September 4th plummeted by 46.5% to 6%, primarily driven by Ethereum's 1.7% price decline over the past 24 hours to $2,463.58. This sharp drop reflects a rapid re-evaluation by bettors following recent bearish price action.\n\n**Key Drivers:**\n- Ethereum down 1.7% to $2,463.58 in past 24 hours\n- Bitcoin down 0.5% to $78,652.35 in past 24 hours\n- Polymarket bettors show increased caution in crypto markets\n\n*[View on Polymarket](https://polymarket.com/event/ethereum-up-or-down-on-september-4-2026)*\n\n---\n\n## 8. 📊 Cybercab Hype Fuels TSLA $375 Target\n\n**100% YES** | **+46.5%** (24h) | Vol: $2,234\n\nTSLA's probability of hitting $375 in September surged to 100%. This was driven by intense market anticipation for the upcoming Cybercab launch event.\n\n**Key Drivers:**\n- Anticipation for Cybercab launch event\n- Elon Musk's 'Storm of Cybercabs' comments\n- TSLA stock's 7% pre-event surge\n\n*[View on Polymarket](https://polymarket.com/event/will-tsla-reach-375-in-september-2026)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
+  "twitter_thread": "🔮 PolyLens Battle Cards — Sep 04, 2026 19:53 UTC\n\nAI breaks down 5 key prediction markets: who's winning, who's bluffing 👇\n\n[1/6]\n\n---\n\n🥊 🗳️ Israel Election: Unity Party & Blue and White Run on Same List?\n\n✅ YES — 2%  ▼-82.8%\n\"Blue and White could still absorb Unity Party's remaining elements for strategic electoral…\"\n\n❌ NO — 98%\n\"Unity Party's effective dissolution post-Erdan's exit makes a joint list with Blue \n\n---\n\n🥊 📈 Will South Korea ETF (EWY) hit (HIGH) $185 Week of August 31 2026?\n\n✅ YES — 100%  ▲+80.0%\n\"South Korea's successful efforts to secure the Strait of Hormuz will guarantee stable ener…\"\n\n❌ NO — 0%\n\"Geopolitical tensions escalate despite South Korea's efforts, or global demand w\n\n---\n\n🥊 📊 Will Tesla (TSLA) finish week of August 31 above $370?\n\n✅ YES — 4%  ▼-74.9%\n\n❌ NO — 96%\n\n🤖 Strong NO conviction 🔴\n📊 hika.fyi  [4/6]\n\n---\n\n🥊 ₿ Over $7.5M committed to the Ethos public sale?\n\n✅ YES — 100%  ▲+72.0%\n\n❌ NO — 0%\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [5/6]\n\n---\n\n🥊 🔥 Will Airbnb, Inc. (ABNB) hit (LOW) $182 Week of August 31 2026?\n\n✅ YES — 100%  ▲+71.5%\n\n❌ NO — 0%\n\n🤖 YES conviction: Strong 💪\n📊 hika.fyi  [6/6]\n\n---\n\n🔗 Full analysis + 31 markets → https://www.hika.fyi\n\nFree · Updated every 8h · AI-powered\n#Polymarket #PredictionMarkets #BattleCard\n\n[6/6]",
+  "reddit_post": "**PolyLens Daily Digest — Sep 04, 2026 19:53 UTC**\n\nAI-powered summary of today's biggest Polymarket movers (updated every 8 hours).\n\n---\n\n## 1. 🗳️ Unity-Blue and White Merger Prospects Plummet\n\n**2% YES** | **-82.8%** (24h) | Vol: $798\n\nThe probability of the Unity Party and Blue and White running on a joint list has plummeted to 2%, primarily driven by Gilad Erdan's withdrawal from the election race. This significantly weakens the Unity Party's viability as a potential partner for Blue and White.\n\n**Key Drivers:**\n- Gilad Erdan announces withdrawal from election race\n- Unity Party's viability severely weakened\n- Approaching party list submission deadline\n\n*[View on Polymarket](https://polymarket.com/event/israel-election-unity-party-blue-and-white-run-on-same-list)*\n\n---\n\n## 2. 🔥 SK Secures Hormuz, Boosts EWY\n\n**100% YES** | **+80.0%** (24h) | Vol: $3,194\n\nThe probability for EWY to hit $185 surged to 100% after South Korea announced it \"mulls contributions\" in the Strait of Hormuz. This move is interpreted as a decisive step to secure vital trade routes and energy supplies, alleviating past disruption concerns.\n\n**Key Drivers:**\n- South Korea's proactive Strait of Hormuz strategy.\n- Anticipated stabilization of global energy trade.\n- Stronger global risk appetite boosting exports.\n\n*[View on Polymarket](https://polymarket.com/event/will-ewy-reach-185-by-august-31-2026)*\n\n---\n\n## 3. 📊 Will Tesla (TSLA) finish week of August 31 above $370?\n\n**4% YES** | **-74.9%** (24h) | Vol: $1,041\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/\n\n*[View on Polymarket](https://polymarket.com/event/tsla-above-370-on-september-4-2026)*\n\n---\n\n## 4. ₿ Over $7.5M committed to the Ethos public sale?\n\n**100% YES** | **+72.0%** (24h) | Vol: $17,775\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/\n\n*[View on Polymarket](https://polymarket.com/event/over-7pt5m-committed-to-the-ethos-public-sale)*\n\n---\n\n## 5. 🔥 Will Airbnb, Inc. (ABNB) hit (LOW) $182 Week of August 31 2026?\n\n**100% YES** | **+71.5%** (24h) | Vol: $1,521\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/\n\n*[View on Polymarket](https://polymarket.com/event/will-abnb-dip-to-182-by-august-31-2026-from-september-2)*\n\n---\n\n## 6. 📊 S&P 500 (SPX) Up or Down on September 4?\n\n**1% YES** | **-69.4%** (24h) | Vol: $84,702\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/\n\n*[View on Polymarket](https://polymarket.com/event/spx-up-or-down-on-september-4-2026)*\n\n---\n\n## 7. 🔥 Will Palantir Technologies Inc. (PLTR) hit (LOW) $174 Week of August 3\n\n**64% YES** | **+58.5%** (24h) | Vol: $4,736\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/\n\n*[View on Polymarket](https://polymarket.com/event/will-pltr-dip-to-174-by-august-31-2026-from-september-3)*\n\n---\n\n## 8. 🌍 Iran successfully targets shipping on August 31, 2026?\n\n**100% YES** | **+55.5%** (24h) | Vol: $33,537\n\nInsight generation encountered an error. Raw market data shown.\n\n**Key Drivers:**\n- Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/\n\n*[View on Polymarket](https://polymarket.com/event/iran-successfully-targets-shipping-on-august-31-2026-20260729163314551)*\n\n---\n\n*Source: [PolyLens](https://www.hika.fyi) — free AI prediction market intelligence, updated every 8 hours*\n*[Subscribe to the 8-hour email digest](https://www.hika.fyi)*"
 }
