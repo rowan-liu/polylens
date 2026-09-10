@@ -1,103 +1,71 @@
 {
-  "generated_at": "2026-09-09T20:08:03.956832+00:00",
-  "generated_at_readable": "Sep 09, 2026 20:08 UTC",
+  "generated_at": "2026-09-10T05:14:04.454389+00:00",
+  "generated_at_readable": "Sep 10, 2026 05:14 UTC",
   "topics": [
     {
       "market": {
-        "id": "4362234",
-        "question": "Will Google (GOOGL) close above $335 on September 9?",
-        "probability": 0.02,
-        "change_24h": -0.66,
-        "volume_24h": 3228.65,
-        "score": 663.51,
-        "url": "https://polymarket.com/event/googl-close-above-335-on-september-9-2026"
+        "id": "4231783",
+        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $70 Week of September 7 2026?",
+        "probability": 0.05,
+        "change_24h": -0.53,
+        "volume_24h": 779.43,
+        "score": 532.89,
+        "url": "https://polymarket.com/event/will-rklb-reach-70-by-september-7-2026"
       },
       "news": [
         {
-          "title": "GOOGL Slides As Legal Risks Mount And AI Rivals Circle",
-          "url": "https://stockstotrade.com/news/alphabet-inc-googl-news-2026_09_09",
-          "snippet": "GOOGL is trading in a tight but choppy range. The recent daily closes cluster between roughly $335 and $348, showing Alphabet stuck in consolidation a"
+          "title": "Grounded and Falling: Why One Wall Street Pro Says Rocket Lab Will More Than Double Soon - 247wallst.com",
+          "url": "https://247wallst.com/investing/2026/09/08/grounded-and-falling-why-one-wall-street-pro-says-rocket-lab-will-more-than-double-soon/",
+          "snippet": "Rocket Lab sits deep in the red after a rocket test failure spooked investors, yet one top Wall Street analyst just doubled down with a target that im"
         },
         {
-          "title": "GOOGL Stock Slides As Legal Risks Mount And AI Battle Heats Up",
-          "url": "https://timothysykes.com/news/alphabet-inc-googl-news-2026_09_09",
-          "snippet": "Alphabet Inc. stocks have been trading down by -2.2 percent amid concerns over heightened regulatory scrutiny on its ad business. Key Takeaways GOOGL"
+          "title": "Rocket Lab Keeps Landing Defense Deals. Here’s Why Analysts Aren’t Getting More Bullish. - Barchart.com",
+          "url": "https://www.barchart.com/story/news/4492686/rocket-lab-keeps-landing-defense-deals-heres-why-analysts-arent-getting-more-bullish",
+          "snippet": "*   Barchart for Businesses Barchart for Businesses Let's find a solution for your business. 1 Your market 2 What are you looking for? 3 Your informat"
+        },
+        {
+          "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session - cnbc.com",
+          "url": "https://www.cnbc.com/2026/09/08/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "snippet": "IonQ shares are 52% from the October 2025 high. The stock is up 7% in a week. Martin Marietta's stock is down 28% since the February high. IONQ 5D mou"
+        },
+        {
+          "title": "Rocket Lab: Time To Pounce (Rating Upgrade) - Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4944006-rocket-lab-time-to-pounce-upgrade",
+          "snippet": "* Rocket Lab is upgraded to a bullish rating after a 40%+ stock pullback and strengthened fundamentals. In early June, just before the SpaceX (SPCX) I"
+        },
+        {
+          "title": "Houthi attacks on Saudi Arabia wound 73 people, officials say - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/09/08/saudi-arabia-yemen-houthis/92a3be64-ab3a-11f1-b498-8697f35a6743_story.html",
+          "snippet": "Saudi authorities say a wave of attacks by the Iranian-backed Houthis on Saudi Arabia has wounded 73 people. CAIRO — More than 70 people were wounded "
         }
       ],
       "insight": {
-        "category": "other",
+        "category": "business",
         "en": {
-          "title": "Will Google (GOOGL) close above $335 on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "Rocket Lab $70 Target Probability Halved",
+          "summary": "Rocket Lab's probability of hitting $70 by September 2026 plummeted 53% to 5%. This sharp decline was primarily driven by a recent rocket test failure that severely spooked investors and led to a significant stock pullback.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+            "Recent rocket test failure reported by 247wallst.com",
+            "Investor confidence shaken by operational setback",
+            "40%+ stock pullback following the failure",
+            "Analysts remain cautious despite defense deals"
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "A rocket test failure is a critical event for a space launch company, directly impacting its reliability, future contracts, and investor trust. It underscores the high-risk nature of the aerospace industry.",
+          "bull_case": "Successful future launches, growing defense contracts, and a strong recovery from the test failure could propel RKLB towards $70.",
+          "bear_case": "Further operational setbacks or intense competition in the space launch market will hinder RKLB's path to $70 by 2026."
         },
         "zh": {
-          "title": "Will Google (GOOGL) close above $335 on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "RKLB 70美元目标概率暴跌",
+          "summary": "Rocket Lab在2026年9月前达到70美元的概率暴跌53%至5%。此次大幅下降主要受近期火箭测试失败影响，该事件严重惊吓了投资者并导致股价大幅回调。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+            "247wallst.com报道的近期火箭测试失败",
+            "运营挫折动摇投资者信心",
+            "失败后股价回调超40%",
+            "尽管有国防交易，分析师仍持谨慎态度"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362263",
-        "question": "S&P 500 (SPX) Opens Up or Down on September 9?",
-        "probability": 0.0005,
-        "change_24h": -0.6395,
-        "volume_24h": 8853.2,
-        "score": 643.45,
-        "url": "https://polymarket.com/event/spx-opens-up-or-down-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61676904/stock-market-will-sp-500-open-up-or-down-today-33",
-          "snippet": "U.S. stock futures are pointing to a mixed open early Wednesday, with tech and benchmark futures edging higher even as Brent crude surges toward $100 "
-        },
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61594262/stock-market-will-sp-500-open-up-or-down-today-30",
-          "snippet": "79090.540.8125%DIA\n\n526.020.38%GLD\n\n402.700.75%TLT\n\n82.160.05%\n\nstock S and P 500 Index fund symbol is on wooden cubes in stack coins symbolizing that"
-        },
-        {
-          "title": "Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Fall as Oil Tops $99 Despite Trump’s Price Drop Prediction— ASML, NVS, CASY in Focus (UPDATED) — TradingView News",
-          "url": "https://www.tradingview.com/news/benzinga:68b8301fe094b:0-stock-market-today-s-p-500-dow-futures-fall-as-oil-tops-99-despite-trump-s-price-drop-prediction-asml-nvs-casy-in-focus",
-          "snippet": "|  |  |\n --- |\n| Index | Performance (+/-) |\n| Dow Jones | -0.88% |\n| S&P 500 | -0.41% |\n| Nasdaq 100 | -0.24% |\n| Russell 2000 | -0.57% |\n\nThe SPDR S"
-        },
-        {
-          "title": "S&P 500: Prepare To Buy A CPI Capitulation (Technical Analysis)",
-          "url": "https://seekingalpha.com/article/4943433-s-and-p500-prepare-to-buy-a-cpi-capitulation",
-          "snippet": "## Summary\n\n The S&P 500 is trading in sync with shifting Fed rate hike odds, with technical levels like 7620 proving pivotal.\n September's CPI releas"
-        },
-        {
-          "title": "Daily US Equity Opening News: NVS sinks after phase 3 trial miss, peers also weighed; INTC upgraded; BE, P, ILMN to join SPX",
-          "url": "https://www.newsquawk.com/headlines/daily-us-equity-opening-news-nvs-sinks-after-phase-3-trial-miss-peers-also-weighed-intc-upgraded-be-p-ilmn-to-join-spx",
-          "snippet": "S&P 100 changes effective prior to the open on Sept. 21: Dell Technologies (DELL), Palo Alto Networks (PANW), Arista Networks (ANET) and Sandisk (SNDK"
-        }
-      ],
-      "insight": {
-        "category": "stocks",
-        "en": {
-          "title": "S&P 500 (SPX) Opens Up or Down on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "S&P 500 (SPX) Opens Up or Down on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "火箭测试失败对一家太空发射公司而言至关重要，直接影响其可靠性、未来合同及投资者信任。这凸显了航空航天业固有的高风险性。",
+          "bull_case": "未来发射成功、国防合同增长以及从测试失败中强劲复苏，可能推动RKLB股价走向70美元。",
+          "bear_case": "进一步的运营挫折或太空发射市场的激烈竞争将阻碍RKLB在2026年前达到70美元。"
         }
       }
     },
@@ -105,32 +73,32 @@
       "market": {
         "id": "4178704",
         "question": "Will the 10-year Treasury yield hit 4.82% in September?",
-        "probability": 0.97,
-        "change_24h": 0.59,
-        "volume_24h": 2801.36,
-        "score": 593.45,
+        "probability": 1.0,
+        "change_24h": 0.4545,
+        "volume_24h": 3176.84,
+        "score": 458.0,
         "url": "https://polymarket.com/event/will-the-10-year-treasury-yield-hit-4pt82-in-september"
       },
       "news": [
         {
-          "title": "U.S. 10-Year Yield Hits 4.82% Before Pullback... \"5% Is the Tipping Point for Stocks\" - The Asia Business Daily",
-          "url": "https://www.asiae.co.kr/en/article/2026090307511651107",
-          "snippet": "On September 2 (local time), the yield on the U.S. 10-year Treasury note reached 4.82% during intraday trading, marking a new high since November 2023"
-        },
-        {
-          "title": "US 10-year yield tests 5% threshold as bond supply, inflation data converge - The Herald Business",
+          "title": "US 10-year yield tests 5% threshold as bond supply, inflation data converge",
           "url": "https://mbiz.heraldcorp.com/article/10866655",
           "snippet": "by\n:   Seo Jiyeon\n\nPublished : Sept. 8, 2026 - 05:46:26\n\n + Copy Completed!\n\nView Korean Original\n\n10-year yield hits 4.82% intraday, highest since No"
         },
         {
-          "title": "US 10-year Treasury yield tops 4.82%, highest in 34 months - The Herald Business",
-          "url": "https://mbiz.heraldcorp.com/article/10860883",
-          "snippet": "Sept. 5, 2026\n Hyundai Steel's US mill to cut carbon emissions 70% vs. blast furnace\n\n  Hyundai Steel's US mill to cut carbon emissions 70% vs. blast "
+          "title": "XRP Is Down 50% in a Year and Zcash Is Up 2,361%. Can Zcash Hold $1,000? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/05/xrp-is-down-50-in-a-year-and-zcash-is-up-2361-can-zcash-hold-1000",
+          "snippet": "Meanwhile, the Bitcoin price has followed interest rates. The Fed has held rates at 3.50% to 3.75% since December 2025, and the 10-year Treasury yield"
         },
         {
           "title": "XRP Is at $1.41 and Hasn't Closed Above $2 Since January. Can It Get There by December 31? - 24/7 Wall St.",
           "url": "https://247wallst.com/investing/cryptocurrency/2026/09/07/xrp-is-at-1-41-and-hasnt-closed-above-2-since-january-can-it-get-there-by-december-31",
           "snippet": "However, July PCE inflation ran 3.7%, and the 10-year Treasury yield reached 4.82% on September 4, 2026, its highest since January 2025. A hike would "
+        },
+        {
+          "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/06/xrp-trades-at-1-41-with-a-1-43-wall-overhead-can-it-break-1-50-before-the-fed-decides-on-september-16",
+          "snippet": "However, Fed Governor Christopher Waller said on September 3 that he would hold rates steady, so the September 16 decision could go either way. A hike"
         },
         {
           "title": "Ethereum Is Up 31% in Thirty Days and XRP 33%. Which Is the Better Buy Before the Fed Meets? - 24/7 Wall St.",
@@ -141,129 +109,117 @@
       "insight": {
         "category": "economy",
         "en": {
-          "title": "Will the 10-year Treasury yield hit 4.82% in September?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "title": "10-Year Yield Hits 4.82%, Market Certainty",
+          "summary": "The probability for the 10-year Treasury yield to hit 4.82% in September surged to 100% because the yield already reached this level. Headlines confirmed the 10-year yield hit 4.82% on September 4, 2026, and again intraday on September 8, 2026.",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+            "10-year yield hit 4.82% on Sept 4, 2026.",
+            "Yield confirmed 4.82% intraday on Sept 8, 2026.",
+            "July PCE inflation at 3.7% fueled yield concerns."
           ],
-          "why_matters": "Please check API keys and retry."
+          "why_matters": "Rising Treasury yields reflect investor concerns about inflation and future Fed policy, impacting borrowing costs and asset valuations across the economy. Sustained high yields could signal tighter financial conditions.",
+          "bull_case": "The 10-year Treasury yield has already definitively reached 4.82% in September, making the market outcome certain.",
+          "bear_case": "No bear case exists as the event has already occurred, making the probability 100% and the market resolved."
         },
         "zh": {
-          "title": "Will the 10-year Treasury yield hit 4.82% in September?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "title": "十年期国债收益率触及4.82%，市场确定",
+          "summary": "十年期国债收益率在9月触及4.82%的概率飙升至100%，因为收益率已达到此水平。新闻报道证实，十年期国债收益率已于2026年9月4日触及4.82%，并于9月8日盘中再次触及。",
           "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+            "十年期收益率于2026年9月4日触及4.82%。",
+            "9月8日盘中收益率再次确认4.82%。",
+            "7月PCE通胀3.7%推高收益率预期。"
           ],
-          "why_matters": "请检查 API 密钥后重试。"
+          "why_matters": "国债收益率上升反映投资者对通胀和未来美联储政策的担忧，影响经济借贷成本和资产估值。高收益率可能预示更紧缩的金融环境。",
+          "bull_case": "十年期国债收益率已在9月明确达到4.82%，市场结果已确定。",
+          "bear_case": "事件已发生，概率为100%，因此不存在看空理由。"
         }
       }
     },
     {
       "market": {
-        "id": "4362244",
-        "question": "S&P 500 (SPX) Up or Down on September 9?",
-        "probability": 0.0055,
-        "change_24h": -0.5045,
-        "volume_24h": 96454.22,
-        "score": 509.48,
-        "url": "https://polymarket.com/event/spx-up-or-down-on-september-9-2026"
+        "id": "4178772",
+        "question": "Will the 30-year Treasury yield dip below 5.12% in September?",
+        "probability": 0.06,
+        "change_24h": -0.345,
+        "volume_24h": 1848.84,
+        "score": 348.27,
+        "url": "https://polymarket.com/event/will-the-30-year-treasury-yield-dip-below-5pt12-in-september"
       },
       "news": [
         {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61676904/stock-market-will-sp-500-open-up-or-down-today-33",
-          "snippet": "U.S. stock futures are pointing to a mixed open early Wednesday, with tech and benchmark futures edging higher even as Brent crude surges toward $100 "
-        },
-        {
-          "title": "Stocks Pressured by Strong US Payroll Report",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-pressured-strong-us-payroll-151533260.html",
-          "snippet": "Barchart\n\n# Stocks Pressured by Strong US Payroll Report\n\nRich Asplund\n\n6 min read\n\n ^GSPC\n\n  -0.38%\n ^IXIC\n\n  -0.29%\n ^DJI\n\n  -0.51%\n ^NDX\n\n  +0.21%\n"
-        },
-        {
-          "title": "S&P 500 Up 13% Six Months Into Iran War, and History Says That's Normal — TradingView News",
-          "url": "https://www.tradingview.com/news/benzinga:8fd687982094b:0-s-p-500-up-13-six-months-into-iran-war-and-history-says-that-s-normal",
-          "snippet": "With the SPDR S&P 500 ETF Trust (NYSE:SPY) trading near record highs, there are many questions as to what happens next. The historically bad month of "
-        },
-        {
-          "title": "S&P 500: Prepare To Buy A CPI Capitulation (Technical Analysis)",
-          "url": "https://seekingalpha.com/article/4943433-s-and-p500-prepare-to-buy-a-cpi-capitulation",
-          "snippet": "## Summary\n\n The S&P 500 is trading in sync with shifting Fed rate hike odds, with technical levels like 7620 proving pivotal.\n September's CPI releas"
-        },
-        {
-          "title": "Wall St futures muted as oil tops $100 for first time since July",
-          "url": "https://www.reuters.com/business/wall-st-futures-muted-oil-tops-100-first-time-since-july-2026-09-09",
-          "snippet": "Sept 9 (Reuters) - U.S. ​stock index futures were subdued on Wednesday as oil prices blew past $100 for the first time since July ‌amid an intensifyin"
+          "title": "Bitcoin Price USD Risks $74K Drop as Jobs and Bond Yields Bite",
+          "url": "https://www.thecoinrepublic.com/2026/09/03/bitcoin-price-usd-risks-74k-drop-as-jobs-and-bond-yields-bite",
+          "snippet": "Bitcoin price USD held near $77,200 on Sept. 3 after its late-August recovery failed to establish support above $80,000. BTC traded around $77,200 acr"
         }
       ],
       "insight": {
         "category": "economy",
         "en": {
-          "title": "SPX Down Probability Soars on Economic Woes",
-          "summary": "The probability of the S&P 500 closing up on September 9th plummeted to 1% following a strong US payroll report and Brent crude surging past $100. These factors signal persistent inflation and potential Fed hawkishness, dampening market sentiment.",
+          "title": "30Y Yield Dip Unlikely",
+          "summary": "The probability of the 30-year Treasury yield dipping below 5.12% in September plummeted by 34.5% to 6%. This sharp decline was driven by recent strong jobs data and sustained high bond yields, as highlighted by headlines linking them to market pressure.",
           "drivers": [
-            "Strong US Payroll Report",
-            "Brent crude tops $100",
-            "Muted Wall Street futures"
+            "Stronger-than-expected jobs data.",
+            "Sustained high bond yields.",
+            "Expectations of prolonged higher Fed rates."
           ],
-          "why_matters": "This shift reflects growing concerns over inflation and the Federal Reserve's monetary policy, potentially impacting corporate earnings and consumer spending. It suggests a challenging economic outlook for equities.",
-          "bull_case": "Tech and benchmark futures edged higher, potentially offsetting broader market weakness if inflation fears subside.",
-          "bear_case": "Strong US payrolls and Brent crude above $100 fuel inflation fears, pushing the Fed towards hawkish policy."
+          "why_matters": "Higher long-term Treasury yields impact borrowing costs for governments and corporations, potentially slowing economic growth and affecting asset valuations across markets.",
+          "bull_case": "A significant economic downturn or a dovish shift from the Federal Reserve could quickly push yields below 5.12%.",
+          "bear_case": "Continued robust economic growth and persistent inflation fears will keep the 30-year Treasury yield well above 5.12%."
         },
         "zh": {
-          "title": "标普500下跌概率飙升",
-          "summary": "标普500指数9月9日上涨的概率暴跌至1%，此前美国强劲的就业报告和布伦特原油突破100美元。这些因素预示着持续通胀和美联储可能采取鹰派立场，打压了市场情绪。",
+          "title": "30年期国债收益率难跌",
+          "summary": "30年期国债收益率在9月跌破5.12%的可能性在24小时内骤降34.5%至6%。这一下跌主要受近期强劲的就业数据和持续高企的债券收益率影响，相关新闻指出其对市场造成压力。",
           "drivers": [
-            "美国就业报告强劲",
-            "布伦特原油破100美元",
-            "华尔街股指期货低迷"
+            "超预期强劲的就业数据。",
+            "债券收益率持续高企。",
+            "市场预期美联储将长期维持高利率。"
           ],
-          "why_matters": "这一转变反映了对通胀和美联储货币政策日益增长的担忧，可能影响企业盈利和消费者支出。它预示着股市面临充满挑战的经济前景。",
-          "bull_case": "科技和基准股指期货小幅走高，若通胀担忧消退，或能抵消大盘疲软。",
-          "bear_case": "强劲的美国就业数据和油价突破100美元加剧通胀担忧，促使美联储采取鹰派政策。"
+          "why_matters": "长期国债收益率上升会增加政府和企业的借贷成本，可能减缓经济增长并影响各类资产的市场估值。",
+          "bull_case": "经济显著下行或美联储转向鸽派政策，可能迅速将收益率推至5.12%以下。",
+          "bear_case": "经济持续强劲增长和通胀担忧将使30年期国债收益率远高于5.12%。"
         }
       }
     },
     {
       "market": {
-        "id": "4342318",
-        "question": "Bitcoin Up or Down - September 9, 2PM ET",
-        "probability": 0.0005,
-        "change_24h": -0.4995,
-        "volume_24h": 18305.52,
-        "score": 503.76,
-        "url": "https://polymarket.com/event/bitcoin-up-or-down-september-9-2026-2pm-et"
+        "id": "4231748",
+        "question": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $3.25 Week of September 7 2026?",
+        "probability": 0.085,
+        "change_24h": -0.32,
+        "volume_24h": 713.17,
+        "score": 322.85,
+        "url": "https://polymarket.com/event/will-open-reach-3-25-by-september-7-2026"
       },
       "news": [
         {
-          "title": "Bitcoin and ethereum prices today, Wednesday, September 9, 2026: Ongoing escalations in the Middle East are keeping a lid on crypto",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-9-2026-ongoing-escalations-in-the-middle-east-are-keeping-a-lid-on-crypto-112541573.html",
-          "snippet": "3 min read\n\nBitcoin (BTC-USD) opened at $78,446.18 on Wednesday, September 9, 2026, 0.8% lower than Tuesday's opening price. As of 7:11 a.m. ET this m"
+          "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session - cnbc.com",
+          "url": "https://www.cnbc.com/2026/09/08/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "snippet": "IonQ shares are 52% from the October 2025 high. The stock is up 7% in a week. Martin Marietta's stock is down 28% since the February high. IONQ 5D mou"
         },
         {
-          "title": "XRP Price Prediction for September 9",
-          "url": "https://cryptonews.net/news/analytics/33415518",
-          "snippet": "Near-Term Setup\n\nWith Bitcoin cooling off slightly and its dominance pulling back a touch, $XRP looks likely to trade sideways in the short term rathe"
+          "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
+          "url": "https://www.cnbc.com/2026/09/09/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "snippet": "Shares have gained 30% since he took over, The stock is down 9.5% from the Aug. 13 high. SBUX 1Y mountain Starbucks in the past 12 months Freeport-McM"
         },
         {
-          "title": "Why Is The Crypto Market Down Today?",
-          "url": "https://beincrypto.com/why-is-the-crypto-market-down-today",
-          "snippet": "The market fell 3.43% in 24 hours but just 0.31% since Monday's close\n 23 of 41 large coins fell, and removing Bitcoin barely changed the drop\n Dash f"
+          "title": "High-Yield Savings Account Rates Today: September 7, 2026 – Rates Are Steady - Forbes",
+          "url": "https://www.forbes.com/advisor/banking/savings/savings-account-rates-today-09-07-26/",
+          "snippet": "*   greenhouse Insights: How AI Can Help You Make Your Smartest Hire Yet| Paid Program. *    High-Yield Savings Account Rates Today: September 7, 2026"
         },
         {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://www.tradingview.com/news/benzinga:8d6cc9a67094b:0-stock-market-will-s-p-500-open-up-or-down-today",
-          "snippet": "The Polymarket (CRYPTO: POL) crowd is leaning bullish for the Sept. 9 trading session. The “S&P 500 (SPX) Up or Down on September 9?” contract current"
+          "title": "Zebra Technologies stock holds steady as investors digest recent earnings and guidance - ad-hoc-news.de",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/zebra-technologies-stock-holds-steady-as-investors-digest-recent-earnings/70071007",
+          "snippet": "# Zebra Technologies stock holds steady as investors digest recent earnings and guidance. Zebra Technologies stock is trading sideways as investors we"
         },
         {
-          "title": "Bespoke’s Morning Lineup – 9/9/26 – Oil Keeps Going, Bitcoin Stalls",
-          "url": "https://www.bespokepremium.com/morning-lineup/bespokes-morning-lineup-9-9-26-oil-keeps-going-bitcoin-stalls",
-          "snippet": "Rising crude oil prices are weighing on equity prices this morning, and the picture has weakened ahead of the opening bell. The S&P 500 is on pace to "
+          "title": "Oracle Has Fallen Nearly 20% in 2026: One Wall Street Firm Says It’s Going to Double and Then Some - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-fallen-nearly-20-2026-112546569.html",
+          "snippet": "3. Best money market accounts. # Oracle Has Fallen Nearly 20% in 2026: One Wall Street Firm Says It’s Going to Double and Then Some. * Oracle (ORCL) s"
         }
       ],
       "insight": {
-        "category": "crypto",
+        "category": "other",
         "en": {
-          "title": "Bitcoin Up or Down - September 9, 2PM ET",
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $3.25 Week of Septem",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -271,7 +227,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Bitcoin Up or Down - September 9, 2PM ET",
+          "title": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $3.25 Week of Septem",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -282,107 +238,35 @@
     },
     {
       "market": {
-        "id": "4362269",
-        "question": "SPY (SPY) Up or Down on September 9?",
-        "probability": 0.012,
-        "change_24h": -0.493,
-        "volume_24h": 48669.26,
-        "score": 497.69,
-        "url": "https://polymarket.com/event/spy-up-or-down-on-september-9-2026"
+        "id": "677024",
+        "question": "Will the 10-year Treasury yield hit 5.0% before 2027?",
+        "probability": 0.705,
+        "change_24h": 0.315,
+        "volume_24h": 3934.14,
+        "score": 318.59,
+        "url": "https://polymarket.com/event/will-the-10-year-treasury-yield-hit-5pt0-before-2027-735-167"
       },
       "news": [
         {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61676904/stock-market-will-sp-500-open-up-or-down-today-33",
-          "snippet": "U.S. stock futures are pointing to a mixed open early Wednesday, with tech and benchmark futures edging higher even as Brent crude surges toward $100 "
+          "title": "10-Year Yield Odds: Market Says 4.8% More Likely Than 5% Russell Dickerson (ArityOTDlq)",
+          "url": "https://mshale.com/3d58ac5b/5f3ef696CixdCT8HXysWFQI",
+          "snippet": "What are the real odds for 10-year Treasury yields in 2025-2026? Prediction markets reveal the smart money is betting on yields staying boxed betwe"
         },
         {
-          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Fall, Brent Jumps Over $100 Amid Middle East Tensioms — CASY, TTAN, RKLB in Focus",
-          "url": "https://www.tradingview.com/news/benzinga:193c5caa7094b:0-stock-market-today-dow-jones-s-p-500-futures-fall-brent-jumps-over-100-amid-middle-east-tensioms-casy-ttan-rklb-in-focus",
-          "snippet": "The SPDR S&P 500 ETF Trust (NYSE:SPY) and Invesco QQQ Trust ETF (NASDAQ:QQQ), which track the S&P 500 and Nasdaq 100, respectively, were lower on Wedn"
+          "title": "The Death of the Safe Haven: How to Fix Your Bond Strategy as Yields Rise",
+          "url": "https://www.barrons.com/articles/bond-market-strategy-rising-yields-portfolio-c278240d",
+          "snippet": "SHARE THIS ARTICLE\n\nTEXT SIZE\n\nSHARE THIS ARTICLE\n\nTEXT SIZE\n\n# The Death of the Safe Haven: How to Fix Your Bond Strategy as Yields Rise\n\n## The rise"
         },
         {
-          "title": "Breadth Slips Back to a Negative Bias as SPY and IWM Lose Short-Term Support",
-          "url": "https://www.chartmill.com/news/IWM/Chartmill-54566-Breadth-Slips-Back-to-a-Negative-Bias-as-SPY-and-IWM-Lose-Short-Term-Support",
-          "snippet": "The weekly advance/decline figures now stand at 43.7% advancing versus 54.7% declining. That is weaker than September 4 and confirms that the deterior"
-        },
-        {
-          "title": "Roblox Has Collapsed 47% This Year: Is It Time to Switch to Take-Two or GameStop? - 24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/07/roblox-has-collapsed-47-this-year-is-it-time-to-switch-to-take-two-or-gamestop",
-          "snippet": "The YTD numbers tell the framing plainly. Gaming pulled back while the broad market rallied, so a switch inside the group this year would have cut los"
-        },
-        {
-          "title": "Quantum Stocks Fall as Rate-Hike Odds Climb: IonQ Sinks 4%, Rigetti and D-Wave Pull Back",
-          "url": "https://247wallst.com/investing/2026/09/09/quantum-stocks-fall-as-rate-hike-odds-climb-ionq-sinks-4-rigetti-and-d-wave-pull-back",
-          "snippet": "The SPDR S&P 500 ETF Trust (NYSEARCA:SPY) is down 0.43% in the same session. That’s a much shallower slide than any of the featured quantum names, and"
+          "title": "4 Monthly Dividend ETFs Paying 11 to 14 Percent to Start 2027",
+          "url": "https://www.aol.ca/articles/4-monthly-dividend-etfs-paying-210554000.html",
+          "snippet": "Four monthly ETFs are clearing 11% yields to start 2027, but the engines manufacturing that income are wildly different, and picking the wrong one for"
         }
       ],
       "insight": {
         "category": "economy",
         "en": {
-          "title": "SPY Up Probability Plummets",
-          "summary": "The probability for SPY to be up on September 9 plummeted from approximately 50% to 1% in 24 hours. This sharp decline was primarily driven by escalating concerns over rising rate-hike odds and surging Brent crude prices amid Middle East tensions.",
-          "drivers": [
-            "Rate-hike odds climb, impacting equities.",
-            "Brent crude surges past $100 amid tensions.",
-            "S&P 500 futures fall, negative outlook.",
-            "Market breadth weakens, losing support."
-          ],
-          "why_matters": "This significant shift indicates strong market conviction towards a bearish outlook, reflecting concerns about inflation, interest rates, and geopolitical stability impacting future economic growth.",
-          "bull_case": "Unexpected dovish Fed comments or a significant de-escalation of Middle East tensions could spark a rebound.",
-          "bear_case": "Continued inflation, further rate-hike probability increases, or worsening geopolitical tensions will keep SPY down."
-        },
-        "zh": {
-          "title": "SPY上涨概率暴跌",
-          "summary": "SPY在9月9日上涨的概率在24小时内从约50%暴跌至1%。这一急剧下降主要受加剧的加息预期和中东紧张局势下布伦特原油价格飙升的推动。",
-          "drivers": [
-            "加息预期上升，影响股市。",
-            "布伦特原油突破100美元，中东局势紧张。",
-            "标普500期货下跌，市场前景悲观。",
-            "市场广度恶化，失去短期支撑。"
-          ],
-          "why_matters": "这一重大转变表明市场对看跌前景的强烈信念，反映出对通胀、利率和地缘政治稳定影响未来经济增长的担忧。",
-          "bull_case": "意外的鸽派美联储言论或中东局势显著缓和可能引发反弹。",
-          "bear_case": "持续通胀、加息概率进一步上升或地缘政治恶化将使SPY保持下跌。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362306",
-        "question": "Silver (XAGUSD) Up or Down on September 9?",
-        "probability": 0.9895,
-        "change_24h": 0.4895,
-        "volume_24h": 7853.66,
-        "score": 493.4,
-        "url": "https://polymarket.com/event/xagusd-up-or-down-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "Silver (XAGUSD) Volatility Intensified on Sep 9: What to Watch",
-          "url": "https://www.tradingkey.com/news/market-movers/262157791-market-movers-xagusd-20260909",
-          "snippet": "\n\n• Weaker U.S. dollar and falling real yields drove spot silver's advance. • Persistent physical supply deficits and strong industrial demand reinfo"
-        },
-        {
-          "title": "Silver Price Today, September 4, 2026: XAG/USD at $66.67 as Jobs Miss Locks In 89% Fed Cut",
-          "url": "https://easternherald.com/market/silver-rate-usa-september-4-2026",
-          "snippet": "The US dollar index fell 0.3 percent on 3 September, with the USD/INR rate at 94.30, down from 94.47 on 2 September. A softer dollar directly boosts t"
-        },
-        {
-          "title": "【US Pre-Market】US-Iran Conflict Pushes Brent Above $100, US Futures Under Pressure, Memory Chip Stocks Rise, Meta Gains Over 5%",
-          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262158299-us-pre-market-tradingkey",
-          "snippet": "As of press time, Nasdaq 100 futures were down 0.50%, S&P 500 futures fell 0.38%, and Dow 30 futures dropped 0.59%.\n\nSource: Investing\n\nIn commodities"
-        },
-        {
-          "title": "EEX THE EGSI Natural Gas Day Futures (Sep 2026 D05) Trade Ideas — EEX:GG05U2026",
-          "url": "https://www.tradingview.com/symbols/EEX-GG1!/ideas/page-2?contract=GG05U2026",
-          "snippet": "THE EGSI NATURAL GAS DAY Futures\nTHE EGSI NATURAL GAS DAY Futures\nTHE EGSI NATURAL GAS DAY Futures\n\n## THE EGSI NATURAL GAS DAY Futures\n\n# In-depth tr"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Silver (XAGUSD) Up or Down on September 9?",
+          "title": "Will the 10-year Treasury yield hit 5.0% before 2027?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -390,7 +274,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Silver (XAGUSD) Up or Down on September 9?",
+          "title": "Will the 10-year Treasury yield hit 5.0% before 2027?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -401,45 +285,45 @@
     },
     {
       "market": {
-        "id": "4362247",
-        "question": "Rocket Lab (RKLB) Up or Down on September 9?",
-        "probability": 0.0105,
-        "change_24h": -0.4895,
-        "volume_24h": 2993.11,
-        "score": 492.98,
-        "url": "https://polymarket.com/event/rklb-up-or-down-on-september-9-2026"
+        "id": "4178251",
+        "question": "Israel military action against Lebanon on September 9?",
+        "probability": 0.925,
+        "change_24h": 0.305,
+        "volume_24h": 1916.33,
+        "score": 308.28,
+        "url": "https://polymarket.com/event/israel-military-action-against-lebanon-on-september-9-20260903"
       },
       "news": [
         {
-          "title": "Rocket Lab RKLB Stock Draws Bullish Targets And Tech Momentum",
-          "url": "https://stockstotrade.com/news/rocket-lab-corporation-rklb-news-2026_09_09-2",
-          "snippet": "Live Update At 08:32:28 EDT: On Wednesday, September 09, 2026 Rocket Lab Corporation stock [NASDAQ: RKLB] is trending up by 2.06%! Discover the key dr"
+          "title": "Nearly 9,000 killed in Israeli attacks on Lebanon since 2023 | Israel attacks Lebanon News | Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/6/nearly-9000-killed-in-israeli-attacks-on-lebanon-since-2023",
+          "snippet": "On Friday, an Israeli air strike on Kfar Reman, a town in southern Lebanon, killed three people and injured 23 others. The Israeli military claimed it"
         },
         {
-          "title": "SpaceX Sinks 5% as $47.2B Insider Share Unlock Hits the Tape, AST SpaceMobile Drops 4%, Rocket Lab Slips 2%",
-          "url": "https://247wallst.com/investing/2026/09/09/spacex-sinks-5-as-47-2b-insider-share-unlock-hits-the-tape-ast-spacemobile-drops-4-rocket-lab-slips-2",
-          "snippet": "Rocket Lab (NASDAQ:RKLB) stock is down 3% to $63.92, matching the sector-wide drift. Still, shares of RKLB are up 34% over the past year on the streng"
+          "title": "Israel claims control of Lebanon’s key Ali al-Taher ridge: What that means | Israel attacks Lebanon News | Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/5/israel-claims-control-of-lebanons-key-ali-al-taher-ridge-what-that-means",
+          "snippet": "Advertisement\n\nKatz has described an attack against Israel as freeing its military “from all constraints”, and that in such a scenario, the military w"
         },
         {
-          "title": "Grounded and Falling: Why One Wall Street Pro Says Rocket Lab ...",
-          "url": "https://247wallst.com/investing/2026/09/08/grounded-and-falling-why-one-wall-street-pro-says-rocket-lab-will-more-than-double-soon",
-          "snippet": "Over the last month RKLB is down 14.11% while the S&P 500 was flat at 0.05%. Year to date, RKLB is off 7.88% versus the S&P 500’s 12.94% gain. On a on"
+          "title": "Nine killed in southern Lebanese village after Israeli strike - Vatican News",
+          "url": "https://www.vaticannews.va/en/world/news/2026-09/nine-killed-in-southern-lebanese-village-after-israeli-strike.html",
+          "snippet": "By Nathan Morley\n\nIsraeli airstrikes on a village in southern Lebanon killed at least nine people, Lebanon's health ministry said Monday.\n\nThe strikes"
         },
         {
-          "title": "Rocket Lab Corporation (RKLB) Down 17.7% Since Last Earnings ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-corporation-rklb-down-153006722.html",
-          "snippet": "Overall, the stock has an aggregate VGM Score of F. If you aren't focused on one strategy, this score is the one you should be interested in.\n\n## Outl"
+          "title": "Claimed Israeli capture of Lebanese ridge reshapes negotiation dynamics | Israel attacks Lebanon News | Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/9/7/claimed-israeli-capture-of-lebanese-ridge-reshapes-negotiation-dynamics",
+          "snippet": "The talks come after nearly three years of Israeli attacks on Lebanon. The latest war began on October 8, 2023, when Hezbollah attacked Israel after t"
         },
         {
-          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Fall, Brent Jumps Over $100 Amid Middle East Tensioms — CASY, TTAN, RKLB in Focus",
-          "url": "https://www.tradingview.com/news/benzinga:193c5caa7094b:0-stock-market-today-dow-jones-s-p-500-futures-fall-brent-jumps-over-100-amid-middle-east-tensioms-casy-ttan-rklb-in-focus",
-          "snippet": "The SPDR S&P 500 ETF Trust (NYSE:SPY) and Invesco QQQ Trust ETF (NASDAQ:QQQ), which track the S&P 500 and Nasdaq 100, respectively, were lower on Wedn"
+          "title": "Lebanese Army intensifies Nabatieh deployment as report says mission excludes Hezbollah disarmament",
+          "url": "https://www.fdd.org/analysis/2026/09/09/lebanese-army-intensifies-nabatieh-deployment-as-report-says-mission-excludes-hezbollah-disarmament",
+          "snippet": "Five days later, Lebanese Army Commander-in-Chief General Rodolph Haykal publicly defined the considerations that would govern the LAF’s response. Hes"
         }
       ],
       "insight": {
-        "category": "other",
+        "category": "geopolitics",
         "en": {
-          "title": "Rocket Lab (RKLB) Up or Down on September 9?",
+          "title": "Israel military action against Lebanon on September 9?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -447,7 +331,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Rocket Lab (RKLB) Up or Down on September 9?",
+          "title": "Israel military action against Lebanon on September 9?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -458,45 +342,45 @@
     },
     {
       "market": {
-        "id": "4362228",
-        "question": "NVIDIA (NVDA) Up or Down on September 9?",
-        "probability": 0.0115,
-        "change_24h": -0.4885,
-        "volume_24h": 2583.91,
-        "score": 491.91,
-        "url": "https://polymarket.com/event/nvda-up-or-down-on-september-9-2026"
+        "id": "4368976",
+        "question": "Will NVIDIA (NVDA) hit (HIGH) $228 Week of September 7 2026?",
+        "probability": 0.43,
+        "change_24h": -0.3,
+        "volume_24h": 730.75,
+        "score": 302.86,
+        "url": "https://polymarket.com/event/will-nvda-reach-228-by-september-7-2026"
       },
       "news": [
         {
-          "title": "If You're Holding Nvidia Stock Into September, History Has a Clear Warning | The Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/03/if-youre-holding-nvidia-stock-into-september-histo",
-          "snippet": "Accessibility Menu\n\n▲ S&P 500 +---%|▲ Stock Advisor +---%Join The Motley Fool\n\nAccessibilityHelp\n\nThe Motley FoolThe Motley Fool\n\nEvery year, as Labor"
+          "title": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/07/nvidia-is-no-longer-just-a-chip-company-its-the-infrastructure-platform-for-all-of-ai/",
+          "snippet": "It’s the Infrastructure Platform for All of AI. Jensen Huang calls it a full-stack AI factory platform, not a chip company, and that distinction is re"
         },
         {
-          "title": "Dear Nvidia Stock Fans, Mark Your Calendars for September 10",
-          "url": "https://www.barchart.com/story/news/4497506/dear-nvidia-stock-fans-mark-your-calendars-for-september-10",
-          "snippet": "| Symbol | Last | Chg | %Chg |\n ---  --- |\n| NVDA | 225.73 | -4.63 | -2.01% |\n| Nvidia Corp |\n| $SPX | 7,673.52 | -45.08 | -0.58% |\n| S&P 500 Index |\n"
+          "title": "Jensen Huang says \"AGI has arrived\" following OpenAI's GPT-6 Astra launch (NVDA:NASDAQ) - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4640538-jensen-huang-says-agi-has-arrived-following-openais-gpt-6-astra-launch",
+          "snippet": "Home page Seeking Alpha - Power to Investors. Search for Symbols, analysts, keywords. # Jensen Huang says \"AGI has arrived\" following OpenAI's GPT-6 A"
         },
         {
-          "title": "Prediction: NVIDIA Stock Has Returned 14,700% in 10 Years. Can It Do It Again?",
-          "url": "https://247wallst.com/investing/2026/09/09/prediction-nvidia-stock-has-returned-14700-in-10-years-can-it-do-it-again",
-          "snippet": "Maurie Backman · Sep 9, 2026\n\nSocial Security\n### He Spent 20 Winters Repairing a Great Lakes Shipping Lifeline. Social Security Counted Every Season;"
+          "title": "Price Prediction: Nvidia Stock Could Be Worth This Much by 2030 - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/08/price-prediction-nvidia-stock-could-be-worth-this-much-by-2030/",
+          "snippet": "# Price Prediction: Nvidia Stock Could Be Worth This Much by 2030. Nvidia just posted the largest quarter in semiconductor history, yet the stock trad"
         },
         {
-          "title": "Here's My Nvidia Stock Price Forecast for the End of September",
-          "url": "https://currently.att.yahoo.com/att/heres-nvidia-stock-price-forecast-135800693.html",
-          "snippet": "3 min read\n\nNvidia (NASDAQ: NVDA) stock has gained 1,600% since ChatGPT came out in 2022, catapulting it to the top of the stock market. It has retain"
+          "title": "Top Wall Street analysts like these 3 stocks for the long haul - cnbc.com",
+          "url": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html",
+          "snippet": "The ratings of these experts are backed by in-depth research of a company's financials and thorough analysis of the factors affecting its business per"
         },
         {
-          "title": "Wall St slides as oil hovers near $100 on rising Middle East tensions",
-          "url": "https://www.detroitnews.com/story/business/2026/09/09/wall-st-slides-as-oil-hovers-near-100-on-rising-middle-east-tensions/91673296007",
-          "snippet": "Meanwhile, chipmakers Arm Holdings and AMD AMD.O rose 4.11% and 3.49%, respectively, while Nvidia NVDA.O was down 0.49%.\n\nInvestors are still gravitat"
+          "title": "AGI is here, Nvidia CEO Jensen Huang has declared. Here’s why the market doesn’t care - Fortune",
+          "url": "https://fortune.com/2026/09/09/markets-agi-nvidia-singularity-wall-street/",
+          "snippet": "Current price of silver as of Monday, September 8, 2026. Current price of oil as of September 8, 2026. # AGI is here, Nvidia CEO Jensen Huang has decl"
         }
       ],
       "insight": {
         "category": "ai_tech",
         "en": {
-          "title": "NVIDIA (NVDA) Up or Down on September 9?",
+          "title": "Will NVIDIA (NVDA) hit (HIGH) $228 Week of September 7 2026?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -504,475 +388,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "NVIDIA (NVDA) Up or Down on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362216",
-        "question": "Google (GOOGL) Up or Down on September 9?",
-        "probability": 0.0145,
-        "change_24h": -0.4855,
-        "volume_24h": 2816.27,
-        "score": 488.95,
-        "url": "https://polymarket.com/event/googl-up-or-down-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "GOOGL Stock Slips As Legal Risks Rise And AI Battle Heats Up",
-          "url": "https://timothysykes.com/news/alphabet-inc-googl-news-2026_09_09-2",
-          "snippet": "Live Update At 09:18:52 EDT: On Wednesday, September 09, 2026 Alphabet Inc. stock [NASDAQ: GOOGL] is trending down by -2.31%! Discover the key drivers"
-        },
-        {
-          "title": "GOOGL Slides As Legal Risks Mount And AI Rivals Circle",
-          "url": "https://stockstotrade.com/news/alphabet-inc-googl-news-2026_09_09",
-          "snippet": "Live Update At 09:17:11 EDT: On Wednesday, September 09, 2026 Alphabet Inc. stock [NASDAQ: GOOGL] is trending down by -2.3%! Discover the key drivers "
-        },
-        {
-          "title": "Why Are US Stock Index Futures Down Pre-Market? Oil Breaches $100; Apple, Tesla, Google in Focus",
-          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262158341-us-stock-futures-pre-market-drop-oil-price-100-dollars-apple-tesla-alphabet-tradingkey",
-          "snippet": "Morningstar, meanwhile, maintained its fair value estimate of $450 for Tesla while assigning a \"Very High\" Uncertainty rating.\n\n## Google: $15.1 Billi"
-        },
-        {
-          "title": "Google Raises Its Investments in Finland to Support AI Infrastructure Growth",
-          "url": "https://www.benzinga.com/markets/tech/26/09/61681439/google-raises-its-investments-in-finland-to-support-ai-infrastructure-growth",
-          "snippet": "78784.870.4229%DIA\n\n524.800.61%GLD\n\n403.791.02%TLT\n\n82.170.04%\n\nStuttgart, Germany - July 20, 2023: Google and Alphabet logo of the computer hardware "
-        },
-        {
-          "title": "Meta Rises 6% as Muse AI Agent Arrives With Paid Subscription Tiers; Alphabet Falls 2%",
-          "url": "https://247wallst.com/investing/2026/09/09/meta-rises-6-as-muse-ai-agent-arrives-with-paid-subscription-tiers-alphabet-falls-2",
-          "snippet": "White Black Red Green Blue Yellow Magenta Cyan\n\n100%75%50%25%0%\n\nWhite Black Red Green Blue Yellow Magenta Cyan\n\n100%75%50%25%0%\n\nVideo Muted\n\nMeta Pl"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Google (GOOGL) Up or Down on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Google (GOOGL) Up or Down on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4231545",
-        "question": "Will Meta Platforms, Inc. (META) hit (HIGH) $660 Week of September 7 2026?",
-        "probability": 0.5795,
-        "change_24h": 0.4855,
-        "volume_24h": 1511.18,
-        "score": 488.68,
-        "url": "https://polymarket.com/event/will-meta-reach-660-by-september-7-2026"
-      },
-      "news": [
-        {
-          "title": "What will Meta Platforms, Inc. (META) hit Week of September 7 2026? Trading Odds & Predictions (Sep. 4, 2026) | Polymarket",
-          "url": "https://polymarket.com/event/will-meta-hit-week-of-september-7-2026",
-          "snippet": "Finance·Weekly\n\n# What will Meta Platforms, Inc. (META) hit Week of September 7 2026?\n\nSep 11\n\nSep 11\n\nSep 11, 2026\n\n↑ $680\n\n↑ $670\n\n$0Vol.\n\n↑ $660\n\n$"
-        },
-        {
-          "title": "What will Meta Platforms, Inc. (META) hit in September 2026? Trading Odds & Predictions (Aug. 25, 2026) | Polymarket",
-          "url": "https://polymarket.com/event/what-price-will-meta-hit-in-september-2026",
-          "snippet": "Finance·Monthly\n\n# What will Meta Platforms, Inc. (META) hit in September 2026?\n\nSep 30\n\nSep 30\n\nSep 30, 2026\n\n↑ $720\n\n↑ $700\n\n↑ $680\n\n$182Vol.\n\n25%\n\n"
-        },
-        {
-          "title": "Meta Stock Price Forecast. Should You Buy META? - StockInvest.us",
-          "url": "https://stockinvest.us/stock/META",
-          "snippet": "The META stock price gained 2.47% on the last trading day (Wednesday, 2nd Sep 2026), rising from $578.54 to $592.85. During the last trading day the s"
-        },
-        {
-          "title": "Meta Platforms, Inc. (META) Stock Price, News, Quote & History - Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/META?p=META&ncid=yahooproperties_peoplealso_km0o32z3jzm",
-          "snippet": "Previous Close  613.48\n Open  648.64\n Bid  601.00 x 200\n Ask  625.00 x 100\n Day's Range  638.56 - 657.86\n 52 Week Range  520.26 - 790.80\n Volume  27,5"
-        },
-        {
-          "title": "Meta shares are still cheap and worth buying. Here's why",
-          "url": "https://www.cnbc.com/2026/09/09/meta-shares-are-still-cheap-and-worth-buying-heres-why.html",
-          "snippet": "$660 level. That does support being a bit more conservative with your buy until that downtrend is overcome. But we would argue the fundamental argumen"
-        }
-      ],
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $660 Week of September 7 2",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $660 Week of September 7 2",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362307",
-        "question": "WTI Crude Oil (WTI) Up or Down on September 9?",
-        "probability": 0.983,
-        "change_24h": 0.483,
-        "volume_24h": 8208.9,
-        "score": 486.91,
-        "url": "https://polymarket.com/event/wti-up-or-down-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "Oil Prices Up - 08-09-26",
-          "url": "https://armenpress.am/en/article/1259995",
-          "snippet": "weather icon\n\n12 °C\n\nUSD / AMD\n\ntriangle 363.64\n\nlogologo\n\nEconomy\n\n# Oil Prices Up - 08-09-26\n\n1 minute read\n\nNEW YORK - LONDON, SEPTEMBER 9, ARMENPR"
-        },
-        {
-          "title": "Prediction Markets Abandon Cheap Oil as Brent Passes $100",
-          "url": "https://decrypt.co/377766/prediction-markets-abandon-cheap-oil-as-brent-passes-100",
-          "snippet": "Image 17: Myriad: Crude oil's next move? Click to make your prediction.\n\nMyriad: Crude oil's next move? Click to make your prediction.\n\n## The downsid"
-        },
-        {
-          "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and ...",
-          "url": "https://www.litefinance.org/blog/analysts-opinions/oil-price-prediction-forecast/daily-and-weekly",
-          "snippet": "According to forecasts, WTI crude oil prices may range between $69.92 and $102.18 in September 2026. The main factors affecting prices will be geopoli"
-        },
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61676904/stock-market-will-sp-500-open-up-or-down-today-33",
-          "snippet": "U.S. stock futures are pointing to a mixed open early Wednesday, with tech and benchmark futures edging higher even as Brent crude surges toward $100 "
-        },
-        {
-          "title": "Current price of oil as of September 9, 2026 - Fortune",
-          "url": "https://fortune.com/article/price-of-oil-09-09-2026",
-          "snippet": "# Trendingnow\n\n# 1\n\n# 2\n\n# 3\n\n# 1\n\n# 2\n\n# 3\n\n# Current price of oil as of September 9, 2026\n\nJoseph Hostetler\nJoseph Hostetler\nCurrent price of oil as"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "WTI Crude Oil (WTI) Up or Down on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "WTI Crude Oil (WTI) Up or Down on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362210",
-        "question": "Amazon (AMZN) Up or Down on September 9?",
-        "probability": 0.028,
-        "change_24h": -0.472,
-        "volume_24h": 4322.89,
-        "score": 475.64,
-        "url": "https://polymarket.com/event/amzn-up-or-down-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "Amazon Layoffs Continue: How to Play AMZN Stock Now in September 2026",
-          "url": "https://www.barchart.com/story/news/4474414/amazon-layoffs-continue-how-to-play-amzn-stock-now-in-september-2026",
-          "snippet": "Against this backdrop, investors have been selling Amazon shares. With a market capitalization of about $2.79 trillion, AMZN stock has slipped almost "
-        },
-        {
-          "title": "Jim Cramer Breaks Down Why Amazon (AMZN) Is a “Screaming Buy” on AI Potential",
-          "url": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-breaks-down-why-170601936.html",
-          "snippet": "Nasdaq \n\n26,264.11\n\n-157.30 -0.60%\n\nRussell 2000 \n\n2,924.81\n\n-35.40 -1.20%\n\nVIX \n\n16.27\n\n+0.55 +3.49%\n\nGold \n\n4,463.50\n\n+24.50 +0.55%\n\nBitcoin USD \n\n7"
-        },
-        {
-          "title": "Cramer Says Qualcomm’s Amazon Collaboration Gives Stalled Stock “Something Special” to Point At",
-          "url": "https://247wallst.com/investing/2026/09/09/cramer-says-qualcomms-amazon-collaboration-gives-stalled-stock-something-special-to-point-at",
-          "snippet": "Investing\n### Price Prediction: Target Stock Will Hit The $200 Milestone on This Date\n\nVandita Jadeja · Sep 9, 2026\n\n## Companies Mentioned\n\nAMZN AMZN"
-        },
-        {
-          "title": "The Market Marked AMZN Stock Down. The Numbers Push Back | Trefis",
-          "url": "https://www.trefis.com/stock/amzn/articles/614514/the-market-marked-amzn-stock-down-the-numbers-push-back/2026-09-08",
-          "snippet": "Trefis\n\n All Data\n Our Story\n Management Team\n Investors and Advisors\n Careers\n Contact Us\n\n# The Market Marked AMZN Stock Down. The Numbers Push Back"
-        },
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-054803016.html",
-          "snippet": "U.S. stock futures are pointing to a mixed open early Wednesday, with tech and benchmark futures edging higher even as Brent crude surges toward $100 "
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Amazon (AMZN) Up or Down on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Amazon (AMZN) Up or Down on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362305",
-        "question": "Gold (XAUUSD) Up or Down on September 9?",
-        "probability": 0.97,
-        "change_24h": 0.47,
-        "volume_24h": 8301.26,
-        "score": 473.92,
-        "url": "https://polymarket.com/event/xauusd-up-or-down-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "Gold Price Forecast: Stronger-Than-Expected Payrolls ...",
-          "url": "https://www.tradingkey.com/analysis/commodities/metal/262157334-gold-price-forecast-nfp-market-focus-august-cpi-can-gold-still-rise-tradingkey",
-          "snippet": "TradingKey - As of the Asian session on September 9, gold prices (XAUUSD) maintained a modest intraday rebound, rising about 0.36% on the day to trade"
-        },
-        {
-          "title": "Gold Price Forecast: Gold Rebounds Above US$4,400 — Can XAU/USD Reach US$4,700?",
-          "url": "https://www.mitrade.com/au/insights/commodity/gold/gold-price-forecast-rebounds-4400",
-          "snippet": "As of September 9, spot gold was trading back above US$4,400 after falling sharply following the stronger-than-expected US August jobs report. Market "
-        },
-        {
-          "title": "Gold Price Today on September 09, 2026",
-          "url": "https://www.usatoday.com/story/money/personalfinance/2026/09/09/gold-price-on-september-09-2026/91671577007",
-          "snippet": "# Gold Price Today on September 09, 2026\n\nA stack of gold bars sitting on top of hundred-dollar bills.\n\n## How much is gold per ounce today?\n\nAs of Se"
-        },
-        {
-          "title": "Gold Price Forecast: XAU/USD bounces up to $4,400 ... - TMGM",
-          "url": "https://www.tmgm.com/en/analysis/market-news/article/gold-price-forecast-xau-usd-bounces-up-to-4-400-with-the-bearish-trend-intact-202609090944",
-          "snippet": "TMGM Logo\n\nTMGMAnalysis\n\n# Gold Price Forecast: XAU/USD bounces up to $4,400 with the bearish trend intact\n\nAuthor: Guillermo Alcala, FXStreet\n\nLast U"
-        },
-        {
-          "title": "Gold Analysis: XAU/USD Shines Again Ahead of NFP",
-          "url": "https://www.stonex.com/en-gb/news-and-analysis/gold-analysis-xau-usd-shines-again-ahead-of-nfp-2026-09-03",
-          "snippet": "This has increased uncertainty heading into the NFP report, as markets increasingly view the release as a potentially decisive factor for September's "
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Gold (XAUUSD) Up or Down on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Gold (XAUUSD) Up or Down on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4231982",
-        "question": "Will Gold (XAUUSD) hit (LOW) $4,350 Week of September 7 2026?",
-        "probability": 1.0,
-        "change_24h": 0.3895,
-        "volume_24h": 3544.21,
-        "score": 393.05,
-        "url": "https://polymarket.com/event/will-xauusd-dip-to-4350-by-september-7-2026"
-      },
-      "news": [
-        {
-          "title": "Gold eases as robust U.S. payrolls boost rate-hike bets; inflation data in focus - CNBC",
-          "url": "https://www.cnbc.com/2026/09/07/gold-eases-as-robust-us-payrolls-boost-rate-hike-bets.html",
-          "snippet": "Gold prices nudged lower on Monday as strong U.S. jobs data reinforced expectations for higher interest rates, while market participants awaited key U"
-        },
-        {
-          "title": "Gold’s weekly top is forming - but the daily chart may have one more push higher - KITCO",
-          "url": "https://www.kitco.com/opinion/2026-09-08/golds-weekly-top-forming-daily-chart-may-have-one-more-push-higher",
-          "snippet": "# Gold’s weekly top is forming - but the daily chart may have one more push higher. That top is not fully confirmed yet, but the current structure kee"
-        },
-        {
-          "title": "Gold subdued as oil rises, investors await key US inflation data - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-09-08/gold-subdued-oil-rises-investors-await-key-us-inflation-data",
-          "snippet": "Sept 8 (Reuters) - Gold inched lower on ​Tuesday as a rise in oil prices reignited inflation fears, while investors remained ‌cautious ahead of crucia"
-        },
-        {
-          "title": "image - Mining.com",
-          "url": "https://www.mining.com/web/gold-price-eases-as-strong-us-jobs-data-boosts-fed-rate-hike-bets/image-531/",
-          "snippet": "Copper $ 5.6358 / lb  2.72%. Brent Crude Oil $ 104.4 / bbl  -4.21%. Palladium $ 1496.5 / ozt  5.39%. Crude Oil $ 101.85 / bbl  -3.06%. Natural Gas $ 2"
-        },
-        {
-          "title": "Gold firms on softer dollar; U.S. inflation data in focus - CNBC",
-          "url": "https://www.cnbc.com/2026/09/09/gold-firms-on-softer-dollar-inflation-data-and-mideast-risks-in-focus.html",
-          "snippet": "Gold climbed on Wednesday, supported by a ​softer U.S. dollar, while ​investors weighed price ​pressures from renewed attacks in the Middle East and a"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Gold (XAUUSD) hit (LOW) $4,350 Week of September 7 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Gold (XAUUSD) hit (LOW) $4,350 Week of September 7 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4231792",
-        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $64 Week of September 7 2026?",
-        "probability": 1.0,
-        "change_24h": 0.3695,
-        "volume_24h": 991.11,
-        "score": 372.5,
-        "url": "https://polymarket.com/event/will-rklb-dip-to-64-by-september-7-2026"
-      },
-      "news": [
-        {
-          "title": "Rocket Lab Corp. (RKLB) Stock Forecast: 1-Year Price Prediction & Outlook – Financhill",
-          "url": "https://financhill.com/stock-forecast/rklb-stock-prediction",
-          "snippet": "$64.26\n\nSeasonality Move:\n\n46.87%\n\n### 7 Day Trial\n\n#### ALL ACCESS PASS\n\n$ 7\n\n   Sponsored\n\n#### Washington Is Starting to Pay Attention\n\n Learn why "
-        },
-        {
-          "title": "RKLB Stock Forecast 2027 - Rocket Lab Price Targets & Predictions",
-          "url": "https://tickernerd.com/stock/rklb-forecast",
-          "snippet": "Low\n\n$77.00\n\nAverage\n\n$120.00\n\nHigh\n\n$150.00\n\nCurrent: $58.60\n\n### Latest RKLB Stock Forecasts by Analyst\n\nThese are the latest 20 analyst ratings and"
-        },
-        {
-          "title": "Cathie Wood's weekly recap: loads Rocket Lab, Block; cuts Palantir, Tempus AI (ARKK:BATS) | Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4640551-cathie-woods-weekly-recap-loads-rocketlab-block-cuts-palantir-tempus-ai",
-          "snippet": "Home page Seeking Alpha - Power to Investors\n\nSearch for Symbols, analysts, keywords\n\n# Cathie Wood's weekly recap: loads Rocket Lab, Block; cuts Pala"
-        },
-        {
-          "title": "Anchor Capital Advisors LLC Purchases Shares of 13,975 Rocket Lab Corporation $RKLB",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-anchor-capital-advisors-llc-purchases-shares-of-13975-rocket-lab-corporation-rklb-2026-09-08",
-          "snippet": "Shares of Rocket Lab stock opened at $64.26 on Tuesday. The company has a market cap of $38.45 billion, a PE ratio of -237.99 and a beta of 2.60. The "
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $64 Week of September 7 202",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $64 Week of September 7 202",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4231997",
-        "question": "Will Silver (XAGUSD) hit (LOW) $64 Week of September 7 2026?",
-        "probability": 0.11,
-        "change_24h": -0.36,
-        "volume_24h": 1601.65,
-        "score": 363.2,
-        "url": "https://polymarket.com/event/will-xagusd-dip-to-64-by-september-7-2026"
-      },
-      "news": [
-        {
-          "title": "Silver Price Today, September 8, 2026: XAG/USD Rebounds to $66.95 as Iran Strikes Reverse Friday's Selloff",
-          "url": "https://easternherald.com/market/silver-rate-usa-september-8-2026",
-          "snippet": "The September 15–16 FOMC meeting is the clearest near-term inflection point. A hold, carrying roughly 40 percent probability under current pricing, wo"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Silver (XAGUSD) hit (LOW) $64 Week of September 7 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Silver (XAGUSD) hit (LOW) $64 Week of September 7 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362242",
-        "question": "Will Meta (META) close above $630 on September 9?",
-        "probability": 0.553,
-        "change_24h": 0.358,
-        "volume_24h": 3003.54,
-        "score": 361.48,
-        "url": "https://polymarket.com/event/meta-close-above-630-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "Meta Stock Breaks Triangle Resistance as Buyers Target $619-$630",
-          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262151276-meta-stock-ai-whatsapp-meta-breakout-619-tradingkey",
-          "snippet": "TradingKey - Meta begins the month of September around $610.80, breaking above the descending trendline and the former $591.38 resistance. The technic"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Meta (META) close above $630 on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Meta (META) close above $630 on September 9?",
+          "title": "Will NVIDIA (NVDA) hit (HIGH) $228 Week of September 7 2026?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -987,8 +403,8 @@
         "question": "LAPTOP listed on Kraken within 30 days of TGE?",
         "probability": 1.0,
         "change_24h": 0.2745,
-        "volume_24h": 27915.22,
-        "score": 278.95,
+        "volume_24h": 26576.51,
+        "score": 278.92,
         "url": "https://polymarket.com/event/laptop-listed-on-kraken-within-30-days-of-tge"
       },
       "news": [
@@ -1003,11 +419,6 @@
           "snippet": "Key Takeaways\n\n LAPTOP is an ERC-20 token on Base with a 1 billion token supply, tied to the Hunter Biden story that's followed the news for six years"
         },
         {
-          "title": "Why is the Hunter Biden LAPTOP launch facing Investor Backlash?",
-          "url": "https://cryptonews.com/news/hunter-biden-laptop-token-allocation-under-scrutiny",
-          "snippet": "> Threadguy SHITS on Kraken posting $LAPTOP and then DEPOSITS money on Kraken 😭  \n>   \n> Everyone who hated his take is supporting the token  \n>   \n> "
-        },
-        {
           "title": "Hunter Biden wants to launch a LAPTOP memecoin. Crypto traders hate it already",
           "url": "https://www.coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
           "snippet": "The backlash was enough for businesses to dial down their social promotions. Crypto exchange Kraken deleted a post promoting the token after traders p"
@@ -1016,6 +427,11 @@
           "title": "Crypto traders turn on Hunter Biden’s LAPTOP memecoin before it even launches",
           "url": "https://cryptonews.net/news/altcoins/33411537",
           "snippet": "The backlash was enough for businesses to dial down their social promotions. Crypto exchange Kraken deleted a post promoting the token after traders p"
+        },
+        {
+          "title": "Hunter Biden defends LAPTOP memecoin as Kraken deletes promotional post",
+          "url": "https://crypto.news/hunter-biden-defends-laptop-memecoin-as-kraken-deletes-promotional-post",
+          "snippet": "The planned launch faced resistance almost immediately after Biden announced the token earlier this week.\n\nKraken deleted a promotional social media p"
         }
       ],
       "insight": {
@@ -1040,102 +456,25 @@
     },
     {
       "market": {
-        "id": "4178250",
-        "question": "Israel military action against Lebanon on September 8?",
-        "probability": 0.465,
+        "id": "4231997",
+        "question": "Will Silver (XAGUSD) hit (LOW) $64 Week of September 7 2026?",
+        "probability": 0.135,
         "change_24h": -0.275,
-        "volume_24h": 2139.46,
-        "score": 278.33,
-        "url": "https://polymarket.com/event/israel-military-action-against-lebanon-on-september-8-20260903"
+        "volume_24h": 1842.48,
+        "score": 278.27,
+        "url": "https://polymarket.com/event/will-xagusd-dip-to-64-by-september-7-2026"
       },
       "news": [
         {
-          "title": "Early Edition: September 8, 2026 - Just Security",
-          "url": "https://www.justsecurity.org/156556/early-edition-september-8-2026",
-          "snippet": "Israeli strikes yesterday on the southern Lebanese town Kfar Roummane killed at least 12 people, including two children and one medic, according to Le"
-        },
-        {
-          "title": "Lebanese Army intensifies Nabatieh deployment as report says mission excludes Hezbollah disarmament",
-          "url": "https://www.fdd.org/analysis/2026/09/09/lebanese-army-intensifies-nabatieh-deployment-as-report-says-mission-excludes-hezbollah-disarmament",
-          "snippet": "Later on September 8, the LAFclarifiedthat reports describing the activity as the beginning of a new deployment were inaccurate. Army units, it said, "
-        },
-        {
-          "title": "Some Israeli actions in Syria may amount to war crimes, UN probe says - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
-          "url": "https://www.al-monitor.com/originals/2026/09/some-israeli-actions-syria-may-amount-war-crimes-un-probe-says",
-          "snippet": "GENEVA, Sept 8 (Reuters) - A U.N. commission investigating Syria said on Tuesday it was deeply alarmed over Israel's military activity inside Syrian t"
-        },
-        {
-          "title": "Iran warns US against Israeli attack on south Lebanon ridge held by ...",
-          "url": "https://www.reuters.com/world/middle-east/iran-warns-us-against-israeli-attack-south-lebanon-ridge-held-by-hezbollah-2026-09-03",
-          "snippet": "Despite Iran's warning, the Lebanese source and a senior Lebanese security official said an Israeli military operation to capture the ridge was still "
-        },
-        {
-          "title": "Repercussions of Intensified Fighting in Lebanon - The Soufan Center",
-          "url": "https://thesoufancenter.org/intelbrief-2026-september-8",
-          "snippet": "the stronghold — described by some in the region as Hezbollah’s “mini-Pentagon” — to plan attacks on Israel. But the Israel Defense Forces (IDF) advan"
-        }
-      ],
-      "insight": {
-        "category": "geopolitics",
-        "en": {
-          "title": "Israel military action against Lebanon on September 8?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Israel military action against Lebanon on September 8?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "3055010",
-        "question": "Will Houthis successfully target shipping on August 17, 2026?",
-        "probability": 0.7005,
-        "change_24h": 0.2705,
-        "volume_24h": 996.41,
-        "score": 273.5,
-        "url": "https://polymarket.com/event/will-houthis-successfully-target-shipping-on-august-17-2026-20260722225036941"
-      },
-      "news": [
-        {
-          "title": "Iran Update, September 8, 2026 - Institute for the Study of War",
-          "url": "https://understandingwar.org/research/middle-east/iran-update-september-8-2026/",
-          "snippet": "The Houthis struck Saudi oil facilities in Abha, Jizan, and Najran, and a Saudi military base in Khamis Mushait with ballistic missiles and drones on "
-        },
-        {
-          "title": "Houthi attack on Saudi oil facilities wounds 73, some operations halted - The Times of Israel",
-          "url": "https://www.timesofisrael.com/houthi-attack-on-saudi-oil-facilities-wounds-73-some-operations-halted/",
-          "snippet": "*       *   About The Times of Israel. *   Advertise on The Times of Israel. *   © 2026 The Times of Israel , All Rights Reserved Terms and conditions"
-        },
-        {
-          "title": "Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people - Northern Public Radio",
-          "url": "https://www.northernpublicradio.org/2026-09-08/houthi-attacks-on-saudi-arabia-ignite-fires-at-oil-facilities-and-wound-73-people",
-          "snippet": "# Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people. CAIRO — A wave of Houthi attacks on Saudi Arabia Tuesday wounded "
-        },
-        {
-          "title": "Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people - New Hampshire Public Radio",
-          "url": "https://www.nhpr.org/2026-09-08/houthi-attacks-on-saudi-arabia-ignite-fires-at-oil-facilities-and-wound-73-people",
-          "snippet": "# Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people. CAIRO — A wave of Houthi attacks on Saudi Arabia Tuesday wounded "
-        },
-        {
-          "title": "Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people - STLPR",
-          "url": "https://www.stlpr.org/npr/2026-09-08/houthi-attacks-on-saudi-arabia-ignite-fires-at-oil-facilities-and-wound-73-people",
-          "snippet": "# Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people. CAIRO — A wave of Houthi attacks on Saudi Arabia Tuesday wounded "
+          "title": "Silver Price Sept 8: $66.95 as Iran Strikes Top Hike Odds",
+          "url": "https://easternherald.com/market/silver-rate-usa-september-8-2026",
+          "snippet": "| Date | XAG/USD | Daily Change | Key Driver |\n ---  --- |\n| Sep 8, 2026 (Mon) | $66.95 | +$1.05 (+1.59%) | US-Iran Larak Island strikes |\n| Sep 7, 20"
         }
       ],
       "insight": {
         "category": "other",
         "en": {
-          "title": "Will Houthis successfully target shipping on August 17, 2026?",
+          "title": "Will Silver (XAGUSD) hit (LOW) $64 Week of September 7 2026?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1143,7 +482,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will Houthis successfully target shipping on August 17, 2026?",
+          "title": "Will Silver (XAGUSD) hit (LOW) $64 Week of September 7 2026?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1154,45 +493,40 @@
     },
     {
       "market": {
-        "id": "4224309",
-        "question": "Will USD be between 2.2M and 2.5M Iranian rials on September 30?",
-        "probability": 0.365,
-        "change_24h": -0.25,
-        "volume_24h": 1928.22,
-        "score": 253.29,
-        "url": "https://polymarket.com/event/will-usd-be-between-2pt2m-and-2pt5m-iranian-rials-on-september-30"
+        "id": "4231843",
+        "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $190 Week of September 7 2026?",
+        "probability": 0.165,
+        "change_24h": -0.275,
+        "volume_24h": 576.49,
+        "score": 277.76,
+        "url": "https://polymarket.com/event/will-coin-reach-190-by-september-7-2026"
       },
       "news": [
         {
-          "title": "Iran deploys security forces as gasoline price rise takes effect - Iran International",
-          "url": "https://www.iranintl.com/en/202609081765",
-          "snippet": "# Iran deploys security forces as gasoline price rise takes effect. Iranian security forces deployed around fuel stations and on streets across the co"
+          "title": "COIN Price Prediction: The 28% August Bounce Is Real, But the Valuation Gap Demands Respect - Blockchain.News",
+          "url": "https://blockchain.news/news/20260903-price-prediction-coin-the-28-august-bounce-is-real",
+          "snippet": "Q1 2026 Earnings Transcript 15. wikipedia.org 16. Coinbase (COIN) Q2 Revenue Fell, but Its Diversification Story Got Stronger 17. Coinbase at $188: Ju"
         },
         {
-          "title": "Gold, silver prices rise as Hormuz risk offsets rate pressure - Kitco AM Report - KITCO",
-          "url": "https://www.kitco.com/news/article/2026-09-09/gold-silver-prices-rise-hormuz-risk-offsets-rate-pressure-kitco-am-report",
-          "snippet": "# Gold, silver prices rise as Hormuz risk offsets rate pressure - Kitco AM Report. Articles by **Kitco News****Wire** were generated by Kitco's AI-ass"
+          "title": "COIN Price Prediction: Derivatives Demand and a $216 Analyst Consensus Put $200+ in Play — But the Next 72 Hours Are Critical - Blockchain.News",
+          "url": "https://blockchain.news/news/20260905-price-prediction-coin-derivatives-demand-and-a-216-analyst",
+          "snippet": "The fundamental picture for Coinbase heading into the rest of 2026 is best described as a high-quality business grinding through a difficult revenue c"
         },
         {
-          "title": "COMMENTARY: With yen surging, what will fund FX carry trades now? - Reuters",
-          "url": "https://www.reuters.com/commentary/reuters-open-interest/with-yen-surging-what-will-fund-fx-carry-trades-now-mcgeever-2026-09-09/",
-          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. ## Browse Marke"
+          "title": "COIN Price Prediction: Double-Miss Earnings Hangover Meets CLARITY Act Binary — $178 Holds or Bulls Get Washed to $166 - Blockchain.News",
+          "url": "https://blockchain.news/news/20260909-price-prediction-coin-double-miss-earnings-hangover-meets-clarity",
+          "snippet": "Learn more:\n1. Coinbase Global, Inc. (COIN) stock price, news, quote and history\n2. Coinbase Global, Inc. (COIN) Stock Price, News, Quote & History\n3."
         },
         {
-          "title": "Gold Holds Decline as Traders Weigh Prospects for Fed Rate Hike - Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-decline-traders-weigh-232846552.html",
-          "snippet": "2. Best 0% APR cards. 3. Best balance transfer cards. 2. Best high-yield savings accounts. 3. Best money market accounts. Now part of Yahoo Finance Go"
-        },
-        {
-          "title": "Houthi attacks on Saudi Arabia wound 73 people, officials say - The Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/09/08/saudi-arabia-yemen-houthis/92a3be64-ab3a-11f1-b498-8697f35a6743_story.html",
-          "snippet": "Saudi authorities say a wave of attacks by the Iranian-backed Houthis on Saudi Arabia has wounded 73 people. CAIRO — More than 70 people were wounded "
+          "title": "HOOD Price Prediction: Morgan Stanley's $150 Target Is in Play — But First, Watch the $125 Wall - Blockchain.News",
+          "url": "https://blockchain.news/news/20260905-price-prediction-target-hood-morgan-stanleys-150-is-in-play",
+          "snippet": "Image source: Shutterstock\n\n hood price analysis\n hood price prediction\n\nBookmark\n\nLoading more posts...\n\n##### Premium Sponsors\n\nMuxic.jpg)\n\n##### Fl"
         }
       ],
       "insight": {
-        "category": "geopolitics",
+        "category": "sports",
         "en": {
-          "title": "Will USD be between 2.2M and 2.5M Iranian rials on September 30?",
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $190 Week of September 7 ",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1200,7 +534,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will USD be between 2.2M and 2.5M Iranian rials on September 30?",
+          "title": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $190 Week of September 7 ",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1211,40 +545,45 @@
     },
     {
       "market": {
-        "id": "4178778",
-        "question": "Will the 5-year Treasury yield hit 4.61% in September?",
-        "probability": 0.915,
-        "change_24h": 0.25,
-        "volume_24h": 1130.72,
-        "score": 253.05,
-        "url": "https://polymarket.com/event/will-the-5-year-treasury-yield-hit-4pt61-in-september"
+        "id": "4231544",
+        "question": "Will Meta Platforms, Inc. (META) hit (HIGH) $670 Week of September 7 2026?",
+        "probability": 0.355,
+        "change_24h": 0.2565,
+        "volume_24h": 1503.04,
+        "score": 259.68,
+        "url": "https://polymarket.com/event/will-meta-reach-670-by-september-7-2026"
       },
       "news": [
         {
-          "title": "Perplexity",
-          "url": "https://www.perplexity.ai/finance/AVGO?comparing=AVGO%2CINTC%2CMU%2CMRVL%2CNXPI%2CMCHP",
-          "snippet": "Image 40\n\nImage 41\n\nImage 42\n\n5 sources\n\nAug 19\n\n$362.48\n\n4.61% [...] Treasury yields pressuring high-growth tech valuations; despite the sell-off, Wa"
+          "title": "Meta shares are still cheap and worth buying. Here's why - CNBC",
+          "url": "https://www.cnbc.com/2026/09/09/meta-shares-are-still-cheap-and-worth-buying-heres-why.html",
+          "snippet": "A strong new model, an impressive app for personal agents, and an inviting chart are just some of the reasons why it's a good time to start building a"
         },
         {
-          "title": "Big money sits on the sidelines — and watches Nov. 3 - The Herald Business",
-          "url": "https://mbiz.heraldcorp.com/article/10865246",
-          "snippet": "This content was produced with the assistance of AI translation services.\n\n byHong Tae-hwa\n\n Kospi surges 4.61% to within 5 points of 7,000 as foreign"
+          "title": "Meta Stock Jumps As Tech Giant Touts Early Interest In Muse AI Agent - Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/meta-stock-jumps-muse-ai-agent/",
+          "snippet": "# Meta Stock Jumps As Tech Giant Touts Early Interest In Muse AI Agent. **Meta Platforms** (META) stock jumped in early trading Wednesday, a sign that"
         },
         {
-          "title": "The bond market is back in the danger zone — here's what could make it worse: Chart of the Day",
-          "url": "https://finance.yahoo.com/markets/article/the-bond-market-is-back-in-the-danger-zone--heres-what-could-make-it-worse-chart-of-the-day-100000231.html",
-          "snippet": "Long-term US yields are near multi-decade highs, pushing up mortgage and corporate borrowing costs and threatening stocks. Bessent already doubled lon"
+          "title": "Meta stock surges with Wall Street bullish on new AI agent - finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/article/meta-stock-surges-with-wall-street-bullish-on-new-ai-agent-140959204.html",
+          "snippet": "# Yahoo Finance. 2. Best 0% APR cards. 3. Best balance transfer cards. 2. Best high-yield savings accounts. 3. Best money market accounts. # Meta stoc"
         },
         {
-          "title": "Tech stocks lead a rally on Wall... - KCBD NewsChannel 11",
-          "url": "https://www.facebook.com/KCBDNewsChannel11/posts/tech-stocks-lead-a-rally-on-wall-street-as-bond-yields-ease-some-more-read-more-/1551736803653640",
-          "snippet": "## KCBD NewsChannel 11's Post\n\n### KCBD NewsChannel 11\n\n1h  ·\n\nTech stocks lead a rally on Wall Street as bond yields ease some more. Read more ⬇️⬇️\n\n"
+          "title": "Meta launches AI agent that can access other apps to send emails, make payments - Reuters",
+          "url": "https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/",
+          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. Image 3: Illust"
+        },
+        {
+          "title": "Facebook Misled Users on Cambridge Analytica, New Mexico Says - Bloomberg Law News",
+          "url": "https://news.bloomberglaw.com/business-and-practice/facebook-misled-users-on-cambridge-analytica-new-mexico-says",
+          "snippet": "# Facebook Misled Users on Cambridge Analytica, New Mexico Says. 9, 2026, 10:22 PM UTC. Meta Platfoms Inc.‘s Facebook engaged in widespread deceptions"
         }
       ],
       "insight": {
-        "category": "economy",
+        "category": "ai_tech",
         "en": {
-          "title": "Will the 5-year Treasury yield hit 4.61% in September?",
+          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $670 Week of September 7 2",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1252,7 +591,178 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will the 5-year Treasury yield hit 4.61% in September?",
+          "title": "Will Meta Platforms, Inc. (META) hit (HIGH) $670 Week of September 7 2",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4346075",
+        "question": "Will Eric Trump post about $LAPTOP by September 30?",
+        "probability": 0.385,
+        "change_24h": 0.24,
+        "volume_24h": 5559.89,
+        "score": 243.75,
+        "url": "https://polymarket.com/event/will-eric-trump-post-about-laptop-by-september-30"
+      },
+      "news": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/newsarticulated/the-laptop-from-hell-goes-to-wall-street-hunter-bidens-laptop-meme-coin-and-the-beautiful-31f2f09a58b9",
+          "snippet": "Probably both.\n\n## Welcome to the Circus\n\nHunter Biden’s laptop is now a cryptocurrency.\n\nThat sentence should not make sense. It does not make sense."
+        },
+        {
+          "title": "Hunter Biden Launches Memcoin As An Ode To His Laptop",
+          "url": "https://www.mediaite.com/media/news/hunter-biden-launches-meme-coin-as-an-ode-to-his-infamous-laptop-and-to-troll-trump",
+          "snippet": "The son of former President Joe Biden announced via a Wall Street Journal exclusive report, followed by his X account Monday morning, that “$LAPTOP” w"
+        },
+        {
+          "title": "Hunter Biden launches $LAPTOP memecoin, trolls Trump by promising that 20% will be reserved for traders who lost money on president’s token",
+          "url": "https://fortune.com/2026/09/08/hunter-biden-launches-laptop-memecoin-trolls-trump-by-promising-that-20-will-be-reserved-for-traders-who-lost-money-on-presidents-token",
+          "snippet": "“You criticize Trump for doing a scam then do one yourself,” one user wrote.\n\n“And there goes your reputation back down the drain,” said another.\n\nSom"
+        },
+        {
+          "title": "Hunter Biden's $LAPTOP meme coin rockets from $3 to $300 - NY Post",
+          "url": "https://nypost.com/2026/09/09/business/hunter-bidens-laptop-meme-coin-rockets-from-3-to-300-then-crashes-within-minutes",
+          "snippet": "Hunter Biden launched his $LAPTOP meme coin earlier this week, turning the controversy surrounding his former computer into a cryptocurrency venture. "
+        },
+        {
+          "title": "Hunter Biden launching $LAPTOP crypto meme coin - Breitbart",
+          "url": "https://www.breitbart.com/news/hunter-biden-launching-laptop-crypto-meme-coin/amp",
+          "snippet": "# Hunter Biden launching $LAPTOP crypto meme coin - Breitbart\n\nUPI\n\nSept. 7 (UPI) — Hunter Biden is launching a meme coin on Wednesday that appears to"
+        }
+      ],
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Will Eric Trump post about $LAPTOP by September 30?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Eric Trump post about $LAPTOP by September 30?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4370167",
+        "question": "Will South Korea ETF (EWY) hit (HIGH) $202 in September?",
+        "probability": 0.72,
+        "change_24h": 0.225,
+        "volume_24h": 990.04,
+        "score": 228.0,
+        "url": "https://polymarket.com/event/will-ewy-reach-202-in-september-2026"
+      },
+      "news": [
+        {
+          "title": "FIRED Up Wealth - Seeking Alpha Quant scores, not price...",
+          "url": "https://www.facebook.com/FiredUpWealth/posts/seeking-alpha-quant-scores-not-price-targetsscale-100-strong-sell-500-strong-buy/1668227708100290",
+          "snippet": "1.5425 0 0 0-.016-.0174c.4475-1.0137 2.2-1.3599 3.5999-1.3599 1.4 0 3.1514.3468 3.5998 1.3599l-.0157.0171Z' fill='url(%23paint3_linear_15251_63610)'/%"
+        },
+        {
+          "title": "World Airline News",
+          "url": "https://worldairlinenews.com",
+          "snippet": "September 7, 2026 Update: [...] ### Share this:\n\n Email a link to a friend (Opens in new window) Email\n Print (Opens in new window) Print\n Share on Fa"
+        },
+        {
+          "title": "Amid geopolitical realignment and... - PRESTIGE INDONESIA",
+          "url": "https://www.facebook.com/PRESTIGE.INDONESIA/posts/amid-geopolitical-realignment-and-market-volatility-dbs-insights-forum-2026-exam/1628054202665613",
+          "snippet": "## PRESTIGE INDONESIA's Post\n\n### PRESTIGE INDONESIA\n\n12h  ·\n\nAmid geopolitical realignment and market volatility, DBS Insights Forum 2026 examined th"
+        },
+        {
+          "title": "21 Air Boeing 767-300F N1399A operating for Prime Air overruns the runway at Miami International Airport | World Airline News",
+          "url": "https://worldairlinenews.com/2026/09/06/air-21-boeing-767-300f-n1399a-operating-for-prime-air-overruns-the-runway-at-miami-international-airport",
+          "snippet": "Qantas Airways B787-9 VH-ZND\nPacific Coastal Airlines (WestJet Link) Saab-340B C-GPCF Saab-340B C-GPCF\")\nCondor Flugdienst A330-941Neo D-ANRL\nBritish "
+        },
+        {
+          "title": "🚨 Retail appetite for semiconductor... - Shah Faisal Shah",
+          "url": "https://www.facebook.com/vnzabbar/posts/-retail-appetite-for-semiconductor-stocks-is-fading-fastretail-purchases-of-soxl/1644266897267336",
+          "snippet": "This is a major shift from November 2025 and March 2026, when retail purchases reached 3 standard deviations above average.\n\nThe AI trade remains high"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will South Korea ETF (EWY) hit (HIGH) $202 in September?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will South Korea ETF (EWY) hit (HIGH) $202 in September?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4232008",
+        "question": "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of September 7 2026?",
+        "probability": 1.0,
+        "change_24h": 0.2195,
+        "volume_24h": 10982.33,
+        "score": 223.54,
+        "url": "https://polymarket.com/event/will-wti-reach-95-by-september-7-2026"
+      },
+      "news": [
+        {
+          "title": "WTI is trading in the low-to-mid $90s this week and is more likely to test $93–$98 than to sustain a move above $100 unless there is a sharp new disruption. - Energy News Beat",
+          "url": "https://energynewsbeat.co/crude-oil/wti-is-trading-in-the-low-to-mid-90s-this-week-and-is-more-likely-to-test-93-98-than-to-sustain-a-move-above-100-unless-there-is-a-sharp-new-disruption",
+          "snippet": "That matches the user’s point: China is the swing buyer. When it steps back in, non-Middle East grades tighten and differentials blow out. It is not, "
+        },
+        {
+          "title": "Crude Oil Prices: How High Can Brent Go Before the End of 2026? | Reports | CryptoRank.io",
+          "url": "https://cryptorank.io/news/feed/c5ce1-crude-oil-prices-how-high-can-brent-go-before-the-end-of-2026",
+          "snippet": "On Sept. 7 Brent crude climbed to about $97.50 and WTI to roughly $92.62 as tanker traffic through the Strait of Hormuz fell to its lowest level since"
+        },
+        {
+          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond",
+          "url": "https://www.litefinance.org/blog/analysts-opinions/oil-price-prediction-forecast",
+          "snippet": "The current price of oil is $92.303 as of 09.09.2026.\n Oil reached its all-time high of $147.27 on 11.07.2008. Oil's all-time low of $-40.32 was recor"
+        },
+        {
+          "title": "Oil prices set for more than 7% weekly gain amid US-Iran tensions",
+          "url": "https://www.aa.com.tr/en/energy/oil/oil-prices-set-for-more-than-7-weekly-gain-amid-us-iran-tensions/59424",
+          "snippet": "04.09.2026 Oil , Energy Diplomacy\n\n### Ryanair cuts traffic target as high fuel costs weigh on winter outlook\n\n- Airline lowers 2027 passenger target "
+        },
+        {
+          "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high | LCX Crypto News | LCX",
+          "url": "https://lcx.com/en/cryptonews/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high",
+          "snippet": "S&P 500 one-day chart. Source: Cointelegraph/TradingView\n\nOil prices showed a more pronounced reaction to the events, with WTI crude surging toward $9"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of September 7 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of September 7 2026?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1265,13 +775,18 @@
       "market": {
         "id": "3247826",
         "question": "Bank of England increases interest rates by 25 bps after November 2026 meeting?",
-        "probability": 0.5,
-        "change_24h": 0.235,
-        "volume_24h": 3101.55,
-        "score": 238.49,
+        "probability": 0.485,
+        "change_24h": 0.22,
+        "volume_24h": 3232.42,
+        "score": 223.51,
         "url": "https://polymarket.com/event/bank-of-england-increases-interest-rates-by-25-bps-after-november-2026-meeting-20260730150602310"
       },
       "news": [
+        {
+          "title": "No interest rate hike expected this year | The Star",
+          "url": "https://www.thestar.com.my/business/business-news/2026/09/07/no-interest-rate-hike-expected-this-year",
+          "snippet": "UOB Kay Hian Research now expects BNM to raise the OPR by 25 bps to 3% at the final MPC meeting this year on Nov 5, before keeping it unchanged throug"
+        },
         {
           "title": "J.P. Morgan, BNP Paribas forecast December ECB rate hike as energy risks linger",
           "url": "https://www.reuters.com/business/jp-morgan-bnp-paribas-forecast-december-ecb-rate-hike-energy-risks-linger-2026-09-04",
@@ -1283,12 +798,7 @@
           "snippet": "And while the futures market currently indicates around an 80 percent probability of at least one 25bps BoE rate hike by end-2026, this is not a done "
         },
         {
-          "title": "British Pound edges higher above 1.3500 ahead of US jobs report",
-          "url": "https://www.fxstreet.com/news/british-pound-edges-higher-above-13500-ahead-of-us-jobs-report-202609040146",
-          "snippet": "Traders in interest rate futures on Thursday priced the probability of a 25 basis points (bps) rate hike at the next meeting this month at little more"
-        },
-        {
-          "title": "US Market: J.P. Morgan, BNP Paribas expect ECB rate hike in December as inflation risks persist",
+          "title": "US Market: J.P. Morgan, BNP Paribas expect ECB rate hike in December as inflation risks persist - The Economic Times",
           "url": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/us-market-j-p-morgan-bnp-paribas-expect-ecb-rate-hike-in-december-as-inflation-risks-persist/articleshow/133755948.cms",
           "snippet": "J.P. Morgan and BNP Paribas now expect the European Central Bank to deliver another 25-basis-point interest rate hike in December, reversing their ear"
         },
@@ -1320,45 +830,45 @@
     },
     {
       "market": {
-        "id": "4232008",
-        "question": "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of September 7 2026?",
-        "probability": 1.0,
-        "change_24h": 0.2195,
-        "volume_24h": 11677.33,
-        "score": 223.57,
-        "url": "https://polymarket.com/event/will-wti-reach-95-by-september-7-2026"
+        "id": "4063354",
+        "question": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $68 in September?",
+        "probability": 0.66,
+        "change_24h": -0.21,
+        "volume_24h": 603.56,
+        "score": 212.78,
+        "url": "https://polymarket.com/event/will-rklb-reach-68-in-september-2026"
       },
       "news": [
         {
-          "title": "WTI is trading in the low-to-mid $90s this week and is more likely to test $93–$98 than to sustain a move above $100 unless there is a sharp new disruption.",
-          "url": "https://energynewsbeat.co/crude-oil/wti-is-trading-in-the-low-to-mid-90s-this-week-and-is-more-likely-to-test-93-98-than-to-sustain-a-move-above-100-unless-there-is-a-sharp-new-disruption",
-          "snippet": "That matches the user’s point: China is the swing buyer. When it steps back in, non-Middle East grades tighten and differentials blow out. It is not, "
+          "title": "What will Rocket Lab USA, Inc. (RKLB) hit in September 2026?",
+          "url": "https://polymarket.com/event/what-price-will-rklb-hit-in-september-2026",
+          "snippet": "The current frontrunner for \"What will Rocket Lab USA, Inc. (RKLB) hit in September 2026?\" is \"↓ $68\" at 100%, meaning the market assigns a 100% chanc"
         },
         {
-          "title": "Crude Oil Prices: How High Can Brent Go Before the End of 2026?",
-          "url": "https://cryptorank.io/news/feed/c5ce1-crude-oil-prices-how-high-can-brent-go-before-the-end-of-2026",
-          "snippet": "On Sept. 7 Brent crude climbed to about $97.50 and WTI to roughly $92.62 as tanker traffic through the Strait of Hormuz fell to its lowest level since"
+          "title": "What will Rocket Lab USA, Inc. (RKLB) hit Week of September 7 2026? Trading Odds & Predictions (Sep. 4, 2026) | Polymarket",
+          "url": "https://polymarket.com/event/will-rklb-hit-week-of-september-7-2026",
+          "snippet": "The current frontrunner for \"What will Rocket Lab USA, Inc. (RKLB) hit Week of September 7 2026?\" is \"↓ $64\" at 84%, meaning the market assigns a 84% "
         },
         {
-          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
-          "url": "https://www.litefinance.org/blog/analysts-opinions/oil-price-prediction-forecast",
-          "snippet": "The current price of oil is $92.303 as of 09.09.2026.\n Oil reached its all-time high of $147.27 on 11.07.2008. Oil's all-time low of $-40.32 was recor"
+          "title": "RKLB Stock Forecast 2030: Rocket Lab Valuation - Northwise Project",
+          "url": "https://northwiseproject.com/research/rklb-stock-forecast-2030-pricing-full-stack-space-company",
+          "snippet": "Premium members also receive the complete Rocket Lab 2030 model as a downloadable Excel workbook. Every scenario, multiple, probability, financing ass"
         },
         {
-          "title": "Oil prices set for more than 7% weekly gain amid US-Iran tensions",
-          "url": "https://www.aa.com.tr/en/energy/oil/oil-prices-set-for-more-than-7-weekly-gain-amid-us-iran-tensions/59424",
-          "snippet": "04.09.2026 Oil , Energy Diplomacy\n\n### Ryanair cuts traffic target as high fuel costs weigh on winter outlook\n\n- Airline lowers 2027 passenger target "
+          "title": "Are High-Octane Stocks Back In... - Investor's Business Daily",
+          "url": "https://www.facebook.com/investorsbusinessdaily/posts/are-high-octane-stocks-back-in-favor-sandisk-robinhood-dell-in-focus-stock-marke/1435983311736583",
+          "snippet": "## Investor's Business Daily's Post\n\n### Investor's Business Daily\n\n54m  ·\n\nAre High-Octane Stocks Back In Favor? Sandisk, Robinhood, Dell In Focus | "
         },
         {
-          "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
-          "url": "https://lcx.com/en/cryptonews/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high",
-          "snippet": "S&P 500 one-day chart. Source: Cointelegraph/TradingView\n\nOil prices showed a more pronounced reaction to the events, with WTI crude surging toward $9"
+          "title": "Zepp Health Earnings Call Signals Premium Growth Path - TipRanks.com",
+          "url": "https://www.tipranks.com/news/company-announcements/zepp-health-earnings-call-signals-premium-growth-path",
+          "snippet": "Disclaimer & DisclosureReport an Issue\n\n## Latest News Feed\n\n## More Articles\n\n## Stock Comparison\n\n## Investment Ideas\n\nios\nandroid\ntipranks\ntwitter\n"
         }
       ],
       "insight": {
         "category": "other",
         "en": {
-          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of September 7 2026?",
+          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $68 in September?",
           "summary": "Insight generation encountered an error. Raw market data shown.",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1366,121 +876,7 @@
           "why_matters": "Please check API keys and retry."
         },
         "zh": {
-          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of September 7 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4368976",
-        "question": "Will NVIDIA (NVDA) hit (HIGH) $228 Week of September 7 2026?",
-        "probability": 0.51,
-        "change_24h": -0.22,
-        "volume_24h": 749.96,
-        "score": 222.88,
-        "url": "https://polymarket.com/event/will-nvda-reach-228-by-september-7-2026"
-      },
-      "news": [
-        {
-          "title": "Will NVIDIA Hit $232 the Week of September 7, 2026? Odds | Lines.com",
-          "url": "https://www.lines.com/prediction-markets/finance/will-nvda-hit-week-of-september-7-2026",
-          "snippet": "The market question asks whether NVIDIA (NVDA) will hit $232 during the week of September 7 through September 11, 2026. The YES contract trades at 100"
-        },
-        {
-          "title": "Finance Prediction Markets | IPOs, Fed Rates & Market Caps",
-          "url": "https://polymarkets.co.il/en/predictions/finance",
-          "snippet": "What will NVIDIA (NVDA) hit in September 2026?What will NVIDIA (NVDA) hit in September 2026?\n\n↓ $22494%YesNo\n\n↑ $23284%YesNo\n\n$4.7K Volume 01/10\n\nWill"
-        },
-        {
-          "title": "Nvidia Stock Eyes Record High as AI Investments Surge to $99B",
-          "url": "https://cryptorank.io/news/feed/90475-nvidia-stock-eyes-record-high-as-ai-investments-surge-to-99b",
-          "snippet": "MarketAnalysisAIStockTrending\n\nSep 7, 2026\n\n4min read\n\nbyRupam Roy\n\nforThe Coin Republic\n\nNvidia Stock Eyes Record High as AI Investments Surge to $99"
-        },
-        {
-          "title": "NVIDIA Stock (NVDA) Nears $231 Resistance as Bullish Trend Remains Intact - Forex News by FX Leaders",
-          "url": "https://www.fxleaders.com/news/2026/09/07/nvidia-stock-nvda-231-resistance-bullish-trend",
-          "snippet": "In addition, Nvidia is reportedly considering investing up to $2 billion in the AI cloud company Nscale before its much-anticipated IPO, and has built"
-        },
-        {
-          "title": "NVDA Stock Quote Price and Forecast",
-          "url": "https://www.cnn.com/markets/stocks/NVDA",
-          "snippet": "A market capitalization above $200 billion places NVDA in the  mega-capitalization category.\n\n### Key terms\n\n## Smart score\n\n## Latest NVDA news\n\n## N"
-        }
-      ],
-      "insight": {
-        "category": "ai_tech",
-        "en": {
-          "title": "Will NVIDIA (NVDA) hit (HIGH) $228 Week of September 7 2026?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will NVIDIA (NVDA) hit (HIGH) $228 Week of September 7 2026?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
-        "id": "4362278",
-        "question": "S&P 500 (SPY) closes above $770 on September 9?",
-        "probability": 0.008,
-        "change_24h": -0.207,
-        "volume_24h": 1299.84,
-        "score": 210.11,
-        "url": "https://polymarket.com/event/spy-closes-above-770-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "S&P 500 (SPY) closes above ___ on September 9? Trading Odds & Predictions (Sep. 8, 2026) | Polymarket",
-          "url": "https://polymarket.com/event/spy-closes-above-on-september-9-2026",
-          "snippet": "Resolver\n\n### Related\n\nicon for WTI Crude Oil (WTI) closes above $89 on September 9?\n\nWTI Crude Oil (WTI) closes above $89 on September 9?\n\nicon for W"
-        },
-        {
-          "title": "What Will SPY Hit the Week of September 7, 2026? Odds | Lines.com",
-          "url": "https://www.lines.com/prediction-markets/finance/will-spy-hit-week-of-september-7-2026",
-          "snippet": "This contract resolves YES if SPY, the SPDR S&P 500 ETF Trust, trades at or above $770 at any point during the week of September 7 through September 1"
-        },
-        {
-          "title": "State Street SPDR S&P 500 ETF Trust (SPY) options chain – Yahoo Finance",
-          "url": "https://sg.finance.yahoo.com/quote/SPY/options",
-          "snippet": "| SPY260909C00769000 | 08/09/2026 4:14 pm | 769 | 0.53 | 0.52 | 0.54 | -2.49 | -82.45% | 50,993 | 1,547 | 10.16% |\n| SPY260909C00770000 | 08/09/2026 4"
-        },
-        {
-          "title": "Midday Need to Know: Brent tops $100, treasury yields climb & more (SPY:NYSEARCA) | Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4641294-midday-need-to-know-brent-tops-100-treasury-yields-climb-more",
-          "snippet": "Home page Seeking Alpha - Power to Investors\n\nSearch for Symbols, analysts, keywords\n\n# Midday Need to Know: Brent tops $100, treasury yields climb & "
-        },
-        {
-          "title": "Asian shares are mixed as Brent crude approaches $100 a barrel - Newsday",
-          "url": "https://www.newsday.com/business/stock-markets-inflation-currencies-fed-rates-p42514",
-          "snippet": "Taiwan's Taiex edged 0.2% higher and the Sensex in Mumbai shed 0.7%.\n\nSign up for the Daily Business newsletter\n\nStay in the know on jobs, retail and "
-        }
-      ],
-      "insight": {
-        "category": "stocks",
-        "en": {
-          "title": "S&P 500 (SPY) closes above $770 on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "S&P 500 (SPY) closes above $770 on September 9?",
+          "title": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $68 in September?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
@@ -1493,37 +889,32 @@
       "market": {
         "id": "4178717",
         "question": "Will the 10-year Treasury yield dip below 4.61% in September?",
-        "probability": 0.051,
-        "change_24h": -0.194,
-        "volume_24h": 2027.33,
-        "score": 197.31,
+        "probability": 0.043,
+        "change_24h": -0.202,
+        "volume_24h": 2029.62,
+        "score": 205.31,
         "url": "https://polymarket.com/event/will-the-10-year-treasury-yield-dip-below-4pt61-in-september"
       },
       "news": [
         {
-          "title": "Treasury yields tick higher as traders look ahead to more economic data releases - cnbc.com",
-          "url": "https://www.cnbc.com/2026/09/08/us-treasury-yields-bonds.html",
-          "snippet": "Treasury yields moved higher as investors look ahead to more key economic data releases this week, including wholesale inflation data, as rising energ"
+          "title": "Market Update Sept. 4, 2026: Yields Ease, Crypto Jumps, Pyon",
+          "url": "https://www.pyon.io/blog/market-update-yields-ease-crypto-jumps-as-traders-lean-into-a-fed-pause-september-4-2026",
+          "snippet": "The move was less about growth optimism than about relief. The 10,year Treasury yield fell to 4.756% after touching 4.818% the prior day, according to"
         },
         {
-          "title": "U.S. 2-year Treasury yield rises as oil tops $100 a barrel - CNBC",
-          "url": "https://www.cnbc.com/2026/09/09/treasury-yields-oil-inflation.html",
-          "snippet": "The yield on the U.S. 2-year Treasury note added 2 basis points early Wednesday, as oil prices hovered above the $100 mark and inflation fears continu"
+          "title": "Big money sits on the sidelines — and watches Nov. 3 - The Herald Business",
+          "url": "https://mbiz.heraldcorp.com/article/10865246",
+          "snippet": "Of course, this year cannot be mapped directly onto historical averages. Unlike a typical midterm year, US equities have already accumulated double-di"
         },
         {
-          "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should - reuters.com",
-          "url": "https://www.reuters.com/commentary/reuters-open-interest/unloved-unbroken-us-bond-market-is-working-it-should-2026-09-08/",
-          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. # Unloved, but unbroken — the US bo"
+          "title": "5K views · 51 reactions | The S&P 500 ended lower with Salesforce and other software makers losing ground, while hostilities in the Middle East lifted oil prices and investors awaited inflation data that could affect the chance of an interest rate hike https://reut.rs/4gMHCa8 | Reuters",
+          "url": "https://www.facebook.com/Reuters/posts/the-sp-500-ended-lower-with-salesforce-and-other-software-makers-losing-ground-w/1665081372149255",
+          "snippet": "“What is the purpose of the United Nations?”: Trump told world leaders their countries are “going to hell” in a combative United Nations General Assem"
         },
         {
-          "title": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets - CNBC",
-          "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
-          "snippet": "Treasury yields face a key test at 4.8%, with a sustained move above that level potentially creating \"meaningful problems\" for other asset classes, ac"
-        },
-        {
-          "title": "US Treasury to buy up to $6 billion in Sept 10 buyback operation - KITCO",
-          "url": "https://www.kitco.com/news/off-the-wire/2026-09-09/us-treasury-buy-6-billion-sept-10-buyback-operation",
-          "snippet": "# US Treasury to buy up to $6 billion in Sept 10 buyback operation. Sept 9 (Reuters) - The Treasury Department said ​on Wednesday that it will ‌buy up"
+          "title": "The KOSPI rose to below the 7,000-point mark on the 7th as expectations spread again that demand for..",
+          "url": "https://www.mk.co.kr/en/stock/12146533",
+          "snippet": "The KOSPI closed at 6995.39, up 308.18 points (4.61%) from the previous trading day. It rose for three consecutive trading days, leaving only 4.61 poi"
         }
       ],
       "insight": {
@@ -1548,59 +939,17 @@
     },
     {
       "market": {
-        "id": "4362212",
-        "question": "Will Apple (AAPL) close above $315 on September 9?",
-        "probability": 0.73,
-        "change_24h": 0.19,
-        "volume_24h": 1677.3,
-        "score": 193.22,
-        "url": "https://polymarket.com/event/aapl-close-above-315-on-september-9-2026"
-      },
-      "news": [
-        {
-          "title": "Apple Stock Loses $120 Billion Before Sept. 9 Event. Pricing Is the Real Test",
-          "url": "https://ts2.tech/en/apple-stock-loses-120-billion-before-sept-9-event-pricing-is-the-real-test",
-          "snippet": "NEW YORK | September 5, 2026 | 3:54 p.m. EDT — Apple Inc. NASDAQ:AAPL shed an estimated $120.3 billion of market value on Friday. Its shares closed at"
-        },
-        {
-          "title": "How Apple shares will fare amid iPhone 18 launch event",
-          "url": "https://www.livemint.com/market/how-apple-shares-will-fare-amid-iphone-18-launch-event-all-eyes-on-stock-and-foldable-ultra-11788884417681.html",
-          "snippet": "Apple Inc's push into foldable phones dates back several years, long before the company is expected to unveil its first foldable iPhone tomorrow.(AI g"
-        }
-      ],
-      "insight": {
-        "category": "other",
-        "en": {
-          "title": "Will Apple (AAPL) close above $315 on September 9?",
-          "summary": "Insight generation encountered an error. Raw market data shown.",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "Please check API keys and retry."
-        },
-        "zh": {
-          "title": "Will Apple (AAPL) close above $315 on September 9?",
-          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
-          "drivers": [
-            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
-          ],
-          "why_matters": "请检查 API 密钥后重试。"
-        }
-      }
-    },
-    {
-      "market": {
         "id": "4191102",
         "question": "Will NVIDIA (NVDA) hit (LOW) $224 in September?",
         "probability": 1.0,
         "change_24h": 0.1795,
-        "volume_24h": 630.37,
-        "score": 182.3,
+        "volume_24h": 530.39,
+        "score": 182.22,
         "url": "https://polymarket.com/event/will-nvda-dip-to-224-in-september-2026-from-september-3"
       },
       "news": [
         {
-          "title": "Traders set odds of Nvidia hitting $272 by end ...",
+          "title": "Traders set odds of Nvidia hitting $272 by end of September 2026 - Finbold",
           "url": "https://finbold.com/traders-set-odds-of-nvidia-hitting-272-by-end-of-september-2026",
           "snippet": "At the same time, traders see the most likely outcomes clustering closer to the stock’s current trading range, with a 73% probability that Nvidia rema"
         },
@@ -1622,6 +971,697 @@
         },
         "zh": {
           "title": "Will NVIDIA (NVDA) hit (LOW) $224 in September?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4393683",
+        "question": "Reserve Bank of New Zealand increases interest rates by 25 bps at the December 2026 meeting?",
+        "probability": 0.73,
+        "change_24h": 0.175,
+        "volume_24h": 3440.15,
+        "score": 178.54,
+        "url": "https://polymarket.com/event/reserve-bank-of-new-zealand-increases-interest-rates-by-25-bps-at-the-december-2026-meeting-20260908230600005"
+      },
+      "news": [
+        {
+          "title": "Kiwi Edges Higher as Traders Weigh Fed and RBNZ Signals",
+          "url": "https://www.tradingpedia.com/2026/09/04/kiwi-edges-higher-as-traders-weigh-fed-and-rbnz-signals",
+          "snippet": "| Central Bank | Latest Move | Current Rate / Level | Forward Signal |\n ---  --- |\n| Federal Reserve (US) | No new decision described | Not specified "
+        },
+        {
+          "title": "US Market: J.P. Morgan, BNP Paribas expect ECB rate hike in December as inflation risks persist",
+          "url": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/us-market-j-p-morgan-bnp-paribas-expect-ecb-rate-hike-in-december-as-inflation-risks-persist/articleshow/133755948.cms",
+          "snippet": "J.P. Morgan and BNP Paribas now expect the European Central Bank to deliver another 25-basis-point interest rate hike in December, reversing their ear"
+        },
+        {
+          "title": "New Zealand Dollar gains momentum to near 0.5900, US NFP data looms",
+          "url": "https://www.fxstreet.com/news/new-zealand-dollar-gains-momentum-to-near-05900-us-nfp-data-looms-202609040245",
+          "snippet": "NZD/USD gains ground to around 0.5895 in Friday's Asian session. Fed's Waller said open to holding rates if August inflation shows progress."
+        },
+        {
+          "title": "Dollar lower as oil, yields lose steam; eyes on loonie, kiwi after rate decisions",
+          "url": "https://in.investing.com/news/forex-news/asian-currencies-weaken-as-dollar-gains-kiwi-tumbles-on-rbnz-outlook-5579206",
+          "snippet": "Investing.com -- The U.S. dollar on Wednesday inched lower after catching a safe haven bid in the previous session, amid a let up in surging oil price"
+        }
+      ],
+      "insight": {
+        "category": "economy",
+        "en": {
+          "title": "Reserve Bank of New Zealand increases interest rates by 25 bps at the ",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Reserve Bank of New Zealand increases interest rates by 25 bps at the ",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4095052",
+        "question": "US x Iran Effective Ceasefire by September 4?",
+        "probability": 0.605,
+        "change_24h": 0.17,
+        "volume_24h": 529102.98,
+        "score": 175.72,
+        "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-by-september-4"
+      },
+      "news": [
+        {
+          "title": "Trump says Iran war ‘will end immediately’ after US midterm elections - Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/trump-says-iran-war-will-end-immediately-after-us-midterm-elections",
+          "snippet": "News|US-Israel war on Iran. # Trump says Iran war ‘will end immediately’ after US midterm elections. *The president added the US is not looking to res"
+        },
+        {
+          "title": "Trump’s blockade pushes Iran toward military escalation - CNN",
+          "url": "https://www.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
+          "snippet": "A boatyard that was hit by US strikes in the port city of Bandar Abbas in southern Iran on September 5, 2026. As Washington abandons talks with Iran f"
+        },
+        {
+          "title": "Key takeaways from the 14-point memorandum of understanding between US, Iran - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://abcnews.com/Politics/key-takeaways-14-point-memorandum-understanding-us-iran/story?id=133976791",
+          "snippet": "Days after it was first announced by President Donald Trump, U.S. officials on Wednesday finally detailed what is in the memorandum of understanding w"
+        },
+        {
+          "title": "Projectiles hit several areas in southern Iran's Sirik - report - The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-908174",
+          "snippet": "# Projectiles hit several areas in southern Iran's Sirik - report. Several areas in Sirik, southern Iran, were hit by projectiles on Wednesday, Irania"
+        },
+        {
+          "title": "US Turns Diplomatic Screws on Iran for Atomic Non-Compliance - Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/us-to-turn-diplomatic-screws-on-iran-over-nuclear-non-compliance",
+          "snippet": "# US Turns Diplomatic Screws on Iran for Atomic Non-Compliance. ## Takeaways by Bloomberg AISubscribe. The US is increasing diplomatic pressure on Ira"
+        }
+      ],
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "US x Iran Effective Ceasefire by September 4?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "US x Iran Effective Ceasefire by September 4?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "1327143",
+        "question": "Will the U.S. 30-year Fixed-Rate Mortgage hit 6.75% (HIGH) by December 31, 2026?",
+        "probability": 0.9795,
+        "change_24h": 0.1545,
+        "volume_24h": 3081.53,
+        "score": 157.99,
+        "url": "https://polymarket.com/event/will-the-us-30-year-fixed-rate-mortgage-hit-6pt75-high-by-december-31-2026-296"
+      },
+      "news": [
+        {
+          "title": "Mortgage Rates Today: September 9, 2026 – 30-Year And 15-Year Rates Fall - Forbes",
+          "url": "https://www.forbes.com/advisor/mortgages/mortgage-rates-09-09-26/",
+          "snippet": "*   greenhouse Insights: How AI Can Help You Make Your Smartest Hire Yet| Paid Program. *    Mortgage Rates Today: September 9, 2026 – 30-Year And 15-"
+        },
+        {
+          "title": "Demand for riskier mortgages rises again, along with interest rates - CNBC",
+          "url": "https://www.cnbc.com/2026/09/09/demand-for-riskier-mortgages-rises-again-along-with-interest-rates.html",
+          "snippet": "Demand for those loans made up 8.5% of all mortgage applications last week, up from 8% the previous week, according to the Mortgage Bankers Associatio"
+        },
+        {
+          "title": "Here Are Today’s Mortgage Refinance Rates: September 7, 2026 – Rates Move Up - Forbes",
+          "url": "https://www.forbes.com/advisor/mortgages/refinance/mortgage-refinance-rates-09-07-26/",
+          "snippet": "*   greenhouse Insights: How AI Can Help You Make Your Smartest Hire Yet| Paid Program. *    Here Are Today’s Mortgage Refinance Rates: September 7, 2"
+        },
+        {
+          "title": "Homebuyers Shift to Riskier Mortgages as Interest Rates Rise - Realtor.com",
+          "url": "https://www.realtor.com/news/trends/mortgage-applications-today-interest-rates-september-9-2026/",
+          "snippet": "Find a real estate agent. + How to find a REALTOR®. + Complete guide on how to sell your home. Mortgage applications dipped this past week as rising i"
+        },
+        {
+          "title": "Trump Promised Lower Mortgage Rates. Here’s What Happened Instead - Newsweek",
+          "url": "https://www.newsweek.com/trump-promised-lower-mortgage-rates-heres-what-happened-instead-12414399",
+          "snippet": "What Mortgage Rates Were When Trump Returned to the White House During the week ending January 23, 2025, the same week Trump made his return to the Wh"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will the U.S. 30-year Fixed-Rate Mortgage hit 6.75% (HIGH) by December",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will the U.S. 30-year Fixed-Rate Mortgage hit 6.75% (HIGH) by December",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4231979",
+        "question": "Will Gold (XAUUSD) hit (HIGH) $4,500 Week of September 7 2026?",
+        "probability": 0.37,
+        "change_24h": 0.14,
+        "volume_24h": 1806.28,
+        "score": 143.26,
+        "url": "https://polymarket.com/event/will-xauusd-reach-4500-by-september-7-2026"
+      },
+      "news": [
+        {
+          "title": "Gold Price Forecast — XAU/USD ($4,402) 60% Fed Hike Odds Cap the War Bid — $4,500 Break Opens $4,855",
+          "url": "https://www.tradingnews.com/news/gold-stalls-at-4402-usd-as-162k--jobs-and-97-percent-brent-push-fed-hike-odds-to-60-percent",
+          "snippet": "Spot gold trades between $4,395 and $4,402 per troy ounce on Monday, September 7, 2026, after failing to clear overhead supply at $4,480 to $4,500 las"
+        },
+        {
+          "title": "Gold Price Forecast Australia: Gold Tests US$4,400 After Strong US Jobs Data — What’s Next?",
+          "url": "https://www.mitrade.com/au/insights/commodity/gold/gold-price-forecast-tests-4400",
+          "snippet": "Spot gold is trading around US$4,400 per ounce on September 7, 2026, after falling sharply from its recent August highs. The latest decline highlights"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD bounces up to $4,400 with the bearish trend intact",
+          "url": "https://www.tmgm.com/en/analysis/market-news/article/gold-price-forecast-xau-usd-bounces-up-to-4-400-with-the-bearish-trend-intact-202609090944",
+          "snippet": "TMGM Logo\n\nTMGMAnalysis\n\n# Gold Price Forecast: XAU/USD bounces up to $4,400 with the bearish trend intact\n\nAuthor: Guillermo Alcala, FXStreet\n\nLast U"
+        },
+        {
+          "title": "Gold Price Forecast: Dollar Near Key Support as Gold Reclaims $4,500 — Can XAU/USD Break Higher?",
+          "url": "https://www.mitrade.com/au/insights/commodity/gold/gold-price-forecast-dollar-near-key-support",
+          "snippet": "placeholder\n\nGold Price Forecast: What You Can Expect in 2026The gold price forecast for 2026 is shaped by key market forces. Here's what's driving pr"
+        },
+        {
+          "title": "Gold Price Forecast 2026: Will Gold Rate Decrease In Coming Days?",
+          "url": "https://crowdwisdom.live/us-stocks/gold-price-forecast-today",
+          "snippet": "Short-term weakness is possible if the US Dollar strengthens further or the Federal Reserve continues to signal restrictive monetary policy. However, "
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Gold (XAUUSD) hit (HIGH) $4,500 Week of September 7 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Gold (XAUUSD) hit (HIGH) $4,500 Week of September 7 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4224310",
+        "question": "Will USD be between 2.5M and 2.8M Iranian rials on September 30?",
+        "probability": 0.37,
+        "change_24h": 0.14,
+        "volume_24h": 1379.01,
+        "score": 143.14,
+        "url": "https://polymarket.com/event/will-usd-be-between-2pt5m-and-2pt8m-iranian-rials-on-september-30"
+      },
+      "news": [
+        {
+          "title": "Iran deploys security forces as gasoline price rise takes effect - Iran International",
+          "url": "https://www.iranintl.com/en/202609081765",
+          "snippet": "# Iran deploys security forces as gasoline price rise takes effect. Iranian security forces deployed around fuel stations and on streets across the co"
+        },
+        {
+          "title": "Gold, silver prices rise as Hormuz risk offsets rate pressure - Kitco AM Report - KITCO",
+          "url": "https://www.kitco.com/news/article/2026-09-09/gold-silver-prices-rise-hormuz-risk-offsets-rate-pressure-kitco-am-report",
+          "snippet": "# Gold, silver prices rise as Hormuz risk offsets rate pressure - Kitco AM Report. Articles by **Kitco News****Wire** were generated by Kitco's AI-ass"
+        },
+        {
+          "title": "Gold, silver rise as dollar weakness offsets oil-driven rate risk - Kitco PM Report - KITCO",
+          "url": "https://www.kitco.com/news/article/2026-09-09/gold-silver-rise-dollar-weakness-offsets-oil-driven-rate-risk-kitco-pm",
+          "snippet": "# Gold, silver rise as dollar weakness offsets oil-driven rate risk - Kitco PM Report. Articles by **Kitco News****Wire** were generated by Kitco's AI"
+        },
+        {
+          "title": "Iran live updates: Trump says oil prices will drop 'when we WIN the war' - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
+          "snippet": "# Iran live updates: Trump says oil prices will drop 'when we WIN the war'. Oil prices hit a six-week high on Monday, nearing $100 a barrel. Delegatio"
+        },
+        {
+          "title": "Oil extends gains, with Brent above $101 after U.S. destroys Iranian oil tankers - CNBC",
+          "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
+          "snippet": "Futures for international benchmark Brent crude for November delivery gained 0.62% to $101.84 a barrel. Tensions escalated after the U.S. military on "
+        }
+      ],
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will USD be between 2.5M and 2.8M Iranian rials on September 30?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will USD be between 2.5M and 2.8M Iranian rials on September 30?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4199440",
+        "question": "Will USD be between 3.5M and 4.0M Iranian rials on December 31?",
+        "probability": 0.1675,
+        "change_24h": 0.126,
+        "volume_24h": 1137.97,
+        "score": 129.06,
+        "url": "https://polymarket.com/event/will-usd-be-between-3pt5m-and-4pt0m-iranian-rials-on-december-31"
+      },
+      "news": [
+        {
+          "title": "Iran increases gasoline price for its heaviest consumers as economy struggles - AP News",
+          "url": "https://apnews.com/article/iran-gasoline-price-increase-fuel-economy-cbbadcb666c7bac69c3c02b1ec0ae88c",
+          "snippet": "Such gas price increases can be sensitive and contribute to inflation. Under the new system, people buying more than their quota of 110 liters (29 gal"
+        },
+        {
+          "title": "Iran deploys security forces as gasoline price rise takes effect - Iran International",
+          "url": "https://www.iranintl.com/en/202609081765",
+          "snippet": "# Iran deploys security forces as gasoline price rise takes effect. Iranian security forces deployed around fuel stations and on streets across the co"
+        },
+        {
+          "title": "Iran live updates: Trump says oil prices will drop 'when we WIN the war' - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
+          "snippet": "# Iran live updates: Trump says oil prices will drop 'when we WIN the war'. Oil prices hit a six-week high on Monday, nearing $100 a barrel. Delegatio"
+        },
+        {
+          "title": "Oil extends gains as renewed Mideast hostilities raise worries of prolonged conflict - CNBC",
+          "url": "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html",
+          "snippet": "Oil prices extended gains Tuesday, rising for a third straight day, and hovering at six-week highs on worries over escalating Mideast tensions after t"
+        },
+        {
+          "title": "Report: Iran oil revenues dry up as US blockade could exhaust offshore stockpile by October - Ynetnews",
+          "url": "https://www.ynetnews.com/article/sk6ufeaofl",
+          "snippet": "# Report: Iran’s offshore oil stockpile could run out by October as US blockade dries up revenues. ## No Iranian crude has crossed the US naval blocka"
+        }
+      ],
+      "insight": {
+        "category": "geopolitics",
+        "en": {
+          "title": "Will USD be between 3.5M and 4.0M Iranian rials on December 31?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will USD be between 3.5M and 4.0M Iranian rials on December 31?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "3866248",
+        "question": "Will Meta Platforms, Inc. (META) hit (LOW) $540 in September?",
+        "probability": 0.09,
+        "change_24h": -0.115,
+        "volume_24h": 552.81,
+        "score": 117.74,
+        "url": "https://polymarket.com/event/will-meta-dip-to-540-in-september-2026"
+      },
+      "news": [
+        {
+          "title": "What will Meta Platforms, Inc. (META) hit in September 2026?",
+          "url": "https://polymarket.com/event/what-price-will-meta-hit-in-september-2026",
+          "snippet": "92%icon for Will Micron Technology, Inc. (MU) hit (LOW) $960 in September?\n\nWill Micron Technology, Inc. (MU) hit (LOW) $960 in September?\n\n65%\n\nBewar"
+        },
+        {
+          "title": "State of Wyoming Has $4.10 Million Stake in Meta Platforms, Inc. $META",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-state-of-wyoming-has-410-million-stake-in-meta-platforms-inc-meta-2026-09-09",
+          "snippet": "MarketBeat home page\n3 Critical Materials Stocks Under $20 to Buy Now\nIt's Happening Again: Wall Street Is All In on One Sector (5 Stocks to Buy Now)\n"
+        },
+        {
+          "title": "Meta Platforms, Inc. $META Shares Sold by Prospect Financial Services LLC",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-meta-platforms-inc-meta-shares-sold-by-prospect-financial-services-llc-2026-09-09",
+          "snippet": "MarketBeat home page\n3 Critical Materials Stocks Under $20 to Buy Now\nIt's Happening Again: Wall Street Is All In on One Sector (5 Stocks to Buy Now)\n"
+        },
+        {
+          "title": "Meta Stock Price Forecast. Should You Buy META? - StockInvest.us",
+          "url": "https://stockinvest.us/stock/META",
+          "snippet": "META Stock can be purchased through just about any brokerage firm, including online brokerage services.   \n Click here for our free guide on how to bu"
+        },
+        {
+          "title": "EconomyTrivia - Today Opening Mkt .Meta Up 5% 9th September.",
+          "url": "https://www.facebook.com/economytrivia/posts/today-opening-mkt-meta-up-5-9th-september/1569970171823803",
+          "snippet": "## EconomyTrivia's post\n\n### EconomyTrivia\n\n3h  ·\n\nToday Opening Mkt .Meta Up 5% 9th September.\n\nMay be an image of one or more people and text that s"
+        }
+      ],
+      "insight": {
+        "category": "ai_tech",
+        "en": {
+          "title": "Will Meta Platforms, Inc. (META) hit (LOW) $540 in September?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Meta Platforms, Inc. (META) hit (LOW) $540 in September?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4232153",
+        "question": "Will UTJ win 7-8 seats in the 2026 Knesset elections?",
+        "probability": 0.65,
+        "change_24h": 0.11,
+        "volume_24h": 723.2,
+        "score": 112.86,
+        "url": "https://polymarket.com/event/will-utj-win-7-8-seats-in-the-2026-knesset-elections"
+      },
+      "news": [
+        {
+          "title": "Israel Election: Who are the Major Players?",
+          "url": "https://blogs.timesofisrael.com/israel-election-who-are-the-major-players",
+          "snippet": "Another ultra-orthodox party is United Torah Judaism (UTJ). It sees its main political responsibility as being to its own constituency and its religio"
+        }
+      ],
+      "insight": {
+        "category": "politics",
+        "en": {
+          "title": "Will UTJ win 7-8 seats in the 2026 Knesset elections?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will UTJ win 7-8 seats in the 2026 Knesset elections?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4339038",
+        "question": "LAPTOP FDV above $1B one day after launch?",
+        "probability": 0.21,
+        "change_24h": 0.105,
+        "volume_24h": 1108199.8,
+        "score": 111.04,
+        "url": "https://polymarket.com/event/laptop-fdv-above-1b-one-day-after-launch"
+      },
+      "news": [
+        {
+          "title": "Polymarket's LAPTOP $1B FDV Market Swings +24 Points After Hunter Biden Token's Wild Debut",
+          "url": "https://tech-insider.org/hunter-biden-laptop-fdv-1b-polymarket-odds",
+          "snippet": "| Item | Detail (as of September 09, 2026) |\n --- |\n| Market question | $LAPTOP FDV above $1B one day after launch? |\n| Venue | Polymarket |\n| YES imp"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "LAPTOP FDV above $1B one day after launch?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "LAPTOP FDV above $1B one day after launch?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "3866513",
+        "question": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in September?",
+        "probability": 0.565,
+        "change_24h": 0.105,
+        "volume_24h": 80782.71,
+        "score": 109.91,
+        "url": "https://polymarket.com/event/will-wti-reach-100-in-september-2026"
+      },
+      "news": [
+        {
+          "title": "WTI Oil Price Surges Above US$93: Can Crude Oil Hit US$100 as Hormuz Disruption Deepens?",
+          "url": "https://www.mitrade.com/au/insights/commodity/oil/wti-oil-price-forecast",
+          "snippet": "This two-way flexibility is particularly relevant in the current market because geopolitical headlines can cause oil prices to reverse rapidly.\n\nWith "
+        },
+        {
+          "title": "Prediction Markets Abandon Cheap Oil as Brent Passes $100",
+          "url": "https://decrypt.co/377766/prediction-markets-abandon-cheap-oil-as-brent-passes-100",
+          "snippet": "Image 17: Myriad: Crude oil's next move? Click to make your prediction.\n\nMyriad: Crude oil's next move? Click to make your prediction.\n\n## The downsid"
+        },
+        {
+          "title": "Brent Oil Price Breaks $100 Per Barrel",
+          "url": "https://www.rigzone.com/news/brent_oil_price_breaks_100_per_barrel-09-sep-2026-184570-article",
+          "snippet": "Hogan projected, in a separate exclusive interview with Rigzone on September 2, that the Brent crude oil price could hit $100 in the next week “if … t"
+        },
+        {
+          "title": "Energy briefs-Oil approaches $100 and could go higher - Oklahoma Energy Today",
+          "url": "https://okenergytoday.com/2026/09/energy-briefs-oil-approaches-100-and-could-go-higher",
+          "snippet": "Skip to footer\n\nLooking for more news? Visit our sister site, OK Politics Today, and subscribe here today!\n\nSeptember 9, 2026\n\nSubscribe to our newsle"
+        },
+        {
+          "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
+          "url": "https://www.tradingview.com/news/cointelegraph:2e8fa333d094b:0-bitcoin-faces-key-support-test-at-78-3k-as-us-crude-oil-hits-three-month-high",
+          "snippet": "Oil prices showed a more pronounced reaction to the events, with WTI crude surging toward $95 per barrel, its highest since June 8. Brent crude target"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in September?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in September?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4231941",
+        "question": "Will S&P 500 (SPY) hit (LOW) $755 Week of September 7 2026?",
+        "probability": 0.28,
+        "change_24h": 0.105,
+        "volume_24h": 1307.23,
+        "score": 108.12,
+        "url": "https://polymarket.com/event/will-spy-dip-to-755-by-september-7-2026"
+      },
+      "news": [
+        {
+          "title": "S&P 500 falls as AI worries hit software makers - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-09-08/sp-500-falls-ai-worries-hit-software-makers",
+          "snippet": "Sept 8 (Reuters) - The S&P 500 ended lower on Tuesday, with Salesforce and other software makers losing ground, while hostilities in the Middle ​East "
+        },
+        {
+          "title": "S&P 500, Dow set to open lower as Gulf tensions send oil to over six-week high - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-09-08/sp-500-dow-set-open-lower-gulf-tensions-send-oil-over-six-week-high",
+          "snippet": "# S&P 500, Dow set to open lower as Gulf tensions send oil to over six-week high. Sept 8 (Reuters) - The benchmark S&P 500 and the blue-chip Dow ​inde"
+        },
+        {
+          "title": "S&P 500 ends down as oil tops $100 per barrel - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-09-09/sp-500-ends-down-oil-tops-100-barrel",
+          "snippet": "# S&P 500 ends down as oil tops $100 per barrel. Sept 9 (Reuters) - U.S. stocks closed lower on Wednesday ​as oil prices soared above $100 a barrel, w"
+        },
+        {
+          "title": "S&P 500 falls as AI worries hit software makers - Reuters",
+          "url": "https://www.reuters.com/video/watch/idRW131208092026RP1/",
+          "snippet": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. *   Israel and Hamas at War. *   Uk"
+        },
+        {
+          "title": "Barclays lifts S&P 500 index's year-end target to 7,950 on strong earnings - KITCO",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-09-09/barclays-lifts-sp-500-indexs-year-end-target-7950-strong-earnings",
+          "snippet": "# Barclays lifts S&P 500 index's year-end target to 7,950 on strong earnings. Sept 9 (Reuters) - Barclays raised its year-end target for the benchmark"
+        }
+      ],
+      "insight": {
+        "category": "stocks",
+        "en": {
+          "title": "Will S&P 500 (SPY) hit (LOW) $755 Week of September 7 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will S&P 500 (SPY) hit (LOW) $755 Week of September 7 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4368970",
+        "question": "Will Apple (AAPL) hit (HIGH) $320 Week of September 7 2026?",
+        "probability": 0.79,
+        "change_24h": 0.1,
+        "volume_24h": 4002.17,
+        "score": 103.6,
+        "url": "https://polymarket.com/event/will-aapl-reach-320-by-september-7-2026-from-september-8"
+      },
+      "news": [
+        {
+          "title": "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apples-320-stock-faces-huaweis-214227363.html",
+          "snippet": "34.   News • Aug 30, 2026 Rents are rising at the fastest rate in over a year\n35.   News • Aug 30, 2026 Trump reignites trade wars as Americans' opini"
+        },
+        {
+          "title": "Apple's Sept. 9 Event Could Change Everything",
+          "url": "https://247wallst.com/investing/2026/09/07/apples-sept-9-event-could-change-everything",
+          "snippet": "Apple CEO Tim Cook, a man with white hair and glasses, stands on a dark stage, waving with his right hand. A large, bright blue neon outline of the ic"
+        },
+        {
+          "title": "Western Digital Stock Price Forecast: Jumps Nearly 6% Against the Trend, Can WDC Reclaim $600?",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262153907-western-digital-stock-price-forecast-wdc-rises-nearly-6-percent-return-600-tradingkey",
+          "snippet": "tradingkey.logo\n\nSearch\n\nStock Screener\n\n\n\nScan to Download\n\nOne powerful score. Smarter investment decisions.\n\n\n\nTradingKey\n\nAuthorAlan Long\n\nSep 7"
+        },
+        {
+          "title": "Dell Technologies Clears a Fresh 52-Week High at $516.39 | 24/7 Wall St.",
+          "url": "https://247wallst.com/cards/dell-technologies-set-a-fresh-52-week-high-at-516-39-4-42-dell-price-extreme-01m1mtng866myjhcn38mbre83v",
+          "snippet": "# Dell Technologies Clears a Fresh 52-Week High at $516.39\n\nAs seen on the 24/7 Wall St. homepage on September 3, 2026.\n\nDell Technologies set a fresh"
+        }
+      ],
+      "insight": {
+        "category": "other",
+        "en": {
+          "title": "Will Apple (AAPL) hit (HIGH) $320 Week of September 7 2026?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Will Apple (AAPL) hit (HIGH) $320 Week of September 7 2026?",
+          "summary": "洞察生成遇到错误，仅显示市场原始数据。",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "请检查 API 密钥后重试。"
+        }
+      }
+    },
+    {
+      "market": {
+        "id": "4368270",
+        "question": "Bitcoin Up or Down on September 10?",
+        "probability": 0.405,
+        "change_24h": -0.09,
+        "volume_24h": 45004.17,
+        "score": 94.65,
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-september-10-2026"
+      },
+      "news": [
+        {
+          "title": "Bitcoin Is Stuck Under $82,000. What Does That Mean for XRP, Ethereum and Solana?",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/07/bitcoin-is-stuck-under-82000-what-does-that-mean-for-xrp-ethereum-and-solana",
+          "snippet": "Ethereum (CRYPTO:ETH) trades at $2,491, up 29.97% in the 30 days to September 7 but still down 16.19% since January 1. Solana (CRYPTO:SOL) trades at $"
+        },
+        {
+          "title": "Bitcoin (BTCUSD) Suddenly Goes down 1.00% on Sep 4: What You Need to Watch",
+          "url": "https://www.tradingkey.com/news/market-movers/262150873-market-movers-btcusd-20260904",
+          "snippet": "Macro Hawkishness and Geopolitical Friction: Surging U.S. 10-year Treasury yields alongside rising market probabilities of a Federal Reserve rate hike"
+        },
+        {
+          "title": "Kalshi 15-Minute Markets: Can You Beat The Fast Tape? | OddsShopper",
+          "url": "https://www.oddsshopper.com/articles/prediction-markets/kalshi-15-minute-markets",
+          "snippet": "Updated September 9, 2026· 10 min readbyEytan Shander\n\nCan You Actually Beat A 15-Minute Market?\n\n###### Kalshi now runs 15-minute up-or-down markets "
+        },
+        {
+          "title": "XRP Is Down 50% in a Year and Zcash Is Up 2,361%. Can Zcash Hold $1,000?",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/05/xrp-is-down-50-in-a-year-and-zcash-is-up-2361-can-zcash-hold-1000",
+          "snippet": "The XRP (CRYPTO:XRP) price trades at $1.41, down 50% in the twelve months to September 5, while Zcash (CRYPTO:ZEC) has climbed 2,361% over the same pe"
+        },
+        {
+          "title": "Bitcoin (BTCUSD) Fluctuated Significantly on Sep 7: Key Variables Behind the Move",
+          "url": "https://www.tradingkey.com/news/market-movers/262154342-market-movers-btcusd-20260907",
+          "snippet": "\n\n• Macro liquidity conditions and U.S. interest rate expectations created Bitcoin downward pressure. • Holiday-thinned trading sessions and technica"
+        }
+      ],
+      "insight": {
+        "category": "crypto",
+        "en": {
+          "title": "Bitcoin Up or Down on September 10?",
+          "summary": "Insight generation encountered an error. Raw market data shown.",
+          "drivers": [
+            "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
+          ],
+          "why_matters": "Please check API keys and retry."
+        },
+        "zh": {
+          "title": "Bitcoin Up or Down on September 10?",
           "summary": "洞察生成遇到错误，仅显示市场原始数据。",
           "drivers": [
             "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/"
